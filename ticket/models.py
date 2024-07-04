@@ -30,7 +30,7 @@ class Post(models.Model):
     )
 
     class Meta:
-        ordering = ['-publish']
+        ordering = ['-updated']
 
     def __str__(self):
         return self.title

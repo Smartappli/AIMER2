@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f87579f-be6a-4d7a-95cf-85e98f4b72fd" name="Changes" comment="Initial" />
+    <list default="true" id="2f87579f-be6a-4d7a-95cf-85e98f4b72fd" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/post/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIMER2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIMER2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ticket/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/ticket/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,6 +217,7 @@
       <updated>1720011696889</updated>
       <workItem from="1720011698254" duration="4928000" />
       <workItem from="1720079807308" duration="1501000" />
+      <workItem from="1720116855331" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -237,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720094088520</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1720116870596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720116870596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
