@@ -110,4 +110,4 @@ jobs:
         python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
         python -m uv pip install -r requirements.txt
     - name: Analysing the code with pylint
-      run: pylint --load-plugins pylint_django --django-settings-module=lab.settings "**/*.py"
+      run: pylint --load-plugins pylint_django --django-settings-module=AIMER2.settings "**/*.py"
