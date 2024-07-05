@@ -24,7 +24,7 @@ def post_list(request):
     return render(
         request,
         'blog/post/list.html',
-        {'posts': posts}
+        {'posts': posts},
     )
 
 
@@ -48,7 +48,7 @@ def post_detail(request, year, month, day, post):
         {
             'post': post,
             'comments': comments,
-            'form': form
+            'form': form,
         },
     )
 
@@ -69,7 +69,7 @@ def post_share(request, post_id):
     post = get_object_or_404(
         Post,
         id=post_id,
-        status=Post.Status.PUBLISHED
+        status=Post.Status.PUBLISHED,
     )
     sent = False
 
@@ -80,7 +80,7 @@ def post_share(request, post_id):
             # Form fields passed validation
             cd = form.cleaned_data
             post_url = request.build_absolute_uri(
-                post.get_absolute_url()
+                post.get_absolute_url(),
             )
             subject = (
                 f"{cd['name']} ({cd['email']}) "
@@ -106,7 +106,7 @@ def post_share(request, post_id):
         {
             'post': post,
             'form': form,
-            'sent': sent
+            'sent': sent,
         },
     )
 
@@ -116,7 +116,7 @@ def post_comment(request, post_id):
     post = get_object_or_404(
         Post,
         id=post_id,
-        status=Post.Status.PUBLISHED
+        status=Post.Status.PUBLISHED,
     )
     comment = None
     # A comment was posted
@@ -134,6 +134,6 @@ def post_comment(request, post_id):
         {
             'post': post,
             'form': form,
-            'comment': comment
+            'comment': comment,
         },
     )
