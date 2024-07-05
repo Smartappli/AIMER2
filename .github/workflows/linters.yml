@@ -88,6 +88,7 @@ jobs:
     - name: Install dependencies
       if: ${{ matrix.os == 'macos-12' || matrix.os == 'macos-13' || matrix.os == 'macos-14' }}
       run: |
+        mv AIMER2/.env.example AIMER2/.env
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
@@ -96,6 +97,7 @@ jobs:
     - name: Install dependencies on Windows
       if: ${{ matrix.os == 'windows-2019' || matrix.os == 'windows-2022' }}
       run: |
+        ren AIMER2/.env.example AIMER2/.env
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
@@ -104,6 +106,7 @@ jobs:
     - name: Install dependencies on Ubuntu
       if: ${{ matrix.os == 'ubuntu-20.04' || matrix.os == 'ubuntu-22.04' || matrix.os == 'ubuntu-24.04' }}
       run: |
+        mv AIMER2/.env.example AIMER2/.env
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
