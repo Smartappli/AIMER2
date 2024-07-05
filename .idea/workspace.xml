@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f87579f-be6a-4d7a-95cf-85e98f4b72fd" name="Changes" comment="improvement of blog">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AIMER2/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIMER2/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AIMER2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIMER2/.env" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +210,7 @@
       <workItem from="1720011698254" duration="4928000" />
       <workItem from="1720079807308" duration="1501000" />
       <workItem from="1720116855331" duration="7897000" />
-      <workItem from="1720152749198" duration="5001000" />
+      <workItem from="1720152749198" duration="5583000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -304,7 +300,31 @@
       <option name="project" value="LOCAL" />
       <updated>1720155512088</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="improvement of blog">
+      <option name="closed" value="true" />
+      <created>1720157832489</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720157832489</updated>
+    </task>
+    <task id="LOCAL-00013" summary="improvement of blog">
+      <option name="closed" value="true" />
+      <created>1720157840574</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720157840574</updated>
+    </task>
+    <task id="LOCAL-00014" summary="improvement of blog">
+      <option name="closed" value="true" />
+      <created>1720157851962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720157851962</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
