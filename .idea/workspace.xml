@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f87579f-be6a-4d7a-95cf-85e98f4b72fd" name="Changes" comment="add requirements.txt">
-      <change afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+    <list default="true" id="2f87579f-be6a-4d7a-95cf-85e98f4b72fd" name="Changes" comment="add website app">
+      <change afterPath="$PROJECT_DIR$/faq/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ticket/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIMER2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AIMER2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AIMER2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +215,7 @@
       <workItem from="1720011698254" duration="4928000" />
       <workItem from="1720079807308" duration="1501000" />
       <workItem from="1720116855331" duration="7897000" />
-      <workItem from="1720152749198" duration="401000" />
+      <workItem from="1720152749198" duration="1448000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -277,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720152848339</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add website app">
+      <option name="closed" value="true" />
+      <created>1720153180871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720153180871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +298,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="add requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
+    <MESSAGE value="add website app" />
+    <option name="LAST_COMMIT_MESSAGE" value="add website app" />
   </component>
 </project>
