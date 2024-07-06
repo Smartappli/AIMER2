@@ -99,6 +99,7 @@ jobs:
       run: |
         cd AIMER2
         ren .env.example .env
+        cd..
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
