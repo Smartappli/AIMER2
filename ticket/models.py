@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 
+
 class Post(models.Model):
     """
     Represents a post or ticket within the application.
@@ -21,7 +22,7 @@ class Post(models.Model):
     Meta:
         ordering (list): Orders posts by the 'updated' field in descending order.
     """
-    
+
     class Status(models.TextChoices):
         """
         Defines the possible statuses for a post.
