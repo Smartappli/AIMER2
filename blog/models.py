@@ -26,16 +26,16 @@ class PublishedManager(models.Manager):
     """
 
     def get_queryset(self):
-    """
-    Return the queryset of published posts.
+        """
+        Return the queryset of published posts.
 
-    This method overrides the default get_queryset method to filter the 
-    queryset to include only posts with a status of 'PUBLISHED'.
+        This method overrides the default get_queryset method to filter the 
+        queryset to include only posts with a status of 'PUBLISHED'.
 
-    Returns:
-        QuerySet: A queryset containing only the published posts.
-    """
-    return super().get_queryset().filter(status=Post.Status.PUBLISHED)
+        Returns:
+            QuerySet: A queryset containing only the published posts.
+        """
+        return super().get_queryset().filter(status=Post.Status.PUBLISHED)
 
 
 
