@@ -34,6 +34,7 @@ class EmailPostForm(forms.Form):
         to (EmailField): The recipient's email address.
         comments (CharField): Optional comments, with a Textarea widget.
     """
+
     name = forms.CharField(max_length=25)
     email = forms.EmailField()
     to = forms.EmailField()
@@ -41,6 +42,7 @@ class EmailPostForm(forms.Form):
         required=False,
         widget=forms.Textarea,
     )
+
 
 class CommentForm(forms.ModelForm):
     """
@@ -50,12 +52,12 @@ class CommentForm(forms.ModelForm):
         name (CharField): The name of the commenter.
         email (EmailField): The email address of the commenter.
         body (CharField): The comment text.
-    
+
     Meta:
         model (Comment): The model associated with this form.
         fields (list): The list of fields to include in the form.
     """
+
     class Meta:
         model = Comment
         fields = ["name", "email", "body"]
-
