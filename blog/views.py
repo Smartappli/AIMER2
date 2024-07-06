@@ -119,7 +119,7 @@ def post_share(request, post_id):
             )
             message = f"Read {post.title} at {post_url}\n\n{cd['name']}'s comments: {cd['comments']}"
             send_mail(
-                subject, message, from_email=None, recipient_list=[cd["to"]]
+                subject, message, from_email=None, recipient_list=[cd["to"],]
             )
             sent = True
     else:
