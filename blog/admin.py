@@ -1,7 +1,7 @@
 """
 Admin configuration for the Post and Comment models.
 
-This module registers the Post and Comment models with the Django admin site 
+This module registers the Post and Comment models with the Django admin site
 and customizes their admin interface.
 
 Classes:
