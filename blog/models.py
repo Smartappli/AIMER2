@@ -67,7 +67,9 @@ class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(
-        max_length=2, choices=Status.choices, default=Status.DRAFT,
+        max_length=2,
+        choices=Status.choices,
+        default=Status.DRAFT,
     )
 
     objects = models.Manager()  # The default manager.
@@ -115,7 +117,9 @@ class Comment(models.Model):
     """
 
     post = models.ForeignKey(
-        Post, on_delete=models.CASCADE, related_name="comments",
+        Post,
+        on_delete=models.CASCADE,
+        related_name="comments",
     )
     name = models.CharField(max_length=80)
     email = models.EmailField()
@@ -125,7 +129,7 @@ class Comment(models.Model):
     active = models.BooleanField(default=True)
 
     class Meta:
-        ordering = ["created"],
+        ordering = (["created"],)
         indexes = [
             models.Index(fields=["created"]),
         ]
