@@ -32,6 +32,21 @@ from .models import Comment, Post
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
+    """
+    Admin configuration for the Post model.
+
+    Customizes the admin interface for the Post model with the following options:
+    
+    Attributes:
+        list_display (list): Fields to display in the list view.
+        list_filter (list): Fields to filter the list view.
+        search_fields (list): Fields to search in the list view.
+        prepopulated_fields (dict): Fields to auto-fill based on other fields.
+        raw_id_fields (list): Fields to use a raw ID widget for.
+        date_hierarchy (str): Field to use for date drill-down navigation.
+        ordering (list): Default ordering of the list view.
+        show_facets (ShowFacets): Facets display settings in the admin interface.
+    """
     list_display = ["title", "slug", "author", "publish", "status"]
     list_filter = ["status", "created", "publish", "author"]
     search_fields = ["title", "body"]
@@ -42,8 +57,20 @@ class PostAdmin(admin.ModelAdmin):
     show_facets = admin.ShowFacets.ALWAYS
 
 
+
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
+    """
+    Admin configuration for the Comment model.
+
+    Customizes the admin interface for the Comment model with the following options:
+    
+    Attributes:
+        list_display (list): Fields to display in the list view.
+        list_filter (list): Fields to filter the list view.
+        search_fields (list): Fields to search in the list view.
+    """
     list_display = ["name", "email", "post", "created", "active"]
     list_filter = ["active", "created", "updated"]
     search_fields = ["name", "email", "body"]
+
