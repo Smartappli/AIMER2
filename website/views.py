@@ -39,7 +39,9 @@ def register(request):
             new_user.set_password(user_form.cleaned_data["password"])
             new_user.save()
             return render(
-                request, "website/register_done.html", {"user_form": user_form},
+                request,
+                "website/register_done.html",
+                {"user_form": user_form},
             )
     else:
         user_form = UserRegistrationForm()
