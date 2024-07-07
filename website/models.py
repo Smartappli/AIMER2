@@ -18,8 +18,10 @@ class Profile(models.Model):
     Methods:
         __str__(): Returns a string representation of the profile, displaying the associated user's username.
     """
+
     user = models.OneToOneField(
-        settings.AUTH_USER_MODEL, on_delete=models.CASCADE,
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
     )
     date_of_birth = models.DateField(blank=True, null=True)
     photo = models.ImageField(
