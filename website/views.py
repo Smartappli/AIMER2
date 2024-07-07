@@ -3,7 +3,12 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from .forms import LoginForm, ProfileEditForm, UserEditForm, UserRegistrationForm
+from .forms import (
+    LoginForm,
+    ProfileEditForm,
+    UserEditForm,
+    UserRegistrationForm,
+)
 from .models import Profile
 
 
@@ -43,7 +48,9 @@ def user_login(request):
                 return HttpResponse("Invalid login or password")
     else:
         form = LoginForm()
-    return render(request, "website/../templates/registration/login.html", {"forM": form})
+    return render(
+        request, "website/../templates/registration/login.html", {"forM": form}
+    )
 
 
 @login_required
@@ -62,8 +69,8 @@ def dashboard(request):
     """
     return render(
         request,
-        'website/dashboard.html',
-        {'section': 'dashboard'},
+        "website/dashboard.html",
+        {"section": "dashboard"},
     )
 
 
@@ -120,7 +127,11 @@ def edit(request):
     """
     if request.method == "POST":
         user_form = UserEditForm(instance=request.user, data=request.POST)
-        profile_form = ProfileEditForm(instance=request.user.profile, data=request.POST, files=request.FILES)
+        profile_form = ProfileEditForm(
+            instance=request.user.profile,
+            data=request.POST,
+            files=request.FILES,
+        )
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
@@ -129,9 +140,9 @@ def edit(request):
         profile_form = ProfileEditForm(instance=request.user.profile)
     return render(
         request,
-        'website/edit.html',
+        "website/edit.html",
         {
-            'user_form': user_form,
-            'profile_form': profile_form,
+            "user_form": user_form,
+            "profile_form": profile_form,
         },
     )
