@@ -20,7 +20,7 @@ jobs:
       
       - uses: chartboost/ruff-action@v1
         with:
-          args: 'check --select ASYNC,C90,DJ,DTZ,E,F,I,NPY,PD,PERF,PT,RUF,SIM,UP,W --ignore E501,F401 --output-format github --diff --exclude fl_client/migrations,fl_server/migrations'
+          args: 'check --select ASYNC,C90,DJ,DTZ,E,F,I,NPY,PD,PERF,PT,RUF,SIM,UP,W --ignore E501,F401 --output-format github --diff --exclude blog/migrations,faq/migrations,ticket/migrations,tutorial/migrations,website/migrations'
 
   flake8-lint:
     runs-on: ubuntu-latest
@@ -39,7 +39,7 @@ jobs:
         uses: py-actions/flake8@v2.3.0
         with:
           update-pip: "true"
-          exclude: "manage.py,fl_client/migrations,fl_server/migrations,settings.py"
+          exclude: "manage.py,blog/migrations,faq/migrations,ticket/migrations,tutorial/migrations,website/migrations,settings.py"
           ignore: "E501,F401,I900,S106,S311,TOR401,W503,W504"
           max-line-length: "80"
           plugins: "flake8-builtins flake8-commas flake8-errmsg flake8-fixme pep8-naming flake8-pie flake8-use-pathlib flake8-return flake8-type-checking flake8-todo flake8-tidy-imports flake8-bugbear flake8-django flake8-bandit TorchFix pandas-vet flake8-logging-format flake8-requirements"
@@ -88,6 +88,7 @@ jobs:
     - name: Install dependencies
       if: ${{ matrix.os == 'macos-12' || matrix.os == 'macos-13' || matrix.os == 'macos-14' }}
       run: |
+        mv AIMER2/.env.example AIMER2/.env
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
@@ -96,18 +97,22 @@ jobs:
     - name: Install dependencies on Windows
       if: ${{ matrix.os == 'windows-2019' || matrix.os == 'windows-2022' }}
       run: |
+        cd AIMER2
+        ren .env.example .env
+        cd..
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
         python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
-        python -m uv pip install -r requirements.txt
+        python -m uv pip install -r ./requirements.txt
     - name: Install dependencies on Ubuntu
       if: ${{ matrix.os == 'ubuntu-20.04' || matrix.os == 'ubuntu-22.04' || matrix.os == 'ubuntu-24.04' }}
       run: |
+        mv AIMER2/.env.example AIMER2/.env
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
         python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
         python -m uv pip install -r requirements.txt
     - name: Analysing the code with pylint
-      run: pylint --load-plugins pylint_django --django-settings-module=lab.settings "**/*.py"
+      run: pylint --load-plugins pylint_django --django-settings-module=AIMER2.settings "**/*.py"
