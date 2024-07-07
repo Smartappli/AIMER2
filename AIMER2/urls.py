@@ -20,16 +20,13 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include ('website.urls', namespace='website')),
-    path('blog/', include('blog.urls', namespace='blog')),
+    path("admin/", admin.site.urls),
+    path("", include("website.urls", namespace="website")),
+    path("blog/", include("blog.urls", namespace="blog")),
     # path('faq/', include('faq.urls', namespace='faq')),
     # path('ticket/', include('ticket.urls', namespace='ticket')),
     # path('tutorial/', include('tutorial.urls', namespace='tutorial')),
 ]
 
 if settings.DEBUG:
-    urlpatterns += static(
-        settings.MEDIA_URL,
-        document_root=settings.MEDIA_ROOT
-    )
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
