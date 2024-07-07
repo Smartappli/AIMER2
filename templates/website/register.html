@@ -5,7 +5,7 @@
     <p>Please, sign up using the following form:</p>
     <form method="post">
         {{ user_form.as_p }}
-        {%  csrf_token %}
+        {% csrf_token %}
         <p>
             <input type="submit" value="Create my account">
         </p>
