@@ -49,7 +49,9 @@ def user_login(request):
     else:
         form = LoginForm()
     return render(
-        request, "website/../templates/registration/login.html", {"forM": form},
+        request,
+        "website/../templates/registration/login.html",
+        {"forM": form},
     )
 
 
