@@ -2,6 +2,8 @@ from django.urls import include, path
 
 from . import views
 
+app_name = "website"
+
 urlpatterns = [
     path("", include("django.contrib.auth.urls")),
     path("", views.dashboard, name="dashboard"),
