@@ -28,7 +28,7 @@ def user_login(request):
                 return HttpResponse("Invalid login or password")
     else:
         form = LoginForm()
-    return render(request, "website/login.html", {"forM": form},)
+    return render(request, "website/login.html", {"forM": form})
 
 
 def register(request):
