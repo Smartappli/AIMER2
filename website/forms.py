@@ -12,6 +12,7 @@ class LoginForm(forms.Form):
         username (CharField): The user's username.
         password (CharField): The user's password, rendered as a password input.
     """
+
     username = forms.CharField(widget=forms.TextInput())
     password = forms.CharField(widget=forms.PasswordInput())
 
@@ -31,6 +32,7 @@ class UserRegistrationForm(forms.ModelForm):
     Methods:
         clean_password2: Validates that the two password fields match.
     """
+
     password = forms.CharField(
         label="Password",
         widget=forms.PasswordInput(),
@@ -69,6 +71,7 @@ class UserEditForm(forms.ModelForm):
         model: The user model obtained via get_user_model().
         fields (tuple): The fields to include in the form ("first_name", "last_name", "email").
     """
+
     class Meta:
         model = get_user_model()
         fields = ("first_name", "last_name", "email")
@@ -82,6 +85,7 @@ class ProfileEditForm(forms.ModelForm):
         model: The Profile model.
         fields (tuple): The fields to include in the form ("date_of_birth", "photo", "bio").
     """
+
     class Meta:
         model = Profile
         fields = ("date_of_birth", "photo", "bio")
