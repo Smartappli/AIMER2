@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
@@ -43,7 +44,7 @@ def user_login(request):
                 return HttpResponse("Invalid login or password")
     else:
         form = LoginForm()
-    return render(request, "website/../templates/registration/login.html", {"forM": form})
+    return render(request, "registration/login.html", {"forM": form})
 
 
 @login_required
@@ -124,6 +125,9 @@ def edit(request):
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
+            messages.success(request, "profile updated successfully")
+        else:
+            messages.error(request, "Error updating your profile")
     else:
         user_form = UserEditForm(instance=request.user)
         profile_form = ProfileEditForm(instance=request.user.profile)
