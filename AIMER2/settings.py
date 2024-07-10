@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SITE_ID = 1
 
 # Application definition
 
@@ -64,7 +65,7 @@ ROOT_URLCONF = "AIMER2.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"],
+        "DIRS": [BASE_DIR / "templates", BASE_DIR / "templatetags"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -87,7 +88,42 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
+    #blog": {
+    #    "ENGINE": "django.db.backends.postgresql",
+    #    "NAME": config("GLOB_DB_NAME"),
+    #    "USER": config("BLOG_DB_USER"),
+    #    "PASSWORD": config("BLOG_DB_PASSWORD"),
+    #    "HOST": config("BLOG_DB_HOST"),
+    #},
+    #"faq": {
+    #    "ENGINE": "django.db.backends.postgresql",
+    #    "NAME": config("FAQ_DB_NAME"),
+    #    "USER": config("FAQ_DB_USER"),
+    #    "PASSWORD": config("FAQ_DB_PASSWORD"),
+    #    "HOST": config("FAQ_DB_HOST"),
+    #},
+    #"ticket": {
+    #    "ENGINE": "django.db.backends.postgresql",
+    #    "NAME": config("TICKET_DB_NAME"),
+    #    "USER": config("TICKET_DB_USER"),
+    #    "PASSWORD": config("TICKET_DB_PASSWORD"),
+    #    "HOST": config("TICKET_DB_HOST"),
+    #},
+    #"tutorial": {
+    #    "ENGINE": "django.db.backends.postgresql",
+    #    "NAME": config("TUTORIAL_DB_NAME"),
+    #    "USER": config("TUTORIAL_DB_USER"),
+    #    "PASSWORD": config("TUTORIAL_DB_PASSWORD"),
+    #    "HOST": config("TUTORIAL_DB_HOST"),
+    #},
+    #"website": {
+    #    "ENGINE": "django.db.backends.postgresql",
+    #    "NAME": config("WEBSITE_DB_NAME"),
+    #    "USER": config("WEBSITE_DB_USER"),
+    #    "PASSWORD": config("WEBSITE_DB_PASSWORD"),
+    #    "HOST": config("WEBSITE_DB_HOST"),
+    #},
 }
 
 

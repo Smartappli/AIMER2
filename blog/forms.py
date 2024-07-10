@@ -15,6 +15,9 @@ Classes:
             - model: The Comment model.
             - fields: Fields to include in the form ("name", "email", "body").
 
+    SearchForm: A form for handling search queries.
+        - query: The search query (CharField).
+
 Attributes:
     forms (module): The Django forms module for defining forms.
     Comment (class): The Comment model class.
@@ -61,3 +64,14 @@ class CommentForm(forms.ModelForm):
     class Meta:
         model = Comment
         fields = ["name", "email", "body"]
+
+
+class SearchForm(forms.Form):
+    """
+    A form for handling search queries.
+
+    Fields:
+        query (CharField): The search query.
+    """
+
+    query = forms.CharField()

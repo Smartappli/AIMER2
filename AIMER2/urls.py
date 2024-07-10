@@ -17,7 +17,17 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.contrib.sitemaps.views import sitemap
 from django.urls import include, path
+
+
+from blog.sitemaps import PostSitemap
+from blog.sitemaps import TagSitemap
+
+sitemaps = {
+    'posts': PostSitemap,
+    'tags': TagSitemap,
+}
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -26,6 +36,12 @@ urlpatterns = [
     # path('faq/', include('faq.urls', namespace='faq')),
     # path('ticket/', include('ticket.urls', namespace='ticket')),
     # path('tutorial/', include('tutorial.urls', namespace='tutorial')),
+    path(
+        'sitemap.xml',
+        sitemap,
+        {'sitemaps': sitemaps},
+        name='django.contrib.sitemaps.views.sitemap',
+    ),
 ]
 
 if settings.DEBUG:
