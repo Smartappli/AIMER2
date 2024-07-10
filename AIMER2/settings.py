@@ -89,41 +89,41 @@ DATABASES = {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     },
-    #blog": {
+    # blog": {
     #    "ENGINE": "django.db.backends.postgresql",
     #    "NAME": config("GLOB_DB_NAME"),
     #    "USER": config("BLOG_DB_USER"),
     #    "PASSWORD": config("BLOG_DB_PASSWORD"),
     #    "HOST": config("BLOG_DB_HOST"),
-    #},
-    #"faq": {
+    # },
+    # "faq": {
     #    "ENGINE": "django.db.backends.postgresql",
     #    "NAME": config("FAQ_DB_NAME"),
     #    "USER": config("FAQ_DB_USER"),
     #    "PASSWORD": config("FAQ_DB_PASSWORD"),
     #    "HOST": config("FAQ_DB_HOST"),
-    #},
-    #"ticket": {
+    # },
+    # "ticket": {
     #    "ENGINE": "django.db.backends.postgresql",
     #    "NAME": config("TICKET_DB_NAME"),
     #    "USER": config("TICKET_DB_USER"),
     #    "PASSWORD": config("TICKET_DB_PASSWORD"),
     #    "HOST": config("TICKET_DB_HOST"),
-    #},
-    #"tutorial": {
+    # },
+    # "tutorial": {
     #    "ENGINE": "django.db.backends.postgresql",
     #    "NAME": config("TUTORIAL_DB_NAME"),
     #    "USER": config("TUTORIAL_DB_USER"),
     #    "PASSWORD": config("TUTORIAL_DB_PASSWORD"),
     #    "HOST": config("TUTORIAL_DB_HOST"),
-    #},
-    #"website": {
+    # },
+    # "website": {
     #    "ENGINE": "django.db.backends.postgresql",
     #    "NAME": config("WEBSITE_DB_NAME"),
     #    "USER": config("WEBSITE_DB_USER"),
     #    "PASSWORD": config("WEBSITE_DB_PASSWORD"),
     #    "HOST": config("WEBSITE_DB_HOST"),
-    #},
+    # },
 }
 
 
