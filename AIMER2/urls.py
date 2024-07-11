@@ -23,8 +23,8 @@ from django.urls import include, path
 from blog.sitemaps import PostSitemap, TagSitemap
 
 sitemaps = {
-    'posts': PostSitemap,
-    'tags': TagSitemap,
+    "posts": PostSitemap,
+    "tags": TagSitemap,
 }
 
 urlpatterns = [
@@ -35,10 +35,10 @@ urlpatterns = [
     # path('ticket/', include('ticket.urls', namespace='ticket')),
     # path('tutorial/', include('tutorial.urls', namespace='tutorial')),
     path(
-        'sitemap.xml',
+        "sitemap.xml",
         sitemap,
-        {'sitemaps': sitemaps},
-        name='django.contrib.sitemaps.views.sitemap',
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
     ),
 ]
 
