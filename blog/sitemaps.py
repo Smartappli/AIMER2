@@ -1,6 +1,7 @@
 from django.contrib.sitemaps import Sitemap
-from taggit.models import Tag
 from django.urls import reverse
+from taggit.models import Tag
+
 from .models import Post
 
 
