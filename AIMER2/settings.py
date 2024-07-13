@@ -158,13 +158,11 @@ LANGUAGE_CODE = "en"
 LANGUAGES = (
     ("en", _("English")),
     ("fr", _("French")),
-    ("de", _('German')),
+    ("de", _("German")),
     ("nl", _("Dutch")),
 )
 
-LOCALE_PATHS = (
-    BASE_DIR / "locale",
-)
+LOCALE_PATHS = (BASE_DIR / "locale",)
 
 
 # Internationalization

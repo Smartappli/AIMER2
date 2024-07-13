@@ -9,8 +9,8 @@ from .models import Profile
 
 def export_to_csv(modeladmin, request, queryset):
     opts = modeladmin.model._meta
-    content_disposition = (
-        'attachment; filename={}.csv'.format(opts.verbose_name_plural)
+    content_disposition = "attachment; filename={}.csv".format(
+        opts.verbose_name_plural
     )
     response = HttpResponse(content_type="text/csv")
     response["Content-Disposition"] = content_disposition
@@ -30,7 +30,7 @@ def export_to_csv(modeladmin, request, queryset):
         for field in fields:
             value = getattr(obj, field.name)
             if isinstance(value, datetime.datetime):
-                value = value.strftime('%Y-%m-%d %H:%M:%S')
+                value = value.strftime("%Y-%m-%d %H:%M:%S")
             data_row.append(value)
         writer.writerow(data_row)
     return response
