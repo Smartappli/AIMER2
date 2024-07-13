@@ -158,6 +158,8 @@ LANGUAGE_CODE = "en"
 LANGUAGES = (
     ("en", _("English")),
     ("fr", _("French")),
+    ("de", _('German')),
+    ("nl", _("Dutch")),
 )
 
 LOCALE_PATHS = (

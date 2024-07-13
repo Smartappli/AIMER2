@@ -20,16 +20,16 @@ msgstr ""
 
 #: .\AIMER2\settings.py:159
 msgid "English"
-msgstr ""
+msgstr "Englisch"
 
 #: .\AIMER2\settings.py:160
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: .\AIMER2\settings.py:161
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: .\AIMER2\settings.py:162
 msgid "Dutch"
-msgstr ""
+msgstr "Niederländisch"
