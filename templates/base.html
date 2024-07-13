@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n static %}
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,11 +16,11 @@
     </head>
     <body>
         <div id="header">
-            <span class="logo">Bookmarks</span>
+            <span class="logo">AIMER v2</span>
             {% if request.user.is_authenticated %}
                 <ul class="menu">
                     <li {% if section == "dashboard" %}class="selected"{% endif %}>
-                        <a href="{% url "website:dashboard" %}">My dashboard</a>
+                        <a href="{% url "website:dashboard" %}">{% translate "Dashboard" %}</a>
                     </li>
                     <li {% if section == "images" %}class="selected"{% endif %}>
                         <a href="#">Images</a>
@@ -31,13 +32,13 @@
             {% endif %}
             <span class="user">
                 {% if request.user.is_authenticated %}
-                    Hello {{ request.user.first_name|default:request.user.username }},
+                    {% translate "Hello" %} {{ request.user.first_name|default:request.user.username }},
                     <form action="{% url "website:logout" %}" method="post">
-                        <button type="submit">Logout</button>
+                        <button type="submit">{% translate "Logout" %}</button>
                         {% csrf_token %}
                     </form>
                 {% else %}
-                    <a href="{% url "website:login" %}">Log-in</a>
+                    <a href="{% url "website:login" %}">{% translate "Log-in" %}</a>
                 {% endif %}
             </span>
         </div>
@@ -55,7 +56,7 @@
             {% block content %}{% endblock %}
         </div>
         <div id="sidebar">
-            <h2>AIMER Blog</h2>
+            <h2>{% translate "AIMER Blog" %}</h2>
             <p>This is my blog</p>
         </div>
     </body>

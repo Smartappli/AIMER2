@@ -1,8 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Dashboard{% endblock %}
+{% load i18n static %}
+{% block title %}{% translate "Dashboard" %}{% endblock %}
 {% block content %}
     <h1>Dashboard</h1>
     <p>
-        Welcome to your dashboard. You can <a href="{% url "website:edit" %}">edit your profile</a> or <a href="{% url "website:password_change" %}">change your password</a>.
+        Welcome to your dashboard. You can <a href="{% url "website:edit" %}">{% translate "edit your profile" %}</a> or <a href="{% url "website:password_change" %}">{% translate "change your password" %}</a>.
     </p>
 {% endblock %}

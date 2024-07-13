@@ -8,28 +8,186 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 06:31+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-07-13 17:38+0200\n"
+"PO-Revision-Date: 2024-07-13 17:40+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:158
 msgid "English"
 msgstr "Engels"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:159
 msgid "French"
 msgstr "Frans"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:160
 msgid "German"
 msgstr "Duits"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:161
 msgid "Dutch"
 msgstr "Nederlands"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "Hallo"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "Afmelden"
+
+#: .\templates\base.html:41
+msgid "Log-in"
+msgstr "Aanmelden"
+
+#: .\templates\base.html:59 .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER Blog"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "Een commentaar toevoegen"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "Uw commentaar is toegevoegd."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "Terug naar de post"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "door"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "Deel dit bericht"
+
+#: .\templates\blog\post\detail.html:13
+#| msgid "Share a post"
+msgid "Similar posts"
+msgstr "Deel dit bericht"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "Er zijn nog geen vergelijkbare berichten."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "commentaar"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "Commentaar"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "Er zijn nog geen reacties."
+
+#: .\templates\blog\post\includes\comment_form.html:1
+#| msgid "Add a comment"
+msgid "Add a new comment"
+msgstr "Een commentaar toevoegen"
+
+#: .\templates\blog\post\includes\comment_form.html:8
+#| msgid "Add a comment"
+msgid "Add comment"
+msgstr "Een commentaar toevoegen"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "Laatste nieuws"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "Berichten met"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "Er zijn nog geen reacties."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "Opnieuw zoeken"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "Zoeken naar berichten"
+
+#: .\templates\blog\post\search.html:28
+#| msgid "Search again"
+msgid "Search"
+msgstr "Opnieuw zoeken"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "Deel dit bericht"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "E-mail succesvol verzonden"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "is met succes verzonden naar"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "Deel"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "per e-mail"
+
+#: .\templates\blog\post\share.html:13
+msgid "Send e-mail"
+msgstr "Stuur e-mail"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "Vorige"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "Pagina"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "Volgende"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "uw profiel bewerken"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "uw wachtwoord wijzigen"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "Welkom"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "Uw commentaar is toegevoegd."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "Nu kunt u"

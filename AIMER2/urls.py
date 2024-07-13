@@ -32,14 +32,15 @@ urlpatterns = [
     path("", include("website.urls", namespace="website")),
     path("blog/", include("blog.urls", namespace="blog")),
     # path('faq/', include('faq.urls', namespace='faq')),
-    # path('ticket/', include('ticket.urls', namespace='ticket')),
-    # path('tutorial/', include('tutorial.urls', namespace='tutorial')),
+    path("rosetta/", include("rosetta.urls")),
     path(
         "sitemap.xml",
         sitemap,
         {"sitemaps": sitemaps},
         name="django.contrib.sitemaps.views.sitemap",
     ),
+    # path('ticket/', include('ticket.urls', namespace='ticket')),
+    # path('tutorial/', include('tutorial.urls', namespace='tutorial')),
 ]
 
 if settings.DEBUG:

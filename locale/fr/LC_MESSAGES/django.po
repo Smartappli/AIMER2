@@ -8,28 +8,186 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 06:31+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2024-07-13 17:38+0200\n"
+"PO-Revision-Date: 2024-07-13 17:41+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:158
 msgid "English"
 msgstr "Anglais"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:159
 msgid "French"
 msgstr "Français"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:160
 msgid "German"
 msgstr "Allemand"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:161
 msgid "Dutch"
 msgstr "Néerlandais"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "Bonjour"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: .\templates\base.html:41
+msgid "Log-in"
+msgstr "Connexion"
+
+#: .\templates\base.html:59 .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "Blog AIMER"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "Ajouter un commentaire"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "Votre commentaire a été ajouté."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "Retour au poste"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "par"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "Partager cet article"
+
+#: .\templates\blog\post\detail.html:13
+#| msgid "Share a post"
+msgid "Similar posts"
+msgstr "Partager cet article"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "Il n'y a pas encore d'articles similaires."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "commentaire"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "Commentaire"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "Il n'y a pas encore de commentaires."
+
+#: .\templates\blog\post\includes\comment_form.html:1
+#| msgid "Add a comment"
+msgid "Add a new comment"
+msgstr "Ajouter un commentaire"
+
+#: .\templates\blog\post\includes\comment_form.html:8
+#| msgid "Add a comment"
+msgid "Add comment"
+msgstr "Ajouter un commentaire"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "Dernières nouvelles"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Publié"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "Postes contenant"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "Il n'y a pas encore de commentaires."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "Rechercher à nouveau"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "Recherche de postes"
+
+#: .\templates\blog\post\search.html:28
+#| msgid "Search again"
+msgid "Search"
+msgstr "Rechercher à nouveau"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "Partager cet article"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "E-mail envoyé avec succès"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "a été envoyé avec succès à"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "Partager"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "par courrier électronique"
+
+#: .\templates\blog\post\share.html:13
+msgid "Send e-mail"
+msgstr "Envoyer un courriel"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "Précédent"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "Page"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "Suivant"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "modifier votre profil"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "changer votre mot de passe"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "Bienvenue"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "Votre commentaire a été ajouté."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "Désormais, vous pouvez"

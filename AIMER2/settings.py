@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.contrib.postgres",
+    "rosetta",
     "taggit",
     "website.apps.WebsiteConfig",
     "blog.apps.BlogConfig",
@@ -152,8 +153,6 @@ CACHES = {
         "BACKEND": "django.core.cache.backends.dummy.DummyCache",
     }
 }
-
-LANGUAGE_CODE = "en"
 
 LANGUAGES = (
     ("en", _("English")),

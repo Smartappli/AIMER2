@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 06:31+0200\n"
+"POT-Creation-Date: 2024-07-13 17:38+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,18 +18,171 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:158
 msgid "English"
 msgstr ""
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:159
 msgid "French"
 msgstr ""
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:160
 msgid "German"
 msgstr ""
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:161
 msgid "Dutch"
+msgstr ""
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+msgid "Dashboard"
+msgstr ""
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr ""
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr ""
+
+#: .\templates\base.html:41
+msgid "Log-in"
+msgstr ""
+
+#: .\templates\base.html:59 .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr ""
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr ""
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr ""
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr ""
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr ""
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr ""
+
+#: .\templates\blog\post\includes\comment_form.html:1
+msgid "Add a new comment"
+msgstr ""
+
+#: .\templates\blog\post\includes\comment_form.html:8
+msgid "Add comment"
+msgstr ""
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr ""
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr ""
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr ""
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr ""
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr ""
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr ""
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr ""
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr ""
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr ""
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr ""
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr ""
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr ""
+
+#: .\templates\blog\post\share.html:13
+msgid "Send e-mail"
+msgstr ""
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr ""
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr ""
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr ""
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr ""
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr ""
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr ""
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr ""
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
 msgstr ""

@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% load i18n static %}
 {% load blog_tags %}
-{% block title %}My Blog{% endblock %}
+{% block title %}{% translate "AIMER Blog" %}{% endblock %}
 {% block content %}
-    <h1>My Blog</h1>
+    <h1>{% translate "Last news" %}</h1>
     {% for post in posts %}
         <h2>
             <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
@@ -15,7 +16,7 @@
                 </a>{% if not forloop.last %}, {% endif %}
             {% endfor %}
         </p>
-        <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+        <p class="date">{% translate "Published" %} {{ post.publish }} {% translate "by" %} {{ post.author }}</p>
         {{ post.body|truncatewords:30|linebreaks }}
     {% endfor %}
     {% include "pagination.html" with page=page_obj %}
