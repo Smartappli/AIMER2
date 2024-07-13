@@ -1,16 +1,17 @@
 {% extends "base.html" %}
-{% block title %}Log-in{% endblock %}
+{% load i18n static %}
+{% block title %}{% translate "Log-in" %}{% endblock %}
 {% block content %}
-    <h1>Log-in</h1>
+    <h1>{% translate "Log-in" %}</h1>
     {% if form.errors %}
         <p>
-            Your username and password didn't match.
-            Please try again.
+            {% translate "Your username and password didn't match." %}
+            {% translate "Please try again." %}
         </p>
     {% else %}
         <p>
-            Please, use the following form to log-in.
-            If you don't have an account <a href="{% url "website:register" %}">register here</a>.
+            {% translate "Please, use the following form to log-in." %}
+            {% translate "If you don't have an account" %} <a href="{% url "website:register" %}">{% translate "register here" %}</a>.
         </p>
     {% endif %}
     <div class="login-form">
@@ -19,11 +20,11 @@
             {% csrf_token %}
             <input type="hidden" name="next" value="{{ next }}" />
             <p>
-                <input type="submit" value="Log-in">
+                <input type="submit" value="{% translate "Log-in" %}">
             </p>
         </form>
         <p>
-            <a href="{% url "website:password_reset" %}">Forgotten your password?</a>
+            <a href="{% url "website:password_reset" %}">{% translate "Forgotten your password?" %}</a>
         </p>
     </div>
 {% endblock %}

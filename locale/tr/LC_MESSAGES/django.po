@@ -9,420 +9,408 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-13 19:00+0200\n"
-"PO-Revision-Date: 2024-07-13 22:13+0000\n"
+"PO-Revision-Date: 2024-07-14 00:44+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\AIMER2\settings.py:158
 msgid "Arabic"
-msgstr "Arabisch"
+msgstr "Arapça"
 
 #: .\AIMER2\settings.py:159
 msgid "Bulgarian"
-msgstr "Bulgarisch"
+msgstr "Bulgarca"
 
 #: .\AIMER2\settings.py:160
 msgid "Brazilian"
-msgstr "Brasilianisch"
+msgstr "Brezilya"
 
 #: .\AIMER2\settings.py:161
 msgid "Czech"
-msgstr "Tschechisch"
+msgstr "Çek Cumhuriyeti"
 
 #: .\AIMER2\settings.py:162
 msgid "Danish"
-msgstr "Dänisch"
+msgstr "Danimarka"
 
 #: .\AIMER2\settings.py:163
 msgid "German"
-msgstr "Deutsch"
+msgstr "Alman"
 
 #: .\AIMER2\settings.py:164
 msgid "Estonian"
-msgstr "Estnisch"
+msgstr "Estonca"
 
 #: .\AIMER2\settings.py:165
 msgid "English"
-msgstr "Englisch"
+msgstr "İngilizce"
 
 #: .\AIMER2\settings.py:166
 msgid "Spanish"
-msgstr "Spanisch"
+msgstr "İspanyolca"
 
 #: .\AIMER2\settings.py:167
 msgid "Finnish"
-msgstr "Finnisch"
+msgstr "Fince"
 
 #: .\AIMER2\settings.py:168
 msgid "French"
-msgstr "Französisch"
+msgstr "Fransızca"
 
 #: .\AIMER2\settings.py:169
 msgid "Greek"
-msgstr "Griechisch"
+msgstr "Yunan"
 
 #: .\AIMER2\settings.py:170
 msgid "Hungarian"
-msgstr "Ungarisch"
+msgstr "Macarca"
 
 #: .\AIMER2\settings.py:171
 msgid "Indonesian"
-msgstr "Indonesisch"
+msgstr "Endonezce"
 
 #: .\AIMER2\settings.py:172
 msgid "Italian"
-msgstr "Italienisch"
+msgstr "İtalyan"
 
 #: .\AIMER2\settings.py:173
 msgid "Japanese"
-msgstr "Japanisch"
+msgstr "Japonca"
 
 #: .\AIMER2\settings.py:174
 msgid "Lithuanian"
-msgstr "Litauisch"
+msgstr "Litvanyalı"
 
 #: .\AIMER2\settings.py:175
 msgid "Latvian"
-msgstr "Lettisch"
+msgstr "Letonca"
 
 #: .\AIMER2\settings.py:176
 msgid "Korean"
-msgstr "Koreanisch"
+msgstr "Korece"
 
 #: .\AIMER2\settings.py:177
 msgid "Dutch"
-msgstr "Niederländisch"
+msgstr "Hollandaca"
 
 #: .\AIMER2\settings.py:178
 msgid "Norwegian"
-msgstr "Norwegisch"
+msgstr "Norveççe"
 
 #: .\AIMER2\settings.py:179
-#| msgid "Published"
 msgid "Polish"
-msgstr "Veröffentlicht"
+msgstr "Lehçe"
 
 #: .\AIMER2\settings.py:180
 msgid "Portuguese"
-msgstr "Portugiesisch"
+msgstr "Portekizce"
 
 #: .\AIMER2\settings.py:181
 msgid "Romanian"
-msgstr "Rumänisch"
+msgstr "Romence"
 
 #: .\AIMER2\settings.py:182
 msgid "Russian"
-msgstr "Russisch"
+msgstr "Rusça"
 
 #: .\AIMER2\settings.py:183
 msgid "Swedish"
-msgstr "Schwedisch"
+msgstr "İsveç"
 
 #: .\AIMER2\settings.py:184
 msgid "Slovenian"
-msgstr "Slowenisch"
+msgstr "Slovence"
 
 #: .\AIMER2\settings.py:185
 msgid "Slovak"
-msgstr "Slowakisch"
+msgstr "Slovakça"
 
 #: .\AIMER2\settings.py:186
 msgid "Turkish"
-msgstr "Türkisch"
+msgstr "Türkçe"
 
 #: .\AIMER2\settings.py:187
 msgid "Ukrainian"
-msgstr "Ukrainisch"
+msgstr "Ukrayna"
 
 #: .\AIMER2\settings.py:188
 msgid "Simplified Chinese"
-msgstr "Vereinfachtes Chinesisch"
+msgstr "Basitleştirilmiş Çince"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Gösterge Tablosu"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr "Hallo"
+msgstr "Merhaba"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr "Abmeldung"
+msgstr "Oturum Kapatma"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
 #: .\templates\registration\login.html:23
 msgid "Log-in"
-msgstr "Anmeldung"
+msgstr "Giriş Yapın"
 
 #: .\templates\base.html:59 .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
-msgstr "AIMER-Blog"
+msgstr "AIMER Blog"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Bir yorum ekleyin"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Yorumunuz eklenmiştir."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "Zurück zum Beitrag"
+msgstr "Gönderiye geri dön"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "von"
+msgstr "tarafından"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr "Diesen Beitrag teilen"
+msgstr "Bu gönderiyi paylaş"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr "Diesen Beitrag teilen"
+msgstr "Benzer gönderiler"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr "Es gibt noch keine ähnlichen Stellen."
+msgstr "Henüz benzer bir gönderi yok."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr "kommentar"
+msgstr "Yorum"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "Yorum"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr "Es sind noch keine Kommentare vorhanden."
+msgstr "Henüz yorum yok."
 
 #: .\templates\blog\post\includes\comment_form.html:1
 msgid "Add a new comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Yeni bir yorum ekle"
 
 #: .\templates\blog\post\includes\comment_form.html:8
 msgid "Add comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Yorum ekle"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr "Letzte Nachrichten"
+msgstr "Son Haberler"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr "Veröffentlicht"
+msgstr "Yayınlandı"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Beiträge mit"
+msgstr "İçeren gönderiler"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Es sind noch keine Kommentare vorhanden."
+msgstr "Sorgunuz için herhangi bir sonuç yok."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Erneut suchen"
+msgstr "Tekrar arayın"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr "Suche nach Beiträgen"
+msgstr "Gönderileri arayın"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr "Erneut suchen"
+msgstr "Arama"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr "Diesen Beitrag teilen"
+msgstr "Bir gönderi paylaş"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr "E-Mail erfolgreich gesendet"
+msgstr "E-posta başarıyla gönderildi"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr "wurde erfolgreich gesendet an"
+msgstr "başarıyla gönderildi"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr "Teilen Sie"
+msgstr "Paylaş"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr "per E-Mail"
+msgstr "e-posta ile"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr "E-Mail senden"
+msgstr "E-posta gönder"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr "Vorherige"
+msgstr "Önceki"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr "Seite"
+msgstr "Sayfa"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Weiter"
+msgstr "Sonraki"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr "Abgemeldet"
+msgstr " Çıkış yapıldı"
 
 #: .\templates\registration\logged_out.html:7
-#| msgid "Your account has been successfully created."
 msgid "You have been successfully logged out."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Başarılı bir şekilde çıkış yaptınız."
 
 #: .\templates\registration\logged_out.html:8
-#| msgid "Now you can"
 msgid "You can"
-msgstr "Jetzt können Sie"
+msgstr "Yapabilirsin"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr "erneut anmelden"
+msgstr "tekrar giriş yapın"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr "Ihr Benutzername und Ihr Passwort stimmen nicht überein."
+msgstr "Kullanıcı adınız ve şifreniz eşleşmedi."
 
 #: .\templates\registration\login.html:9
-#| msgid "Search again"
 msgid "Please try again."
-msgstr "Erneut suchen"
+msgstr "Lütfen tekrar deneyin."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr "Bitte benutzen Sie das folgende Formular, um sich einzuloggen."
+msgstr "Giriş yapmak için lütfen aşağıdaki formu kullanın."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr "Wenn Sie noch kein Konto haben"
+msgstr "Eğer bir hesabınız yoksa"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr "hier anmelden"
+msgstr "buradan kaydolun"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
-#| msgid "change your password"
 msgid "Forgotten your password?"
-msgstr "Ihr Passwort ändern"
+msgstr "Şifrenizi mi unuttunuz?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr "Passwort geändert"
+msgstr "Şifre değiştirildi"
 
 #: .\templates\registration\password_change_done.html:6
-#| msgid "Your account has been successfully created."
 msgid "Your password has been successfully changed."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Parolanız başarıyla değiştirildi."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
-#| msgid "change your password"
 msgid "Change your password"
-msgstr "Ihr Passwort ändern"
+msgstr "Şifrenizi değiştirin"
 
 #: .\templates\registration\password_change_form.html:6
-#| msgid "change your password"
 msgid "Use the form below to change your password."
-msgstr "Ihr Passwort ändern"
+msgstr "Şifrenizi değiştirmek için aşağıdaki formu kullanın."
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr "Passwort zurücksetzen"
+msgstr "Şifre sıfırlama"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr "Passwort festlegen"
+msgstr "Şifre seti"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr "Ihr Passwort wurde festgelegt. Sie können"
+msgstr "Parolanız belirlenmiştir. Yapabilirsin"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
 #: .\templates\registration\password_reset_done.html:3
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
-#| msgid "change your password"
 msgid "Reset your password"
-msgstr "Ihr Passwort ändern"
+msgstr "Şifrenizi sıfırlayın"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr "Bitte geben Sie Ihr neues Passwort zweimal ein:"
+msgstr "Lütfen yeni şifrenizi iki kez girin: bhj "
 
 #: .\templates\registration\password_reset_confirm.html:12
-#| msgid "change your password"
 msgid "Change my password"
-msgstr "Ihr Passwort ändern"
+msgstr "Şifremi değiştir"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Der Link zum Zurücksetzen des Passworts war ungültig, möglicherweise weil er"
-" bereits verwendet wurde. Bitte fordern Sie ein neues Passwort an."
+"Şifre sıfırlama bağlantısı geçersizdi, muhtemelen zaten kullanılmış olduğu "
+"için. Lütfen yeni bir şifre sıfırlama talebinde bulunun."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
-"Wir haben Ihnen per E-Mail eine Anleitung zum Einrichten Ihres Passworts "
-"geschickt."
+msgstr "Şifrenizi belirlemeniz için talimatları size e-posta ile gönderdik."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr "Jemand hat um die Zurücksetzung des Passworts für E-Mail gebeten"
+msgstr "Birisi e-posta için şifre sıfırlama istedi"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr "Folgen Sie dem unten stehenden Link:"
+msgstr "Aşağıdaki bağlantıyı takip edin:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr "Ihren Benutzernamen, falls Sie ihn vergessen haben:"
+msgstr "Unuttuysanız diye kullanıcı adınız:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr "Geben Sie Ihre E-Mail-Adresse ein, um ein neues Passwort zu erhalten."
+msgstr "Yeni bir şifre almak için e-posta adresinizi girin."
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr "Ihr Profil bearbeiten"
+msgstr "profilinizi düzenleyin"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr "Ihr Passwort ändern"
+msgstr "şifrenizi değiştirin"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr "Willkommen"
+msgstr "Hoş geldiniz"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Hesabınız başarıyla oluşturuldu."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr "Jetzt können Sie"
+msgstr "Şimdi yapabilirsin"

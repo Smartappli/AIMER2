@@ -9,420 +9,407 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-13 19:00+0200\n"
-"PO-Revision-Date: 2024-07-13 22:13+0000\n"
+"PO-Revision-Date: 2024-07-13 21:00+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\AIMER2\settings.py:158
 msgid "Arabic"
-msgstr "Arabisch"
+msgstr "Arabština"
 
 #: .\AIMER2\settings.py:159
 msgid "Bulgarian"
-msgstr "Bulgarisch"
+msgstr "Bulharský"
 
 #: .\AIMER2\settings.py:160
 msgid "Brazilian"
-msgstr "Brasilianisch"
+msgstr "Brazilský"
 
 #: .\AIMER2\settings.py:161
 msgid "Czech"
-msgstr "Tschechisch"
+msgstr "Česky"
 
 #: .\AIMER2\settings.py:162
 msgid "Danish"
-msgstr "Dänisch"
+msgstr "Dánský"
 
 #: .\AIMER2\settings.py:163
 msgid "German"
-msgstr "Deutsch"
+msgstr "Němčina"
 
 #: .\AIMER2\settings.py:164
 msgid "Estonian"
-msgstr "Estnisch"
+msgstr "Estonština"
 
 #: .\AIMER2\settings.py:165
 msgid "English"
-msgstr "Englisch"
+msgstr "Angličtina"
 
 #: .\AIMER2\settings.py:166
 msgid "Spanish"
-msgstr "Spanisch"
+msgstr "Španělština"
 
 #: .\AIMER2\settings.py:167
 msgid "Finnish"
-msgstr "Finnisch"
+msgstr "Finsko"
 
 #: .\AIMER2\settings.py:168
 msgid "French"
-msgstr "Französisch"
+msgstr "Francouzština"
 
 #: .\AIMER2\settings.py:169
 msgid "Greek"
-msgstr "Griechisch"
+msgstr "Řecký"
 
 #: .\AIMER2\settings.py:170
 msgid "Hungarian"
-msgstr "Ungarisch"
+msgstr "Maďarština"
 
 #: .\AIMER2\settings.py:171
 msgid "Indonesian"
-msgstr "Indonesisch"
+msgstr "Indonéský"
 
 #: .\AIMER2\settings.py:172
 msgid "Italian"
-msgstr "Italienisch"
+msgstr "Italský"
 
 #: .\AIMER2\settings.py:173
 msgid "Japanese"
-msgstr "Japanisch"
+msgstr "Japonský"
 
 #: .\AIMER2\settings.py:174
 msgid "Lithuanian"
-msgstr "Litauisch"
+msgstr "Litevština"
 
 #: .\AIMER2\settings.py:175
 msgid "Latvian"
-msgstr "Lettisch"
+msgstr "Lotyšský"
 
 #: .\AIMER2\settings.py:176
 msgid "Korean"
-msgstr "Koreanisch"
+msgstr "Korejský"
 
 #: .\AIMER2\settings.py:177
 msgid "Dutch"
-msgstr "Niederländisch"
+msgstr "Holandský"
 
 #: .\AIMER2\settings.py:178
 msgid "Norwegian"
-msgstr "Norwegisch"
+msgstr "Norština"
 
 #: .\AIMER2\settings.py:179
-#| msgid "Published"
 msgid "Polish"
-msgstr "Veröffentlicht"
+msgstr "Polský"
 
 #: .\AIMER2\settings.py:180
 msgid "Portuguese"
-msgstr "Portugiesisch"
+msgstr "Portugalština"
 
 #: .\AIMER2\settings.py:181
 msgid "Romanian"
-msgstr "Rumänisch"
+msgstr "Rumunština"
 
 #: .\AIMER2\settings.py:182
 msgid "Russian"
-msgstr "Russisch"
+msgstr "Ruský"
 
 #: .\AIMER2\settings.py:183
 msgid "Swedish"
-msgstr "Schwedisch"
+msgstr "Švédský"
 
 #: .\AIMER2\settings.py:184
 msgid "Slovenian"
-msgstr "Slowenisch"
+msgstr "Slovinština"
 
 #: .\AIMER2\settings.py:185
 msgid "Slovak"
-msgstr "Slowakisch"
+msgstr "Slovenská"
 
 #: .\AIMER2\settings.py:186
 msgid "Turkish"
-msgstr "Türkisch"
+msgstr "Turecký"
 
 #: .\AIMER2\settings.py:187
 msgid "Ukrainian"
-msgstr "Ukrainisch"
+msgstr "Ukrajinský"
 
 #: .\AIMER2\settings.py:188
 msgid "Simplified Chinese"
-msgstr "Vereinfachtes Chinesisch"
+msgstr "Zjednodušená čínština"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 msgid "Dashboard"
-msgstr "Dashboard"
+msgstr "Přístrojová deska"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr "Hallo"
+msgstr "Dobrý den,"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr "Abmeldung"
+msgstr "Odhlášení"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
 #: .\templates\registration\login.html:23
 msgid "Log-in"
-msgstr "Anmeldung"
+msgstr "Přihlášení"
 
 #: .\templates\base.html:59 .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
-msgstr "AIMER-Blog"
+msgstr "Blog AIMER"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Přidat komentář"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Váš komentář byl přidán."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "Zurück zum Beitrag"
+msgstr "Zpět na příspěvek"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "von"
+msgstr "podle"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr "Diesen Beitrag teilen"
+msgstr "Sdílet tento příspěvek"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr "Diesen Beitrag teilen"
+msgstr "Podobné příspěvky"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr "Es gibt noch keine ähnlichen Stellen."
+msgstr "Zatím zde nejsou žádné podobné příspěvky."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr "kommentar"
+msgstr "komentář"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr "Kommentar"
+msgstr "Komentář:"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr "Es sind noch keine Kommentare vorhanden."
+msgstr "Zatím nejsou žádné komentáře."
 
 #: .\templates\blog\post\includes\comment_form.html:1
 msgid "Add a new comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Přidat nový komentář"
 
 #: .\templates\blog\post\includes\comment_form.html:8
 msgid "Add comment"
-msgstr "Einen Kommentar hinzufügen"
+msgstr "Přidat komentář"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr "Letzte Nachrichten"
+msgstr "Poslední zprávy"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr "Veröffentlicht"
+msgstr "Zveřejněno na"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Beiträge mit"
+msgstr "Příspěvky obsahující"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Es sind noch keine Kommentare vorhanden."
+msgstr "Pro váš dotaz nebyly nalezeny žádné výsledky."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Erneut suchen"
+msgstr "Znovu hleda"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr "Suche nach Beiträgen"
+msgstr "Vyhledávání příspěvků"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr "Erneut suchen"
+msgstr "Vyhledávání"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr "Diesen Beitrag teilen"
+msgstr "Sdílet příspěvek"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr "E-Mail erfolgreich gesendet"
+msgstr "E-mail byl úspěšně odeslán"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr "wurde erfolgreich gesendet an"
+msgstr "byl úspěšně odeslán na adresu"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr "Teilen Sie"
+msgstr "Sdílet"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr "per E-Mail"
+msgstr "e-mailem"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr "E-Mail senden"
+msgstr "Odeslat e-mail"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr "Vorherige"
+msgstr "Předchozí"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr "Seite"
+msgstr "Stránka"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Weiter"
+msgstr "Další"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr "Abgemeldet"
+msgstr "Odhlášení"
 
 #: .\templates\registration\logged_out.html:7
-#| msgid "Your account has been successfully created."
 msgid "You have been successfully logged out."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Byli jste úspěšně odhlášeni."
 
 #: .\templates\registration\logged_out.html:8
-#| msgid "Now you can"
 msgid "You can"
-msgstr "Jetzt können Sie"
+msgstr "Můžete"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr "erneut anmelden"
+msgstr "opětovné přihlášení"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr "Ihr Benutzername und Ihr Passwort stimmen nicht überein."
+msgstr "Vaše uživatelské jméno a heslo se neshodují."
 
 #: .\templates\registration\login.html:9
-#| msgid "Search again"
 msgid "Please try again."
-msgstr "Erneut suchen"
+msgstr "Zkuste to prosím znovu."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr "Bitte benutzen Sie das folgende Formular, um sich einzuloggen."
+msgstr "Pro přihlášení použijte následující formulář."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr "Wenn Sie noch kein Konto haben"
+msgstr "Pokud nemáte účet"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr "hier anmelden"
+msgstr "Zaregistrujte se zde"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
-#| msgid "change your password"
 msgid "Forgotten your password?"
-msgstr "Ihr Passwort ändern"
+msgstr "Zapomněli jste heslo?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr "Passwort geändert"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_change_done.html:6
-#| msgid "Your account has been successfully created."
 msgid "Your password has been successfully changed."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Vaše heslo bylo úspěšně změněno."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
-#| msgid "change your password"
 msgid "Change your password"
-msgstr "Ihr Passwort ändern"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_change_form.html:6
-#| msgid "change your password"
 msgid "Use the form below to change your password."
-msgstr "Ihr Passwort ändern"
+msgstr "Pro změnu hesla použijte níže uvedený formulář."
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr "Passwort zurücksetzen"
+msgstr "Obnovení hesla"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr "Passwort festlegen"
+msgstr "Nastavení hesla"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr "Ihr Passwort wurde festgelegt. Sie können"
+msgstr "Vaše heslo bylo nastaveno. Můžete"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
 #: .\templates\registration\password_reset_done.html:3
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
-#| msgid "change your password"
 msgid "Reset your password"
-msgstr "Ihr Passwort ändern"
+msgstr "Obnovení hesla"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr "Bitte geben Sie Ihr neues Passwort zweimal ein:"
+msgstr "Zadejte své nové heslo dvakrát:"
 
 #: .\templates\registration\password_reset_confirm.html:12
-#| msgid "change your password"
 msgid "Change my password"
-msgstr "Ihr Passwort ändern"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Der Link zum Zurücksetzen des Passworts war ungültig, möglicherweise weil er"
-" bereits verwendet wurde. Bitte fordern Sie ein neues Passwort an."
+"Odkaz na obnovení hesla byl neplatný, pravděpodobně proto, že již byl "
+"použit. Požádejte o nové obnovení hesla."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
-"Wir haben Ihnen per E-Mail eine Anleitung zum Einrichten Ihres Passworts "
-"geschickt."
+msgstr "Pokyny k nastavení hesla jsme vám zaslali e-mailem."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr "Jemand hat um die Zurücksetzung des Passworts für E-Mail gebeten"
+msgstr "Někdo požádal o resetování hesla pro e-mail"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr "Folgen Sie dem unten stehenden Link:"
+msgstr "Následujte níže uvedený odkaz:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr "Ihren Benutzernamen, falls Sie ihn vergessen haben:"
+msgstr "Vaše uživatelské jméno, pokud jste zapomněli:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr "Geben Sie Ihre E-Mail-Adresse ein, um ein neues Passwort zu erhalten."
+msgstr "Zadejte svou e-mailovou adresu a získejte nové heslo."
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr "Ihr Profil bearbeiten"
+msgstr "upravit svůj profil"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr "Ihr Passwort ändern"
+msgstr "změnit heslo"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr "Willkommen"
+msgstr "Vítejte na"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr "Ihr Kommentar wurde hinzugefügt."
+msgstr "Váš účet byl úspěšně vytvořen."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr "Jetzt können Sie"
+msgstr "Nyní můžete"

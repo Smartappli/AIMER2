@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 17:38+0200\n"
-"PO-Revision-Date: 2024-07-13 17:41+0000\n"
+"POT-Creation-Date: 2024-07-13 19:00+0200\n"
+"PO-Revision-Date: 2024-07-13 22:45+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -20,20 +20,129 @@ msgstr ""
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\AIMER2\settings.py:158
-msgid "English"
-msgstr "Anglais"
+msgid "Arabic"
+msgstr "Arabe"
 
 #: .\AIMER2\settings.py:159
-msgid "French"
-msgstr "Français"
+msgid "Bulgarian"
+msgstr "Bulgare"
 
 #: .\AIMER2\settings.py:160
+msgid "Brazilian"
+msgstr "Brésilien"
+
+#: .\AIMER2\settings.py:161
+msgid "Czech"
+msgstr "Tchèque"
+
+#: .\AIMER2\settings.py:162
+msgid "Danish"
+msgstr "Danois"
+
+#: .\AIMER2\settings.py:163
 msgid "German"
 msgstr "Allemand"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:164
+msgid "Estonian"
+msgstr "Estonien"
+
+#: .\AIMER2\settings.py:165
+msgid "English"
+msgstr "Anglais"
+
+#: .\AIMER2\settings.py:166
+msgid "Spanish"
+msgstr "Espagnol"
+
+#: .\AIMER2\settings.py:167
+msgid "Finnish"
+msgstr "Finlandais"
+
+#: .\AIMER2\settings.py:168
+msgid "French"
+msgstr "Français"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Grecque"
+
+#: .\AIMER2\settings.py:170
+msgid "Hungarian"
+msgstr "Hongrois"
+
+#: .\AIMER2\settings.py:171
+msgid "Indonesian"
+msgstr "Indonésien"
+
+#: .\AIMER2\settings.py:172
+msgid "Italian"
+msgstr "Italien"
+
+#: .\AIMER2\settings.py:173
+msgid "Japanese"
+msgstr "Japonais"
+
+#: .\AIMER2\settings.py:174
+msgid "Lithuanian"
+msgstr "Lituanien"
+
+#: .\AIMER2\settings.py:175
+msgid "Latvian"
+msgstr "Letton"
+
+#: .\AIMER2\settings.py:176
+msgid "Korean"
+msgstr "Coréen"
+
+#: .\AIMER2\settings.py:177
 msgid "Dutch"
 msgstr "Néerlandais"
+
+#: .\AIMER2\settings.py:178
+msgid "Norwegian"
+msgstr "Norvégien"
+
+#: .\AIMER2\settings.py:179
+#| msgid "Published"
+msgid "Polish"
+msgstr "Publié"
+
+#: .\AIMER2\settings.py:180
+msgid "Portuguese"
+msgstr "Portugais"
+
+#: .\AIMER2\settings.py:181
+msgid "Romanian"
+msgstr "Roumain"
+
+#: .\AIMER2\settings.py:182
+msgid "Russian"
+msgstr "Russe"
+
+#: .\AIMER2\settings.py:183
+msgid "Swedish"
+msgstr "Suédois"
+
+#: .\AIMER2\settings.py:184
+msgid "Slovenian"
+msgstr "Slovène"
+
+#: .\AIMER2\settings.py:185
+msgid "Slovak"
+msgstr "Slovaque"
+
+#: .\AIMER2\settings.py:186
+msgid "Turkish"
+msgstr "Turc"
+
+#: .\AIMER2\settings.py:187
+msgid "Ukrainian"
+msgstr "Ukrainien"
+
+#: .\AIMER2\settings.py:188
+msgid "Simplified Chinese"
+msgstr "Chinois simplifié"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 msgid "Dashboard"
@@ -47,7 +156,9 @@ msgstr "Bonjour"
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: .\templates\base.html:41
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23
 msgid "Log-in"
 msgstr "Connexion"
 
@@ -76,7 +187,6 @@ msgid "Share this post"
 msgstr "Partager cet article"
 
 #: .\templates\blog\post\detail.html:13
-#| msgid "Share a post"
 msgid "Similar posts"
 msgstr "Partager cet article"
 
@@ -97,12 +207,10 @@ msgid "There are no comments yet."
 msgstr "Il n'y a pas encore de commentaires."
 
 #: .\templates\blog\post\includes\comment_form.html:1
-#| msgid "Add a comment"
 msgid "Add a new comment"
 msgstr "Ajouter un commentaire"
 
 #: .\templates\blog\post\includes\comment_form.html:8
-#| msgid "Add a comment"
 msgid "Add comment"
 msgstr "Ajouter un commentaire"
 
@@ -131,7 +239,6 @@ msgid "Search for posts"
 msgstr "Recherche de postes"
 
 #: .\templates\blog\post\search.html:28
-#| msgid "Search again"
 msgid "Search"
 msgstr "Rechercher à nouveau"
 
@@ -156,6 +263,7 @@ msgid "by e-mail"
 msgstr "par courrier électronique"
 
 #: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
 msgstr "Envoyer un courriel"
 
@@ -170,6 +278,134 @@ msgstr "Page"
 #: .\templates\pagination.html:6
 msgid "Next"
 msgstr "Suivant"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "Déconnecté"
+
+#: .\templates\registration\logged_out.html:7
+#| msgid "Your account has been successfully created."
+msgid "You have been successfully logged out."
+msgstr "Votre commentaire a été ajouté."
+
+#: .\templates\registration\logged_out.html:8
+#| msgid "Now you can"
+msgid "You can"
+msgstr "Désormais, vous pouvez"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "se reconnecter"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "Votre nom d'utilisateur et votre mot de passe ne correspondent pas."
+
+#: .\templates\registration\login.html:9
+#| msgid "Search again"
+msgid "Please try again."
+msgstr "Rechercher à nouveau"
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "Veuillez utiliser le formulaire suivant pour vous connecter."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "Si vous n'avez pas de compte"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "s'inscrire ici"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+#| msgid "change your password"
+msgid "Forgotten your password?"
+msgstr "changer votre mot de passe"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Mot de passe modifié"
+
+#: .\templates\registration\password_change_done.html:6
+#| msgid "Your account has been successfully created."
+msgid "Your password has been successfully changed."
+msgstr "Votre commentaire a été ajouté."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+#| msgid "change your password"
+msgid "Change your password"
+msgstr "changer votre mot de passe"
+
+#: .\templates\registration\password_change_form.html:6
+#| msgid "change your password"
+msgid "Use the form below to change your password."
+msgstr "changer votre mot de passe"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "Réinitialisation du mot de passe"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "Mot de passe défini"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "Votre mot de passe a été défini. Vous pouvez"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+#| msgid "change your password"
+msgid "Reset your password"
+msgstr "changer votre mot de passe"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "Veuillez saisir deux fois votre nouveau mot de passe :"
+
+#: .\templates\registration\password_reset_confirm.html:12
+#| msgid "change your password"
+msgid "Change my password"
+msgstr "changer votre mot de passe"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Le lien de réinitialisation du mot de passe n'était pas valide, peut-être "
+"parce qu'il a déjà été utilisé. Veuillez demander une nouvelle "
+"réinitialisation du mot de passe."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr ""
+"Nous vous avons envoyé par courrier électronique des instructions pour "
+"définir votre mot de passe."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "Quelqu'un a demandé la réinitialisation du mot de passe pour l'email"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Suivez le lien ci-dessous :"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "Votre nom d'utilisateur, au cas où vous l'auriez oublié :"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "Saisissez votre adresse e-mail pour obtenir un nouveau mot de passe."
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
