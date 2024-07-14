@@ -67,7 +67,7 @@ ROOT_URLCONF = "AIMER2.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates", BASE_DIR / "templatetags"],
+        "DIRS": [BASE_DIR / "templates", BASE_DIR / "blog/templatetags"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
