@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-13 19:00+0200\n"
-"PO-Revision-Date: 2024-07-13 19:50+0000\n"
+"POT-Creation-Date: 2024-07-14 13:36+0200\n"
+"PO-Revision-Date: 2024-07-14 14:17+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -20,130 +20,187 @@ msgstr ""
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\AIMER2\settings.py:158
+msgid "Afrikaans"
+msgstr "أفريقي"
+
+#: .\AIMER2\settings.py:159
+msgid "Akan"
+msgstr "أكان"
+
+#: .\AIMER2\settings.py:160
 msgid "Arabic"
 msgstr "اللغة العربية"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:161
 msgid "Bulgarian"
 msgstr "البلغارية"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:162
 msgid "Brazilian"
 msgstr "برازيلي"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:163
 msgid "Czech"
 msgstr "التشيكية"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:164
 msgid "Danish"
 msgstr "دنماركية"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:165
 msgid "German"
 msgstr "الألمانية"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:166
 msgid "Estonian"
 msgstr "الإستونية"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:167
 msgid "English"
 msgstr "اللغة الإنجليزية"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:168
 msgid "Spanish"
 msgstr "الإسبانية"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:169
+msgid "Farsi"
+msgstr "الفارسية"
+
+#: .\AIMER2\settings.py:170
 msgid "Finnish"
 msgstr "الفنلندية"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:171
 msgid "French"
 msgstr "الفرنسية"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:172
 msgid "Greek"
 msgstr "اليونانية"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:173
+msgid "Hebrew"
+msgstr "العبرية"
+
+#: .\AIMER2\settings.py:174
+msgid "Hindi"
+msgstr "هندي"
+
+#: .\AIMER2\settings.py:175
 msgid "Hungarian"
 msgstr "الهنغارية"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:176
+msgid "Croatian"
+msgstr "الكرواتية"
+
+#: .\AIMER2\settings.py:177
+msgid "Armenian"
+msgstr "الرومانية"
+
+#: .\AIMER2\settings.py:178
 msgid "Indonesian"
 msgstr "الإندونيسية"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:179
 msgid "Italian"
 msgstr "إيطالي"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:180
 msgid "Japanese"
 msgstr "ياباني"
 
-#: .\AIMER2\settings.py:174
+#: .\AIMER2\settings.py:181
+msgid "Khmer"
+msgstr "الخمير"
+
+#: .\AIMER2\settings.py:182
 msgid "Lithuanian"
 msgstr "الليتوانية"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:183
 msgid "Latvian"
 msgstr "اللاتفية"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:184
 msgid "Korean"
 msgstr "كوري"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:185
+msgid "Mongolian"
+msgstr "المنغولية"
+
+#: .\AIMER2\settings.py:186
 msgid "Dutch"
 msgstr "اللغة الهولندية"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:187
 msgid "Norwegian"
 msgstr "النرويجية"
 
-#: .\AIMER2\settings.py:179
+#: .\AIMER2\settings.py:188
 msgid "Polish"
 msgstr "البولندية"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:189
 msgid "Portuguese"
 msgstr "البرتغالية"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:190
 msgid "Romanian"
 msgstr "الرومانية"
 
-#: .\AIMER2\settings.py:182
+#: .\AIMER2\settings.py:191
 msgid "Russian"
 msgstr "الروسية"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:192
 msgid "Swedish"
 msgstr "اللغة السويدية"
 
-#: .\AIMER2\settings.py:184
+#: .\AIMER2\settings.py:193
 msgid "Slovenian"
 msgstr "السلوفينية"
 
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:194
 msgid "Slovak"
 msgstr "السلوفاكية"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:195
+msgid "Albanian"
+msgstr "الرومانية"
+
+#: .\AIMER2\settings.py:196
+msgid "Serbian"
+msgstr "الصربية"
+
+#: .\AIMER2\settings.py:197
+msgid "Thai"
+msgstr "التايلاندية"
+
+#: .\AIMER2\settings.py:198
 msgid "Turkish"
 msgstr "اللغة التركية"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:199
 msgid "Ukrainian"
 msgstr "أوكراني"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:200
+msgid "Vietnamese"
+msgstr "الفيتنامية"
+
+#: .\AIMER2\settings.py:201
+msgid "Yiddish"
+msgstr "اليديشية"
+
+#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
 msgstr "الصينية المبسطة"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
 msgid "Dashboard"
 msgstr "لوحة التحكم"
 
@@ -157,13 +214,17 @@ msgstr "تسجيل الخروج"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "تسجيل الدخول"
 
 #: .\templates\base.html:59 .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
 msgstr "مدونة AIMER "
+
+#: .\templates\base.html:60
+msgid "Latest News"
+msgstr "آخر الأخبار"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
@@ -338,6 +399,10 @@ msgstr "تغيير كلمة المرور الخاصة بك"
 msgid "Use the form below to change your password."
 msgstr "استخدم النموذج أدناه لتغيير كلمة المرور الخاصة بك."
 
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "التغيير"
+
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
 msgstr "إعادة تعيين كلمة المرور"
@@ -349,6 +414,10 @@ msgstr "تعيين كلمة المرور"
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
 msgstr "تم تعيين كلمة المرور الخاصة بك. يمكنك"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "تسجيل الدخول الآن"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -379,6 +448,14 @@ msgid "We've emailed you instructions for setting your password."
 msgstr ""
 "لقد أرسلنا لك إرشادات عبر البريد الإلكتروني لتعيين كلمة المرور الخاصة بك."
 
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"إذا لم تصلك رسالة بريد إلكتروني، يُرجى التأكد من إدخال العنوان الذي قمت "
+"بالتسجيل به."
+
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
 msgstr "طلب شخص ما إعادة تعيين كلمة المرور للبريد الإلكتروني"
@@ -396,12 +473,50 @@ msgid "Enter your e-mail address to obtain a new password."
 msgstr "أدخل عنوان بريدك الإلكتروني للحصول على كلمة مرور جديدة."
 
 #: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "مرحباً بك في لوحة التحكم الخاصة بك. يمكنك"
+
+#: .\templates\website\dashboard.html:7
 msgid "edit your profile"
 msgstr "تعديل ملفك الشخصي"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
 msgstr "تغيير كلمة المرور الخاصة بك"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "تحرير حسابك"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "يمكنك تعديل حسابك باستخدام النموذج التالي:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: .\templates\website\login.html:6
+#| msgid "Please, use the following form to log-in."
+msgid "Please, use the following form to log-in:"
+msgstr "يُرجى استخدام النموذج التالي لتسجيل الدخول:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "تسجيل الدخول"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "إنشاء حساب"
+
+#: .\templates\website\register.html:6
+#| msgid "Please, use the following form to log-in."
+msgid "Please, sign up using the following form:"
+msgstr "يرجى التسجيل باستخدام النموذج التالي:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr "إنشاء حسابي"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5

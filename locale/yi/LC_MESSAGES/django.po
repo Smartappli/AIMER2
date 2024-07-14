@@ -1,0 +1,529 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-14 13:36+0200\n"
+"PO-Revision-Date: 2024-07-14 18:32+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\AIMER2\settings.py:158
+msgid "Afrikaans"
+msgstr "אַפֿריקאַנס"
+
+#: .\AIMER2\settings.py:159
+msgid "Akan"
+msgstr "אַקאַן"
+
+#: .\AIMER2\settings.py:160
+msgid "Arabic"
+msgstr "אַראַביש"
+
+#: .\AIMER2\settings.py:161
+msgid "Bulgarian"
+msgstr "בולגאַריש"
+
+#: .\AIMER2\settings.py:162
+msgid "Brazilian"
+msgstr "בראַזיליאַן"
+
+#: .\AIMER2\settings.py:163
+msgid "Czech"
+msgstr "טשעכיש"
+
+#: .\AIMER2\settings.py:164
+msgid "Danish"
+msgstr "דאַניש"
+
+#: .\AIMER2\settings.py:165
+msgid "German"
+msgstr "דײַטש"
+
+#: .\AIMER2\settings.py:166
+msgid "Estonian"
+msgstr "עסטיש"
+
+#: .\AIMER2\settings.py:167
+msgid "English"
+msgstr "ענגליש"
+
+#: .\AIMER2\settings.py:168
+msgid "Spanish"
+msgstr "שפּאַניש"
+
+#: .\AIMER2\settings.py:169
+msgid "Farsi"
+msgstr "פּערסיש"
+
+#: .\AIMER2\settings.py:170
+msgid "Finnish"
+msgstr "פֿיניש"
+
+#: .\AIMER2\settings.py:171
+msgid "French"
+msgstr "פראנצויזיש"
+
+#: .\AIMER2\settings.py:172
+msgid "Greek"
+msgstr "גריכיש"
+
+#: .\AIMER2\settings.py:173
+msgid "Hebrew"
+msgstr "העברעאיש"
+
+#: .\AIMER2\settings.py:174
+msgid "Hindi"
+msgstr "הינדיש"
+
+#: .\AIMER2\settings.py:175
+msgid "Hungarian"
+msgstr "אונגאַריש"
+
+#: .\AIMER2\settings.py:176
+msgid "Croatian"
+msgstr "קראָאַטיש"
+
+#: .\AIMER2\settings.py:177
+msgid "Armenian"
+msgstr "ארמאניש"
+
+#: .\AIMER2\settings.py:178
+msgid "Indonesian"
+msgstr "אינדאָנעזיש"
+
+#: .\AIMER2\settings.py:179
+msgid "Italian"
+msgstr "איטאַליעניש"
+
+#: .\AIMER2\settings.py:180
+msgid "Japanese"
+msgstr "יאַפּאַניש"
+
+#: .\AIMER2\settings.py:181
+msgid "Khmer"
+msgstr "כמער"
+
+#: .\AIMER2\settings.py:182
+msgid "Lithuanian"
+msgstr "ליטוויש"
+
+#: .\AIMER2\settings.py:183
+msgid "Latvian"
+msgstr "לעטיש"
+
+#: .\AIMER2\settings.py:184
+msgid "Korean"
+msgstr "קאָרעיִש"
+
+#: .\AIMER2\settings.py:185
+msgid "Mongolian"
+msgstr "מאָנגאָליש"
+
+#: .\AIMER2\settings.py:186
+msgid "Dutch"
+msgstr "האָלענדיש"
+
+#: .\AIMER2\settings.py:187
+msgid "Norwegian"
+msgstr "נאָרוועגיש"
+
+#: .\AIMER2\settings.py:188
+msgid "Polish"
+msgstr "פּויליש"
+
+#: .\AIMER2\settings.py:189
+msgid "Portuguese"
+msgstr "פּאָרטוגעזיש"
+
+#: .\AIMER2\settings.py:190
+msgid "Romanian"
+msgstr "רומעניש"
+
+#: .\AIMER2\settings.py:191
+msgid "Russian"
+msgstr "רוסיש"
+
+#: .\AIMER2\settings.py:192
+msgid "Swedish"
+msgstr "שוועדיש"
+
+#: .\AIMER2\settings.py:193
+msgid "Slovenian"
+msgstr "סלאָוועניש"
+
+#: .\AIMER2\settings.py:194
+msgid "Slovak"
+msgstr "סלאָוואַקיש"
+
+#: .\AIMER2\settings.py:195
+msgid "Albanian"
+msgstr "אַלבאַניש"
+
+#: .\AIMER2\settings.py:196
+msgid "Serbian"
+msgstr "סערביש"
+
+#: .\AIMER2\settings.py:197
+msgid "Thai"
+msgstr "טייַלענדיש"
+
+#: .\AIMER2\settings.py:198
+msgid "Turkish"
+msgstr "טערקיש"
+
+#: .\AIMER2\settings.py:199
+msgid "Ukrainian"
+msgstr "אוקראַיִניש"
+
+#: .\AIMER2\settings.py:200
+msgid "Vietnamese"
+msgstr "וויעטנאַמעזיש"
+
+#: .\AIMER2\settings.py:201
+msgid "Yiddish"
+msgstr "יידיש"
+
+#: .\AIMER2\settings.py:202
+msgid "Simplified Chinese"
+msgstr "סימפּליפיעד כינעזיש"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
+msgid "Dashboard"
+msgstr "דאַשבאָרד"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "העלא"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "קלאָץ אויס"
+
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+msgid "Log-in"
+msgstr "צייכן אריין"
+
+#: .\templates\base.html:59 .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER בלאָג"
+
+#: .\templates\base.html:60
+msgid "Latest News"
+msgstr "לעצטיגע נייעס"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "לייג אַ באַמערקונג"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "דיין באַמערקונג איז צוגעגעבן."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "צוריק צו דעם פּאָסטן"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "דורך"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "ייַנטיילן דעם פּאָסטן"
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr "ענלעכע הודעות"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "עס זענען נאָך קיין ענלעך אַרטיקלען."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "באַמערקונג"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "באַמערקונג"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "עס זענען נאָך קיין באַמערקונגען."
+
+#: .\templates\blog\post\includes\comment_form.html:1
+msgid "Add a new comment"
+msgstr "לייג אַ נייַע באַמערקונג"
+
+#: .\templates\blog\post\includes\comment_form.html:8
+msgid "Add comment"
+msgstr "לייג צו באַמערקן"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "לעצטע נייַעס"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "פֿאַרעפֿנטלעכט"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "הודעות מיט"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "עס זענען קיין רעזולטאַטן פֿאַר דיין אָנפֿרעג."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "זוכן ווידער"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "זוכן פֿאַר אַרטיקלען"
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr "זוכן"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "ייַנטיילן אַ פּאָסטן"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "- פּאָסט הצלחה געשיקט"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "איז הצלחה געשיקט צו"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "ייַנטיילן"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "דורך E- פּאָסט"
+
+#: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
+msgid "Send e-mail"
+msgstr "שיקן בליצפּאָסט"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "פֿריִערדיקע"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "בלאַט"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "ווייַטער"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "לאָגד אויס"
+
+#: .\templates\registration\logged_out.html:7
+msgid "You have been successfully logged out."
+msgstr "איר האָט שוין הצלחה לאָגד אויס."
+
+#: .\templates\registration\logged_out.html:8
+msgid "You can"
+msgstr "דו קענסט"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "קלאָץ אין ווידער"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "דיין נאמען און שפּריכוואָרט האָבן נישט שטימען."
+
+#: .\templates\registration\login.html:9
+msgid "Please try again."
+msgstr "ביטע פּרובירן ווידער."
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "ביטע נוצן די פאלגענדע פאָרעם צו קלאָץ אין."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "אויב איר טאָן ניט האָבן אַ חשבון"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "פאַרשרייַבן דאָ"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+msgid "Forgotten your password?"
+msgstr "פארגעסן דיין פּאַראָל?"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "שפּריכוואָרט געביטן"
+
+#: .\templates\registration\password_change_done.html:6
+msgid "Your password has been successfully changed."
+msgstr "דיין פּאַראָל איז הצלחה געביטן."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+msgid "Change your password"
+msgstr "טוישן דיין פּאַראָל"
+
+#: .\templates\registration\password_change_form.html:6
+msgid "Use the form below to change your password."
+msgstr "ניצן די פאָרעם אונטן צו טוישן דיין פּאַראָל."
+
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "טוישן"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "שפּריכוואָרט באַשטעטיק"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "שפּריכוואָרט שטעלן"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "דיין פּאַראָל איז באַשטימט. דו קענסט"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "קלאָץ אין איצט"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+msgid "Reset your password"
+msgstr "באַשטעטיק דיין פּאַראָל"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "ביטע אַרייַן דיין נייַ פּאַראָל צוויי מאָל:"
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "טוישן מיין פּאַראָל"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"די פּאַראָל באַשטעטיק לינק איז געווען פאַרקריפּלט, מעגלעך ווייַל עס איז שוין"
+" געניצט. ביטע בעטן אַ נייַ פּאַראָל באַשטעטיק."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr ""
+"מיר האָבן געשיקט E- בריוו אינסטרוקציעס פֿאַר באַשטעטיקן דיין פּאַראָל."
+
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"אויב איר טאָן ניט באַקומען אַן E- בריוו, ביטע מאַכן זיכער אַז איר האָט אריין"
+" די אַדרעס מיט וואָס איר רעגיסטרירט."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "עמעצער געבעטן פֿאַר פּאַראָל באַשטעטיק פֿאַר בליצפּאָסט"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "גיי די לינק אונטן:"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "דיין נאמען, אויב איר האָט פארגעסן:"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "אַרייַן דיין E- בריוו אַדרעס צו באַקומען אַ נייַ פּאַראָל."
+
+#: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "ברוכים הבאים צו דיין דאַשבאָרד. דו קענסט"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "רעדאַגירן דיין פּראָפיל"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "טוישן דיין פּאַראָל"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "רעדאַגירן דיין חשבון"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "איר קענט רעדאַגירן דיין חשבון מיט די פאלגענדע פאָרעם:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "האלט די טוישונגען"
+
+#: .\templates\website\login.html:6
+msgid "Please, use the following form to log-in:"
+msgstr "ביטע נוצן די פאלגענדע פאָרעם צו קלאָץ אין:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "צייכן אריין"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "שאַפֿן אַ חשבון"
+
+#: .\templates\website\register.html:6
+msgid "Please, sign up using the following form:"
+msgstr "ביטע צייכן אַרויף מיט די פאלגענדע פאָרעם:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr "שאַפֿן מיין חשבון"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "ברוכים הבאים"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "דיין חשבון איז הצלחה באשאפן."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "איצט איר קענען"

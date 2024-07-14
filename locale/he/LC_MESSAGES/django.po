@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-14 13:36+0200\n"
+"PO-Revision-Date: 2024-07-14 14:12+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\AIMER2\settings.py:158
+msgid "Afrikaans"
+msgstr "אפריקאנס"
+
+#: .\AIMER2\settings.py:159
+msgid "Akan"
+msgstr "אקן"
+
+#: .\AIMER2\settings.py:160
+msgid "Arabic"
+msgstr "עֲרָבִית"
+
+#: .\AIMER2\settings.py:161
+msgid "Bulgarian"
+msgstr "בולגרית"
+
+#: .\AIMER2\settings.py:162
+msgid "Brazilian"
+msgstr "ברזילאי"
+
+#: .\AIMER2\settings.py:163
+msgid "Czech"
+msgstr "צ'כית"
+
+#: .\AIMER2\settings.py:164
+msgid "Danish"
+msgstr "דַנִי"
+
+#: .\AIMER2\settings.py:165
+msgid "German"
+msgstr "גֶרמָנִיָת"
+
+#: .\AIMER2\settings.py:166
+msgid "Estonian"
+msgstr "אסטונית"
+
+#: .\AIMER2\settings.py:167
+msgid "English"
+msgstr "אנגלית"
+
+#: .\AIMER2\settings.py:168
+msgid "Spanish"
+msgstr "ספרדית"
+
+#: .\AIMER2\settings.py:169
+msgid "Farsi"
+msgstr "פרסית"
+
+#: .\AIMER2\settings.py:170
+msgid "Finnish"
+msgstr "פִינִית"
+
+#: .\AIMER2\settings.py:171
+msgid "French"
+msgstr "צָרְפָתִית"
+
+#: .\AIMER2\settings.py:172
+msgid "Greek"
+msgstr "יווני"
+
+#: .\AIMER2\settings.py:173
+msgid "Hebrew"
+msgstr "עִברִית"
+
+#: .\AIMER2\settings.py:174
+msgid "Hindi"
+msgstr "הינדי"
+
+#: .\AIMER2\settings.py:175
+msgid "Hungarian"
+msgstr "הוּנגָרִי"
+
+#: .\AIMER2\settings.py:176
+msgid "Croatian"
+msgstr "קרואטית"
+
+#: .\AIMER2\settings.py:177
+msgid "Armenian"
+msgstr "אַרְמֶנִי"
+
+#: .\AIMER2\settings.py:178
+msgid "Indonesian"
+msgstr "אינדונזית"
+
+#: .\AIMER2\settings.py:179
+msgid "Italian"
+msgstr "אִיטַלְקִית"
+
+#: .\AIMER2\settings.py:180
+msgid "Japanese"
+msgstr "יַפָּנִית"
+
+#: .\AIMER2\settings.py:181
+msgid "Khmer"
+msgstr "חמר"
+
+#: .\AIMER2\settings.py:182
+msgid "Lithuanian"
+msgstr "ליטאית"
+
+#: .\AIMER2\settings.py:183
+msgid "Latvian"
+msgstr "לטבית"
+
+#: .\AIMER2\settings.py:184
+msgid "Korean"
+msgstr "קוריאנית"
+
+#: .\AIMER2\settings.py:185
+msgid "Mongolian"
+msgstr "מוֹנגוֹלִי"
+
+#: .\AIMER2\settings.py:186
+msgid "Dutch"
+msgstr "הוֹלַנדִי"
+
+#: .\AIMER2\settings.py:187
+msgid "Norwegian"
+msgstr "נורבגית"
+
+#: .\AIMER2\settings.py:188
+msgid "Polish"
+msgstr "פולני"
+
+#: .\AIMER2\settings.py:189
+msgid "Portuguese"
+msgstr "פורטוגזית"
+
+#: .\AIMER2\settings.py:190
+msgid "Romanian"
+msgstr "רומנית"
+
+#: .\AIMER2\settings.py:191
+msgid "Russian"
+msgstr "רוּסִי"
+
+#: .\AIMER2\settings.py:192
+msgid "Swedish"
+msgstr "שוודית"
+
+#: .\AIMER2\settings.py:193
+msgid "Slovenian"
+msgstr "סלובנית"
+
+#: .\AIMER2\settings.py:194
+msgid "Slovak"
+msgstr "סלובקית"
+
+#: .\AIMER2\settings.py:195
+msgid "Albanian"
+msgstr "אלבני"
+
+#: .\AIMER2\settings.py:196
+msgid "Serbian"
+msgstr "סרבית"
+
+#: .\AIMER2\settings.py:197
+msgid "Thai"
+msgstr "תאילנדית"
+
+#: .\AIMER2\settings.py:198
+msgid "Turkish"
+msgstr "טורקי"
+
+#: .\AIMER2\settings.py:199
+msgid "Ukrainian"
+msgstr "אוקראינית"
+
+#: .\AIMER2\settings.py:200
+msgid "Vietnamese"
+msgstr "וייטנאמית"
+
+#: .\AIMER2\settings.py:201
+msgid "Yiddish"
+msgstr "אִידִישׁ"
+
+#: .\AIMER2\settings.py:202
+msgid "Simplified Chinese"
+msgstr "סינית פשוטה"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
+msgid "Dashboard"
+msgstr "לוּחַ מַחווָנִים"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "שלום"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "להתנתק"
+
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+msgid "Log-in"
+msgstr "התחברות"
+
+#: .\templates\base.html:59 .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "בלוג AIMER"
+
+#: .\templates\base.html:60
+msgid "Latest News"
+msgstr "חדשות אחרונות"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "הוסף תגובה"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "התגובה שלך נוספה."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "חזרה לפוסט"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "על ידי"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "שתף את הפוסט"
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr "פוסטים דומים"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "אין עדיין פוסטים דומים."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "תגובה"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "תגובה"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "אין תגובות עדיין."
+
+#: .\templates\blog\post\includes\comment_form.html:1
+msgid "Add a new comment"
+msgstr "הוסף תגובה חדשה"
+
+#: .\templates\blog\post\includes\comment_form.html:8
+msgid "Add comment"
+msgstr "הוסף תגובה"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "חדשות אחרונות"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "יצא לאור"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "פוסטים המכילים"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "אין תוצאות עבור השאילתה שלך."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "חפש שוב"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "חפש פוסטים"
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr "לחפש"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "שתף פוסט"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "דואר אלקטרוני נשלח בהצלחה"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "נשלח בהצלחה אל"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "לַחֲלוֹק"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "בדוא\"ל"
+
+#: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
+msgid "Send e-mail"
+msgstr "שלח אימייל"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "קודם"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "עמוד"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "הַבָּא"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "התנתק"
+
+#: .\templates\registration\logged_out.html:7
+msgid "You have been successfully logged out."
+msgstr "נותקת בהצלחה."
+
+#: .\templates\registration\logged_out.html:8
+msgid "You can"
+msgstr "אתה יכול"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "היכנס שוב"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "שם המשתמש והסיסמה שלך לא תאמו."
+
+#: .\templates\registration\login.html:9
+msgid "Please try again."
+msgstr "בבקשה נסה שוב."
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "אנא השתמש בטופס הבא כדי להתחבר."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "אם אין לך חשבון"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "הירשם כאן"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+msgid "Forgotten your password?"
+msgstr ""
+"שכחת את הסיסמה שלך?\n"
+"שכחת את הסיסמה של"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "סיסמא שונתה"
+
+#: .\templates\registration\password_change_done.html:6
+msgid "Your password has been successfully changed."
+msgstr "הסיסמה שלך שונתה בהצלחה."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+msgid "Change your password"
+msgstr "שנה את סיסמתך"
+
+#: .\templates\registration\password_change_form.html:6
+msgid "Use the form below to change your password."
+msgstr "השתמש בטופס למטה כדי לשנות את הסיסמה שלך."
+
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "שינוי"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "איפוס סיסמא"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "סיסמה מוגדרת"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "הסיסמה שלך הוגדרה. אתה יכול"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "התחבר עכשיו"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+msgid "Reset your password"
+msgstr "לאפס את הסיסמה שלך"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "אנא הזן את הסיסמה החדשה שלך פעמיים:"
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "שנה את הסיסמה שלי"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"הקישור לאיפוס הסיסמה היה לא חוקי, אולי בגלל שכבר נעשה בו שימוש. בבקשה בקש "
+"איפוס סיסמה חדשה."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr "שלחנו לך באימייל הוראות להגדרת הסיסמה שלך."
+
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr "אם אינך מקבל אימייל, אנא ודא שהזנת את הכתובת איתה נרשמת."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "מישהו ביקש איפוס סיסמה למייל"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "היכנסו לקישור למטה:"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "שם המשתמש שלך, למקרה ששכחת:"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "הזן את כתובת הדואר האלקטרוני שלך כדי לקבל סיסמה חדשה."
+
+#: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "ברוך הבא ללוח המחוונים שלך. אתה יכול"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "ערוך את הפרופיל שלך"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "שנה את סיסמתך"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "ערוך את החשבון שלך"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "אתה יכול לערוך את חשבונך באמצעות הטופס הבא:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "שמור שינויים"
+
+#: .\templates\website\login.html:6
+msgid "Please, use the following form to log-in:"
+msgstr "אנא השתמש בטופס הבא כדי להתחבר:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "התחברות"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "צור חשבון"
+
+#: .\templates\website\register.html:6
+msgid "Please, sign up using the following form:"
+msgstr "נא להירשם באמצעות הטופס הבא:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr ""
+"צור חשבון שלי\n"
+"\n"
+"צור חשבון שלי\n"
+"צור חשבון שלי"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "ברוך הבא"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "החשבון שלך נוצר בהצלחה."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "עכשיו אתה יכול"
