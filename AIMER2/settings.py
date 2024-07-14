@@ -18,7 +18,6 @@ from decouple import config
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
@@ -83,7 +82,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "AIMER2.wsgi.application"
 
-
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
@@ -128,7 +126,6 @@ DATABASES = {
     #    "HOST": config("WEBSITE_DB_HOST"),
     # },
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -204,7 +201,6 @@ LANGUAGES = (
 
 LOCALE_PATHS = (BASE_DIR / "locale",)
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
@@ -215,7 +211,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -243,3 +238,10 @@ LOGOUT_URL = "logout/"
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = "True"
+DEEPL_AUTH_KEY = "542cce7c-03e7-4407-9406-702c99388233:fx"
+DEEPL_LANGUAGES = {"zh_Hans": "zh", "de": "de", "en": "en", "bg": "bg", "fr": "fr", "it": "it", "cz": "cs", "da": "da",
+                   "es": "es", "ko": "ko", "hr": "hr", "id": "id", "fi": "fi", "ru": "ru", "se": "sv",
+                   "nl": "nl", "gr": "el", "ja": "ja", "si": "sl", "ee": "et", "br": "pt-br", "hu": "hu", "lt": "lt",
+                   "lv": "lv", "no": "nb", "pt": "pt-pt", "ro": "ro"}

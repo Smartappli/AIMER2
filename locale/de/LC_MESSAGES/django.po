@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 12:26+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-15 00:17+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,189 +19,207 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
 msgstr "Afrikaans"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
 msgid "Akan"
 msgstr "Akan"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Arabisch"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "Bulgarisch"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "Brasilianisch"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "Tschechisch"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "Dänisch"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "Deutsch"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "Estnisch"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "Englisch"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "Spanisch"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
 msgstr "Farsi"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "Finnisch"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
 msgstr "Französisch"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:169
 msgid "Greek"
 msgstr "Griechisch"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:170
 msgid "Hebrew"
 msgstr "Hebräisch"
 
-#: .\AIMER2\settings.py:174
+#: .\AIMER2\settings.py:171
 msgid "Hindi"
 msgstr "Hindi"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:172
 msgid "Hungarian"
 msgstr "Ungarisch"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:173
 msgid "Croatian"
 msgstr "Kroatisch"
 
-#: .\AIMER2\settings.py:177
-#, fuzzy
-#| msgid "Romanian"
+#: .\AIMER2\settings.py:174
 msgid "Armenian"
-msgstr "Rumänisch"
+msgstr "Armenisch"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:175
 msgid "Indonesian"
 msgstr "Indonesisch"
 
-#: .\AIMER2\settings.py:179
+#: .\AIMER2\settings.py:176
 msgid "Italian"
 msgstr "Italienisch"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:177
 msgid "Japanese"
 msgstr "Japanisch"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:178
 msgid "Khmer"
 msgstr "Khmer"
 
-#: .\AIMER2\settings.py:182
+#: .\AIMER2\settings.py:179
 msgid "Lithuanian"
 msgstr "Litauisch"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:180
 msgid "Latvian"
 msgstr "Lettisch"
 
-#: .\AIMER2\settings.py:184
+#: .\AIMER2\settings.py:181
 msgid "Korean"
 msgstr "Koreanisch"
 
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:182
 msgid "Mongolian"
 msgstr "Mongolisch"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:183
 msgid "Dutch"
 msgstr "Niederländisch"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:184
 msgid "Norwegian"
 msgstr "Norwegisch"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:185
 msgid "Polish"
 msgstr "Veröffentlicht"
 
-#: .\AIMER2\settings.py:189
+#: .\AIMER2\settings.py:186
 msgid "Portuguese"
 msgstr "Portugiesisch"
 
-#: .\AIMER2\settings.py:190
+#: .\AIMER2\settings.py:187
 msgid "Romanian"
 msgstr "Rumänisch"
 
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:188
 msgid "Russian"
 msgstr "Russisch"
 
-#: .\AIMER2\settings.py:192
+#: .\AIMER2\settings.py:189
 msgid "Swedish"
 msgstr "Schwedisch"
 
-#: .\AIMER2\settings.py:193
+#: .\AIMER2\settings.py:190
 msgid "Slovenian"
 msgstr "Slowenisch"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:191
 msgid "Slovak"
 msgstr "Slowakisch"
 
-#: .\AIMER2\settings.py:195
-#, fuzzy
-#| msgid "Romanian"
+#: .\AIMER2\settings.py:192
 msgid "Albanian"
-msgstr "Rumänisch"
+msgstr "Albanisch"
 
-#: .\AIMER2\settings.py:196
+#: .\AIMER2\settings.py:193
 msgid "Serbian"
 msgstr "Serbisch"
 
-#: .\AIMER2\settings.py:197
+#: .\AIMER2\settings.py:194
 msgid "Thai"
 msgstr "Thailändisch"
 
-#: .\AIMER2\settings.py:198
+#: .\AIMER2\settings.py:195
 msgid "Turkish"
 msgstr "Türkisch"
 
-#: .\AIMER2\settings.py:199
+#: .\AIMER2\settings.py:196
 msgid "Ukrainian"
 msgstr "Ukrainisch"
 
-#: .\AIMER2\settings.py:200
+#: .\AIMER2\settings.py:197
 msgid "Vietnamese"
 msgstr "Vietnamesisch"
 
-#: .\AIMER2\settings.py:201
+#: .\AIMER2\settings.py:198
 msgid "Yiddish"
 msgstr "Jiddisch"
 
-#: .\AIMER2\settings.py:202
+#: .\AIMER2\settings.py:199
 msgid "Simplified Chinese"
 msgstr "Vereinfachtes Chinesisch"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "AIMER-Verwaltung"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr ""
+"Künstliche Intelligenz für die medizinische Forschung - Portalverwaltung"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Willkommen im AIMER-Portal"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER-Blog"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Neueste Nachrichten"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
@@ -217,18 +235,10 @@ msgid "Logout"
 msgstr "Abmeldung"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Anmeldung"
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr "AIMER-Blog"
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
@@ -270,11 +280,11 @@ msgstr "Kommentar"
 msgid "There are no comments yet."
 msgstr "Es sind noch keine Kommentare vorhanden."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
 msgstr "Einen Kommentar hinzufügen"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
 msgstr "Einen Kommentar hinzufügen"
 
@@ -405,7 +415,7 @@ msgstr "Ihr Passwort ändern"
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "Ändern Sie"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
@@ -421,7 +431,7 @@ msgstr "Ihr Passwort wurde festgelegt. Sie können"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "jetzt anmelden"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -444,8 +454,8 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Der Link zum Zurücksetzen des Passworts war ungültig, möglicherweise weil er "
-"bereits verwendet wurde. Bitte fordern Sie ein neues Passwort an."
+"Der Link zum Zurücksetzen des Passworts war ungültig, möglicherweise weil er"
+" bereits verwendet wurde. Bitte fordern Sie ein neues Passwort an."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
@@ -458,6 +468,8 @@ msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
+"Wenn Sie keine E-Mail erhalten, vergewissern Sie sich bitte, dass Sie die "
+"Adresse eingegeben haben, mit der Sie sich registriert haben."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
@@ -477,7 +489,7 @@ msgstr "Geben Sie Ihre E-Mail-Adresse ein, um ein neues Passwort zu erhalten."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "Willkommen auf Ihrem Dashboard. Sie können"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
@@ -489,39 +501,35 @@ msgstr "Ihr Passwort ändern"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "Ihr Konto bearbeiten"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "Sie können Ihr Konto über das folgende Formular bearbeiten:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "Änderungen speichern"
 
 #: .\templates\website\login.html:6
-#, fuzzy
-#| msgid "Please, use the following form to log-in."
 msgid "Please, use the following form to log-in:"
-msgstr "Bitte benutzen Sie das folgende Formular, um sich einzuloggen."
+msgstr "Bitte benutzen Sie das folgende Formular, um sich einzuloggen:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "Einloggen"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "Ein Konto erstellen"
 
 #: .\templates\website\register.html:6
-#, fuzzy
-#| msgid "Please, use the following form to log-in."
 msgid "Please, sign up using the following form:"
-msgstr "Bitte benutzen Sie das folgende Formular, um sich einzuloggen."
+msgstr "Bitte melden Sie sich mit dem folgenden Formular an:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "Mein Konto erstellen"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5

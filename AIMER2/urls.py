@@ -19,8 +19,13 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.urls import include, path
+from django.utils.translation import gettext_lazy as _
 
 from blog.sitemaps import PostSitemap, TagSitemap
+
+admin.site.site_header = _("AIMER Administration")
+admin.site.site_title = _("Artificial Intelligence for Medical Research - Portal Administration")
+admin.site.index_title = _("Welcome to AIMER Portal")
 
 sitemaps = {
     "posts": PostSitemap,

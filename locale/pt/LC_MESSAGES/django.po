@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 07:47+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-15 00:51+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,405 +19,419 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
-msgstr ""
+msgstr "Africano"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
 msgid "Akan"
-msgstr ""
+msgstr "Vontade"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Árabe"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "Búlgaro"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "Brasileiro"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "Tcheco"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "Dinamarquês"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "Alemão"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "Estoniano"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "Inglês"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "Espanhol"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
-msgstr ""
+msgstr "Farsi"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "Finlandês"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
-msgstr ""
+msgstr "francês"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "grego"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "hebraico"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
 
 #: .\AIMER2\settings.py:172
-msgid "Greek"
-msgstr ""
+msgid "Hungarian"
+msgstr "húngaro"
 
 #: .\AIMER2\settings.py:173
-msgid "Hebrew"
-msgstr ""
+msgid "Croatian"
+msgstr "croata"
 
 #: .\AIMER2\settings.py:174
-msgid "Hindi"
-msgstr ""
+msgid "Armenian"
+msgstr "arménio"
 
 #: .\AIMER2\settings.py:175
-msgid "Hungarian"
-msgstr ""
+msgid "Indonesian"
+msgstr "Indonésio"
 
 #: .\AIMER2\settings.py:176
-msgid "Croatian"
-msgstr ""
+msgid "Italian"
+msgstr "italiano"
 
 #: .\AIMER2\settings.py:177
-msgid "Armenian"
-msgstr ""
+msgid "Japanese"
+msgstr "Japonês"
 
 #: .\AIMER2\settings.py:178
-msgid "Indonesian"
-msgstr ""
+msgid "Khmer"
+msgstr "Khmer"
 
 #: .\AIMER2\settings.py:179
-msgid "Italian"
-msgstr ""
+msgid "Lithuanian"
+msgstr "Lituano"
 
 #: .\AIMER2\settings.py:180
-msgid "Japanese"
-msgstr ""
+msgid "Latvian"
+msgstr "Letão"
 
 #: .\AIMER2\settings.py:181
-msgid "Khmer"
-msgstr ""
+msgid "Korean"
+msgstr "Coreano"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "Mongol"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "Holandês"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+msgid "Norwegian"
+msgstr "Norueguês"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
+msgid "Polish"
+msgstr "Polaco"
 
 #: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
+msgid "Portuguese"
+msgstr "Portuguese"
 
 #: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
+msgid "Romanian"
+msgstr "Romeno"
 
 #: .\AIMER2\settings.py:188
-msgid "Polish"
-msgstr ""
+msgid "Russian"
+msgstr "Russo"
 
 #: .\AIMER2\settings.py:189
-msgid "Portuguese"
-msgstr ""
+msgid "Swedish"
+msgstr "Sueco"
 
 #: .\AIMER2\settings.py:190
-msgid "Romanian"
-msgstr ""
+msgid "Slovenian"
+msgstr "Esloveno"
 
 #: .\AIMER2\settings.py:191
-msgid "Russian"
-msgstr ""
+msgid "Slovak"
+msgstr "Eslovaco"
 
 #: .\AIMER2\settings.py:192
-msgid "Swedish"
-msgstr ""
+msgid "Albanian"
+msgstr "Albanês"
 
 #: .\AIMER2\settings.py:193
-msgid "Slovenian"
-msgstr ""
+msgid "Serbian"
+msgstr "Sérvio"
 
 #: .\AIMER2\settings.py:194
-msgid "Slovak"
-msgstr ""
+msgid "Thai"
+msgstr "Tailandês"
 
 #: .\AIMER2\settings.py:195
-msgid "Albanian"
-msgstr ""
+msgid "Turkish"
+msgstr "Turco"
 
 #: .\AIMER2\settings.py:196
-msgid "Serbian"
-msgstr ""
+msgid "Ukrainian"
+msgstr "ucraniano"
 
 #: .\AIMER2\settings.py:197
-msgid "Thai"
-msgstr ""
+msgid "Vietnamese"
+msgstr "vietnamita"
 
 #: .\AIMER2\settings.py:198
-msgid "Turkish"
-msgstr ""
+msgid "Yiddish"
+msgstr "Iídiche"
 
 #: .\AIMER2\settings.py:199
-msgid "Ukrainian"
-msgstr ""
-
-#: .\AIMER2\settings.py:200
-msgid "Vietnamese"
-msgstr ""
-
-#: .\AIMER2\settings.py:201
-msgid "Yiddish"
-msgstr ""
-
-#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
+msgstr "Chinês simplificado"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "Administração AIMER"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
+"Inteligência Artificial para a Investigação Médica - Administração do Portal"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Bem-vindo ao Portal AIMER"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "Blogue AIMER"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Últimas notícias"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel de controlo"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr ""
+msgstr "Olá"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr ""
+msgstr "Terminar sessão"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
+msgstr "Iniciar sessão"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "Adicionar um comentário"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "O seu comentário foi adicionado."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "Voltar ao post"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "Partilhar esta publicação"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "Mensagens semelhantes"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "Ainda não existem mensagens semelhantes."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "como"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "Como fazer"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "Ainda não existem comentários."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "Adicionar um novo comentário"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "Adicionar comentário"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "Últimas notícias"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "Publicado"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "Mensagens que contêm"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "Não existem resultados para a sua consulta."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "Pesquisar novamente"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "Procurar mensagens"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "Pesquisar"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "Partilhar uma publicação"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "E-mail enviado com sucesso"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "foi enviado com sucesso para"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "Partilhar"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "por correio eletrónico"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "Enviar e-mail"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "Seguinte"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "Registado"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "A sua sessão foi terminada com sucesso."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "Pode"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "iniciar sessão novamente"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "O seu nome de utilizador e a sua palavra-passe não coincidem."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "Por favor, tente novamente."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "Utilize o seguinte formulário para iniciar sessão."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "Se não tiver uma conta"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "registar-se aqui"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Esqueceu-se da sua palavra-passe?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "Palavra-passe alterada"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "A sua palavra-passe foi alterada com sucesso."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "Alterar a sua palavra-passe"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "Utilize o formulário abaixo para alterar a sua palavra-passe."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "Alterar"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "Redefinição da palavra-passe"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "Palavra-passe definida"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "A sua palavra-passe foi definida. Pode"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "iniciar sessão agora"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -425,101 +439,108 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "Repor a sua palavra-passe"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "Introduza a sua nova palavra-passe duas vezes:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "Alterar a minha palavra-passe"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"A ligação de redefinição da palavra-passe era inválida, possivelmente por já"
+" ter sido utilizada. Solicite uma nova reposição da palavra-passe."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
 msgstr ""
+"Enviámos-lhe um e-mail com instruções para definir a sua palavra-passe."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
+"Se não receber uma mensagem de correio eletrónico, certifique-se de que "
+"introduziu o endereço com que se registou."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "Alguém pediu a reposição da palavra-passe para o correio eletrónico"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "Siga a ligação abaixo:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "O seu nome de utilizador, caso se tenha esquecido:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
 msgstr ""
+"Introduza o seu endereço de correio eletrónico para obter uma nova palavra-"
+"passe."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "Bem-vindo ao seu painel de controlo. Pode"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr ""
+msgstr "editar o seu perfil"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "alterar a sua palavra-passe"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "Editar a sua conta"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "Pode editar a sua conta utilizando o seguinte formulário:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "Guardar alterações"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "Utilize o seguinte formulário para iniciar sessão:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "Iniciar sessão"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "Criar uma conta"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "Por favor, inscreva-se utilizando o seguinte formulário:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "Criar a minha conta"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "Bem-vindo"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "A sua conta foi criada com sucesso."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "Agora pode"

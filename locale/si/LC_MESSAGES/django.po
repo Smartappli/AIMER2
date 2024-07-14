@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 07:56+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-15 00:24+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,405 +18,419 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
-msgstr ""
+msgstr "Afriški"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
+#, fuzzy
 msgid "Akan"
-msgstr ""
+msgstr "Will"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Arabščina"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "Bolgarski"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "Brazilski"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "češki"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "Danski"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "Nemščina"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "Estonščina"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "Angleščina"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "španščina"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
-msgstr ""
+msgstr "Farsi"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "Finščina"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
-msgstr ""
+msgstr "Francoski"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Grški"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "Hebrejščina"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
 
 #: .\AIMER2\settings.py:172
-msgid "Greek"
-msgstr ""
+msgid "Hungarian"
+msgstr "Madžarski"
 
 #: .\AIMER2\settings.py:173
-msgid "Hebrew"
-msgstr ""
+msgid "Croatian"
+msgstr "Hrvaška"
 
 #: .\AIMER2\settings.py:174
-msgid "Hindi"
-msgstr ""
+msgid "Armenian"
+msgstr "Armenski"
 
 #: .\AIMER2\settings.py:175
-msgid "Hungarian"
-msgstr ""
+msgid "Indonesian"
+msgstr "Indonezijski"
 
 #: .\AIMER2\settings.py:176
-msgid "Croatian"
-msgstr ""
+msgid "Italian"
+msgstr "Italijanski"
 
 #: .\AIMER2\settings.py:177
-msgid "Armenian"
-msgstr ""
+msgid "Japanese"
+msgstr "Japonski"
 
 #: .\AIMER2\settings.py:178
-msgid "Indonesian"
-msgstr ""
+msgid "Khmer"
+msgstr "Kmeri"
 
 #: .\AIMER2\settings.py:179
-msgid "Italian"
-msgstr ""
+msgid "Lithuanian"
+msgstr "Litvanski"
 
 #: .\AIMER2\settings.py:180
-msgid "Japanese"
-msgstr ""
+msgid "Latvian"
+msgstr "Latvijski"
 
 #: .\AIMER2\settings.py:181
-msgid "Khmer"
-msgstr ""
+msgid "Korean"
+msgstr "Korejski"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "Mongolski"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "Nizozemska"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+msgid "Norwegian"
+msgstr "Norveški"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
+msgid "Polish"
+msgstr "Poljski"
 
 #: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
+msgid "Portuguese"
+msgstr "Portugalska"
 
 #: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
+msgid "Romanian"
+msgstr "Romunski"
 
 #: .\AIMER2\settings.py:188
-msgid "Polish"
-msgstr ""
+msgid "Russian"
+msgstr "Ruski"
 
 #: .\AIMER2\settings.py:189
-msgid "Portuguese"
-msgstr ""
+msgid "Swedish"
+msgstr "Švedski"
 
 #: .\AIMER2\settings.py:190
-msgid "Romanian"
-msgstr ""
+msgid "Slovenian"
+msgstr "Slovenski"
 
 #: .\AIMER2\settings.py:191
-msgid "Russian"
-msgstr ""
+msgid "Slovak"
+msgstr "Slovaška"
 
 #: .\AIMER2\settings.py:192
-msgid "Swedish"
-msgstr ""
+msgid "Albanian"
+msgstr "Albanski"
 
 #: .\AIMER2\settings.py:193
-msgid "Slovenian"
-msgstr ""
+msgid "Serbian"
+msgstr "Srbski"
 
 #: .\AIMER2\settings.py:194
-msgid "Slovak"
-msgstr ""
+msgid "Thai"
+msgstr "Thai"
 
 #: .\AIMER2\settings.py:195
-msgid "Albanian"
-msgstr ""
+msgid "Turkish"
+msgstr "Turški"
 
 #: .\AIMER2\settings.py:196
-msgid "Serbian"
-msgstr ""
+msgid "Ukrainian"
+msgstr "Ukrajinski"
 
 #: .\AIMER2\settings.py:197
-msgid "Thai"
-msgstr ""
+msgid "Vietnamese"
+msgstr "Vietnamski"
 
 #: .\AIMER2\settings.py:198
-msgid "Turkish"
-msgstr ""
+msgid "Yiddish"
+msgstr "Jidiš"
 
 #: .\AIMER2\settings.py:199
-msgid "Ukrainian"
-msgstr ""
-
-#: .\AIMER2\settings.py:200
-msgid "Vietnamese"
-msgstr ""
-
-#: .\AIMER2\settings.py:201
-msgid "Yiddish"
-msgstr ""
-
-#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
-msgstr ""
+msgstr "Poenostavljena kitajščina"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "Uprava programa AIMER"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "Umetna inteligenca za medicinske raziskave - Administracija portala"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Dobrodošli na portalu AIMER"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER Blog"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Najnovejše novice"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Nadzorna plošča"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr ""
+msgstr "Pozdravljeni"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr ""
+msgstr "Odjava"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
+msgstr "Prijava"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "Dodajte komentar"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "Vaš komentar je bil dodan."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "Nazaj na delovno mesto"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "po"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "Delite to objavo"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "Podobne objave"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "Podobnih objav še ni."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "kako"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "Kako"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "Komentarjev še ni."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "Dodaj nov komentar"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "Dodaj komentar"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "Zadnje novice"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "Objavljeno"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "Prispevki, ki vsebujejo"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "Za vašo poizvedbo ni rezultatov."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "Ponovno iskanje"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "Iskanje objav"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "Iskanje"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "Delite objavo"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "E-pošta je bila uspešno poslana"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "je bil uspešno poslan v"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "Delite"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "po e-pošti"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "Pošlji e-pošto"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "Prejšnji"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "Stran"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "Naslednji"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "Odjavljen"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "Uspešno ste se odjavili."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "Lahko"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "ponovno se prijavite"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "Vaše uporabniško ime in geslo se nista ujemala."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "Poskusite znova."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "Za prijavo uporabite naslednji obrazec."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "Če nimate računa"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "registrirajte se tukaj"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Ste pozabili geslo?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "Spremenjeno geslo"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "Vaše geslo je bilo uspešno spremenjeno."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "Spremenite geslo"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "Za spremembo gesla uporabite spodnji obrazec."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "Sprememba"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "Ponastavitev gesla"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "Nastavljeno geslo"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "Vaše geslo je bilo nastavljeno. Lahko"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "prijavite se zdaj"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -424,101 +438,105 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "Ponastavitev gesla"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "Novo geslo vnesite dvakrat:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "Spremeni moje geslo"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"Povezava za ponastavitev gesla je bila neveljavna, morda zato, ker je bila "
+"že uporabljena. Zahtevajte novo ponastavitev gesla."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
+msgstr "Pošiljamo vam navodila za nastavitev gesla."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
+"Če ne prejmete e-poštnega sporočila, se prepričajte, da ste vnesli naslov, s"
+" katerim ste se registrirali."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "Nekdo je zahteval ponastavitev gesla za e-pošto"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "Sledite spodnji povezavi:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "Vaše uporabniško ime, če ste ga pozabili:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr ""
+msgstr "Za pridobitev novega gesla vnesite svoj e-poštni naslov."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "Dobrodošli na armaturni plošči. Lahko"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr ""
+msgstr "uredite svoj profil"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "spremenite svoje geslo"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "Uredite svoj račun"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "Svoj račun lahko urejate prek naslednjega obrazca:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "Shranjevanje sprememb"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "Za prijavo uporabite naslednji obrazec:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "Prijavite se"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "Ustvarite račun"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "Prijavite se prek naslednjega obrazca:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "Ustvari moj račun"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "Dobrodošli"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "Vaš račun je bil uspešno ustvarjen."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "Zdaj lahko"

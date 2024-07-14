@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 07:45+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-14 22:58+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,405 +19,422 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
-msgstr ""
+msgstr "아프리카"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
+#, fuzzy
 msgid "Akan"
-msgstr ""
+msgstr "Will"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "아라비아 말"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "불가리아 사람"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "브라질 사람"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "체코 사람"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "덴마크 말"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "독일 사람"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "에스토니아 사람"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "영어"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "스페인의"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
+#, fuzzy
 msgid "Farsi"
-msgstr ""
+msgstr "Farsi"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "핀란드어"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
-msgstr ""
+msgstr "프랑스어"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "그리스어"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "히브리어"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "힌디어"
 
 #: .\AIMER2\settings.py:172
-msgid "Greek"
-msgstr ""
+msgid "Hungarian"
+msgstr "헝가리어"
 
 #: .\AIMER2\settings.py:173
-msgid "Hebrew"
-msgstr ""
+msgid "Croatian"
+msgstr "크로아티아어"
 
 #: .\AIMER2\settings.py:174
-msgid "Hindi"
-msgstr ""
+msgid "Armenian"
+msgstr "아르메니아어"
 
 #: .\AIMER2\settings.py:175
-msgid "Hungarian"
-msgstr ""
+msgid "Indonesian"
+msgstr "인도네시아어"
 
 #: .\AIMER2\settings.py:176
-msgid "Croatian"
-msgstr ""
+msgid "Italian"
+msgstr "이탈리아어"
 
 #: .\AIMER2\settings.py:177
-msgid "Armenian"
-msgstr ""
+msgid "Japanese"
+msgstr "일본어"
 
 #: .\AIMER2\settings.py:178
-msgid "Indonesian"
-msgstr ""
+msgid "Khmer"
+msgstr "크메르어"
 
 #: .\AIMER2\settings.py:179
-msgid "Italian"
-msgstr ""
+msgid "Lithuanian"
+msgstr "리투아니아어"
 
 #: .\AIMER2\settings.py:180
-msgid "Japanese"
-msgstr ""
+msgid "Latvian"
+msgstr "라트비아어"
 
 #: .\AIMER2\settings.py:181
-msgid "Khmer"
-msgstr ""
+msgid "Korean"
+msgstr "한국어"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "몽골어"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "네덜란드어"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+#, fuzzy
+msgid "Norwegian"
+msgstr "Norwegian"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
+msgid "Polish"
+msgstr "폴란드어"
 
 #: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
+msgid "Portuguese"
+msgstr "포르투갈어"
 
 #: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
+msgid "Romanian"
+msgstr "루마니아어"
 
 #: .\AIMER2\settings.py:188
-msgid "Polish"
-msgstr ""
+msgid "Russian"
+msgstr "러시아어"
 
 #: .\AIMER2\settings.py:189
-msgid "Portuguese"
-msgstr ""
+msgid "Swedish"
+msgstr "스웨덴어"
 
 #: .\AIMER2\settings.py:190
-msgid "Romanian"
-msgstr ""
+msgid "Slovenian"
+msgstr "슬로베니아어"
 
 #: .\AIMER2\settings.py:191
-msgid "Russian"
-msgstr ""
+msgid "Slovak"
+msgstr "슬로바키아어"
 
 #: .\AIMER2\settings.py:192
-msgid "Swedish"
-msgstr ""
+msgid "Albanian"
+msgstr "알바니아어"
 
 #: .\AIMER2\settings.py:193
-msgid "Slovenian"
-msgstr ""
+msgid "Serbian"
+msgstr "세르비아어"
 
 #: .\AIMER2\settings.py:194
-msgid "Slovak"
-msgstr ""
+#, fuzzy
+msgid "Thai"
+msgstr "Thai"
 
 #: .\AIMER2\settings.py:195
-msgid "Albanian"
-msgstr ""
+msgid "Turkish"
+msgstr "터키어"
 
 #: .\AIMER2\settings.py:196
-msgid "Serbian"
-msgstr ""
+msgid "Ukrainian"
+msgstr "우크라이나어"
 
 #: .\AIMER2\settings.py:197
-msgid "Thai"
-msgstr ""
+msgid "Vietnamese"
+msgstr "베트남어"
 
 #: .\AIMER2\settings.py:198
-msgid "Turkish"
-msgstr ""
+msgid "Yiddish"
+msgstr "이디시어"
 
 #: .\AIMER2\settings.py:199
-msgid "Ukrainian"
-msgstr ""
-
-#: .\AIMER2\settings.py:200
-msgid "Vietnamese"
-msgstr ""
-
-#: .\AIMER2\settings.py:201
-msgid "Yiddish"
-msgstr ""
-
-#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
+msgstr "중국어 간체"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
 msgstr ""
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr ""
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER 블로그"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "최신 뉴스"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "대시보드"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr ""
+msgstr "안녕하세요"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr ""
+msgstr "로그아웃"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
 #: .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
+msgstr "로그인"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "댓글 추가"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "댓글이 추가되었습니다."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "게시물로 돌아가기"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "by"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "이 게시물 공유하기"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "유사한 게시물"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "아직 비슷한 게시물이 없습니다."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "어떻게"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "방법"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "아직 댓글이 없습니다."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "새 댓글 추가"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "댓글 추가"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "최근 뉴스"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "게시됨"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "다음이 포함된 게시물"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "검색어에 대한 결과가 없습니다."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "다시 검색"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "게시물 검색"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "검색"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "게시물 공유"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "이메일이 성공적으로 전송되었습니다."
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "로 성공적으로 전송되었습니다."
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "공유"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "이메일로"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "이메일 보내기"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "이전 게시물"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "페이지"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "로그아웃"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "로그아웃에 성공했습니다."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "다음을 수행할 수 있습니다."
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "다시 로그인"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "사용자 아이디와 비밀번호가 일치하지 않습니다."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "다시 시도해 주세요."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "다음 양식을 사용하여 로그인하세요."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "계정이 없는 경우"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "여기에서 등록하기"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "비밀번호를 잊어버리셨나요?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "비밀번호 변경"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "비밀번호가 성공적으로 변경되었습니다."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "비밀번호 변경"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "비밀번호를 변경하려면 아래 양식을 사용하세요."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "변경"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "비밀번호 재설정"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "비밀번호 설정"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "비밀번호가 설정되었습니다. 다음을 수행할 수 있습니다."
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "지금 로그인"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -425,101 +442,103 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "비밀번호 재설정"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "새 비밀번호를 두 번 입력하세요:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "비밀번호 변경"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"비밀번호 재설정 링크가 이미 사용되었기 때문에 유효하지 않습니다. 새 비밀번호 "
+"재설정을 요청하세요."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
+msgstr "비밀번호 설정에 대한 안내를 이메일로 보내드렸습니다."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
-msgstr ""
+msgstr "이메일을 받지 못한 경우 등록한 주소가 맞는지 확인하세요."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "누군가 이메일 비밀번호 재설정을 요청했습니다."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "아래 링크를 따라가세요:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "잊어버렸을 경우를 대비하여 사용자 아이디를 입력합니다:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr ""
+msgstr "새 비밀번호를 받으려면 이메일 주소를 입력하세요."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "대시보드에 오신 것을 환영합니다. 다음을 수행할 수 있습니다."
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr ""
+msgstr "프로필 수정"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "비밀번호 변경"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "계정 수정"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "다음 양식을 사용하여 계정을 수정할 수 있습니다:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "변경 사항 저장"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "다음 양식을 사용하여 로그인하세요:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "로그인"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "계정 만들기"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "다음 양식을 사용하여 가입하세요:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "내 계정 만들기"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "환영"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "계정이 성공적으로 생성되었습니다."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "이제 다음을 수행할 수 있습니다."

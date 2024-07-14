@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
 "PO-Revision-Date: 2024-07-14 18:32+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,185 +18,206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
 msgstr "אַפֿריקאַנס"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
 msgid "Akan"
 msgstr "אַקאַן"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "אַראַביש"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "בולגאַריש"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "בראַזיליאַן"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "טשעכיש"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "דאַניש"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "דײַטש"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "עסטיש"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "ענגליש"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "שפּאַניש"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
 msgstr "פּערסיש"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "פֿיניש"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
 msgstr "פראנצויזיש"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:169
 msgid "Greek"
 msgstr "גריכיש"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:170
 msgid "Hebrew"
 msgstr "העברעאיש"
 
-#: .\AIMER2\settings.py:174
+#: .\AIMER2\settings.py:171
 msgid "Hindi"
 msgstr "הינדיש"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:172
 msgid "Hungarian"
 msgstr "אונגאַריש"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:173
 msgid "Croatian"
 msgstr "קראָאַטיש"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:174
 msgid "Armenian"
 msgstr "ארמאניש"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:175
 msgid "Indonesian"
 msgstr "אינדאָנעזיש"
 
-#: .\AIMER2\settings.py:179
+#: .\AIMER2\settings.py:176
 msgid "Italian"
 msgstr "איטאַליעניש"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:177
 msgid "Japanese"
 msgstr "יאַפּאַניש"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:178
 msgid "Khmer"
 msgstr "כמער"
 
-#: .\AIMER2\settings.py:182
+#: .\AIMER2\settings.py:179
 msgid "Lithuanian"
 msgstr "ליטוויש"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:180
 msgid "Latvian"
 msgstr "לעטיש"
 
-#: .\AIMER2\settings.py:184
+#: .\AIMER2\settings.py:181
 msgid "Korean"
 msgstr "קאָרעיִש"
 
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:182
 msgid "Mongolian"
 msgstr "מאָנגאָליש"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:183
 msgid "Dutch"
 msgstr "האָלענדיש"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:184
 msgid "Norwegian"
 msgstr "נאָרוועגיש"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:185
 msgid "Polish"
 msgstr "פּויליש"
 
-#: .\AIMER2\settings.py:189
+#: .\AIMER2\settings.py:186
 msgid "Portuguese"
 msgstr "פּאָרטוגעזיש"
 
-#: .\AIMER2\settings.py:190
+#: .\AIMER2\settings.py:187
 msgid "Romanian"
 msgstr "רומעניש"
 
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:188
 msgid "Russian"
 msgstr "רוסיש"
 
-#: .\AIMER2\settings.py:192
+#: .\AIMER2\settings.py:189
 msgid "Swedish"
 msgstr "שוועדיש"
 
-#: .\AIMER2\settings.py:193
+#: .\AIMER2\settings.py:190
 msgid "Slovenian"
 msgstr "סלאָוועניש"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:191
 msgid "Slovak"
 msgstr "סלאָוואַקיש"
 
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:192
 msgid "Albanian"
 msgstr "אַלבאַניש"
 
-#: .\AIMER2\settings.py:196
+#: .\AIMER2\settings.py:193
 msgid "Serbian"
 msgstr "סערביש"
 
-#: .\AIMER2\settings.py:197
+#: .\AIMER2\settings.py:194
 msgid "Thai"
 msgstr "טייַלענדיש"
 
-#: .\AIMER2\settings.py:198
+#: .\AIMER2\settings.py:195
 msgid "Turkish"
 msgstr "טערקיש"
 
-#: .\AIMER2\settings.py:199
+#: .\AIMER2\settings.py:196
 msgid "Ukrainian"
 msgstr "אוקראַיִניש"
 
-#: .\AIMER2\settings.py:200
+#: .\AIMER2\settings.py:197
 msgid "Vietnamese"
 msgstr "וויעטנאַמעזיש"
 
-#: .\AIMER2\settings.py:201
+#: .\AIMER2\settings.py:198
 msgid "Yiddish"
 msgstr "יידיש"
 
-#: .\AIMER2\settings.py:202
+#: .\AIMER2\settings.py:199
 msgid "Simplified Chinese"
 msgstr "סימפּליפיעד כינעזיש"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr ""
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER בלאָג"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "לעצטיגע נייעס"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
@@ -212,18 +233,10 @@ msgid "Logout"
 msgstr "קלאָץ אויס"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
+#: .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "צייכן אריין"
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr "AIMER בלאָג"
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr "לעצטיגע נייעס"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
@@ -265,11 +278,11 @@ msgstr "באַמערקונג"
 msgid "There are no comments yet."
 msgstr "עס זענען נאָך קיין באַמערקונגען."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
 msgstr "לייג אַ נייַע באַמערקונג"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
 msgstr "לייג צו באַמערקן"
 
@@ -439,21 +452,20 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"די פּאַראָל באַשטעטיק לינק איז געווען פאַרקריפּלט, מעגלעך ווייַל עס איז שוין"
-" געניצט. ביטע בעטן אַ נייַ פּאַראָל באַשטעטיק."
+"די פּאַראָל באַשטעטיק לינק איז געווען פאַרקריפּלט, מעגלעך ווייַל עס איז שוין "
+"געניצט. ביטע בעטן אַ נייַ פּאַראָל באַשטעטיק."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
-"מיר האָבן געשיקט E- בריוו אינסטרוקציעס פֿאַר באַשטעטיקן דיין פּאַראָל."
+msgstr "מיר האָבן געשיקט E- בריוו אינסטרוקציעס פֿאַר באַשטעטיקן דיין פּאַראָל."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
-"אויב איר טאָן ניט באַקומען אַן E- בריוו, ביטע מאַכן זיכער אַז איר האָט אריין"
-" די אַדרעס מיט וואָס איר רעגיסטרירט."
+"אויב איר טאָן ניט באַקומען אַן E- בריוו, ביטע מאַכן זיכער אַז איר האָט אריין די "
+"אַדרעס מיט וואָס איר רעגיסטרירט."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"

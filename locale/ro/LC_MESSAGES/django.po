@@ -8,417 +8,433 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 07:50+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-15 01:01+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
-"2:1));\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
-msgstr ""
+msgstr "African"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
+#, fuzzy
 msgid "Akan"
-msgstr ""
+msgstr "Will"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Arabic"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "Bulgară"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "Brazilian"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "Ceh"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "Danez"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "Limba germana"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "Estonă"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "Engleză"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "Spaniolă"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
+#, fuzzy
 msgid "Farsi"
-msgstr ""
+msgstr "Farsi"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "Finlandeză"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
-msgstr ""
+msgstr "franceză"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Greacă"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "ebraică"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
 
 #: .\AIMER2\settings.py:172
-msgid "Greek"
-msgstr ""
+msgid "Hungarian"
+msgstr "maghiară"
 
 #: .\AIMER2\settings.py:173
-msgid "Hebrew"
-msgstr ""
+msgid "Croatian"
+msgstr "croată"
 
 #: .\AIMER2\settings.py:174
-msgid "Hindi"
-msgstr ""
+msgid "Armenian"
+msgstr "armeană"
 
 #: .\AIMER2\settings.py:175
-msgid "Hungarian"
-msgstr ""
+msgid "Indonesian"
+msgstr "Indoneziană"
 
 #: .\AIMER2\settings.py:176
-msgid "Croatian"
-msgstr ""
+msgid "Italian"
+msgstr "Italiană"
 
 #: .\AIMER2\settings.py:177
-msgid "Armenian"
-msgstr ""
+msgid "Japanese"
+msgstr "Japoneză"
 
 #: .\AIMER2\settings.py:178
-msgid "Indonesian"
-msgstr ""
+msgid "Khmer"
+msgstr "Khmer"
 
 #: .\AIMER2\settings.py:179
-msgid "Italian"
-msgstr ""
+msgid "Lithuanian"
+msgstr "lituaniană"
 
 #: .\AIMER2\settings.py:180
-msgid "Japanese"
-msgstr ""
+msgid "Latvian"
+msgstr "Letonă"
 
 #: .\AIMER2\settings.py:181
-msgid "Khmer"
-msgstr ""
+msgid "Korean"
+msgstr "Coreeană"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "Mongolă"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "Olandeză"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+msgid "Norwegian"
+msgstr "Norvegiană"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
+msgid "Polish"
+msgstr "Poloneză"
 
 #: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
+msgid "Portuguese"
+msgstr "Portugheză"
 
 #: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
+msgid "Romanian"
+msgstr "română"
 
 #: .\AIMER2\settings.py:188
-msgid "Polish"
-msgstr ""
+msgid "Russian"
+msgstr "Rusă"
 
 #: .\AIMER2\settings.py:189
-msgid "Portuguese"
-msgstr ""
+msgid "Swedish"
+msgstr "suedeză"
 
 #: .\AIMER2\settings.py:190
-msgid "Romanian"
-msgstr ""
+msgid "Slovenian"
+msgstr "Slovenă"
 
 #: .\AIMER2\settings.py:191
-msgid "Russian"
-msgstr ""
+msgid "Slovak"
+msgstr "Slovacă"
 
 #: .\AIMER2\settings.py:192
-msgid "Swedish"
-msgstr ""
+msgid "Albanian"
+msgstr "Albanian"
 
 #: .\AIMER2\settings.py:193
-msgid "Slovenian"
-msgstr ""
+msgid "Serbian"
+msgstr "sârbă"
 
 #: .\AIMER2\settings.py:194
-msgid "Slovak"
-msgstr ""
+msgid "Thai"
+msgstr "Thailandeză"
 
 #: .\AIMER2\settings.py:195
-msgid "Albanian"
-msgstr ""
+msgid "Turkish"
+msgstr "Turcă"
 
 #: .\AIMER2\settings.py:196
-msgid "Serbian"
-msgstr ""
+msgid "Ukrainian"
+msgstr "Ucraineană"
 
 #: .\AIMER2\settings.py:197
-msgid "Thai"
-msgstr ""
+msgid "Vietnamese"
+msgstr "vietnameză"
 
 #: .\AIMER2\settings.py:198
-msgid "Turkish"
-msgstr ""
+msgid "Yiddish"
+msgstr "Yiddish"
 
 #: .\AIMER2\settings.py:199
-msgid "Ukrainian"
-msgstr ""
-
-#: .\AIMER2\settings.py:200
-msgid "Vietnamese"
-msgstr ""
-
-#: .\AIMER2\settings.py:201
-msgid "Yiddish"
-msgstr ""
-
-#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
+msgstr "Chineză simplificată"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "Administrația AIMER"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
+"Inteligența artificială pentru cercetarea medicală - Administrarea "
+"portalului"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Bine ați venit pe portalul AIMER"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "Blogul AIMER"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Ultimele știri"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "Tablou de bord"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr ""
+msgstr "Bună ziua"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr ""
+msgstr "Ieșire"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
+msgstr "Conectare"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "Adaugă un comentariu"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "Comentariul dvs. a fost adăugat."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "Înapoi la post"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "de"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "Partajați această postare"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "Posturi similare"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "Nu există posturi similare încă."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "cum"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "Cum să"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "Încă nu există niciun comentariu."
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "Adăugați un comentariu nou"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "Adaugă un comentariu"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "Ultimele știri"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "Publicat"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "Mesaje care conțin"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "Nu există rezultate pentru interogarea dvs."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "Căutați din nou"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "Căutare posturi"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "Căutare"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "Partajați o postare"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "E-mail trimis cu succes"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "a fost trimis cu succes către"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "Share"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "prin e-mail"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "Trimite e-mail"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "Articolul precedent"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "Pagina"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "Următorul"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "Deconectat"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "Ați fost deconectat cu succes."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "Puteți"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "conectați-vă din nou"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "Numele dvs. de utilizator și parola nu corespund."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "Vă rugăm să încercați din nou."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "Vă rugăm să folosiți următorul formular pentru a vă conecta."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "Dacă nu aveți un cont"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "înregistrați-vă aici"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "Ați uitat parola?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "Parolă schimbată"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "Parola dvs. a fost schimbată cu succes."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "Schimbați-vă parola"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "Utilizați formularul de mai jos pentru a vă schimba parola."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "Schimbare"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "Resetarea parolei"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "Parolă setată"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "Parola dvs. a fost setată. Puteți"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "conectați-vă acum"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -426,101 +442,105 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "Resetați parola"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "Vă rugăm să introduceți noua parolă de două ori:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "Schimbă-mi parola"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
+"Linkul de resetare a parolei a fost invalid, posibil pentru că a fost deja "
+"utilizat. Vă rugăm să solicitați o nouă resetare a parolei."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
+msgstr "Ți-am trimis prin e-mail instrucțiuni pentru setarea parolei tale."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
+"Dacă nu primiți un e-mail, vă rugăm să vă asigurați că ați introdus adresa "
+"cu care v-ați înregistrat."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "Cineva a solicitat resetarea parolei pentru e-mail"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "Urmați linkul de mai jos:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "Numele tău de utilizator, în caz că l-ai uitat:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr ""
+msgstr "Introduceți adresa dvs. de e-mail pentru a obține o parolă nouă."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "Bine ați venit la tabloul dvs. de bord. Puteți"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr ""
+msgstr "editează-ți profilul"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "schimbați parola"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "Modificați contul dvs."
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "Vă puteți edita contul utilizând următorul formular:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "Salvați modificările"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "Vă rugăm să folosiți următorul formular pentru a vă conecta:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "Conectați-vă"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "Creați un cont"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "Vă rugăm să vă înscrieți folosind următorul formular:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "Crearea contului meu"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "Bine ați venit"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "Contul dvs. a fost creat cu succes."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "Acum puteți"

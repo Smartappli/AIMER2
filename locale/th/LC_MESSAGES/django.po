@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 08:00+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-14 20:26+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,405 +19,418 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
-msgstr ""
+msgstr "แอฟริกัน"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
 msgid "Akan"
-msgstr ""
+msgstr "จะ"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "ภาษาอาหรับ"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "บัลแกเรีย"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "ชาวบราซิล"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "เช็ก"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "ภาษาเดนมาร์ก"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "เยอรมัน"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "เอสโตเนีย"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "ภาษาอังกฤษ"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "สเปน"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
-msgstr ""
+msgstr "ฟาร์ซี"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "ภาษาฟินแลนด์"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
-msgstr ""
+msgstr "ภาษาฝรั่งเศส"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "กรีก"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "ภาษาฮีบรู"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "ไม่"
 
 #: .\AIMER2\settings.py:172
-msgid "Greek"
-msgstr ""
+msgid "Hungarian"
+msgstr "ภาษาฮังการี"
 
 #: .\AIMER2\settings.py:173
-msgid "Hebrew"
-msgstr ""
+msgid "Croatian"
+msgstr "โครเอเชีย"
 
 #: .\AIMER2\settings.py:174
-msgid "Hindi"
-msgstr ""
+msgid "Armenian"
+msgstr "อาร์เมเนีย"
 
 #: .\AIMER2\settings.py:175
-msgid "Hungarian"
-msgstr ""
+msgid "Indonesian"
+msgstr "ชาวอินโดนีเซีย"
 
 #: .\AIMER2\settings.py:176
-msgid "Croatian"
-msgstr ""
+msgid "Italian"
+msgstr "ภาษาอิตาลี"
 
 #: .\AIMER2\settings.py:177
-msgid "Armenian"
-msgstr ""
+msgid "Japanese"
+msgstr "ญี่ปุ่น"
 
 #: .\AIMER2\settings.py:178
-msgid "Indonesian"
-msgstr ""
+msgid "Khmer"
+msgstr "เขมร"
 
 #: .\AIMER2\settings.py:179
-msgid "Italian"
-msgstr ""
+msgid "Lithuanian"
+msgstr "ลิทัวเนีย"
 
 #: .\AIMER2\settings.py:180
-msgid "Japanese"
-msgstr ""
+msgid "Latvian"
+msgstr "ลัตเวีย"
 
 #: .\AIMER2\settings.py:181
-msgid "Khmer"
-msgstr ""
+msgid "Korean"
+msgstr "เกาหลี"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "มองโกเลีย"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "ภาษาดัตช์"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+msgid "Norwegian"
+msgstr "ภาษานอร์เวย์"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
+msgid "Polish"
+msgstr "ขัด"
 
 #: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
+msgid "Portuguese"
+msgstr "โปรตุเกส"
 
 #: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
+msgid "Romanian"
+msgstr "โรมาเนีย"
 
 #: .\AIMER2\settings.py:188
-msgid "Polish"
-msgstr ""
+msgid "Russian"
+msgstr "ภาษารัสเซีย"
 
 #: .\AIMER2\settings.py:189
-msgid "Portuguese"
-msgstr ""
+msgid "Swedish"
+msgstr "ภาษาสวีเดน"
 
 #: .\AIMER2\settings.py:190
-msgid "Romanian"
-msgstr ""
+msgid "Slovenian"
+msgstr "ภาษาสโลเวเนีย"
 
 #: .\AIMER2\settings.py:191
-msgid "Russian"
-msgstr ""
+msgid "Slovak"
+msgstr "สโลวัก"
 
 #: .\AIMER2\settings.py:192
-msgid "Swedish"
-msgstr ""
+msgid "Albanian"
+msgstr "แอลเบเนีย"
 
 #: .\AIMER2\settings.py:193
-msgid "Slovenian"
-msgstr ""
+msgid "Serbian"
+msgstr "เซอร์เบีย"
 
 #: .\AIMER2\settings.py:194
-msgid "Slovak"
-msgstr ""
+msgid "Thai"
+msgstr "แบบไทย"
 
 #: .\AIMER2\settings.py:195
-msgid "Albanian"
-msgstr ""
+msgid "Turkish"
+msgstr "ภาษาตุรกี"
 
 #: .\AIMER2\settings.py:196
-msgid "Serbian"
-msgstr ""
+msgid "Ukrainian"
+msgstr "ภาษายูเครน"
 
 #: .\AIMER2\settings.py:197
-msgid "Thai"
-msgstr ""
+msgid "Vietnamese"
+msgstr "ภาษาเวียดนาม"
 
 #: .\AIMER2\settings.py:198
-msgid "Turkish"
-msgstr ""
+msgid "Yiddish"
+msgstr "ภาษายิดดิช"
 
 #: .\AIMER2\settings.py:199
-msgid "Ukrainian"
-msgstr ""
-
-#: .\AIMER2\settings.py:200
-msgid "Vietnamese"
-msgstr ""
-
-#: .\AIMER2\settings.py:201
-msgid "Yiddish"
-msgstr ""
-
-#: .\AIMER2\settings.py:202
 msgid "Simplified Chinese"
+msgstr "จีนตัวย่อ"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
 msgstr ""
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr ""
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "ชอบบล็อก"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "ข่าวล่าสุด"
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "แผงควบคุม"
 
 #: .\templates\base.html:35
 msgid "Hello"
-msgstr ""
+msgstr "สวัสดี"
 
 #: .\templates\base.html:37
 msgid "Logout"
-msgstr ""
+msgstr "ออกจากระบบ"
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
 #: .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
-msgstr ""
+msgstr "เข้าสู่ระบบ"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "เพิ่มความคิดเห็น"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "ความคิดเห็นของคุณถูกเพิ่มแล้ว"
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "กลับไปที่โพสต์"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "โดย"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "แบ่งปันโพสต์นี้"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "โพสต์ที่คล้ายกัน"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "ยังไม่มีโพสต์ที่คล้ายกัน"
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "ยังไง"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "ยังไง"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "ยังไม่มีความคิดเห็น"
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "เพิ่มความคิดเห็นใหม่"
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "เพิ่มความเห็น"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "ข่าวล่าสุด"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "ที่ตีพิมพ์"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "กระทู้ที่มี"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "ไม่มีผลลัพธ์สำหรับคำถามของคุณ"
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "ค้นหาอีกครั้ง"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "ค้นหาโพสต์"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "ค้นหา"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "แชร์โพสต์"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "ส่งอีเมลเรียบร้อยแล้ว"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "ถูกส่งไปเรียบร้อยแล้ว"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "แบ่งปัน"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "โดยอีเมล"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "ส่งอีเมล"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "ก่อนหน้า"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "หน้าหนังสือ"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "ต่อไป"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "ออกจากระบบ"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "คุณออกจากระบบเรียบร้อยแล้ว"
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "คุณสามารถ"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "เข้าสู่ระบบอีกครั้ง"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "ชื่อผู้ใช้และรหัสผ่านของคุณไม่ตรงกัน"
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "กรุณาลองอีกครั้ง."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "กรุณาใช้แบบฟอร์มต่อไปนี้เพื่อเข้าสู่ระบบ"
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "หากคุณไม่มีบัญชี"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "ลงทะเบียนที่นี่"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "ลืมรหัสผ่าน?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านแล้ว"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "รหัสผ่านของคุณถูกเปลี่ยนเรียบร้อยแล้ว."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านของคุณ"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "ใช้แบบฟอร์มด้านล่างเพื่อเปลี่ยนรหัสผ่านของคุณ"
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "เปลี่ยน"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "รีเซ็ตรหัสผ่าน"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "ตั้งรหัสผ่าน"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "รหัสผ่านของคุณได้รับการตั้งค่าแล้ว คุณสามารถ"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "ลงชื่อเข้าใช้ตอนนี้"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -425,101 +438,101 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "รีเซ็ตรหัสผ่านของคุณ"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "กรุณากรอกรหัสผ่านใหม่ของคุณสองครั้ง:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านของฉัน"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
-msgstr ""
+msgstr "ลิงก์รีเซ็ตรหัสผ่านไม่ถูกต้อง อาจเป็นเพราะมีการใช้ไปแล้ว กรุณาขอรีเซ็ตรหัสผ่านใหม่"
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
+msgstr "เราได้ส่งอีเมลคำแนะนำในการตั้งรหัสผ่านให้คุณแล้ว"
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
-msgstr ""
+msgstr "หากคุณไม่ได้รับอีเมล โปรดตรวจสอบให้แน่ใจว่าคุณได้ป้อนที่อยู่ที่คุณลงทะเบียนไว้"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "มีคนขอรีเซ็ตรหัสผ่านสำหรับอีเมล"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "ตามลิงค์ด้านล่าง:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "ชื่อผู้ใช้ของคุณ ในกรณีที่คุณลืม:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr ""
+msgstr "ป้อนที่อยู่อีเมลของคุณเพื่อรับรหัสผ่านใหม่"
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "ยินดีต้อนรับสู่แดชบอร์ดของคุณ คุณสามารถ"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr ""
+msgstr "แก้ไขโปรไฟล์ของคุณ"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "เปลี่ยนรหัสผ่านของคุณ"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "แก้ไขบัญชีของคุณ"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "คุณสามารถแก้ไขบัญชีของคุณได้โดยใช้แบบฟอร์มต่อไปนี้:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "บันทึกการเปลี่ยนแปลง"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "กรุณาใช้แบบฟอร์มต่อไปนี้เพื่อเข้าสู่ระบบ:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "เข้าสู่ระบบ"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "สร้างบัญชี"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "กรุณาลงทะเบียนโดยใช้แบบฟอร์มต่อไปนี้:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "สร้างบัญชีของฉัน"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "ยินดีต้อนรับ"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "บัญชีของคุณถูกสร้างขึ้นเรียบร้อยแล้ว"
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "ตอนนี้คุณสามารถ"

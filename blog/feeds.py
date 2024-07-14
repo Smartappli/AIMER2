@@ -1,5 +1,6 @@
 import markdown
 from django.contrib.syndication.views import Feed
+from django.utils.translation import gettext_lazy as _
 from django.template.defaultfilters import truncatewords_html
 from django.urls import reverse_lazy
 
@@ -7,9 +8,9 @@ from .models import Post
 
 
 class LatestPostsFeed(Feed):
-    title = "My blog"
+    title = _("AIMER Blog")
     link = reverse_lazy("blog:post_list")
-    description = "New posts of my blog."
+    description = _("Latest News")
 
     def items(self):
         return Post.published.all()[:5]

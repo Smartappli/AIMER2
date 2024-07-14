@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 13:36+0200\n"
-"PO-Revision-Date: 2024-07-14 18:46+0000\n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-14 20:59+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,184 +18,205 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:155
 msgid "Afrikaans"
 msgstr "Afrikaans kasa"
 
-#: .\AIMER2\settings.py:159
+#: .\AIMER2\settings.py:156
 msgid "Akan"
 msgstr "Akan"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Arabic kasa"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:158
 msgid "Bulgarian"
 msgstr "Bulgaria kasa"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:159
 msgid "Brazilian"
 msgstr "Brazilni a ɔyɛ ɔbarima"
 
-#: .\AIMER2\settings.py:163
+#: .\AIMER2\settings.py:160
 msgid "Czech"
 msgstr "Czech kasa mu"
 
-#: .\AIMER2\settings.py:164
+#: .\AIMER2\settings.py:161
 msgid "Danish"
 msgstr "Danish kasa mu"
 
-#: .\AIMER2\settings.py:165
+#: .\AIMER2\settings.py:162
 msgid "German"
 msgstr "German kasa"
 
-#: .\AIMER2\settings.py:166
+#: .\AIMER2\settings.py:163
 msgid "Estonian"
 msgstr "Estonia kasa"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:164
 msgid "English"
 msgstr "Borɔfo"
 
-#: .\AIMER2\settings.py:168
+#: .\AIMER2\settings.py:165
 msgid "Spanish"
 msgstr "Spanish"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:166
 msgid "Farsi"
 msgstr "Farsi kasa mu"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:167
 msgid "Finnish"
 msgstr "Finland kasa"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:168
 msgid "French"
 msgstr "Franse kasa"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:169
 msgid "Greek"
 msgstr "Hela kasa mu"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:170
 msgid "Hebrew"
 msgstr "Hebri kasa mu"
 
-#: .\AIMER2\settings.py:174
+#: .\AIMER2\settings.py:171
 msgid "Hindi"
 msgstr "Hindi kasa mu"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:172
 msgid "Hungarian"
 msgstr "Hungary kasa"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:173
 msgid "Croatian"
 msgstr "Croatia kasa"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:174
 msgid "Armenian"
 msgstr "Armenia kasa"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:175
 msgid "Indonesian"
 msgstr "Indonesia kasa"
 
-#: .\AIMER2\settings.py:179
+#: .\AIMER2\settings.py:176
 msgid "Italian"
 msgstr "Italia kasa"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:177
 msgid "Japanese"
 msgstr "Japanfo kasa"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:178
 msgid "Khmer"
-msgstr ""
+msgstr "Khmer kasa mu"
+
+#: .\AIMER2\settings.py:179
+msgid "Lithuanian"
+msgstr "Lithuania kasa"
+
+#: .\AIMER2\settings.py:180
+msgid "Latvian"
+msgstr "Latvia kasa"
+
+#: .\AIMER2\settings.py:181
+msgid "Korean"
+msgstr "Korea kasa"
 
 #: .\AIMER2\settings.py:182
-msgid "Lithuanian"
-msgstr ""
+msgid "Mongolian"
+msgstr "Mongolia kasa"
 
 #: .\AIMER2\settings.py:183
-msgid "Latvian"
-msgstr ""
+msgid "Dutch"
+msgstr "Dutch kasa"
 
 #: .\AIMER2\settings.py:184
-msgid "Korean"
-msgstr ""
+msgid "Norwegian"
+msgstr "Norwayfo kasa"
 
 #: .\AIMER2\settings.py:185
-msgid "Mongolian"
-msgstr ""
-
-#: .\AIMER2\settings.py:186
-msgid "Dutch"
-msgstr ""
-
-#: .\AIMER2\settings.py:187
-msgid "Norwegian"
-msgstr ""
-
-#: .\AIMER2\settings.py:188
 msgid "Polish"
 msgstr "Polish kasa mu"
 
-#: .\AIMER2\settings.py:189
+#: .\AIMER2\settings.py:186
 msgid "Portuguese"
 msgstr "Portugal kasa"
 
-#: .\AIMER2\settings.py:190
+#: .\AIMER2\settings.py:187
 msgid "Romanian"
 msgstr "Romania kasa"
 
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:188
 msgid "Russian"
 msgstr "Russia kasa"
 
-#: .\AIMER2\settings.py:192
+#: .\AIMER2\settings.py:189
 msgid "Swedish"
 msgstr "Sweden kasa mu"
 
-#: .\AIMER2\settings.py:193
+#: .\AIMER2\settings.py:190
 msgid "Slovenian"
 msgstr "Slovenia kasa"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:191
 msgid "Slovak"
 msgstr "Slovak kasa"
 
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:192
 msgid "Albanian"
 msgstr "Albania kasa"
 
-#: .\AIMER2\settings.py:196
+#: .\AIMER2\settings.py:193
 msgid "Serbian"
 msgstr "Serbia kasa"
 
-#: .\AIMER2\settings.py:197
+#: .\AIMER2\settings.py:194
 msgid "Thai"
 msgstr "Thailand kasa"
 
-#: .\AIMER2\settings.py:198
+#: .\AIMER2\settings.py:195
 msgid "Turkish"
-msgstr ""
+msgstr "Turkey kasa"
 
-#: .\AIMER2\settings.py:199
+#: .\AIMER2\settings.py:196
 msgid "Ukrainian"
-msgstr ""
+msgstr "Ukraine kasa"
 
-#: .\AIMER2\settings.py:200
+#: .\AIMER2\settings.py:197
 msgid "Vietnamese"
-msgstr ""
+msgstr "Vietnamfo kasa"
 
-#: .\AIMER2\settings.py:201
+#: .\AIMER2\settings.py:198
 msgid "Yiddish"
 msgstr ""
 
-#: .\AIMER2\settings.py:202
+#: .\AIMER2\settings.py:199
 msgid "Simplified Chinese"
+msgstr ""
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr ""
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr ""
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr ""
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
 msgstr ""
 
 #: .\templates\base.html:23 .\templates\website\dashboard.html:3
@@ -212,17 +233,9 @@ msgid "Logout"
 msgstr ""
 
 #: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
+#: .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
-
-#: .\templates\base.html:59 .\templates\blog\post\list.html:4
-msgid "AIMER Blog"
-msgstr ""
-
-#: .\templates\base.html:60
-msgid "Latest News"
 msgstr ""
 
 #: .\templates\blog\post\comment.html:3
@@ -235,11 +248,11 @@ msgstr ""
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr ""
+msgstr "San kɔ post no so"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr ""
+msgstr "mu"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
@@ -265,11 +278,11 @@ msgstr ""
 msgid "There are no comments yet."
 msgstr ""
 
-#: .\templates\blog\post\includes\comment_form.html:1
+#: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
 msgstr ""
 
-#: .\templates\blog\post\includes\comment_form.html:8
+#: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
 msgstr ""
 
@@ -283,15 +296,15 @@ msgstr ""
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr ""
+msgstr "Posts a ɛwɔ mu"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr ""
+msgstr "Nneɛma biara nni hɔ a efii wo asɛmmisa no mu bae."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr ""
+msgstr "Hwehwɛ bio"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
@@ -336,7 +349,7 @@ msgstr ""
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr ""
+msgstr "Deɛ ɛdi hɔ"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
