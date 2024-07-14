@@ -1,0 +1,543 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 00:28+0200\n"
+"PO-Revision-Date: 2024-07-15 00:33+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\AIMER2\settings.py:155
+msgid "Afrikaans"
+msgstr "Afrikos"
+
+#: .\AIMER2\settings.py:156
+#, fuzzy
+msgid "Akan"
+msgstr "Will"
+
+#: .\AIMER2\settings.py:157
+msgid "Arabic"
+msgstr "Arabų kalba"
+
+#: .\AIMER2\settings.py:158
+msgid "Bulgarian"
+msgstr "Bulgarų"
+
+#: .\AIMER2\settings.py:159
+msgid "Brazilian"
+msgstr "Brazilijos"
+
+#: .\AIMER2\settings.py:160
+msgid "Czech"
+msgstr "Čekija"
+
+#: .\AIMER2\settings.py:161
+msgid "Danish"
+msgstr "Danų"
+
+#: .\AIMER2\settings.py:162
+msgid "German"
+msgstr "Vokiečių kalba"
+
+#: .\AIMER2\settings.py:163
+msgid "Estonian"
+msgstr "Estų kalba"
+
+#: .\AIMER2\settings.py:164
+msgid "English"
+msgstr "Anglų kalba"
+
+#: .\AIMER2\settings.py:165
+msgid "Spanish"
+msgstr "Ispanų kalba"
+
+#: .\AIMER2\settings.py:166
+msgid "Farsi"
+msgstr "Persų kalba"
+
+#: .\AIMER2\settings.py:167
+msgid "Finnish"
+msgstr "Suomijos"
+
+#: .\AIMER2\settings.py:168
+msgid "French"
+msgstr "Prancūzų kalba"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Graikų kalba"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "Hebrajų kalba"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
+
+#: .\AIMER2\settings.py:172
+msgid "Hungarian"
+msgstr "Vengrų"
+
+#: .\AIMER2\settings.py:173
+msgid "Croatian"
+msgstr "Kroatijos"
+
+#: .\AIMER2\settings.py:174
+msgid "Armenian"
+msgstr "Armėnų"
+
+#: .\AIMER2\settings.py:175
+msgid "Indonesian"
+msgstr "Indonezijos"
+
+#: .\AIMER2\settings.py:176
+msgid "Italian"
+msgstr "Italų kalba"
+
+#: .\AIMER2\settings.py:177
+msgid "Japanese"
+msgstr "Japonų"
+
+#: .\AIMER2\settings.py:178
+msgid "Khmer"
+msgstr "Khmerų"
+
+#: .\AIMER2\settings.py:179
+msgid "Lithuanian"
+msgstr "Lietuvių kalba"
+
+#: .\AIMER2\settings.py:180
+msgid "Latvian"
+msgstr "Latvijos"
+
+#: .\AIMER2\settings.py:181
+msgid "Korean"
+msgstr "Korėjiečių kalba"
+
+#: .\AIMER2\settings.py:182
+msgid "Mongolian"
+msgstr "Mongoliškas"
+
+#: .\AIMER2\settings.py:183
+msgid "Dutch"
+msgstr "Olandų kalba"
+
+#: .\AIMER2\settings.py:184
+msgid "Norwegian"
+msgstr "Norvegijos"
+
+#: .\AIMER2\settings.py:185
+msgid "Polish"
+msgstr "Lenkų kalba"
+
+#: .\AIMER2\settings.py:186
+msgid "Portuguese"
+msgstr "Portugalų kalba"
+
+#: .\AIMER2\settings.py:187
+msgid "Romanian"
+msgstr "Rumunijos"
+
+#: .\AIMER2\settings.py:188
+msgid "Russian"
+msgstr "Rusų kalba"
+
+#: .\AIMER2\settings.py:189
+msgid "Swedish"
+msgstr "Švedų kalba"
+
+#: .\AIMER2\settings.py:190
+msgid "Slovenian"
+msgstr "Slovėnijos"
+
+#: .\AIMER2\settings.py:191
+msgid "Slovak"
+msgstr "Slovakų"
+
+#: .\AIMER2\settings.py:192
+msgid "Albanian"
+msgstr "Albanų kalba"
+
+#: .\AIMER2\settings.py:193
+msgid "Serbian"
+msgstr "Serbų kalba"
+
+#: .\AIMER2\settings.py:194
+msgid "Thai"
+msgstr "Tailando"
+
+#: .\AIMER2\settings.py:195
+msgid "Turkish"
+msgstr "Turkijos"
+
+#: .\AIMER2\settings.py:196
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: .\AIMER2\settings.py:197
+msgid "Vietnamese"
+msgstr "Vietnamiečių"
+
+#: .\AIMER2\settings.py:198
+msgid "Yiddish"
+msgstr "Jidiš"
+
+#: .\AIMER2\settings.py:199
+msgid "Simplified Chinese"
+msgstr "Supaprastinta kinų kalba"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "AIMER administracija"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "Dirbtinis intelektas medicinos tyrimams - Portalo administravimas"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Sveiki atvykę į AIMER portalą"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER tinklaraštis"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Naujausios naujienos"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
+msgid "Dashboard"
+msgstr "Prietaisų skydelis"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "Sveiki"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "Atsijungimas"
+
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+msgid "Log-in"
+msgstr "Prisijungimas"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "Pridėti komentarą"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "Jūsų komentaras buvo pridėtas."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "Atgal į pranešimą"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "pagal"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "Dalytis šiuo pranešimu"
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr "Panašūs pranešimai"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "Panašių pranešimų dar nėra."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "kaip"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "Kaip"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "Komentarų dar nėra."
+
+#: .\templates\blog\post\includes\comment_form.html:2
+msgid "Add a new comment"
+msgstr "Pridėti naują komentarą"
+
+#: .\templates\blog\post\includes\comment_form.html:9
+msgid "Add comment"
+msgstr "Pridėti komentarą"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "Paskutinės naujienos"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Paskelbta"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "Pranešimai, kuriuose yra"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "Jūsų užklausai rezultatų nėra."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "Pakartotinė paieška"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "Pranešimų paieška"
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr "Paieška"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "Dalytis pranešimu"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "Sėkmingai išsiųstas el. laiškas"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "buvo sėkmingai išsiųstas į"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "Dalintis"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "el. paštu"
+
+#: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
+msgid "Send e-mail"
+msgstr "Siųsti el. paštu"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "Puslapis"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "Kitas"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "Išregistruotas"
+
+#: .\templates\registration\logged_out.html:7
+msgid "You have been successfully logged out."
+msgstr "Sėkmingai atsijungėte."
+
+#: .\templates\registration\logged_out.html:8
+msgid "You can"
+msgstr "Galite"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "dar kartą prisijungti"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "Jūsų vartotojo vardas ir slaptažodis nesutapo."
+
+#: .\templates\registration\login.html:9
+msgid "Please try again."
+msgstr "Pabandykite dar kartą."
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "Norėdami prisijungti, naudokite šią formą."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "Jei neturite paskyros"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "registruokitės čia"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+msgid "Forgotten your password?"
+msgstr "Pamiršote slaptažodį?"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Pakeistas slaptažodis"
+
+#: .\templates\registration\password_change_done.html:6
+msgid "Your password has been successfully changed."
+msgstr "Jūsų slaptažodis sėkmingai pakeistas."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+msgid "Change your password"
+msgstr "Pakeiskite slaptažodį"
+
+#: .\templates\registration\password_change_form.html:6
+msgid "Use the form below to change your password."
+msgstr "Norėdami pakeisti slaptažodį, naudokite toliau pateiktą formą."
+
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "Keisti"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "Slaptažodžio atkūrimas"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "Nustatytas slaptažodis"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "Jūsų slaptažodis nustatytas. Galite"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "Prisijunkite dabar"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+msgid "Reset your password"
+msgstr "Iš naujo nustatyti slaptažodį"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "Du kartus įveskite naują slaptažodį:"
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "Pakeisti slaptažodį"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Slaptažodžio atstatymo nuoroda buvo negaliojanti, galbūt todėl, kad ji jau "
+"buvo panaudota. Prašykite naujo slaptažodžio atstatymo."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr "Elektroniniu paštu išsiuntėme slaptažodžio nustatymo instrukcijas."
+
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"Jei negaunate el. laiško, įsitikinkite, kad įvedėte adresą, kuriuo "
+"užsiregistravote."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "Kažkas paprašė iš naujo nustatyti el. pašto slaptažodį"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Sekite toliau pateiktą nuorodą:"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "Jūsų vartotojo vardas, jei pamiršote:"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "Norėdami gauti naują slaptažodį, įveskite savo el. pašto adresą."
+
+#: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "Sveiki atvykę į prietaisų skydelį. Galite"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "redaguoti savo profilį"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "pakeisti slaptažodį"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "Redaguokite savo paskyrą"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "Savo paskyrą galite redaguoti naudodami šią formą:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: .\templates\website\login.html:6
+msgid "Please, use the following form to log-in:"
+msgstr "Norėdami prisijungti, naudokite šią formą:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "Prisijungti"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "Sukurti paskyrą"
+
+#: .\templates\website\register.html:6
+msgid "Please, sign up using the following form:"
+msgstr "Užsiregistruokite naudodami šią formą:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr "Sukurti mano paskyrą"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "Sveiki atvykę"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "Jūsų paskyra sėkmingai sukurta."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "Dabar galite"

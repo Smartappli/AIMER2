@@ -1,0 +1,543 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"PO-Revision-Date: 2024-07-15 00:22+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\AIMER2\settings.py:155
+msgid "Afrikaans"
+msgstr "Aafrika"
+
+#: .\AIMER2\settings.py:156
+#, fuzzy
+msgid "Akan"
+msgstr "Will"
+
+#: .\AIMER2\settings.py:157
+msgid "Arabic"
+msgstr "Araabia keel"
+
+#: .\AIMER2\settings.py:158
+msgid "Bulgarian"
+msgstr "Bulgaaria"
+
+#: .\AIMER2\settings.py:159
+msgid "Brazilian"
+msgstr "Brasiilia"
+
+#: .\AIMER2\settings.py:160
+msgid "Czech"
+msgstr "Tšehhi Vabariik"
+
+#: .\AIMER2\settings.py:161
+msgid "Danish"
+msgstr "Taani"
+
+#: .\AIMER2\settings.py:162
+msgid "German"
+msgstr "Saksa"
+
+#: .\AIMER2\settings.py:163
+msgid "Estonian"
+msgstr "Eesti"
+
+#: .\AIMER2\settings.py:164
+msgid "English"
+msgstr "Inglise keeles"
+
+#: .\AIMER2\settings.py:165
+msgid "Spanish"
+msgstr "Hispaania"
+
+#: .\AIMER2\settings.py:166
+#, fuzzy
+msgid "Farsi"
+msgstr "Farsi"
+
+#: .\AIMER2\settings.py:167
+msgid "Finnish"
+msgstr "Soome"
+
+#: .\AIMER2\settings.py:168
+msgid "French"
+msgstr "Prantsuse"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Kreeka"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "Heebrea"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
+
+#: .\AIMER2\settings.py:172
+msgid "Hungarian"
+msgstr "Ungari"
+
+#: .\AIMER2\settings.py:173
+msgid "Croatian"
+msgstr "Horvaatia"
+
+#: .\AIMER2\settings.py:174
+msgid "Armenian"
+msgstr "Armeenia"
+
+#: .\AIMER2\settings.py:175
+msgid "Indonesian"
+msgstr "Indoneesia"
+
+#: .\AIMER2\settings.py:176
+msgid "Italian"
+msgstr "Itaalia"
+
+#: .\AIMER2\settings.py:177
+msgid "Japanese"
+msgstr "Jaapani"
+
+#: .\AIMER2\settings.py:178
+msgid "Khmer"
+msgstr "Khmer"
+
+#: .\AIMER2\settings.py:179
+msgid "Lithuanian"
+msgstr "Leedu"
+
+#: .\AIMER2\settings.py:180
+msgid "Latvian"
+msgstr "Läti"
+
+#: .\AIMER2\settings.py:181
+msgid "Korean"
+msgstr "Korea"
+
+#: .\AIMER2\settings.py:182
+msgid "Mongolian"
+msgstr "Mongoolia"
+
+#: .\AIMER2\settings.py:183
+msgid "Dutch"
+msgstr "Hollandi"
+
+#: .\AIMER2\settings.py:184
+msgid "Norwegian"
+msgstr "Norra"
+
+#: .\AIMER2\settings.py:185
+msgid "Polish"
+msgstr "Poola"
+
+#: .\AIMER2\settings.py:186
+msgid "Portuguese"
+msgstr "Portugali"
+
+#: .\AIMER2\settings.py:187
+msgid "Romanian"
+msgstr "Rumeenia"
+
+#: .\AIMER2\settings.py:188
+msgid "Russian"
+msgstr "Vene"
+
+#: .\AIMER2\settings.py:189
+msgid "Swedish"
+msgstr "Rootsi"
+
+#: .\AIMER2\settings.py:190
+msgid "Slovenian"
+msgstr "Sloveenia"
+
+#: .\AIMER2\settings.py:191
+msgid "Slovak"
+msgstr "Slovakkia"
+
+#: .\AIMER2\settings.py:192
+msgid "Albanian"
+msgstr "Albaania"
+
+#: .\AIMER2\settings.py:193
+msgid "Serbian"
+msgstr "Serbia"
+
+#: .\AIMER2\settings.py:194
+msgid "Thai"
+msgstr "Tai"
+
+#: .\AIMER2\settings.py:195
+msgid "Turkish"
+msgstr "Türgi"
+
+#: .\AIMER2\settings.py:196
+msgid "Ukrainian"
+msgstr "Ukraina"
+
+#: .\AIMER2\settings.py:197
+msgid "Vietnamese"
+msgstr "Vietnami"
+
+#: .\AIMER2\settings.py:198
+msgid "Yiddish"
+msgstr "Jidiš"
+
+#: .\AIMER2\settings.py:199
+msgid "Simplified Chinese"
+msgstr "Lihtsustatud hiina keel"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "AIMERi haldamine"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "Meditsiiniuuringute tehisintellekt - portaali administreerimine"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Tere tulemast AIMERi portaali"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMERi blogi"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Viimased uudised"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
+msgid "Dashboard"
+msgstr "Armatuurlaud"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "Tere"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "Väljalogimine"
+
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+msgid "Log-in"
+msgstr "Logi sisse"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "Lisa kommentaar"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "Teie kommentaar on lisatud."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "Tagasi postituse juurde"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "poolt"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "Jaga seda postitust"
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr "Sarnased postitused"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "Sarnaseid ametikohti ei ole veel olemas."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "kuidas"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "Kuidas"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "Kommentaarid puuduvad veel."
+
+#: .\templates\blog\post\includes\comment_form.html:2
+msgid "Add a new comment"
+msgstr "Lisa uus kommentaar"
+
+#: .\templates\blog\post\includes\comment_form.html:9
+msgid "Add comment"
+msgstr "Lisa kommentaar"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "Viimased uudised"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Avaldatud"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "Ametikohad, mis sisaldavad"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "Teie päringu jaoks ei ole tulemusi."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "Otsi uuesti"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "Postituste otsimine"
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr "Otsi"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "Jaga postitust"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "E-post edukalt saadetud"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "saadeti edukalt"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "Jaga"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "e-posti teel"
+
+#: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
+msgid "Send e-mail"
+msgstr "Saada e-kiri"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "Eelmine"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "Lehekülg"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "Järgmine"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "Välja logitud"
+
+#: .\templates\registration\logged_out.html:7
+msgid "You have been successfully logged out."
+msgstr "Teid on edukalt välja logitud."
+
+#: .\templates\registration\logged_out.html:8
+msgid "You can"
+msgstr "Saate"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "uuesti sisse logida"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "Teie kasutajanimi ja parool ei sobinud."
+
+#: .\templates\registration\login.html:9
+msgid "Please try again."
+msgstr "Palun proovige uuesti."
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "Palun kasutage sisselogimiseks järgmist vormi."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "Kui teil ei ole kontot"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "registreeru siin"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+msgid "Forgotten your password?"
+msgstr "Unustasid oma salasõna?"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Salasõna muudetud"
+
+#: .\templates\registration\password_change_done.html:6
+msgid "Your password has been successfully changed."
+msgstr "Teie salasõna on edukalt muudetud."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+msgid "Change your password"
+msgstr "Muuda oma salasõna"
+
+#: .\templates\registration\password_change_form.html:6
+msgid "Use the form below to change your password."
+msgstr "Parooli muutmiseks kasutage allolevat vormi."
+
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "Muuda"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "Salasõna lähtestamine"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "Salasõna seatud"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "Teie salasõna on määratud. Saate"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "logi nüüd sisse"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+msgid "Reset your password"
+msgstr "Parooli lähtestamine"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "Palun sisestage oma uus parool kaks korda:"
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "Muuda oma salasõna"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Parooli lähtestamise link oli kehtetu, tõenäoliselt seetõttu, et seda on "
+"juba kasutatud. Palume taotleda uut parooli lähtestamist."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr "Oleme saatnud teile e-posti teel juhised parooli määramiseks."
+
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"Kui te ei saa e-kirja, siis kontrollige, et olete sisestanud aadressi, "
+"millega registreerusite."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "Keegi küsis salasõna lähtestamist e-posti jaoks"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Järgige allolevat linki:"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "Teie kasutajanimi, juhul kui olete unustanud:"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "Uue salasõna saamiseks sisestage oma e-posti aadress."
+
+#: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "Tere tulemast teie armatuurlauale. Saate"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "muuta oma profiili"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "muuta oma salasõna"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "Muuda oma kontot"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "Saate oma kontot muuta, kasutades järgmist vormi:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "Muudatuste salvestamine"
+
+#: .\templates\website\login.html:6
+msgid "Please, use the following form to log-in:"
+msgstr "Palun kasutage sisselogimiseks järgmist vormi:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "Logi sisse"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "Konto loomine"
+
+#: .\templates\website\register.html:6
+msgid "Please, sign up using the following form:"
+msgstr "Palun registreeruge, kasutades järgmist vormi:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr "Minu konto loomine"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "Tere tulemast"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "Teie konto on edukalt loodud."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "Nüüd saate"

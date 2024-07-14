@@ -1,0 +1,544 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-15 00:36+0200\n"
+"PO-Revision-Date: 2024-07-15 00:43+0000\n"
+"Last-Translator: admin admin <admin@admin.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\AIMER2\settings.py:155
+msgid "Afrikaans"
+msgstr "Afrikansk"
+
+#: .\AIMER2\settings.py:156
+#, fuzzy
+msgid "Akan"
+msgstr "Will"
+
+#: .\AIMER2\settings.py:157
+msgid "Arabic"
+msgstr "Arabisk"
+
+#: .\AIMER2\settings.py:158
+msgid "Bulgarian"
+msgstr "Bulgarsk"
+
+#: .\AIMER2\settings.py:159
+msgid "Brazilian"
+msgstr "Brasiliansk"
+
+#: .\AIMER2\settings.py:160
+msgid "Czech"
+msgstr "Tsjekkia"
+
+#: .\AIMER2\settings.py:161
+msgid "Danish"
+msgstr "Dansk"
+
+#: .\AIMER2\settings.py:162
+msgid "German"
+msgstr "Tysk"
+
+#: .\AIMER2\settings.py:163
+msgid "Estonian"
+msgstr "Estisk"
+
+#: .\AIMER2\settings.py:164
+msgid "English"
+msgstr "Engelsk"
+
+#: .\AIMER2\settings.py:165
+msgid "Spanish"
+msgstr "Spansk"
+
+#: .\AIMER2\settings.py:166
+msgid "Farsi"
+msgstr "Farsi"
+
+#: .\AIMER2\settings.py:167
+msgid "Finnish"
+msgstr "Finsk"
+
+#: .\AIMER2\settings.py:168
+msgid "French"
+msgstr "Fransk"
+
+#: .\AIMER2\settings.py:169
+msgid "Greek"
+msgstr "Gresk"
+
+#: .\AIMER2\settings.py:170
+msgid "Hebrew"
+msgstr "Hebraisk"
+
+#: .\AIMER2\settings.py:171
+msgid "Hindi"
+msgstr "Hindi"
+
+#: .\AIMER2\settings.py:172
+msgid "Hungarian"
+msgstr "Ungarsk"
+
+#: .\AIMER2\settings.py:173
+msgid "Croatian"
+msgstr "Kroatisk"
+
+#: .\AIMER2\settings.py:174
+msgid "Armenian"
+msgstr "armensk"
+
+#: .\AIMER2\settings.py:175
+msgid "Indonesian"
+msgstr "Indonesisk"
+
+#: .\AIMER2\settings.py:176
+msgid "Italian"
+msgstr "Italiensk"
+
+#: .\AIMER2\settings.py:177
+msgid "Japanese"
+msgstr "Japansk"
+
+#: .\AIMER2\settings.py:178
+msgid "Khmer"
+msgstr "Khmer"
+
+#: .\AIMER2\settings.py:179
+msgid "Lithuanian"
+msgstr "litauisk"
+
+#: .\AIMER2\settings.py:180
+msgid "Latvian"
+msgstr "latvisk"
+
+#: .\AIMER2\settings.py:181
+msgid "Korean"
+msgstr "Koreansk"
+
+#: .\AIMER2\settings.py:182
+msgid "Mongolian"
+msgstr "Mongolsk"
+
+#: .\AIMER2\settings.py:183
+msgid "Dutch"
+msgstr "Nederlandsk"
+
+#: .\AIMER2\settings.py:184
+msgid "Norwegian"
+msgstr "Norsk"
+
+#: .\AIMER2\settings.py:185
+msgid "Polish"
+msgstr "Polsk"
+
+#: .\AIMER2\settings.py:186
+msgid "Portuguese"
+msgstr "Portugisisk"
+
+#: .\AIMER2\settings.py:187
+msgid "Romanian"
+msgstr "rumensk"
+
+#: .\AIMER2\settings.py:188
+msgid "Russian"
+msgstr "Russisk"
+
+#: .\AIMER2\settings.py:189
+msgid "Swedish"
+msgstr "Svensk"
+
+#: .\AIMER2\settings.py:190
+msgid "Slovenian"
+msgstr "Slovensk"
+
+#: .\AIMER2\settings.py:191
+msgid "Slovak"
+msgstr "slovakisk"
+
+#: .\AIMER2\settings.py:192
+msgid "Albanian"
+msgstr "Albansk"
+
+#: .\AIMER2\settings.py:193
+msgid "Serbian"
+msgstr "Serbisk"
+
+#: .\AIMER2\settings.py:194
+msgid "Thai"
+msgstr "Thai"
+
+#: .\AIMER2\settings.py:195
+msgid "Turkish"
+msgstr "Tyrkisk"
+
+#: .\AIMER2\settings.py:196
+msgid "Ukrainian"
+msgstr "Ukrainsk"
+
+#: .\AIMER2\settings.py:197
+msgid "Vietnamese"
+msgstr "vietnamesisk"
+
+#: .\AIMER2\settings.py:198
+msgid "Yiddish"
+msgstr "Jiddisch"
+
+#: .\AIMER2\settings.py:199
+msgid "Simplified Chinese"
+msgstr "Forenklet kinesisk"
+
+#: .\AIMER2\urls.py:26
+msgid "AIMER Administration"
+msgstr "AIMERs administrasjon"
+
+#: .\AIMER2\urls.py:27
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "Kunstig intelligens for medisinsk forskning - Portaladministrasjon"
+
+#: .\AIMER2\urls.py:28
+msgid "Welcome to AIMER Portal"
+msgstr "Velkommen til AIMER Portal"
+
+#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\templates\blog\post\list.html:4
+msgid "AIMER Blog"
+msgstr "AIMER-bloggen"
+
+#: .\blog\feeds.py:13 .\templates\base.html:60
+msgid "Latest News"
+msgstr "Siste nytt"
+
+#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\website\dashboard.html:5
+msgid "Dashboard"
+msgstr "Dashbord"
+
+#: .\templates\base.html:35
+msgid "Hello"
+msgstr "Hello"
+
+#: .\templates\base.html:37
+msgid "Logout"
+msgstr "Logg ut"
+
+#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+msgid "Log-in"
+msgstr "Logg inn"
+
+#: .\templates\blog\post\comment.html:3
+msgid "Add a comment"
+msgstr "Legg til en kommentar"
+
+#: .\templates\blog\post\comment.html:6
+msgid "Your comment has been added."
+msgstr "Kommentaren din har blitt lagt til."
+
+#: .\templates\blog\post\comment.html:8
+msgid "Back to the post"
+msgstr "Tilbake til innlegget"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "by"
+msgstr "av"
+
+#: .\templates\blog\post\detail.html:10
+msgid "Share this post"
+msgstr "Del dette innlegget"
+
+#: .\templates\blog\post\detail.html:13
+msgid "Similar posts"
+msgstr "Lignende innlegg"
+
+#: .\templates\blog\post\detail.html:19
+msgid "There are no similar posts yet."
+msgstr "Det finnes ingen lignende innlegg ennå."
+
+#: .\templates\blog\post\detail.html:23
+msgid "comment"
+msgstr "hvordan"
+
+#: .\templates\blog\post\detail.html:28
+msgid "Comment"
+msgstr "Hvordan"
+
+#: .\templates\blog\post\detail.html:34
+msgid "There are no comments yet."
+msgstr "Det er ingen kommentarer ennå."
+
+#: .\templates\blog\post\includes\comment_form.html:2
+msgid "Add a new comment"
+msgstr "Legg til en ny kommentar"
+
+#: .\templates\blog\post\includes\comment_form.html:9
+msgid "Add comment"
+msgstr "Legg til kommentar"
+
+#: .\templates\blog\post\list.html:6
+msgid "Last news"
+msgstr "Siste nytt"
+
+#: .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Publisert"
+
+#: .\templates\blog\post\search.html:7
+msgid "Posts containing"
+msgstr "Innlegg som inneholder"
+
+#: .\templates\blog\post\search.html:21
+msgid "There are no results for your query."
+msgstr "Det er ingen resultater for søket ditt."
+
+#: .\templates\blog\post\search.html:23
+msgid "Search again"
+msgstr "Søk igjen"
+
+#: .\templates\blog\post\search.html:25
+msgid "Search for posts"
+msgstr "Søk etter innlegg"
+
+#: .\templates\blog\post\search.html:28
+msgid "Search"
+msgstr "Søk"
+
+#: .\templates\blog\post\share.html:3
+msgid "Share a post"
+msgstr "Del et innlegg"
+
+#: .\templates\blog\post\share.html:6
+msgid "E-mail successfully sent"
+msgstr "E-post vellykket sendt"
+
+#: .\templates\blog\post\share.html:7
+msgid "was successfully sent to"
+msgstr "ble vellykket sendt til"
+
+#: .\templates\blog\post\share.html:9
+msgid "Share"
+msgstr "Del"
+
+#: .\templates\blog\post\share.html:9
+msgid "by e-mail"
+msgstr "via e-post"
+
+#: .\templates\blog\post\share.html:13
+#: .\templates\registration\password_reset_form.html:10
+msgid "Send e-mail"
+msgstr "Send e-post"
+
+#: .\templates\pagination.html:4
+msgid "Previous"
+msgstr "Tidligere"
+
+#: .\templates\pagination.html:5
+msgid "Page"
+msgstr "Side"
+
+#: .\templates\pagination.html:6
+msgid "Next"
+msgstr "Neste"
+
+#: .\templates\registration\logged_out.html:3
+#: .\templates\registration\logged_out.html:5
+msgid "Logged out"
+msgstr "Utlogget"
+
+#: .\templates\registration\logged_out.html:7
+msgid "You have been successfully logged out."
+msgstr "Du har blitt logget ut."
+
+#: .\templates\registration\logged_out.html:8
+msgid "You can"
+msgstr "Du kan"
+
+#: .\templates\registration\logged_out.html:8
+msgid "log-in again"
+msgstr "logg inn igjen"
+
+#: .\templates\registration\login.html:8
+msgid "Your username and password didn't match."
+msgstr "Brukernavnet og passordet ditt stemmer ikke overens."
+
+#: .\templates\registration\login.html:9
+msgid "Please try again."
+msgstr "Vennligst prøv igjen."
+
+#: .\templates\registration\login.html:13
+msgid "Please, use the following form to log-in."
+msgstr "Vennligst bruk følgende skjema for å logge inn."
+
+#: .\templates\registration\login.html:14
+msgid "If you don't have an account"
+msgstr "Hvis du ikke har en konto"
+
+#: .\templates\registration\login.html:14
+msgid "register here"
+msgstr "Registrer deg her"
+
+#: .\templates\registration\login.html:27
+#: .\templates\registration\password_reset_form.html:5
+msgid "Forgotten your password?"
+msgstr "Har du glemt passordet ditt?"
+
+#: .\templates\registration\password_change_done.html:3
+#: .\templates\registration\password_change_done.html:5
+msgid "Password changed"
+msgstr "Endret passord"
+
+#: .\templates\registration\password_change_done.html:6
+msgid "Your password has been successfully changed."
+msgstr "Passordet ditt har blitt endret."
+
+#: .\templates\registration\password_change_form.html:3
+#: .\templates\registration\password_change_form.html:5
+msgid "Change your password"
+msgstr "Endre passordet ditt"
+
+#: .\templates\registration\password_change_form.html:6
+msgid "Use the form below to change your password."
+msgstr "Bruk skjemaet nedenfor for å endre passordet ditt."
+
+#: .\templates\registration\password_change_form.html:10
+msgid "Change"
+msgstr "Forandring"
+
+#: .\templates\registration\password_reset_complete.html:3
+msgid "Password reset"
+msgstr "Tilbakestilling av passord"
+
+#: .\templates\registration\password_reset_complete.html:5
+msgid "Password set"
+msgstr "Innstilt passord"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "Your password has been set. You can"
+msgstr "Passordet ditt er angitt. Du kan"
+
+#: .\templates\registration\password_reset_complete.html:7
+msgid "log in now"
+msgstr "logg inn nå"
+
+#: .\templates\registration\password_reset_confirm.html:3
+#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_done.html:3
+#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_form.html:3
+msgid "Reset your password"
+msgstr "Tilbakestill passordet ditt"
+
+#: .\templates\registration\password_reset_confirm.html:7
+msgid "Please enter your new password twice:"
+msgstr "Vennligst skriv inn det nye passordet ditt to ganger:"
+
+#: .\templates\registration\password_reset_confirm.html:12
+msgid "Change my password"
+msgstr "Endre passordet mitt"
+
+#: .\templates\registration\password_reset_confirm.html:17
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr ""
+"Koblingen for tilbakestilling av passord var ugyldig, muligens fordi den "
+"allerede har blitt brukt. Vennligst be om et nytt passord."
+
+#: .\templates\registration\password_reset_done.html:6
+msgid "We've emailed you instructions for setting your password."
+msgstr ""
+"Vi har sendt deg en e-post med instruksjoner for hvordan du angir passordet "
+"ditt."
+
+#: .\templates\registration\password_reset_done.html:7
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with."
+msgstr ""
+"Hvis du ikke mottar en e-post, må du kontrollere at du har oppgitt den "
+"adressen du registrerte deg med."
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Someone asked for password reset for email"
+msgstr "Noen ba om tilbakestilling av passord for e-post"
+
+#: .\templates\registration\password_reset_email.html:2
+msgid "Follow the link below:"
+msgstr "Følg lenken nedenfor:"
+
+#: .\templates\registration\password_reset_email.html:4
+msgid "Your username, in case you've forgotten:"
+msgstr "Brukernavnet ditt, i tilfelle du har glemt det:"
+
+#: .\templates\registration\password_reset_form.html:6
+msgid "Enter your e-mail address to obtain a new password."
+msgstr "Skriv inn e-postadressen din for å få et nytt passord."
+
+#: .\templates\website\dashboard.html:7
+msgid "Welcome to your dashboard. You can"
+msgstr "Velkommen til dashbordet ditt. Du kan"
+
+#: .\templates\website\dashboard.html:7
+msgid "edit your profile"
+msgstr "redigere profilen din"
+
+#: .\templates\website\dashboard.html:7
+msgid "change your password"
+msgstr "endre passordet ditt"
+
+#: .\templates\website\edit.html:5
+msgid "Edit your account"
+msgstr "Rediger kontoen din"
+
+#: .\templates\website\edit.html:6
+msgid "You can edit your account using the following form:"
+msgstr "Du kan redigere kontoen din ved hjelp av følgende skjema:"
+
+#: .\templates\website\edit.html:12
+msgid "Save changes"
+msgstr "Lagre endringer"
+
+#: .\templates\website\login.html:6
+msgid "Please, use the following form to log-in:"
+msgstr "Vennligst bruk følgende skjema for å logge inn:"
+
+#: .\templates\website\login.html:11
+msgid "Log in"
+msgstr "Logg inn"
+
+#: .\templates\website\register.html:3 .\templates\website\register.html:5
+msgid "Create an account"
+msgstr "Opprett en konto"
+
+#: .\templates\website\register.html:6
+msgid "Please, sign up using the following form:"
+msgstr "Vennligst registrer deg ved hjelp av følgende skjema:"
+
+#: .\templates\website\register.html:11
+msgid "Create my account"
+msgstr "Opprett kontoen min"
+
+#: .\templates\website\register_done.html:3
+#: .\templates\website\register_done.html:5
+msgid "Welcome"
+msgstr "Velkommen"
+
+#: .\templates\website\register_done.html:7
+msgid "Your account has been successfully created."
+msgstr "Kontoen din har blitt opprettet."
+
+#: .\templates\website\register_done.html:8
+msgid "Now you can"
+msgstr "Nå kan du"
