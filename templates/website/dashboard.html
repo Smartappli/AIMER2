@@ -4,6 +4,6 @@
 {% block content %}
     <h1>{% translate "Dashboard" %}</h1>
     <p>
-        {% translate "Welcome to your dashboard. You can" %} <a href="{% url "website:edit" %}">{% translate "edit your profile" %}</a> or <a href="{% url "website:password_change" %}">{% translate "change your password" %}</a>.
+        {% translate "Welcome to your dashboard. You can" %} <a href="{% url "website:edit" %}">{% translate "edit your profile" %}</a> {% translate "or" %} <a href="{% url "website:password_change" %}">{% translate "change your password" %}</a>.
     </p>
 {% endblock %}

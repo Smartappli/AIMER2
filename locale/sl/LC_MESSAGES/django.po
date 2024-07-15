@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
-"PO-Revision-Date: 2024-07-15 00:16+0000\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"PO-Revision-Date: 2024-07-15 00:24+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,418 +18,376 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "Afrikánština"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "Akanština"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
-msgstr "Arabština"
-
-#: .\AIMER2\settings.py:158
-msgid "Bulgarian"
-msgstr "Bulharský"
-
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "Brazilský"
+msgstr "Arabščina"
 
 #: .\AIMER2\settings.py:160
-msgid "Czech"
-msgstr "Česky"
-
-#: .\AIMER2\settings.py:161
-msgid "Danish"
-msgstr "Dánský"
-
-#: .\AIMER2\settings.py:162
-msgid "German"
-msgstr "Němčina"
-
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "Estonština"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "Angličtina"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "Španělština"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "Perština"
+msgid "Bulgarian"
+msgstr "Bolgarski"
 
 #: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "Finsko"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "Francouzština"
+msgid "Czech"
+msgstr "češki"
 
 #: .\AIMER2\settings.py:169
-msgid "Greek"
-msgstr "Řecký"
+msgid "Danish"
+msgstr "Danski"
 
 #: .\AIMER2\settings.py:170
-msgid "Hebrew"
-msgstr "Hebrejština"
-
-#: .\AIMER2\settings.py:171
-msgid "Hindi"
-msgstr "Hindština"
+msgid "German"
+msgstr "Nemščina"
 
 #: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "Maďarština"
+msgid "Greek"
+msgstr "Grški"
 
 #: .\AIMER2\settings.py:173
-msgid "Croatian"
-msgstr "Chorvatština"
-
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "Arménština"
-
-#: .\AIMER2\settings.py:175
-msgid "Indonesian"
-msgstr "Indonéský"
-
-#: .\AIMER2\settings.py:176
-msgid "Italian"
-msgstr "Italský"
+msgid "English"
+msgstr "Angleščina"
 
 #: .\AIMER2\settings.py:177
-msgid "Japanese"
-msgstr "Japonský"
-
-#: .\AIMER2\settings.py:178
-msgid "Khmer"
-msgstr "Khmer"
-
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "Litevština"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "Lotyšský"
-
-#: .\AIMER2\settings.py:181
-msgid "Korean"
-msgstr "Korejský"
-
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "Mongolština"
+msgid "Spanish"
+msgstr "španščina"
 
 #: .\AIMER2\settings.py:183
-msgid "Dutch"
-msgstr "Holandský"
-
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "Norština"
+msgid "Estonian"
+msgstr "Estonščina"
 
 #: .\AIMER2\settings.py:185
-msgid "Polish"
-msgstr "Polský"
+msgid "Persian"
+msgstr ""
 
 #: .\AIMER2\settings.py:186
-msgid "Portuguese"
-msgstr "Portugalština"
+msgid "Finnish"
+msgstr "Finščina"
 
 #: .\AIMER2\settings.py:187
-msgid "Romanian"
-msgstr "Rumunština"
-
-#: .\AIMER2\settings.py:188
-msgid "Russian"
-msgstr "Ruský"
-
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "Švédský"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "Slovinština"
-
-#: .\AIMER2\settings.py:191
-msgid "Slovak"
-msgstr "Slovenská"
+msgid "French"
+msgstr "Francoski"
 
 #: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "Albánština"
+msgid "Hebrew"
+msgstr "Hebrejščina"
 
 #: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "Srbština"
+msgid "Hindi"
+msgstr "Hindi"
 
 #: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "Thajština"
-
-#: .\AIMER2\settings.py:195
-msgid "Turkish"
-msgstr "Turecký"
+msgid "Croatian"
+msgstr "Hrvaška"
 
 #: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "Ukrajinský"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "Vietnamština"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr "Jidiš"
+msgid "Hungarian"
+msgstr "Madžarski"
 
 #: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr "Zjednodušená čínština"
+msgid "Indonesian"
+msgstr "Indonezijski"
 
-#: .\AIMER2\urls.py:26
-msgid "AIMER Administration"
-msgstr "Správa systému AIMER"
+#: .\AIMER2\settings.py:203
+msgid "Italian"
+msgstr "Italijanski"
+
+#: .\AIMER2\settings.py:204
+msgid "Japanese"
+msgstr "Japonski"
+
+#: .\AIMER2\settings.py:208
+msgid "Khmer"
+msgstr "Kmeri"
+
+#: .\AIMER2\settings.py:210
+msgid "Korean"
+msgstr "Korejski"
+
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "Litvanski"
+
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "Latvijski"
+
+#: .\AIMER2\settings.py:223
+msgid "Dutch"
+msgstr "Nizozemska"
+
+#: .\AIMER2\settings.py:227
+msgid "Polish"
+msgstr "Poljski"
+
+#: .\AIMER2\settings.py:228
+msgid "Portuguese"
+msgstr "Portugalska"
+
+#: .\AIMER2\settings.py:229
+#, fuzzy
+#| msgid "Portuguese"
+msgid "Brazilian Portuguese"
+msgstr "Portugalska"
+
+#: .\AIMER2\settings.py:230
+msgid "Romanian"
+msgstr "Romunski"
+
+#: .\AIMER2\settings.py:231
+msgid "Russian"
+msgstr "Ruski"
+
+#: .\AIMER2\settings.py:232
+msgid "Slovak"
+msgstr "Slovaška"
+
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "Slovenski"
+
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "Švedski"
+
+#: .\AIMER2\settings.py:244
+msgid "Turkish"
+msgstr "Turški"
 
 #: .\AIMER2\urls.py:27
-msgid "Artificial Intelligence for Medical Research - Portal Administration"
-msgstr "Umělá inteligence pro lékařský výzkum - Správa portálu"
+msgid "AIMER Administration"
+msgstr "Uprava programa AIMER"
 
 #: .\AIMER2\urls.py:28
-msgid "Welcome to AIMER Portal"
-msgstr "Vítejte na portálu AIMER"
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "Umetna inteligenca za medicinske raziskave - Administracija portala"
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\AIMER2\urls.py:29
+msgid "Welcome to AIMER Portal"
+msgstr "Dobrodošli na portalu AIMER"
+
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
-msgstr "Blog AIMER"
+msgstr "AIMER Blog"
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
-msgstr "Nejnovější zprávy"
+msgstr "Najnovejše novice"
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:24
+msgid "language"
+msgstr ""
+
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr "Přístrojová deska"
+msgstr "Nadzorna plošča"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
-msgstr "Dobrý den,"
+msgstr "Pozdravljeni"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
-msgstr "Odhlášení"
+msgstr "Odjava"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\base.html:57 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
+#: .\templates\website\login.html:5
 msgid "Log-in"
-msgstr "Přihlášení"
+msgstr "Prijava"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr "Přidat komentář"
+msgstr "Dodajte komentar"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr "Váš komentář byl přidán."
+msgstr "Vaš komentar je bil dodan."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "Zpět na příspěvek"
+msgstr "Nazaj na delovno mesto"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "podle"
+msgstr "po"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr "Sdílet tento příspěvek"
+msgstr "Delite to objavo"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr "Podobné příspěvky"
+msgstr "Podobne objave"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr "Zatím zde nejsou žádné podobné příspěvky."
+msgstr "Podobnih objav še ni."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr "komentář"
+msgstr "kako"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr "Komentář:"
+msgstr "Kako"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr "Zatím nejsou žádné komentáře."
+msgstr "Komentarjev še ni."
 
 #: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr "Přidat nový komentář"
+msgstr "Dodaj nov komentar"
 
 #: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr "Přidat komentář"
+msgstr "Dodaj komentar"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr "Poslední zprávy"
+msgstr "Zadnje novice"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr "Zveřejněno na"
+msgstr "Objavljeno"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Příspěvky obsahující"
+msgstr "Prispevki, ki vsebujejo"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Pro váš dotaz nebyly nalezeny žádné výsledky."
+msgstr "Za vašo poizvedbo ni rezultatov."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Znovu hleda"
+msgstr "Ponovno iskanje"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr "Vyhledávání příspěvků"
+msgstr "Iskanje objav"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr "Vyhledávání"
+msgstr "Iskanje"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr "Sdílet příspěvek"
+msgstr "Delite objavo"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr "E-mail byl úspěšně odeslán"
+msgstr "E-pošta je bila uspešno poslana"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr "byl úspěšně odeslán na adresu"
+msgstr "je bil uspešno poslan v"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr "Sdílet"
+msgstr "Delite"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr "e-mailem"
+msgstr "po e-pošti"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr "Odeslat e-mail"
+msgstr "Pošlji e-pošto"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr "Předchozí"
+msgstr "Prejšnji"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr "Stránka"
+msgstr "Stran"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Další"
+msgstr "Naslednji"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr "Odhlášení"
+msgstr "Odjavljen"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr "Byli jste úspěšně odhlášeni."
+msgstr "Uspešno ste se odjavili."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr "Můžete"
+msgstr "Lahko"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr "opětovné přihlášení"
+msgstr "ponovno se prijavite"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr "Vaše uživatelské jméno a heslo se neshodují."
+msgstr "Vaše uporabniško ime in geslo se nista ujemala."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr "Zkuste to prosím znovu."
+msgstr "Poskusite znova."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr "Pro přihlášení použijte následující formulář."
+msgstr "Za prijavo uporabite naslednji obrazec."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr "Pokud nemáte účet"
+msgstr "Če nimate računa"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr "Zaregistrujte se zde"
+msgstr "registrirajte se tukaj"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr "Zapomněli jste heslo?"
+msgstr "Ste pozabili geslo?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr "Změna hesla"
+msgstr "Spremenjeno geslo"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr "Vaše heslo bylo úspěšně změněno."
+msgstr "Vaše geslo je bilo uspešno spremenjeno."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr "Změna hesla"
+msgstr "Spremenite geslo"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr "Pro změnu hesla použijte níže uvedený formulář."
+msgstr "Za spremembo gesla uporabite spodnji obrazec."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr "Změna"
+msgstr "Sprememba"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr "Obnovení hesla"
+msgstr "Ponastavitev gesla"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr "Nastavení hesla"
+msgstr "Nastavljeno geslo"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr "Vaše heslo bylo nastaveno. Můžete"
+msgstr "Vaše geslo je bilo nastavljeno. Lahko"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr "přihlaste se nyní"
+msgstr "prijavite se zdaj"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -437,105 +395,194 @@ msgstr "přihlaste se nyní"
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr "Obnovení hesla"
+msgstr "Ponastavitev gesla"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr "Zadejte své nové heslo dvakrát:"
+msgstr "Novo geslo vnesite dvakrat:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr "Změna hesla"
+msgstr "Spremeni moje geslo"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Odkaz na obnovení hesla byl neplatný, pravděpodobně proto, že již byl "
-"použit. Požádejte o nové obnovení hesla."
+"Povezava za ponastavitev gesla je bila neveljavna, morda zato, ker je bila "
+"že uporabljena. Zahtevajte novo ponastavitev gesla."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr "Pokyny k nastavení hesla jsme vám zaslali e-mailem."
+msgstr "Pošiljamo vam navodila za nastavitev gesla."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
-"Pokud e-mail neobdržíte, zkontrolujte, zda jste zadali adresu, na které jste"
-" se zaregistrovali."
+"Če ne prejmete e-poštnega sporočila, se prepričajte, da ste vnesli naslov, s "
+"katerim ste se registrirali."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr "Někdo požádal o resetování hesla pro e-mail"
+msgstr "Nekdo je zahteval ponastavitev gesla za e-pošto"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr "Následujte níže uvedený odkaz:"
+msgstr "Sledite spodnji povezavi:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr "Vaše uživatelské jméno, pokud jste zapomněli:"
+msgstr "Vaše uporabniško ime, če ste ga pozabili:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr "Zadejte svou e-mailovou adresu a získejte nové heslo."
+msgstr "Za pridobitev novega gesla vnesite svoj e-poštni naslov."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr "Vítejte na palubní desce. Můžete"
+msgstr "Dobrodošli na armaturni plošči. Lahko"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr "upravit svůj profil"
+msgstr "uredite svoj profil"
+
+#: .\templates\website\dashboard.html:7
+msgid "or"
+msgstr ""
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr "změnit heslo"
+msgstr "spremenite svoje geslo"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr "Upravit svůj účet"
+msgstr "Uredite svoj račun"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr "Svůj účet můžete upravit pomocí následujícího formuláře:"
+msgstr "Svoj račun lahko urejate prek naslednjega obrazca:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr "Uložení změn"
+msgstr "Shranjevanje sprememb"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr "Pro přihlášení použijte následující formulář:"
+msgstr "Za prijavo uporabite naslednji obrazec:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr "Přihlášení"
+msgstr "Prijavite se"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr "Vytvoření účtu"
+msgstr "Ustvarite račun"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr "Přihlaste se prosím pomocí následujícího formuláře:"
+msgstr "Prijavite se prek naslednjega obrazca:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr "Vytvořit můj účet"
+msgstr "Ustvari moj račun"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr "Vítejte na"
+msgstr "Dobrodošli"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr "Váš účet byl úspěšně vytvořen."
+msgstr "Vaš račun je bil uspešno ustvarjen."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr "Nyní můžete"
+msgstr "Zdaj lahko"
+
+#~ msgid "Afrikaans"
+#~ msgstr "Afriški"
+
+#, fuzzy
+#~| msgid "Estonian"
+#~ msgid "Bosnian"
+#~ msgstr "Estonščina"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Lower Sorbian"
+#~ msgstr "Srbski"
+
+#, fuzzy
+#~| msgid "English"
+#~ msgid "British English"
+#~ msgstr "Angleščina"
+
+#, fuzzy
+#~| msgid "Spanish"
+#~ msgid "Mexican Spanish"
+#~ msgstr "španščina"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Upper Sorbian"
+#~ msgstr "Srbski"
+
+#~ msgid "Armenian"
+#~ msgstr "Armenski"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Georgian"
+#~ msgstr "Norveški"
+
+#~ msgid "Mongolian"
+#~ msgstr "Mongolski"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "Norveški"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Norveški"
+
+#~ msgid "Albanian"
+#~ msgstr "Albanski"
+
+#~ msgid "Serbian"
+#~ msgstr "Srbski"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Serbian Latin"
+#~ msgstr "Srbski"
+
+#~ msgid "Thai"
+#~ msgstr "Thai"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Ukrajinski"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamski"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "Poenostavljena kitajščina"
+
+#~ msgid "Brazilian"
+#~ msgstr "Brazilski"
+
+#~ msgid "Farsi"
+#~ msgstr "Farsi"
+
+#~ msgid "Yiddish"
+#~ msgstr "Jidiš"
+
+#, fuzzy
+#~ msgid "Akan"
+#~ msgstr "Will"

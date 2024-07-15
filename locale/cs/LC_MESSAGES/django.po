@@ -9,91 +9,90 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-15 22:43+0200\n"
-"PO-Revision-Date: 2024-07-14 23:08+0000\n"
+"PO-Revision-Date: 2024-07-15 22:45+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
 #: .\AIMER2\settings.py:156
 msgid "Arabic"
-msgstr "Bahasa Arab"
+msgstr "Arabština"
 
 #: .\AIMER2\settings.py:160
 msgid "Bulgarian"
-msgstr "Bulgaria"
+msgstr "Bulharský"
 
 #: .\AIMER2\settings.py:167
 msgid "Czech"
-msgstr "Ceko"
+msgstr "Česky"
 
 #: .\AIMER2\settings.py:169
 msgid "Danish"
-msgstr "Denmark"
+msgstr "Dánský"
 
 #: .\AIMER2\settings.py:170
 msgid "German"
-msgstr "Jerman"
+msgstr "Němčina"
 
 #: .\AIMER2\settings.py:172
 msgid "Greek"
-msgstr "Bahasa Yunani"
+msgstr "Řecký"
 
 #: .\AIMER2\settings.py:173
 msgid "English"
-msgstr "Bahasa Inggris"
+msgstr "Angličtina"
 
 #: .\AIMER2\settings.py:177
 msgid "Spanish"
-msgstr "Bahasa Spanyol"
+msgstr "Španělština"
 
 #: .\AIMER2\settings.py:183
 msgid "Estonian"
-msgstr "Estonia"
+msgstr "Estonština"
 
 #: .\AIMER2\settings.py:185
 msgid "Persian"
-msgstr ""
+msgstr "Perský"
 
 #: .\AIMER2\settings.py:186
 msgid "Finnish"
-msgstr "Bahasa Finlandia"
+msgstr "Finsko"
 
 #: .\AIMER2\settings.py:187
 msgid "French"
-msgstr "Bahasa Prancis"
+msgstr "Francouzština"
 
 #: .\AIMER2\settings.py:192
 msgid "Hebrew"
-msgstr "Bahasa Ibrani"
+msgstr "Hebrejština"
 
 #: .\AIMER2\settings.py:193
 msgid "Hindi"
-msgstr "Bahasa Hindi"
+msgstr "Hindština"
 
 #: .\AIMER2\settings.py:194
 msgid "Croatian"
-msgstr "Kroasia"
+msgstr "Chorvatština"
 
 #: .\AIMER2\settings.py:196
 msgid "Hungarian"
-msgstr "Hungarian"
+msgstr "Maďarština"
 
 #: .\AIMER2\settings.py:199
 msgid "Indonesian"
-msgstr "Indonesian"
+msgstr "Indonéský"
 
 #: .\AIMER2\settings.py:203
 msgid "Italian"
-msgstr "Bahasa Italia"
+msgstr "Italský"
 
 #: .\AIMER2\settings.py:204
 msgid "Japanese"
-msgstr "Bahasa Jepang"
+msgstr "Japonský"
 
 #: .\AIMER2\settings.py:208
 msgid "Khmer"
@@ -101,69 +100,67 @@ msgstr "Khmer"
 
 #: .\AIMER2\settings.py:210
 msgid "Korean"
-msgstr "Bahasa Korea"
+msgstr "Korejský"
 
 #: .\AIMER2\settings.py:213
 msgid "Lithuanian"
-msgstr "Lithuania"
+msgstr "Litevština"
 
 #: .\AIMER2\settings.py:214
 msgid "Latvian"
-msgstr "Latvia"
+msgstr "Lotyšský"
 
 #: .\AIMER2\settings.py:223
 msgid "Dutch"
-msgstr "Belanda"
+msgstr "Holandský"
 
 #: .\AIMER2\settings.py:227
 msgid "Polish"
-msgstr "Polandia"
+msgstr "Polský"
 
 #: .\AIMER2\settings.py:228
 msgid "Portuguese"
-msgstr "Bahasa Portugis"
+msgstr "Portugalština"
 
 #: .\AIMER2\settings.py:229
-#, fuzzy
-#| msgid "Portuguese"
 msgid "Brazilian Portuguese"
-msgstr "Bahasa Portugis"
+msgstr "Brazilská portugalština"
 
 #: .\AIMER2\settings.py:230
 msgid "Romanian"
-msgstr "Rumania"
+msgstr "Rumunština"
 
 #: .\AIMER2\settings.py:231
 msgid "Russian"
-msgstr "Rusia"
+msgstr "Ruský"
 
 #: .\AIMER2\settings.py:232
 msgid "Slovak"
-msgstr "Slowakia"
+msgstr "Slovenská"
 
 #: .\AIMER2\settings.py:233
 msgid "Slovenian"
-msgstr "Slovenia"
+msgstr "Slovinština"
 
 #: .\AIMER2\settings.py:237
 msgid "Swedish"
-msgstr "Swedia"
+msgstr "Švédský"
 
 #: .\AIMER2\settings.py:244
 msgid "Turkish"
-msgstr "Bahasa Turki"
+msgstr "Turecký"
 
 #: .\AIMER2\urls.py:27
 msgid "AIMER Administration"
-msgstr ""
+msgstr "Správa systému AIMER"
 
 #: .\AIMER2\urls.py:28
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
-msgstr ""
+msgstr "Umělá inteligence pro lékařský výzkum - Správa portálu"
 
 #: .\AIMER2\urls.py:29
 msgid "Welcome to AIMER Portal"
-msgstr ""
+msgstr "Vítejte na portálu AIMER"
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
@@ -172,223 +169,223 @@ msgstr "Blog AIMER"
 
 #: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
-msgstr "Berita Terbaru"
+msgstr "Nejnovější zprávy"
 
 #: .\templates\base.html:24
 msgid "language"
-msgstr ""
+msgstr "jazyk"
 
 #: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr "Dasbor"
+msgstr "Přístrojová deska"
 
 #: .\templates\base.html:51
 msgid "Hello"
-msgstr "Halo."
+msgstr "Dobrý den,"
 
 #: .\templates\base.html:53
 msgid "Logout"
-msgstr "Keluar"
+msgstr "Odhlášení"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\registration\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
-msgstr "Masuk"
+msgstr "Přihlášení"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr "Tambahkan komentar"
+msgstr "Přidat komentář"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr "Komentar Anda telah ditambahkan."
+msgstr "Váš komentář byl přidán."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "Kembali ke pos"
+msgstr "Zpět na příspěvek"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "oleh"
+msgstr "podle"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr "Bagikan postingan ini"
+msgstr "Sdílet tento příspěvek"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr "Posting serupa"
+msgstr "Podobné příspěvky"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr "Belum ada tulisan serupa."
+msgstr "Zatím zde nejsou žádné podobné příspěvky."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr "bagaimana"
+msgstr "komentář"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr "Bagaimana cara"
+msgstr "Komentář:"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr "Belum ada komentar."
+msgstr "Zatím nejsou žádné komentáře."
 
 #: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr "Tambahkan komentar baru"
+msgstr "Přidat nový komentář"
 
 #: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr "Tambahkan komentar"
+msgstr "Přidat komentář"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr "Berita terakhir"
+msgstr "Poslední zprávy"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr "Diterbitkan"
+msgstr "Zveřejněno na"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Posting yang berisi"
+msgstr "Příspěvky obsahující"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Tidak ada hasil untuk kueri Anda."
+msgstr "Pro váš dotaz nebyly nalezeny žádné výsledky."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Cari lagi"
+msgstr "Znovu hleda"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr "Mencari postingan"
+msgstr "Vyhledávání příspěvků"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr "Pencarian"
+msgstr "Vyhledávání"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr "Bagikan postingan"
+msgstr "Sdílet příspěvek"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr "E-mail berhasil dikirim"
+msgstr "E-mail byl úspěšně odeslán"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr "berhasil dikirim ke"
+msgstr "byl úspěšně odeslán na adresu"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr "Bagikan"
+msgstr "Sdílet"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr "melalui e-mail"
+msgstr "e-mailem"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr "Kirim email"
+msgstr "Odeslat e-mail"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr "Sebelumnya"
+msgstr "Předchozí"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr "Halaman"
+msgstr "Stránka"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Berikutnya"
+msgstr "Další"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr "Keluar"
+msgstr "Odhlášení"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr "Anda telah berhasil keluar."
+msgstr "Byli jste úspěšně odhlášeni."
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr "Anda bisa"
+msgstr "Můžete"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr "masuk lagi"
+msgstr "opětovné přihlášení"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr "Nama pengguna dan kata sandi Anda tidak cocok."
+msgstr "Vaše uživatelské jméno a heslo se neshodují."
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr "Silakan coba lagi."
+msgstr "Zkuste to prosím znovu."
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr "Silakan gunakan formulir berikut untuk masuk."
+msgstr "Pro přihlášení použijte následující formulář."
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr "Jika Anda tidak memiliki akun"
+msgstr "Pokud nemáte účet"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr "daftar di sini"
+msgstr "Zaregistrujte se zde"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr "Lupa kata sandi Anda?"
+msgstr "Zapomněli jste heslo?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr "Kata sandi diubah"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr "Kata sandi Anda telah berhasil diubah."
+msgstr "Vaše heslo bylo úspěšně změněno."
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr "Mengubah kata sandi Anda"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr "Gunakan formulir di bawah ini untuk mengubah kata sandi Anda."
+msgstr "Pro změnu hesla použijte níže uvedený formulář."
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr "Perubahan"
+msgstr "Změna"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr "Pengaturan ulang kata sandi"
+msgstr "Obnovení hesla"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr "Pengaturan kata sandi"
+msgstr "Nastavení hesla"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr "Kata sandi Anda telah ditetapkan. Anda dapat"
+msgstr "Vaše heslo bylo nastaveno. Můžete"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr "masuk sekarang"
+msgstr "přihlaste se nyní"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -396,195 +393,319 @@ msgstr "masuk sekarang"
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr "Atur ulang kata sandi Anda"
+msgstr "Obnovení hesla"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr "Masukkan kata sandi baru Anda dua kali:"
+msgstr "Zadejte své nové heslo dvakrát:"
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr "Mengubah kata sandi saya"
+msgstr "Změna hesla"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Tautan pengaturan ulang kata sandi tidak valid, mungkin karena sudah pernah "
-"digunakan. Silakan minta pengaturan ulang kata sandi yang baru."
+"Odkaz na obnovení hesla byl neplatný, pravděpodobně proto, že již byl "
+"použit. Požádejte o nové obnovení hesla."
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
-"Kami telah mengirimkan petunjuk melalui email untuk mengatur kata sandi Anda."
+msgstr "Pokyny k nastavení hesla jsme vám zaslali e-mailem."
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
-"Jika Anda tidak menerima email, pastikan Anda telah memasukkan alamat yang "
-"Anda daftarkan."
+"Pokud e-mail neobdržíte, zkontrolujte, zda jste zadali adresu, na které jste"
+" se zaregistrovali."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr "Seseorang meminta pengaturan ulang kata sandi untuk email"
+msgstr "Někdo požádal o resetování hesla pro e-mail"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr "Ikuti tautan di bawah ini:"
+msgstr "Následujte níže uvedený odkaz:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr "Nama pengguna Anda, jika Anda lupa:"
+msgstr "Vaše uživatelské jméno, pokud jste zapomněli:"
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr "Masukkan alamat email Anda untuk mendapatkan kata sandi baru."
+msgstr "Zadejte svou e-mailovou adresu a získejte nové heslo."
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr "Selamat datang di dasbor Anda. Anda dapat"
+msgstr "Vítejte na palubní desce. Můžete"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
-msgstr "edit profil Anda"
+msgstr "upravit svůj profil"
 
 #: .\templates\website\dashboard.html:7
 msgid "or"
-msgstr ""
+msgstr "nebo"
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr "ubah kata sandi Anda"
+msgstr "změnit heslo"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr "Edit akun Anda"
+msgstr "Upravit svůj účet"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr "Anda dapat mengedit akun Anda menggunakan formulir berikut:"
+msgstr "Svůj účet můžete upravit pomocí následujícího formuláře:"
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr "Menyimpan perubahan"
+msgstr "Uložení změn"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr "Silakan gunakan formulir berikut untuk masuk:"
+msgstr "Pro přihlášení použijte následující formulář:"
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr "Masuk"
+msgstr "Přihlášení"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr "Membuat akun"
+msgstr "Vytvoření účtu"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr "Silakan mendaftar dengan menggunakan formulir berikut:"
+msgstr "Přihlaste se prosím pomocí následujícího formuláře:"
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr "Buat akun saya"
+msgstr "Vytvořit můj účet"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr "Selamat datang."
+msgstr "Vítejte na"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr "Akun Anda telah berhasil dibuat."
+msgstr "Váš účet byl úspěšně vytvořen."
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr "Sekarang Anda dapat"
+msgstr "Nyní můžete"
 
 #~ msgid "Afrikaans"
-#~ msgstr "Afrika"
+#~ msgstr "Afrikánština"
 
-#, fuzzy
-#~| msgid "Estonian"
+#~ msgid "Algerian Arabic"
+#~ msgstr "Alžírská arabština"
+
+#~ msgid "Asturian"
+#~ msgstr "Asturian"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "Ázerbájdžán"
+
+#~ msgid "Belarusian"
+#~ msgstr "Běloruský"
+
+#~ msgid "Bengali"
+#~ msgstr "Bengálština"
+
+#~ msgid "Breton"
+#~ msgstr "Breton"
+
 #~ msgid "Bosnian"
-#~ msgstr "Estonia"
+#~ msgstr "Bosenský"
 
-#, fuzzy
+#~ msgid "Catalan"
+#~ msgstr "Katalánština"
+
+#~ msgid "Central Kurdish (Sorani)"
+#~ msgstr "Střední kurdština (soranština)"
+
+#~ msgid "Welsh"
+#~ msgstr "Velština"
+
 #~ msgid "Lower Sorbian"
-#~ msgstr "Serbia"
+#~ msgstr "Dolní lužická srbština"
 
-#, fuzzy
-#~| msgid "English"
+#~ msgid "Australian English"
+#~ msgstr "Australská angličtina"
+
 #~ msgid "British English"
-#~ msgstr "Bahasa Inggris"
+#~ msgstr "Britská angličtina"
 
-#, fuzzy
-#~| msgid "Spanish"
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgid "Argentinian Spanish"
+#~ msgstr "Argentinská španělština"
+
+#~ msgid "Colombian Spanish"
+#~ msgstr "Kolumbijská španělština"
+
 #~ msgid "Mexican Spanish"
-#~ msgstr "Bahasa Spanyol"
+#~ msgstr "Mexická španělština"
 
-#, fuzzy
+#~ msgid "Nicaraguan Spanish"
+#~ msgstr "Nikaragujská španělština"
+
+#~ msgid "Venezuelan Spanish"
+#~ msgstr "Venezuelská španělština"
+
+#~ msgid "Basque"
+#~ msgstr "Baskicko"
+
+#~ msgid "Frisian"
+#~ msgstr "Fríština"
+
+#~ msgid "Irish"
+#~ msgstr "Irish"
+
+#~ msgid "Scottish Gaelic"
+#~ msgstr "Skotská gaelština"
+
+#~ msgid "Galician"
+#~ msgstr "Galicijský"
+
 #~ msgid "Upper Sorbian"
-#~ msgstr "Serbia"
+#~ msgstr "Hornolužická srbština"
 
 #~ msgid "Armenian"
-#~ msgstr "Armenia"
+#~ msgstr "Arménština"
 
-#, fuzzy
-#~| msgid "Norwegian"
+#~ msgid "Interlingua"
+#~ msgstr "Interlingua"
+
+#~ msgid "Igbo"
+#~ msgstr "Igbo"
+
+#~ msgid "Ido"
+#~ msgstr "Ido"
+
+#~ msgid "Icelandic"
+#~ msgstr "Islandské"
+
 #~ msgid "Georgian"
-#~ msgstr "Norwegian"
+#~ msgstr "Gruzínština"
+
+#~ msgid "Kabyle"
+#~ msgstr "Kabyle"
+
+#~ msgid "Kazakh"
+#~ msgstr "Kazachstán"
+
+#~ msgid "Kannada"
+#~ msgstr "Kannada"
+
+#~ msgid "Kyrgyz"
+#~ msgstr "Kyrgyzstán"
+
+#~ msgid "Luxembourgish"
+#~ msgstr "Lucemburština"
+
+#~ msgid "Macedonian"
+#~ msgstr "Makedonština"
+
+#~ msgid "Malayalam"
+#~ msgstr "Malayalam"
 
 #~ msgid "Mongolian"
-#~ msgstr "Mongolia"
+#~ msgstr "Mongolština"
 
-#, fuzzy
-#~| msgid "Norwegian"
+#~ msgid "Marathi"
+#~ msgstr "Maráthština"
+
+#~ msgid "Malay"
+#~ msgstr "Malajština"
+
+#~ msgid "Burmese"
+#~ msgstr "Barmský"
+
 #~ msgid "Norwegian Bokmål"
-#~ msgstr "Norwegian"
+#~ msgstr "Norský jazyk Bokmål"
 
-#, fuzzy
-#~| msgid "Norwegian"
+#~ msgid "Nepali"
+#~ msgstr "Nepálské"
+
 #~ msgid "Norwegian Nynorsk"
-#~ msgstr "Norwegian"
+#~ msgstr "Norština Nynorsk"
+
+#~ msgid "Ossetic"
+#~ msgstr "Ossetic"
+
+#~ msgid "Punjabi"
+#~ msgstr "Paňdžábština"
 
 #~ msgid "Albanian"
-#~ msgstr "Bahasa Albania"
+#~ msgstr "Albánština"
 
-#, fuzzy
 #~ msgid "Serbian"
-#~ msgstr "Serbia"
+#~ msgstr "Srbština"
 
-#, fuzzy
 #~ msgid "Serbian Latin"
-#~ msgstr "Serbia"
+#~ msgstr "Srbská latina"
 
-#, fuzzy
+#~ msgid "Swahili"
+#~ msgstr "Svahilština"
+
+#~ msgid "Tamil"
+#~ msgstr "Tamil"
+
+#~ msgid "Telugu"
+#~ msgstr "Telugu"
+
+#~ msgid "Tajik"
+#~ msgstr "Tádžik"
+
 #~ msgid "Thai"
-#~ msgstr "Thailand"
+#~ msgstr "Thajština"
+
+#~ msgid "Turkmen"
+#~ msgstr "Turkmen"
+
+#~ msgid "Tatar"
+#~ msgstr "Tatar"
+
+#~ msgid "Udmurt"
+#~ msgstr "Udmurt"
+
+#~ msgid "Uyghur"
+#~ msgstr "Ujgur"
 
 #~ msgid "Ukrainian"
-#~ msgstr "Ukraina"
+#~ msgstr "Ukrajinský"
+
+#~ msgid "Urdu"
+#~ msgstr "Urdu"
+
+#~ msgid "Uzbek"
+#~ msgstr "Uzbek"
 
 #~ msgid "Vietnamese"
-#~ msgstr "Vietnam"
+#~ msgstr "Vietnamština"
 
 #~ msgid "Simplified Chinese"
-#~ msgstr "Bahasa Mandarin yang disederhanakan"
+#~ msgstr "Zjednodušená čínština"
+
+#~ msgid "Traditional Chinese"
+#~ msgstr "Tradiční čínština"
 
 #~ msgid "Brazilian"
-#~ msgstr "Brasil"
+#~ msgstr "Brazilský"
 
-#, fuzzy
 #~ msgid "Farsi"
-#~ msgstr "Farsi"
+#~ msgstr "Perština"
 
 #~ msgid "Yiddish"
-#~ msgstr "Yiddish"
+#~ msgstr "Jidiš"
 
-#, fuzzy
 #~ msgid "Akan"
-#~ msgstr "Akan"
+#~ msgstr "Akanština"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
-"PO-Revision-Date: 2024-07-15 00:23+0000\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"PO-Revision-Date: 2024-07-15 22:44+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,221 +18,177 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "Αφρικάανς"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "Ακάν"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Αραβικά"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:160
 msgid "Bulgarian"
 msgstr "Βουλγαρική"
 
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "Βραζιλιάνικο"
-
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:167
 msgid "Czech"
 msgstr "Τσεχική"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:169
 msgid "Danish"
 msgstr "Δανικά"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:170
 msgid "German"
 msgstr "Γερμανικά"
 
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "Εσθονικά"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "Αγγλικά"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "Ισπανικά"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "Φαρσί"
-
-#: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "Φινλανδική"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "Γαλλικά"
-
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:172
 msgid "Greek"
 msgstr "Ελληνική"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:173
+msgid "English"
+msgstr "Αγγλικά"
+
+#: .\AIMER2\settings.py:177
+msgid "Spanish"
+msgstr "Ισπανικά"
+
+#: .\AIMER2\settings.py:183
+msgid "Estonian"
+msgstr "Εσθονικά"
+
+#: .\AIMER2\settings.py:185
+msgid "Persian"
+msgstr "Περσικό"
+
+#: .\AIMER2\settings.py:186
+msgid "Finnish"
+msgstr "Φινλανδική"
+
+#: .\AIMER2\settings.py:187
+msgid "French"
+msgstr "Γαλλικά"
+
+#: .\AIMER2\settings.py:192
 msgid "Hebrew"
 msgstr "Εβραϊκά"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:193
 msgid "Hindi"
 msgstr "Χίντι"
 
-#: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "Ουγγρικό"
-
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:194
 msgid "Croatian"
 msgstr "Κροατικά"
 
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "Αρμένιοι"
+#: .\AIMER2\settings.py:196
+msgid "Hungarian"
+msgstr "Ουγγρικό"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:199
 msgid "Indonesian"
 msgstr "Ινδονησιακή"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:203
 msgid "Italian"
 msgstr "Ιταλικά"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:204
 msgid "Japanese"
 msgstr "Ιαπωνικά"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:208
 msgid "Khmer"
 msgstr "Χμερ"
 
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "Λιθουανικά"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "Λετονία"
-
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:210
 msgid "Korean"
 msgstr "Κορεάτικα"
 
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "Μογγολικά"
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "Λιθουανικά"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "Λετονία"
+
+#: .\AIMER2\settings.py:223
 msgid "Dutch"
 msgstr "Ολλανδικά"
 
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "Νορβηγικό"
-
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:227
 msgid "Polish"
 msgstr "Πολωνικά"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:228
 msgid "Portuguese"
 msgstr "Πορτογαλικά"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:229
+msgid "Brazilian Portuguese"
+msgstr "Πορτογαλικά Βραζιλίας"
+
+#: .\AIMER2\settings.py:230
 msgid "Romanian"
 msgstr "Ρουμανικά"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:231
 msgid "Russian"
 msgstr "Ρωσική"
 
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "Σουηδικά"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "Σλοβενική"
-
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:232
 msgid "Slovak"
 msgstr "Σλοβακία"
 
-#: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "Αλβανικά"
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "Σλοβενική"
 
-#: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "Σερβικά"
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "Σουηδικά"
 
-#: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "Ταϊλάνδης"
-
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:244
 msgid "Turkish"
 msgstr "Τουρκικά"
 
-#: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "Ουκρανικό"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "Βιετναμέζικα"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr "Γίντις"
-
-#: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr "Απλοποιημένα Κινέζικα"
-
-#: .\AIMER2\urls.py:26
+#: .\AIMER2\urls.py:27
 msgid "AIMER Administration"
 msgstr "Διοίκηση AIMER"
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr "Τεχνητή νοημοσύνη για την ιατρική έρευνα - Διαχείριση πύλης"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Welcome to AIMER Portal"
 msgstr "Καλώς ήρθατε στην πύλη AIMER"
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
 msgstr "AIMER Blog"
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
 msgstr "Τελευταία νέα"
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:24
+msgid "language"
+msgstr "γλώσσα"
+
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
 msgstr "Ταμπλό"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
 msgstr "Γεια σας"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
 msgstr "Αποσύνδεση"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
 #: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
@@ -496,6 +452,10 @@ msgid "edit your profile"
 msgstr "επεξεργαστείτε το προφίλ σας"
 
 #: .\templates\website\dashboard.html:7
+msgid "or"
+msgstr "ή"
+
+#: .\templates\website\dashboard.html:7
 msgid "change your password"
 msgstr "αλλάξτε τον κωδικό πρόσβασής σας"
 
@@ -545,3 +505,213 @@ msgstr "Ο λογαριασμός σας δημιουργήθηκε με επι�
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Τώρα μπορείτε να"
+
+#~ msgid "Afrikaans"
+#~ msgstr "Αφρικάανς"
+
+#~ msgid "Algerian Arabic"
+#~ msgstr "Αλγερινά αραβικά"
+
+#~ msgid "Asturian"
+#~ msgstr "Αστούρια"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "Αζερμπαϊτζάν"
+
+#~ msgid "Belarusian"
+#~ msgstr "Λευκορωσία"
+
+#~ msgid "Bengali"
+#~ msgstr "Μπενγκάλι"
+
+#~ msgid "Breton"
+#~ msgstr "Μπρέτον"
+
+#~ msgid "Bosnian"
+#~ msgstr "Βοσνιακή"
+
+#~ msgid "Catalan"
+#~ msgstr "Καταλανικά"
+
+#~ msgid "Central Kurdish (Sorani)"
+#~ msgstr "Κεντρικά κουρδικά (Sorani)"
+
+#~ msgid "Welsh"
+#~ msgstr "Ουαλικά"
+
+#~ msgid "Lower Sorbian"
+#~ msgstr "Κάτω Σορβικά"
+
+#~ msgid "Australian English"
+#~ msgstr "Αυστραλιανά Αγγλικά"
+
+#~ msgid "British English"
+#~ msgstr "Βρετανικά Αγγλικά"
+
+#~ msgid "Esperanto"
+#~ msgstr "Εσπεράντο"
+
+#~ msgid "Argentinian Spanish"
+#~ msgstr "Ισπανικά Αργεντινής"
+
+#~ msgid "Colombian Spanish"
+#~ msgstr "Κολομβιανά ισπανικά"
+
+#~ msgid "Mexican Spanish"
+#~ msgstr "Μεξικάνικα ισπανικά"
+
+#~ msgid "Nicaraguan Spanish"
+#~ msgstr "Ισπανικά της Νικαράγουας"
+
+#~ msgid "Venezuelan Spanish"
+#~ msgstr "Ισπανικά της Βενεζουέλας"
+
+#~ msgid "Basque"
+#~ msgstr "Βάσκοι"
+
+#~ msgid "Frisian"
+#~ msgstr "Frisian"
+
+#~ msgid "Irish"
+#~ msgstr "Ιρλανδική"
+
+#~ msgid "Scottish Gaelic"
+#~ msgstr "Σκωτσέζικα γαελικά"
+
+#~ msgid "Galician"
+#~ msgstr "Γαλικία"
+
+#~ msgid "Upper Sorbian"
+#~ msgstr "Άνω Σορβικά"
+
+#~ msgid "Armenian"
+#~ msgstr "Αρμένιοι"
+
+#~ msgid "Interlingua"
+#~ msgstr "Interlingua"
+
+#~ msgid "Igbo"
+#~ msgstr "Igbo"
+
+#~ msgid "Ido"
+#~ msgstr "Ido"
+
+#~ msgid "Icelandic"
+#~ msgstr "Ισλανδική"
+
+#~ msgid "Georgian"
+#~ msgstr "Γεωργιανή"
+
+#~ msgid "Kabyle"
+#~ msgstr "Kabyle"
+
+#~ msgid "Kazakh"
+#~ msgstr "Καζακστάν"
+
+#~ msgid "Kannada"
+#~ msgstr "Κανάντα"
+
+#~ msgid "Kyrgyz"
+#~ msgstr "Κιργιζία"
+
+#~ msgid "Luxembourgish"
+#~ msgstr "Λουξεμβούργο"
+
+#~ msgid "Macedonian"
+#~ msgstr "Μακεδονικό"
+
+#~ msgid "Malayalam"
+#~ msgstr "Malayalam"
+
+#~ msgid "Mongolian"
+#~ msgstr "Μογγολικά"
+
+#~ msgid "Marathi"
+#~ msgstr "Μαράθι"
+
+#~ msgid "Malay"
+#~ msgstr "Μαλαισία"
+
+#~ msgid "Burmese"
+#~ msgstr "Βιρμανίας"
+
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "Νορβηγικό Bokmål"
+
+#~ msgid "Nepali"
+#~ msgstr "Νεπάλ"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Νορβηγικά Nynorsk"
+
+#~ msgid "Ossetic"
+#~ msgstr "Οστικό"
+
+#~ msgid "Punjabi"
+#~ msgstr "Punjabi"
+
+#~ msgid "Albanian"
+#~ msgstr "Αλβανικά"
+
+#~ msgid "Serbian"
+#~ msgstr "Σερβικά"
+
+#~ msgid "Serbian Latin"
+#~ msgstr "Σερβικά Λατινικά"
+
+#~ msgid "Swahili"
+#~ msgstr "Σουαχίλι"
+
+#~ msgid "Tamil"
+#~ msgstr "Ταμίλ"
+
+#~ msgid "Telugu"
+#~ msgstr "Telugu"
+
+#~ msgid "Tajik"
+#~ msgstr "Τατζικιστάν"
+
+#~ msgid "Thai"
+#~ msgstr "Ταϊλάνδης"
+
+#~ msgid "Turkmen"
+#~ msgstr "Τουρκμενιστάν"
+
+#~ msgid "Tatar"
+#~ msgstr "Τατάρ"
+
+#~ msgid "Udmurt"
+#~ msgstr "Udmurt"
+
+#~ msgid "Uyghur"
+#~ msgstr "Ουιγούρ"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Ουκρανικό"
+
+#~ msgid "Urdu"
+#~ msgstr "Ουρντού"
+
+#~ msgid "Uzbek"
+#~ msgstr "Ουζμπεκιστάν"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Βιετναμέζικα"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "Απλοποιημένα Κινέζικα"
+
+#~ msgid "Traditional Chinese"
+#~ msgstr "Παραδοσιακά Κινέζικα"
+
+#~ msgid "Brazilian"
+#~ msgstr "Βραζιλιάνικο"
+
+#~ msgid "Farsi"
+#~ msgstr "Φαρσί"
+
+#~ msgid "Yiddish"
+#~ msgstr "Γίντις"
+
+#~ msgid "Akan"
+#~ msgstr "Ακάν"

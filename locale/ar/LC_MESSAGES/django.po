@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
-"PO-Revision-Date: 2024-07-15 00:13+0000\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"PO-Revision-Date: 2024-07-15 22:44+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,223 +19,179 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "أفريقي"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "أكان"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "اللغة العربية"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:160
 msgid "Bulgarian"
 msgstr "البلغارية"
 
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "برازيلي"
-
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:167
 msgid "Czech"
 msgstr "التشيكية"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:169
 msgid "Danish"
 msgstr "دنماركية"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:170
 msgid "German"
 msgstr "الألمانية"
 
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "الإستونية"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "اللغة الإنجليزية"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "الإسبانية"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "الفارسية"
-
-#: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "الفنلندية"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "الفرنسية"
-
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:172
 msgid "Greek"
 msgstr "اليونانية"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:173
+msgid "English"
+msgstr "اللغة الإنجليزية"
+
+#: .\AIMER2\settings.py:177
+msgid "Spanish"
+msgstr "الإسبانية"
+
+#: .\AIMER2\settings.py:183
+msgid "Estonian"
+msgstr "الإستونية"
+
+#: .\AIMER2\settings.py:185
+msgid "Persian"
+msgstr "فارسي"
+
+#: .\AIMER2\settings.py:186
+msgid "Finnish"
+msgstr "الفنلندية"
+
+#: .\AIMER2\settings.py:187
+msgid "French"
+msgstr "الفرنسية"
+
+#: .\AIMER2\settings.py:192
 msgid "Hebrew"
 msgstr "العبرية"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:193
 msgid "Hindi"
 msgstr "هندي"
 
-#: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "الهنغارية"
-
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:194
 msgid "Croatian"
 msgstr "الكرواتية"
 
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "الرومانية"
+#: .\AIMER2\settings.py:196
+msgid "Hungarian"
+msgstr "الهنغارية"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:199
 msgid "Indonesian"
 msgstr "الإندونيسية"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:203
 msgid "Italian"
 msgstr "إيطالي"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:204
 msgid "Japanese"
 msgstr "ياباني"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:208
 msgid "Khmer"
 msgstr "الخمير"
 
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "الليتوانية"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "اللاتفية"
-
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:210
 msgid "Korean"
 msgstr "كوري"
 
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "المنغولية"
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "الليتوانية"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "اللاتفية"
+
+#: .\AIMER2\settings.py:223
 msgid "Dutch"
 msgstr "اللغة الهولندية"
 
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "النرويجية"
-
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:227
 msgid "Polish"
 msgstr "البولندية"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:228
 msgid "Portuguese"
 msgstr "البرتغالية"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:229
+msgid "Brazilian Portuguese"
+msgstr "البرتغالية البرازيلية"
+
+#: .\AIMER2\settings.py:230
 msgid "Romanian"
 msgstr "الرومانية"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:231
 msgid "Russian"
 msgstr "الروسية"
 
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "اللغة السويدية"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "السلوفينية"
-
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:232
 msgid "Slovak"
 msgstr "السلوفاكية"
 
-#: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "الرومانية"
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "السلوفينية"
 
-#: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "الصربية"
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "اللغة السويدية"
 
-#: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "التايلاندية"
-
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:244
 msgid "Turkish"
 msgstr "اللغة التركية"
 
-#: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "أوكراني"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "الفيتنامية"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr "اليديشية"
-
-#: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr "الصينية المبسطة"
-
-#: .\AIMER2\urls.py:26
+#: .\AIMER2\urls.py:27
 msgid "AIMER Administration"
 msgstr "إدارة AIMER"
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
 "الذكاء الاصطناعي للأبحاث الطبية - إدارة البوابة الإلكترونية - إدارة البوابة "
 "الإلكترونية"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Welcome to AIMER Portal"
 msgstr "مرحباً بك في بوابة AIMER"
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
 msgstr "مدونة AIMER "
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
 msgstr "آخر الأخبار"
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:24
+msgid "language"
+msgstr "اللغة"
+
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
 msgstr "لوحة التحكم"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
 msgstr "مرحباً بكم"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
 msgstr "تسجيل الخروج"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
 #: .\templates\registration\login.html:23 .\templates\website\login.html:5
 msgid "Log-in"
@@ -496,6 +452,10 @@ msgid "edit your profile"
 msgstr "تعديل ملفك الشخصي"
 
 #: .\templates\website\dashboard.html:7
+msgid "or"
+msgstr "أو"
+
+#: .\templates\website\dashboard.html:7
 msgid "change your password"
 msgstr "تغيير كلمة المرور الخاصة بك"
 
@@ -543,3 +503,213 @@ msgstr "تم إنشاء حسابك بنجاح."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "يمكنك الآن"
+
+#~ msgid "Afrikaans"
+#~ msgstr "أفريقي"
+
+#~ msgid "Algerian Arabic"
+#~ msgstr "العربية الجزائرية"
+
+#~ msgid "Asturian"
+#~ msgstr "أستوريان"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "أذربيجان"
+
+#~ msgid "Belarusian"
+#~ msgstr "البيلاروسية"
+
+#~ msgid "Bengali"
+#~ msgstr "البنغالية"
+
+#~ msgid "Breton"
+#~ msgstr "بريتون"
+
+#~ msgid "Bosnian"
+#~ msgstr "البوسني"
+
+#~ msgid "Catalan"
+#~ msgstr "الكاتالونية"
+
+#~ msgid "Central Kurdish (Sorani)"
+#~ msgstr "الكردية الوسطى (سوراني)"
+
+#~ msgid "Welsh"
+#~ msgstr "الويلزية"
+
+#~ msgid "Lower Sorbian"
+#~ msgstr "سوربيان السفلى"
+
+#~ msgid "Australian English"
+#~ msgstr "اللغة الإنجليزية الأسترالية"
+
+#~ msgid "British English"
+#~ msgstr "الإنجليزية البريطانية"
+
+#~ msgid "Esperanto"
+#~ msgstr "الإسبرانتو"
+
+#~ msgid "Argentinian Spanish"
+#~ msgstr "الإسبانية الأرجنتينية"
+
+#~ msgid "Colombian Spanish"
+#~ msgstr "الإسبانية الكولومبية"
+
+#~ msgid "Mexican Spanish"
+#~ msgstr "الإسبانية المكسيكية"
+
+#~ msgid "Nicaraguan Spanish"
+#~ msgstr "الإسبانية النيكاراغوية"
+
+#~ msgid "Venezuelan Spanish"
+#~ msgstr "الإسبانية الفنزويلية"
+
+#~ msgid "Basque"
+#~ msgstr "الباسك"
+
+#~ msgid "Frisian"
+#~ msgstr "الفريزية"
+
+#~ msgid "Irish"
+#~ msgstr "الأيرلندية"
+
+#~ msgid "Scottish Gaelic"
+#~ msgstr "الغيلية الاسكتلندية"
+
+#~ msgid "Galician"
+#~ msgstr "الجاليكية"
+
+#~ msgid "Upper Sorbian"
+#~ msgstr "سوربيان العليا"
+
+#~ msgid "Armenian"
+#~ msgstr "الرومانية"
+
+#~ msgid "Interlingua"
+#~ msgstr "إنترلينجوا"
+
+#~ msgid "Igbo"
+#~ msgstr "الإيغبو"
+
+#~ msgid "Ido"
+#~ msgstr "إيدو"
+
+#~ msgid "Icelandic"
+#~ msgstr "الأيسلندية"
+
+#~ msgid "Georgian"
+#~ msgstr "جورجي"
+
+#~ msgid "Kabyle"
+#~ msgstr "القبائل"
+
+#~ msgid "Kazakh"
+#~ msgstr "الكازاخستانية"
+
+#~ msgid "Kannada"
+#~ msgstr "الكانادا"
+
+#~ msgid "Kyrgyz"
+#~ msgstr "قيرغيزستان"
+
+#~ msgid "Luxembourgish"
+#~ msgstr "اللوكسمبورجية"
+
+#~ msgid "Macedonian"
+#~ msgstr "المقدونية"
+
+#~ msgid "Malayalam"
+#~ msgstr "المالايالامية"
+
+#~ msgid "Mongolian"
+#~ msgstr "المنغولية"
+
+#~ msgid "Marathi"
+#~ msgstr "الماراثية"
+
+#~ msgid "Malay"
+#~ msgstr "الملايو"
+
+#~ msgid "Burmese"
+#~ msgstr "البورمية"
+
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "اللغة النرويجية بوكمال النرويجية"
+
+#~ msgid "Nepali"
+#~ msgstr "النيبالية"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "نينورسك النرويجية"
+
+#~ msgid "Ossetic"
+#~ msgstr "أوسيتيك"
+
+#~ msgid "Punjabi"
+#~ msgstr "البنجابية"
+
+#~ msgid "Albanian"
+#~ msgstr "الرومانية"
+
+#~ msgid "Serbian"
+#~ msgstr "الصربية"
+
+#~ msgid "Serbian Latin"
+#~ msgstr "الصربية اللاتينية"
+
+#~ msgid "Swahili"
+#~ msgstr "السواحيلية"
+
+#~ msgid "Tamil"
+#~ msgstr "التاميل"
+
+#~ msgid "Telugu"
+#~ msgstr "التيلجو"
+
+#~ msgid "Tajik"
+#~ msgstr "الطاجيكية"
+
+#~ msgid "Thai"
+#~ msgstr "التايلاندية"
+
+#~ msgid "Turkmen"
+#~ msgstr "التركمان"
+
+#~ msgid "Tatar"
+#~ msgstr "تتار"
+
+#~ msgid "Udmurt"
+#~ msgstr "أودمورت"
+
+#~ msgid "Uyghur"
+#~ msgstr "الأويغور"
+
+#~ msgid "Ukrainian"
+#~ msgstr "أوكراني"
+
+#~ msgid "Urdu"
+#~ msgstr "الأردية"
+
+#~ msgid "Uzbek"
+#~ msgstr "الأوزبكية"
+
+#~ msgid "Vietnamese"
+#~ msgstr "الفيتنامية"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "الصينية المبسطة"
+
+#~ msgid "Traditional Chinese"
+#~ msgstr "الصينية التقليدية"
+
+#~ msgid "Brazilian"
+#~ msgstr "برازيلي"
+
+#~ msgid "Farsi"
+#~ msgstr "الفارسية"
+
+#~ msgid "Yiddish"
+#~ msgstr "اليديشية"
+
+#~ msgid "Akan"
+#~ msgstr "أكان"

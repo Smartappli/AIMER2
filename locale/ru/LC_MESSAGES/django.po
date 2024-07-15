@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
 "PO-Revision-Date: 2024-07-15 01:05+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,227 +16,187 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "Африка"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "Уилл"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Арабский язык"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:160
 msgid "Bulgarian"
 msgstr "Болгария"
 
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "Бразилия"
-
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:167
 msgid "Czech"
 msgstr "Чехия"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:169
 msgid "Danish"
 msgstr "Датский"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:170
 msgid "German"
 msgstr "Немецкий"
 
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "Эстония"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "Английский язык"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "Испанский"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "Фарси"
-
-#: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "Финский"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "Французский"
-
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:172
 msgid "Greek"
 msgstr "Греция"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:173
+msgid "English"
+msgstr "Английский язык"
+
+#: .\AIMER2\settings.py:177
+msgid "Spanish"
+msgstr "Испанский"
+
+#: .\AIMER2\settings.py:183
+msgid "Estonian"
+msgstr "Эстония"
+
+#: .\AIMER2\settings.py:185
+msgid "Persian"
+msgstr ""
+
+#: .\AIMER2\settings.py:186
+msgid "Finnish"
+msgstr "Финский"
+
+#: .\AIMER2\settings.py:187
+msgid "French"
+msgstr "Французский"
+
+#: .\AIMER2\settings.py:192
 msgid "Hebrew"
 msgstr "Иврит"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:193
 msgid "Hindi"
 msgstr "Хинди"
 
-#: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "Венгерский"
-
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:194
 msgid "Croatian"
 msgstr "Хорватия"
 
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "Армянский"
+#: .\AIMER2\settings.py:196
+msgid "Hungarian"
+msgstr "Венгерский"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:199
 msgid "Indonesian"
 msgstr "Индонезия"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:203
 msgid "Italian"
 msgstr "Итальянский"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:204
 msgid "Japanese"
 msgstr "Японский"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:208
 msgid "Khmer"
 msgstr "Кхмер"
 
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "Литва"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "Латвия"
-
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:210
 msgid "Korean"
 msgstr "Корейский"
 
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "Монголия"
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "Литва"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "Латвия"
+
+#: .\AIMER2\settings.py:223
 msgid "Dutch"
 msgstr "Голландия"
 
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "Норвежский"
-
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:227
 msgid "Polish"
 msgstr "Польша"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:228
 msgid "Portuguese"
 msgstr "Португальский"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:229
+#, fuzzy
+#| msgid "Portuguese"
+msgid "Brazilian Portuguese"
+msgstr "Португальский"
+
+#: .\AIMER2\settings.py:230
 msgid "Romanian"
 msgstr "Румыния"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:231
 msgid "Russian"
 msgstr "Русский"
 
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "Шведский"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "Словения"
-
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:232
 msgid "Slovak"
 msgstr "Словакия"
 
-#: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "Албания"
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "Словения"
 
-#: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "Сербия"
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "Шведский"
 
-#: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "Тайский"
-
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:244
 msgid "Turkish"
 msgstr "Турецкая"
 
-#: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "Украина"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "Вьетнамский"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr "Идиш"
-
-#: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr "Упрощенный китайский"
-
-#: .\AIMER2\urls.py:26
+#: .\AIMER2\urls.py:27
 msgid "AIMER Administration"
 msgstr "Администрация AIMER"
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
 "Искусственный интеллект для медицинских исследований - Администрация портала"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Welcome to AIMER Portal"
 msgstr "Добро пожаловать на портал AIMER"
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
 msgstr "Блог AIMER"
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
 msgstr "Последние новости"
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:24
+msgid "language"
+msgstr ""
+
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
 msgstr "Приборная панель"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
 msgstr "Здравствуйте"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
 msgstr "Выход из системы"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\base.html:57 .\templates\registration\login.html:3
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
+#: .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Вход в систему"
 
@@ -494,6 +454,10 @@ msgid "edit your profile"
 msgstr "редактировать свой профиль"
 
 #: .\templates\website\dashboard.html:7
+msgid "or"
+msgstr ""
+
+#: .\templates\website\dashboard.html:7
 msgid "change your password"
 msgstr "изменить пароль"
 
@@ -542,3 +506,87 @@ msgstr "Ваша учетная запись была успешно созда�
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Теперь вы можете"
+
+#~ msgid "Afrikaans"
+#~ msgstr "Африка"
+
+#, fuzzy
+#~| msgid "Estonian"
+#~ msgid "Bosnian"
+#~ msgstr "Эстония"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Lower Sorbian"
+#~ msgstr "Сербия"
+
+#, fuzzy
+#~| msgid "English"
+#~ msgid "British English"
+#~ msgstr "Английский язык"
+
+#, fuzzy
+#~| msgid "Spanish"
+#~ msgid "Mexican Spanish"
+#~ msgstr "Испанский"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Upper Sorbian"
+#~ msgstr "Сербия"
+
+#~ msgid "Armenian"
+#~ msgstr "Армянский"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Georgian"
+#~ msgstr "Норвежский"
+
+#~ msgid "Mongolian"
+#~ msgstr "Монголия"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "Норвежский"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Норвежский"
+
+#~ msgid "Albanian"
+#~ msgstr "Албания"
+
+#~ msgid "Serbian"
+#~ msgstr "Сербия"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Serbian Latin"
+#~ msgstr "Сербия"
+
+#~ msgid "Thai"
+#~ msgstr "Тайский"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Украина"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Вьетнамский"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "Упрощенный китайский"
+
+#~ msgid "Brazilian"
+#~ msgstr "Бразилия"
+
+#~ msgid "Farsi"
+#~ msgstr "Фарси"
+
+#~ msgid "Yiddish"
+#~ msgstr "Идиш"
+
+#~ msgid "Akan"
+#~ msgstr "Уилл"

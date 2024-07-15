@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
 "PO-Revision-Date: 2024-07-14 19:41+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,221 +19,179 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "Người châu Phi"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "Sẽ"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
 msgstr "Tiếng Ả Rập"
 
-#: .\AIMER2\settings.py:158
+#: .\AIMER2\settings.py:160
 msgid "Bulgarian"
 msgstr "Tiếng Bungari"
 
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "Người nước Brazil"
-
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:167
 msgid "Czech"
 msgstr "Tiếng Séc"
 
-#: .\AIMER2\settings.py:161
+#: .\AIMER2\settings.py:169
 msgid "Danish"
 msgstr "Người Đan Mạch"
 
-#: .\AIMER2\settings.py:162
+#: .\AIMER2\settings.py:170
 msgid "German"
 msgstr "Tiếng Đức"
 
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "Tiếng Estonia"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "Tiếng Anh"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "Người Tây Ban Nha"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "tiếng Ba Tư"
-
-#: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "Tiếng Phần Lan"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "người Pháp"
-
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:172
 msgid "Greek"
 msgstr "người Hy Lạp"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:173
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: .\AIMER2\settings.py:177
+msgid "Spanish"
+msgstr "Người Tây Ban Nha"
+
+#: .\AIMER2\settings.py:183
+msgid "Estonian"
+msgstr "Tiếng Estonia"
+
+#: .\AIMER2\settings.py:185
+msgid "Persian"
+msgstr ""
+
+#: .\AIMER2\settings.py:186
+msgid "Finnish"
+msgstr "Tiếng Phần Lan"
+
+#: .\AIMER2\settings.py:187
+msgid "French"
+msgstr "người Pháp"
+
+#: .\AIMER2\settings.py:192
 msgid "Hebrew"
 msgstr "tiếng Do Thái"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:193
 msgid "Hindi"
 msgstr "Không"
 
-#: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "người Hungary"
-
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:194
 msgid "Croatian"
 msgstr "tiếng Croatia"
 
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "tiếng Armenia"
+#: .\AIMER2\settings.py:196
+msgid "Hungarian"
+msgstr "người Hungary"
 
-#: .\AIMER2\settings.py:175
+#: .\AIMER2\settings.py:199
 msgid "Indonesian"
 msgstr "Tiếng Indonesia"
 
-#: .\AIMER2\settings.py:176
+#: .\AIMER2\settings.py:203
 msgid "Italian"
 msgstr "Người Ý"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:204
 msgid "Japanese"
 msgstr "Tiếng Nhật"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:208
 msgid "Khmer"
 msgstr "Tiếng Khmer"
 
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "Tiếng Litva"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "Tiếng Latvia"
-
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:210
 msgid "Korean"
 msgstr "Hàn Quốc"
 
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "Tiếng Mông Cổ"
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "Tiếng Litva"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "Tiếng Latvia"
+
+#: .\AIMER2\settings.py:223
 msgid "Dutch"
 msgstr "Tiếng Hà Lan"
 
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "Người Na Uy"
-
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:227
 msgid "Polish"
 msgstr "Đánh bóng"
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:228
 msgid "Portuguese"
 msgstr "Tiếng Bồ Đào Nha"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:229
+#, fuzzy
+#| msgid "Portuguese"
+msgid "Brazilian Portuguese"
+msgstr "Tiếng Bồ Đào Nha"
+
+#: .\AIMER2\settings.py:230
 msgid "Romanian"
 msgstr "Người Rumani"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:231
 msgid "Russian"
 msgstr "Tiếng Nga"
 
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "Tiếng Thụy Điển"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "Tiếng Slovenia"
-
-#: .\AIMER2\settings.py:191
+#: .\AIMER2\settings.py:232
 msgid "Slovak"
 msgstr "Tiếng Slovak"
 
-#: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "Tiếng Albania"
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "Tiếng Slovenia"
 
-#: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "Tiếng Serbia"
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "Tiếng Thụy Điển"
 
-#: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "Tiếng Thái"
-
-#: .\AIMER2\settings.py:195
+#: .\AIMER2\settings.py:244
 msgid "Turkish"
 msgstr "Tiếng Thổ Nhĩ Kỳ"
 
-#: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "Tiếng Ukraina"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "Tiếng Việt"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr "Tiếng Yiddish"
-
-#: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr "Tiếng Trung giản thể"
-
-#: .\AIMER2\urls.py:26
+#: .\AIMER2\urls.py:27
 msgid "AIMER Administration"
 msgstr ""
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Welcome to AIMER Portal"
 msgstr ""
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
 msgstr "THÍCH Blog"
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
 msgstr "Tin mới nhất"
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:24
+msgid "language"
+msgstr ""
+
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
 msgstr "Bảng điều khiển"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
 msgstr "Xin chào"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
 msgstr "Đăng xuất"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
 #: .\templates\website\login.html:5
 msgid "Log-in"
@@ -494,6 +452,10 @@ msgid "edit your profile"
 msgstr "chỉnh sửa hồ sơ của bạn"
 
 #: .\templates\website\dashboard.html:7
+msgid "or"
+msgstr ""
+
+#: .\templates\website\dashboard.html:7
 msgid "change your password"
 msgstr "thay đổi mật khẩu của bạn"
 
@@ -541,3 +503,87 @@ msgstr "Tai khoản của bạn đa được tạo thanh công."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Bây giờ bạn có thể"
+
+#~ msgid "Afrikaans"
+#~ msgstr "Người châu Phi"
+
+#, fuzzy
+#~| msgid "Estonian"
+#~ msgid "Bosnian"
+#~ msgstr "Tiếng Estonia"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Lower Sorbian"
+#~ msgstr "Tiếng Serbia"
+
+#, fuzzy
+#~| msgid "English"
+#~ msgid "British English"
+#~ msgstr "Tiếng Anh"
+
+#, fuzzy
+#~| msgid "Spanish"
+#~ msgid "Mexican Spanish"
+#~ msgstr "Người Tây Ban Nha"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Upper Sorbian"
+#~ msgstr "Tiếng Serbia"
+
+#~ msgid "Armenian"
+#~ msgstr "tiếng Armenia"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Georgian"
+#~ msgstr "Người Na Uy"
+
+#~ msgid "Mongolian"
+#~ msgstr "Tiếng Mông Cổ"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "Người Na Uy"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Người Na Uy"
+
+#~ msgid "Albanian"
+#~ msgstr "Tiếng Albania"
+
+#~ msgid "Serbian"
+#~ msgstr "Tiếng Serbia"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Serbian Latin"
+#~ msgstr "Tiếng Serbia"
+
+#~ msgid "Thai"
+#~ msgstr "Tiếng Thái"
+
+#~ msgid "Ukrainian"
+#~ msgstr "Tiếng Ukraina"
+
+#~ msgid "Vietnamese"
+#~ msgstr "Tiếng Việt"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "Tiếng Trung giản thể"
+
+#~ msgid "Brazilian"
+#~ msgstr "Người nước Brazil"
+
+#~ msgid "Farsi"
+#~ msgstr "tiếng Ba Tư"
+
+#~ msgid "Yiddish"
+#~ msgstr "Tiếng Yiddish"
+
+#~ msgid "Akan"
+#~ msgstr "Sẽ"

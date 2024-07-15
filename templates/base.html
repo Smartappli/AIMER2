@@ -17,6 +17,22 @@
     <body>
         <div id="header">
             <span class="logo">AIMER v2</span>
+            {% get_current_language as LANGUAGE_CODE %}
+            {% get_available_languages as LANGUAGES %}
+            {% get_language_info_list for LANGUAGES as languages %}
+            <div class="language">
+                <p>{% translate "language" %}:</p>
+                <ul class="languages">
+                    {% for language in languages %}
+                        <li>
+                            <a href="/{{ language.code }}/"{% if language.code == LANGUAGE_CODE %} class="selected"{% endif %}>
+                                {{ language.name_local }}
+                            </a>
+                        </li>
+                  
+                    {% endfor %}
+                </ul>
+            </div>
             {% if request.user.is_authenticated %}
                 <ul class="menu">
                     <li {% if section == "dashboard" %}class="selected"{% endif %}>

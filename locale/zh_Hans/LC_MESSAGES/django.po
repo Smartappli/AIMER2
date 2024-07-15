@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 00:12+0200\n"
-"PO-Revision-Date: 2024-07-14 20:59+0000\n"
+"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"PO-Revision-Date: 2024-07-15 00:53+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,418 +18,376 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:155
-msgid "Afrikaans"
-msgstr "Afrikaans kasa"
-
 #: .\AIMER2\settings.py:156
-msgid "Akan"
-msgstr "Akan"
-
-#: .\AIMER2\settings.py:157
 msgid "Arabic"
-msgstr "Arabic kasa"
-
-#: .\AIMER2\settings.py:158
-msgid "Bulgarian"
-msgstr "Bulgaria kasa"
-
-#: .\AIMER2\settings.py:159
-msgid "Brazilian"
-msgstr "Brazilni a ɔyɛ ɔbarima"
+msgstr "阿拉伯语"
 
 #: .\AIMER2\settings.py:160
-msgid "Czech"
-msgstr "Czech kasa mu"
-
-#: .\AIMER2\settings.py:161
-msgid "Danish"
-msgstr "Danish kasa mu"
-
-#: .\AIMER2\settings.py:162
-msgid "German"
-msgstr "German kasa"
-
-#: .\AIMER2\settings.py:163
-msgid "Estonian"
-msgstr "Estonia kasa"
-
-#: .\AIMER2\settings.py:164
-msgid "English"
-msgstr "Borɔfo"
-
-#: .\AIMER2\settings.py:165
-msgid "Spanish"
-msgstr "Spanish"
-
-#: .\AIMER2\settings.py:166
-msgid "Farsi"
-msgstr "Farsi kasa mu"
+msgid "Bulgarian"
+msgstr "保加利亚语"
 
 #: .\AIMER2\settings.py:167
-msgid "Finnish"
-msgstr "Finland kasa"
-
-#: .\AIMER2\settings.py:168
-msgid "French"
-msgstr "Franse kasa"
+msgid "Czech"
+msgstr "捷克语"
 
 #: .\AIMER2\settings.py:169
-msgid "Greek"
-msgstr "Hela kasa mu"
+msgid "Danish"
+msgstr "丹麦语"
 
 #: .\AIMER2\settings.py:170
-msgid "Hebrew"
-msgstr "Hebri kasa mu"
-
-#: .\AIMER2\settings.py:171
-msgid "Hindi"
-msgstr "Hindi kasa mu"
+msgid "German"
+msgstr "德国"
 
 #: .\AIMER2\settings.py:172
-msgid "Hungarian"
-msgstr "Hungary kasa"
+msgid "Greek"
+msgstr "希腊文"
 
 #: .\AIMER2\settings.py:173
-msgid "Croatian"
-msgstr "Croatia kasa"
-
-#: .\AIMER2\settings.py:174
-msgid "Armenian"
-msgstr "Armenia kasa"
-
-#: .\AIMER2\settings.py:175
-msgid "Indonesian"
-msgstr "Indonesia kasa"
-
-#: .\AIMER2\settings.py:176
-msgid "Italian"
-msgstr "Italia kasa"
+msgid "English"
+msgstr "英语"
 
 #: .\AIMER2\settings.py:177
-msgid "Japanese"
-msgstr "Japanfo kasa"
-
-#: .\AIMER2\settings.py:178
-msgid "Khmer"
-msgstr "Khmer kasa mu"
-
-#: .\AIMER2\settings.py:179
-msgid "Lithuanian"
-msgstr "Lithuania kasa"
-
-#: .\AIMER2\settings.py:180
-msgid "Latvian"
-msgstr "Latvia kasa"
-
-#: .\AIMER2\settings.py:181
-msgid "Korean"
-msgstr "Korea kasa"
-
-#: .\AIMER2\settings.py:182
-msgid "Mongolian"
-msgstr "Mongolia kasa"
+msgid "Spanish"
+msgstr "西班牙语"
 
 #: .\AIMER2\settings.py:183
-msgid "Dutch"
-msgstr "Dutch kasa"
-
-#: .\AIMER2\settings.py:184
-msgid "Norwegian"
-msgstr "Norwayfo kasa"
+msgid "Estonian"
+msgstr "爱沙尼亚语"
 
 #: .\AIMER2\settings.py:185
-msgid "Polish"
-msgstr "Polish kasa mu"
+msgid "Persian"
+msgstr ""
 
 #: .\AIMER2\settings.py:186
-msgid "Portuguese"
-msgstr "Portugal kasa"
+msgid "Finnish"
+msgstr "芬兰语"
 
 #: .\AIMER2\settings.py:187
-msgid "Romanian"
-msgstr "Romania kasa"
-
-#: .\AIMER2\settings.py:188
-msgid "Russian"
-msgstr "Russia kasa"
-
-#: .\AIMER2\settings.py:189
-msgid "Swedish"
-msgstr "Sweden kasa mu"
-
-#: .\AIMER2\settings.py:190
-msgid "Slovenian"
-msgstr "Slovenia kasa"
-
-#: .\AIMER2\settings.py:191
-msgid "Slovak"
-msgstr "Slovak kasa"
+msgid "French"
+msgstr "法语"
 
 #: .\AIMER2\settings.py:192
-msgid "Albanian"
-msgstr "Albania kasa"
+msgid "Hebrew"
+msgstr "希伯来语"
 
 #: .\AIMER2\settings.py:193
-msgid "Serbian"
-msgstr "Serbia kasa"
+msgid "Hindi"
+msgstr "印地语"
 
 #: .\AIMER2\settings.py:194
-msgid "Thai"
-msgstr "Thailand kasa"
-
-#: .\AIMER2\settings.py:195
-msgid "Turkish"
-msgstr "Turkey kasa"
+msgid "Croatian"
+msgstr "克罗地亚语"
 
 #: .\AIMER2\settings.py:196
-msgid "Ukrainian"
-msgstr "Ukraine kasa"
-
-#: .\AIMER2\settings.py:197
-msgid "Vietnamese"
-msgstr "Vietnamfo kasa"
-
-#: .\AIMER2\settings.py:198
-msgid "Yiddish"
-msgstr ""
+msgid "Hungarian"
+msgstr "匈牙利语"
 
 #: .\AIMER2\settings.py:199
-msgid "Simplified Chinese"
-msgstr ""
+msgid "Indonesian"
+msgstr "印尼语"
 
-#: .\AIMER2\urls.py:26
-msgid "AIMER Administration"
-msgstr ""
+#: .\AIMER2\settings.py:203
+msgid "Italian"
+msgstr "意大利语"
+
+#: .\AIMER2\settings.py:204
+msgid "Japanese"
+msgstr "日语"
+
+#: .\AIMER2\settings.py:208
+msgid "Khmer"
+msgstr "高棉语"
+
+#: .\AIMER2\settings.py:210
+msgid "Korean"
+msgstr "韩语"
+
+#: .\AIMER2\settings.py:213
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+#: .\AIMER2\settings.py:214
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+#: .\AIMER2\settings.py:223
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: .\AIMER2\settings.py:227
+msgid "Polish"
+msgstr "波兰语"
+
+#: .\AIMER2\settings.py:228
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: .\AIMER2\settings.py:229
+#, fuzzy
+#| msgid "Portuguese"
+msgid "Brazilian Portuguese"
+msgstr "葡萄牙语"
+
+#: .\AIMER2\settings.py:230
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: .\AIMER2\settings.py:231
+msgid "Russian"
+msgstr "俄罗斯"
+
+#: .\AIMER2\settings.py:232
+msgid "Slovak"
+msgstr "斯"
+
+#: .\AIMER2\settings.py:233
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+#: .\AIMER2\settings.py:237
+msgid "Swedish"
+msgstr "瑞典语"
+
+#: .\AIMER2\settings.py:244
+msgid "Turkish"
+msgstr "土耳其语"
 
 #: .\AIMER2\urls.py:27
-msgid "Artificial Intelligence for Medical Research - Portal Administration"
-msgstr ""
+msgid "AIMER Administration"
+msgstr "AIMER 行政管理"
 
 #: .\AIMER2\urls.py:28
-msgid "Welcome to AIMER Portal"
-msgstr ""
+msgid "Artificial Intelligence for Medical Research - Portal Administration"
+msgstr "人工智能医学研究 - 门户管理"
 
-#: .\blog\feeds.py:11 .\templates\base.html:59
+#: .\AIMER2\urls.py:29
+msgid "Welcome to AIMER Portal"
+msgstr "欢迎访问 AIMER 门户网站"
+
+#: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
-msgstr ""
+msgstr "AIMER 博客"
 
-#: .\blog\feeds.py:13 .\templates\base.html:60
+#: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
+msgstr "最新消息"
+
+#: .\templates\base.html:24
+msgid "language"
 msgstr ""
 
-#: .\templates\base.html:23 .\templates\website\dashboard.html:3
+#: .\templates\base.html:39 .\templates\website\dashboard.html:3
 #: .\templates\website\dashboard.html:5
 msgid "Dashboard"
-msgstr ""
+msgstr "仪表板"
 
-#: .\templates\base.html:35
+#: .\templates\base.html:51
 msgid "Hello"
-msgstr ""
+msgstr "您好"
 
-#: .\templates\base.html:37
+#: .\templates\base.html:53
 msgid "Logout"
-msgstr ""
+msgstr "注销"
 
-#: .\templates\base.html:41 .\templates\registration\login.html:3
+#: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
 #: .\templates\website\login.html:5
 msgid "Log-in"
-msgstr ""
+msgstr "登录"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr ""
+msgstr "添加评论"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr ""
+msgstr "您的评论已被添加。"
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "San kɔ post no so"
+msgstr "回到岗位"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "mu"
+msgstr "由"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr ""
+msgstr "分享此贴"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr ""
+msgstr "类似职位"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr ""
+msgstr "目前还没有类似的帖子。"
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr ""
+msgstr "评论"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr ""
+msgstr "评论"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr ""
+msgstr "尚无评论。"
 
 #: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr ""
+msgstr "添加新评论"
 
 #: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr ""
+msgstr "添加评论"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr ""
+msgstr "最新消息"
 
 #: .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr ""
+msgstr "已出版"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Posts a ɛwɔ mu"
+msgstr "包含以下内容的职位"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Nneɛma biara nni hɔ a efii wo asɛmmisa no mu bae."
+msgstr "您的查询没有结果。"
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Hwehwɛ bio"
+msgstr "再次搜索"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr ""
+msgstr "搜索职位"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr ""
+msgstr "分享帖子"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr ""
+msgstr "电子邮件已成功发送"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr ""
+msgstr "已成功发送至"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr ""
+msgstr "分享"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr ""
+msgstr "通过电子邮件"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:10
 msgid "Send e-mail"
-msgstr ""
+msgstr "发送电子邮件"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr ""
+msgstr "上一页"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr ""
+msgstr "页次"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Deɛ ɛdi hɔ"
+msgstr "下一页"
 
 #: .\templates\registration\logged_out.html:3
 #: .\templates\registration\logged_out.html:5
 msgid "Logged out"
-msgstr ""
+msgstr "已注销"
 
 #: .\templates\registration\logged_out.html:7
 msgid "You have been successfully logged out."
-msgstr ""
+msgstr "您已成功注销。"
 
 #: .\templates\registration\logged_out.html:8
 msgid "You can"
-msgstr ""
+msgstr "您可以"
 
 #: .\templates\registration\logged_out.html:8
 msgid "log-in again"
-msgstr ""
+msgstr "再次登录"
 
 #: .\templates\registration\login.html:8
 msgid "Your username and password didn't match."
-msgstr ""
+msgstr "您的用户名和密码不匹配。"
 
 #: .\templates\registration\login.html:9
 msgid "Please try again."
-msgstr ""
+msgstr "请重试。"
 
 #: .\templates\registration\login.html:13
 msgid "Please, use the following form to log-in."
-msgstr ""
+msgstr "请使用以下表格登录。"
 
 #: .\templates\registration\login.html:14
 msgid "If you don't have an account"
-msgstr ""
+msgstr "如果您没有账户"
 
 #: .\templates\registration\login.html:14
 msgid "register here"
-msgstr ""
+msgstr "在此注册"
 
 #: .\templates\registration\login.html:27
 #: .\templates\registration\password_reset_form.html:5
 msgid "Forgotten your password?"
-msgstr ""
+msgstr "忘记密码？"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:5
 msgid "Password changed"
-msgstr ""
+msgstr "密码已更改"
 
 #: .\templates\registration\password_change_done.html:6
 msgid "Your password has been successfully changed."
-msgstr ""
+msgstr "您的密码已成功更改。"
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:5
 msgid "Change your password"
-msgstr ""
+msgstr "更改密码"
 
 #: .\templates\registration\password_change_form.html:6
 msgid "Use the form below to change your password."
-msgstr ""
+msgstr "使用下面的表格更改密码。"
 
 #: .\templates\registration\password_change_form.html:10
 msgid "Change"
-msgstr ""
+msgstr "变化"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr ""
+msgstr "密码重置"
 
 #: .\templates\registration\password_reset_complete.html:5
 msgid "Password set"
-msgstr ""
+msgstr "密码设置"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "Your password has been set. You can"
-msgstr ""
+msgstr "您的密码已设置。您可以"
 
 #: .\templates\registration\password_reset_complete.html:7
 msgid "log in now"
-msgstr ""
+msgstr "立即登录"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:5
@@ -437,101 +395,189 @@ msgstr ""
 #: .\templates\registration\password_reset_done.html:5
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr ""
+msgstr "重置密码"
 
 #: .\templates\registration\password_reset_confirm.html:7
 msgid "Please enter your new password twice:"
-msgstr ""
+msgstr "请输入新密码两次："
 
 #: .\templates\registration\password_reset_confirm.html:12
 msgid "Change my password"
-msgstr ""
+msgstr "更改我的密码"
 
 #: .\templates\registration\password_reset_confirm.html:17
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
-msgstr ""
+msgstr "密码重置链接无效，可能是因为该链接已被使用。请申请重置新密码。"
 
 #: .\templates\registration\password_reset_done.html:6
 msgid "We've emailed you instructions for setting your password."
-msgstr ""
+msgstr "我们已通过电子邮件向您发送了密码设置说明。"
 
 #: .\templates\registration\password_reset_done.html:7
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
-msgstr ""
+msgstr "如果您没有收到电子邮件，请确保您输入了注册时使用的地址。"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr ""
+msgstr "有人要求重置电子邮件密码"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr ""
+msgstr "请点击下面的链接："
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "您的用户名，以防忘记："
 
 #: .\templates\registration\password_reset_form.html:6
 msgid "Enter your e-mail address to obtain a new password."
-msgstr ""
+msgstr "输入您的电子邮件地址以获取新密码。"
 
 #: .\templates\website\dashboard.html:7
 msgid "Welcome to your dashboard. You can"
-msgstr ""
+msgstr "欢迎来到您的仪表板。您可以"
 
 #: .\templates\website\dashboard.html:7
 msgid "edit your profile"
+msgstr "编辑您的个人资料"
+
+#: .\templates\website\dashboard.html:7
+msgid "or"
 msgstr ""
 
 #: .\templates\website\dashboard.html:7
 msgid "change your password"
-msgstr ""
+msgstr "更改密码"
 
 #: .\templates\website\edit.html:5
 msgid "Edit your account"
-msgstr ""
+msgstr "编辑您的账户"
 
 #: .\templates\website\edit.html:6
 msgid "You can edit your account using the following form:"
-msgstr ""
+msgstr "您可以使用以下表格编辑您的账户："
 
 #: .\templates\website\edit.html:12
 msgid "Save changes"
-msgstr ""
+msgstr "保存更改"
 
 #: .\templates\website\login.html:6
 msgid "Please, use the following form to log-in:"
-msgstr ""
+msgstr "请使用以下表格登录："
 
 #: .\templates\website\login.html:11
 msgid "Log in"
-msgstr ""
+msgstr "登录"
 
 #: .\templates\website\register.html:3 .\templates\website\register.html:5
 msgid "Create an account"
-msgstr ""
+msgstr "创建账户"
 
 #: .\templates\website\register.html:6
 msgid "Please, sign up using the following form:"
-msgstr ""
+msgstr "请使用以下表格报名："
 
 #: .\templates\website\register.html:11
 msgid "Create my account"
-msgstr ""
+msgstr "创建我的账户"
 
 #: .\templates\website\register_done.html:3
 #: .\templates\website\register_done.html:5
 msgid "Welcome"
-msgstr ""
+msgstr "欢迎"
 
 #: .\templates\website\register_done.html:7
 msgid "Your account has been successfully created."
-msgstr ""
+msgstr "您的账户已成功创建。"
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
-msgstr ""
+msgstr "现在您可以"
+
+#~ msgid "Afrikaans"
+#~ msgstr "南非语"
+
+#, fuzzy
+#~| msgid "Estonian"
+#~ msgid "Bosnian"
+#~ msgstr "爱沙尼亚语"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Lower Sorbian"
+#~ msgstr "塞尔维亚文"
+
+#, fuzzy
+#~| msgid "English"
+#~ msgid "British English"
+#~ msgstr "英语"
+
+#, fuzzy
+#~| msgid "Spanish"
+#~ msgid "Mexican Spanish"
+#~ msgstr "西班牙语"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Upper Sorbian"
+#~ msgstr "塞尔维亚文"
+
+#~ msgid "Armenian"
+#~ msgstr "亚美尼亚语"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Georgian"
+#~ msgstr "挪威语"
+
+#~ msgid "Mongolian"
+#~ msgstr "蒙古语"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "挪威语"
+
+#, fuzzy
+#~| msgid "Norwegian"
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "挪威语"
+
+#~ msgid "Albanian"
+#~ msgstr "阿尔巴尼亚语"
+
+#~ msgid "Serbian"
+#~ msgstr "塞尔维亚文"
+
+#, fuzzy
+#~| msgid "Serbian"
+#~ msgid "Serbian Latin"
+#~ msgstr "塞尔维亚文"
+
+#~ msgid "Thai"
+#~ msgstr "泰语"
+
+#~ msgid "Ukrainian"
+#~ msgstr "乌克兰"
+
+#~ msgid "Vietnamese"
+#~ msgstr "越南语"
+
+#~ msgid "Simplified Chinese"
+#~ msgstr "简体中文"
+
+#~ msgid "Brazilian"
+#~ msgstr "巴西"
+
+#~ msgid "Farsi"
+#~ msgstr "波斯语"
+
+#~ msgid "Yiddish"
+#~ msgstr "意第绪语"
+
+#~ msgid "Akan"
+#~ msgstr "阿坎语"

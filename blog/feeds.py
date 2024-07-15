@@ -1,8 +1,8 @@
 import markdown
 from django.contrib.syndication.views import Feed
-from django.utils.translation import gettext_lazy as _
 from django.template.defaultfilters import truncatewords_html
 from django.urls import reverse_lazy
+from django.utils.translation import gettext_lazy as _
 
 from .models import Post
 
