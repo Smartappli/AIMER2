@@ -240,7 +240,7 @@ MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
 ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = "True"
-DEEPL_AUTH_KEY = "542cce7c-03e7-4407-9406-702c99388233:fx"
+DEEPL_AUTH_KEY = config("DEEPL_API_KEY")
 DEEPL_LANGUAGES = {"zh_Hans": "zh", "de": "de", "en": "en", "bg": "bg", "fr": "fr", "it": "it", "cz": "cs", "da": "da",
                    "es": "es", "ko": "ko", "hr": "hr", "id": "id", "fi": "fi", "ru": "ru", "se": "sv",
                    "nl": "nl", "gr": "el", "ja": "ja", "si": "sl", "ee": "et", "br": "pt-br", "hu": "hu", "lt": "lt",

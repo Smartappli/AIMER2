@@ -25,7 +25,7 @@ from django.core.mail import send_mail
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
 from django.db.models import Count
 from django.shortcuts import get_object_or_404, render
-from django.views.decorators.http import require_POST
+from django.views.decorators.http import require_GET, require_POST
 from django.views.generic import ListView
 from taggit.models import Tag
 
@@ -120,6 +120,7 @@ class PostListView(ListView):
     template_name = "blog/post/list.html"
 
 
+@require_POST
 def post_share(request, post_id):
     """
     Share a blog post via email.
@@ -189,6 +190,7 @@ def post_comment(request, post_id):
     )
 
 
+@require_GET
 def post_search(request):
     form = SearchForm()
     query = None
