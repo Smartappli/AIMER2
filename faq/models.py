@@ -16,7 +16,7 @@ class FaqQuestion(models.Model):
     category = models.ForeignKey(
         FaqCategory,
         on_delete=models.CASCADE,
-        related_name='faq_category',
+        related_name="faq_category",
     )
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL,
