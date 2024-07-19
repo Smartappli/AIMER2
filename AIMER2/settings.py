@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     "blog.apps.BlogConfig",
     # 'faq.apps.FaqConfig',
     # 'ticket.apps.TicketConfig',
-    'tutorial.apps.TutorialConfig',
+    "tutorial.apps.TutorialConfig",
 ]
 
 MIDDLEWARE = [
@@ -295,7 +295,32 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = "True"
 DEEPL_AUTH_KEY = config("DEEPL_API_KEY")
-DEEPL_LANGUAGES = {"zh_hans": "zh_hans", "de": "de", "en": "en", "bg": "bg", "fr": "fr", "it": "it", "cs": "cs",
-                   "da": "da", "es": "es", "ko": "ko", "hr": "hr", "id": "id", "fi": "fi", "ru": "ru", "sv": "sv",
-                   "nl": "nl", "gr": "el", "ja": "ja", "sl": "sl", "et": "et", "br": "pt-br", "hu": "hu", "lt": "lt",
-                   "lv": "lv", "no": "nb", "pt": "pt-pt", "ro": "ro"}
+DEEPL_LANGUAGES = {
+    "zh_hans": "zh_hans",
+    "de": "de",
+    "en": "en",
+    "bg": "bg",
+    "fr": "fr",
+    "it": "it",
+    "cs": "cs",
+    "da": "da",
+    "es": "es",
+    "ko": "ko",
+    "hr": "hr",
+    "id": "id",
+    "fi": "fi",
+    "ru": "ru",
+    "sv": "sv",
+    "nl": "nl",
+    "gr": "el",
+    "ja": "ja",
+    "sl": "sl",
+    "et": "et",
+    "br": "pt-br",
+    "hu": "hu",
+    "lt": "lt",
+    "lv": "lv",
+    "no": "nb",
+    "pt": "pt-pt",
+    "ro": "ro",
+}

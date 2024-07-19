@@ -25,7 +25,9 @@ from django.utils.translation import gettext_lazy as _
 from blog.sitemaps import PostSitemap, TagSitemap
 
 admin.site.site_header = _("AIMER Administration")
-admin.site.site_title = _("Artificial Intelligence for Medical Research - Portal Administration")
+admin.site.site_title = _(
+    "Artificial Intelligence for Medical Research - Portal Administration"
+)
 admin.site.index_title = _("Welcome to AIMER Portal")
 
 sitemaps = {
@@ -46,10 +48,8 @@ urlpatterns = i18n_patterns(
         name="django.contrib.sitemaps.views.sitemap",
     ),
     # path('ticket/', include('ticket.urls', namespace='ticket')),
-    path('tutorial/', include('tutorial.urls', namespace='tutorial')),
+    path("tutorial/", include("tutorial.urls", namespace="tutorial")),
 )
 
 if settings.DEBUG:
-    urlpatterns += static(
-        settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
-    )
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
