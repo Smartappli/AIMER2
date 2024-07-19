@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     "blog.apps.BlogConfig",
     # 'faq.apps.FaqConfig',
     # 'ticket.apps.TicketConfig',
-    # 'tutorial.apps.TutorialConfig',
+    'tutorial.apps.TutorialConfig',
 ]
 
 MIDDLEWARE = [

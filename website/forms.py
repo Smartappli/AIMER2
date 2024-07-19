@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth import get_user_model
+from django.utils.translation import gettext_lazy as _
 
 from .models import Profile
 
@@ -34,17 +35,23 @@ class UserRegistrationForm(forms.ModelForm):
     """
 
     password = forms.CharField(
-        label="Password",
+        label=_("Password"),
         widget=forms.PasswordInput(),
     )
     password2 = forms.CharField(
-        label="Confirm Password",
+        label=_("Confirm Password"),
         widget=forms.PasswordInput(),
     )
 
     class Meta:
         model = get_user_model()
         fields = ("username", "first_name", "last_name", "email")
+        labels = {
+            "username": _("Username"),
+            "first_name": _("First Name"),
+            "last_name": _("Last Name"),
+            "email": _("Email"),
+        }
 
     def clean_password2(self):
         """
@@ -75,6 +82,11 @@ class UserEditForm(forms.ModelForm):
     class Meta:
         model = get_user_model()
         fields = ("first_name", "last_name", "email")
+        labels = {
+            "first_name": _("First Name"),
+            "last_name": _("Last Name"),
+            "email": _("Email"),
+        }
 
 
 class ProfileEditForm(forms.ModelForm):
@@ -89,3 +101,8 @@ class ProfileEditForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ("date_of_birth", "photo", "bio")
+        labels = {
+            "date_of_birth": _("Date of Birth"),
+            "photo": _("Profile Photo"),
+            "bio": _("Biography"),
+        }
