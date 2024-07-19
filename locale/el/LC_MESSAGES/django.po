@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
 "PO-Revision-Date: 2024-07-15 22:44+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +171,20 @@ msgstr "AIMER Blog"
 msgid "Latest News"
 msgstr "Τελευταία νέα"
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr ""
+
+#: .\blog\forms.py:70
+#, fuzzy
+#| msgid "by e-mail"
+msgid "email"
+msgstr "μέσω e-mail"
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr ""
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr "γλώσσα"
@@ -189,8 +203,8 @@ msgid "Logout"
 msgstr "Αποσύνδεση"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
+#: .\templates\website\login.html:3 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Σύνδεση"
 
@@ -459,7 +473,7 @@ msgstr "ή"
 msgid "change your password"
 msgstr "αλλάξτε τον κωδικό πρόσβασής σας"
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr "Επεξεργαστείτε το λογαριασμό σας"
 
@@ -505,6 +519,54 @@ msgstr "Ο λογαριασμός σας δημιουργήθηκε με επι�
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Τώρα μπορείτε να"
+
+#: .\templates\website\register_done.html:8
+#, fuzzy
+#| msgid "Log in"
+msgid "log in"
+msgstr "Συνδεθείτε"
+
+#: .\website\forms.py:38
+#, fuzzy
+#| msgid "Password set"
+msgid "Password"
+msgstr "Ορισμός κωδικού πρόσβασης"
+
+#: .\website\forms.py:42
+#, fuzzy
+#| msgid "Change my password"
+msgid "Confirm Password"
+msgstr "Αλλαγή του κωδικού πρόσβασής μου"
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr ""
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr ""
+
+#: .\website\forms.py:52 .\website\forms.py:87
+#, fuzzy
+#| msgid "Latest News"
+msgid "Last Name"
+msgstr "Τελευταία νέα"
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr ""
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr ""
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr ""
+
+#: .\website\forms.py:107
+msgid "Biography"
+msgstr ""
 
 #~ msgid "Afrikaans"
 #~ msgstr "Αφρικάανς"

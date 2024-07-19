@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
 "PO-Revision-Date: 2024-07-15 00:33+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -176,6 +176,20 @@ msgstr "AIMER tinklaraštis"
 msgid "Latest News"
 msgstr "Naujausios naujienos"
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr ""
+
+#: .\blog\forms.py:70
+#, fuzzy
+#| msgid "by e-mail"
+msgid "email"
+msgstr "el. paštu"
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr ""
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr ""
@@ -195,7 +209,7 @@ msgstr "Atsijungimas"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\website\login.html:3 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Prisijungimas"
 
@@ -460,7 +474,7 @@ msgstr ""
 msgid "change your password"
 msgstr "pakeisti slaptažodį"
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr "Redaguokite savo paskyrą"
 
@@ -504,6 +518,54 @@ msgstr "Jūsų paskyra sėkmingai sukurta."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Dabar galite"
+
+#: .\templates\website\register_done.html:8
+#, fuzzy
+#| msgid "Log in"
+msgid "log in"
+msgstr "Prisijungti"
+
+#: .\website\forms.py:38
+#, fuzzy
+#| msgid "Password set"
+msgid "Password"
+msgstr "Nustatytas slaptažodis"
+
+#: .\website\forms.py:42
+#, fuzzy
+#| msgid "Change my password"
+msgid "Confirm Password"
+msgstr "Pakeisti slaptažodį"
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr ""
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr ""
+
+#: .\website\forms.py:52 .\website\forms.py:87
+#, fuzzy
+#| msgid "Latest News"
+msgid "Last Name"
+msgstr "Naujausios naujienos"
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr ""
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr ""
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr ""
+
+#: .\website\forms.py:107
+msgid "Biography"
+msgstr ""
 
 #~ msgid "Afrikaans"
 #~ msgstr "Afrikos"

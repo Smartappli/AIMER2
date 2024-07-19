@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -173,6 +173,18 @@ msgstr ""
 msgid "Latest News"
 msgstr ""
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr ""
+
+#: .\blog\forms.py:70
+msgid "email"
+msgstr ""
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr ""
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr ""
@@ -192,7 +204,7 @@ msgstr ""
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\website\login.html:3 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr ""
 
@@ -453,7 +465,7 @@ msgstr ""
 msgid "change your password"
 msgstr ""
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr ""
 
@@ -496,4 +508,44 @@ msgstr ""
 
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
+msgstr ""
+
+#: .\templates\website\register_done.html:8
+msgid "log in"
+msgstr ""
+
+#: .\website\forms.py:38
+msgid "Password"
+msgstr ""
+
+#: .\website\forms.py:42
+msgid "Confirm Password"
+msgstr ""
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr ""
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr ""
+
+#: .\website\forms.py:52 .\website\forms.py:87
+msgid "Last Name"
+msgstr ""
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr ""
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr ""
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr ""
+
+#: .\website\forms.py:107
+msgid "Biography"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
 "PO-Revision-Date: 2024-07-14 22:58+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,6 +174,20 @@ msgstr "AIMER 블로그"
 msgid "Latest News"
 msgstr "최신 뉴스"
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr ""
+
+#: .\blog\forms.py:70
+#, fuzzy
+#| msgid "by e-mail"
+msgid "email"
+msgstr "이메일로"
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr ""
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr ""
@@ -193,7 +207,7 @@ msgstr "로그아웃"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\website\login.html:3 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "로그인"
 
@@ -456,7 +470,7 @@ msgstr ""
 msgid "change your password"
 msgstr "비밀번호 변경"
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr "계정 수정"
 
@@ -500,6 +514,54 @@ msgstr "계정이 성공적으로 생성되었습니다."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "이제 다음을 수행할 수 있습니다."
+
+#: .\templates\website\register_done.html:8
+#, fuzzy
+#| msgid "Log in"
+msgid "log in"
+msgstr "로그인"
+
+#: .\website\forms.py:38
+#, fuzzy
+#| msgid "Password set"
+msgid "Password"
+msgstr "비밀번호 설정"
+
+#: .\website\forms.py:42
+#, fuzzy
+#| msgid "Change my password"
+msgid "Confirm Password"
+msgstr "비밀번호 변경"
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr ""
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr ""
+
+#: .\website\forms.py:52 .\website\forms.py:87
+#, fuzzy
+#| msgid "Latest News"
+msgid "Last Name"
+msgstr "최신 뉴스"
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr ""
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr ""
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr ""
+
+#: .\website\forms.py:107
+msgid "Biography"
+msgstr ""
 
 #~ msgid "Afrikaans"
 #~ msgstr "아프리카"

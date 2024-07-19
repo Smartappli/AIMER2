@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
 "PO-Revision-Date: 2024-07-14 23:23+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -174,6 +174,20 @@ msgstr "AIMER Blog"
 msgid "Latest News"
 msgstr "Laatste nieuws"
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr ""
+
+#: .\blog\forms.py:70
+#, fuzzy
+#| msgid "by e-mail"
+msgid "email"
+msgstr "per e-mail"
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr ""
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr ""
@@ -193,7 +207,7 @@ msgstr "Afmelden"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:5
+#: .\templates\website\login.html:3 .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Aanmelden"
 
@@ -460,7 +474,7 @@ msgstr ""
 msgid "change your password"
 msgstr "uw wachtwoord wijzigen"
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr "Je account bewerken"
 
@@ -504,6 +518,54 @@ msgstr "Uw commentaar is toegevoegd."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Nu kunt u"
+
+#: .\templates\website\register_done.html:8
+#, fuzzy
+#| msgid "Log in"
+msgid "log in"
+msgstr "Inloggen"
+
+#: .\website\forms.py:38
+#, fuzzy
+#| msgid "Password set"
+msgid "Password"
+msgstr "Wachtwoord instellen"
+
+#: .\website\forms.py:42
+#, fuzzy
+#| msgid "Change my password"
+msgid "Confirm Password"
+msgstr "Mijn wachtwoord wijzigen"
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr ""
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr ""
+
+#: .\website\forms.py:52 .\website\forms.py:87
+#, fuzzy
+#| msgid "Latest News"
+msgid "Last Name"
+msgstr "Laatste nieuws"
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr ""
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr ""
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr ""
+
+#: .\website\forms.py:107
+msgid "Biography"
+msgstr ""
 
 #~ msgid "Afrikaans"
 #~ msgstr "Afrikaans"

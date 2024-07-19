@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 22:43+0200\n"
-"PO-Revision-Date: 2024-07-15 22:44+0000\n"
+"POT-Creation-Date: 2024-07-15 23:26+0200\n"
+"PO-Revision-Date: 2024-07-15 23:31+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -173,6 +173,19 @@ msgstr "Блог на AIMER"
 msgid "Latest News"
 msgstr "Последни новини"
 
+#: .\blog\forms.py:69
+msgid "name"
+msgstr "име"
+
+#: .\blog\forms.py:70
+#| msgid "by e-mail"
+msgid "email"
+msgstr "имейл"
+
+#: .\blog\forms.py:71
+msgid "body"
+msgstr "тяло"
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr "език"
@@ -192,7 +205,8 @@ msgstr "Излизане от системата"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:5
-#: .\templates\registration\login.html:23 .\templates\website\login.html:5
+#: .\templates\registration\login.html:23 .\templates\website\login.html:3
+#: .\templates\website\login.html:5
 msgid "Log-in"
 msgstr "Влизане в системата"
 
@@ -457,7 +471,7 @@ msgstr "или"
 msgid "change your password"
 msgstr "да промените паролата си"
 
-#: .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
 msgid "Edit your account"
 msgstr "Редактиране на профила ви"
 
@@ -501,6 +515,50 @@ msgstr "Вашият акаунт е създаден успешно."
 #: .\templates\website\register_done.html:8
 msgid "Now you can"
 msgstr "Сега можете да"
+
+#: .\templates\website\register_done.html:8
+#| msgid "Log in"
+msgid "log in"
+msgstr "влизане в системата"
+
+#: .\website\forms.py:38
+#| msgid "Password set"
+msgid "Password"
+msgstr "Парола"
+
+#: .\website\forms.py:42
+#| msgid "Change my password"
+msgid "Confirm Password"
+msgstr "Потвърждаване на паролата"
+
+#: .\website\forms.py:50
+msgid "Username"
+msgstr "Потребителско име"
+
+#: .\website\forms.py:51 .\website\forms.py:86
+msgid "First Name"
+msgstr "Първо име"
+
+#: .\website\forms.py:52 .\website\forms.py:87
+#| msgid "Latest News"
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: .\website\forms.py:53 .\website\forms.py:88
+msgid "Email"
+msgstr "Имейл"
+
+#: .\website\forms.py:105
+msgid "Date of Birth"
+msgstr "Дата на раждане"
+
+#: .\website\forms.py:106
+msgid "Profile Photo"
+msgstr "Профилна снимка"
+
+#: .\website\forms.py:107
+msgid "Biography"
+msgstr "Биография"
 
 #~ msgid "Afrikaans"
 #~ msgstr "Африкански"
