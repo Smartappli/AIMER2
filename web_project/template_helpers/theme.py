@@ -15,15 +15,21 @@ class TemplateHelper:
                 "style": settings.TEMPLATE_CONFIG.get("style"),
                 "rtl_support": settings.TEMPLATE_CONFIG.get("rtl_support"),
                 "rtl_mode": settings.TEMPLATE_CONFIG.get("rtl_mode"),
-                "has_customizer": settings.TEMPLATE_CONFIG.get("has_customizer"),
+                "has_customizer": settings.TEMPLATE_CONFIG.get(
+                    "has_customizer"
+                ),
                 "display_customizer": settings.TEMPLATE_CONFIG.get(
                     "display_customizer"
                 ),
-                "content_layout": settings.TEMPLATE_CONFIG.get("content_layout"),
+                "content_layout": settings.TEMPLATE_CONFIG.get(
+                    "content_layout"
+                ),
                 "navbar_type": settings.TEMPLATE_CONFIG.get("navbar_type"),
                 "header_type": settings.TEMPLATE_CONFIG.get("header_type"),
                 "menu_fixed": settings.TEMPLATE_CONFIG.get("menu_fixed"),
-                "menu_collapsed": settings.TEMPLATE_CONFIG.get("menu_collapsed"),
+                "menu_collapsed": settings.TEMPLATE_CONFIG.get(
+                    "menu_collapsed"
+                ),
                 "footer_fixed": settings.TEMPLATE_CONFIG.get("footer_fixed"),
                 "show_dropdown_onhover": settings.TEMPLATE_CONFIG.get(
                     "show_dropdown_onhover"
@@ -77,7 +83,9 @@ class TemplateHelper:
         )
 
         # RTL Supported template
-        context["rtl_support_value"] = "/rtl" if context.get("rtl_support") else ""
+        context["rtl_support_value"] = (
+            "/rtl" if context.get("rtl_support") else ""
+        )
 
         # RTL Mode/Layout
         context["rtl_mode_value"], context["text_direction_value"] = (

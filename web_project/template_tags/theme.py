@@ -24,7 +24,10 @@ def filter_by_url(submenu, url):
     if submenu:
         for subitem in submenu:
             subitem_url = subitem.get("url")
-            if subitem_url == url.path or subitem_url == url.resolver_match.url_name:
+            if (
+                subitem_url == url.path
+                or subitem_url == url.resolver_match.url_name
+            ):
                 return True
 
             # Recursively check for submenus
@@ -41,6 +44,7 @@ def has_group(user, group):
     if user.groups.filter(name=group).exists():
         return True
 
+
 # Check if the user has the permission
 @register.filter
 def has_permission(user, permission):
@@ -53,9 +57,10 @@ def has_permission(user, permission):
 def is_admin(user):
     return user.groups.filter(name="admin").exists()
 
+
 @register.filter(name="admin_required")
 def admin_required(view_func):
-    return user_passes_test(is_admin, login_url='login')(view_func)
+    return user_passes_test(is_admin, login_url="login")(view_func)
 
 
 # For checking if the user group is client
@@ -63,9 +68,10 @@ def admin_required(view_func):
 def is_client(user):
     return user.groups.filter(name="client").exists()
 
+
 @register.filter(name="client_required")
 def client_required(view_func):
-    return user_passes_test(is_client, login_url='login')(view_func)
+    return user_passes_test(is_client, login_url="login")(view_func)
 
 
 # For checking if is_superuser
@@ -73,9 +79,10 @@ def client_required(view_func):
 def is_superuser(user):
     return user.is_superuser
 
+
 @register.filter(name="superuser_required")
 def superuser_required(view_func):
-    return user_passes_test(is_superuser, login_url='login')(view_func)
+    return user_passes_test(is_superuser, login_url="login")(view_func)
 
 
 # For checking if is_staff
@@ -83,9 +90,11 @@ def superuser_required(view_func):
 def is_staff(user):
     return user.is_staff
 
+
 @register.filter(name="staff_required")
 def staff_required(view_func):
-    return user_passes_test(is_staff, login_url='login')(view_func)
+    return user_passes_test(is_staff, login_url="login")(view_func)
+
 
 @register.simple_tag
 def current_url(request):

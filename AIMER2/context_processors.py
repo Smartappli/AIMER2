@@ -2,7 +2,7 @@ from django.conf import settings
 
 
 def my_setting(request):
-    return {'MY_SETTING': settings}
+    return {"MY_SETTING": settings}
 
 
 def language_code(request):
@@ -15,4 +15,4 @@ def get_cookie(request):
 
 # Add the 'ENVIRONMENT' setting to the template context
 def environment(request):
-    return {'ENVIRONMENT': settings.ENVIRONMENT}
+    return {"ENVIRONMENT": settings.ENVIRONMENT}

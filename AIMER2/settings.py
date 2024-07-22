@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config("DEBUG", 'True').lower() in ['true', 'yes', '1']
+DEBUG = config("DEBUG", "True").lower() in ["true", "yes", "1"]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
@@ -317,10 +317,35 @@ MEDIA_ROOT = BASE_DIR / "media"
 
 ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = "True"
 DEEPL_AUTH_KEY = config("DEEPL_API_KEY")
-DEEPL_LANGUAGES = {"zh_hans": "zh_hans", "de": "de", "en": "en", "bg": "bg", "fr": "fr", "it": "it", "cs": "cs",
-                   "da": "da", "es": "es", "ko": "ko", "hr": "hr", "id": "id", "fi": "fi", "ru": "ru", "sv": "sv",
-                   "nl": "nl", "gr": "el", "ja": "ja", "sl": "sl", "et": "et", "br": "pt-br", "hu": "hu", "lt": "lt",
-                   "lv": "lv", "no": "nb", "pt": "pt-pt", "ro": "ro"}
+DEEPL_LANGUAGES = {
+    "zh_hans": "zh_hans",
+    "de": "de",
+    "en": "en",
+    "bg": "bg",
+    "fr": "fr",
+    "it": "it",
+    "cs": "cs",
+    "da": "da",
+    "es": "es",
+    "ko": "ko",
+    "hr": "hr",
+    "id": "id",
+    "fi": "fi",
+    "ru": "ru",
+    "sv": "sv",
+    "nl": "nl",
+    "gr": "el",
+    "ja": "ja",
+    "sl": "sl",
+    "et": "et",
+    "br": "pt-br",
+    "hu": "hu",
+    "lt": "lt",
+    "lv": "lv",
+    "no": "nb",
+    "pt": "pt-pt",
+    "ro": "ro",
+}
 
 # Template Settings
 THEME_LAYOUT_DIR = THEME_LAYOUT_DIR
