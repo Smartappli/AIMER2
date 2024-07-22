@@ -9,7 +9,7 @@ flower==2.0.1
 Markdown==3.6
 Pillow==10.4.0
 psycopg==3.2.1
-pyopenssl==24.1.0
+pyopenssl==24.2.1
 python-decouple==3.8
 redis==5.0.7
 requests==2.32.3
