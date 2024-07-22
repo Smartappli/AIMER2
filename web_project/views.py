@@ -15,7 +15,9 @@ class SystemView(TemplateView):
         # _templates/layout/system.html
         context.update(
             {
-                "layout_path": TemplateHelper.set_layout("system.html", context),
+                "layout_path": TemplateHelper.set_layout(
+                    "system.html", context
+                ),
                 "status": self.status,
             }
         )
