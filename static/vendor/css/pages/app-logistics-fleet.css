@@ -1,0 +1,96 @@
+.app-logistics-fleet-wrapper {
+  position: relative;
+  border: none;
+  overflow: hidden;
+  height: calc(100vh - 14.1rem);
+}
+@media (max-width: 1199.98px) {
+  .app-logistics-fleet-wrapper {
+    height: calc(100vh - 10.5rem);
+  }
+}
+.layout-navbar-hidden .app-logistics-fleet-wrapper {
+  height: calc(100vh - 6.5rem);
+}
+.layout-navbar-hidden .app-logistics-fleet-wrapper .logistics-fleet-sidebar-body {
+  height: calc(100vh - 15.8rem + 4rem) !important;
+}
+.app-logistics-fleet-wrapper .app-logistics-fleet-sidebar {
+  position: absolute;
+  overflow: hidden;
+  background-color: #fff;
+  flex-grow: 0;
+  flex-basis: 21.5rem;
+  left: calc(-21.5rem - 1.2rem);
+  height: 100%;
+  width: 21.5rem;
+  transition: all 0.3s;
+  z-index: 2;
+}
+.app-logistics-fleet-wrapper .app-logistics-fleet-sidebar.show {
+  left: 0;
+}
+.app-logistics-fleet-wrapper .close-sidebar {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+.app-logistics-fleet-wrapper .logistics-fleet-sidebar-body {
+  height: calc(100vh - 13rem);
+}
+@media (min-width: 1200px) {
+  .app-logistics-fleet-wrapper .logistics-fleet-sidebar-body {
+    height: calc(100vh - 15.8rem) !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .app-logistics-fleet-wrapper {
+    height: calc(100vh - 11.5rem);
+  }
+  .app-logistics-fleet-wrapper .logistics-fleet-sidebar-body {
+    height: calc(100vh - 15.8rem + 0.8rem);
+  }
+  .layout-navbar-hidden .app-logistics-fleet-wrapper {
+    height: calc(100vh - 7.5rem);
+  }
+  .layout-navbar-hidden .app-logistics-fleet-wrapper .logistics-fleet-sidebar-body {
+    height: calc(100vh - 15.8rem + 2.5rem) !important;
+  }
+}
+@media (min-width: 768px) {
+  .app-logistics-fleet-wrapper .app-logistics-fleet-sidebar {
+    position: static;
+    height: auto;
+    background-color: transparent !important;
+  }
+}
+
+[dir=rtl] .app-logistics-fleet-wrapper .app-logistics-fleet-sidebar {
+  left: auto;
+  right: calc(-21.5rem - 1.2rem);
+}
+[dir=rtl] .app-logistics-fleet-wrapper .app-logistics-fleet-sidebar.show {
+  left: auto;
+  right: 0;
+}
+[dir=rtl] .app-logistics-fleet-wrapper .close-sidebar {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: auto;
+}
+
+.light-style .btn-white.btn-white-dark-variant {
+  color: #384551;
+  box-shadow: 0 0.0625rem 0.3175rem 0 rgba(34, 48, 62, 0.06) !important;
+}
+
+.dark-style .app-logistics-fleet-wrapper .app-logistics-fleet-sidebar {
+  background-color: #2b2c40;
+}
+.dark-style .app-logistics-fleet-wrapper .btn-white.btn-white-dark-variant {
+  border-color: #2b2c40;
+  background-color: #2b2c40;
+  color: #d5d5e2;
+  box-shadow: 0 0.0625rem 0.3175rem 0 rgba(20, 20, 29, 0.18) !important;
+}

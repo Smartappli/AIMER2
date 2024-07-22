@@ -1,0 +1,43 @@
+{% load static %}
+
+<!-- Helpers -->
+<!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+<script src="{% static 'vendor/js/helpers.js' %}"></script>
+<!--? Template customizer: To hide customizer set display_customizer value false in config.js.  -->
+{% if has_customizer %}
+<script src="{% static 'vendor/js/template-customizer.js' %}"></script>
+{% endif %}
+<!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+<script src="{% static 'js/config.js' %}"></script>
+<!-- beautify ignore:start -->
+{% if has_customizer %}
+<script>
+if (typeof TemplateCustomizer !== 'undefined') {
+  window.templateCustomizer = new TemplateCustomizer({
+    cssPath: '',
+    themesPath: '',
+    defaultStyle: "{{style}}", // Required as system style can't decided without JS
+    lang: '{{LANGUAGE_CODE}}',
+    pathResolver: function(path) {
+      var resolvedPaths = {
+        // Core stylesheets
+        'core.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/core.css",
+        'core-dark.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/core-dark.css",
+
+        'theme-default.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-default.css",
+        'theme-default-dark.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-default-dark.css",
+
+        'theme-bordered.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-bordered.css",
+        'theme-bordered-dark.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-bordered-dark.css",
+
+        'theme-semi-dark.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-semi-dark.css",
+        'theme-semi-dark-dark.css': "{% static 'vendor/css' %}{{rtl_support|yesno:'/rtl,'}}/theme-semi-dark-dark.css"
+      }
+      return resolvedPaths[path] || path;
+    },
+    controls: ['rtl', 'style'],
+  });
+}
+
+</script>
+{% endif %}

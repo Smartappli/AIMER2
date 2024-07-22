@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 23:26+0200\n"
+"POT-Creation-Date: 2024-07-21 23:17+0200\n"
 "PO-Revision-Date: 2024-07-15 01:05+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,150 +21,150 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:156
+#: .\AIMER2\settings.py:167
 msgid "Arabic"
 msgstr "Арабский язык"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:171
 msgid "Bulgarian"
 msgstr "Болгария"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:178
 msgid "Czech"
 msgstr "Чехия"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:180
 msgid "Danish"
 msgstr "Датский"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:181
 msgid "German"
 msgstr "Немецкий"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:183
 msgid "Greek"
 msgstr "Греция"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:184
 msgid "English"
 msgstr "Английский язык"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:188
 msgid "Spanish"
 msgstr "Испанский"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:194
 msgid "Estonian"
 msgstr "Эстония"
 
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:196
 msgid "Persian"
 msgstr ""
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:197
 msgid "Finnish"
 msgstr "Финский"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:198
 msgid "French"
 msgstr "Французский"
 
-#: .\AIMER2\settings.py:192
+#: .\AIMER2\settings.py:203
 msgid "Hebrew"
 msgstr "Иврит"
 
-#: .\AIMER2\settings.py:193
+#: .\AIMER2\settings.py:204
 msgid "Hindi"
 msgstr "Хинди"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:205
 msgid "Croatian"
 msgstr "Хорватия"
 
-#: .\AIMER2\settings.py:196
+#: .\AIMER2\settings.py:207
 msgid "Hungarian"
 msgstr "Венгерский"
 
-#: .\AIMER2\settings.py:199
+#: .\AIMER2\settings.py:210
 msgid "Indonesian"
 msgstr "Индонезия"
 
-#: .\AIMER2\settings.py:203
+#: .\AIMER2\settings.py:214
 msgid "Italian"
 msgstr "Итальянский"
 
-#: .\AIMER2\settings.py:204
+#: .\AIMER2\settings.py:215
 msgid "Japanese"
 msgstr "Японский"
 
-#: .\AIMER2\settings.py:208
+#: .\AIMER2\settings.py:219
 msgid "Khmer"
 msgstr "Кхмер"
 
-#: .\AIMER2\settings.py:210
+#: .\AIMER2\settings.py:221
 msgid "Korean"
 msgstr "Корейский"
 
-#: .\AIMER2\settings.py:213
+#: .\AIMER2\settings.py:224
 msgid "Lithuanian"
 msgstr "Литва"
 
-#: .\AIMER2\settings.py:214
+#: .\AIMER2\settings.py:225
 msgid "Latvian"
 msgstr "Латвия"
 
-#: .\AIMER2\settings.py:223
+#: .\AIMER2\settings.py:234
 msgid "Dutch"
 msgstr "Голландия"
 
-#: .\AIMER2\settings.py:227
+#: .\AIMER2\settings.py:238
 msgid "Polish"
 msgstr "Польша"
 
-#: .\AIMER2\settings.py:228
+#: .\AIMER2\settings.py:239
 msgid "Portuguese"
 msgstr "Португальский"
 
-#: .\AIMER2\settings.py:229
+#: .\AIMER2\settings.py:240
 #, fuzzy
 #| msgid "Portuguese"
 msgid "Brazilian Portuguese"
 msgstr "Португальский"
 
-#: .\AIMER2\settings.py:230
+#: .\AIMER2\settings.py:241
 msgid "Romanian"
 msgstr "Румыния"
 
-#: .\AIMER2\settings.py:231
+#: .\AIMER2\settings.py:242
 msgid "Russian"
 msgstr "Русский"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:243
 msgid "Slovak"
 msgstr "Словакия"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:244
 msgid "Slovenian"
 msgstr "Словения"
 
-#: .\AIMER2\settings.py:237
+#: .\AIMER2\settings.py:248
 msgid "Swedish"
 msgstr "Шведский"
 
-#: .\AIMER2\settings.py:244
+#: .\AIMER2\settings.py:255
 msgid "Turkish"
 msgstr "Турецкая"
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "AIMER Administration"
 msgstr "Администрация AIMER"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
 "Искусственный интеллект для медицинских исследований - Администрация портала"
 
-#: .\AIMER2\urls.py:29
+#: .\AIMER2\urls.py:30
 msgid "Welcome to AIMER Portal"
 msgstr "Добро пожаловать на портал AIMER"
 

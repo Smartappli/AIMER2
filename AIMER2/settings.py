@@ -15,6 +15,8 @@ from pathlib import Path
 
 from decouple import config
 
+from .template import TEMPLATE_CONFIG, THEME_LAYOUT_DIR, THEME_VARIABLES
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -25,14 +27,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = config("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config("DEBUG", 'True').lower() in ['true', 'yes', '1']
 
-ALLOWED_HOSTS = []
+# https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+
+# Current DJANGO_ENVIRONMENT
+ENVIRONMENT = config("DJANGO_ENVIRONMENT")
 
 SITE_ID = 1
 
 # Application definition
-
 INSTALLED_APPS = [
     "django_celery_beat",
     "django.contrib.admin",
@@ -46,15 +51,18 @@ INSTALLED_APPS = [
     "taggit",
     "website.apps.WebsiteConfig",
     "blog.apps.BlogConfig",
-    # 'faq.apps.FaqConfig',
-    # 'ticket.apps.TicketConfig',
-    'tutorial.apps.TutorialConfig',
+    # "faq.apps.FaqConfig",
+    "pages.apps.PagesConfig",
+    # "ticket.apps.TicketConfig",
+    "tutorial.apps.TutorialConfig",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.locale.LocaleMiddleware",
+    "web_project.language_middleware.DefaultLanguageMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -67,7 +75,7 @@ ROOT_URLCONF = "AIMER2.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates", BASE_DIR / "blog/templatetags"],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -75,6 +83,17 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "AIMER2.context_processors.language_code",
+                "AIMER2.context_processors.my_setting",
+                "AIMER2.context_processors.get_cookie",
+                "AIMER2.context_processors.environment",
+            ],
+            "libraries": {
+                "theme": "web_project.template_tags.theme",
+            },
+            "builtins": [
+                "django.templatetags.static",
+                "web_project.template_tags.theme",
             ],
         },
     },
@@ -258,7 +277,7 @@ LOCALE_PATHS = (BASE_DIR / "locale",)
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "en"
 
 TIME_ZONE = "UTC"
 
@@ -270,11 +289,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = "static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [BASE_DIR / "static/"]
+
+# Default URL on which Django application runs for specific environment
+BASE_URL = config("BASE_URL", default="http://127.0.0.1:8000")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
-
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # Email server configuration
@@ -299,3 +321,8 @@ DEEPL_LANGUAGES = {"zh_hans": "zh_hans", "de": "de", "en": "en", "bg": "bg", "fr
                    "da": "da", "es": "es", "ko": "ko", "hr": "hr", "id": "id", "fi": "fi", "ru": "ru", "sv": "sv",
                    "nl": "nl", "gr": "el", "ja": "ja", "sl": "sl", "et": "et", "br": "pt-br", "hu": "hu", "lt": "lt",
                    "lv": "lv", "no": "nb", "pt": "pt-pt", "ro": "ro"}
+
+# Template Settings
+THEME_LAYOUT_DIR = THEME_LAYOUT_DIR
+TEMPLATE_CONFIG = TEMPLATE_CONFIG
+THEME_VARIABLES = THEME_VARIABLES

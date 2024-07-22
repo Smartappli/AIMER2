@@ -1,0 +1,13 @@
+#wizard-checkout .bs-stepper-header {
+  max-width: 800px;
+}
+
+.list-group .btn-pinned.btn-close {
+  top: 1.5rem !important;
+}
+html:not([dir=rtl]) .list-group .btn-pinned.btn-close {
+  right: 1.5rem !important;
+}
+[dir=rtl] .list-group .btn-pinned.btn-close {
+  left: 1.5rem !important;
+}

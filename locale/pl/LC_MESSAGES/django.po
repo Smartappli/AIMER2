@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-15 23:26+0200\n"
+"POT-Creation-Date: 2024-07-21 23:17+0200\n"
 "PO-Revision-Date: 2024-07-15 00:25+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,149 +21,149 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:156
+#: .\AIMER2\settings.py:167
 msgid "Arabic"
 msgstr "Arabski"
 
-#: .\AIMER2\settings.py:160
+#: .\AIMER2\settings.py:171
 msgid "Bulgarian"
 msgstr "Bułgarski"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:178
 msgid "Czech"
 msgstr "Czech"
 
-#: .\AIMER2\settings.py:169
+#: .\AIMER2\settings.py:180
 msgid "Danish"
 msgstr "Duński"
 
-#: .\AIMER2\settings.py:170
+#: .\AIMER2\settings.py:181
 msgid "German"
 msgstr "Niemiecki"
 
-#: .\AIMER2\settings.py:172
+#: .\AIMER2\settings.py:183
 msgid "Greek"
 msgstr "Grecki"
 
-#: .\AIMER2\settings.py:173
+#: .\AIMER2\settings.py:184
 msgid "English"
 msgstr "Angielski"
 
-#: .\AIMER2\settings.py:177
+#: .\AIMER2\settings.py:188
 msgid "Spanish"
 msgstr "Hiszpański"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:194
 msgid "Estonian"
 msgstr "Estoński"
 
-#: .\AIMER2\settings.py:185
+#: .\AIMER2\settings.py:196
 msgid "Persian"
 msgstr ""
 
-#: .\AIMER2\settings.py:186
+#: .\AIMER2\settings.py:197
 msgid "Finnish"
 msgstr "Fiński"
 
-#: .\AIMER2\settings.py:187
+#: .\AIMER2\settings.py:198
 msgid "French"
 msgstr "Francuski"
 
-#: .\AIMER2\settings.py:192
+#: .\AIMER2\settings.py:203
 msgid "Hebrew"
 msgstr "Hebrajski"
 
-#: .\AIMER2\settings.py:193
+#: .\AIMER2\settings.py:204
 msgid "Hindi"
 msgstr "Hindi"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:205
 msgid "Croatian"
 msgstr "Chorwacki"
 
-#: .\AIMER2\settings.py:196
+#: .\AIMER2\settings.py:207
 msgid "Hungarian"
 msgstr "Węgierski"
 
-#: .\AIMER2\settings.py:199
+#: .\AIMER2\settings.py:210
 msgid "Indonesian"
 msgstr "Indonezyjski"
 
-#: .\AIMER2\settings.py:203
+#: .\AIMER2\settings.py:214
 msgid "Italian"
 msgstr "Włoski"
 
-#: .\AIMER2\settings.py:204
+#: .\AIMER2\settings.py:215
 msgid "Japanese"
 msgstr "Japoński"
 
-#: .\AIMER2\settings.py:208
+#: .\AIMER2\settings.py:219
 msgid "Khmer"
 msgstr "Khmer"
 
-#: .\AIMER2\settings.py:210
+#: .\AIMER2\settings.py:221
 msgid "Korean"
 msgstr "Koreański"
 
-#: .\AIMER2\settings.py:213
+#: .\AIMER2\settings.py:224
 msgid "Lithuanian"
 msgstr "Litewski"
 
-#: .\AIMER2\settings.py:214
+#: .\AIMER2\settings.py:225
 msgid "Latvian"
 msgstr "Łotewski"
 
-#: .\AIMER2\settings.py:223
+#: .\AIMER2\settings.py:234
 msgid "Dutch"
 msgstr "Holenderski"
 
-#: .\AIMER2\settings.py:227
+#: .\AIMER2\settings.py:238
 msgid "Polish"
 msgstr "Polski"
 
-#: .\AIMER2\settings.py:228
+#: .\AIMER2\settings.py:239
 msgid "Portuguese"
 msgstr "Portugalski"
 
-#: .\AIMER2\settings.py:229
+#: .\AIMER2\settings.py:240
 #, fuzzy
 #| msgid "Portuguese"
 msgid "Brazilian Portuguese"
 msgstr "Portugalski"
 
-#: .\AIMER2\settings.py:230
+#: .\AIMER2\settings.py:241
 msgid "Romanian"
 msgstr "Rumuński"
 
-#: .\AIMER2\settings.py:231
+#: .\AIMER2\settings.py:242
 msgid "Russian"
 msgstr "Rosyjski"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:243
 msgid "Slovak"
 msgstr "Słowacki"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:244
 msgid "Slovenian"
 msgstr "Słoweński"
 
-#: .\AIMER2\settings.py:237
+#: .\AIMER2\settings.py:248
 msgid "Swedish"
 msgstr "Szwedzki"
 
-#: .\AIMER2\settings.py:244
+#: .\AIMER2\settings.py:255
 msgid "Turkish"
 msgstr "Turecki"
 
-#: .\AIMER2\urls.py:27
+#: .\AIMER2\urls.py:28
 msgid "AIMER Administration"
 msgstr "Administracja AIMER"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\urls.py:29
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr "Sztuczna inteligencja w badaniach medycznych - Administracja portalem"
 
-#: .\AIMER2\urls.py:29
+#: .\AIMER2\urls.py:30
 msgid "Welcome to AIMER Portal"
 msgstr "Witamy na portalu AIMER"
 
