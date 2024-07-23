@@ -8,7 +8,7 @@
 # template-config/demo-*.py file's TEMPLATE_CONFIG to change the template configuration as per our demos
 TEMPLATE_CONFIG = {
     "layout": "vertical",             # Options[String]: vertical(default), horizontal
-    "theme": "theme-default",         # Options[String]: theme-default(default), theme-bordered, theme-semi-dark
+    "theme": "theme-semi-dark",       # Options[String]: theme-default(default), theme-bordered, theme-semi-dark
     "style": "light",                 # Options[String]: light(default), dark, system mode
     "rtl_support": True,              # options[Boolean]: True(default), False # To provide RTLSupport or not
     "rtl_mode": False,                # options[Boolean]: False(default), True # To set layout to RTL layout  (
