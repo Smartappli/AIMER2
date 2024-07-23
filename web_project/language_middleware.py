@@ -8,12 +8,12 @@ class DefaultLanguageMiddleware:
 
     def __call__(self, request):
         # Check if the django_language cookie is not set
-        if 'django_language' not in request.COOKIES:
+        if "django_language" not in request.COOKIES:
             # Get the default language from settings.LANGUAGE_CODE
             default_language = settings.LANGUAGE_CODE
             activate(default_language)
             response = self.get_response(request)
-            response.set_cookie('django_language', default_language)
+            response.set_cookie("django_language", default_language)
 
         else:
             response = self.get_response(request)
