@@ -10,10 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
-from django.utils.translation import gettext_lazy as _
 from pathlib import Path
 
 from decouple import config
+from django.utils.translation import gettext_lazy as _
 
 from .template import TEMPLATE_CONFIG, THEME_LAYOUT_DIR, THEME_VARIABLES
 
