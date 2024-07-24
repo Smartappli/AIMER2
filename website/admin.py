@@ -9,9 +9,7 @@ from .models import Profile
 
 def export_to_csv(modeladmin, request, queryset):
     opts = modeladmin.model._meta
-    content_disposition = "attachment; filename={}.csv".format(
-        opts.verbose_name_plural
-    )
+    content_disposition = f"attachment; filename={opts.verbose_name_plural}.csv"
     response = HttpResponse(content_type="text/csv")
     response["Content-Disposition"] = content_disposition
     writer = csv.writer(response)
