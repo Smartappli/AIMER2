@@ -1,6 +1,6 @@
-from django.conf import settings
 import json
 
+from django.conf import settings
 
 from web_project.template_helpers.theme import TemplateHelper
 
