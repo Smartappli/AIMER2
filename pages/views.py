@@ -1,7 +1,7 @@
 from django.views.generic import TemplateView
+
 from web_project import TemplateLayout
 from web_project.template_helpers.theme import TemplateHelper
-
 
 """
 This file is a view controller for multiple pages as a module.
