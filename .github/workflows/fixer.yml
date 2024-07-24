@@ -1,4 +1,4 @@
-name: Linter
+name: Fixer
 
 on: [push, pull_request]
 
