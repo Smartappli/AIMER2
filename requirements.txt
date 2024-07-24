@@ -1,8 +1,8 @@
 asgiref==3.8.1
 celery==5.4.0
 channels[daphne]==4.1.0
-django[argon2]==5.1b1
-git+https://github.com/celery/django-celery-beat.git
+django[argon2]==5.0.7
+django-celery-beat
 django-braces==1.15.0
 django-rosetta==0.10.0
 Django-taggit==5.0.1
