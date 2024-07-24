@@ -17,10 +17,10 @@ class SystemView(TemplateView):
         context.update(
             {
                 "layout_path": TemplateHelper.set_layout(
-                    "system.html", context
+                    "system.html", context,
                 ),
                 "status": self.status,
-            }
+            },
         )
 
         return context
