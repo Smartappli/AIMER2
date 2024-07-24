@@ -1,0 +1,29 @@
+name: Linter
+
+on: [push, pull_request]
+
+concurrency:
+  group: linter-${{ github.event_name == 'pull_request' && format('{0}-{1}', github.workflow, github.event.pull_request.number) || github.workflow_ref }}
+  cancel-in-progress: true
+
+jobs:
+  ruff-lint:
+    name: Ruff
+    runs-on: ubuntu-latest
+    permission:
+      content: write
+    steps:
+      - uses: actions/checkout@v4
+  
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - uses: chartboost/ruff-action@v1
+        with:
+          args: 'check --fix'
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'style fixes by ruff'
