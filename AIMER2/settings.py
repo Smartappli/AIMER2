@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from django.utils.translation import gettext_lazy as _
 from pathlib import Path
+from django.urls import reverse_lazy
 
 from decouple import config
 
@@ -39,6 +40,7 @@ SITE_ID = 1
 
 # Application definition
 INSTALLED_APPS = [
+    "daphne",
     "django_celery_beat",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -47,10 +49,15 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django.contrib.postgres",
+    "embed_video",
+    "debug_toolbar",
+    "redisboard",
+    "rest_framework"
     "rosetta",
     "taggit",
     "website.apps.WebsiteConfig",
     "blog.apps.BlogConfig",
+    "chat.apps.ChatConfig",
     # "faq.apps.FaqConfig",
     "pages.apps.PagesConfig",
     # "ticket.apps.TicketConfig",
@@ -58,6 +65,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -169,6 +177,10 @@ CACHES = {
         "BACKEND": "django.core.cache.backends.dummy.DummyCache",
     }
 }
+
+CACHE_MIDDLEWARE_ALIAS = 'default'
+CACHE_MIDDLEWARE_SECONDS = 60 * 15  # 15 minutes
+CACHE_MIDDLEWARE_KEY_PREFIX = 'aimer2'
 
 LANGUAGES = (
     # ("af", _("Afrikaans")),
@@ -289,7 +301,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "staticfiles"
+# STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [BASE_DIR / "static/"]
 
 # Default URL on which Django application runs for specific environment
@@ -351,3 +363,25 @@ DEEPL_LANGUAGES = {
 THEME_LAYOUT_DIR = THEME_LAYOUT_DIR
 TEMPLATE_CONFIG = TEMPLATE_CONFIG
 THEME_VARIABLES = THEME_VARIABLES
+
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
+
+ASGI_APPLICATION = 'AIMER2.asgi.application'
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)],
+        },
+    },
+}

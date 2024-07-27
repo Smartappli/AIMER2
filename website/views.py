@@ -3,6 +3,8 @@ from django.contrib.auth import authenticate, login
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.contrib.auth import views as auth_views
+from django.views.generic import TemplateView
 
 from .forms import (
     LoginForm,
@@ -11,6 +13,56 @@ from .forms import (
     UserRegistrationForm,
 )
 from .models import Profile
+from web_project import TemplateLayout
+from web_project.template_helpers.theme import TemplateHelper
+
+
+class WebsiteView(TemplateView):
+    # Predefined function
+    def get_context_data(self, **kwargs):
+        # A function to init the global layout. It is defined in web_project/__init__.py file
+        context = TemplateLayout.init(self, super().get_context_data(**kwargs))
+
+        # Update the context
+        context.update(
+            {
+                "layout_path": TemplateHelper.set_layout("layout_blank.html", context),
+            }
+        )
+
+        return context
+
+
+class CustomLoginView(WebsiteView, auth_views.LoginView):
+    template_name = 'registration/login.html'
+
+
+class CustomLogoutView(WebsiteView, auth_views.LogoutView):
+    template_name = 'registration/logged_out.html'
+
+
+class CustomPasswordChangeView(WebsiteView, auth_views.PasswordChangeView):
+    template_name = 'registration/password_change_form.html'
+
+
+class CustomPasswordChangeDoneView(WebsiteView, auth_views.PasswordChangeDoneView):
+    template_name = 'registration/password_change_done.html'
+
+
+class CustomPasswordResetView(WebsiteView, auth_views.PasswordResetView):
+    template_name = 'registration/password_reset_form.html'
+
+
+class CustomPasswordResetDoneView(WebsiteView, auth_views.PasswordResetDoneView):
+    template_name = 'registration/password_reset_done.html'
+
+
+class CustomPasswordResetConfirmView(WebsiteView, auth_views.PasswordResetConfirmView):
+    template_name = 'registration/password_reset_confirm.html'
+
+
+class CustomPasswordResetCompleteView(WebsiteView, auth_views.PasswordResetCompleteView):
+    template_name = 'registration/password_reset_complete.html'
 
 
 def user_login(request):
