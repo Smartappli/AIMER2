@@ -1,6 +1,7 @@
 # from web_project.bootstrap import TemplateBootstrap
-from web_project.template_helpers.theme import TemplateHelper
 from django.conf import settings
+
+from web_project.template_helpers.theme import TemplateHelper
 
 
 class TemplateLayout:

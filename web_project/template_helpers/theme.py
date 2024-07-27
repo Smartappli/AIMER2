@@ -1,7 +1,8 @@
-from django.conf import settings
-from pprint import pprint
 import os
 from importlib import import_module, util
+from pprint import pprint
+
+from django.conf import settings
 
 
 # Core TemplateHelper class
@@ -111,7 +112,7 @@ class TemplateHelper:
             context["content_layout_class"] = "layout-compact"
 
         # Detached Navbar
-        if context.get("navbar_detached") == True:
+        if context.get("navbar_detached"):
             context["navbar_detached_class"] = "navbar-detached"
         else:
             context["navbar_detached_class"] = ""

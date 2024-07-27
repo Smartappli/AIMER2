@@ -1,4 +1,5 @@
 from django.views.generic import TemplateView
+
 from web_project import TemplateLayout
 from web_project.template_helpers.theme import TemplateHelper
 
@@ -16,10 +17,11 @@ class SystemView(TemplateView):
         context.update(
             {
                 "layout_path": TemplateHelper.set_layout(
-                    "system.html", context
+                    "system.html",
+                    context,
                 ),
                 "status": self.status,
-            }
+            },
         )
 
         return context
