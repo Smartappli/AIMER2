@@ -46,4 +46,4 @@ jobs:
           python -m pip install uv
           python -m uv pip install djlint         
           djlint ./templates --check
-          djlint ./templates --reformat --format-attribute-template-tags
+          djlint ./templates --reformat --format-attribute-template-tags --format-css --format-js
