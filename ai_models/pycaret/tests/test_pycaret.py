@@ -83,7 +83,3 @@ class PyCaretModelsTestCase(TestCase):
                 print(
                     f"Anomaly detection model {model} executed in {execution_time:.4f} seconds"
                 )
-
-
-if __name__ == "__main__":
-    unittest.main()
