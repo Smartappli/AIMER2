@@ -26,7 +26,9 @@ class WebsiteView(TemplateView):
         # Update the context
         context.update(
             {
-                "layout_path": TemplateHelper.set_layout("layout_blank.html", context),
+                "layout_path": TemplateHelper.set_layout(
+                    "layout_blank.html", context
+                ),
             }
         )
 
@@ -34,35 +36,43 @@ class WebsiteView(TemplateView):
 
 
 class CustomLoginView(WebsiteView, auth_views.LoginView):
-    template_name = 'registration/login.html'
+    template_name = "registration/login.html"
 
 
 class CustomLogoutView(WebsiteView, auth_views.LogoutView):
-    template_name = 'registration/logged_out.html'
+    template_name = "registration/logged_out.html"
 
 
 class CustomPasswordChangeView(WebsiteView, auth_views.PasswordChangeView):
-    template_name = 'registration/password_change_form.html'
+    template_name = "registration/password_change_form.html"
 
 
-class CustomPasswordChangeDoneView(WebsiteView, auth_views.PasswordChangeDoneView):
-    template_name = 'registration/password_change_done.html'
+class CustomPasswordChangeDoneView(
+    WebsiteView, auth_views.PasswordChangeDoneView
+):
+    template_name = "registration/password_change_done.html"
 
 
 class CustomPasswordResetView(WebsiteView, auth_views.PasswordResetView):
-    template_name = 'registration/password_reset_form.html'
+    template_name = "registration/password_reset_form.html"
 
 
-class CustomPasswordResetDoneView(WebsiteView, auth_views.PasswordResetDoneView):
-    template_name = 'registration/password_reset_done.html'
+class CustomPasswordResetDoneView(
+    WebsiteView, auth_views.PasswordResetDoneView
+):
+    template_name = "registration/password_reset_done.html"
 
 
-class CustomPasswordResetConfirmView(WebsiteView, auth_views.PasswordResetConfirmView):
-    template_name = 'registration/password_reset_confirm.html'
+class CustomPasswordResetConfirmView(
+    WebsiteView, auth_views.PasswordResetConfirmView
+):
+    template_name = "registration/password_reset_confirm.html"
 
 
-class CustomPasswordResetCompleteView(WebsiteView, auth_views.PasswordResetCompleteView):
-    template_name = 'registration/password_reset_complete.html'
+class CustomPasswordResetCompleteView(
+    WebsiteView, auth_views.PasswordResetCompleteView
+):
+    template_name = "registration/password_reset_complete.html"
 
 
 def user_login(request):

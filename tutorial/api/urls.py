@@ -3,12 +3,12 @@ from rest_framework import routers
 
 from . import views
 
-app_name = 'tutorial'
+app_name = "tutorial"
 
 
 router = routers.DefaultRouter()
-router.register('courses', views.CourseViewSet)
-router.register('subjects', views.SubjectViewSet)
+router.register("courses", views.CourseViewSet)
+router.register("subjects", views.SubjectViewSet)
 
 urlpatterns = [
     # path(
@@ -26,5 +26,5 @@ urlpatterns = [
     #     views.CourseEnrollView.as_view(),
     #     name='course_enroll'
     # ),
-    path('', include(router.urls)),
+    path("", include(router.urls)),
 ]

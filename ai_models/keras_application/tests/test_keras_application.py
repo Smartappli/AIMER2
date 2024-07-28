@@ -19,8 +19,12 @@ for model_name in keras_models:
         # Initialize the model (some models might require specific arguments)
         print(f"Testing model: {model_name}")
         start_time = time.time()
-        model_instance = model_class(weights=None)  # Initialize without pre-trained weights
+        model_instance = model_class(
+            weights=None
+        )  # Initialize without pre-trained weights
         elapsed_time = time.time() - start_time
-        print(f"{model_name} initialized successfully (time: {elapsed_time:.3f} seconds).\n")
+        print(
+            f"{model_name} initialized successfully (time: {elapsed_time:.3f} seconds).\n"
+        )
     except Exception as e:
         print(f"Error initializing {model_name}: {e}\n")
