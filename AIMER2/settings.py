@@ -50,9 +50,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.postgres",
     "embed_video",
-    "debug_toolbar",
     "redisboard",
-    "rest_framework"
+    "rest_framework",
     "rosetta",
     "taggit",
     "website.apps.WebsiteConfig",
@@ -60,12 +59,12 @@ INSTALLED_APPS = [
     "chat.apps.ChatConfig",
     # "faq.apps.FaqConfig",
     "pages.apps.PagesConfig",
+    "students.apps.StudentsConfig",
     # "ticket.apps.TicketConfig",
     "tutorial.apps.TutorialConfig",
 ]
 
 MIDDLEWARE = [
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
