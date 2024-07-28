@@ -35,7 +35,7 @@ jobs:
           python -m pip install uv
           python -m uv pip install djlint         
           djlint ./templates --check
-          djlint ./templates --reformat --format-attribute-template-tags --format-css --indent-css 5 --format-js --indent-js 5
+          djlint ./templates --reformat --format-attribute-template-tags --profile "django" --format-css --indent-css 5 --format-js --indent-js 5
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
