@@ -17,12 +17,24 @@ class TimmModelsTest(TestCase):
                 with self.subTest(model=model_name):
                     try:
                         start_time = time.time()
-                        create_model(model_name, pretrained=True, num_classes=self.num_classes)
+                        create_model(
+                            model_name,
+                            pretrained=True,
+                            num_classes=self.num_classes,
+                        )
                         elapsed_time = time.time() - start_time
-                        print(f"{num}: {model_name} - ok (time: {elapsed_time:.3f} seconds)")
+                        print(
+                            f"{num}: {model_name} - ok (time: {elapsed_time:.3f} seconds)"
+                        )
                     except RuntimeError as e:
                         start_time = time.time()
-                        create_model(model_name, pretrained=False, num_classes=self.num_classes)
+                        create_model(
+                            model_name,
+                            pretrained=False,
+                            num_classes=self.num_classes,
+                        )
                         elapsed_time = time.time() - start_time
-                        print(f"{num}: {model_name} - ok without pretrained (time: {elapsed_time:.3f} seconds)")
+                        print(
+                            f"{num}: {model_name} - ok without pretrained (time: {elapsed_time:.3f} seconds)"
+                        )
                     num += 1

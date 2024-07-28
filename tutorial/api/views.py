@@ -17,30 +17,30 @@ from tutorial.models import Course, Subject
 
 
 class SubjectViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Subject.objects.annotate(total_courses=Count('courses'))
+    queryset = Subject.objects.annotate(total_courses=Count("courses"))
     serializer_class = SubjectSerializer
     pagination_class = StandardPagination
 
 
 class CourseViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Course.objects.prefetch_related('modules')
+    queryset = Course.objects.prefetch_related("modules")
     serializer_class = CourseSerializer
     pagination_class = StandardPagination
 
     @action(
         detail=True,
-        methods=['post'],
+        methods=["post"],
         authentication_classes=[BasicAuthentication],
         permission_classes=[IsAuthenticated],
     )
     def enroll(self, request, *args, **kwargs):
         course = self.get_object()
         course.students.add(request.user)
-        return Response({'enrolled': True})
+        return Response({"enrolled": True})
 
     @action(
         detail=True,
-        methods=['get'],
+        methods=["get"],
         serializer_class=CourseWithContentsSerializer,
         authentication_classes=[BasicAuthentication],
         permission_classes=[IsAuthenticated, IsEnrolled],
