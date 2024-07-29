@@ -21,7 +21,7 @@ Markdown==3.6
 packaging==24.1
 Pillow==10.4.0
 psycopg==3.2.1
-# pycaret==3.3.2
+# pycaret==3.4.0
 git+https://github.com/pycaret/pycaret.git
 pyopenssl==24.2.1
 pymemcache==4.0.0
