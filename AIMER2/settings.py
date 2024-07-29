@@ -121,7 +121,7 @@ DATABASES = {
     #    "USER": config("BLOG_DB_USER"),
     #    "PASSWORD": config("BLOG_DB_PASSWORD"),
     #    "HOST": config("BLOG_DB_HOST"),
-    #.    "OPTIONS": {
+    # .    "OPTIONS": {
     #         "pool": {
     #            "min_size": 2,
     #            "max_size": 4,
@@ -163,7 +163,7 @@ DATABASES = {
     #    "USER": config("TUTORIAL_DB_USER"),
     #    "PASSWORD": config("TUTORIAL_DB_PASSWORD"),
     #    "HOST": config("TUTORIAL_DB_HOST"),
-    #.   "OPTIONS": {
+    # .   "OPTIONS": {
     #        "pool": {
     #            "min_size": 2,
     #            "max_size": 4,
@@ -177,7 +177,7 @@ DATABASES = {
     #    "USER": config("WEBSITE_DB_USER"),
     #    "PASSWORD": config("WEBSITE_DB_PASSWORD"),
     #    "HOST": config("WEBSITE_DB_HOST"),
-    #.   "OPTIONS": {
+    # .   "OPTIONS": {
     #        "pool": {
     #            "min_size": 2,
     #            "max_size": 4,
