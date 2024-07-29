@@ -21,7 +21,7 @@ Pillow==10.4.0
 psycopg==3.2.1
 # pycaret==3.3.2
 git+https://github.com/pycaret/pycaret.git
-pyopenssl==24.1.0
+pyopenssl==24.2.1
 pymemcache==4.0.0
 python-decouple==3.8
 redis==5.1.0b7
