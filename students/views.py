@@ -1,4 +1,3 @@
-
 # Create your views here.
 from courses.models import Course
 from django.contrib.auth import authenticate, login
