@@ -121,6 +121,13 @@ DATABASES = {
     #    "USER": config("BLOG_DB_USER"),
     #    "PASSWORD": config("BLOG_DB_PASSWORD"),
     #    "HOST": config("BLOG_DB_HOST"),
+    #.    "OPTIONS": {
+    #         "pool": {
+    #            "min_size": 2,
+    #            "max_size": 4,
+    #            "timeout": 500,
+    #        }
+    #    },
     # },
     # "faq": {
     #    "ENGINE": "django.db.backends.postgresql",
@@ -128,6 +135,13 @@ DATABASES = {
     #    "USER": config("FAQ_DB_USER"),
     #    "PASSWORD": config("FAQ_DB_PASSWORD"),
     #    "HOST": config("FAQ_DB_HOST"),
+    #    "OPTIONS": {
+    #        "pool": {
+    #            "min_size": 2,
+    #            "max_size": 4,
+    #            "timeout": 10,
+    #        }
+    #    },
     # },
     # "ticket": {
     #    "ENGINE": "django.db.backends.postgresql",
@@ -135,6 +149,13 @@ DATABASES = {
     #    "USER": config("TICKET_DB_USER"),
     #    "PASSWORD": config("TICKET_DB_PASSWORD"),
     #    "HOST": config("TICKET_DB_HOST"),
+    #    "OPTIONS": {
+    #        "pool": {
+    #            "min_size": 2,
+    #            "max_size": 4,
+    #            "timeout": 10,
+    #        }
+    #    },
     # },
     # "tutorial": {
     #    "ENGINE": "django.db.backends.postgresql",
@@ -142,6 +163,13 @@ DATABASES = {
     #    "USER": config("TUTORIAL_DB_USER"),
     #    "PASSWORD": config("TUTORIAL_DB_PASSWORD"),
     #    "HOST": config("TUTORIAL_DB_HOST"),
+    #.   "OPTIONS": {
+    #        "pool": {
+    #            "min_size": 2,
+    #            "max_size": 4,
+    #            "timeout": 10,
+    #        }
+    #    },
     # },
     # "website": {
     #    "ENGINE": "django.db.backends.postgresql",
@@ -149,6 +177,13 @@ DATABASES = {
     #    "USER": config("WEBSITE_DB_USER"),
     #    "PASSWORD": config("WEBSITE_DB_PASSWORD"),
     #    "HOST": config("WEBSITE_DB_HOST"),
+    #.   "OPTIONS": {
+    #        "pool": {
+    #            "min_size": 2,
+    #            "max_size": 4,
+    #            "timeout": 10,
+    #        }
+    #    },
     # },
 }
 
