@@ -570,14 +570,14 @@ def test_model_combinations(encoders, architectures):
         for encoder in encoders:
             if arch["dilation"] == encoder["dilation"]:
                 try:
-                    model = smp.create_model(
+                    smp.create_model(
                         arch=arch["model"],
                         encoder_name=encoder["model"],
                         encoder_weights="imagenet",
                         in_channels=3,
                         classes=2,
                     )
-                    preprocess_input = get_preprocessing_fn(
+                    get_preprocessing_fn(
                         encoder["model"], pretrained="imagenet"
                     )
                     print(
