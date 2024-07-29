@@ -1,5 +1,4 @@
 from django.urls import path
-from django.contrib.auth import views as auth_views
 from .views import (
     CustomLoginView,
     CustomLogoutView,
@@ -9,7 +8,6 @@ from .views import (
     CustomPasswordResetDoneView,
     CustomPasswordResetConfirmView,
     CustomPasswordResetCompleteView,
-    WebsiteView,
 )
 from . import views
 

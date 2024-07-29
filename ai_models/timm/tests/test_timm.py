@@ -26,7 +26,7 @@ class TimmModelsTest(TestCase):
                         print(
                             f"{num}: {model_name} - ok (time: {elapsed_time:.3f} seconds)"
                         )
-                    except RuntimeError as e:
+                    except RuntimeError:
                         start_time = time.time()
                         create_model(
                             model_name,

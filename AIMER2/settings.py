@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-from django.urls import reverse_lazy
 
 from decouple import config
 from django.utils.translation import gettext_lazy as _
