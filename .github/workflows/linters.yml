@@ -22,7 +22,7 @@ jobs:
         with:
           args: 'check --select ASYNC,C90,DJ,DTZ,E,F,I,NPY,PD,PERF,PT,RUF,SIM,UP,W --ignore E501,F401 --output-format github --diff --exclude blog/migrations,faq/migrations,ticket/migrations,tutorial/migrations,website/migrations'
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'style fixes by ruff'
 
