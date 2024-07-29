@@ -28,6 +28,7 @@ pymemcache==4.0.0
 python-decouple==3.8
 redis==5.1.0b7
 requests==2.32.3
+# segmentation_models_pytorch
 sqlparse==0.5.1
 tensorflow-cpu==2.17.0
 # tensorflow-text==2.17.0
