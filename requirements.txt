@@ -38,6 +38,6 @@ git+https://github.com/huggingface/pytorch-image-models.git
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch>=2.2.2,<2.4.0
 torchvision>=0.17.0
-typing-extensions==4.12.2
+typing-extensions>=4.12.2
 weasyPrint==62.3
 whitenoise==6.7.0
