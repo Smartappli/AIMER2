@@ -1,7 +1,7 @@
 import os
-import keras
 import time
 
+import keras
 from keras import applications
 
 os.environ["KERAS_BACKEND"] = "tensorflow"
