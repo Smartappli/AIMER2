@@ -29,6 +29,7 @@ exclude = [
     "blog/migrations",
     "chat/migrations",
     "faq/migrations",
+    "pages/migrations",
     "students/migrations",
     "ticket/migrations",
     "tutorial/migrations",
