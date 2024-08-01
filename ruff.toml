@@ -104,7 +104,7 @@ select = [
    "W",     # pycodestyle 
    "YTT",   # flake8-2020   
 ]
-ignore = [E501,F401]
+ignore = ["E501","F401',]
 
 #args: 'check --output-format github --diff --'
 
