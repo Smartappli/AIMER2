@@ -13,7 +13,7 @@ urlpatterns = [
     path(
         "pages/misc/under_maintenance/",
         MiscPagesView.as_view(
-            template_name="pages/pages_misc_under_maintenance.html"
+            template_name="pages/pages_misc_under_maintenance.html",
         ),
         name="pages-misc-under-maintenance",
     ),
@@ -25,7 +25,7 @@ urlpatterns = [
     path(
         "pages/misc/not_authorized/",
         MiscPagesView.as_view(
-            template_name="pages/pages_misc_not_authorized.html"
+            template_name="pages/pages_misc_not_authorized.html",
         ),
         name="pages-misc-not-authorized",
     ),

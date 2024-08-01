@@ -3,7 +3,7 @@ from django.db import models
 
 
 class OrderField(models.PositiveIntegerField):
-    def __init__(self, for_fields=None, *args, **kwargs):
+    def __init__(self, for_fields=None, *args, **kwargs) -> None:
         self.for_fields = for_fields
         super().__init__(*args, **kwargs)
 

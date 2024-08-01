@@ -23,8 +23,8 @@ The init() function will be called in web_project/__init__.py
 
 
 class TemplateBootstrapLayoutHorizontal:
-    def init(context):
-        context.update(
+    def init(self):
+        self.update(
             {
                 "layout": "horizontal",
                 "is_navbar": True,
@@ -33,21 +33,21 @@ class TemplateBootstrapLayoutHorizontal:
                 "menu_horizontal": True,
                 "is_footer": True,
                 "navbar_detached": False,
-            }
+            },
         )
         # map_context according to updated context values
-        TemplateHelper.map_context(context)
+        TemplateHelper.map_context(self)
 
         # Init menu data and update context
-        TemplateBootstrapLayoutHorizontal.init_menu_data(context)
+        TemplateBootstrapLayoutHorizontal.init_menu_data(self)
 
-        return context
+        return self
 
-    def init_menu_data(context):
+    def init_menu_data(self) -> None:
         # Load the menu data from the JSON file
         menu_data = (
             json.load(menu_file_path.open()) if menu_file_path.exists() else []
         )
 
         # Updated context with menu_data
-        context.update({"menu_data": menu_data})
+        self.update({"menu_data": menu_data})

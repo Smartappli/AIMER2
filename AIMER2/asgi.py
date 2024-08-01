@@ -1,5 +1,4 @@
-"""
-ASGI config for educa project.
+"""ASGI config for educa project.
 
 It exposes the ASGI callable as a module-level variable named
 ``application``.
@@ -24,5 +23,5 @@ application = ProtocolTypeRouter(
     {
         "http": django_asgi_app,
         "websocket": AuthMiddlewareStack(URLRouter(websocket_urlpatterns)),
-    }
+    },
 )

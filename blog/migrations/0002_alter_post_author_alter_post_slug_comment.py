@@ -59,7 +59,7 @@ class Migration(migrations.Migration):
                     models.Index(
                         fields=["created"],
                         name="blog_commen_created_0e6ed4_idx",
-                    )
+                    ),
                 ],
             },
         ),

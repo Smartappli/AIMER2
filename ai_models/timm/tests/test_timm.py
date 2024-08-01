@@ -1,18 +1,17 @@
-import tim
 from django.test import TestCase
 from timm import create_model, list_models, list_modules
 
 
 class TimmModelsTest(TestCase):
     @classmethod
-    def setUpClass(cls):
+    def setUpClass(cls) -> None:
         super().setUpClass()
         cls.models = {i: list(list_models(module=i)) for i in list_modules()}
         cls.num_classes = 10
 
-    def test_model_creation(self):
+    def test_model_creation(self) -> None:
         num = 1
-        for module, model_list in self.models.items():
+        for model_list in self.models.values():
             for model_name in model_list:
                 with self.subTest(model=model_name):
                     try:
@@ -22,10 +21,7 @@ class TimmModelsTest(TestCase):
                             pretrained=True,
                             num_classes=self.num_classes,
                         )
-                        elapsed_time = time.time() - start_time
-                        print(
-                            f"{num}: {model_name} - ok (time: {elapsed_time:.3f} seconds)"
-                        )
+                        time.time() - start_time
                     except RuntimeError:
                         start_time = time.time()
                         create_model(
@@ -33,8 +29,5 @@ class TimmModelsTest(TestCase):
                             pretrained=False,
                             num_classes=self.num_classes,
                         )
-                        elapsed_time = time.time() - start_time
-                        print(
-                            f"{num}: {model_name} - ok without pretrained (time: {elapsed_time:.3f} seconds)"
-                        )
+                        time.time() - start_time
                     num += 1

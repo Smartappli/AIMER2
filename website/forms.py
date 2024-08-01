@@ -6,8 +6,7 @@ from .models import Profile
 
 
 class LoginForm(forms.Form):
-    """
-    Form for user login.
+    """Form for user login.
 
     Fields:
         username (CharField): The user's username.
@@ -19,8 +18,7 @@ class LoginForm(forms.Form):
 
 
 class UserRegistrationForm(forms.ModelForm):
-    """
-    Form for user registration.
+    """Form for user registration.
 
     Fields:
         password (CharField): The user's password, rendered as a password input.
@@ -30,8 +28,10 @@ class UserRegistrationForm(forms.ModelForm):
         model: The user model obtained via get_user_model().
         fields (tuple): The fields to include in the form ("username", "first_name", "last_name", "email").
 
-    Methods:
+    Methods
+    -------
         clean_password2: Validates that the two password fields match.
+
     """
 
     password = forms.CharField(
@@ -54,14 +54,16 @@ class UserRegistrationForm(forms.ModelForm):
         }
 
     def clean_password2(self):
-        """
-        Validate that the password and password confirmation match.
+        """Validate that the password and password confirmation match.
 
-        Raises:
+        Raises
+        ------
             ValidationError: If the passwords do not match.
 
-        Returns:
+        Returns
+        -------
             str: The cleaned password confirmation.
+
         """
         cd = self.cleaned_data
         if cd["password"] != cd["password2"]:
@@ -71,8 +73,7 @@ class UserRegistrationForm(forms.ModelForm):
 
 
 class UserEditForm(forms.ModelForm):
-    """
-    Form for editing user information.
+    """Form for editing user information.
 
     Meta:
         model: The user model obtained via get_user_model().
@@ -90,8 +91,7 @@ class UserEditForm(forms.ModelForm):
 
 
 class ProfileEditForm(forms.ModelForm):
-    """
-    Form for editing user profile information.
+    """Form for editing user profile information.
 
     Meta:
         model: The Profile model.

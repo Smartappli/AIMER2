@@ -1,5 +1,4 @@
-"""
-Admin configuration for the Post and Comment models.
+"""Admin configuration for the Post and Comment models.
 
 This module registers the Post and Comment models with the Django admin site
 and customizes their admin interface.
@@ -20,10 +19,12 @@ Classes:
         - list_filter: Fields to filter the list view.
         - search_fields: Fields to search in the list view.
 
-Attributes:
+Attributes
+----------
     admin (module): The Django admin module for registering models.
     Comment (class): The Comment model class.
     Post (class): The Post model class.
+
 """
 from django.contrib import admin
 
@@ -32,12 +33,12 @@ from .models import Comment, Post
 
 @admin.register(Post)
 class PostAdmin(admin.ModelAdmin):
-    """
-    Admin configuration for the Post model.
+    """Admin configuration for the Post model.
 
     Customizes the admin interface for the Post model with the following options:
 
-    Attributes:
+    Attributes
+    ----------
         list_display (list): Fields to display in the list view.
         list_filter (list): Fields to filter the list view.
         search_fields (list): Fields to search in the list view.
@@ -46,6 +47,7 @@ class PostAdmin(admin.ModelAdmin):
         date_hierarchy (str): Field to use for date drill-down navigation.
         ordering (list): Default ordering of the list view.
         show_facets (ShowFacets): Facets display settings in the admin interface.
+
     """
 
     list_display = ["title", "slug", "author", "publish", "status"]
@@ -60,15 +62,16 @@ class PostAdmin(admin.ModelAdmin):
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    """
-    Admin configuration for the Comment model.
+    """Admin configuration for the Comment model.
 
     Customizes the admin interface for the Comment model with the following options:
 
-    Attributes:
+    Attributes
+    ----------
         list_display (list): Fields to display in the list view.
         list_filter (list): Fields to filter the list view.
         search_fields (list): Fields to search in the list view.
+
     """
 
     list_display = ["name", "email", "post", "created", "active"]

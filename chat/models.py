@@ -16,5 +16,5 @@ class Message(models.Model):
     content = models.TextField()
     sent_on = models.DateTimeField(auto_now_add=True)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.user} on {self.course} at {self.sent_on}"

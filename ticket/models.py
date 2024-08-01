@@ -4,10 +4,10 @@ from django.utils import timezone
 
 
 class Post(models.Model):
-    """
-    Represents a post or ticket within the application.
+    """Represents a post or ticket within the application.
 
-    Attributes:
+    Attributes
+    ----------
         title (str): The title of the post, limited to 250 characters.
         body (str): The content of the post.
         author (User): The user who authored the post, linked to the AUTH_USER_MODEL.
@@ -16,18 +16,20 @@ class Post(models.Model):
         updated (datetime): The date and time the post was last updated, automatically set on save.
         status (str): The status of the post, with choices defined in the Status inner class.
 
-    Methods:
+    Methods
+    -------
         __str__(): Returns the title of the post as its string representation.
 
     Meta:
         ordering (list): Orders posts by the 'updated' field in descending order.
+
     """
 
     class Status(models.TextChoices):
-        """
-        Defines the possible statuses for a post.
+        """Defines the possible statuses for a post.
 
-        Attributes:
+        Attributes
+        ----------
             DRAFT (tuple): Status for a draft post.
             SENT (tuple): Status for a sent post.
             OPEN (tuple): Status for an open post.
@@ -35,6 +37,7 @@ class Post(models.Model):
             WAITING (tuple): Status for a post that is waiting.
             CLOSED (tuple): Status for a closed post.
             REOPENED (tuple): Status for a reopened post.
+
         """
 
         DRAFT = "DF", "Draft"
@@ -64,5 +67,5 @@ class Post(models.Model):
     class Meta:
         ordering = ["-updated"]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.title

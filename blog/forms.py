@@ -1,5 +1,4 @@
-"""
-Form definitions for the application.
+"""Form definitions for the application.
 
 This module defines forms for handling user input related to posts and comments.
 
@@ -18,9 +17,11 @@ Classes:
     SearchForm: A form for handling search queries.
         - query: The search query (CharField).
 
-Attributes:
+Attributes
+----------
     forms (module): The Django forms module for defining forms.
     Comment (class): The Comment model class.
+
 """
 from django import forms
 from django.utils.translation import gettext_lazy as _
@@ -29,8 +30,7 @@ from .models import Comment
 
 
 class EmailPostForm(forms.Form):
-    """
-    A form for sending an email about a post.
+    """A form for sending an email about a post.
 
     Fields:
         name (CharField): The sender's name, with a maximum length of 25 characters.
@@ -49,8 +49,7 @@ class EmailPostForm(forms.Form):
 
 
 class CommentForm(forms.ModelForm):
-    """
-    A ModelForm for creating and updating comments.
+    """A ModelForm for creating and updating comments.
 
     Fields:
         name (CharField): The name of the commenter.
@@ -73,8 +72,7 @@ class CommentForm(forms.ModelForm):
 
 
 class SearchForm(forms.Form):
-    """
-    A form for handling search queries.
+    """A form for handling search queries.
 
     Fields:
         query (CharField): The search query.

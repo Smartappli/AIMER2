@@ -1,15 +1,16 @@
 from django.urls import path
+
+from . import views
 from .views import (
     CustomLoginView,
     CustomLogoutView,
-    CustomPasswordChangeView,
     CustomPasswordChangeDoneView,
-    CustomPasswordResetView,
-    CustomPasswordResetDoneView,
-    CustomPasswordResetConfirmView,
+    CustomPasswordChangeView,
     CustomPasswordResetCompleteView,
+    CustomPasswordResetConfirmView,
+    CustomPasswordResetDoneView,
+    CustomPasswordResetView,
 )
-from . import views
 
 app_name = "website"
 

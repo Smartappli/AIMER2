@@ -15,7 +15,7 @@ def course_chat_room(request, course_id):
         return HttpResponseForbidden()
     # retrieve chat history
     latest_messages = course.chat_messages.select_related("user").order_by(
-        "-id"
+        "-id",
     )[:5]
     latest_messages = reversed(latest_messages)
     return render(

@@ -7,15 +7,15 @@ The init() function will be called in web_project/__init__.py
 
 
 class TemplateBootstrapSystem:
-    def init(context):
-        context.update(
+    def init(self):
+        self.update(
             {
                 "layout": "blank",
                 "content_layout": "wide",
                 "display_customizer": False,
-            }
+            },
         )
         # map_context according to updated context values
-        TemplateHelper.map_context(context)
+        TemplateHelper.map_context(self)
 
-        return context
+        return self

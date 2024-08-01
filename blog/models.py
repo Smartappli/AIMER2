@@ -1,5 +1,4 @@
-"""
-This module defines the database models for a blogging application, including
+"""This module defines the database models for a blogging application, including
 the `Post` and `Comment` models. The `Post` model includes a custom manager
 for retrieving published posts.
 
@@ -19,31 +18,33 @@ from taggit.managers import TaggableManager
 
 
 class PublishedManager(models.Manager):
-    """
-    Custom manager to retrieve only published posts.
+    """Custom manager to retrieve only published posts.
 
-    Methods:
+    Methods
+    -------
         get_queryset: Overrides the default queryset to filter posts by published status.
+
     """
 
     def get_queryset(self):
-        """
-        Return the queryset of published posts.
+        """Return the queryset of published posts.
 
         This method overrides the default get_queryset method to filter the
         queryset to include only posts with a status of 'PUBLISHED'.
 
-        Returns:
+        Returns
+        -------
             QuerySet: A queryset containing only the published posts.
+
         """
         return super().get_queryset().filter(status=Post.Status.PUBLISHED)
 
 
 class Post(models.Model):
-    """
-    Represents a blog post.
+    """Represents a blog post.
 
-    Attributes:
+    Attributes
+    ----------
         title (str): The title of the post.
         slug (str): The slug for the post, used in URLs.
         author (ForeignKey): The user who wrote the post.
@@ -53,14 +54,14 @@ class Post(models.Model):
         updated (datetime): The datetime when the post was last updated.
         status (str): The publication status of the post (draft or published).
 
-    Methods:
+    Methods
+    -------
         get_absolute_url: Returns the URL to access a detail view of the post.
+
     """
 
     class Status(models.TextChoices):
-        """
-        Enumeration for post status.
-        """
+        """Enumeration for post status."""
 
         DRAFT = "DF", "Draft"
         PUBLISHED = "PB", "Published"
@@ -93,15 +94,16 @@ class Post(models.Model):
             models.Index(fields=["-publish"]),
         ]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.title
 
     def get_absolute_url(self):
-        """
-        Returns the URL to access a detail view of the post.
+        """Returns the URL to access a detail view of the post.
 
-        Returns:
+        Returns
+        -------
             str: URL to access the post detail view.
+
         """
         return reverse(
             "blog:post_detail",
@@ -115,10 +117,10 @@ class Post(models.Model):
 
 
 class Comment(models.Model):
-    """
-    Represents a comment on a blog post.
+    """Represents a comment on a blog post.
 
-    Attributes:
+    Attributes
+    ----------
         post (ForeignKey): The post that the comment is related to.
         name (str): The name of the comment author.
         email (EmailField): The email of the comment author.
@@ -126,6 +128,7 @@ class Comment(models.Model):
         created (datetime): The datetime when the comment was created.
         updated (datetime): The datetime when the comment was last updated.
         active (bool): The status indicating if the comment is active.
+
     """
 
     post = models.ForeignKey(
@@ -146,5 +149,5 @@ class Comment(models.Model):
             models.Index(fields=["created"]),
         ]
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Comment by {self.name} on {self.post}"

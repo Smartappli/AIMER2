@@ -3,10 +3,10 @@ from django.db import models
 
 
 class Profile(models.Model):
-    """
-    Profile model to extend the default user model with additional fields.
+    """Profile model to extend the default user model with additional fields.
 
-    Attributes:
+    Attributes
+    ----------
         user (OneToOneField): A one-to-one relationship with the user model specified in settings.AUTH_USER_MODEL.
                               This ensures each user has only one profile and each profile is related to a single user.
         date_of_birth (DateField): An optional date field to store the user's date of birth. Can be left blank or null.
@@ -15,8 +15,10 @@ class Profile(models.Model):
                             month, and day.
         bio (TextField): An optional text field for the user to provide a short biography. Can be left blank or null.
 
-    Methods:
+    Methods
+    -------
         __str__(): Returns a string representation of the profile, displaying the associated user's username.
+
     """
 
     user = models.OneToOneField(
@@ -30,5 +32,5 @@ class Profile(models.Model):
     )
     bio = models.TextField(blank=True)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"Profile of {self.user.username}"

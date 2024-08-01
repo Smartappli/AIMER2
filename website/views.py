@@ -1,10 +1,13 @@
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
+from django.contrib.auth import views as auth_views
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.contrib.auth import views as auth_views
 from django.views.generic import TemplateView
+
+from web_project import TemplateLayout
+from web_project.template_helpers.theme import TemplateHelper
 
 from .forms import (
     LoginForm,
@@ -13,8 +16,6 @@ from .forms import (
     UserRegistrationForm,
 )
 from .models import Profile
-from web_project import TemplateLayout
-from web_project.template_helpers.theme import TemplateHelper
 
 
 class WebsiteView(TemplateView):
@@ -27,9 +28,9 @@ class WebsiteView(TemplateView):
         context.update(
             {
                 "layout_path": TemplateHelper.set_layout(
-                    "layout_blank.html", context
+                    "layout_blank.html", context,
                 ),
-            }
+            },
         )
 
         return context
@@ -48,7 +49,7 @@ class CustomPasswordChangeView(WebsiteView, auth_views.PasswordChangeView):
 
 
 class CustomPasswordChangeDoneView(
-    WebsiteView, auth_views.PasswordChangeDoneView
+    WebsiteView, auth_views.PasswordChangeDoneView,
 ):
     template_name = "registration/password_change_done.html"
 
@@ -58,26 +59,25 @@ class CustomPasswordResetView(WebsiteView, auth_views.PasswordResetView):
 
 
 class CustomPasswordResetDoneView(
-    WebsiteView, auth_views.PasswordResetDoneView
+    WebsiteView, auth_views.PasswordResetDoneView,
 ):
     template_name = "registration/password_reset_done.html"
 
 
 class CustomPasswordResetConfirmView(
-    WebsiteView, auth_views.PasswordResetConfirmView
+    WebsiteView, auth_views.PasswordResetConfirmView,
 ):
     template_name = "registration/password_reset_confirm.html"
 
 
 class CustomPasswordResetCompleteView(
-    WebsiteView, auth_views.PasswordResetCompleteView
+    WebsiteView, auth_views.PasswordResetCompleteView,
 ):
     template_name = "registration/password_reset_complete.html"
 
 
 def user_login(request):
-    """
-    Handle user login functionality.
+    """Handle user login functionality.
 
     If the request method is POST, authenticate the user using the provided credentials.
     If authentication is successful and the user is active, log the user in and return
@@ -85,10 +85,13 @@ def user_login(request):
     an appropriate error message. If the request method is GET, display the login form.
 
     Args:
+    ----
         request (HttpRequest): The HTTP request object containing metadata about the request.
 
     Returns:
+    -------
         HttpResponse: A response object with the rendered login form or a success/error message.
+
     """
     if request.method == "POST":
         form = LoginForm(request.POST)
@@ -120,17 +123,19 @@ def user_login(request):
 
 @login_required
 def dashboard(request):
-    """
-    Display the user dashboard.
+    """Display the user dashboard.
 
     This view is only accessible to authenticated users. It renders the dashboard
     template with the 'section' context variable set to 'dashboard'.
 
     Args:
+    ----
         request (HttpRequest): The HTTP request object containing metadata about the request.
 
     Returns:
+    -------
         HttpResponse: A response object with the rendered dashboard template.
+
     """
     return render(
         request,
@@ -140,8 +145,7 @@ def dashboard(request):
 
 
 def register(request):
-    """
-    Handle user registration functionality.
+    """Handle user registration functionality.
 
     If the request method is POST, process the registration form. If the form is valid,
     create a new user object, set the password, save the user, and create a user profile.
@@ -149,10 +153,13 @@ def register(request):
     GET, display the empty registration form.
 
     Args:
+    ----
         request (HttpRequest): The HTTP request object containing metadata about the request.
 
     Returns:
+    -------
         HttpResponse: A response object with the rendered registration form or confirmation template.
+
     """
     if request.method == "POST":
         user_form = UserRegistrationForm(request.POST)
@@ -177,18 +184,20 @@ def register(request):
 
 @login_required
 def edit(request):
-    """
-    Handle user profile and account editing functionality.
+    """Handle user profile and account editing functionality.
 
     If the request method is POST, process the user and profile edit forms. If both forms
     are valid, save the updated user and profile information. If the request method is GET,
     display the forms with the current user and profile information.
 
     Args:
+    ----
         request (HttpRequest): The HTTP request object containing metadata about the request.
 
     Returns:
+    -------
         HttpResponse: A response object with the rendered edit form template.
+
     """
     if request.method == "POST":
         user_form = UserEditForm(instance=request.user, data=request.POST)

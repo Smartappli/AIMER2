@@ -1,6 +1,5 @@
 import os
 from importlib import import_module, util
-from pprint import pprint
 
 from django.conf import settings
 
@@ -8,8 +7,8 @@ from django.conf import settings
 # Core TemplateHelper class
 class TemplateHelper:
     # Init the Template Context using TEMPLATE_CONFIG
-    def init_context(context):
-        context.update(
+    def init_context(self):
+        self.update(
             {
                 "layout": settings.TEMPLATE_CONFIG.get("layout"),
                 "theme": settings.TEMPLATE_CONFIG.get("theme"),
@@ -17,118 +16,120 @@ class TemplateHelper:
                 "rtl_support": settings.TEMPLATE_CONFIG.get("rtl_support"),
                 "rtl_mode": settings.TEMPLATE_CONFIG.get("rtl_mode"),
                 "has_customizer": settings.TEMPLATE_CONFIG.get(
-                    "has_customizer"
+                    "has_customizer",
                 ),
                 "display_customizer": settings.TEMPLATE_CONFIG.get(
-                    "display_customizer"
+                    "display_customizer",
                 ),
                 "content_layout": settings.TEMPLATE_CONFIG.get(
-                    "content_layout"
+                    "content_layout",
                 ),
                 "navbar_type": settings.TEMPLATE_CONFIG.get("navbar_type"),
                 "header_type": settings.TEMPLATE_CONFIG.get("header_type"),
                 "menu_fixed": settings.TEMPLATE_CONFIG.get("menu_fixed"),
                 "menu_collapsed": settings.TEMPLATE_CONFIG.get(
-                    "menu_collapsed"
+                    "menu_collapsed",
                 ),
                 "footer_fixed": settings.TEMPLATE_CONFIG.get("footer_fixed"),
                 "show_dropdown_onhover": settings.TEMPLATE_CONFIG.get(
-                    "show_dropdown_onhover"
+                    "show_dropdown_onhover",
                 ),
                 "customizer_controls": settings.TEMPLATE_CONFIG.get(
-                    "customizer_controls"
+                    "customizer_controls",
                 ),
-            }
+            },
         )
-        return context
+        return self
 
     # ? Map context variables to template class/value/variables names
-    def map_context(context):
+    def map_context(self) -> None:
         #! Header Type (horizontal support only)
-        if context.get("layout") == "horizontal":
-            if context.get("header_type") == "fixed":
-                context["header_type_class"] = "layout-menu-fixed"
-            elif context.get("header_type") == "static":
-                context["header_type_class"] = ""
+        if self.get("layout") == "horizontal":
+            if self.get("header_type") == "fixed":
+                self["header_type_class"] = "layout-menu-fixed"
+            elif self.get("header_type") == "static":
+                self["header_type_class"] = ""
             else:
-                context["header_type_class"] = ""
+                self["header_type_class"] = ""
         else:
-            context["header_type_class"] = ""
+            self["header_type_class"] = ""
 
         #! Navbar Type (vertical/front support only)
-        if context.get("layout") != "horizontal":
-            if context.get("navbar_type") == "fixed":
-                context["navbar_type_class"] = "layout-navbar-fixed"
-            elif context.get("navbar_type") == "static":
-                context["navbar_type_class"] = ""
+        if self.get("layout") != "horizontal":
+            if self.get("navbar_type") == "fixed":
+                self["navbar_type_class"] = "layout-navbar-fixed"
+            elif self.get("navbar_type") == "static":
+                self["navbar_type_class"] = ""
             else:
-                context["navbar_type_class"] = "layout-navbar-hidden"
+                self["navbar_type_class"] = "layout-navbar-hidden"
         else:
-            context["navbar_type_class"] = ""
+            self["navbar_type_class"] = ""
 
         # Menu collapsed
-        context["menu_collapsed_class"] = (
-            "layout-menu-collapsed" if context.get("menu_collapsed") else ""
+        self["menu_collapsed_class"] = (
+            "layout-menu-collapsed" if self.get("menu_collapsed") else ""
         )
 
         #! Menu Fixed (vertical support only)
-        if context.get("layout") == "vertical":
-            if context.get("menu_fixed") is True:
-                context["menu_fixed_class"] = "layout-menu-fixed"
+        if self.get("layout") == "vertical":
+            if self.get("menu_fixed") is True:
+                self["menu_fixed_class"] = "layout-menu-fixed"
             else:
-                context["menu_fixed_class"] = ""
+                self["menu_fixed_class"] = ""
 
         # Footer Fixed
-        context["footer_fixed_class"] = (
-            "layout-footer-fixed" if context.get("footer_fixed") else ""
+        self["footer_fixed_class"] = (
+            "layout-footer-fixed" if self.get("footer_fixed") else ""
         )
 
         # RTL Supported template
-        context["rtl_support_value"] = (
-            "/rtl" if context.get("rtl_support") else ""
+        self["rtl_support_value"] = (
+            "/rtl" if self.get("rtl_support") else ""
         )
 
         # RTL Mode/Layout
-        context["rtl_mode_value"], context["text_direction_value"] = (
-            ("rtl", "rtl") if context.get("rtl_mode") else ("ltr", "ltr")
+        self["rtl_mode_value"], self["text_direction_value"] = (
+            ("rtl", "rtl") if self.get("rtl_mode") else ("ltr", "ltr")
         )
 
         #!  Show dropdown on hover (Horizontal menu)
-        context["show_dropdown_onhover_value"] = (
-            "true" if context.get("show_dropdown_onhover") else "false"
+        self["show_dropdown_onhover_value"] = (
+            "true" if self.get("show_dropdown_onhover") else "false"
         )
 
         # Display Customizer
-        context["display_customizer_class"] = (
-            "" if context.get("display_customizer") else "customizer-hide"
+        self["display_customizer_class"] = (
+            "" if self.get("display_customizer") else "customizer-hide"
         )
 
         # Content Layout
-        if context.get("content_layout") == "wide":
-            context["container_class"] = "container-fluid"
-            context["content_layout_class"] = "layout-wide"
+        if self.get("content_layout") == "wide":
+            self["container_class"] = "container-fluid"
+            self["content_layout_class"] = "layout-wide"
         else:
-            context["container_class"] = "container-xxl"
-            context["content_layout_class"] = "layout-compact"
+            self["container_class"] = "container-xxl"
+            self["content_layout_class"] = "layout-compact"
 
         # Detached Navbar
-        if context.get("navbar_detached"):
-            context["navbar_detached_class"] = "navbar-detached"
+        if self.get("navbar_detached"):
+            self["navbar_detached_class"] = "navbar-detached"
         else:
-            context["navbar_detached_class"] = ""
+            self["navbar_detached_class"] = ""
 
     # Get theme variables by scope
-    def get_theme_variables(scope):
-        return settings.THEME_VARIABLES[scope]
+    def get_theme_variables(self):
+        return settings.THEME_VARIABLES[self]
 
     # Get theme config by scope
-    def get_theme_config(scope):
-        return settings.TEMPLATE_CONFIG[scope]
+    def get_theme_config(self):
+        return settings.TEMPLATE_CONFIG[self]
 
     # Set the current page layout and init the layout bootstrap file
-    def set_layout(view, context={}):
+    def set_layout(self, context=None) -> str:
         # Extract layout from the view path
-        layout = os.path.splitext(view)[0].split("/")[0]
+        if context is None:
+            context = {}
+        layout = os.path.splitext(self)[0].split("/")[0]
 
         # Get module path
         module = f"templates.{settings.THEME_LAYOUT_DIR.replace('/', '.')}.bootstrap.{layout}"
@@ -137,21 +138,20 @@ class TemplateHelper:
         if util.find_spec(module) is not None:
             # Auto import and init the default bootstrap.py file from the theme
             TemplateBootstrap = TemplateHelper.import_class(
-                module, f"TemplateBootstrap{layout.title().replace('_', '')}"
+                module, f"TemplateBootstrap{layout.title().replace('_', '')}",
             )
             TemplateBootstrap.init(context)
         else:
             module = f"templates.{settings.THEME_LAYOUT_DIR.replace('/', '.')}.bootstrap.default"
 
             TemplateBootstrap = TemplateHelper.import_class(
-                module, "TemplateBootstrapDefault"
+                module, "TemplateBootstrapDefault",
             )
             TemplateBootstrap.init(context)
 
-        return f"{settings.THEME_LAYOUT_DIR}/{view}"
+        return f"{settings.THEME_LAYOUT_DIR}/{self}"
 
     # Import a module by string
-    def import_class(fromModule, import_className):
-        pprint(f"Loading {import_className} from {fromModule}")
-        module = import_module(fromModule)
+    def import_class(self, import_className):
+        module = import_module(self)
         return getattr(module, import_className)

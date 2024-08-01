@@ -21,36 +21,32 @@ def get_theme_config(scope):
 
 
 @register.filter
-def filter_by_url(submenu, url):
+def filter_by_url(submenu, url) -> bool:
     if submenu:
         for subitem in submenu:
             subitem_url = subitem.get("url")
             if (
-                subitem_url == url.path
-                or subitem_url == url.resolver_match.url_name
-            ):
+                subitem_url in (url.path, url.resolver_match.url_name)
+            ) or subitem.get("submenu") and filter_by_url(subitem["submenu"], url):
                 return True
-
-            # Recursively check for submenus
-            elif subitem.get("submenu"):
-                if filter_by_url(subitem["submenu"], url):
-                    return True
 
     return False
 
 
 # Check if the user has the group
 @register.filter
-def has_group(user, group):
+def has_group(user, group) -> bool | None:
     if user.groups.filter(name=group).exists():
         return True
+    return None
 
 
 # Check if the user has the permission
 @register.filter
-def has_permission(user, permission):
+def has_permission(user, permission) -> bool | None:
     if user.has_perm(permission):
         return True
+    return None
 
 
 # For checking if the user group is admin

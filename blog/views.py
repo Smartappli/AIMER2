@@ -1,5 +1,4 @@
-"""
-This module handles the blog post views for a Django application, including
+"""This module handles the blog post views for a Django application, including
 listing posts, displaying post details, sharing posts via email, and adding comments.
 
 Functions and classes included in this module:
@@ -34,14 +33,16 @@ from .models import Post
 
 
 def post_list(request, tag_slug=None):
-    """
-    Display a list of published blog posts with pagination.
+    """Display a list of published blog posts with pagination.
 
     Args:
+    ----
         request: The HTTP request object.
 
     Returns:
+    -------
         HttpResponse: The rendered template for the post list.
+
     """
     post_listing = Post.published.all()
     tag = None
@@ -61,10 +62,10 @@ def post_list(request, tag_slug=None):
 
 
 def post_detail(request, year, month, day, post):
-    """
-    Display the details of a single blog post.
+    """Display the details of a single blog post.
 
     Args:
+    ----
         request: The HTTP request object.
         year: The year the post was published.
         month: The month the post was published.
@@ -72,7 +73,9 @@ def post_detail(request, year, month, day, post):
         post: The slug of the post.
 
     Returns:
+    -------
         HttpResponse: The rendered template for the post detail.
+
     """
     post = get_object_or_404(
         Post,
@@ -91,10 +94,10 @@ def post_detail(request, year, month, day, post):
     # List of similar posts
     post_tags_ids = post.tags.values_list("id", flat=True)
     similar_posts = Post.published.filter(tags__in=post_tags_ids).exclude(
-        id=post.id
+        id=post.id,
     )
     similar_posts = similar_posts.annotate(same_tags=Count("tags")).order_by(
-        "-same_tags", "-publish"
+        "-same_tags", "-publish",
     )[:4]
 
     return render(
@@ -110,9 +113,7 @@ def post_detail(request, year, month, day, post):
 
 
 class PostListView(ListView):
-    """
-    Alternative post list view using class-based views.
-    """
+    """Alternative post list view using class-based views."""
 
     queryset = Post.published.all()
     context_object_name = "posts"
@@ -122,15 +123,17 @@ class PostListView(ListView):
 
 @require_POST
 def post_share(request, post_id):
-    """
-    Share a blog post via email.
+    """Share a blog post via email.
 
     Args:
+    ----
         request: The HTTP request object.
         post_id: The ID of the post to be shared.
 
     Returns:
+    -------
         HttpResponse: The rendered template for sharing a post.
+
     """
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
     sent = False
@@ -163,15 +166,17 @@ def post_share(request, post_id):
 
 @require_POST
 def post_comment(request, post_id):
-    """
-    Add a comment to a blog post.
+    """Add a comment to a blog post.
 
     Args:
+    ----
         request: The HTTP request object.
         post_id: The ID of the post to comment on.
 
     Returns:
+    -------
         HttpResponse: The rendered template for adding a comment.
+
     """
     post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
     comment = None
