@@ -16,7 +16,7 @@ gunicorn==22.0.0
 jax[cpu]==0.4.30
 keras==3.4.1
 keras-cv==0.9.0
-keras-nlp==0.14.1
+keras-nlp==0.14.2
 Markdown==3.6
 packaging==24.1
 Pillow==10.4.0
