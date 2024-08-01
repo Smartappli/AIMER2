@@ -1,6 +1,5 @@
 {% extends 'layout/master.html' %}
 
-
 {% block layout %}
 <!-- Layout wrapper: Start -->
 <div class="layout-wrapper layout-content-navbar {{ is_menu|yesno:',layout-without-menu' }}">
@@ -15,13 +14,11 @@
     <!-- Layout page: Start -->
     <div class="layout-page">
 
-
       {% if is_navbar %}
       <!-- Navbar: Start -->
       {% include "../layout/partials/navbar/navbar.html" %}
       <!-- Navbar: End -->
       {% endif %}
-
 
       <!-- Content wrapper: Start -->
       <div class="content-wrapper">
