@@ -39,7 +39,10 @@ class PyCaretModelsTestCase(TestCase):
 
     def test_classification_models(self) -> None:
         setup_classification(
-            self.classification_data, target="species", silent=True, html=False,
+            self.classification_data,
+            target="species",
+            silent=True,
+            html=False,
         )
         models = get_classification_models()
         for model in models:
@@ -51,7 +54,10 @@ class PyCaretModelsTestCase(TestCase):
 
     def test_regression_models(self) -> None:
         setup_regression(
-            self.regression_data, target="medv", silent=True, html=False,
+            self.regression_data,
+            target="medv",
+            silent=True,
+            html=False,
         )
         models = get_regression_models()
         for model in models:

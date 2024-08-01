@@ -28,7 +28,8 @@ class WebsiteView(TemplateView):
         context.update(
             {
                 "layout_path": TemplateHelper.set_layout(
-                    "layout_blank.html", context,
+                    "layout_blank.html",
+                    context,
                 ),
             },
         )
@@ -49,7 +50,8 @@ class CustomPasswordChangeView(WebsiteView, auth_views.PasswordChangeView):
 
 
 class CustomPasswordChangeDoneView(
-    WebsiteView, auth_views.PasswordChangeDoneView,
+    WebsiteView,
+    auth_views.PasswordChangeDoneView,
 ):
     template_name = "registration/password_change_done.html"
 
@@ -59,19 +61,22 @@ class CustomPasswordResetView(WebsiteView, auth_views.PasswordResetView):
 
 
 class CustomPasswordResetDoneView(
-    WebsiteView, auth_views.PasswordResetDoneView,
+    WebsiteView,
+    auth_views.PasswordResetDoneView,
 ):
     template_name = "registration/password_reset_done.html"
 
 
 class CustomPasswordResetConfirmView(
-    WebsiteView, auth_views.PasswordResetConfirmView,
+    WebsiteView,
+    auth_views.PasswordResetConfirmView,
 ):
     template_name = "registration/password_reset_confirm.html"
 
 
 class CustomPasswordResetCompleteView(
-    WebsiteView, auth_views.PasswordResetCompleteView,
+    WebsiteView,
+    auth_views.PasswordResetCompleteView,
 ):
     template_name = "registration/password_reset_complete.html"
 

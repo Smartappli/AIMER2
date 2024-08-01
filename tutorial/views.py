@@ -100,13 +100,16 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
 
     def get_form(self, model, *args, **kwargs):
         Form = modelform_factory(
-            model, exclude=["owner", "order", "created", "updated"],
+            model,
+            exclude=["owner", "order", "created", "updated"],
         )
         return Form(*args, **kwargs)
 
     def dispatch(self, request, module_id, model_name, id=None):
         self.module = get_object_or_404(
-            Module, id=module_id, course__owner=request.user,
+            Module,
+            id=module_id,
+            course__owner=request.user,
         )
         self.model = self.get_model(model_name)
         if id:
@@ -138,7 +141,9 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
 class ContentDeleteView(View):
     def post(self, request, id):
         content = get_object_or_404(
-            Content, id=id, module__course__owner=request.user,
+            Content,
+            id=id,
+            module__course__owner=request.user,
         )
         module = content.module
         content.item.delete()
@@ -151,7 +156,9 @@ class ModuleContentListView(TemplateResponseMixin, View):
 
     def get(self, request, module_id):
         module = get_object_or_404(
-            Module, id=module_id, course__owner=request.user,
+            Module,
+            id=module_id,
+            course__owner=request.user,
         )
         return self.render_to_response({"module": module})
 
@@ -169,7 +176,8 @@ class ContentOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
     def post(self, request):
         for id, order in self.request_json.items():
             Content.objects.filter(
-                id=id, module__course__owner=request.user,
+                id=id,
+                module__course__owner=request.user,
             ).update(order=order)
         return self.render_json_response({"saved": "OK"})
 
