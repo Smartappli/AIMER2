@@ -42,10 +42,12 @@ select = [
    "AIR",   # Airflow
    "ANN",   # flake8-annotations
    "ARG",   # flake8-unused-arguments  
-   "ASYNC", # flake8-async 
+   "ASYNC", # flake8-async
+   "B",     # flake8-bugbear  
    "BLE",   # flake8-blind-except 
    "C4",    # flake8-comprehensions 
-   "C90",   # McCabe cyclomatic complexity 
+   "C90",   # McCabe cyclomatic complexity
+   "COM",   # flake8-commas 
    "DJ",    # flake8-django 
    "E",     # pycodestyle 
    "EXE",   # flake8-executable 
@@ -75,9 +77,7 @@ select = [
    "TID",   # flake8-tidy-imports 
    "UP",    # pyupgrade 
    "W",     # pycodestyle 
-   "YTT",   # flake8-2020  
-   # "B",    # flake8-bugbear 
-   # "COM",  # flake8-commas 
+   "YTT",   #  
    # "CPY",  # flake8-copyright 
    # "D",    # pydocstyle 
    # "DTZ",  # flake8-datetimez 
