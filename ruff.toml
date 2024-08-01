@@ -39,7 +39,9 @@ target-version = "py312"
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
 select = [
    "A",     # flake8-builtins 
-   "AIR",   # Airflow 
+   "AIR",   # Airflow
+   "ANN",   # flake8-annotations
+   "ARG",   # flake8-unused-arguments  
    "ASYNC", # flake8-async 
    "BLE",   # flake8-blind-except 
    "C4",    # flake8-comprehensions 
@@ -73,9 +75,7 @@ select = [
    "TID",   # flake8-tidy-imports 
    "UP",    # pyupgrade 
    "W",     # pycodestyle 
-   "YTT",   # flake8-2020 
-   # "ANN",  # flake8-annotations 
-   # "ARG",  # flake8-unused-arguments 
+   "YTT",   # flake8-2020  
    # "B",    # flake8-bugbear 
    # "COM",  # flake8-commas 
    # "CPY",  # flake8-copyright 
