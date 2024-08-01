@@ -95,7 +95,7 @@ select = [
    "TRY",   # tryceratops 
    "UP",    # pyupgrade 
    "W",     # pycodestyle 
-   "YTT",   #    
+   "YTT",   # flake8-2020   
 ]
 ignore = []
 
