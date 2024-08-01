@@ -9,7 +9,7 @@ django-braces==1.15.0
 django-embed-video==1.4.10
 django-redisboard==8.4.0
 django-rosetta==0.10.0
-Django-taggit==5.0.1
+Django-taggit==6.0.0
 djangorestframework==3.15.2
 flower==2.0.1
 gunicorn==22.0.0
