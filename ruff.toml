@@ -106,7 +106,7 @@ select = [
 ]
 ignore = ["E501","F401',]
 
-#args: 'check --output-format github --diff --'
+# args: 'check --output-format github --diff --'
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
