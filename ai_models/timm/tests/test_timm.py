@@ -1,6 +1,7 @@
-import time
+import tim
+
 from django.test import TestCase
-from timm import list_modules, list_models, create_model
+from timm import create_model, list_models, list_modules
 
 
 class TimmModelsTest(TestCase):
