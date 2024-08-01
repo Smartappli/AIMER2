@@ -579,7 +579,8 @@ def test_model_combinations(encoders, architectures) -> None:
                         classes=2,
                     )
                     get_preprocessing_fn(
-                        encoder["model"], pretrained="imagenet",
+                        encoder["model"],
+                        pretrained="imagenet",
                     )
                 except Exception:
                     pass

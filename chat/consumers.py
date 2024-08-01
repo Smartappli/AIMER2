@@ -13,7 +13,8 @@ class ChatConsumer(AsyncWebsocketConsumer):
         self.room_group_name = f"chat_{self.id}"
         # join room group
         await self.channel_layer.group_add(
-            self.room_group_name, self.channel_name,
+            self.room_group_name,
+            self.channel_name,
         )
         # accept connection
         await self.accept()
@@ -21,13 +22,16 @@ class ChatConsumer(AsyncWebsocketConsumer):
     async def disconnect(self, close_code) -> None:
         # leave room group
         await self.channel_layer.group_discard(
-            self.room_group_name, self.channel_name,
+            self.room_group_name,
+            self.channel_name,
         )
 
     # persist message to database
     async def persist_message(self, message) -> None:
         await Message.objects.acreate(
-            user=self.user, course_id=self.id, content=message,
+            user=self.user,
+            course_id=self.id,
+            content=message,
         )
 
     # receive message from WebSocket

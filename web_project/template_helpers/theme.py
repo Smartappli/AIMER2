@@ -83,9 +83,7 @@ class TemplateHelper:
         )
 
         # RTL Supported template
-        self["rtl_support_value"] = (
-            "/rtl" if self.get("rtl_support") else ""
-        )
+        self["rtl_support_value"] = "/rtl" if self.get("rtl_support") else ""
 
         # RTL Mode/Layout
         self["rtl_mode_value"], self["text_direction_value"] = (
@@ -138,14 +136,16 @@ class TemplateHelper:
         if util.find_spec(module) is not None:
             # Auto import and init the default bootstrap.py file from the theme
             TemplateBootstrap = TemplateHelper.import_class(
-                module, f"TemplateBootstrap{layout.title().replace('_', '')}",
+                module,
+                f"TemplateBootstrap{layout.title().replace('_', '')}",
             )
             TemplateBootstrap.init(context)
         else:
             module = f"templates.{settings.THEME_LAYOUT_DIR.replace('/', '.')}.bootstrap.default"
 
             TemplateBootstrap = TemplateHelper.import_class(
-                module, "TemplateBootstrapDefault",
+                module,
+                "TemplateBootstrapDefault",
             )
             TemplateBootstrap.init(context)
 
