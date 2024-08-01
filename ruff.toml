@@ -26,6 +26,13 @@ exclude = [
     "node_modules",
     "site-packages",
     "venv",
+    "blog/migrations",
+    "chat/migrations",
+    "faq/migrations",
+    "students/migrations",
+    "ticket/migrations",
+    "tutorial/migrations",
+    "website/migrations",
 ]
 
 # Same as Black.
@@ -97,7 +104,9 @@ select = [
    "W",     # pycodestyle 
    "YTT",   # flake8-2020   
 ]
-ignore = []
+ignore = [E501,F401]
+
+#args: 'check --output-format github --diff --'
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
