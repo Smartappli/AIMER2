@@ -45,6 +45,7 @@ target-version = "py312"
 
 [lint]
 preview = true
+explicit-preview-rules = true
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
 select = [
    "A",     # flake8-builtins 
