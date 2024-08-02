@@ -56,9 +56,10 @@ select = [
    "C4",    # flake8-comprehensions 
    "C90",   # McCabe cyclomatic complexity
    "COM",   # flake8-commas
-   # "CPY",   # flake8-copyright
+   "CPY",   # flake8-copyright
    "D",     # pydocstyle  
    "DJ",    # flake8-django
+   "DOC",   # pydoclint
    "DTZ",   # flake8-datetimez 
    "E",     # pycodestyle
    "EM",    # flake8-errmsg
@@ -66,13 +67,16 @@ select = [
    "EXE",   # flake8-executable 
    "F",     # Pyflakes 
    "FA",    # flake8-future-annotations
+   "FAST",  # FastAPI
    "FBT",   # flake8-boolean-trap
-   "FIX",   # flake8-pp  
+   "FIX",   # flake8-pp
+   "FURB",  # refurb
    "FLY",   # flynt 
    "FURB",  # refurb 
    "G",     # flake8-logging-format
    "I",     # isort 
-   "ICN",   # flake8-import-conventions 
+   "ICN",   # flake8-import-conventions
+   "ISC",   # flake8-implicit-str-concat
    "INP",   # flake8-no-pep420
    "INT",   # flake8-gettext 
    "ISC",   # flake8-implicit-str-concat 
@@ -88,6 +92,7 @@ select = [
    "PTH",   # flake8-use-pathlib
    "PYI",   # flake8-pyi  
    "Q",     # flake8-quotes
+   "R",     # Refactor
    "RET",   # flake8-return
    "RSE",   # flake8-raise 
    "RUF",   # Ruff-specific rules
