@@ -75,7 +75,6 @@ select = [
    "G",     # flake8-logging-format
    "I",     # isort 
    "ICN",   # flake8-import-conventions
-   "ISC",   # flake8-implicit-str-concat
    "INP",   # flake8-no-pep420
    "INT",   # flake8-gettext 
    "ISC",   # flake8-implicit-str-concat 
