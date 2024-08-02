@@ -70,7 +70,6 @@ select = [
    "FAST",  # FastAPI
    "FBT",   # flake8-boolean-trap
    "FIX",   # flake8-pp
-   "FURB",  # refurb
    "FLY",   # flynt 
    "FURB",  # refurb 
    "G",     # flake8-logging-format
