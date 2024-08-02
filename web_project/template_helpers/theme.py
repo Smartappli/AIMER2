@@ -43,7 +43,7 @@ class TemplateHelper:
 
     # ? Map context variables to template class/value/variables names
     def map_context(self) -> None:
-        #! Header Type (horizontal support only)
+        # ! Header Type (horizontal support only)
         if self.get("layout") == "horizontal":
             if self.get("header_type") == "fixed":
                 self["header_type_class"] = "layout-menu-fixed"
@@ -54,7 +54,7 @@ class TemplateHelper:
         else:
             self["header_type_class"] = ""
 
-        #! Navbar Type (vertical/front support only)
+        # ! Navbar Type (vertical/front support only)
         if self.get("layout") != "horizontal":
             if self.get("navbar_type") == "fixed":
                 self["navbar_type_class"] = "layout-navbar-fixed"
@@ -70,7 +70,7 @@ class TemplateHelper:
             "layout-menu-collapsed" if self.get("menu_collapsed") else ""
         )
 
-        #! Menu Fixed (vertical support only)
+        # ! Menu Fixed (vertical support only)
         if self.get("layout") == "vertical":
             if self.get("menu_fixed") is True:
                 self["menu_fixed_class"] = "layout-menu-fixed"
@@ -90,7 +90,7 @@ class TemplateHelper:
             ("rtl", "rtl") if self.get("rtl_mode") else ("ltr", "ltr")
         )
 
-        #!  Show dropdown on hover (Horizontal menu)
+        # !  Show dropdown on hover (Horizontal menu)
         self["show_dropdown_onhover_value"] = (
             "true" if self.get("show_dropdown_onhover") else "false"
         )

@@ -113,10 +113,8 @@ def user_login(request):
                     return HttpResponse(
                         "Authenticated and logged in successfully",
                     )
-                else:
-                    return HttpResponse("Inactive user login")
-            else:
-                return HttpResponse("Invalid login or password")
+                return HttpResponse("Inactive user login")
+            return HttpResponse("Invalid login or password")
     else:
         form = LoginForm()
     return render(
