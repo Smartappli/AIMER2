@@ -44,6 +44,7 @@ indent-width = 4
 target-version = "py312"
 
 [lint]
+preview = true
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
 select = [
    "A",     # flake8-builtins 
@@ -118,6 +119,7 @@ unfixable = []
 dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [format]
+preview = true
 # Like Black, use double quotes for strings.
 quote-style = "double"
 
