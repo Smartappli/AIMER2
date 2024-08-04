@@ -1,5 +1,4 @@
 # Create your views here.
-from tutorial.models import Course
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -7,6 +6,8 @@ from django.urls import reverse_lazy
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, FormView
 from django.views.generic.list import ListView
+
+from tutorial.models import Course
 
 from .forms import CourseEnrollForm
 

@@ -9,20 +9,20 @@ from django.utils import timezone
 
 
 class Command(BaseCommand):
-    help = 'Sends an e-mail reminder to users registered more' \
-           'than N days that are not enrolled into any courses yet'
+    help = "Sends an e-mail reminder to users registered more" \
+           "than N days that are not enrolled into any courses yet"
 
     def add_arguments(self, parser):
-        parser.add_argument('--days', dest='days', type=int)
+        parser.add_argument("--days", dest="days", type=int)
 
     def handle(self, *args, **options):
         emails = []
-        subject = 'Enroll in a course'
+        subject = "Enroll in a course"
         date_joined = timezone.now().today() - datetime.timedelta(
-            days=options['days'] or 0
+            days=options["days"] or 0,
         )
         users = User.objects.annotate(
-            course_count=Count('courses_joined')
+            course_count=Count("courses_joined"),
         ).filter(course_count=0, date_joined__date__lte=date_joined)
         for user in users:
             message = f"""Dear {user.first_name},
@@ -34,7 +34,7 @@ class Command(BaseCommand):
                     message,
                     settings.DEFAULT_FROM_EMAIL,
                     [user.email],
-                )
+                ),
             )
         send_mass_mail(emails)
-        self.stdout.write(f'Sent {len(emails)} reminders')
+        self.stdout.write(f"Sent {len(emails)} reminders")
