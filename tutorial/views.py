@@ -39,11 +39,11 @@ class OwnerCourseMixin(OwnerMixin, LoginRequiredMixin, PermissionRequiredMixin):
 
 
 class OwnerCourseEditMixin(OwnerCourseMixin, OwnerEditMixin):
-    template_name = "courses/manage/course/form.html"
+    template_name = "tutorial/manage/course/form.html"
 
 
 class ManageCourseListView(OwnerCourseMixin, ListView):
-    template_name = "courses/manage/course/list.html"
+    template_name = "tutorial/manage/course/list.html"
     permission_required = "courses.view_course"
 
 
@@ -56,12 +56,12 @@ class CourseUpdateView(OwnerCourseEditMixin, UpdateView):
 
 
 class CourseDeleteView(OwnerCourseMixin, DeleteView):
-    template_name = "courses/manage/course/delete.html"
+    template_name = "tutorial/manage/course/delete.html"
     permission_required = "courses.delete_course"
 
 
 class CourseModuleUpdateView(TemplateResponseMixin, View):
-    template_name = "courses/manage/module/formset.html"
+    template_name = "tutorial/manage/module/formset.html"
     course = None
 
     def get_formset(self, data=None):
@@ -91,7 +91,7 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
     module = None
     model = None
     obj = None
-    template_name = "courses/manage/content/form.html"
+    template_name = "tutorial/manage/content/form.html"
 
     def get_model(self, model_name):
         if model_name in ["text", "video", "image", "file"]:
@@ -152,7 +152,7 @@ class ContentDeleteView(View):
 
 
 class ModuleContentListView(TemplateResponseMixin, View):
-    template_name = "courses/manage/module/content_list.html"
+    template_name = "tutorial/manage/module/content_list.html"
 
     def get(self, request, module_id):
         module = get_object_or_404(
@@ -184,7 +184,7 @@ class ContentOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
 
 class CourseListView(TemplateResponseMixin, View):
     model = Course
-    template_name = "courses/course/list.html"
+    template_name = "tutorial/course/list.html"
 
     def get(self, request, subject=None):
         subjects = cache.get("all_subjects")

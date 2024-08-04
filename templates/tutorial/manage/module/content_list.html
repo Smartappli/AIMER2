@@ -1,6 +1,5 @@
 {% extends "base.html" %}
-{% load i18n static %}
-{% load tutorial %}
+{% load i18n tutorial %}
 {% block title %}
   {% translate "Module" %} {{ module.order|add:1 }}: {{ module.title }}
 {% endblock %}

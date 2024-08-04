@@ -1,5 +1,5 @@
 # Create your views here.
-from courses.models import Course
+from tutorial.models import Course
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.mixins import LoginRequiredMixin

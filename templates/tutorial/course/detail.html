@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load i18n %}
 {% block title %}
   {{ object.title }}
 {% endblock %}
@@ -10,23 +10,23 @@
       {{ object.title }}
     </h1>
     <div class="module">
-      <h2>Overview</h2>
+      <h2>{% translate "Overview" %}</h2>
       <p>
         <a href="{% url "course_list_subject" subject.slug %}">
         {{ subject.title }}</a>.
-        {{ object.modules.count }} modules.
-        Instructor: {{ object.owner.get_full_name }}
+        {{ object.modules.count }} {% translate "modules" %}.
+        {% translate "Instructor:" %} {{ object.owner.get_full_name }}
       </p>
       {{ object.overview|linebreaks }}
       {% if request.user.is_authenticated %}
         <form action="{% url "student_enroll_course" %}" method="post">
           {{ enroll_form }}
           {% csrf_token %}
-          <input type="submit" value="Enroll now">
+          <input type="submit" value="{% translate "Enroll now" %}">
         </form>
       {% else %}
         <a href="{% url "student_registration" %}" class="button">
-          Register to enroll
+          {% translate "Register to enroll" %}
         </a>
       {% endif %}
     </div>

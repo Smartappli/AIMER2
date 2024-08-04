@@ -1,14 +1,15 @@
 {% extends "base.html" %}
+{% load i18n %}
 {% block title %}Edit "{{ course.title }}"{% endblock %}
 {% block content %}
-    <h1>Edit "{{ course.title }}"</h1>
+    <h1>{% translate "Edit" %} "{{ course.title }}"</h1>
     <div class="module">
-        <h2>Course modules</h2>
+        <h2>{% translate "Course modules" %}</h2>
         <form method="post">
             {{ formset }}
             {{ formset.management_form }}
             {% csrf_token %}
-            <input type="submit" value="Save modules">
+            <input type="submit" value="{% translate "Save modules" %}">
         </form>
     </div>
 {% endblock %}

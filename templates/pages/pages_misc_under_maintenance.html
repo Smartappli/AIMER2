@@ -1,9 +1,7 @@
 {% extends layout_path %}
+{% load i18n static %}
 
-{% load static %}
-{% load i18n %}
-
-{% block title %}Under Maintenance - Pages{% endblock %}
+{% block title %}{% translate "Under Maintenance - Pages" %}{% endblock %}
 
 {% block page_css %}
 {{ block.super }}
@@ -14,11 +12,11 @@
 <!--Under Maintenance -->
 <div class="container-xxl container-p-y">
   <div class="misc-wrapper">
-    <h3 class="mb-2 mx-2">Under Maintenance! 🚧</h3>
+    <h3 class="mb-2 mx-2">{% translate "Under Maintenance!" %} 🚧</h3>
     <p class="mb-6 mx-2">
-      Sorry for the inconvenience but we're performing some maintenance at the moment
+      {% translate "Sorry for the inconvenience but we're performing some maintenance at the moment" %}
     </p>
-    <a href="{% url 'website:dashboard' %}" class="btn btn-primary">Back to home</a>
+    <a href="{% url 'website:dashboard' %}" class="btn btn-primary">{% translate "Back to home" %}</a>
     <div class="mt-6">
       <img src="{% static 'img/illustrations/girl-doing-yoga-' %}{{ COOKIES.style|default:style }}.png" alt="girl-doing-yoga-light" width="500" class="img-fluid" data-app-light-img="illustrations/girl-doing-yoga-light.png" data-app-dark-img="illustrations/girl-doing-yoga-dark.png">
     </div>

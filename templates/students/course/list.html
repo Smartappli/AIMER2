@@ -1,5 +1,6 @@
 {% extends "base.html" %}
-{% block title %}My courses{% endblock %}
+{% load i18n %}
+{% block title %}{% translate "My courses" %}{% endblock %}
 {% block content %}
     <h1>My courses</h1>
     <div class="module">
@@ -12,9 +13,9 @@
             </div>
         {% empty %}
             <p>
-                You are not enrolled in any courses yet.
-                <a href="{% url "course_list" %}">Browse courses</a>
-                to enroll in a course.
+                {% translate "You are not enrolled in any courses yet." %}
+                <a href="{% url "course_list" %}">{% translate "Browse courses" %}</a>
+                {% translate "to enroll in a course" %}.
             </p>
         {% endfor %}
     </div>

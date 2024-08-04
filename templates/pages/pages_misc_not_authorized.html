@@ -1,9 +1,7 @@
 {% extends layout_path %}
+{% load i18n static %}
 
-{% load static %}
-{% load i18n %}
-
-{% block title %}Not Authorized - Pages{% endblock %}
+{% block title %}{% translate "Not Authorized - Pages" %}{% endblock %}
 
 {% block page_css %}
 {{ block.super }}
@@ -15,9 +13,9 @@
 <div class="container-xxl container-p-y">
   <div class="misc-wrapper">
     <h1 class="mb-2 mx-2" style="line-height: 6rem;font-size: 6rem;">401</h1>
-    <h4 class="mb-2 mx-2">You are not authorized! 🔐</h4>
-    <p class="mb-6 mx-2">You don’t have permission to access this page. Go Home!</p>
-    <a href="{% url 'website:dashboard' %}" class="btn btn-primary">Back to home</a>
+    <h4 class="mb-2 mx-2">{% translate "You are not authorized!" %} 🔐</h4>
+    <p class="mb-6 mx-2">{% translate "You don’t have permission to access this page. Go Home!" %}</p>
+    <a href="{% url 'website:dashboard' %}" class="btn btn-primary">{% translate "Back to home" %}</a>
     <div class="mt-6">
       <img src="{% static 'img/illustrations/girl-with-laptop-' %}{{ COOKIES.style|default:style }}.png" alt="page-misc-not-authorized-light" width="500" class="img-fluid" data-app-light-img="illustrations/girl-with-laptop-light.png" data-app-dark-img="illustrations/girl-with-laptop-dark.png">
     </div>

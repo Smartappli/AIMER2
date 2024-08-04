@@ -1,9 +1,7 @@
 {% extends layout_path %}
+{% load i18n static %}
 
-{% load static %}
-{% load i18n %}
-
-{% block title %}Coming Soon - Pages{% endblock %}
+{% block title %}{% translate "Coming Soon - Pages" %}{% endblock %}
 
 {% block page_css %}
 {{ block.super }}
@@ -14,13 +12,13 @@
 <!-- Coming Soon -->
 <div class="container-xxl py-4">
   <div class="misc-wrapper">
-    <h3 class="mb-2 mx-2">We are launching soon 🚀</h3>
-    <p class="mb-6 mx-2">Our website is opening soon. Please register to get notified when it's ready!</p>
+    <h3 class="mb-2 mx-2">{% translate "We are launching soon" %} 🚀</h3>
+    <p class="mb-6 mx-2">{% translate "Our website is opening soon. Please register to get notified when it's ready!" %}</p>
     <form onsubmit="return false">
       <div>
         <div class="mb-1 d-flex gap-4">
-          <input type="text" class="form-control" placeholder="Enter your email" autofocus>
-          <button type="submit" class="btn btn-primary">Notify</button>
+          <input type="text" class="form-control" placeholder="{% translate "Enter your email" %}" autofocus>
+          <button type="submit" class="btn btn-primary">{% translate "Notify" %}</button>
         </div>
       </div>
     </form>

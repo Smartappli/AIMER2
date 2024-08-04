@@ -1,4 +1,4 @@
-{% load i18n static %}
+{% load i18n %}
 <h2>{% translate "Add a new comment" %}</h2>
 <form action="{% url "blog:post_comment" post.id %}" method="post">
     <div class="left">{{ form.name.as_field_group }}</div>
