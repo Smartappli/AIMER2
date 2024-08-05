@@ -1,4 +1,9 @@
 repos:
+  - repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
+    rev: v0.3.3  # Insert the latest tag here
+    hooks:
+      - id: pre-commit-update
+        args: [--dry-run]
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.5.6
     hooks:
