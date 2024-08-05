@@ -1,4 +1,8 @@
 repos:
+  - repo: https://github.com/PyCQA/bandit
+    rev: '1.7.9'
+    hooks:
+       - id: bandit
   - repo: https://github.com/psf/black
     rev: 24.8.0
     hooks:
@@ -15,13 +19,13 @@ repos:
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
-    - id: isort
-      args: [--profile=black]
+      - id: isort
+        args: [--profile=black]
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: 'v1.11.1'
     hooks:
-    - id: mypy
-      args: ['--ignore-missing-imports', '--disable-error-code=top-level-await', "--disable-error-code=empty-body"]
+      - id: mypy
+        args: ['--ignore-missing-imports', '--disable-error-code=top-level-await', "--disable-error-code=empty-body"]
   - repo: https://github.com/djlint/djLint
     rev: v1.34.1
     hooks:
