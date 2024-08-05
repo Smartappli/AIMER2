@@ -22,3 +22,8 @@ repos:
     hooks:
     - id: mypy
       args: ['--ignore-missing-imports', '--disable-error-code=top-level-await', "--disable-error-code=empty-body"]
+  - repo: https://github.com/djlint/djLint
+    rev: v1.34.1
+    hooks:
+      - id: djlint-reformat-django
+      - id: djlint-django
