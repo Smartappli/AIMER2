@@ -83,17 +83,17 @@ select = [
    "ISC",   # flake8-implicit-str-concat
    "LOG",   # flake8-logging
    # "N",     # pep8-naming
-   # "NPY",   # NumPy-specific rules
-   # "PD",    # pandas-vet
-   # "PERF",  # Perflint
+   "NPY",   # NumPy-specific rules
+   "PD",    # pandas-vet
+   "PERF",  # Perflint
    # "PGH",   # pygrep-hooks
    # "PIE",   # flake8-pie
    # "PL",    # Pylint
    # "PT",    # flake8-pytest-style
    # "PTH",   # flake8-use-pathlib
-   # "PYI",   # flake8-pyi
+   "PYI",   # flake8-pyi
    # "Q",     # flake8-quotes
-   # "R",     # Refactor
+   "R",     # Refactor
    # "RET",   # flake8-return
    # "RSE",   # flake8-raise
    # "RUF",   # Ruff-specific rules
@@ -101,15 +101,15 @@ select = [
    # "SIM",   # flake8-simplify
    # "SLF",   # flake8-self
    # "SLOT",  # flake8-slots
-   # "T10",   # flake8-debugger
-   # "T20",   # flake8-print
-   # "TCH",   # flake8-type-checking
-   # "TD",    # flake8-todos
-   # "TID",   # flake8-tidy-imports
+   "T10",   # flake8-debugger
+   "T20",   # flake8-print
+   "TCH",   # flake8-type-checking
+   "TD",    # flake8-todos
+   "TID",   # flake8-tidy-imports
    # "TRY",   # tryceratops
-   # "UP",    # pyupgrade
+   "UP",    # pyupgrade
    # "W",     # pycodestyle
-   # "YTT",   # flake8-2020
+   "YTT",   # flake8-2020
 ]
 ignore = ["E501","F401",]
 
