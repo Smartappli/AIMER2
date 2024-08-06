@@ -26,7 +26,8 @@ def filter_by_url(submenu, url) -> bool:
         for subitem in submenu:
             subitem_url = subitem.get("url")
             if (subitem_url in (url.path, url.resolver_match.url_name)) or (
-                subitem.get("submenu") and filter_by_url(subitem["submenu"], url)
+                subitem.get("submenu")
+                and filter_by_url(subitem["submenu"], url)
             ):
                 return True
 

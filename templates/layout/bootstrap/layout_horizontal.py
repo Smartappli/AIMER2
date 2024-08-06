@@ -45,7 +45,9 @@ class TemplateBootstrapLayoutHorizontal:
 
     def init_menu_data(self) -> None:
         # Load the menu data from the JSON file
-        menu_data = json.load(menu_file_path.open()) if menu_file_path.exists() else []
+        menu_data = (
+            json.load(menu_file_path.open()) if menu_file_path.exists() else []
+        )
 
         # Updated context with menu_data
         self.update({"menu_data": menu_data})
