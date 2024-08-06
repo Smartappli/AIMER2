@@ -75,6 +75,9 @@ class Content(models.Model):
     class Meta:
         ordering = ["order"]
 
+    def __str__(self) -> str:
+        return f"{self.module}. {self.content_type}. {self.object_id}"
+
 
 class ItemBase(models.Model):
     owner = models.ForeignKey(

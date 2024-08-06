@@ -56,32 +56,32 @@ select = [
    "ASYNC", # flake8-async
    "B",     # flake8-bugbear  
    # "BLE",   # flake8-blind-except
-   # "C4",    # flake8-comprehensions
+   "C4",    # flake8-comprehensions
    # "C90",   # McCabe cyclomatic complexity
-   # "COM",   # flake8-commas
+   "COM",   # flake8-commas
    # "CPY",   # flake8-copyright
    # "D",     # pydocstyle
-   # "DJ",    # flake8-django
+   "DJ",    # flake8-django
    # "DOC",   # pydoclint
-   # "DTZ",   # flake8-datetimez
-   # "E",     # pycodestyle
-   # "EM",    # flake8-errmsg
+   "DTZ",   # flake8-datetimez
+   "E",     # pycodestyle
+   "EM",    # flake8-errmsg
    # "ERA",   # eradicate
-   # "EXE",   # flake8-executable
-   # "F",     # Pyflakes
-   # "FA",    # flake8-future-annotations
-   # "FAST",  # FastAPI
-   # "FBT",   # flake8-boolean-trap
-   # "FIX",   # flake8-pp
-   # "FLY",   # flynt
-   # "FURB",  # refurb
-   # "G",     # flake8-logging-format
-   # "I",     # isort
-   # "ICN",   # flake8-import-conventions
-   # "INP",   # flake8-no-pep420
-   # "INT",   # flake8-gettext
-   # "ISC",   # flake8-implicit-str-concat
-   # "LOG",   # flake8-logging
+   "EXE",   # flake8-executable
+   "F",     # Pyflakes
+   "FA",    # flake8-future-annotations
+   "FAST",  # FastAPI
+   "FBT",   # flake8-boolean-trap
+   "FIX",   # flake8-pp
+   "FLY",   # flynt
+   "FURB",  # refurb
+   "G",     # flake8-logging-format
+   "I",     # isort
+   "ICN",   # flake8-import-conventions
+   "INP",   # flake8-no-pep420
+   "INT",   # flake8-gettext
+   "ISC",   # flake8-implicit-str-concat
+   "LOG",   # flake8-logging
    # "N",     # pep8-naming
    # "NPY",   # NumPy-specific rules
    # "PD",    # pandas-vet
