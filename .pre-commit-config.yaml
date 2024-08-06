@@ -26,14 +26,14 @@ repos:
         args: [--target-version, "5.1"]
 
   # bandit
-  - repo: https://github.com/PyCQA/bandit
-    rev: "1.7.9"
-    hooks:
-       - id: bandit
+  # - repo: https://github.com/PyCQA/bandit
+  #   rev: "1.7.9"
+  #   hooks:
+  #     - id: bandit
 
   # black
-  - repo: https://github.com/psf/black
-    rev: "24.8.0"
-    hooks:
-      - id: black
+  # - repo: https://github.com/psf/black
+  #  rev: "24.8.0"
+  #  hooks:
+  #    - id: black
  

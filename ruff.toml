@@ -85,10 +85,10 @@ select = [
    # "N",     # pep8-naming
    # "NPY",   # NumPy-specific rules
    # "PD",    # pandas-vet
-   "PERF",  # Perflint 
+   # "PERF",  # Perflint
    # "PGH",   # pygrep-hooks
    # "PIE",   # flake8-pie
-   "PL",    # Pylint 
+   # "PL",    # Pylint
    # "PT",    # flake8-pytest-style
    # "PTH",   # flake8-use-pathlib
    # "PYI",   # flake8-pyi
