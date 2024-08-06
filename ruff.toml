@@ -59,7 +59,7 @@ select = [
    "C4",    # flake8-comprehensions
    # "C90",   # McCabe cyclomatic complexity
    "COM",   # flake8-commas
-   # "CPY",   # flake8-copyright
+   "CPY",   # flake8-copyright
    # "D",     # pydocstyle
    "DJ",    # flake8-django
    # "DOC",   # pydoclint
@@ -111,7 +111,7 @@ select = [
    "W",     # pycodestyle
    "YTT",   # flake8-2020
 ]
-ignore = ["E501","F401",]
+ignore = ["COM812","E501","F401","ISC001",]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]

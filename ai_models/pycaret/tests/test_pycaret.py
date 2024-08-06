@@ -1,31 +1,15 @@
 import time
 
 from django.test import TestCase
-from pycaret.anomaly import (
-    get_all_models as get_anomaly_models,
-)
-from pycaret.anomaly import (
-    setup as setup_anomaly,
-)
-from pycaret.classification import (
-    get_all_models as get_classification_models,
-)
-from pycaret.classification import (
-    setup as setup_classification,
-)
-from pycaret.clustering import (
-    get_all_models as get_clustering_models,
-)
-from pycaret.clustering import (
-    setup as setup_clustering,
-)
+from pycaret.anomaly import get_all_models as get_anomaly_models
+from pycaret.anomaly import setup as setup_anomaly
+from pycaret.classification import get_all_models as get_classification_models
+from pycaret.classification import setup as setup_classification
+from pycaret.clustering import get_all_models as get_clustering_models
+from pycaret.clustering import setup as setup_clustering
 from pycaret.datasets import get_data
-from pycaret.regression import (
-    get_all_models as get_regression_models,
-)
-from pycaret.regression import (
-    setup as setup_regression,
-)
+from pycaret.regression import get_all_models as get_regression_models
+from pycaret.regression import setup as setup_regression
 
 
 class PyCaretModelsTestCase(TestCase):

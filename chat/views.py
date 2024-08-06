@@ -1,7 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseForbidden
 from django.shortcuts import render
-from pyarrow._flight import Ticket
 
 from tutorial.models import Course
 
