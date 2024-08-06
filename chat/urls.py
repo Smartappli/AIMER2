@@ -14,5 +14,5 @@ urlpatterns = [
         "support/<int:ticket_id>/",
         views.support_chat_room,
         name="support_chat_room",
-    )
+    ),
 ]
