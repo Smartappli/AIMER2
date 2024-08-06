@@ -10,4 +10,9 @@ urlpatterns = [
         views.course_chat_room,
         name="course_chat_room",
     ),
+    path(
+        "support/<int:ticket_id>/",
+        views.support_chat_room,
+        name="support_chat_room",
+    )
 ]
