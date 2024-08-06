@@ -7,6 +7,7 @@ from django.http import HttpResponse
 from .models import Profile
 
 
+@admin.action(description="Export to CSV")
 def export_to_csv(modeladmin, request, queryset):
     opts = modeladmin.model._meta
     content_disposition = f"attachment; filename={opts.verbose_name_plural}.csv"
@@ -32,9 +33,6 @@ def export_to_csv(modeladmin, request, queryset):
             data_row.append(value)
         writer.writerow(data_row)
     return response
-
-
-export_to_csv.short_description = "Export to CSV"
 
 
 @admin.register(Profile)

@@ -10,6 +10,7 @@ Classes:
 Functions:
     Post.get_absolute_url: Returns the URL to access a detail view of the blog post.
 """
+
 from django.conf import settings
 from django.db import models
 from django.urls import reverse

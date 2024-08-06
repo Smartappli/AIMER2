@@ -26,6 +26,7 @@ Attributes
     Post (class): The Post model class.
 
 """
+
 from django.contrib import admin
 
 from .models import Comment, Post
