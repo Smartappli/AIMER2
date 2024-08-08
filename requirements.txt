@@ -2,11 +2,13 @@ asgiref==3.8.1
 celery==5.4.0
 channels[daphne]==4.1.0
 channels-redis==4.2.0
-Django==5.1rc1
+Django>=5.1rc1
 # django-celery-beat==2.6.0
 git+https://github.com/celery/django-celery-beat.git
 django-braces==1.15.0
 django-embed-video==1.4.10
+django-localflavor==4.0
+django-parler==2.3
 django-redisboard==8.4.0
 django-rosetta==0.10.0
 Django-taggit==6.0.0
@@ -35,9 +37,9 @@ tensorflow-cpu==2.17.0
 tf-models-no-deps==2.17.0
 # timm>=1.0.7
 git+https://github.com/huggingface/pytorch-image-models.git
---extra-index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cu124
 torch>=2.2.2,<2.4.0
 torchvision>=0.17.0
-typing-extensions>=4.12.2
+typing-extensions==4.12.2
 weasyPrint==62.3
 whitenoise==6.7.0
