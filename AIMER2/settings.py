@@ -29,7 +29,7 @@ SECRET_KEY = config("SECRET_KEY")
 DEBUG = config("DEBUG", "True").lower() in ["true", "yes", "1"]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 # Current DJANGO_ENVIRONMENT
 ENVIRONMENT = config("DJANGO_ENVIRONMENT")
@@ -38,6 +38,8 @@ SITE_ID = 1
 
 # Application definition
 INSTALLED_APPS = [
+    "blog.apps.BlogConfig",
+    "chat.apps.ChatConfig",
     "daphne",
     "django_celery_beat",
     "django.contrib.admin",
@@ -48,18 +50,16 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django.contrib.postgres",
     "embed_video",
+    # "faq.apps.FaqConfig",
+    "pages.apps.PagesConfig",
     "redisboard",
     "rest_framework",
     "rosetta",
-    "taggit",
-    "website.apps.WebsiteConfig",
-    "blog.apps.BlogConfig",
-    "chat.apps.ChatConfig",
-    # "faq.apps.FaqConfig",
-    "pages.apps.PagesConfig",
     "students.apps.StudentsConfig",
+    "taggit",
     # "ticket.apps.TicketConfig",
     "tutorial.apps.TutorialConfig",
+    "website.apps.WebsiteConfig",
 ]
 
 MIDDLEWARE = [
@@ -216,37 +216,37 @@ CACHE_MIDDLEWARE_KEY_PREFIX = "aimer2"
 
 LANGUAGES = (
     # ("af", _("Afrikaans")),
-    # ("ar", _("Arabic")),
+    ("ar", _("Arabic")),
     # ("ar_DZ", _("Algerian Arabic")),
     # ("ast", _("Asturian")),
     # ("az", _("Azerbaijani")),
     # ("be", _("Belarusian")),
-    # ("bg", _("Bulgarian")),
+    ("bg", _("Bulgarian")),
     # ("bn", _("Bengali")),
     # ("br", _("Breton")),
     # ("bs", _("Bosnian")),
     # ("ca", _("Catalan")),
     # ("ckb", _("Central Kurdish (Sorani)")),
-    # ("cs", _("Czech")),
+    ("cs", _("Czech")),
     # ("cy", _("Welsh")),
-    # ("da", _("Danish")),
+    ("da", _("Danish")),
     ("de", _("German")),
     # ("dsb", _("Lower Sorbian")),
-    # ("el", _("Greek")),
+    ("el", _("Greek")),
     ("en", _("English")),
     # ("en_AU", _("Australian English")),
     # ("en_GB", _("British English")),
     # ("eo", _("Esperanto")),
-    # ("es", _("Spanish")),
+    ("es", _("Spanish")),
     # ("es-ar", _("Argentinian Spanish")),
     # ("es-co", _("Colombian Spanish")),
     # ("es-mx", _("Mexican Spanish")),
     # ("es-ni", _("Nicaraguan Spanish")),
     # ("es-ve", _("Venezuelan Spanish")),
-    # ("et", _("Estonian")),
+    ("et", _("Estonian")),
     # ("eu", _("Basque")),
     # ("fa", _("Persian")),
-    # ("fi", _("Finnish")),
+    ("fi", _("Finnish")),
     ("fr", _("French")),
     # ("fy", _("Frisian")),
     # ("ga", _("Irish")),
@@ -256,64 +256,63 @@ LANGUAGES = (
     # ("hi", _("Hindi")),
     # ("hr", _("Croatian")),
     # ("hsb", _("Upper Sorbian")),
-    # ("hu", _("Hungarian")),
+    ("hu", _("Hungarian")),
     # ("hy", _("Armenian")),
     # ("ia", _("Interlingua")),
-    # ("id", _("Indonesian")),
+    ("id", _("Indonesian")),
     # ("ig", _("Igbo")),
     # ("io", _("Ido")),
     # ("is", _("Icelandic")),
-    # ("it", _("Italian")),
-    # ("ja", _("Japanese")),
+    ("it", _("Italian")),
+    ("ja", _("Japanese")),
     # ("ka", _("Georgian")),
     # ("kab", _("Kabyle")),
     # ("kk", _("Kazakh")),
     # ("km", _("Khmer")),
     # ("kn", _("Kannada")),
-    # ("ko", _("Korean")),
+    ("ko", _("Korean")),
     # ("ky", _("Kyrgyz")),
     # ("lb", _("Luxembourgish")),
-    # ("lt", _("Lithuanian")),
-    # ("lv", _("Latvian")),
+    ("lt", _("Lithuanian")),
+    ("lv", _("Latvian")),
     # ("mk", _("Macedonian")),
     # ("ml", _("Malayalam")),
     # ("mn", _("Mongolian")),
     # ("mr", _("Marathi")),
     # ("ms", _("Malay")),
     # ("my", _("Burmese")),
-    # ("nb", _("Norwegian Bokmål")),
+    ("nb", _("Norwegian Bokmål")),
     # ("ne", _("Nepali")),
     ("nl", _("Dutch")),
-    # ("nn", _("Norwegian Nynorsk")),
     # ("os", _("Ossetic")),
     # ("pa", _("Punjabi")),
-    # ("pl", _("Polish")),
-    # ("pt", _("Portuguese")),
-    # ("pt-br", _("Brazilian Portuguese")),
-    # ("ro", _("Romanian")),
-    # ("ru", _("Russian")),
-    # ("sk", _("Slovak")),
-    # ("sl", _("Slovenian")),
+    ("pl", _("Polish")),
+    ("pt", _("Portuguese")),
+    ("pt-br", _("Brazilian Portuguese")),
+    ("ro", _("Romanian")),
+    ("ru", _("Russian")),
+    ("sk", _("Slovak")),
+    ("sl", _("Slovenian")),
     # ("sq", _("Albanian")),
     # ("sr", _("Serbian")),
     # ("sr-latn", _("Serbian Latin")),
-    # ("sv", _("Swedish")),
+    ("sv", _("Swedish")),
     # ("sw", _("Swahili")),
     # ("ta", _("Tamil")),
     # ("te", _("Telugu")),
     # ("tg", _("Tajik")),
     # ("th", _("Thai")),
     # ("tk", _("Turkmen")),
-    # ("tr", _("Turkish")),
+    ("tr", _("Turkish")),
     # ("tt", _("Tatar")),
     # ("udm", _("Udmurt")),
     # ("ug", _("Uyghur")),
-    # ("uk", _("Ukrainian")),
+    ("uk", _("Ukrainian")),
     # ("ur", _("Urdu")),
     # ("uz", _("Uzbek")),
     # ("vi", _("Vietnamese")),
-    # ("zh_Hans", _("Simplified Chinese")),
-    # ("zh_Hant", _("Traditional Chinese")),
+    ("zh-hans", _("Simplified Chinese")),
+    ("zh-hant", _("Traditional Chinese")),
 )
 
 LOCALE_PATHS = (BASE_DIR / "locale",)
@@ -359,36 +358,42 @@ LOGOUT_URL = "logout/"
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
+ROSETTA_STORAGE_CLASS = "rosetta.storage.CacheRosettaStorage"
 ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = "True"
 DEEPL_AUTH_KEY = config("DEEPL_API_KEY")
 DEEPL_LANGUAGES = {
-    "zh_hans": "zh_hans",
-    "de": "de",
-    "en": "en",
-    "bg": "bg",
-    "fr": "fr",
-    "it": "it",
-    "cs": "cs",
-    "da": "da",
-    "es": "es",
-    "ko": "ko",
-    "hr": "hr",
-    "id": "id",
-    "fi": "fi",
-    "ru": "ru",
-    "sv": "sv",
-    "nl": "nl",
-    "gr": "el",
-    "ja": "ja",
-    "sl": "sl",
-    "et": "et",
-    "br": "pt-br",
-    "hu": "hu",
-    "lt": "lt",
-    "lv": "lv",
-    "no": "nb",
-    "pt": "pt-pt",
-    "ro": "ro",
+    "ar": "ar",  # Arabic
+    "bg": "bg",  # Bulgarian
+    "cs": "cs",  # Czech
+    "da": "da",  # Danish
+    "de": "de",  # German
+    "en": "en",  # English
+    "es": "es",  # Spanish
+    "et": "et",  # Estonian
+    "fi": "fi",  # Finnish
+    "fr": "fr",  # French
+    "gr": "el",  # Greek
+    "hu": "hu",  # Hungarian
+    "id": "id",  # Indonesian
+    "it": "it",  # Italian
+    "ja": "ja",  # Japanese
+    "ko": "ko",  # Korean
+    "lt": "lt",  # Lithuanian
+    "lv": "lv",  # Latvian
+    "nb": "nb",  # Norvegian
+    "nl": "nl",  # Dutch
+    "pl": "pl",  # Polish
+    "pt": "pt-pt",  # Portuguese
+    "pt_br": "pt-br",  # Brazilian
+    "ro": "ro",  # Romanian
+    "ru": "ru",  # Russian
+    "sk": "sk",  # Slovak
+    "sl": "sl",  # Slovenian
+    "sv": "sv",  # Swedish
+    "tr": "tr",  # Turkish
+    "uk": "uk",  # Urkainian
+    "zh_hans": "zh-hans",  # Simplified Chinese
+    "zh_hant": "zn-hant",  # Traditional Chinese
 }
 
 # Template Settings

@@ -2,6 +2,7 @@ from django.urls import path
 
 from . import views
 from .views import (
+    CustomEditView,
     CustomLoginView,
     CustomLogoutView,
     CustomPasswordChangeDoneView,
@@ -10,12 +11,18 @@ from .views import (
     CustomPasswordResetConfirmView,
     CustomPasswordResetDoneView,
     CustomPasswordResetView,
+    CustomRegisterView,
 )
 
 app_name = "website"
 
 urlpatterns = [
     path("", views.dashboard, name="dashboard"),
+    path(
+        "edit/",
+        CustomEditView.as_view(),  # Corrected to CustomEditView
+        name="edit",
+    ),
     path("login/", CustomLoginView.as_view(), name="login"),
     path("logout/", CustomLogoutView.as_view(), name="logout"),
     path(
@@ -48,6 +55,9 @@ urlpatterns = [
         CustomPasswordResetCompleteView.as_view(),
         name="password_reset_complete",
     ),
-    path("register/", views.register, name="register"),
-    path("edit/", views.edit, name="edit"),
+    path(
+        "register/",
+        CustomRegisterView.as_view(),  # Corrected to CustomRegisterView
+        name="register",
+    ),
 ]

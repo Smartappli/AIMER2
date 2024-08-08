@@ -1,10 +1,11 @@
 from django.contrib import messages
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import alogin, authenticate
 from django.contrib.auth import views as auth_views
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, View
+from django.views.generic.edit import FormView
 
 from web_project import TemplateLayout
 from web_project.template_helpers.theme import TemplateHelper
@@ -109,7 +110,7 @@ def user_login(request):
             )
             if user is not None:
                 if user.is_active:
-                    login(request, user)
+                    alogin(request, user)
                     return HttpResponse(
                         "Authenticated and logged in successfully",
                     )
@@ -120,7 +121,7 @@ def user_login(request):
     return render(
         request,
         "registration/login.html",
-        {"forM": form},
+        {"form": form},
     )
 
 
@@ -147,62 +148,36 @@ def dashboard(request):
     )
 
 
-def register(request):
-    """Handle user registration functionality.
+class CustomRegisterView(WebsiteView, FormView):
+    template_name = "website/register.html"
+    form_class = UserRegistrationForm
 
-    If the request method is POST, process the registration form. If the form is valid,
-    create a new user object, set the password, save the user, and create a user profile.
-    Render a confirmation template upon successful registration. If the request method is
-    GET, display the empty registration form.
-
-    Args:
-    ----
-        request (HttpRequest): The HTTP request object containing metadata about the request.
-
-    Returns:
-    -------
-        HttpResponse: A response object with the rendered registration form or confirmation template.
-
-    """
-    if request.method == "POST":
-        user_form = UserRegistrationForm(request.POST)
-        if user_form.is_valid():
-            # Create a new user object
-            new_user = user_form.save(commit=False)
-            # Set the chosen password
-            new_user.set_password(user_form.cleaned_data["password"])
-            # Save th User object
-            new_user.save()
-            # Create the user profile
-            Profile.objects.create(user=new_user)
-            return render(
-                request,
-                "website/register_done.html",
-                {"user_form": user_form},
-            )
-    else:
-        user_form = UserRegistrationForm()
-    return render(request, "website/register.html", {"user_form": user_form})
+    def form_valid(self, form):
+        new_user = form.save(commit=False)
+        new_user.set_password(form.cleaned_data["password"])
+        new_user.save()
+        Profile.objects.create(user=new_user)
+        return render(
+            self.request, "website/register_done.html", {"user_form": form}
+        )
 
 
-@login_required
-def edit(request):
-    """Handle user profile and account editing functionality.
+class CustomEditView(WebsiteView, View):
+    template_name = "website/edit.html"
 
-    If the request method is POST, process the user and profile edit forms. If both forms
-    are valid, save the updated user and profile information. If the request method is GET,
-    display the forms with the current user and profile information.
+    def get(self, request):
+        user_form = UserEditForm(instance=request.user)
+        profile_form = ProfileEditForm(instance=request.user.profile)
+        return render(
+            request,
+            self.template_name,
+            {
+                "user_form": user_form,
+                "profile_form": profile_form,
+            },
+        )
 
-    Args:
-    ----
-        request (HttpRequest): The HTTP request object containing metadata about the request.
-
-    Returns:
-    -------
-        HttpResponse: A response object with the rendered edit form template.
-
-    """
-    if request.method == "POST":
+    def post(self, request):
         user_form = UserEditForm(instance=request.user, data=request.POST)
         profile_form = ProfileEditForm(
             instance=request.user.profile,
@@ -212,20 +187,14 @@ def edit(request):
         if user_form.is_valid() and profile_form.is_valid():
             user_form.save()
             profile_form.save()
-            messages.success(
-                request,
-                "Profile updated successfully!",
-            )
+            messages.success(request, "Profile updated successfully!")
         else:
             messages.error(request, "Error updating profile!")
-    else:
-        user_form = UserEditForm(instance=request.user)
-        profile_form = ProfileEditForm(instance=request.user.profile)
-    return render(
-        request,
-        "website/edit.html",
-        {
-            "user_form": user_form,
-            "profile_form": profile_form,
-        },
-    )
+        return render(
+            request,
+            self.template_name,
+            {
+                "user_form": user_form,
+                "profile_form": profile_form,
+            },
+        )

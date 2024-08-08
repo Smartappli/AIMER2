@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 23:17+0200\n"
-"PO-Revision-Date: 2024-07-14 22:58+0000\n"
+"POT-Creation-Date: 2024-08-09 01:00+0200\n"
+"PO-Revision-Date: 2024-08-09 01:08+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,151 +19,145 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:219
 msgid "Arabic"
 msgstr "아라비아 말"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:224
 msgid "Bulgarian"
 msgstr "불가리아 사람"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:230
 msgid "Czech"
 msgstr "체코 사람"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:232
 msgid "Danish"
 msgstr "덴마크 말"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:233
 msgid "German"
 msgstr "독일 사람"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:235
 msgid "Greek"
 msgstr "그리스어"
 
-#: .\AIMER2\settings.py:184
+#: .\AIMER2\settings.py:236
 msgid "English"
 msgstr "영어"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:240
 msgid "Spanish"
 msgstr "스페인의"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:246
 msgid "Estonian"
 msgstr "에스토니아 사람"
 
-#: .\AIMER2\settings.py:196
-msgid "Persian"
-msgstr ""
-
-#: .\AIMER2\settings.py:197
+#: .\AIMER2\settings.py:249
 msgid "Finnish"
 msgstr "핀란드어"
 
-#: .\AIMER2\settings.py:198
+#: .\AIMER2\settings.py:250
 msgid "French"
 msgstr "프랑스어"
 
-#: .\AIMER2\settings.py:203
-msgid "Hebrew"
-msgstr "히브리어"
-
-#: .\AIMER2\settings.py:204
-msgid "Hindi"
-msgstr "힌디어"
-
-#: .\AIMER2\settings.py:205
-msgid "Croatian"
-msgstr "크로아티아어"
-
-#: .\AIMER2\settings.py:207
+#: .\AIMER2\settings.py:259
 msgid "Hungarian"
 msgstr "헝가리어"
 
-#: .\AIMER2\settings.py:210
+#: .\AIMER2\settings.py:262
 msgid "Indonesian"
 msgstr "인도네시아어"
 
-#: .\AIMER2\settings.py:214
+#: .\AIMER2\settings.py:266
 msgid "Italian"
 msgstr "이탈리아어"
 
-#: .\AIMER2\settings.py:215
+#: .\AIMER2\settings.py:267
 msgid "Japanese"
 msgstr "일본어"
 
-#: .\AIMER2\settings.py:219
-msgid "Khmer"
-msgstr "크메르어"
-
-#: .\AIMER2\settings.py:221
+#: .\AIMER2\settings.py:273
 msgid "Korean"
 msgstr "한국어"
 
-#: .\AIMER2\settings.py:224
+#: .\AIMER2\settings.py:276
 msgid "Lithuanian"
 msgstr "리투아니아어"
 
-#: .\AIMER2\settings.py:225
+#: .\AIMER2\settings.py:277
 msgid "Latvian"
 msgstr "라트비아어"
 
-#: .\AIMER2\settings.py:234
+#: .\AIMER2\settings.py:284
+msgid "Norwegian Bokmål"
+msgstr "노르웨이 복말"
+
+#: .\AIMER2\settings.py:286
 msgid "Dutch"
 msgstr "네덜란드어"
 
-#: .\AIMER2\settings.py:238
+#: .\AIMER2\settings.py:289
 msgid "Polish"
 msgstr "폴란드어"
 
-#: .\AIMER2\settings.py:239
+#: .\AIMER2\settings.py:290
 msgid "Portuguese"
 msgstr "포르투갈어"
 
-#: .\AIMER2\settings.py:240
-#, fuzzy
-#| msgid "Portuguese"
+#: .\AIMER2\settings.py:291
 msgid "Brazilian Portuguese"
-msgstr "포르투갈어"
+msgstr "브라질 포르투갈어"
 
-#: .\AIMER2\settings.py:241
+#: .\AIMER2\settings.py:292
 msgid "Romanian"
 msgstr "루마니아어"
 
-#: .\AIMER2\settings.py:242
+#: .\AIMER2\settings.py:293
 msgid "Russian"
 msgstr "러시아어"
 
-#: .\AIMER2\settings.py:243
+#: .\AIMER2\settings.py:294
 msgid "Slovak"
 msgstr "슬로바키아어"
 
-#: .\AIMER2\settings.py:244
+#: .\AIMER2\settings.py:295
 msgid "Slovenian"
 msgstr "슬로베니아어"
 
-#: .\AIMER2\settings.py:248
+#: .\AIMER2\settings.py:299
 msgid "Swedish"
 msgstr "스웨덴어"
 
-#: .\AIMER2\settings.py:255
+#: .\AIMER2\settings.py:306
 msgid "Turkish"
 msgstr "터키어"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\settings.py:310
+msgid "Ukrainian"
+msgstr "우크라이나어"
+
+#: .\AIMER2\settings.py:314
+msgid "Simplified Chinese"
+msgstr "중국어 간체"
+
+#: .\AIMER2\settings.py:315
+msgid "Traditional Chinese"
+msgstr "중국어 번체"
+
+#: .\AIMER2\urls.py:31
 msgid "AIMER Administration"
-msgstr ""
+msgstr "AIMER 관리"
 
-#: .\AIMER2\urls.py:29
+#: .\AIMER2\urls.py:33
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
-msgstr ""
+msgstr "의료 연구를 위한 인공 지능 - 포털 관리"
 
-#: .\AIMER2\urls.py:30
+#: .\AIMER2\urls.py:35
 msgid "Welcome to AIMER Portal"
-msgstr ""
+msgstr "AIMER 포털에 오신 것을 환영합니다."
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
@@ -176,24 +170,22 @@ msgstr "최신 뉴스"
 
 #: .\blog\forms.py:69
 msgid "name"
-msgstr ""
+msgstr "이름"
 
 #: .\blog\forms.py:70
-#, fuzzy
-#| msgid "by e-mail"
 msgid "email"
-msgstr "이메일로"
+msgstr "이메일"
 
 #: .\blog\forms.py:71
 msgid "body"
-msgstr ""
+msgstr "body"
 
 #: .\templates\base.html:24
 msgid "language"
-msgstr ""
+msgstr "언어"
 
-#: .\templates\base.html:39 .\templates\website\dashboard.html:3
-#: .\templates\website\dashboard.html:5
+#: .\templates\base.html:39 .\templates\website\dashboard.html:4
+#: .\templates\website\dashboard.html:7
 msgid "Dashboard"
 msgstr "대시보드"
 
@@ -206,8 +198,8 @@ msgid "Logout"
 msgstr "로그아웃"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:3 .\templates\website\login.html:5
+#: .\templates\registration\login.html:65 .\templates\website\login.html:4
+#: .\templates\website\login.html:7
 msgid "Log-in"
 msgstr "로그인"
 
@@ -222,6 +214,10 @@ msgstr "댓글이 추가되었습니다."
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
 msgstr "게시물로 돌아가기"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "게시됨"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
@@ -263,13 +259,13 @@ msgstr "댓글 추가"
 msgid "Last news"
 msgstr "최근 뉴스"
 
-#: .\templates\blog\post\list.html:19
-msgid "Published"
-msgstr "게시됨"
-
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
 msgstr "다음이 포함된 게시물"
+
+#: .\templates\blog\post\search.html:10
+msgid "Found"
+msgstr "발견됨"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
@@ -308,9 +304,91 @@ msgid "by e-mail"
 msgstr "이메일로"
 
 #: .\templates\blog\post\share.html:13
-#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:63
 msgid "Send e-mail"
 msgstr "이메일 보내기"
+
+#: .\templates\chat\room.html:3
+msgid "Chat room for"
+msgstr "채팅방"
+
+#: .\templates\chat\room.html:8
+msgid "me"
+msgstr "me"
+
+#: .\templates\chat\room.html:8
+msgid "other"
+msgstr "기타"
+
+#: .\templates\chat\room.html:20
+msgid "Send"
+msgstr "보내기"
+
+#: .\templates\pages\pages_misc_comingsoon.html:4
+msgid "Coming Soon - Pages"
+msgstr "출시 예정 - 페이지"
+
+#: .\templates\pages\pages_misc_comingsoon.html:15
+msgid "We are launching soon"
+msgstr "곧 출시됩니다."
+
+#: .\templates\pages\pages_misc_comingsoon.html:16
+msgid ""
+"Our website is opening soon. Please register to get notified when it's "
+"ready!"
+msgstr "곧 웹사이트를 오픈할 예정입니다. 준비되면 알림을 받으려면 등록하세요!"
+
+#: .\templates\pages\pages_misc_comingsoon.html:20
+msgid "Enter your email"
+msgstr "이메일 입력"
+
+#: .\templates\pages\pages_misc_comingsoon.html:21
+msgid "Notify"
+msgstr "알림"
+
+#: .\templates\pages\pages_misc_error.html:4
+msgid "Error - Pages"
+msgstr "오류 - 페이지"
+
+#: .\templates\pages\pages_misc_error.html:16
+msgid "Page Not Found️"
+msgstr "페이지를 찾을 수 없음 ️"
+
+#: .\templates\pages\pages_misc_error.html:17
+msgid "we couldn't find the page you are looking for"
+msgstr "찾고 계신 페이지를 찾을 수 없습니다."
+
+#: .\templates\pages\pages_misc_error.html:18
+#: .\templates\pages\pages_misc_not_authorized.html:18
+#: .\templates\pages\pages_misc_under_maintenance.html:19
+msgid "Back to home"
+msgstr "홈으로 돌아가기"
+
+#: .\templates\pages\pages_misc_not_authorized.html:4
+msgid "Not Authorized - Pages"
+msgstr "승인되지 않음 - 페이지"
+
+#: .\templates\pages\pages_misc_not_authorized.html:16
+msgid "You are not authorized!"
+msgstr "권한이 없습니다!"
+
+#: .\templates\pages\pages_misc_not_authorized.html:17
+msgid "You don’t have permission to access this page. Go Home!"
+msgstr "이 페이지에 액세스할 수 있는 권한이 없습니다. Go Home!"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:4
+msgid "Under Maintenance - Pages"
+msgstr "유지 관리 - 페이지 아래"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:15
+msgid "Under Maintenance!"
+msgstr "유지보수 중!"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:17
+msgid ""
+"Sorry for the inconvenience but we're performing some maintenance at the "
+"moment"
+msgstr "불편을 드려 죄송하지만 현재 점검 중입니다."
 
 #: .\templates\pagination.html:4
 msgid "Previous"
@@ -325,66 +403,73 @@ msgid "Next"
 msgstr "다음"
 
 #: .\templates\registration\logged_out.html:3
-#: .\templates\registration\logged_out.html:5
 msgid "Logged out"
 msgstr "로그아웃"
 
-#: .\templates\registration\logged_out.html:7
+#: .\templates\registration\logged_out.html:47
+msgid "say you good bye"
+msgstr "작별 인사"
+
+#: .\templates\registration\logged_out.html:49
 msgid "You have been successfully logged out."
 msgstr "로그아웃에 성공했습니다."
 
-#: .\templates\registration\logged_out.html:8
+#: .\templates\registration\logged_out.html:52
 msgid "You can"
 msgstr "다음을 수행할 수 있습니다."
 
-#: .\templates\registration\logged_out.html:8
+#: .\templates\registration\logged_out.html:52
 msgid "log-in again"
 msgstr "다시 로그인"
 
-#: .\templates\registration\login.html:8
+#: .\templates\registration\login.html:51
 msgid "Your username and password didn't match."
 msgstr "사용자 아이디와 비밀번호가 일치하지 않습니다."
 
-#: .\templates\registration\login.html:9
+#: .\templates\registration\login.html:52
 msgid "Please try again."
 msgstr "다시 시도해 주세요."
 
-#: .\templates\registration\login.html:13
+#: .\templates\registration\login.html:56
 msgid "Please, use the following form to log-in."
 msgstr "다음 양식을 사용하여 로그인하세요."
 
-#: .\templates\registration\login.html:14
+#: .\templates\registration\login.html:57
 msgid "If you don't have an account"
 msgstr "계정이 없는 경우"
 
-#: .\templates\registration\login.html:14
+#: .\templates\registration\login.html:57
 msgid "register here"
 msgstr "여기에서 등록하기"
 
-#: .\templates\registration\login.html:27
-#: .\templates\registration\password_reset_form.html:5
+#: .\templates\registration\login.html:69
+#: .\templates\registration\password_reset_form.html:52
 msgid "Forgotten your password?"
 msgstr "비밀번호를 잊어버리셨나요?"
 
 #: .\templates\registration\password_change_done.html:3
-#: .\templates\registration\password_change_done.html:5
+#: .\templates\registration\password_change_done.html:47
 msgid "Password changed"
 msgstr "비밀번호 변경"
 
-#: .\templates\registration\password_change_done.html:6
+#: .\templates\registration\password_change_done.html:48
 msgid "Your password has been successfully changed."
 msgstr "비밀번호가 성공적으로 변경되었습니다."
 
+#: .\templates\registration\password_change_done.html:52
+msgid "Back to login"
+msgstr "로그인으로 돌아가기"
+
 #: .\templates\registration\password_change_form.html:3
-#: .\templates\registration\password_change_form.html:5
+#: .\templates\registration\password_change_form.html:48
 msgid "Change your password"
 msgstr "비밀번호 변경"
 
-#: .\templates\registration\password_change_form.html:6
+#: .\templates\registration\password_change_form.html:49
 msgid "Use the form below to change your password."
 msgstr "비밀번호를 변경하려면 아래 양식을 사용하세요."
 
-#: .\templates\registration\password_change_form.html:10
+#: .\templates\registration\password_change_form.html:61
 msgid "Change"
 msgstr "변경"
 
@@ -392,47 +477,45 @@ msgstr "변경"
 msgid "Password reset"
 msgstr "비밀번호 재설정"
 
-#: .\templates\registration\password_reset_complete.html:5
+#: .\templates\registration\password_reset_complete.html:48
 msgid "Password set"
 msgstr "비밀번호 설정"
 
-#: .\templates\registration\password_reset_complete.html:7
+#: .\templates\registration\password_reset_complete.html:50
 msgid "Your password has been set. You can"
 msgstr "비밀번호가 설정되었습니다. 다음을 수행할 수 있습니다."
 
-#: .\templates\registration\password_reset_complete.html:7
+#: .\templates\registration\password_reset_complete.html:50
 msgid "log in now"
 msgstr "지금 로그인"
 
 #: .\templates\registration\password_reset_confirm.html:3
-#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_confirm.html:48
 #: .\templates\registration\password_reset_done.html:3
-#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_done.html:48
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
 msgstr "비밀번호 재설정"
 
-#: .\templates\registration\password_reset_confirm.html:7
+#: .\templates\registration\password_reset_confirm.html:50
 msgid "Please enter your new password twice:"
 msgstr "새 비밀번호를 두 번 입력하세요:"
 
-#: .\templates\registration\password_reset_confirm.html:12
+#: .\templates\registration\password_reset_confirm.html:55
 msgid "Change my password"
 msgstr "비밀번호 변경"
 
-#: .\templates\registration\password_reset_confirm.html:17
+#: .\templates\registration\password_reset_confirm.html:60
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
-msgstr ""
-"비밀번호 재설정 링크가 이미 사용되었기 때문에 유효하지 않습니다. 새 비밀번호 "
-"재설정을 요청하세요."
+msgstr "비밀번호 재설정 링크가 이미 사용되었기 때문에 유효하지 않습니다. 새 비밀번호 재설정을 요청하세요."
 
-#: .\templates\registration\password_reset_done.html:6
+#: .\templates\registration\password_reset_done.html:49
 msgid "We've emailed you instructions for setting your password."
 msgstr "비밀번호 설정에 대한 안내를 이메일로 보내드렸습니다."
 
-#: .\templates\registration\password_reset_done.html:7
+#: .\templates\registration\password_reset_done.html:50
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
@@ -450,144 +533,331 @@ msgstr "아래 링크를 따라가세요:"
 msgid "Your username, in case you've forgotten:"
 msgstr "잊어버렸을 경우를 대비하여 사용자 아이디를 입력합니다:"
 
-#: .\templates\registration\password_reset_form.html:6
+#: .\templates\registration\password_reset_form.html:53
 msgid "Enter your e-mail address to obtain a new password."
 msgstr "새 비밀번호를 받으려면 이메일 주소를 입력하세요."
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\students\course\list.html:3
+#: .\templates\tutorial\manage\course\list.html:3
+#: .\templates\tutorial\manage\course\list.html:5
+msgid "My courses"
+msgstr "내 코스"
+
+#: .\templates\students\course\list.html:16
+msgid "You are not enrolled in any courses yet."
+msgstr "아직 어떤 코스에도 등록되어 있지 않습니다."
+
+#: .\templates\students\course\list.html:17
+msgid "Browse courses"
+msgstr "코스 찾아보기"
+
+#: .\templates\students\course\list.html:18
+msgid "to enroll in a course"
+msgstr "를 클릭하여 코스에 등록합니다."
+
+#: .\templates\tutorial\content\file.html:3
+msgid "Download file"
+msgstr "파일 다운로드"
+
+#: .\templates\tutorial\course\detail.html:13
+msgid "Overview"
+msgstr "개요"
+
+#: .\templates\tutorial\course\detail.html:17
+msgid "modules"
+msgstr "모듈"
+
+#: .\templates\tutorial\course\detail.html:18
+msgid "Instructor:"
+msgstr "교수자:"
+
+#: .\templates\tutorial\course\detail.html:25
+msgid "Enroll now"
+msgstr "지금 등록하기"
+
+#: .\templates\tutorial\course\detail.html:29
+msgid "Register to enroll"
+msgstr "등록하려면 등록하기"
+
+#: .\templates\tutorial\course\list.html:5
+#: .\templates\tutorial\course\list.html:14
+msgid "courses"
+msgstr "인종"
+
+#: .\templates\tutorial\course\list.html:7
+#: .\templates\tutorial\course\list.html:16
+msgid "All courses"
+msgstr "모든 코스"
+
+#: .\templates\tutorial\course\list.html:20
+msgid "Subjects"
+msgstr "주제"
+
+#: .\templates\tutorial\course\list.html:23
+msgid "All"
+msgstr "모두"
+
+#: .\templates\tutorial\course\list.html:30
+msgid "course"
+msgstr "race"
+
+#: .\templates\tutorial\manage\content\form.html:5
+#: .\templates\tutorial\manage\content\form.html:14
+msgid "Edit content"
+msgstr "콘텐츠 편집"
+
+#: .\templates\tutorial\manage\content\form.html:7
+#: .\templates\tutorial\manage\content\form.html:16
+msgid "Add new content"
+msgstr "새 콘텐츠 추가"
+
+#: .\templates\tutorial\manage\content\form.html:20
+msgid "Course info"
+msgstr "코스 정보"
+
+#: .\templates\tutorial\manage\content\form.html:24
+msgid "Save content"
+msgstr "변경 사항 저장"
+
+#: .\templates\tutorial\manage\course\delete.html:3
+msgid "Delete course"
+msgstr "코스 삭제"
+
+#: .\templates\tutorial\manage\course\delete.html:9
+msgid "Are you sure you want to delete"
+msgstr "정말 삭제하시겠습니까?"
+
+#: .\templates\tutorial\manage\course\delete.html:10
+msgid "Confirm"
+msgstr "비밀번호 변경"
+
+#: .\templates\tutorial\manage\course\form.html:5
+#: .\templates\tutorial\manage\course\form.html:13
+msgid "Edit course"
+msgstr "인종 수정"
+
+#: .\templates\tutorial\manage\course\form.html:7
+#: .\templates\tutorial\manage\course\form.html:15
+msgid "Create a new course"
+msgstr "계정 만들기"
+
+#: .\templates\tutorial\manage\course\form.html:23
+msgid "Save course"
+msgstr "변경 사항 저장"
+
+#: .\templates\tutorial\manage\course\list.html:11
+#: .\templates\tutorial\manage\module\content_list.html:38
+#: .\templates\tutorial\manage\module\formset.html:5
+msgid "Edit"
+msgstr "편집"
+
+#: .\templates\tutorial\manage\course\list.html:12
+#: .\templates\tutorial\manage\module\content_list.html:41
+msgid "Delete"
+msgstr "삭제"
+
+#: .\templates\tutorial\manage\course\list.html:13
+#: .\templates\tutorial\manage\module\content_list.html:27
+msgid "Edit modules"
+msgstr "모듈 편집"
+
+#: .\templates\tutorial\manage\course\list.html:16
+msgid "Manage contents"
+msgstr "콘텐츠 관리"
+
+#: .\templates\tutorial\manage\course\list.html:21
+msgid "You haven't created any courses yet."
+msgstr "아직 코스를 생성하지 않았습니다."
+
+#: .\templates\tutorial\manage\course\list.html:24
+msgid "Create new course"
+msgstr "계정 만들기"
+
+#: .\templates\tutorial\manage\module\content_list.html:4
+#: .\templates\tutorial\manage\module\content_list.html:16
+msgid "Module"
+msgstr "모듈"
+
+#: .\templates\tutorial\manage\module\content_list.html:8
+msgid "Course"
+msgstr "코스"
+
+#: .\templates\tutorial\manage\module\content_list.html:10
+msgid "Modules"
+msgstr "모듈"
+
+#: .\templates\tutorial\manage\module\content_list.html:23
+msgid "No modules yet."
+msgstr "아직 모듈이 없습니다."
+
+#: .\templates\tutorial\manage\module\content_list.html:31
+msgid "Module contents:"
+msgstr "모듈 콘텐츠:"
+
+#: .\templates\tutorial\manage\module\content_list.html:47
+msgid "This module has no contents yet."
+msgstr "아직 댓글이 없습니다."
+
+#: .\templates\tutorial\manage\module\content_list.html:53
+msgid "Text"
+msgstr "텍스트"
+
+#: .\templates\tutorial\manage\module\content_list.html:56
+msgid "Image"
+msgstr "이미지"
+
+#: .\templates\tutorial\manage\module\content_list.html:59
+msgid "Video"
+msgstr "비디오"
+
+#: .\templates\tutorial\manage\module\content_list.html:62
+msgid "File"
+msgstr "파일"
+
+#: .\templates\tutorial\manage\module\formset.html:7
+msgid "Course modules"
+msgstr "코스 모듈"
+
+#: .\templates\tutorial\manage\module\formset.html:12
+msgid "Save modules"
+msgstr "모듈 저장"
+
+#: .\templates\website\dashboard.html:9
 msgid "Welcome to your dashboard. You can"
 msgstr "대시보드에 오신 것을 환영합니다. 다음을 수행할 수 있습니다."
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "edit your profile"
 msgstr "프로필 수정"
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "or"
-msgstr ""
+msgstr "또는"
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "change your password"
 msgstr "비밀번호 변경"
 
-#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:48
 msgid "Edit your account"
 msgstr "계정 수정"
 
-#: .\templates\website\edit.html:6
+#: .\templates\website\edit.html:49
 msgid "You can edit your account using the following form:"
 msgstr "다음 양식을 사용하여 계정을 수정할 수 있습니다:"
 
-#: .\templates\website\edit.html:12
+#: .\templates\website\edit.html:55
 msgid "Save changes"
 msgstr "변경 사항 저장"
 
-#: .\templates\website\login.html:6
+#: .\templates\website\login.html:8
 msgid "Please, use the following form to log-in:"
 msgstr "다음 양식을 사용하여 로그인하세요:"
 
-#: .\templates\website\login.html:11
+#: .\templates\website\login.html:13
 msgid "Log in"
 msgstr "로그인"
 
-#: .\templates\website\register.html:3 .\templates\website\register.html:5
+#: .\templates\website\register.html:4 .\templates\website\register.html:7
 msgid "Create an account"
 msgstr "계정 만들기"
 
-#: .\templates\website\register.html:6
+#: .\templates\website\register.html:8
 msgid "Please, sign up using the following form:"
 msgstr "다음 양식을 사용하여 가입하세요:"
 
-#: .\templates\website\register.html:11
+#: .\templates\website\register.html:13
 msgid "Create my account"
 msgstr "내 계정 만들기"
 
-#: .\templates\website\register_done.html:3
-#: .\templates\website\register_done.html:5
+#: .\templates\website\register_done.html:4
+#: .\templates\website\register_done.html:7
 msgid "Welcome"
 msgstr "환영"
 
-#: .\templates\website\register_done.html:7
+#: .\templates\website\register_done.html:9
 msgid "Your account has been successfully created."
 msgstr "계정이 성공적으로 생성되었습니다."
 
-#: .\templates\website\register_done.html:8
+#: .\templates\website\register_done.html:10
 msgid "Now you can"
 msgstr "이제 다음을 수행할 수 있습니다."
 
-#: .\templates\website\register_done.html:8
-#, fuzzy
-#| msgid "Log in"
+#: .\templates\website\register_done.html:10
 msgid "log in"
 msgstr "로그인"
 
 #: .\website\forms.py:38
-#, fuzzy
-#| msgid "Password set"
 msgid "Password"
 msgstr "비밀번호 설정"
 
 #: .\website\forms.py:42
-#, fuzzy
-#| msgid "Change my password"
 msgid "Confirm Password"
-msgstr "비밀번호 변경"
+msgstr "비밀번호 확인"
 
 #: .\website\forms.py:50
 msgid "Username"
-msgstr ""
+msgstr "사용자 이름"
 
-#: .\website\forms.py:51 .\website\forms.py:86
+#: .\website\forms.py:51 .\website\forms.py:87
 msgid "First Name"
-msgstr ""
+msgstr "이름"
 
-#: .\website\forms.py:52 .\website\forms.py:87
-#, fuzzy
-#| msgid "Latest News"
+#: .\website\forms.py:52 .\website\forms.py:88
 msgid "Last Name"
-msgstr "최신 뉴스"
+msgstr "성"
 
-#: .\website\forms.py:53 .\website\forms.py:88
+#: .\website\forms.py:53 .\website\forms.py:89
 msgid "Email"
-msgstr ""
+msgstr "이메일"
 
 #: .\website\forms.py:105
 msgid "Date of Birth"
-msgstr ""
+msgstr "생년월일"
 
 #: .\website\forms.py:106
 msgid "Profile Photo"
-msgstr ""
+msgstr "프로필 사진"
 
 #: .\website\forms.py:107
 msgid "Biography"
-msgstr ""
+msgstr "전기"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "노르웨이 니노르스크"
+
+#~ msgid "Hebrew"
+#~ msgstr "히브리어"
+
+#~ msgid "Hindi"
+#~ msgstr "힌디어"
+
+#~ msgid "Croatian"
+#~ msgstr "크로아티아어"
+
+#~ msgid "Khmer"
+#~ msgstr "크메르어"
 
 #~ msgid "Afrikaans"
 #~ msgstr "아프리카"
 
 #, fuzzy
-#~| msgid "Estonian"
 #~ msgid "Bosnian"
 #~ msgstr "에스토니아 사람"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Lower Sorbian"
 #~ msgstr "세르비아어"
 
 #, fuzzy
-#~| msgid "English"
 #~ msgid "British English"
 #~ msgstr "영어"
 
 #, fuzzy
-#~| msgid "Spanish"
 #~ msgid "Mexican Spanish"
 #~ msgstr "스페인의"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Upper Sorbian"
 #~ msgstr "세르비아어"
 
@@ -601,14 +871,6 @@ msgstr ""
 #~ msgid "Mongolian"
 #~ msgstr "몽골어"
 
-#, fuzzy
-#~ msgid "Norwegian Bokmål"
-#~ msgstr "Norwegian"
-
-#, fuzzy
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "Norwegian"
-
 #~ msgid "Albanian"
 #~ msgstr "알바니아어"
 
@@ -616,7 +878,6 @@ msgstr ""
 #~ msgstr "세르비아어"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Serbian Latin"
 #~ msgstr "세르비아어"
 
@@ -624,14 +885,8 @@ msgstr ""
 #~ msgid "Thai"
 #~ msgstr "Thai"
 
-#~ msgid "Ukrainian"
-#~ msgstr "우크라이나어"
-
 #~ msgid "Vietnamese"
 #~ msgstr "베트남어"
-
-#~ msgid "Simplified Chinese"
-#~ msgstr "중국어 간체"
 
 #~ msgid "Brazilian"
 #~ msgstr "브라질 사람"

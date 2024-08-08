@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-09 01:00+0200\n"
-"PO-Revision-Date: 2024-08-08 22:22+0000\n"
+"PO-Revision-Date: 2024-08-09 00:13+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -20,475 +20,474 @@ msgstr ""
 
 #: .\AIMER2\settings.py:219
 msgid "Arabic"
-msgstr "Araabia keel"
+msgstr "Arabisk"
 
 #: .\AIMER2\settings.py:224
 msgid "Bulgarian"
-msgstr "Bulgaaria"
+msgstr "Bulgarsk"
 
 #: .\AIMER2\settings.py:230
 msgid "Czech"
-msgstr "Tšehhi Vabariik"
+msgstr "Tsjekkia"
 
 #: .\AIMER2\settings.py:232
 msgid "Danish"
-msgstr "Taani"
+msgstr "Dansk"
 
 #: .\AIMER2\settings.py:233
 msgid "German"
-msgstr "Saksa"
+msgstr "Tysk"
 
 #: .\AIMER2\settings.py:235
 msgid "Greek"
-msgstr "Kreeka"
+msgstr "Gresk"
 
 #: .\AIMER2\settings.py:236
 msgid "English"
-msgstr "Inglise keeles"
+msgstr "Engelsk"
 
 #: .\AIMER2\settings.py:240
 msgid "Spanish"
-msgstr "Hispaania"
+msgstr "Spansk"
 
 #: .\AIMER2\settings.py:246
 msgid "Estonian"
-msgstr "Eesti"
+msgstr "Estisk"
 
 #: .\AIMER2\settings.py:249
 msgid "Finnish"
-msgstr "Soome"
+msgstr "Finsk"
 
 #: .\AIMER2\settings.py:250
 msgid "French"
-msgstr "Prantsuse"
+msgstr "Fransk"
 
 #: .\AIMER2\settings.py:259
 msgid "Hungarian"
-msgstr "Ungari"
+msgstr "Ungarsk"
 
 #: .\AIMER2\settings.py:262
 msgid "Indonesian"
-msgstr "Indoneesia"
+msgstr "Indonesisk"
 
 #: .\AIMER2\settings.py:266
 msgid "Italian"
-msgstr "Itaalia"
+msgstr "Italiensk"
 
 #: .\AIMER2\settings.py:267
 msgid "Japanese"
-msgstr "Jaapani"
+msgstr "Japansk"
 
 #: .\AIMER2\settings.py:273
 msgid "Korean"
-msgstr "Korea"
+msgstr "Koreansk"
 
 #: .\AIMER2\settings.py:276
 msgid "Lithuanian"
-msgstr "Leedu"
+msgstr "litauisk"
 
 #: .\AIMER2\settings.py:277
 msgid "Latvian"
-msgstr "Läti"
+msgstr "latvisk"
 
 #: .\AIMER2\settings.py:284
+#, fuzzy
 msgid "Norwegian Bokmål"
-msgstr "Norra keel Bokmål"
+msgstr "Norsk"
 
 #: .\AIMER2\settings.py:286
 msgid "Dutch"
-msgstr "Hollandi"
+msgstr "Nederlandsk"
 
 #: .\AIMER2\settings.py:289
 msgid "Polish"
-msgstr "Poola"
+msgstr "Polsk"
 
 #: .\AIMER2\settings.py:290
 msgid "Portuguese"
-msgstr "Portugali"
+msgstr "Portugisisk"
 
 #: .\AIMER2\settings.py:291
 msgid "Brazilian Portuguese"
-msgstr "Brasiilia portugali keel"
+msgstr "Brasiliansk portugisisk"
 
 #: .\AIMER2\settings.py:292
 msgid "Romanian"
-msgstr "Rumeenia"
+msgstr "rumensk"
 
 #: .\AIMER2\settings.py:293
 msgid "Russian"
-msgstr "Vene"
+msgstr "Russisk"
 
 #: .\AIMER2\settings.py:294
 msgid "Slovak"
-msgstr "Slovakkia"
+msgstr "slovakisk"
 
 #: .\AIMER2\settings.py:295
 msgid "Slovenian"
-msgstr "Sloveenia"
+msgstr "Slovensk"
 
 #: .\AIMER2\settings.py:299
 msgid "Swedish"
-msgstr "Rootsi"
+msgstr "Svensk"
 
 #: .\AIMER2\settings.py:306
 msgid "Turkish"
-msgstr "Türgi"
+msgstr "Tyrkisk"
 
 #: .\AIMER2\settings.py:310
 msgid "Ukrainian"
-msgstr "Ukraina"
+msgstr "Ukrainsk"
 
 #: .\AIMER2\settings.py:314
 msgid "Simplified Chinese"
-msgstr "Lihtsustatud hiina keel"
+msgstr "Forenklet kinesisk"
 
 #: .\AIMER2\settings.py:315
 msgid "Traditional Chinese"
-msgstr "Traditsiooniline hiina keel"
+msgstr "Tradisjonell kinesisk"
 
 #: .\AIMER2\urls.py:31
 msgid "AIMER Administration"
-msgstr "AIMERi haldamine"
+msgstr "AIMERs administrasjon"
 
 #: .\AIMER2\urls.py:33
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
-msgstr "Meditsiiniuuringute tehisintellekt - portaali administreerimine"
+msgstr "Kunstig intelligens for medisinsk forskning - Portaladministrasjon"
 
 #: .\AIMER2\urls.py:35
 msgid "Welcome to AIMER Portal"
-msgstr "Tere tulemast AIMERi portaali"
+msgstr "Velkommen til AIMER Portal"
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:4
 msgid "AIMER Blog"
-msgstr "AIMERi blogi"
+msgstr "AIMER-bloggen"
 
 #: .\blog\feeds.py:13 .\templates\base.html:76
 msgid "Latest News"
-msgstr "Viimased uudised"
+msgstr "Siste nytt"
 
 #: .\blog\forms.py:69
 msgid "name"
-msgstr "nimi"
+msgstr "navn"
 
 #: .\blog\forms.py:70
 msgid "email"
-msgstr "e-posti aadress"
+msgstr "e-post"
 
 #: .\blog\forms.py:71
 msgid "body"
-msgstr "keha"
+msgstr "kropp"
 
 #: .\templates\base.html:24
 msgid "language"
-msgstr "keel"
+msgstr "språk"
 
 #: .\templates\base.html:39 .\templates\website\dashboard.html:4
 #: .\templates\website\dashboard.html:7
 msgid "Dashboard"
-msgstr "Armatuurlaud"
+msgstr "Dashbord"
 
 #: .\templates\base.html:51
 msgid "Hello"
-msgstr "Tere"
+msgstr "Hello"
 
 #: .\templates\base.html:53
 msgid "Logout"
-msgstr "Väljalogimine"
+msgstr "Logg ut"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
 #: .\templates\registration\login.html:65 .\templates\website\login.html:4
 #: .\templates\website\login.html:7
 msgid "Log-in"
-msgstr "Logi sisse"
+msgstr "Logg inn"
 
 #: .\templates\blog\post\comment.html:3
 msgid "Add a comment"
-msgstr "Lisa kommentaar"
+msgstr "Legg til en kommentar"
 
 #: .\templates\blog\post\comment.html:6
 msgid "Your comment has been added."
-msgstr "Teie kommentaar on lisatud."
+msgstr "Kommentaren din har blitt lagt til."
 
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
-msgstr "Tagasi postituse juurde"
+msgstr "Tilbake til innlegget"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "Published"
-msgstr "Avaldatud"
+msgstr "Publisert"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
-msgstr "poolt"
+msgstr "av"
 
 #: .\templates\blog\post\detail.html:10
 msgid "Share this post"
-msgstr "Jaga seda postitust"
+msgstr "Del dette innlegget"
 
 #: .\templates\blog\post\detail.html:13
 msgid "Similar posts"
-msgstr "Sarnased postitused"
+msgstr "Lignende innlegg"
 
 #: .\templates\blog\post\detail.html:19
 msgid "There are no similar posts yet."
-msgstr "Sarnaseid ametikohti ei ole veel olemas."
+msgstr "Det finnes ingen lignende innlegg ennå."
 
 #: .\templates\blog\post\detail.html:23
 msgid "comment"
-msgstr "kuidas"
+msgstr "hvordan"
 
 #: .\templates\blog\post\detail.html:28
 msgid "Comment"
-msgstr "Kuidas"
+msgstr "Hvordan"
 
 #: .\templates\blog\post\detail.html:34
 msgid "There are no comments yet."
-msgstr "Kommentaarid puuduvad veel."
+msgstr "Det er ingen kommentarer ennå."
 
 #: .\templates\blog\post\includes\comment_form.html:2
 msgid "Add a new comment"
-msgstr "Lisa uus kommentaar"
+msgstr "Legg til en ny kommentar"
 
 #: .\templates\blog\post\includes\comment_form.html:9
 msgid "Add comment"
-msgstr "Lisa kommentaar"
+msgstr "Legg til kommentar"
 
 #: .\templates\blog\post\list.html:6
 msgid "Last news"
-msgstr "Viimased uudised"
+msgstr "Siste nytt"
 
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
-msgstr "Ametikohad, mis sisaldavad"
+msgstr "Innlegg som inneholder"
 
 #: .\templates\blog\post\search.html:10
 msgid "Found"
-msgstr "Leitav"
+msgstr "Funnet"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
-msgstr "Teie päringu jaoks ei ole tulemusi."
+msgstr "Det er ingen resultater for søket ditt."
 
 #: .\templates\blog\post\search.html:23
 msgid "Search again"
-msgstr "Otsi uuesti"
+msgstr "Søk igjen"
 
 #: .\templates\blog\post\search.html:25
 msgid "Search for posts"
-msgstr "Postituste otsimine"
+msgstr "Søk etter innlegg"
 
 #: .\templates\blog\post\search.html:28
 msgid "Search"
-msgstr "Otsi"
+msgstr "Søk"
 
 #: .\templates\blog\post\share.html:3
 msgid "Share a post"
-msgstr "Jaga postitust"
+msgstr "Del et innlegg"
 
 #: .\templates\blog\post\share.html:6
 msgid "E-mail successfully sent"
-msgstr "E-post edukalt saadetud"
+msgstr "E-post vellykket sendt"
 
 #: .\templates\blog\post\share.html:7
 msgid "was successfully sent to"
-msgstr "saadeti edukalt"
+msgstr "ble vellykket sendt til"
 
 #: .\templates\blog\post\share.html:9
 msgid "Share"
-msgstr "Jaga"
+msgstr "Del"
 
 #: .\templates\blog\post\share.html:9
 msgid "by e-mail"
-msgstr "e-posti teel"
+msgstr "via e-post"
 
 #: .\templates\blog\post\share.html:13
 #: .\templates\registration\password_reset_form.html:63
 msgid "Send e-mail"
-msgstr "Saada e-kiri"
+msgstr "Send e-post"
 
 #: .\templates\chat\room.html:3
 msgid "Chat room for"
-msgstr "Vestlusruum jaoks"
+msgstr "Chatterom for"
 
 #: .\templates\chat\room.html:8
 msgid "me"
-msgstr "mina"
+msgstr "meg"
 
 #: .\templates\chat\room.html:8
 msgid "other"
-msgstr "muud"
+msgstr "andre"
 
 #: .\templates\chat\room.html:20
 msgid "Send"
-msgstr "Saada"
+msgstr "Send"
 
 #: .\templates\pages\pages_misc_comingsoon.html:4
 msgid "Coming Soon - Pages"
-msgstr "Coming Soon - Pages"
+msgstr "Kommer snart - Sider"
 
 #: .\templates\pages\pages_misc_comingsoon.html:15
 msgid "We are launching soon"
-msgstr "Me käivitame varsti"
+msgstr "Vi lanserer snart"
 
 #: .\templates\pages\pages_misc_comingsoon.html:16
 msgid ""
 "Our website is opening soon. Please register to get notified when it's ready!"
 msgstr ""
-"Meie veebisait avatakse peagi. Palun registreeruge, et saada teade, kui see "
-"on valmis!"
+"Nettsiden vår åpner snart. Registrer deg for å bli varslet når den er klar!"
 
 #: .\templates\pages\pages_misc_comingsoon.html:20
 msgid "Enter your email"
-msgstr "Sisestage oma e-posti aadress"
+msgstr "Skriv inn e-postadressen din"
 
 #: .\templates\pages\pages_misc_comingsoon.html:21
 msgid "Notify"
-msgstr "Teavita"
+msgstr "Varsle"
 
 #: .\templates\pages\pages_misc_error.html:4
 msgid "Error - Pages"
-msgstr "Viga - leheküljed"
+msgstr "Feil - Sider"
 
 #: .\templates\pages\pages_misc_error.html:16
 msgid "Page Not Found️"
-msgstr "Lehekülge ei leitud️"
+msgstr "Siden ble ikke funnet️."
 
 #: .\templates\pages\pages_misc_error.html:17
 msgid "we couldn't find the page you are looking for"
-msgstr "me ei leidnud otsitud lehekülge, mida te otsite"
+msgstr "vi kunne ikke finne siden du leter etter"
 
 #: .\templates\pages\pages_misc_error.html:18
 #: .\templates\pages\pages_misc_not_authorized.html:18
 #: .\templates\pages\pages_misc_under_maintenance.html:19
 msgid "Back to home"
-msgstr "Tagasi koju"
+msgstr "Tilbake til startsiden"
 
 #: .\templates\pages\pages_misc_not_authorized.html:4
 msgid "Not Authorized - Pages"
-msgstr "Ei ole lubatud - leheküljed"
+msgstr "Ikke autorisert - Sider"
 
 #: .\templates\pages\pages_misc_not_authorized.html:16
 msgid "You are not authorized!"
-msgstr "Te ei ole volitatud!"
+msgstr "Du er ikke autorisert!"
 
 #: .\templates\pages\pages_misc_not_authorized.html:17
 msgid "You don’t have permission to access this page. Go Home!"
-msgstr "Teil ei ole luba sellele lehele juurdepääsuks. Mine koju!"
+msgstr "Du har ikke tillatelse til å gå inn på denne siden. Gå hjem!"
 
 #: .\templates\pages\pages_misc_under_maintenance.html:4
 msgid "Under Maintenance - Pages"
-msgstr "Hoolduse all - leheküljed"
+msgstr "Under vedlikehold - Sider"
 
 #: .\templates\pages\pages_misc_under_maintenance.html:15
 msgid "Under Maintenance!"
-msgstr "Hoolduse all!"
+msgstr "Under vedlikehold!"
 
 #: .\templates\pages\pages_misc_under_maintenance.html:17
 msgid ""
 "Sorry for the inconvenience but we're performing some maintenance at the "
 "moment"
-msgstr ""
-"Vabandame ebamugavuste pärast, kuid me teeme hetkel mõningaid hooldustöid."
+msgstr "Beklager uleiligheten, men vi utfører noe vedlikehold for øyeblikket"
 
 #: .\templates\pagination.html:4
 msgid "Previous"
-msgstr "Eelmine"
+msgstr "Tidligere"
 
 #: .\templates\pagination.html:5
 msgid "Page"
-msgstr "Lehekülg"
+msgstr "Side"
 
 #: .\templates\pagination.html:6
 msgid "Next"
-msgstr "Järgmine"
+msgstr "Neste"
 
 #: .\templates\registration\logged_out.html:3
 msgid "Logged out"
-msgstr "Välja logitud"
+msgstr "Utlogget"
 
 #: .\templates\registration\logged_out.html:47
 msgid "say you good bye"
-msgstr "ütlen sulle hüvasti"
+msgstr "si farvel til deg"
 
 #: .\templates\registration\logged_out.html:49
 msgid "You have been successfully logged out."
-msgstr "Teid on edukalt välja logitud."
+msgstr "Du har blitt logget ut."
 
 #: .\templates\registration\logged_out.html:52
 msgid "You can"
-msgstr "Saate"
+msgstr "Du kan"
 
 #: .\templates\registration\logged_out.html:52
 msgid "log-in again"
-msgstr "uuesti sisse logida"
+msgstr "logg inn igjen"
 
 #: .\templates\registration\login.html:51
 msgid "Your username and password didn't match."
-msgstr "Teie kasutajanimi ja parool ei sobinud."
+msgstr "Brukernavnet og passordet ditt stemmer ikke overens."
 
 #: .\templates\registration\login.html:52
 msgid "Please try again."
-msgstr "Palun proovige uuesti."
+msgstr "Vennligst prøv igjen."
 
 #: .\templates\registration\login.html:56
 msgid "Please, use the following form to log-in."
-msgstr "Palun kasutage sisselogimiseks järgmist vormi."
+msgstr "Vennligst bruk følgende skjema for å logge inn."
 
 #: .\templates\registration\login.html:57
 msgid "If you don't have an account"
-msgstr "Kui teil ei ole kontot"
+msgstr "Hvis du ikke har en konto"
 
 #: .\templates\registration\login.html:57
 msgid "register here"
-msgstr "registreeru siin"
+msgstr "Registrer deg her"
 
 #: .\templates\registration\login.html:69
 #: .\templates\registration\password_reset_form.html:52
 msgid "Forgotten your password?"
-msgstr "Unustasid oma salasõna?"
+msgstr "Har du glemt passordet ditt?"
 
 #: .\templates\registration\password_change_done.html:3
 #: .\templates\registration\password_change_done.html:47
 msgid "Password changed"
-msgstr "Salasõna muudetud"
+msgstr "Endret passord"
 
 #: .\templates\registration\password_change_done.html:48
 msgid "Your password has been successfully changed."
-msgstr "Teie salasõna on edukalt muudetud."
+msgstr "Passordet ditt har blitt endret."
 
 #: .\templates\registration\password_change_done.html:52
 msgid "Back to login"
-msgstr "Tagasi sisselogimise juurde"
+msgstr "Tilbake til innlogging"
 
 #: .\templates\registration\password_change_form.html:3
 #: .\templates\registration\password_change_form.html:48
 msgid "Change your password"
-msgstr "Muuda oma salasõna"
+msgstr "Endre passordet ditt"
 
 #: .\templates\registration\password_change_form.html:49
 msgid "Use the form below to change your password."
-msgstr "Parooli muutmiseks kasutage allolevat vormi."
+msgstr "Bruk skjemaet nedenfor for å endre passordet ditt."
 
 #: .\templates\registration\password_change_form.html:61
 msgid "Change"
-msgstr "Muuda"
+msgstr "Forandring"
 
 #: .\templates\registration\password_reset_complete.html:3
 msgid "Password reset"
-msgstr "Salasõna lähtestamine"
+msgstr "Tilbakestilling av passord"
 
 #: .\templates\registration\password_reset_complete.html:48
 msgid "Password set"
-msgstr "Salasõna seatud"
+msgstr "Innstilt passord"
 
 #: .\templates\registration\password_reset_complete.html:50
 msgid "Your password has been set. You can"
-msgstr "Teie salasõna on määratud. Saate"
+msgstr "Passordet ditt er angitt. Du kan"
 
 #: .\templates\registration\password_reset_complete.html:50
 msgid "log in now"
-msgstr "logi nüüd sisse"
+msgstr "logg inn nå"
 
 #: .\templates\registration\password_reset_confirm.html:3
 #: .\templates\registration\password_reset_confirm.html:48
@@ -496,212 +495,214 @@ msgstr "logi nüüd sisse"
 #: .\templates\registration\password_reset_done.html:48
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
-msgstr "Parooli lähtestamine"
+msgstr "Tilbakestill passordet ditt"
 
 #: .\templates\registration\password_reset_confirm.html:50
 msgid "Please enter your new password twice:"
-msgstr "Palun sisestage oma uus parool kaks korda:"
+msgstr "Vennligst skriv inn det nye passordet ditt to ganger:"
 
 #: .\templates\registration\password_reset_confirm.html:55
 msgid "Change my password"
-msgstr "Muuda oma salasõna"
+msgstr "Endre passordet mitt"
 
 #: .\templates\registration\password_reset_confirm.html:60
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
 msgstr ""
-"Parooli lähtestamise link oli kehtetu, tõenäoliselt seetõttu, et seda on "
-"juba kasutatud. Palume taotleda uut parooli lähtestamist."
+"Koblingen for tilbakestilling av passord var ugyldig, muligens fordi den "
+"allerede har blitt brukt. Vennligst be om et nytt passord."
 
 #: .\templates\registration\password_reset_done.html:49
 msgid "We've emailed you instructions for setting your password."
-msgstr "Oleme saatnud teile e-posti teel juhised parooli määramiseks."
+msgstr ""
+"Vi har sendt deg en e-post med instruksjoner for hvordan du angir passordet "
+"ditt."
 
 #: .\templates\registration\password_reset_done.html:50
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
-"Kui te ei saa e-kirja, siis kontrollige, et olete sisestanud aadressi, "
-"millega registreerusite."
+"Hvis du ikke mottar en e-post, må du kontrollere at du har oppgitt den "
+"adressen du registrerte deg med."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
-msgstr "Keegi küsis salasõna lähtestamist e-posti jaoks"
+msgstr "Noen ba om tilbakestilling av passord for e-post"
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Follow the link below:"
-msgstr "Järgige allolevat linki:"
+msgstr "Følg lenken nedenfor:"
 
 #: .\templates\registration\password_reset_email.html:4
 msgid "Your username, in case you've forgotten:"
-msgstr "Teie kasutajanimi, juhul kui olete unustanud:"
+msgstr "Brukernavnet ditt, i tilfelle du har glemt det:"
 
 #: .\templates\registration\password_reset_form.html:53
 msgid "Enter your e-mail address to obtain a new password."
-msgstr "Uue salasõna saamiseks sisestage oma e-posti aadress."
+msgstr "Skriv inn e-postadressen din for å få et nytt passord."
 
 #: .\templates\students\course\list.html:3
 #: .\templates\tutorial\manage\course\list.html:3
 #: .\templates\tutorial\manage\course\list.html:5
 msgid "My courses"
-msgstr "Minu kursused"
+msgstr "Mine kurs"
 
 #: .\templates\students\course\list.html:16
 msgid "You are not enrolled in any courses yet."
-msgstr "Te ei ole veel ühelegi kursusele registreerunud."
+msgstr "Du er ikke påmeldt til noen kurs ennå."
 
 #: .\templates\students\course\list.html:17
 msgid "Browse courses"
-msgstr "Sirvi kursusi"
+msgstr "Bla gjennom kurs"
 
 #: .\templates\students\course\list.html:18
 msgid "to enroll in a course"
-msgstr "kursusele registreerumiseks"
+msgstr "for å melde deg på et kurs"
 
 #: .\templates\tutorial\content\file.html:3
 msgid "Download file"
-msgstr "Faili allalaadimine"
+msgstr "Last ned fil"
 
 #: .\templates\tutorial\course\detail.html:13
 msgid "Overview"
-msgstr "Ülevaade"
+msgstr "Oversikt"
 
 #: .\templates\tutorial\course\detail.html:17
 msgid "modules"
-msgstr "moodulid"
+msgstr "moduler"
 
 #: .\templates\tutorial\course\detail.html:18
 msgid "Instructor:"
-msgstr "Juhendaja:"
+msgstr "Instruktør:"
 
 #: .\templates\tutorial\course\detail.html:25
 msgid "Enroll now"
-msgstr "Registreeru nüüd"
+msgstr "Meld deg på nå"
 
 #: .\templates\tutorial\course\detail.html:29
 msgid "Register to enroll"
-msgstr "Registreeru registreerimiseks"
+msgstr "Registrer deg for å melde deg på"
 
 #: .\templates\tutorial\course\list.html:5
 #: .\templates\tutorial\course\list.html:14
 msgid "courses"
-msgstr "võistlused"
+msgstr "løp"
 
 #: .\templates\tutorial\course\list.html:7
 #: .\templates\tutorial\course\list.html:16
 msgid "All courses"
-msgstr "Kõik kursused"
+msgstr "Alle kurs"
 
 #: .\templates\tutorial\course\list.html:20
 msgid "Subjects"
-msgstr "Teema"
+msgstr "Fag"
 
 #: .\templates\tutorial\course\list.html:23
 msgid "All"
-msgstr "Kõik"
+msgstr "Alle"
 
 #: .\templates\tutorial\course\list.html:30
 msgid "course"
-msgstr "rassi"
+msgstr "rase"
 
 #: .\templates\tutorial\manage\content\form.html:5
 #: .\templates\tutorial\manage\content\form.html:14
 msgid "Edit content"
-msgstr "Sisu muutmine"
+msgstr "Rediger innhold"
 
 #: .\templates\tutorial\manage\content\form.html:7
 #: .\templates\tutorial\manage\content\form.html:16
 msgid "Add new content"
-msgstr "Uue sisu lisamine"
+msgstr "Legg til nytt innhold"
 
 #: .\templates\tutorial\manage\content\form.html:20
 msgid "Course info"
-msgstr "Kursuse info"
+msgstr "Kursinformasjon"
 
 #: .\templates\tutorial\manage\content\form.html:24
 msgid "Save content"
-msgstr "Salvesta sisu"
+msgstr "Lagre innhold"
 
 #: .\templates\tutorial\manage\course\delete.html:3
 msgid "Delete course"
-msgstr "Kustuta kursus"
+msgstr "Slett kurs"
 
 #: .\templates\tutorial\manage\course\delete.html:9
 msgid "Are you sure you want to delete"
-msgstr "Kas olete kindel, et soovite kustutada"
+msgstr "Er du sikker på at du vil slette"
 
 #: .\templates\tutorial\manage\course\delete.html:10
 msgid "Confirm"
-msgstr "Kinnitage"
+msgstr "Bekreft"
 
 #: .\templates\tutorial\manage\course\form.html:5
 #: .\templates\tutorial\manage\course\form.html:13
 msgid "Edit course"
-msgstr "Redigeeri rassi"
+msgstr "Rediger løp"
 
 #: .\templates\tutorial\manage\course\form.html:7
 #: .\templates\tutorial\manage\course\form.html:15
 msgid "Create a new course"
-msgstr "Uue kursuse loomine"
+msgstr "Opprett et nytt kurs"
 
 #: .\templates\tutorial\manage\course\form.html:23
 msgid "Save course"
-msgstr "Salvesta kursus"
+msgstr "Lagre kurs"
 
 #: .\templates\tutorial\manage\course\list.html:11
 #: .\templates\tutorial\manage\module\content_list.html:38
 #: .\templates\tutorial\manage\module\formset.html:5
 msgid "Edit"
-msgstr "Muuda"
+msgstr "Rediger"
 
 #: .\templates\tutorial\manage\course\list.html:12
 #: .\templates\tutorial\manage\module\content_list.html:41
 msgid "Delete"
-msgstr "Kustuta"
+msgstr "Slett"
 
 #: .\templates\tutorial\manage\course\list.html:13
 #: .\templates\tutorial\manage\module\content_list.html:27
 msgid "Edit modules"
-msgstr "Moodulite redigeerimine"
+msgstr "Rediger moduler"
 
 #: .\templates\tutorial\manage\course\list.html:16
 msgid "Manage contents"
-msgstr "Sisu haldamine"
+msgstr "Administrer innhold"
 
 #: .\templates\tutorial\manage\course\list.html:21
 msgid "You haven't created any courses yet."
-msgstr "Te ei ole veel ühtegi kursust loonud."
+msgstr "Du har ikke opprettet noen kurs ennå."
 
 #: .\templates\tutorial\manage\course\list.html:24
 msgid "Create new course"
-msgstr "Uue kursuse loomine"
+msgstr "Opprett nytt kurs"
 
 #: .\templates\tutorial\manage\module\content_list.html:4
 #: .\templates\tutorial\manage\module\content_list.html:16
 msgid "Module"
-msgstr "Moodul"
+msgstr "Modul"
 
 #: .\templates\tutorial\manage\module\content_list.html:8
 msgid "Course"
-msgstr "Kursus"
+msgstr "Kurs"
 
 #: .\templates\tutorial\manage\module\content_list.html:10
 msgid "Modules"
-msgstr "Moodulid"
+msgstr "Moduler"
 
 #: .\templates\tutorial\manage\module\content_list.html:23
 msgid "No modules yet."
-msgstr "Mooduleid veel ei ole."
+msgstr "Ingen moduler ennå."
 
 #: .\templates\tutorial\manage\module\content_list.html:31
 msgid "Module contents:"
-msgstr "Mooduli sisu:"
+msgstr "Modulens innhold:"
 
 #: .\templates\tutorial\manage\module\content_list.html:47
 msgid "This module has no contents yet."
-msgstr "Sellel moodulil ei ole veel sisu."
+msgstr "Denne modulen har ikke noe innhold ennå."
 
 #: .\templates\tutorial\manage\module\content_list.html:53
 msgid "Text"
@@ -709,7 +710,7 @@ msgstr "Tekst"
 
 #: .\templates\tutorial\manage\module\content_list.html:56
 msgid "Image"
-msgstr "Pilt"
+msgstr "Bilde"
 
 #: .\templates\tutorial\manage\module\content_list.html:59
 msgid "Video"
@@ -717,100 +718,100 @@ msgstr "Video"
 
 #: .\templates\tutorial\manage\module\content_list.html:62
 msgid "File"
-msgstr "Faili"
+msgstr "Fil"
 
 #: .\templates\tutorial\manage\module\formset.html:7
 msgid "Course modules"
-msgstr "Kursuse moodulid"
+msgstr "Kursmoduler"
 
 #: .\templates\tutorial\manage\module\formset.html:12
 msgid "Save modules"
-msgstr "Salvesta moodulid"
+msgstr "Lagre moduler"
 
 #: .\templates\website\dashboard.html:9
 msgid "Welcome to your dashboard. You can"
-msgstr "Tere tulemast teie armatuurlauale. Saate"
+msgstr "Velkommen til dashbordet ditt. Du kan"
 
 #: .\templates\website\dashboard.html:9
 msgid "edit your profile"
-msgstr "muuta oma profiili"
+msgstr "redigere profilen din"
 
 #: .\templates\website\dashboard.html:9
 msgid "or"
-msgstr "või"
+msgstr "eller"
 
 #: .\templates\website\dashboard.html:9
 msgid "change your password"
-msgstr "muuta oma salasõna"
+msgstr "endre passordet ditt"
 
 #: .\templates\website\edit.html:3 .\templates\website\edit.html:48
 msgid "Edit your account"
-msgstr "Muuda oma kontot"
+msgstr "Rediger kontoen din"
 
 #: .\templates\website\edit.html:49
 msgid "You can edit your account using the following form:"
-msgstr "Saate oma kontot muuta, kasutades järgmist vormi:"
+msgstr "Du kan redigere kontoen din ved hjelp av følgende skjema:"
 
 #: .\templates\website\edit.html:55
 msgid "Save changes"
-msgstr "Muudatuste salvestamine"
+msgstr "Lagre endringer"
 
 #: .\templates\website\login.html:8
 msgid "Please, use the following form to log-in:"
-msgstr "Palun kasutage sisselogimiseks järgmist vormi:"
+msgstr "Vennligst bruk følgende skjema for å logge inn:"
 
 #: .\templates\website\login.html:13
 msgid "Log in"
-msgstr "Logi sisse"
+msgstr "Logg inn"
 
 #: .\templates\website\register.html:4 .\templates\website\register.html:7
 msgid "Create an account"
-msgstr "Konto loomine"
+msgstr "Opprett en konto"
 
 #: .\templates\website\register.html:8
 msgid "Please, sign up using the following form:"
-msgstr "Palun registreeruge, kasutades järgmist vormi:"
+msgstr "Vennligst registrer deg ved hjelp av følgende skjema:"
 
 #: .\templates\website\register.html:13
 msgid "Create my account"
-msgstr "Minu konto loomine"
+msgstr "Opprett kontoen min"
 
 #: .\templates\website\register_done.html:4
 #: .\templates\website\register_done.html:7
 msgid "Welcome"
-msgstr "Tere tulemast"
+msgstr "Velkommen"
 
 #: .\templates\website\register_done.html:9
 msgid "Your account has been successfully created."
-msgstr "Teie konto on edukalt loodud."
+msgstr "Kontoen din har blitt opprettet."
 
 #: .\templates\website\register_done.html:10
 msgid "Now you can"
-msgstr "Nüüd saate"
+msgstr "Nå kan du"
 
 #: .\templates\website\register_done.html:10
 msgid "log in"
-msgstr "sisse logida"
+msgstr "logg inn"
 
 #: .\website\forms.py:38
 msgid "Password"
-msgstr "Parool"
+msgstr "Passord"
 
 #: .\website\forms.py:42
 msgid "Confirm Password"
-msgstr "Parooli kinnitamine"
+msgstr "Bekreft passord"
 
 #: .\website\forms.py:50
 msgid "Username"
-msgstr "Kasutajanimi"
+msgstr "Brukernavn"
 
 #: .\website\forms.py:51 .\website\forms.py:87
 msgid "First Name"
-msgstr "Eesnimi"
+msgstr "Fornavn"
 
 #: .\website\forms.py:52 .\website\forms.py:88
 msgid "Last Name"
-msgstr "Perekonnanimi"
+msgstr "Etternavn"
 
 #: .\website\forms.py:53 .\website\forms.py:89
 msgid "Email"
@@ -818,226 +819,88 @@ msgstr "E-post"
 
 #: .\website\forms.py:105
 msgid "Date of Birth"
-msgstr "Sünniaeg"
+msgstr "Fødselsdato"
 
 #: .\website\forms.py:106
 msgid "Profile Photo"
-msgstr "Profiili foto"
+msgstr "Profilbilde"
 
 #: .\website\forms.py:107
 msgid "Biography"
-msgstr "Biograafia"
+msgstr "Biografi"
 
 #~ msgid "Norwegian Nynorsk"
-#~ msgstr "Norra Nynorsk"
-
-#~ msgid "Persian"
-#~ msgstr "Pärsia"
+#~ msgstr "Norwegian Nynorsk"
 
 #~ msgid "Hebrew"
-#~ msgstr "Heebrea"
+#~ msgstr "Hebraisk"
 
 #~ msgid "Hindi"
 #~ msgstr "Hindi"
 
 #~ msgid "Croatian"
-#~ msgstr "Horvaatia"
+#~ msgstr "Kroatisk"
 
 #~ msgid "Khmer"
 #~ msgstr "Khmer"
 
 #~ msgid "Afrikaans"
-#~ msgstr "Aafrika"
-
-#~ msgid "Algerian Arabic"
-#~ msgstr "Alžeeria araabia keel"
-
-#~ msgid "Asturian"
-#~ msgstr "Astuuria"
-
-#~ msgid "Azerbaijani"
-#~ msgstr "Aserbaidžaan"
-
-#~ msgid "Belarusian"
-#~ msgstr "Valgevene"
-
-#~ msgid "Bengali"
-#~ msgstr "Bengali"
-
-#~ msgid "Breton"
-#~ msgstr "Bretooni"
-
-#~ msgid "Bosnian"
-#~ msgstr "Bosnia ja Hertsegoviina"
-
-#~ msgid "Catalan"
-#~ msgstr "Katalaani"
-
-#~ msgid "Central Kurdish (Sorani)"
-#~ msgstr "Kesk-kurdi (sorani)"
-
-#~ msgid "Welsh"
-#~ msgstr "Walesi"
-
-#~ msgid "Lower Sorbian"
-#~ msgstr "Alam-Sorbia"
-
-#~ msgid "Australian English"
-#~ msgstr "Austraalia inglise keel"
-
-#~ msgid "British English"
-#~ msgstr "Briti inglise keel"
-
-#~ msgid "Esperanto"
-#~ msgstr "Esperanto"
-
-#~ msgid "Argentinian Spanish"
-#~ msgstr "Argentiina hispaania keel"
-
-#~ msgid "Colombian Spanish"
-#~ msgstr "Kolumbia hispaania keel"
-
-#~ msgid "Mexican Spanish"
-#~ msgstr "Mehhiko hispaania keel"
-
-#~ msgid "Nicaraguan Spanish"
-#~ msgstr "Nicaragua hispaania keel"
-
-#~ msgid "Venezuelan Spanish"
-#~ msgstr "Venezuela hispaania keel"
-
-#~ msgid "Basque"
-#~ msgstr "Baskimaa"
-
-#~ msgid "Frisian"
-#~ msgstr "Friisi"
-
-#~ msgid "Irish"
-#~ msgstr "Iiri"
-
-#~ msgid "Scottish Gaelic"
-#~ msgstr "Šoti gaeli keel"
-
-#~ msgid "Galician"
-#~ msgstr "Galicia"
-
-#~ msgid "Upper Sorbian"
-#~ msgstr "Ülem-Sorbia"
-
-#~ msgid "Armenian"
-#~ msgstr "Armeenia"
-
-#~ msgid "Interlingua"
-#~ msgstr "Interlingua"
-
-#~ msgid "Igbo"
-#~ msgstr "Igbo"
-
-#~ msgid "Ido"
-#~ msgstr "Ido"
-
-#~ msgid "Icelandic"
-#~ msgstr "Islandi"
-
-#~ msgid "Georgian"
-#~ msgstr "Gruusia"
-
-#~ msgid "Kabyle"
-#~ msgstr "Kabyle"
-
-#~ msgid "Kazakh"
-#~ msgstr "Kasahstani"
-
-#~ msgid "Kannada"
-#~ msgstr "Kannada"
-
-#~ msgid "Kyrgyz"
-#~ msgstr "Kirgiisi"
-
-#~ msgid "Luxembourgish"
-#~ msgstr "Luksemburgi"
-
-#~ msgid "Macedonian"
-#~ msgstr "Makedoonia"
-
-#~ msgid "Malayalam"
-#~ msgstr "Malayalam"
-
-#~ msgid "Mongolian"
-#~ msgstr "Mongoolia"
-
-#~ msgid "Marathi"
-#~ msgstr "Marathi"
-
-#~ msgid "Malay"
-#~ msgstr "Malai"
-
-#~ msgid "Burmese"
-#~ msgstr "Burmese"
-
-#~ msgid "Nepali"
-#~ msgstr "Nepali"
-
-#~ msgid "Ossetic"
-#~ msgstr "Osseetiline"
-
-#~ msgid "Punjabi"
-#~ msgstr "Pandžabi"
-
-#~ msgid "Albanian"
-#~ msgstr "Albaania"
-
-#~ msgid "Serbian"
-#~ msgstr "Serbia"
-
-#~ msgid "Serbian Latin"
-#~ msgstr "Serbia ladina keel"
-
-#~ msgid "Swahili"
-#~ msgstr "Swahili"
-
-#~ msgid "Tamil"
-#~ msgstr "Tamil"
-
-#~ msgid "Telugu"
-#~ msgstr "Telugu"
-
-#~ msgid "Tajik"
-#~ msgstr "Tadžikistani"
-
-#~ msgid "Thai"
-#~ msgstr "Tai"
-
-#~ msgid "Turkmen"
-#~ msgstr "Türkmenistani"
-
-#~ msgid "Tatar"
-#~ msgstr "Tatar"
-
-#~ msgid "Udmurt"
-#~ msgstr "Udmurt"
-
-#~ msgid "Uyghur"
-#~ msgstr "Uiguuri"
-
-#~ msgid "Urdu"
-#~ msgstr "Urdu"
-
-#~ msgid "Uzbek"
-#~ msgstr "Usbeki"
-
-#~ msgid "Vietnamese"
-#~ msgstr "Vietnami"
-
-#~ msgid "Brazilian"
-#~ msgstr "Brasiilia"
+#~ msgstr "Afrikansk"
 
 #, fuzzy
+#~ msgid "Bosnian"
+#~ msgstr "Estisk"
+
+#, fuzzy
+#~ msgid "Lower Sorbian"
+#~ msgstr "Serbisk"
+
+#, fuzzy
+#~ msgid "British English"
+#~ msgstr "Engelsk"
+
+#, fuzzy
+#~ msgid "Mexican Spanish"
+#~ msgstr "Spansk"
+
+#, fuzzy
+#~ msgid "Upper Sorbian"
+#~ msgstr "Serbisk"
+
+#~ msgid "Armenian"
+#~ msgstr "armensk"
+
+#, fuzzy
+#~ msgid "Georgian"
+#~ msgstr "Norsk"
+
+#~ msgid "Mongolian"
+#~ msgstr "Mongolsk"
+
+#~ msgid "Albanian"
+#~ msgstr "Albansk"
+
+#~ msgid "Serbian"
+#~ msgstr "Serbisk"
+
+#, fuzzy
+#~ msgid "Serbian Latin"
+#~ msgstr "Serbisk"
+
+#~ msgid "Thai"
+#~ msgstr "Thai"
+
+#~ msgid "Vietnamese"
+#~ msgstr "vietnamesisk"
+
+#~ msgid "Brazilian"
+#~ msgstr "Brasiliansk"
+
 #~ msgid "Farsi"
 #~ msgstr "Farsi"
 
 #~ msgid "Yiddish"
-#~ msgstr "Jidiš"
+#~ msgstr "Jiddisch"
 
 #, fuzzy
 #~ msgid "Akan"

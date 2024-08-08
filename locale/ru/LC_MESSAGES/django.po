@@ -8,163 +8,155 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-21 23:17+0200\n"
-"PO-Revision-Date: 2024-07-15 01:05+0000\n"
+"POT-Creation-Date: 2024-08-09 01:00+0200\n"
+"PO-Revision-Date: 2024-08-09 01:19+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:167
+#: .\AIMER2\settings.py:219
 msgid "Arabic"
 msgstr "Арабский язык"
 
-#: .\AIMER2\settings.py:171
+#: .\AIMER2\settings.py:224
 msgid "Bulgarian"
 msgstr "Болгария"
 
-#: .\AIMER2\settings.py:178
+#: .\AIMER2\settings.py:230
 msgid "Czech"
 msgstr "Чехия"
 
-#: .\AIMER2\settings.py:180
+#: .\AIMER2\settings.py:232
 msgid "Danish"
 msgstr "Датский"
 
-#: .\AIMER2\settings.py:181
+#: .\AIMER2\settings.py:233
 msgid "German"
 msgstr "Немецкий"
 
-#: .\AIMER2\settings.py:183
+#: .\AIMER2\settings.py:235
 msgid "Greek"
 msgstr "Греция"
 
-#: .\AIMER2\settings.py:184
+#: .\AIMER2\settings.py:236
 msgid "English"
 msgstr "Английский язык"
 
-#: .\AIMER2\settings.py:188
+#: .\AIMER2\settings.py:240
 msgid "Spanish"
 msgstr "Испанский"
 
-#: .\AIMER2\settings.py:194
+#: .\AIMER2\settings.py:246
 msgid "Estonian"
 msgstr "Эстония"
 
-#: .\AIMER2\settings.py:196
-msgid "Persian"
-msgstr ""
-
-#: .\AIMER2\settings.py:197
+#: .\AIMER2\settings.py:249
 msgid "Finnish"
 msgstr "Финский"
 
-#: .\AIMER2\settings.py:198
+#: .\AIMER2\settings.py:250
 msgid "French"
 msgstr "Французский"
 
-#: .\AIMER2\settings.py:203
-msgid "Hebrew"
-msgstr "Иврит"
-
-#: .\AIMER2\settings.py:204
-msgid "Hindi"
-msgstr "Хинди"
-
-#: .\AIMER2\settings.py:205
-msgid "Croatian"
-msgstr "Хорватия"
-
-#: .\AIMER2\settings.py:207
+#: .\AIMER2\settings.py:259
 msgid "Hungarian"
 msgstr "Венгерский"
 
-#: .\AIMER2\settings.py:210
+#: .\AIMER2\settings.py:262
 msgid "Indonesian"
 msgstr "Индонезия"
 
-#: .\AIMER2\settings.py:214
+#: .\AIMER2\settings.py:266
 msgid "Italian"
 msgstr "Итальянский"
 
-#: .\AIMER2\settings.py:215
+#: .\AIMER2\settings.py:267
 msgid "Japanese"
 msgstr "Японский"
 
-#: .\AIMER2\settings.py:219
-msgid "Khmer"
-msgstr "Кхмер"
-
-#: .\AIMER2\settings.py:221
+#: .\AIMER2\settings.py:273
 msgid "Korean"
 msgstr "Корейский"
 
-#: .\AIMER2\settings.py:224
+#: .\AIMER2\settings.py:276
 msgid "Lithuanian"
 msgstr "Литва"
 
-#: .\AIMER2\settings.py:225
+#: .\AIMER2\settings.py:277
 msgid "Latvian"
 msgstr "Латвия"
 
-#: .\AIMER2\settings.py:234
+#: .\AIMER2\settings.py:284
+msgid "Norwegian Bokmål"
+msgstr "Норвежский язык Bokmål"
+
+#: .\AIMER2\settings.py:286
 msgid "Dutch"
 msgstr "Голландия"
 
-#: .\AIMER2\settings.py:238
+#: .\AIMER2\settings.py:289
 msgid "Polish"
 msgstr "Польша"
 
-#: .\AIMER2\settings.py:239
+#: .\AIMER2\settings.py:290
 msgid "Portuguese"
 msgstr "Португальский"
 
-#: .\AIMER2\settings.py:240
-#, fuzzy
-#| msgid "Portuguese"
+#: .\AIMER2\settings.py:291
 msgid "Brazilian Portuguese"
 msgstr "Португальский"
 
-#: .\AIMER2\settings.py:241
+#: .\AIMER2\settings.py:292
 msgid "Romanian"
 msgstr "Румыния"
 
-#: .\AIMER2\settings.py:242
+#: .\AIMER2\settings.py:293
 msgid "Russian"
 msgstr "Русский"
 
-#: .\AIMER2\settings.py:243
+#: .\AIMER2\settings.py:294
 msgid "Slovak"
 msgstr "Словакия"
 
-#: .\AIMER2\settings.py:244
+#: .\AIMER2\settings.py:295
 msgid "Slovenian"
 msgstr "Словения"
 
-#: .\AIMER2\settings.py:248
+#: .\AIMER2\settings.py:299
 msgid "Swedish"
 msgstr "Шведский"
 
-#: .\AIMER2\settings.py:255
+#: .\AIMER2\settings.py:306
 msgid "Turkish"
 msgstr "Турецкая"
 
-#: .\AIMER2\urls.py:28
+#: .\AIMER2\settings.py:310
+msgid "Ukrainian"
+msgstr "Украина"
+
+#: .\AIMER2\settings.py:314
+msgid "Simplified Chinese"
+msgstr "Упрощенный китайский"
+
+#: .\AIMER2\settings.py:315
+msgid "Traditional Chinese"
+msgstr "Традиционный китайский"
+
+#: .\AIMER2\urls.py:31
 msgid "AIMER Administration"
 msgstr "Администрация AIMER"
 
-#: .\AIMER2\urls.py:29
+#: .\AIMER2\urls.py:33
 msgid "Artificial Intelligence for Medical Research - Portal Administration"
 msgstr ""
 "Искусственный интеллект для медицинских исследований - Администрация портала"
 
-#: .\AIMER2\urls.py:30
+#: .\AIMER2\urls.py:35
 msgid "Welcome to AIMER Portal"
 msgstr "Добро пожаловать на портал AIMER"
 
@@ -179,24 +171,22 @@ msgstr "Последние новости"
 
 #: .\blog\forms.py:69
 msgid "name"
-msgstr ""
+msgstr "имя"
 
 #: .\blog\forms.py:70
-#, fuzzy
-#| msgid "by e-mail"
 msgid "email"
-msgstr "по электронной почте"
+msgstr "e-mail"
 
 #: .\blog\forms.py:71
 msgid "body"
-msgstr ""
+msgstr "тело"
 
 #: .\templates\base.html:24
 msgid "language"
-msgstr ""
+msgstr "язык"
 
-#: .\templates\base.html:39 .\templates\website\dashboard.html:3
-#: .\templates\website\dashboard.html:5
+#: .\templates\base.html:39 .\templates\website\dashboard.html:4
+#: .\templates\website\dashboard.html:7
 msgid "Dashboard"
 msgstr "Приборная панель"
 
@@ -209,8 +199,8 @@ msgid "Logout"
 msgstr "Выход из системы"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:5 .\templates\registration\login.html:23
-#: .\templates\website\login.html:3 .\templates\website\login.html:5
+#: .\templates\registration\login.html:65 .\templates\website\login.html:4
+#: .\templates\website\login.html:7
 msgid "Log-in"
 msgstr "Вход в систему"
 
@@ -225,6 +215,10 @@ msgstr "Ваш комментарий добавлен."
 #: .\templates\blog\post\comment.html:8
 msgid "Back to the post"
 msgstr "Вернуться к посту"
+
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+msgid "Published"
+msgstr "Опубликовано"
 
 #: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
 msgid "by"
@@ -266,13 +260,13 @@ msgstr "Добавить комментарий"
 msgid "Last news"
 msgstr "Последние новости"
 
-#: .\templates\blog\post\list.html:19
-msgid "Published"
-msgstr "Опубликовано"
-
 #: .\templates\blog\post\search.html:7
 msgid "Posts containing"
 msgstr "Посты, содержащие"
+
+#: .\templates\blog\post\search.html:10
+msgid "Found"
+msgstr "Найдено"
 
 #: .\templates\blog\post\search.html:21
 msgid "There are no results for your query."
@@ -311,9 +305,95 @@ msgid "by e-mail"
 msgstr "по электронной почте"
 
 #: .\templates\blog\post\share.html:13
-#: .\templates\registration\password_reset_form.html:10
+#: .\templates\registration\password_reset_form.html:63
 msgid "Send e-mail"
 msgstr "Отправить электронное письмо"
+
+#: .\templates\chat\room.html:3
+msgid "Chat room for"
+msgstr "Чат для"
+
+#: .\templates\chat\room.html:8
+msgid "me"
+msgstr "мне"
+
+#: .\templates\chat\room.html:8
+msgid "other"
+msgstr "другие"
+
+#: .\templates\chat\room.html:20
+msgid "Send"
+msgstr "Отправить"
+
+#: .\templates\pages\pages_misc_comingsoon.html:4
+msgid "Coming Soon - Pages"
+msgstr "Скоро будет - Страницы"
+
+#: .\templates\pages\pages_misc_comingsoon.html:15
+msgid "We are launching soon"
+msgstr "Мы скоро запускаем"
+
+#: .\templates\pages\pages_misc_comingsoon.html:16
+msgid ""
+"Our website is opening soon. Please register to get notified when it's "
+"ready!"
+msgstr ""
+"Наш сайт скоро откроется. Пожалуйста, зарегистрируйтесь, чтобы получить "
+"уведомление, когда он будет готов!"
+
+#: .\templates\pages\pages_misc_comingsoon.html:20
+msgid "Enter your email"
+msgstr "Введите свой e-mail"
+
+#: .\templates\pages\pages_misc_comingsoon.html:21
+msgid "Notify"
+msgstr "Уведомить"
+
+#: .\templates\pages\pages_misc_error.html:4
+msgid "Error - Pages"
+msgstr "Ошибка - Страницы"
+
+#: .\templates\pages\pages_misc_error.html:16
+msgid "Page Not Found️"
+msgstr "Страница не найдена️"
+
+#: .\templates\pages\pages_misc_error.html:17
+msgid "we couldn't find the page you are looking for"
+msgstr "мы не смогли найти нужную вам страницу"
+
+#: .\templates\pages\pages_misc_error.html:18
+#: .\templates\pages\pages_misc_not_authorized.html:18
+#: .\templates\pages\pages_misc_under_maintenance.html:19
+msgid "Back to home"
+msgstr "Назад к дому"
+
+#: .\templates\pages\pages_misc_not_authorized.html:4
+msgid "Not Authorized - Pages"
+msgstr "Не разрешено - Страницы"
+
+#: .\templates\pages\pages_misc_not_authorized.html:16
+msgid "You are not authorized!"
+msgstr "Вы не авторизованы!"
+
+#: .\templates\pages\pages_misc_not_authorized.html:17
+msgid "You don’t have permission to access this page. Go Home!"
+msgstr "У вас нет разрешения на доступ к этой странице. Идите домой!"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:4
+msgid "Under Maintenance - Pages"
+msgstr "Поддержание - Страницы"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:15
+msgid "Under Maintenance!"
+msgstr "Поддержание в рабочем состоянии!"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:17
+msgid ""
+"Sorry for the inconvenience but we're performing some maintenance at the "
+"moment"
+msgstr ""
+"Извините за неудобства, но в данный момент мы проводим некоторые ремонтные "
+"работы."
 
 #: .\templates\pagination.html:4
 msgid "Previous"
@@ -328,66 +408,73 @@ msgid "Next"
 msgstr "Следующий"
 
 #: .\templates\registration\logged_out.html:3
-#: .\templates\registration\logged_out.html:5
 msgid "Logged out"
 msgstr "Вышел из системы"
 
-#: .\templates\registration\logged_out.html:7
+#: .\templates\registration\logged_out.html:47
+msgid "say you good bye"
+msgstr "сказать вам \"до свидания"
+
+#: .\templates\registration\logged_out.html:49
 msgid "You have been successfully logged out."
 msgstr "Вы успешно вышли из системы."
 
-#: .\templates\registration\logged_out.html:8
+#: .\templates\registration\logged_out.html:52
 msgid "You can"
 msgstr "Вы можете"
 
-#: .\templates\registration\logged_out.html:8
+#: .\templates\registration\logged_out.html:52
 msgid "log-in again"
 msgstr "войти в систему снова"
 
-#: .\templates\registration\login.html:8
+#: .\templates\registration\login.html:51
 msgid "Your username and password didn't match."
 msgstr "Ваше имя пользователя и пароль не совпадают."
 
-#: .\templates\registration\login.html:9
+#: .\templates\registration\login.html:52
 msgid "Please try again."
 msgstr "Пожалуйста, попробуйте еще раз."
 
-#: .\templates\registration\login.html:13
+#: .\templates\registration\login.html:56
 msgid "Please, use the following form to log-in."
 msgstr "Пожалуйста, используйте следующую форму для входа в систему."
 
-#: .\templates\registration\login.html:14
+#: .\templates\registration\login.html:57
 msgid "If you don't have an account"
 msgstr "Если у вас нет учетной записи"
 
-#: .\templates\registration\login.html:14
+#: .\templates\registration\login.html:57
 msgid "register here"
 msgstr "зарегистрироваться здесь"
 
-#: .\templates\registration\login.html:27
-#: .\templates\registration\password_reset_form.html:5
+#: .\templates\registration\login.html:69
+#: .\templates\registration\password_reset_form.html:52
 msgid "Forgotten your password?"
 msgstr "Забыли пароль?"
 
 #: .\templates\registration\password_change_done.html:3
-#: .\templates\registration\password_change_done.html:5
+#: .\templates\registration\password_change_done.html:47
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: .\templates\registration\password_change_done.html:6
+#: .\templates\registration\password_change_done.html:48
 msgid "Your password has been successfully changed."
 msgstr "Ваш пароль был успешно изменен."
 
+#: .\templates\registration\password_change_done.html:52
+msgid "Back to login"
+msgstr "Назад к входу"
+
 #: .\templates\registration\password_change_form.html:3
-#: .\templates\registration\password_change_form.html:5
+#: .\templates\registration\password_change_form.html:48
 msgid "Change your password"
 msgstr "Измените пароль"
 
-#: .\templates\registration\password_change_form.html:6
+#: .\templates\registration\password_change_form.html:49
 msgid "Use the form below to change your password."
 msgstr "Чтобы изменить пароль, воспользуйтесь формой ниже."
 
-#: .\templates\registration\password_change_form.html:10
+#: .\templates\registration\password_change_form.html:61
 msgid "Change"
 msgstr "Изменить"
 
@@ -395,35 +482,35 @@ msgstr "Изменить"
 msgid "Password reset"
 msgstr "Сброс пароля"
 
-#: .\templates\registration\password_reset_complete.html:5
+#: .\templates\registration\password_reset_complete.html:48
 msgid "Password set"
 msgstr "Установка пароля"
 
-#: .\templates\registration\password_reset_complete.html:7
+#: .\templates\registration\password_reset_complete.html:50
 msgid "Your password has been set. You can"
 msgstr "Ваш пароль был установлен. Вы можете"
 
-#: .\templates\registration\password_reset_complete.html:7
+#: .\templates\registration\password_reset_complete.html:50
 msgid "log in now"
 msgstr "войти сейчас"
 
 #: .\templates\registration\password_reset_confirm.html:3
-#: .\templates\registration\password_reset_confirm.html:5
+#: .\templates\registration\password_reset_confirm.html:48
 #: .\templates\registration\password_reset_done.html:3
-#: .\templates\registration\password_reset_done.html:5
+#: .\templates\registration\password_reset_done.html:48
 #: .\templates\registration\password_reset_form.html:3
 msgid "Reset your password"
 msgstr "Сбросить пароль"
 
-#: .\templates\registration\password_reset_confirm.html:7
+#: .\templates\registration\password_reset_confirm.html:50
 msgid "Please enter your new password twice:"
 msgstr "Пожалуйста, введите новый пароль дважды:"
 
-#: .\templates\registration\password_reset_confirm.html:12
+#: .\templates\registration\password_reset_confirm.html:55
 msgid "Change my password"
 msgstr "Изменить пароль"
 
-#: .\templates\registration\password_reset_confirm.html:17
+#: .\templates\registration\password_reset_confirm.html:60
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
@@ -431,11 +518,11 @@ msgstr ""
 "Ссылка для сброса пароля оказалась недействительной, возможно, потому что "
 "она уже использовалась. Пожалуйста, запросите новый сброс пароля."
 
-#: .\templates\registration\password_reset_done.html:6
+#: .\templates\registration\password_reset_done.html:49
 msgid "We've emailed you instructions for setting your password."
 msgstr "Мы отправили вам по электронной почте инструкции по установке пароля."
 
-#: .\templates\registration\password_reset_done.html:7
+#: .\templates\registration\password_reset_done.html:50
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
@@ -455,145 +542,332 @@ msgstr "Перейдите по ссылке ниже:"
 msgid "Your username, in case you've forgotten:"
 msgstr "Ваше имя пользователя, если вы забыли:"
 
-#: .\templates\registration\password_reset_form.html:6
+#: .\templates\registration\password_reset_form.html:53
 msgid "Enter your e-mail address to obtain a new password."
 msgstr "Введите свой адрес электронной почты, чтобы получить новый пароль."
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\students\course\list.html:3
+#: .\templates\tutorial\manage\course\list.html:3
+#: .\templates\tutorial\manage\course\list.html:5
+msgid "My courses"
+msgstr "Мои курсы"
+
+#: .\templates\students\course\list.html:16
+msgid "You are not enrolled in any courses yet."
+msgstr "Вы еще не записаны ни на один курс."
+
+#: .\templates\students\course\list.html:17
+msgid "Browse courses"
+msgstr "Просмотреть курсы"
+
+#: .\templates\students\course\list.html:18
+msgid "to enroll in a course"
+msgstr "записаться на курс"
+
+#: .\templates\tutorial\content\file.html:3
+msgid "Download file"
+msgstr "Скачать файл"
+
+#: .\templates\tutorial\course\detail.html:13
+msgid "Overview"
+msgstr "Обзор"
+
+#: .\templates\tutorial\course\detail.html:17
+msgid "modules"
+msgstr "модули"
+
+#: .\templates\tutorial\course\detail.html:18
+msgid "Instructor:"
+msgstr "Инструктор:"
+
+#: .\templates\tutorial\course\detail.html:25
+msgid "Enroll now"
+msgstr "Записаться сейчас"
+
+#: .\templates\tutorial\course\detail.html:29
+msgid "Register to enroll"
+msgstr "Зарегистрируйтесь, чтобы поступить"
+
+#: .\templates\tutorial\course\list.html:5
+#: .\templates\tutorial\course\list.html:14
+msgid "courses"
+msgstr "гонки"
+
+#: .\templates\tutorial\course\list.html:7
+#: .\templates\tutorial\course\list.html:16
+msgid "All courses"
+msgstr "Все курсы"
+
+#: .\templates\tutorial\course\list.html:20
+msgid "Subjects"
+msgstr "Предметы"
+
+#: .\templates\tutorial\course\list.html:23
+msgid "All"
+msgstr "Все"
+
+#: .\templates\tutorial\course\list.html:30
+msgid "course"
+msgstr "гонка"
+
+#: .\templates\tutorial\manage\content\form.html:5
+#: .\templates\tutorial\manage\content\form.html:14
+msgid "Edit content"
+msgstr "Редактировать содержимое"
+
+#: .\templates\tutorial\manage\content\form.html:7
+#: .\templates\tutorial\manage\content\form.html:16
+msgid "Add new content"
+msgstr "Добавить новый контент"
+
+#: .\templates\tutorial\manage\content\form.html:20
+msgid "Course info"
+msgstr "Информация о курсе"
+
+#: .\templates\tutorial\manage\content\form.html:24
+msgid "Save content"
+msgstr "Сохранить содержимое"
+
+#: .\templates\tutorial\manage\course\delete.html:3
+msgid "Delete course"
+msgstr "Удалить курс"
+
+#: .\templates\tutorial\manage\course\delete.html:9
+msgid "Are you sure you want to delete"
+msgstr "Вы уверены, что хотите удалить"
+
+#: .\templates\tutorial\manage\course\delete.html:10
+msgid "Confirm"
+msgstr "Подтвердите"
+
+#: .\templates\tutorial\manage\course\form.html:5
+#: .\templates\tutorial\manage\course\form.html:13
+msgid "Edit course"
+msgstr "Редактировать расу"
+
+#: .\templates\tutorial\manage\course\form.html:7
+#: .\templates\tutorial\manage\course\form.html:15
+msgid "Create a new course"
+msgstr "Создайте новый курс"
+
+#: .\templates\tutorial\manage\course\form.html:23
+msgid "Save course"
+msgstr "Сохранить курс"
+
+#: .\templates\tutorial\manage\course\list.html:11
+#: .\templates\tutorial\manage\module\content_list.html:38
+#: .\templates\tutorial\manage\module\formset.html:5
+msgid "Edit"
+msgstr "Редактировать"
+
+#: .\templates\tutorial\manage\course\list.html:12
+#: .\templates\tutorial\manage\module\content_list.html:41
+msgid "Delete"
+msgstr "Удалить"
+
+#: .\templates\tutorial\manage\course\list.html:13
+#: .\templates\tutorial\manage\module\content_list.html:27
+msgid "Edit modules"
+msgstr "Редактирование модулей"
+
+#: .\templates\tutorial\manage\course\list.html:16
+msgid "Manage contents"
+msgstr "Управление содержимым"
+
+#: .\templates\tutorial\manage\course\list.html:21
+msgid "You haven't created any courses yet."
+msgstr "Вы еще не создали ни одного курса."
+
+#: .\templates\tutorial\manage\course\list.html:24
+msgid "Create new course"
+msgstr "Создать новый курс"
+
+#: .\templates\tutorial\manage\module\content_list.html:4
+#: .\templates\tutorial\manage\module\content_list.html:16
+msgid "Module"
+msgstr "Модуль"
+
+#: .\templates\tutorial\manage\module\content_list.html:8
+msgid "Course"
+msgstr "Курс"
+
+#: .\templates\tutorial\manage\module\content_list.html:10
+msgid "Modules"
+msgstr "Модули"
+
+#: .\templates\tutorial\manage\module\content_list.html:23
+msgid "No modules yet."
+msgstr "Модулей пока нет."
+
+#: .\templates\tutorial\manage\module\content_list.html:31
+msgid "Module contents:"
+msgstr "Содержание модуля:"
+
+#: .\templates\tutorial\manage\module\content_list.html:47
+msgid "This module has no contents yet."
+msgstr "У этого модуля пока нет содержимого."
+
+#: .\templates\tutorial\manage\module\content_list.html:53
+msgid "Text"
+msgstr "Текст"
+
+#: .\templates\tutorial\manage\module\content_list.html:56
+msgid "Image"
+msgstr "Изображение"
+
+#: .\templates\tutorial\manage\module\content_list.html:59
+msgid "Video"
+msgstr "Видео"
+
+#: .\templates\tutorial\manage\module\content_list.html:62
+msgid "File"
+msgstr "Файл"
+
+#: .\templates\tutorial\manage\module\formset.html:7
+msgid "Course modules"
+msgstr "Модули курса"
+
+#: .\templates\tutorial\manage\module\formset.html:12
+msgid "Save modules"
+msgstr "Сохранить модули"
+
+#: .\templates\website\dashboard.html:9
 msgid "Welcome to your dashboard. You can"
 msgstr "Добро пожаловать на вашу приборную панель. Вы можете"
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "edit your profile"
 msgstr "редактировать свой профиль"
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "or"
-msgstr ""
+msgstr "или"
 
-#: .\templates\website\dashboard.html:7
+#: .\templates\website\dashboard.html:9
 msgid "change your password"
 msgstr "изменить пароль"
 
-#: .\templates\website\edit.html:3 .\templates\website\edit.html:5
+#: .\templates\website\edit.html:3 .\templates\website\edit.html:48
 msgid "Edit your account"
 msgstr "Отредактируйте свою учетную запись"
 
-#: .\templates\website\edit.html:6
+#: .\templates\website\edit.html:49
 msgid "You can edit your account using the following form:"
 msgstr ""
 "Вы можете отредактировать свою учетную запись с помощью следующей формы:"
 
-#: .\templates\website\edit.html:12
+#: .\templates\website\edit.html:55
 msgid "Save changes"
 msgstr "Сохранить изменения"
 
-#: .\templates\website\login.html:6
+#: .\templates\website\login.html:8
 msgid "Please, use the following form to log-in:"
 msgstr "Пожалуйста, используйте следующую форму для входа в систему:"
 
-#: .\templates\website\login.html:11
+#: .\templates\website\login.html:13
 msgid "Log in"
 msgstr "Войти"
 
-#: .\templates\website\register.html:3 .\templates\website\register.html:5
+#: .\templates\website\register.html:4 .\templates\website\register.html:7
 msgid "Create an account"
 msgstr "Создать учетную запись"
 
-#: .\templates\website\register.html:6
+#: .\templates\website\register.html:8
 msgid "Please, sign up using the following form:"
 msgstr "Пожалуйста, зарегистрируйтесь, используя следующую форму:"
 
-#: .\templates\website\register.html:11
+#: .\templates\website\register.html:13
 msgid "Create my account"
 msgstr "Создать мой аккаунт"
 
-#: .\templates\website\register_done.html:3
-#: .\templates\website\register_done.html:5
+#: .\templates\website\register_done.html:4
+#: .\templates\website\register_done.html:7
 msgid "Welcome"
 msgstr "Добро пожаловать"
 
-#: .\templates\website\register_done.html:7
+#: .\templates\website\register_done.html:9
 msgid "Your account has been successfully created."
 msgstr "Ваша учетная запись была успешно создана."
 
-#: .\templates\website\register_done.html:8
+#: .\templates\website\register_done.html:10
 msgid "Now you can"
 msgstr "Теперь вы можете"
 
-#: .\templates\website\register_done.html:8
-#, fuzzy
-#| msgid "Log in"
+#: .\templates\website\register_done.html:10
 msgid "log in"
-msgstr "Войти"
+msgstr "войти в систему"
 
 #: .\website\forms.py:38
-#, fuzzy
-#| msgid "Password set"
 msgid "Password"
-msgstr "Установка пароля"
+msgstr "Пароль"
 
 #: .\website\forms.py:42
-#, fuzzy
-#| msgid "Change my password"
 msgid "Confirm Password"
-msgstr "Изменить пароль"
+msgstr "Подтвердите пароль"
 
 #: .\website\forms.py:50
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
-#: .\website\forms.py:51 .\website\forms.py:86
+#: .\website\forms.py:51 .\website\forms.py:87
 msgid "First Name"
-msgstr ""
+msgstr "Имя"
 
-#: .\website\forms.py:52 .\website\forms.py:87
-#, fuzzy
-#| msgid "Latest News"
+#: .\website\forms.py:52 .\website\forms.py:88
 msgid "Last Name"
-msgstr "Последние новости"
+msgstr "Фамилия"
 
-#: .\website\forms.py:53 .\website\forms.py:88
+#: .\website\forms.py:53 .\website\forms.py:89
 msgid "Email"
-msgstr ""
+msgstr "Электронная почта"
 
 #: .\website\forms.py:105
 msgid "Date of Birth"
-msgstr ""
+msgstr "Дата рождения"
 
 #: .\website\forms.py:106
 msgid "Profile Photo"
-msgstr ""
+msgstr "Фото профиля"
 
 #: .\website\forms.py:107
 msgid "Biography"
-msgstr ""
+msgstr "Биография"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Норвежский нюнорск"
+
+#~ msgid "Hebrew"
+#~ msgstr "Иврит"
+
+#~ msgid "Hindi"
+#~ msgstr "Хинди"
+
+#~ msgid "Croatian"
+#~ msgstr "Хорватия"
+
+#~ msgid "Khmer"
+#~ msgstr "Кхмер"
 
 #~ msgid "Afrikaans"
 #~ msgstr "Африка"
 
 #, fuzzy
-#~| msgid "Estonian"
 #~ msgid "Bosnian"
 #~ msgstr "Эстония"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Lower Sorbian"
 #~ msgstr "Сербия"
 
 #, fuzzy
-#~| msgid "English"
 #~ msgid "British English"
 #~ msgstr "Английский язык"
 
 #, fuzzy
-#~| msgid "Spanish"
 #~ msgid "Mexican Spanish"
 #~ msgstr "Испанский"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Upper Sorbian"
 #~ msgstr "Сербия"
 
@@ -601,22 +875,11 @@ msgstr ""
 #~ msgstr "Армянский"
 
 #, fuzzy
-#~| msgid "Norwegian"
 #~ msgid "Georgian"
 #~ msgstr "Норвежский"
 
 #~ msgid "Mongolian"
 #~ msgstr "Монголия"
-
-#, fuzzy
-#~| msgid "Norwegian"
-#~ msgid "Norwegian Bokmål"
-#~ msgstr "Норвежский"
-
-#, fuzzy
-#~| msgid "Norwegian"
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "Норвежский"
 
 #~ msgid "Albanian"
 #~ msgstr "Албания"
@@ -625,21 +888,14 @@ msgstr ""
 #~ msgstr "Сербия"
 
 #, fuzzy
-#~| msgid "Serbian"
 #~ msgid "Serbian Latin"
 #~ msgstr "Сербия"
 
 #~ msgid "Thai"
 #~ msgstr "Тайский"
 
-#~ msgid "Ukrainian"
-#~ msgstr "Украина"
-
 #~ msgid "Vietnamese"
 #~ msgstr "Вьетнамский"
-
-#~ msgid "Simplified Chinese"
-#~ msgstr "Упрощенный китайский"
 
 #~ msgid "Brazilian"
 #~ msgstr "Бразилия"
