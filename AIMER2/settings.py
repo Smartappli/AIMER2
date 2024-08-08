@@ -230,7 +230,7 @@ LANGUAGES = (
     # ("cs", _("Czech")),
     # ("cy", _("Welsh")),
     # ("da", _("Danish")),
-    # ("de", _("German")),
+    ("de", _("German")),
     # ("dsb", _("Lower Sorbian")),
     # ("el", _("Greek")),
     ("en", _("English")),
