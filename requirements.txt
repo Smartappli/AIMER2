@@ -2,7 +2,7 @@ asgiref==3.8.1
 celery==5.4.0
 channels[daphne]==4.1.0
 channels-redis==4.2.0
-Django>=5.1rc1
+Django>=5.1
 # django-celery-beat==2.6.0
 git+https://github.com/celery/django-celery-beat.git
 django-braces==1.15.0
