@@ -35,6 +35,7 @@ exclude = [
     "ticket/migrations",
     "tutorial/migrations",
     "website/migrations",
+    "manage.py",
 ]
 
 # Same as Black.
