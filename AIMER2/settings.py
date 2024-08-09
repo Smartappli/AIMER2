@@ -39,6 +39,7 @@ SITE_ID = 1
 # Application definition
 INSTALLED_APPS = [
     "blog.apps.BlogConfig",
+    "celerybeat_status",
     "chat.apps.ChatConfig",
     "daphne",
     "django_celery_beat",

@@ -40,7 +40,10 @@ sitemaps = {
 }
 
 urlpatterns = i18n_patterns(
-    path("admin/", admin.site.urls),
+    path(
+        "admin/statuscheck/", include("celerybeat_status.urls")
+    ),  # celerybeat_status admin
+    path("admin/", admin.site.urls),  # django admin
     path("", include("pages.urls")),
     path("", include("website.urls", namespace="website")),
     path("blog/", include("blog.urls", namespace="blog")),
