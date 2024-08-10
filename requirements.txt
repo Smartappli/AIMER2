@@ -20,6 +20,8 @@ jax[cpu]==0.4.31
 keras==3.4.1
 keras-cv==0.9.0
 # keras-nlp==0.14.3
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python==0.2.87
 Markdown==3.6
 packaging==24.1
 Pillow==10.4.0
