@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 01:00+0200\n"
-"PO-Revision-Date: 2024-08-09 01:19+0000\n"
+"POT-Creation-Date: 2024-08-12 13:51+0200\n"
+"PO-Revision-Date: 2024-08-12 14:10+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:219
+#: .\AIMER2\settings.py:220
 msgid "Arabic"
 msgstr "Arabčina"
 
@@ -27,123 +27,131 @@ msgstr "Arabčina"
 msgid "Bulgarian"
 msgstr "Bulharčina"
 
-#: .\AIMER2\settings.py:230
+#: .\AIMER2\settings.py:231
 msgid "Czech"
 msgstr "český"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:233
 msgid "Danish"
 msgstr "Dánsky"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:234
 msgid "German"
 msgstr "Nemčina"
 
-#: .\AIMER2\settings.py:235
+#: .\AIMER2\settings.py:236
 msgid "Greek"
 msgstr "Grécky"
 
-#: .\AIMER2\settings.py:236
+#: .\AIMER2\settings.py:237
 msgid "English"
 msgstr "Angličtina"
 
-#: .\AIMER2\settings.py:240
+#: .\AIMER2\settings.py:239
+msgid "British English"
+msgstr "Britská angličtina"
+
+#: .\AIMER2\settings.py:241
 msgid "Spanish"
 msgstr "Španielčina"
 
-#: .\AIMER2\settings.py:246
+#: .\AIMER2\settings.py:247
 msgid "Estonian"
 msgstr "Estónsky"
 
-#: .\AIMER2\settings.py:249
+#: .\AIMER2\settings.py:250
 msgid "Finnish"
 msgstr "Fínčina"
 
-#: .\AIMER2\settings.py:250
+#: .\AIMER2\settings.py:251
 msgid "French"
 msgstr "Francúzsky"
 
-#: .\AIMER2\settings.py:259
+#: .\AIMER2\settings.py:260
 msgid "Hungarian"
 msgstr "Maďarský"
 
-#: .\AIMER2\settings.py:262
+#: .\AIMER2\settings.py:263
 msgid "Indonesian"
 msgstr "Indonézsky"
 
-#: .\AIMER2\settings.py:266
+#: .\AIMER2\settings.py:267
 msgid "Italian"
 msgstr "Taliansky"
 
-#: .\AIMER2\settings.py:267
+#: .\AIMER2\settings.py:268
 msgid "Japanese"
 msgstr "Japonský"
 
-#: .\AIMER2\settings.py:273
+#: .\AIMER2\settings.py:274
 msgid "Korean"
 msgstr "Kórejský"
 
-#: .\AIMER2\settings.py:276
+#: .\AIMER2\settings.py:277
 msgid "Lithuanian"
 msgstr "Litovský"
 
-#: .\AIMER2\settings.py:277
+#: .\AIMER2\settings.py:278
 msgid "Latvian"
 msgstr "Lotyšský"
 
-#: .\AIMER2\settings.py:284
+#: .\AIMER2\settings.py:285
 msgid "Norwegian Bokmål"
 msgstr "Nórsky jazyk Bokmål"
 
-#: .\AIMER2\settings.py:286
+#: .\AIMER2\settings.py:287
 msgid "Dutch"
 msgstr "Holandský"
 
-#: .\AIMER2\settings.py:289
+#: .\AIMER2\settings.py:288
+msgid "Norwegian Nynorsk"
+msgstr "Nórsky nynorsk"
+
+#: .\AIMER2\settings.py:291
 msgid "Polish"
 msgstr "Poľský"
 
-#: .\AIMER2\settings.py:290
+#: .\AIMER2\settings.py:292
 msgid "Portuguese"
 msgstr "Portugalčina"
 
-#: .\AIMER2\settings.py:291
+#: .\AIMER2\settings.py:293
 msgid "Brazilian Portuguese"
 msgstr "Brazílska portugalčina"
 
-#: .\AIMER2\settings.py:292
+#: .\AIMER2\settings.py:294
 msgid "Romanian"
 msgstr "Rumunský"
 
-#: .\AIMER2\settings.py:293
+#: .\AIMER2\settings.py:295
 msgid "Russian"
 msgstr "Ruský"
 
-#: .\AIMER2\settings.py:294
+#: .\AIMER2\settings.py:296
 msgid "Slovak"
 msgstr "Slovak"
 
-#: .\AIMER2\settings.py:295
+#: .\AIMER2\settings.py:297
 msgid "Slovenian"
 msgstr "Slovenian"
 
-#: .\AIMER2\settings.py:299
+#: .\AIMER2\settings.py:301
 msgid "Swedish"
 msgstr "Švédsky"
 
-#: .\AIMER2\settings.py:306
+#: .\AIMER2\settings.py:308
 msgid "Turkish"
 msgstr "Turecký"
 
-#: .\AIMER2\settings.py:310
+#: .\AIMER2\settings.py:312
 msgid "Ukrainian"
 msgstr "Ukrajinský"
 
-#: .\AIMER2\settings.py:314
+#: .\AIMER2\settings.py:316
 msgid "Simplified Chinese"
 msgstr "Zjednodušená čínština"
 
-#: .\AIMER2\settings.py:315
+#: .\AIMER2\settings.py:317
 msgid "Traditional Chinese"
 msgstr "Tradičná čínština"
 
@@ -829,9 +837,6 @@ msgstr "Profilová fotografia"
 msgid "Biography"
 msgstr "Životopis"
 
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "Nórsky nynorsk"
-
 #~ msgid "Hebrew"
 #~ msgstr "Hebrejčina"
 
@@ -854,10 +859,6 @@ msgstr "Životopis"
 #, fuzzy
 #~ msgid "Lower Sorbian"
 #~ msgstr "Srbský"
-
-#, fuzzy
-#~ msgid "British English"
-#~ msgstr "Angličtina"
 
 #, fuzzy
 #~ msgid "Mexican Spanish"

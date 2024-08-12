@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 01:00+0200\n"
+"POT-Creation-Date: 2024-08-12 13:51+0200\n"
 "PO-Revision-Date: 2024-07-14 14:12+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:219
+#: .\AIMER2\settings.py:220
 msgid "Arabic"
 msgstr "עֲרָבִית"
 
@@ -28,127 +28,139 @@ msgstr "עֲרָבִית"
 msgid "Bulgarian"
 msgstr "בולגרית"
 
-#: .\AIMER2\settings.py:230
+#: .\AIMER2\settings.py:231
 msgid "Czech"
 msgstr "צ'כית"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:233
 msgid "Danish"
 msgstr "דַנִי"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:234
 msgid "German"
 msgstr "גֶרמָנִיָת"
 
-#: .\AIMER2\settings.py:235
+#: .\AIMER2\settings.py:236
 msgid "Greek"
 msgstr "יווני"
 
-#: .\AIMER2\settings.py:236
+#: .\AIMER2\settings.py:237
 msgid "English"
 msgstr "אנגלית"
 
-#: .\AIMER2\settings.py:240
+#: .\AIMER2\settings.py:239
+#, fuzzy
+#| msgid "English"
+msgid "British English"
+msgstr "אנגלית"
+
+#: .\AIMER2\settings.py:241
 msgid "Spanish"
 msgstr "ספרדית"
 
-#: .\AIMER2\settings.py:246
+#: .\AIMER2\settings.py:247
 msgid "Estonian"
 msgstr "אסטונית"
 
-#: .\AIMER2\settings.py:249
+#: .\AIMER2\settings.py:250
 msgid "Finnish"
 msgstr "פִינִית"
 
-#: .\AIMER2\settings.py:250
+#: .\AIMER2\settings.py:251
 msgid "French"
 msgstr "צָרְפָתִית"
 
-#: .\AIMER2\settings.py:259
+#: .\AIMER2\settings.py:260
 msgid "Hungarian"
 msgstr "הוּנגָרִי"
 
-#: .\AIMER2\settings.py:262
+#: .\AIMER2\settings.py:263
 msgid "Indonesian"
 msgstr "אינדונזית"
 
-#: .\AIMER2\settings.py:266
+#: .\AIMER2\settings.py:267
 msgid "Italian"
 msgstr "אִיטַלְקִית"
 
-#: .\AIMER2\settings.py:267
+#: .\AIMER2\settings.py:268
 msgid "Japanese"
 msgstr "יַפָּנִית"
 
-#: .\AIMER2\settings.py:273
+#: .\AIMER2\settings.py:274
 msgid "Korean"
 msgstr "קוריאנית"
 
-#: .\AIMER2\settings.py:276
+#: .\AIMER2\settings.py:277
 msgid "Lithuanian"
 msgstr "ליטאית"
 
-#: .\AIMER2\settings.py:277
+#: .\AIMER2\settings.py:278
 msgid "Latvian"
 msgstr "לטבית"
 
-#: .\AIMER2\settings.py:284
+#: .\AIMER2\settings.py:285
 #, fuzzy
 #| msgid "Norwegian"
 msgid "Norwegian Bokmål"
 msgstr "נורבגית"
 
-#: .\AIMER2\settings.py:286
+#: .\AIMER2\settings.py:287
 msgid "Dutch"
 msgstr "הוֹלַנדִי"
 
-#: .\AIMER2\settings.py:289
+#: .\AIMER2\settings.py:288
+#, fuzzy
+#| msgid "Norwegian"
+msgid "Norwegian Nynorsk"
+msgstr "נורבגית"
+
+#: .\AIMER2\settings.py:291
 msgid "Polish"
 msgstr "פולני"
 
-#: .\AIMER2\settings.py:290
+#: .\AIMER2\settings.py:292
 msgid "Portuguese"
 msgstr "פורטוגזית"
 
-#: .\AIMER2\settings.py:291
+#: .\AIMER2\settings.py:293
 #, fuzzy
 #| msgid "Portuguese"
 msgid "Brazilian Portuguese"
 msgstr "פורטוגזית"
 
-#: .\AIMER2\settings.py:292
+#: .\AIMER2\settings.py:294
 msgid "Romanian"
 msgstr "רומנית"
 
-#: .\AIMER2\settings.py:293
+#: .\AIMER2\settings.py:295
 msgid "Russian"
 msgstr "רוּסִי"
 
-#: .\AIMER2\settings.py:294
+#: .\AIMER2\settings.py:296
 msgid "Slovak"
 msgstr "סלובקית"
 
-#: .\AIMER2\settings.py:295
+#: .\AIMER2\settings.py:297
 msgid "Slovenian"
 msgstr "סלובנית"
 
-#: .\AIMER2\settings.py:299
+#: .\AIMER2\settings.py:301
 msgid "Swedish"
 msgstr "שוודית"
 
-#: .\AIMER2\settings.py:306
+#: .\AIMER2\settings.py:308
 msgid "Turkish"
 msgstr "טורקי"
 
-#: .\AIMER2\settings.py:310
+#: .\AIMER2\settings.py:312
 msgid "Ukrainian"
 msgstr "אוקראינית"
 
-#: .\AIMER2\settings.py:314
+#: .\AIMER2\settings.py:316
 msgid "Simplified Chinese"
 msgstr "סינית פשוטה"
 
-#: .\AIMER2\settings.py:315
+#: .\AIMER2\settings.py:317
 msgid "Traditional Chinese"
 msgstr ""
 
@@ -867,11 +879,6 @@ msgstr ""
 msgid "Biography"
 msgstr ""
 
-#, fuzzy
-#~| msgid "Norwegian"
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "נורבגית"
-
 #~ msgid "Hebrew"
 #~ msgstr "עִברִית"
 
@@ -896,11 +903,6 @@ msgstr ""
 #~| msgid "Serbian"
 #~ msgid "Lower Sorbian"
 #~ msgstr "סרבית"
-
-#, fuzzy
-#~| msgid "English"
-#~ msgid "British English"
-#~ msgstr "אנגלית"
 
 #, fuzzy
 #~| msgid "Spanish"

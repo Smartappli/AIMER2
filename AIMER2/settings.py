@@ -218,11 +218,11 @@ CACHE_MIDDLEWARE_KEY_PREFIX = "aimer2"
 LANGUAGES = (
     # ("af", _("Afrikaans")),
     ("ar", _("Arabic")),
-    # ("ar_DZ", _("Algerian Arabic")),
+    # ("ar-dz", _("Algerian Arabic")),
     # ("ast", _("Asturian")),
     # ("az", _("Azerbaijani")),
-    # ("be", _("Belarusian")),
     ("bg", _("Bulgarian")),
+    # ("be", _("Belarusian")),
     # ("bn", _("Bengali")),
     # ("br", _("Breton")),
     # ("bs", _("Bosnian")),
@@ -235,8 +235,8 @@ LANGUAGES = (
     # ("dsb", _("Lower Sorbian")),
     ("el", _("Greek")),
     ("en", _("English")),
-    # ("en_AU", _("Australian English")),
-    # ("en_GB", _("British English")),
+    # ("en-au", _("Australian English")),
+    ("en-gb", _("British English")),
     # ("eo", _("Esperanto")),
     ("es", _("Spanish")),
     # ("es-ar", _("Argentinian Spanish")),
@@ -285,6 +285,7 @@ LANGUAGES = (
     ("nb", _("Norwegian Bokmål")),
     # ("ne", _("Nepali")),
     ("nl", _("Dutch")),
+    ("nn", _("Norwegian Nynorsk")),
     # ("os", _("Ossetic")),
     # ("pa", _("Punjabi")),
     ("pl", _("Polish")),
@@ -316,12 +317,15 @@ LANGUAGES = (
     ("zh-hant", _("Traditional Chinese")),
 )
 
+# Languages using BiDi (right-to-left) layout
+LANGUAGES_BIDI = ["he", "ar", "ar-dz", "ckb", "fa", "ug", "ur"]
+
 LOCALE_PATHS = (BASE_DIR / "locale",)
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en"
+LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
 
@@ -368,7 +372,8 @@ DEEPL_LANGUAGES = {
     "cs": "cs",  # Czech
     "da": "da",  # Danish
     "de": "de",  # German
-    "en": "en",  # English
+    "en": "en-us",  # English
+    "en_gb": "en-gb",  # GB English
     "es": "es",  # Spanish
     "et": "et",  # Estonian
     "fi": "fi",  # Finnish

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 01:00+0200\n"
-"PO-Revision-Date: 2024-08-09 01:09+0000\n"
+"POT-Creation-Date: 2024-08-12 13:51+0200\n"
+"PO-Revision-Date: 2024-08-12 14:05+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:219
+#: .\AIMER2\settings.py:220
 msgid "Arabic"
 msgstr "Arābu valodā"
 
@@ -27,125 +27,133 @@ msgstr "Arābu valodā"
 msgid "Bulgarian"
 msgstr "Bulgāru"
 
-#: .\AIMER2\settings.py:230
+#: .\AIMER2\settings.py:231
 msgid "Czech"
 msgstr "Čehija"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:233
 msgid "Danish"
 msgstr "Dānijas"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:234
 msgid "German"
 msgstr "Vācu"
 
-#: .\AIMER2\settings.py:235
+#: .\AIMER2\settings.py:236
 msgid "Greek"
 msgstr "Grieķu"
 
-#: .\AIMER2\settings.py:236
+#: .\AIMER2\settings.py:237
 msgid "English"
 msgstr "Angļu valodā"
 
-#: .\AIMER2\settings.py:240
+#: .\AIMER2\settings.py:239
+#| msgid "English"
+msgid "British English"
+msgstr "Britu angļu valoda"
+
+#: .\AIMER2\settings.py:241
 msgid "Spanish"
 msgstr "Spāņu"
 
-#: .\AIMER2\settings.py:246
+#: .\AIMER2\settings.py:247
 msgid "Estonian"
 msgstr "Igauņu"
 
-#: .\AIMER2\settings.py:249
+#: .\AIMER2\settings.py:250
 msgid "Finnish"
 msgstr "Somu"
 
-#: .\AIMER2\settings.py:250
+#: .\AIMER2\settings.py:251
 msgid "French"
 msgstr "Franču"
 
-#: .\AIMER2\settings.py:259
+#: .\AIMER2\settings.py:260
 msgid "Hungarian"
 msgstr "Ungāru"
 
-#: .\AIMER2\settings.py:262
+#: .\AIMER2\settings.py:263
 msgid "Indonesian"
 msgstr "Indonēzijas"
 
-#: .\AIMER2\settings.py:266
+#: .\AIMER2\settings.py:267
 msgid "Italian"
 msgstr "Itāļu"
 
-#: .\AIMER2\settings.py:267
+#: .\AIMER2\settings.py:268
 msgid "Japanese"
 msgstr "Japāņu"
 
-#: .\AIMER2\settings.py:273
+#: .\AIMER2\settings.py:274
 msgid "Korean"
 msgstr "Korejas"
 
-#: .\AIMER2\settings.py:276
+#: .\AIMER2\settings.py:277
 msgid "Lithuanian"
 msgstr "Lietuviešu"
 
-#: .\AIMER2\settings.py:277
+#: .\AIMER2\settings.py:278
 msgid "Latvian"
 msgstr "Latvian"
 
-#: .\AIMER2\settings.py:284
-#| msgid "Norwegian Nynorsk"
+#: .\AIMER2\settings.py:285
 msgid "Norwegian Bokmål"
 msgstr "Norvēģu valodas norvēģu valoda nynorsk"
 
-#: .\AIMER2\settings.py:286
+#: .\AIMER2\settings.py:287
 msgid "Dutch"
 msgstr "Holandiešu"
 
-#: .\AIMER2\settings.py:289
+#: .\AIMER2\settings.py:288
+#| msgid "Norwegian Bokmål"
+msgid "Norwegian Nynorsk"
+msgstr "Norvēģu valodas norvēģu valoda nynorsk"
+
+#: .\AIMER2\settings.py:291
 msgid "Polish"
 msgstr "Polijas"
 
-#: .\AIMER2\settings.py:290
+#: .\AIMER2\settings.py:292
 msgid "Portuguese"
 msgstr "Portugāļu"
 
-#: .\AIMER2\settings.py:291
-#| msgid "Portuguese"
+#: .\AIMER2\settings.py:293
 msgid "Brazilian Portuguese"
 msgstr "Portugāļu"
 
-#: .\AIMER2\settings.py:292
+#: .\AIMER2\settings.py:294
 msgid "Romanian"
 msgstr "Rumāņu"
 
-#: .\AIMER2\settings.py:293
+#: .\AIMER2\settings.py:295
 msgid "Russian"
 msgstr "Krievu"
 
-#: .\AIMER2\settings.py:294
+#: .\AIMER2\settings.py:296
 msgid "Slovak"
 msgstr "Slovākijas"
 
-#: .\AIMER2\settings.py:295
+#: .\AIMER2\settings.py:297
 msgid "Slovenian"
 msgstr "Slovēņu"
 
-#: .\AIMER2\settings.py:299
+#: .\AIMER2\settings.py:301
 msgid "Swedish"
 msgstr "Zviedru"
 
-#: .\AIMER2\settings.py:306
+#: .\AIMER2\settings.py:308
 msgid "Turkish"
 msgstr "Turcijas"
 
-#: .\AIMER2\settings.py:310
+#: .\AIMER2\settings.py:312
 msgid "Ukrainian"
 msgstr "Ukraiņu"
 
-#: .\AIMER2\settings.py:314
+#: .\AIMER2\settings.py:316
 msgid "Simplified Chinese"
 msgstr "Vienkāršotā ķīniešu valoda"
 
-#: .\AIMER2\settings.py:315
+#: .\AIMER2\settings.py:317
 msgid "Traditional Chinese"
 msgstr "Tradicionālā ķīniešu valoda"
 
