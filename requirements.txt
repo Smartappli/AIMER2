@@ -17,7 +17,7 @@ djangorestframework==3.15.2
 flower==2.0.1
 gunicorn==23.0.0
 jax[cpu]==0.4.31
-keras==3.4.1
+keras==3.5.0
 keras-cv==0.9.0
 # keras-nlp==0.14.3
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
