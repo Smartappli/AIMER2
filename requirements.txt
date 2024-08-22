@@ -21,7 +21,7 @@ keras==3.5.0
 keras-cv==0.9.0
 keras-nlp==0.14.4
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-llama-cpp-python==0.2.88
+llama-cpp-python==0.2.89
 Markdown==3.7
 packaging==24.1
 Pillow==10.4.0
