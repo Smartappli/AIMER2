@@ -19,9 +19,9 @@ gunicorn==23.0.0
 jax[cpu]==0.4.31
 keras==3.5.0
 keras-cv==0.9.0
-keras-nlp==0.14.4
+# keras-nlp==0.14.4
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-llama-cpp-python==0.2.89
+llama-cpp-python==0.2.9
 Markdown==3.7
 packaging==24.1
 Pillow==10.4.0
@@ -38,8 +38,7 @@ sqlparse==0.5.1
 tensorflow-cpu==2.17.0
 # tensorflow-text>=2.10.0
 tf-models-no-deps==2.17.0
-# timm>=1.0.7
-git+https://github.com/huggingface/pytorch-image-models.git
+timm==1.0.9
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch>=2.2.2,<2.5.0
 torchvision>=0.17.0
