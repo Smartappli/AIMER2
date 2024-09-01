@@ -4,8 +4,7 @@ channels[daphne]==4.1.0
 channels-redis==4.2.0
 Django==5.1
 django-braces==1.15.0
-# django-celery-beat==2.6.0
-git+https://github.com/celery/django-celery-beat.git
+django-celery-beat==2.7.0
 django-celerybeat-status==1.0.1
 django-embed-video==1.4.10
 django-localflavor==4.0
