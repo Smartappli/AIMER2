@@ -14,4 +14,4 @@ output = llm(
     ],  # Stop generating just before the model would generate a new question
     echo=True,  # Echo the prompt back in the output
 )  # Generate a completion, can also call create_completion
-print(output)  # noqa T201
+print(output)  # noqa: T201
