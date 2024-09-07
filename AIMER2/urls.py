@@ -25,8 +25,8 @@ from django.contrib.sitemaps.views import sitemap
 from django.urls import include, path
 from django.utils.translation import gettext_lazy as _
 
+from AIMER2.views import SystemView
 from blog.sitemaps import PostSitemap, TagSitemap
-from web_project.views import SystemView
 
 admin.site.site_header = _("AIMER Administration")
 admin.site.site_title = _(

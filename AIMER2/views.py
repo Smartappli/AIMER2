@@ -1,7 +1,7 @@
 from django.views.generic import TemplateView
 
-from web_project import TemplateLayout
-from web_project.template_helpers.theme import TemplateHelper
+from AIMER2 import TemplateLayout
+from AIMER2.template_helpers.theme import TemplateHelper
 
 
 class SystemView(TemplateView):

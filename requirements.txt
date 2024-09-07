@@ -6,6 +6,7 @@ Django==5.1.1
 django-braces==1.15.0
 django-celery-beat==2.7.0
 django-celerybeat-status==1.0.1
+django-cryptography-django5==2.2  # encryption of sensitive data in db
 django-embed-video==1.4.10
 django-localflavor==4.0
 django-parler==2.3
@@ -21,27 +22,28 @@ keras-cv>=0.9.0
 # keras-nlp-nightly
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 llama-cpp-python==0.2.90
-Markdown==3.7
+Markdown==3.5.2
 packaging==24.1
 Pillow==10.4.0
+postgresml-django==0.1.0  # Integration of PostgresML
 psycopg==3.2.1
 # pycaret==3.4.0
 git+https://github.com/pycaret/pycaret.git
 pyopenssl==24.2.1
 pymemcache==4.0.0
+syft==0.9.2b1
 python-decouple==3.8
 redis==5.0.8
 requests==2.32.3
-# segmentation_models_pytorch==0.3.4
+segmentation_models_pytorch==0.3.4
 sqlparse==0.5.1
 # syft>=0.9.2
 tensorflow-cpu==2.17.0
 # tensorflow-text>=2.10.0
 tf-models-no-deps==2.17.0
-timm==1.0.9
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch>=2.2.2,<2.5.0
 torchvision>=0.17.0
-typing-extensions==4.12.2
+typing-extensions==4.12.0
 weasyPrint==62.3
 whitenoise==6.7.0

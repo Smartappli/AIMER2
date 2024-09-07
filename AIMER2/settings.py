@@ -68,7 +68,7 @@ MIDDLEWARE = [
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.locale.LocaleMiddleware",
-    "web_project.language_middleware.DefaultLanguageMiddleware",
+    "AIMER2.language_middleware.DefaultLanguageMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -95,11 +95,11 @@ TEMPLATES = [
                 "AIMER2.context_processors.environment",
             ],
             "libraries": {
-                "theme": "web_project.template_tags.theme",
+                "theme": "AIMER2.template_tags.theme",
             },
             "builtins": [
                 "django.templatetags.static",
-                "web_project.template_tags.theme",
+                "AIMER2.template_tags.theme",
             ],
         },
     },
