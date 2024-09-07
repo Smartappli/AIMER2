@@ -1,10 +1,98 @@
+from django.contrib.auth.decorators import login_required
 from django.urls import path
 
-from .views import MiscPagesView
+from .views import MiscPagesView, PagesView
 
 app_name = "pages"
 
 urlpatterns = [
+    path(
+        "pages/profile/user/",
+        login_required(
+            PagesView.as_view(template_name="pages/pages_profile_user.html")
+        ),
+        name="pages-profile-user",
+    ),
+    path(
+        "pages/profile/teams/",
+        login_required(
+            PagesView.as_view(template_name="pages/pages_profile_teams.html")
+        ),
+        name="pages-profile-teams",
+    ),
+    path(
+        "pages/profile/projects/",
+        login_required(
+            PagesView.as_view(template_name="pages/pages_profile_projects.html")
+        ),
+        name="pages-profile-projects",
+    ),
+    path(
+        "pages/profile/connections/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_profile_connections.html"
+            )
+        ),
+        name="pages-profile-connections",
+    ),
+    path(
+        "pages/account_settings/account/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_account_settings_account.html"
+            )
+        ),
+        name="pages-account-settings-account",
+    ),
+    path(
+        "pages/account_settings/security/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_account_settings_security.html"
+            )
+        ),
+        name="pages-account-settings-security",
+    ),
+    path(
+        "pages/account_settings/billing/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_account_settings_billing.html"
+            )
+        ),
+        name="pages-account-settings-billing",
+    ),
+    path(
+        "pages/account_settings/notifications/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_account_settings_notifications.html"
+            )
+        ),
+        name="pages-account-settings-notifications",
+    ),
+    path(
+        "pages/account_settings/connections/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_account_settings_connections.html"
+            )
+        ),
+        name="pages-account-settings-connections",
+    ),
+    path(
+        "pages/faq/",
+        login_required(PagesView.as_view(template_name="pages/pages_faq.html")),
+        name="pages-faq",
+    ),
+    path(
+        "pages/pricing/",
+        login_required(
+            PagesView.as_view(template_name="pages/pages_pricing.html")
+        ),
+        name="pages-pricing",
+    ),
     path(
         "pages/misc/error/",
         MiscPagesView.as_view(template_name="pages/pages_misc_error.html"),
@@ -13,7 +101,7 @@ urlpatterns = [
     path(
         "pages/misc/under_maintenance/",
         MiscPagesView.as_view(
-            template_name="pages/pages_misc_under_maintenance.html",
+            template_name="pages/pages_misc_under_maintenance.html"
         ),
         name="pages-misc-under-maintenance",
     ),
@@ -25,8 +113,89 @@ urlpatterns = [
     path(
         "pages/misc/not_authorized/",
         MiscPagesView.as_view(
-            template_name="pages/pages_misc_not_authorized.html",
+            template_name="pages/pages_misc_not_authorized.html"
         ),
         name="pages-misc-not-authorized",
+    ),
+    path(
+        "pages/machine_learning/classification/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_machine_learning_classification.html"
+            )
+        ),
+        name="pages-machine-learning-classification",
+    ),
+    path(
+        "pages/machine_learning/regression/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_machine_learning_regression.html"
+            )
+        ),
+        name="pages-machine-learning-regression",
+    ),
+    path(
+        "pages/machine_learning/time_series/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_machine_learning_time_series.html"
+            )
+        ),
+        name="pages-machine-learning-time-series",
+    ),
+    path(
+        "pages/machine_learning/clusturing/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_machine_learning_clustering.html"
+            )
+        ),
+        name="pages-machine-learning-clustering",
+    ),
+    path(
+        "pages/machine_learning/anomaly_detection/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_machine_learning_anomaly_detection.html"
+            )
+        ),
+        name="pages-machine-learning-anomaly-detection",
+    ),
+    path(
+        "pages/deep_learning/classification/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_deep_learning_classification.html"
+            )
+        ),
+        name="pages-deep-learning-classification",
+    ),
+    path(
+        "pages/deep_learning/segmentation/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_deep_learning_segmentation.html"
+            )
+        ),
+        name="pages-deep-learning-segmentation",
+    ),
+    path(
+        "pages/large_language_model/text_generation/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_large_language_model_text_generation.html"
+            )
+        ),
+        name="pages-large-language-model-text-generation",
+    ),
+    path(
+        "pages/large_language_model/text_summarization/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_large_language_model_text_summarization.html"
+            )
+        ),
+        name="pages-large-language-model-text-summarization",
     ),
 ]
