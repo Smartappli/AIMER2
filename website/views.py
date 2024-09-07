@@ -6,8 +6,9 @@ from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.generic import TemplateView, View
 from django.views.generic.edit import FormView
-from web_project import TemplateLayout
-from web_project.template_helpers.theme import TemplateHelper
+
+from AIMER2 import TemplateLayout
+from AIMER2.template_helpers.theme import TemplateHelper
 
 from .forms import (
     LoginForm,
@@ -19,20 +20,54 @@ from .models import Profile
 
 
 class WebsiteView(TemplateView):
+    def get_context_data(self, **kwargs):
+        # Get the base context from the parent class
+        context = super().get_context_data(**kwargs)
+
+        # Initialize the global layout using a function defined in web_project/__init__.py
+        context = TemplateLayout.init(self, context)
+
+        # Update the context with layout path
+        context["layout_path"] = TemplateHelper.set_layout(
+            "layout_blank.html", context
+        )
+
+        return context
+
+
+class FrontPagesView(TemplateView):
     # Predefined function
     def get_context_data(self, **kwargs):
         # A function to init the global layout. It is defined in web_project/__init__.py file
         context = TemplateLayout.init(self, super().get_context_data(**kwargs))
 
         # Update the context
-        context.update(
-            {
-                "layout_path": TemplateHelper.set_layout(
-                    "layout_blank.html",
-                    context,
-                ),
-            },
-        )
+        context.update({
+            "layout": "front",
+            "layout_path": TemplateHelper.set_layout(
+                "layout_front.html", context
+            ),
+            "active_url": self.request.path,  # Get the current url path (active URL) from request
+        })
+
+        # map_context according to updated context values
+        TemplateHelper.map_context(context)
+
+        return context
+
+
+class AuthView(TemplateView):
+    # Predefined function
+    def get_context_data(self, **kwargs):
+        # A function to init the global layout. It is defined in web_project/__init__.py file
+        context = TemplateLayout.init(self, super().get_context_data(**kwargs))
+
+        # Update the context
+        context.update({
+            "layout_path": TemplateHelper.set_layout(
+                "layout_blank.html", context
+            ),
+        })
 
         return context
 
@@ -145,6 +180,17 @@ def dashboard(request):
         "website/dashboard.html",
         {"section": "dashboard"},
     )
+
+
+class CustomDashboardView(FrontPagesView, View):
+    template_name = "website/dashboard.html"
+
+    def get(self, request, *args, **kwargs):
+        # Obtenez le contexte de `FrontPagesView`
+        context = self.get_context_data(**kwargs)
+        context["section"] = "dashboard"
+
+        return render(request, self.template_name, context)
 
 
 class CustomRegisterView(WebsiteView, FormView):
