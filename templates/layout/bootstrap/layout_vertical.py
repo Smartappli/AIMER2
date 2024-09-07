@@ -1,7 +1,6 @@
 import json
 
 from django.conf import settings
-
 from web_project.template_helpers.theme import TemplateHelper
 
 menu_file_path = (
