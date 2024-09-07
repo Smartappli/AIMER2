@@ -2,7 +2,7 @@
   <!-- ! Hide app brand if navbar-full -->
   {% if not navbar_full %}
   <div class="app-brand demo">
-    <a href="{% url 'index' %}" class="app-brand-link">
+    <a href="{% url 'website:index' %}" class="app-brand-link">
       <span class="app-brand-logo demo">
         {% include 'partials/logo.html' with withbg="#696cff" %}
       </span>

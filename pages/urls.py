@@ -55,15 +55,6 @@ urlpatterns = [
         name="pages-account-settings-security",
     ),
     path(
-        "pages/account_settings/billing/",
-        login_required(
-            PagesView.as_view(
-                template_name="pages/pages_account_settings_billing.html"
-            )
-        ),
-        name="pages-account-settings-billing",
-    ),
-    path(
         "pages/account_settings/notifications/",
         login_required(
             PagesView.as_view(

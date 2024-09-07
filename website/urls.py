@@ -18,6 +18,7 @@ app_name = "website"
 
 urlpatterns = [
     path("", views.dashboard, name="dashboard"),
+    path("", views.dashboard, name="index"),
     path(
         "edit/",
         CustomEditView.as_view(),  # Corrected to CustomEditView
