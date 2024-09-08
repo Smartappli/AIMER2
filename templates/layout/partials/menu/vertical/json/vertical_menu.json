@@ -57,7 +57,7 @@
     },
     {
       "name": "NLP",
-      "icon": "menu-icon tf-icons bx bx-layer",
+      "icon": "menu-icon tf-icons bx bx-message-rounded-dots",
       "slug": "natural-language-processing",
       "submenu": [
         {

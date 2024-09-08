@@ -172,21 +172,21 @@ urlpatterns = [
         name="pages-deep-learning-segmentation",
     ),
     path(
-        "pages/large_language_model/text_generation/",
+        "pages/natural_language_processing/text_generation/",
         login_required(
             PagesView.as_view(
-                template_name="pages/pages_natura_language_processing_text_generation.html"
+                template_name="pages/pages_natural_language_processing_text_generation.html"
             )
         ),
-        name="pages-large-language-model-text-generation",
+        name="pages-natural-language-processing-text-generation",
     ),
     path(
-        "pages/large_language_model/text_summarization/",
+        "pages/natural_language_processing/text_summarization/",
         login_required(
             PagesView.as_view(
                 template_name="pages/pages_natural_language_processing_text_summarization.html"
             )
         ),
-        name="pages-large-language-model-text-summarization",
+        name="pages-natural-language-processing-text-summarization",
     ),
 ]
