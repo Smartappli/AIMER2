@@ -1,10 +1,10 @@
 {
   "menu": [
     {
-      "url": "website:index",
-      "icon": "menu-icon tf-icons bx bx-home-circle",
-      "name": "Page 1",
-      "slug": "index"
+      "url": "website:dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "name": "Dashboard",
+      "slug": "dashboard"
     },
     {
       "name": "Machine Learning",
@@ -12,14 +12,29 @@
       "slug": "machine-learning",
       "submenu": [
         {
+           "url": "pages:pages-machine-learning-anomaly-detection",
+          "name": "Anomaly Detection",
+          "slug": "machine-learning-anomaly-detection"
+        },
+        {
           "url": "pages:pages-machine-learning-classification",
           "name": "Classification",
           "slug": "machine-learning-classification"
         },
         {
+          "url": "pages:pages-machine-learning-clustering",
+          "name": "Clustering",
+          "slug": "machine-learning-clustering"
+        },
+        {
           "url": "pages:pages-machine-learning-regression",
           "name": "Regression",
           "slug": "machine-learning-regression"
+        },
+        {
+          "url": "pages:pages-machine-learning-time-series",
+          "name": "Time Series",
+          "slug": "machine-learning-time-series"
         }
       ]
     }
