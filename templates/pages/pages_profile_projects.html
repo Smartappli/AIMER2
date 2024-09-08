@@ -1,0 +1,531 @@
+{% extends layout_path %}
+
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate "User Profile - Projects" %}{% endblock %}
+
+{% block page_css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'vendor/css/pages/page-profile.css' %}" />
+{% endblock page_css %}
+
+{% block content %}
+<!-- Header -->
+<div class="row">
+  <div class="col-12">
+    <div class="card mb-6">
+      <div class="user-profile-header-banner">
+        <img src="{% static 'img/pages/profile-banner.png' %}" alt="Banner image" class="rounded-top">
+      </div>
+      <div class="user-profile-header d-flex flex-column flex-lg-row text-sm-start text-center mb-8">
+        <div class="flex-shrink-0 mt-1 mx-sm-0 mx-auto">
+          {% if request.user|has_group:"admin" %}
+            <img src="{% static 'img/avatars/1.png' %}" alt="user image" class="d-block h-auto ms-0 ms-sm-6 rounded-3 user-profile-img">
+            {% else %}
+            <img src="{% static 'img/avatars/3.png' %}" alt="user image" class="d-block h-auto ms-0 ms-sm-6 rounded-3 user-profile-img">
+          {% endif %}
+        </div>
+        <div class="flex-grow-1 mt-3 mt-lg-5">
+          <div class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-5 flex-md-row flex-column gap-4">
+            <div class="user-profile-info">
+              <h4 class="mb-2 mt-lg-7">{{ request.user.username| capfirst }}</h4>
+              <ul class="list-inline mb-0 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-4 mt-4">
+                <li class="list-inline-item">
+                  <i class='bx bx-palette me-2 align-top'></i><span class="fw-medium">UX Designer</span>
+                </li>
+                <li class="list-inline-item">
+                  <i class='bx bx-map me-2 align-top'></i><span class="fw-medium">Vatican City</span>
+                </li>
+                <li class="list-inline-item">
+                  <i class='bx bx-calendar me-2 align-top'></i><span class="fw-medium"> Joined April 2021</span>
+                </li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary mb-1">
+              <i class='bx bx-user-check bx-sm me-2'></i>Connected
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Header -->
+
+<!-- Navbar pills -->
+<div class="row">
+  <div class="col-md-12">
+    <div class="nav-align-top">
+      <ul class="nav nav-pills flex-column flex-sm-row mb-6">
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-user' %}"><i class='bx bx-user bx-sm me-1_5'></i> {% translate "Profile" %}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-teams' %}"><i class='bx bx-group bx-sm me-1_5'></i> {% translate "Teams" %}</a></li>
+        <li class="nav-item"><a class="nav-link active" href="javascript:void(0);"><i class='bx bx-grid-alt bx-sm me-1_5'></i> {% translate "Projects" %}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-connections' %}"><i class='bx bx-link-alt bx-sm me-1_5'></i> {% translate "Connections" %}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--/ Navbar pills -->
+
+<!-- Project Cards -->
+<div class="row g-6">
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/social-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">Social Banners</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Christian Jimenez</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$24.8k</span>/ $18.2k</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>14/2/21</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>28/2/22</p>
+          </div>
+        </div>
+        <p class="mb-0">We are Consulting, Software Development and Web Development Services.</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>380/244</p>
+          <span class="badge bg-label-success ms-auto">28 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 290/344</small>
+          <small class="text-body">95% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Vinnie Mostowy" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/5.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Allen Rieske" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/12.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Julee Rossignol" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/6.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">280 Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-1"></i> 15</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/react-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">Admin Template</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Jeffrey Phillips</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$2.4k</span>/ 1.8k</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>18/8/21</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>21/6/22</p>
+          </div>
+        </div>
+        <p class="mb-0">Time is our most valuable asset, that's why we want to help you save it by creating…</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>98/135</p>
+          <span class="badge bg-label-warning ms-auto">15 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 12/90</small>
+          <small class="text-body">42% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 42%;" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Kaith D'souza" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/5.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="John Doe" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/1.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Alan Walker" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/6.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">1.1k Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-2"></i> 236</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/vue-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">App Design</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Ricky McDonald</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$980</span>/ $420</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>24/7/21</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>8/10/21</p>
+          </div>
+        </div>
+        <p class="mb-0">App design combines the user interface (UI) and user experience (UX).</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>880/421</p>
+          <span class="badge bg-label-danger ms-auto">45 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 22/140</small>
+          <small class="text-body">68% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 68%;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Jimmy Ressula" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/4.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Kristi Lawker" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/2.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Danny Paul" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/7.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">458 Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-1"></i> 98</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/html-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">Create Website</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Hulda Wright</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$8.5k</span>/ $2.43k</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>10/2/19</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>12/9/22</p>
+          </div>
+        </div>
+        <p class="mb-0">Your domain name should reflect your products or services so that your...</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>1.2k/820</p>
+          <span class="badge bg-label-warning ms-auto">126 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 237/420</small>
+          <small class="text-body">72% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 72%;" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Andrew Tye" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/6.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Rishi Swaat" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/9.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Rossie Kim" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/12.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">137 Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-1"></i> 120</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/figma-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">Figma Dashboard</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Jerry Greene</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$52.7k</span>/ $28.4k</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>12/12/20</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>25/12/21</p>
+          </div>
+        </div>
+        <p class="mb-0">Use this template to organize your design project. Some of the key features are…</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>142/420</p>
+          <span class="badge bg-label-danger ms-auto">5 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 29/285</small>
+          <small class="text-body">35% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Kim Merchent" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/10.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Sam D'souza" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/13.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Nurvi Karlos" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/15.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">82 Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-1"></i> 20</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-header pb-4">
+        <div class="d-flex align-items-start">
+          <div class="d-flex align-items-center">
+            <div class="avatar me-4">
+              <img src="{% static 'img/icons/brands/xd-label.png' %}" alt="Avatar" class="rounded-circle" />
+            </div>
+            <div class="me-2">
+              <h5 class="mb-0"><a href="javascript:;" class="stretched-link text-heading">Logo Design</a></h5>
+              <div class="client-info text-body"><span class="fw-medium">Client: </span><span>Olive Strickland</span></div>
+            </div>
+          </div>
+          <div class="ms-auto">
+            <div class="dropdown z-2">
+              <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-0" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="javascript:void(0);">Rename project</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">View details</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">Add to favorites</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item text-danger" href="javascript:void(0);">Leave Project</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="bg-lighter px-3 py-2 rounded me-auto mb-4">
+            <p class="mb-1"><span class="fw-medium text-heading">$1.3k</span>/ $655</p>
+            <span class="text-body">Total Budget</span>
+          </div>
+          <div class="text-start mb-4">
+            <p class="mb-1"><span class="text-heading fw-medium">Start Date: </span>17/8/21</p>
+            <p class="mb-1"><span class="text-heading fw-medium">Deadline: </span>02/11/21</p>
+          </div>
+        </div>
+        <p class="mb-0">Premium logo designs created by top logo designers. Create the branding of business.</p>
+      </div>
+      <div class="card-body border-top">
+        <div class="d-flex align-items-center mb-4">
+          <p class="mb-0"><span class="text-heading fw-medium">All Hours: </span>580/445</p>
+          <span class="badge bg-label-success ms-auto">4 Days left</span>
+        </div>
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <small class="text-body">Task: 290/290</small>
+          <small class="text-body">100% Completed</small>
+        </div>
+        <div class="progress mb-4 rounded" style="height: 8px;">
+          <div class="progress-bar rounded" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="d-flex align-items-center">
+          <div class="d-flex align-items-center">
+            <ul class="list-unstyled d-flex align-items-center avatar-group mb-0 z-2">
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Kim Karlos" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/3.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Katy Turner" class="avatar avatar-sm pull-up">
+                <img class="rounded-circle" src="{% static 'img/avatars/9.png' %}" alt="Avatar">
+              </li>
+              <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" title="Peter Adward" class="avatar avatar-sm pull-up me-3">
+                <img class="rounded-circle" src="{% static 'img/avatars/15.png' %}" alt="Avatar">
+              </li>
+              <li><small class="text-muted">16 Members</small></li>
+            </ul>
+          </div>
+          <div class="ms-auto">
+            <a href="javascript:void(0);" class="text-muted d-flex align-items-center"><i class="bx bx-chat me-1"></i> 37</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Project Cards -->
+{% endblock %}

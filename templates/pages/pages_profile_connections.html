@@ -1,0 +1,347 @@
+{% extends layout_path %}
+
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate "User Profile - Connections" %}{% endblock %}
+
+{% block page_css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'vendor/css/pages/page-profile.css' %}" />
+{% endblock page_css %}
+
+{% block content %}
+<!-- Header -->
+<div class="row">
+  <div class="col-12">
+    <div class="card mb-6">
+      <div class="user-profile-header-banner">
+        <img src="{% static 'img/pages/profile-banner.png' %}" alt="Banner image" class="rounded-top">
+      </div>
+      <div class="user-profile-header d-flex flex-column flex-lg-row text-sm-start text-center mb-8">
+        <div class="flex-shrink-0 mt-1 mx-sm-0 mx-auto">
+          {% if request.user|has_group:"admin" %}
+            <img src="{% static 'img/avatars/1.png' %}" alt="user image" class="d-block h-auto ms-0 ms-sm-6 rounded-3 user-profile-img">
+            {% else %}
+            <img src="{% static 'img/avatars/3.png' %}" alt="user image" class="d-block h-auto ms-0 ms-sm-6 rounded-3 user-profile-img">
+          {% endif %}
+        </div>
+        <div class="flex-grow-1 mt-3 mt-lg-5">
+          <div class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-5 flex-md-row flex-column gap-4">
+            <div class="user-profile-info">
+              <h4 class="mb-2 mt-lg-7">{{ request.user.username| capfirst }}</h4>
+              <ul class="list-inline mb-0 d-flex align-items-center flex-wrap justify-content-sm-start justify-content-center gap-4 mt-4">
+                <li class="list-inline-item">
+                  <i class='bx bx-palette me-2 align-top'></i><span class="fw-medium">UX Designer</span>
+                </li>
+                <li class="list-inline-item">
+                  <i class='bx bx-map me-2 align-top'></i><span class="fw-medium">Vatican City</span>
+                </li>
+                <li class="list-inline-item">
+                  <i class='bx bx-calendar me-2 align-top'></i><span class="fw-medium"> Joined April 2021</span>
+                </li>
+              </ul>
+            </div>
+            <a href="javascript:void(0)" class="btn btn-primary mb-1">
+              <i class='bx bx-user-check bx-sm me-2'></i>Connected
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Header -->
+
+<!-- Navbar pills -->
+<div class="row">
+  <div class="col-md-12">
+    <div class="nav-align-top">
+      <ul class="nav nav-pills flex-column flex-sm-row mb-6">
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-user' %}"><i class='bx bx-user bx-sm me-1_5'></i> {% translate "Profile" %}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-teams' %}"><i class='bx bx-group bx-sm me-1_5'></i> {% translate "Teams" %}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-profile-projects' %}"><i class='bx bx-grid-alt bx-sm me-1_5'></i> {% translate "Projects" %}</a></li>
+        <li class="nav-item"><a class="nav-link active" href="javascript:void(0);"><i class='bx bx-link-alt bx-sm me-1_5'></i> {% translate "Connections" %}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--/ Navbar pills -->
+
+<!-- Connection Cards -->
+<div class="row g-6">
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/3.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Mark Gilbert</h5>
+        <span>UI Designer</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-secondary">Figma</span></a>
+          <a href="javascript:;"><span class="badge bg-label-warning">Sketch</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">18</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">834</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">129</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-primary d-flex align-items-center me-4"><i class="bx bx-user-check bx-sm me-2"></i>Connected</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/12.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Eugenia Parsons</h5>
+        <span>Developer</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-danger">Angular</span></a>
+          <a href="javascript:;"><span class="badge bg-label-info">React</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">112</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">23.1k</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">1.28k</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-label-primary d-flex align-items-center me-4"><i class="bx bx-user-plus bx-sm me-2"></i>Connect</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/5.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Francis Byrd</h5>
+        <span>Developer</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-primary">React</span></a>
+          <a href="javascript:;"><span class="badge bg-label-info">HTML</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">32</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">1.25k</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">890</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-label-primary d-flex align-items-center me-4"><i class="bx bx-user-plus bx-sm me-2"></i>Connect</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/18.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Leon Lucas</h5>
+        <span>UI/UX Designer</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-secondary">Figma</span></a>
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-warning">Sketch</span></a>
+          <a href="javascript:;"><span class="badge bg-label-primary">Photoshop</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">86</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">12.4k</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">890</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-label-primary d-flex align-items-center me-4"><i class="bx bx-user-plus bx-sm me-2"></i>Connect</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/9.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Jayden Rogers</h5>
+        <span>Full Stack Developer</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-info">React</span></a>
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-warning">Angular</span></a>
+          <a href="javascript:;"><span class="badge bg-label-success">Node.js</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">244</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">23.8k</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">2.14k</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-primary d-flex align-items-center me-4"><i class="bx bx-user-check bx-sm me-2"></i>Connected</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-4 col-lg-6 col-md-6">
+    <div class="card">
+      <div class="card-body text-center">
+        <div class="dropdown btn-pinned">
+          <button type="button" class="btn btn-icon btn-text-secondary rounded-pill dropdown-toggle hide-arrow p-4" data-bs-toggle="dropdown" aria-expanded="false"><i class="bx bx-dots-vertical-rounded bx-md text-muted"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="javascript:void(0);">Share connection</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">Block connection</a></li>
+            <li>
+              <hr class="dropdown-divider" />
+            </li>
+            <li><a class="dropdown-item text-danger" href="javascript:void(0);">Delete</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto my-6">
+          <img src="{% static 'img/avatars/10.png' %}" alt="Avatar Image" class="rounded-circle w-px-100 h-px-100" />
+        </div>
+        <h5 class="mb-0 card-title">Jeanette Powell</h5>
+        <span>SEO</span>
+        <div class="d-flex align-items-center justify-content-center my-6 gap-2">
+          <a href="javascript:;" class="me-2"><span class="badge bg-label-secondary">Analysis</span></a>
+          <a href="javascript:;"><span class="badge bg-label-success">Node.js</span></a>
+        </div>
+
+        <div class="d-flex align-items-center justify-content-around mb-8">
+          <div>
+            <h5 class="mb-0">32</h5>
+            <span>Projects</span>
+          </div>
+          <div>
+            <h5 class="mb-0">1.28k</h5>
+            <span>Tasks</span>
+          </div>
+          <div>
+            <h5 class="mb-0">1.27k</h5>
+            <span>Connections</span>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a href="javascript:;" class="btn btn-label-primary d-flex align-items-center me-4"><i class="bx bx-user-plus bx-sm me-2"></i>Connect</a>
+          <a href="javascript:;" class="btn btn-label-secondary btn-icon"><i class="bx bx-envelope bx-md"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Connection Cards -->
+{% endblock %}
