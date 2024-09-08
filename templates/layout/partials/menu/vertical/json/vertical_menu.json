@@ -5,6 +5,23 @@
       "icon": "menu-icon tf-icons bx bx-home-circle",
       "name": "Page 1",
       "slug": "index"
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "menu-icon tf-icons bx bx-stats",
+      "slug": "machine-learning",
+      "submenu": [
+        {
+          "url": "pages:pages-machine-learning-classification",
+          "name": "Classification",
+          "slug": "machine-learning-classification"
+        },
+        {
+          "url": "pages:pages-machine-learning-regression",
+          "name": "Regression",
+          "slug": "machine-learning-regression"
+        }
+      ]
     }
   ]
 }
