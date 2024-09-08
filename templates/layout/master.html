@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{% static 'img/favicon/favicon.ico' %}" />
 
     <!-- Include the styles partial -->
-    {% include is_front|yesno:"./partials/styles_front.html,./partials/styles.html" %}
+    {% include is_front|yesno:"layout/partials/styles_front.html,layout//partials/styles.html" %}
 
     {% block vendor_css %}{% endblock vendor_css %}
 
