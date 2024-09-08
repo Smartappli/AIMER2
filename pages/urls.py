@@ -175,7 +175,7 @@ urlpatterns = [
         "pages/large_language_model/text_generation/",
         login_required(
             PagesView.as_view(
-                template_name="pages/pages_large_language_model_text_generation.html"
+                template_name="pages/pages_natura_language_processing_text_generation.html"
             )
         ),
         name="pages-large-language-model-text-generation",
@@ -184,7 +184,7 @@ urlpatterns = [
         "pages/large_language_model/text_summarization/",
         login_required(
             PagesView.as_view(
-                template_name="pages/pages_large_language_model_text_summarization.html"
+                template_name="pages/pages_natural_language_processing_text_summarization.html"
             )
         ),
         name="pages-large-language-model-text-summarization",

@@ -37,6 +37,40 @@
           "slug": "machine-learning-time-series"
         }
       ]
+    },
+    {
+      "name": "Deep learning",
+      "icon": "menu-icon tf-icons bx bx-layer",
+      "slug": "deep-learning",
+      "submenu": [
+        {
+          "url": "pages:pages-deep-learning-classification",
+          "name": "Classification",
+          "slug": "deep-learning-classification"
+        },
+        {
+          "url": "pages:pages-deep-learning-segmentation",
+          "name": "Segmentation",
+          "slug": "deep-learning-segmentation"
+        }
+      ]
+    },
+    {
+      "name": "NLP",
+      "icon": "menu-icon tf-icons bx bx-layer",
+      "slug": "natural-language-processing",
+      "submenu": [
+        {
+          "url": "pages:pages-natural-language-processing-text-generation",
+          "name": "Text Generation",
+          "slug": "natural-language-processing-text-generation"
+        },
+        {
+          "url": "pages:pages-natural-language-processing-text-summarization",
+          "name": "Text Summarization",
+          "slug": "natural-language-processing-text-summarization"
+        }
+      ]
     }
   ]
 }
