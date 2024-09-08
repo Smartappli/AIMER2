@@ -1,0 +1,31 @@
+{% load i18n %}
+
+<!-- Enable OTP Modal -->
+<div class="modal fade" id="enableOTP" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-simple modal-enable-otp modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="{% translate "Close" %}"></button>
+        <div class="text-center mb-6">
+          <h4 class="mb-2">{% translate "Enable One Time Password" %}</h4>
+          <p>{% translate "Verify Your Mobile Number for SMS" %}</p>
+        </div>
+        <p>{% translate "Enter your mobile phone number with country code and we will send you a verification code." %}</p>
+        <form id="enableOTPForm" class="row g-6" onsubmit="return false">
+          <div class="col-12">
+            <label class="form-label" for="modalEnableOTPPhone">{% translate "Phone Number" %}</label>
+            <div class="input-group">
+              <span class="input-group-text">US (+1)</span>
+              <input type="text" id="modalEnableOTPPhone" name="modalEnableOTPPhone" class="form-control phone-number-otp-mask" placeholder="202 555 0111" />
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary me-3">{% translate "Submit" %}</button>
+            <button type="reset" class="btn btn-label-secondary" data-bs-dismiss="modal" aria-label="Close">{% translate "Cancel" %}</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Enable OTP Modal -->
