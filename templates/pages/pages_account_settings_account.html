@@ -310,9 +310,11 @@
               <label for="language" class="form-label">Language</label>
               <select id="language" class="select2 form-select">
                 <option value="">{% translate "Select Language" %}</option>
+                <option value="pt-br">{% translate "Brazilian Portuguese" %}</option>  
                 <option value="bg">{% translate "Bulgarian" %}</option>
                 <option value="cz">{% translate "Czech" %}</option>
                 <option value="da">{% translate "Danish" %}</option>
+                <option value="nl">{% translate "Dutch" %}</option>  
                 <option value="en">{% translate "English" %}</option>
                 <option value="et">{% translate "Estonian" %}</option>  
                 <option value="fi">{% translate "Finnish" %}</option>  
@@ -326,38 +328,70 @@
                 <option value="ko">{% translate "Korean" %}</option>
                 <option value="lv">{% translate "Latvian" %}</option>  
                 <option value="lt">{% translate "Lithuanian" %}</option>  
+                <option value="nb">{% translate "Norwegian Bokmål" %}</option>
+                <option value="nn">{% translate "Norwegian Nynorsk" %}</option>
+                <option value="pl">{% translate "Polish" %}</option>  
                 <option value="pt">{% translate "Portuguese" %}</option>
-                <option value="es">{% translate "Spanish" %}</option>  
+                <option value="ro">{% translate "Romanian" %}</option>
+                <option value="ru">{% translate "Russian" %}</option>
+                <option value="sk">{% translate "Slovak" %}</option>
+                <option value="sl">{% translate "Slovenian" %}</option> 
+                <option value="sv">{% translate "Swedish" %}</option>  
+                <option value="es">{% translate "Spanish" %}</option> 
+                <option value="tr">{% translate "Turkish" %}</option>  
+                <option value="uk">{% translate "Ukrainian" %}</option>
+                <option value="zh-hans">{% translate "Simplified Chinese" %}</option>
+                <option value="zh-hant">{% translate "Traditional Chinese" %}</option>  
               </select>
             </div>
             <div class="col-md-6">
-              <label for="timeZones" class="form-label">Timezone</label>
+              <label for="timeZones" class="form-label">{% translate "Timezone" %}</label>
               <select id="timeZones" class="select2 form-select">
-                <option value="">Select Timezone</option>
-                <option value="-12">(GMT-12:00) International Date Line West</option>
-                <option value="-11">(GMT-11:00) Midway Island, Samoa</option>
-                <option value="-10">(GMT-10:00) Hawaii</option>
-                <option value="-9">(GMT-09:00) Alaska</option>
-                <option value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
-                <option value="-8">(GMT-08:00) Tijuana, Baja California</option>
-                <option value="-7">(GMT-07:00) Arizona</option>
-                <option value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
-                <option value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
-                <option value="-6">(GMT-06:00) Central America</option>
-                <option value="-6">(GMT-06:00) Central Time (US & Canada)</option>
-                <option value="-6">(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
-                <option value="-6">(GMT-06:00) Saskatchewan</option>
-                <option value="-5">(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
-                <option value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
-                <option value="-5">(GMT-05:00) Indiana (East)</option>
-                <option value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
-                <option value="-4">(GMT-04:00) Caracas, La Paz</option>
+                <option value="">{% translate "Select Timezone" %}</option>
+                <option value="-12.00">(UTC-12:00)</option>
+                <option value="-11.00">(UTC-11:00)</option>
+                <option value="-10.00">(UTC-10:00)</option>
+                <option value="-09.50">(UTC-09/30</option>  
+                <option value="-09.00">(UTC-09:00)</option>
+                <option value="-08.00">(UTC-08:00)</option>
+                <option value="-07.00">(UTC-07:00)</option>
+                <option value="-06.00">(UTC-06:00)</option>
+                <option value="-05.00">(UTC-05:00)</option>
+                <option value="-04.00">(UTC-04:00)</option>
+                <option value="-03.50">(UTC-03:30)</option>
+                <option value="-03.00">(UTC-03:00)</option>
+                <option value="-02.00">(UTC-02:00)</option>
+                <option value="-01.00">(UTC-01:00)</option>
+                <option value="+00.00">(UTC+00:00)</option>
+                <option value="+01.00">(UTC+01:00)</option>
+                <option value="+02.00">(UTC+02:00)</option>
+                <option value="-03:00">(UTC-03:00)</option>
+                <option value="+03:30">(UTC+03:30)</option>
+                <option value="+04:00">(UTC+04:00)</option>
+                <option value="+04:30">(UTC-04:30)</option>
+                <option value="+05:00">(UTC+05:00)</option>
+                <option value="+05:30">(UTC+05:00)</option>
+                <option value="+05:45">(UTC+05:45)</option>
+                <option value="+06:00">(UTC+06:00)</option>
+                <option value="+06:30">(UTC+06:30)</option>
+                <option value="+07:00">(UTC+07:00)</option>
+                <option value="+08:00">(UTC+08:00)</option>
+                <option value="+08:45">(UTC+08:45)</option>
+                <option value="+09:00">(UTC+09:00)</option>
+                <option value="+09:30">(UTC+09:30)</option>
+                <option value="+10:00">(UTC+10:00)</option>
+                <option value="+10:30">(UTC+10:30)</option>
+                <option value="+11:00">(UTC+11:00)</option>
+                <option value="+12:00">(UTC+12:00)</option>
+                <option value="+12:45">(UTC+12:45)</option>
+                <option value="+13:00">(UTC+13:00)</option>
+                <option value="+14:00">(UTC+14:00)</option>  
               </select>
             </div>
             <div class="col-md-6">
-              <label for="currency" class="form-label">Currency</label>
+              <label for="currency" class="form-label">{% translate "Currency" %}</label>
               <select id="currency" class="select2 form-select">
-                <option value="">Select Currency</option>
+                <option value="">{% translate "Select Currency" %}</option>
                 <option value="usd">USD</option>
                 <option value="euro">Euro</option>
                 <option value="pound">Pound</option>
@@ -366,28 +400,28 @@
             </div>
           </div>
           <div class="mt-6">
-            <button type="submit" class="btn btn-primary me-3">Save changes</button>
-            <button type="reset" class="btn btn-label-secondary">Cancel</button>
+            <button type="submit" class="btn btn-primary me-3">{% translate "Save changes" %}</button>
+            <button type="reset" class="btn btn-label-secondary">{% translate "Cancel" %}</button>
           </div>
         </form>
       </div>
       <!-- /Account -->
     </div>
     <div class="card">
-      <h5 class="card-header">Delete Account</h5>
+      <h5 class="card-header">{% translate "Delete Account" %}</h5>
       <div class="card-body">
         <div class="mb-6 col-12 mb-0">
           <div class="alert alert-warning">
-            <h5 class="alert-heading mb-1">Are you sure you want to delete your account?</h5>
-            <p class="mb-0">Once you delete your account, there is no going back. Please be certain.</p>
+            <h5 class="alert-heading mb-1">{% translate "Are you sure you want to delete your account?" %}</h5>
+            <p class="mb-0">{% translate "Once you delete your account, there is no going back. Please be certain." %}</p>
           </div>
         </div>
         <form id="formAccountDeactivation" onsubmit="return false">
           <div class="form-check my-8 ms-2">
             <input class="form-check-input" type="checkbox" name="accountActivation" id="accountActivation" />
-            <label class="form-check-label" for="accountActivation">I confirm my account deactivation</label>
+            <label class="form-check-label" for="accountActivation">{% translate "I confirm my account deactivation" %}</label>
           </div>
-          <button type="submit" class="btn btn-danger deactivate-account" disabled>Deactivate Account</button>
+          <button type="submit" class="btn btn-danger deactivate-account" disabled>{% translate "Deactivate Account" %}</button>
         </form>
       </div>
     </div>
