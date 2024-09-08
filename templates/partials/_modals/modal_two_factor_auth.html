@@ -81,14 +81,14 @@
     <div class="modal-content">
       <div class="modal-body">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        <h5 class="mb-2">Verify Your Mobile Number for SMS</h5>
-        <p class="mb-6">Enter your mobile phone number with country code, and we will send you a verification code.</p>
+        <h5 class="mb-2">{% translate "Verify Your Mobile Number for SMS" %}</h5>
+        <p class="mb-6">{% translate "Enter your mobile phone number with country code, and we will send you a verification code." %}</p>
         <div class="mb-6">
-          <label for="twoFactorAuthInputSms" class="form-label">Phone number</label>
+          <label for="twoFactorAuthInputSms" class="form-label">{% translate "Phone number" %}</label>
           <input type="text" class="form-control" id="twoFactorAuthInputSms" name="twoFactorAuthInputSms" placeholder="202 555 0111">
         </div>
         <div class="text-end">
-          <button type="button" class="btn btn-label-secondary me-3" data-bs-toggle="modal" data-bs-target="#twoFactorAuth"><span class="align-middle">Cancel</span></button>
+          <button type="button" class="btn btn-label-secondary me-3" data-bs-toggle="modal" data-bs-target="#twoFactorAuth"><span class="align-middle">{% translate "Cancel" %}</span></button>
           <button type="button" class="btn btn-success" data-bs-dismiss="modal" aria-label="Close"><span class="align-middle">{% translate "Submit" %}</span></button>
         </div>
       </div>
