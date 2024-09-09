@@ -42,8 +42,8 @@ exclude = [
 line-length = 80
 indent-width = 4
 
-# Assume Python 3.12
-target-version = "py312"
+# Assume Python 3.10
+target-version = "py310"
 
 [lint]
 preview = true
@@ -89,7 +89,7 @@ select = [
    "PERF",  # Perflint
    "PGH",   # pygrep-hooks
    "PIE",   # flake8-pie
-   # "PL",    # Pylint
+   "PL",    # Pylint
    "PT",    # flake8-pytest-style
    # "PTH",   # flake8-use-pathlib
    "PYI",   # flake8-pyi
