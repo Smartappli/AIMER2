@@ -50,7 +50,7 @@ preview = true
 explicit-preview-rules = true
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
 select = [
-   # "A",     # flake8-builtins
+   "A",     # flake8-builtins
    "AIR",   # Airflow
    # "ANN",   # flake8-annotations
    # "ARG",   # flake8-unused-arguments
