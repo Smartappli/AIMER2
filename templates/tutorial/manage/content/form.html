@@ -1,27 +1,29 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% block title %}
-  {% if object %}
-    {% translate "Edit content" %} "{{ object.title }}"
-  {% else %}
-    {% translate "Add new content" %}
-  {% endif %}
+    {% if object %}
+        {% translate "Edit content" %} "{{ object.title }}"
+    {% else %}
+        {% translate "Add new content" %}
+    {% endif %}
 {% endblock %}
 {% load i18n %}
 {% block content %}
-  <h1>
-    {% if object %}
-      {% translate "Edit content" %} "{{ object.title }}"
-    {% else %}
-      {% translate "Add new content" %}
-    {% endif %}
-  </h1>
-  <div class="module">
-    <h2>{% translate "Course info" %}</h2>
-    <form action="" method="post" enctype="multipart/form-data">
-      {{ form.as_p }}
-      {% csrf_token %}
-      <p><input type="submit" value="{% translate "Save content" %}"></p>
-    </form>
-  </div>
+    <h1>
+        {% if object %}
+            {% translate "Edit content" %} "{{ object.title }}"
+        {% else %}
+            {% translate "Add new content" %}
+        {% endif %}
+    </h1>
+    <div class="module">
+        <h2>{% translate "Course info" %}</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <p>
+                <input type="submit" value="{% translate "Save content" %}">
+            </p>
+        </form>
+    </div>
 {% endblock %}

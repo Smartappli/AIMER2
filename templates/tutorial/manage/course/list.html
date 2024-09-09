@@ -1,27 +1,28 @@
 {% extends "base.html" %}
 {% load i18n %}
-{% block title %}{% translate "My courses" %}{% endblock %}
+{% block title %}
+    {% translate "My courses" %}
+{% endblock %}
 {% block content %}
-  <h1>{% translate "My courses" %}</h1>
-  <div class="module">
-    {% for course in object_list %}
-      <div class="course-info">
-        <h3>{{ course.title }}</h3>
+    <h1>{% translate "My courses" %}</h1>
+    <div class="module">
+        {% for course in object_list %}
+            <div class="course-info">
+                <h3>{{ course.title }}</h3>
+                <p>
+                    <a href="{% url "tutorial:course_edit" course.id %}">{% translate "Edit" %}</a>
+                    <a href="{% url "tutorial:course_delete" course.id %}">{% translate "Delete" %}</a>
+                    <a href="{% url "tutorial:course_module_update" course.id %}">{% translate "Edit modules" %}</a>
+                    {% if course.modules.count > 0 %}
+                        <a href="{% url "tutorial:module_content_list" course.modules.first.id %}">{% translate "Manage contents" %}</a>
+                    {% endif %}
+                </p>
+            </div>
+        {% empty %}
+            <p>{% translate "You haven't created any courses yet." %}</p>
+        {% endfor %}
         <p>
-          <a href="{% url "tutorial:course_edit" course.id %}">{% translate "Edit" %}</a>
-          <a href="{% url "tutorial:course_delete" course.id %}">{% translate "Delete" %}</a>
-          <a href="{% url "tutorial:course_module_update" course.id %}">{% translate "Edit modules" %}</a>
-          {% if course.modules.count > 0 %}
-            <a href="{% url "tutorial:module_content_list" course.modules.first.id %}">
-            {% translate "Manage contents" %}</a>
-          {% endif %}
+            <a href="{% url "tutorial:course_create" %}" class="button">{% translate "Create new course" %}</a>
         </p>
-      </div>
-    {% empty %}
-      <p>{% translate "You haven't created any courses yet." %}</p>
-    {% endfor %}
-    <p>
-      <a href="{% url "tutorial:course_create" %}" class="button">{% translate "Create new course" %}</a>
-    </p>
-  </div>
+    </div>
 {% endblock %}

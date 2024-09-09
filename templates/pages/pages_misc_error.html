@@ -1,25 +1,29 @@
 {% extends layout_path %}
 {% load i18n static %}
-
-{% block title %}{% translate "Error" %}{% endblock %}
-
+{% block title %}
+    {% translate "Error" %}
+{% endblock %}
 {% block page_css %}
-{{ block.super }}
-<link rel="stylesheet" href="{% static 'vendor/css/pages/page-misc.css' %}" />
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'vendor/css/pages/page-misc.css' %}" />
 {% endblock page_css %}
-
 {% block content %}
-<!-- Error -->
-<div class="container-xxl container-p-y">
-  <div class="misc-wrapper">
-    <h1 class="mb-2 mx-2" style="line-height: 6rem;font-size: 6rem;">404</h1>
-    <h4 class="mb-2 mx-2">{% translate "Page Not Found️" %} ⚠️</h4>
-    <p class="mb-6 mx-2">{% translate "we couldn't find the page you are looking for" %}</p>
-    <a href="{% url 'website:dashboard' %}" class="btn btn-primary">{% translate "Back to home" %}</a>
-    <div class="mt-6">
-      <img src="{% static 'img/illustrations/page-misc-error-' %}{{ COOKIES.style|default:style }}.png" alt="page-misc-error-light" width="500" class="img-fluid" data-app-light-img="illustrations/page-misc-error-light.png" data-app-dark-img="illustrations/page-misc-error-dark.png">
+    <!-- Error -->
+    <div class="container-xxl container-p-y">
+        <div class="misc-wrapper">
+            <h1 class="mb-2 mx-2" style="line-height: 6rem;font-size: 6rem;">404</h1>
+            <h4 class="mb-2 mx-2">{% translate "Page Not Found️" %} ⚠️</h4>
+            <p class="mb-6 mx-2">{% translate "we couldn't find the page you are looking for" %}</p>
+            <a href="{% url 'website:dashboard' %}" class="btn btn-primary">{% translate "Back to home" %}</a>
+            <div class="mt-6">
+                <img src="{% static 'img/illustrations/page-misc-error-' %}{{ COOKIES.style|default:style }}.png"
+                     alt="page-misc-error-light"
+                     width="500"
+                     class="img-fluid"
+                     data-app-light-img="illustrations/page-misc-error-light.png"
+                     data-app-dark-img="illustrations/page-misc-error-dark.png">
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<!-- /Error -->
+    <!-- /Error -->
 {% endblock %}

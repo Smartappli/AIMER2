@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% load i18n %}
 {% load blog_tags %}
-{% block title %}{% translate "AIMER Blog" %}{% endblock %}
+{% block title %}
+    {% translate "AIMER Blog" %}
+{% endblock %}
 {% block content %}
     <h1>{% translate "Last news" %}</h1>
     {% for post in posts %}
@@ -11,9 +13,8 @@
         <p class="tags">
             Tags:
             {% for tag in post.tags.all %}
-                <a href="{% url "blog:post_list_by_tag" tag.slug %}">
-                    {{ tag.name }}
-                </a>{% if not forloop.last %}, {% endif %}
+                <a href="{% url "blog:post_list_by_tag" tag.slug %}">{{ tag.name }}</a>
+                {% if not forloop.last %},{% endif %}
             {% endfor %}
         </p>
         <p class="date">{% translate "Published" %} {{ post.publish }} {% translate "by" %} {{ post.author }}</p>

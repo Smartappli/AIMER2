@@ -3,29 +3,29 @@
 {% load blog_tags %}
 {% block title %}Search{% endblock %}
 {% block content %}
-  {% if query %}
-    <h1>{% translate "Posts containing"  %} "{{ query }}"</h1>
-    <h3>
-      {% with results.count as total_results %}
-        {% translate "Found" %} {{ total_results }} result{{ total_results|pluralize }}
-      {% endwith %}
-    </h3>
-    {% for post in results %}
-      <h4>
-        <a href="{{ post.get_absolute_url }}">
-          {{ post.title }}
-        </a>
-      </h4>
-      {{ post.body|markdown|truncatewords_html:12 }}
-    {% empty %}
-      <p>{% translate "There are no results for your query." %}</p>
-    {% endfor %}
-    <p><a href="{% url "blog:post_search" %}">{%  translate "Search again" %}</a></p>
-  {% else %}
-    <h1>{% translate "Search for posts" %}</h1>
-    <form method="get">
-      {{ form.as_p }}
-      <input type="submit" value="{% translate "Search" %}">
-    </form>
-  {% endif %}
+    {% if query %}
+        <h1>{% translate "Posts containing" %} "{{ query }}"</h1>
+        <h3>
+            {% with results.count as total_results %}
+                {% translate "Found" %} {{ total_results }} result{{ total_results|pluralize }}
+            {% endwith %}
+        </h3>
+        {% for post in results %}
+            <h4>
+                <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+            </h4>
+            {{ post.body|markdown|truncatewords_html:12 }}
+        {% empty %}
+            <p>{% translate "There are no results for your query." %}</p>
+        {% endfor %}
+        <p>
+            <a href="{% url "blog:post_search" %}">{% translate "Search again" %}</a>
+        </p>
+    {% else %}
+        <h1>{% translate "Search for posts" %}</h1>
+        <form method="get">
+            {{ form.as_p }}
+            <input type="submit" value="{% translate "Search" %}">
+        </form>
+    {% endif %}
 {% endblock %}

@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load i18n %}
-{% block title %}{% translate "Add a comment" %}{% endblock %}
+{% block title %}
+    {% translate "Add a comment" %}
+{% endblock %}
 {% block content %}
     {% if comment %}
         <h2>{% translate "Your comment has been added." %}</h2>

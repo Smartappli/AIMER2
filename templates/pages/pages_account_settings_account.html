@@ -1,430 +1,490 @@
 {% extends layout_path %}
-
 {% load static %}
 {% load i18n %}
 {% load countries %}
 {% get_countries as countries %}
-
-{% block title %}{% translate "Account settings - Account" %}{% endblock %}
-
-{% block vendor_css %}
-{{ block.super }}
-<link rel="stylesheet" href="{% static 'vendor/libs/select2/select2.css' %}" />
-<link rel="stylesheet" href="{% static 'vendor/libs/@form-validation/form-validation.css' %}" />
-<link rel="stylesheet" href="{% static 'vendor/libs/animate-css/animate.css' %}" />
-<link rel="stylesheet" href="{% static 'vendor/libs/sweetalert2/sweetalert2.css' %}" />
-{% endblock vendor_css %}
-
-{% block vendor_js %}
-{{ block.super }}
-<script src="{% static 'vendor/libs/select2/select2.js' %}"></script>
-<script src="{% static 'vendor/libs/@form-validation/popular.js' %}"></script>
-<script src="{% static 'vendor/libs/@form-validation/bootstrap5.js' %}"></script>
-<script src="{% static 'vendor/libs/@form-validation/auto-focus.js' %}"></script>
-<script src="{% static 'vendor/libs/cleavejs/cleave.js' %}"></script>
-<script src="{% static 'vendor/libs/cleavejs/cleave-phone.js' %}"></script>
-<script src="{% static 'vendor/libs/sweetalert2/sweetalert2.js' %}"></script>
-{% endblock vendor_js %}
-
-{% block page_js %}
-{{ block.super }}
-<script src="{% static 'js/pages-account-settings-account.js' %}"></script>
-{% endblock page_js %}
-
-{% block content %}
-<div class="row">
-  <div class="col-md-12">
-    <div class="nav-align-top">
-      <ul class="nav nav-pills flex-column flex-md-row mb-6">
-        <li class="nav-item"><a class="nav-link active" href="javascript:void(0);"><i class="bx bx-sm bx-user me-1_5"></i> {% translate "Account" %}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-account-settings-security' %}"><i class="bx bx-sm bx-lock-alt me-1_5"></i> Security</a></li>
-        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-account-settings-notifications' %}"><i class="bx bx-sm bx-bell me-1_5"></i> Notifications</a></li>
-        <li class="nav-item"><a class="nav-link" href="{% url 'pages:pages-account-settings-connections' %}"><i class="bx bx-sm bx-link-alt me-1_5"></i> Connections</a></li>
-      </ul>
-    </div>
-    <div class="card mb-6">
-      <!-- Account -->
-      <div class="card-body">
-        <div class="d-flex align-items-start align-items-sm-center gap-6 pb-4 border-bottom">
-          {% if request.user|has_group:"admin" %}
-            <img src="{% static 'img/avatars/1.png' %}" alt="user-avatar" class="d-block w-px-100 h-px-100 rounded" id="uploadedAvatar" />
-            {% else %}
-            <img src="{% static 'img/avatars/3.png' %}" alt="user-avatar" class="d-block w-px-100 h-px-100 rounded" id="uploadedAvatar" />
-          {% endif %}
-          <div class="button-wrapper">
-            <label for="upload" class="btn btn-primary me-3 mb-4" tabindex="0">
-              <span class="d-none d-sm-block">{% translate "Upload new photo" %}</span>
-              <i class="bx bx-upload d-block d-sm-none"></i>
-              <input type="file" id="upload" class="account-file-input" hidden accept="image/png, image/jpeg" />
-            </label>
-            <button type="button" class="btn btn-label-secondary account-image-reset mb-4">
-              <i class="bx bx-reset d-block d-sm-none"></i>
-              <span class="d-none d-sm-block">{% translate "Reset" %}</span>
-            </button>
-
-            <div>{% translate "Allowed JPG, GIF or PNG. Max size of 800K" %}</div>
-          </div>
-        </div>
-      </div>
-      <div class="card-body pt-4">
-        <form id="formAccountSettings" method="GET" onsubmit="return false">
-          <div class="row g-6">
-            <div class="col-md-6">
-              <label for="firstName" class="form-label">{% translate "First Name" %}</label>
-              <input class="form-control" type="text" id="firstName" name="firstName" value="{{ request.user.username| capfirst }}" autofocus />
-            </div>
-            <div class="col-md-6">
-              <label for="lastName" class="form-label">{% translate "Last Name" %}</label>
-              <input class="form-control" type="text" name="lastName" id="lastName" value="Doe" />
-            </div>
-            <div class="col-md-6">
-              <label for="email" class="form-label">{% translate "E-mail" %}</label>
-              <input class="form-control" type="text" id="email" name="email" value="{{ request.user.email }}" placeholder="john.doe@example.com" />
-            </div>
-            <div class="col-md-6">
-              <label for="organization" class="form-label">{% translate "Organization" %}</label>
-              <input type="text" class="form-control" id="organization" name="organization" value="{% get_theme_variables 'creator_name' %}" />
-            </div>
-            <div class="col-md-6">
-              <label class="form-label" for="phoneNumber">{% translate "Phone Number" %}</label>
-              <div class="input-group input-group-merge">
-                <span class="input-group-text">US (+1)</span>
-                <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="202 555 0111" />
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="address" class="form-label">{% translate "Address" %}</label>
-              <input type="text" class="form-control" id="address" name="address" placeholder="Address" />
-            </div>
-            <div class="col-md-6">
-              <label for="state" class="form-label">{% translate "State" %}</label>
-              <input class="form-control" type="text" id="state" name="state" placeholder="California" />
-            </div>
-            <div class="col-md-6">
-              <label for="zipCode" class="form-label">{% translate "Zip Code" %}</label>
-              <input type="text" class="form-control" id="zipCode" name="zipCode" placeholder="231465" maxlength="6" />
-            </div>
-            <div class="col-md-6">
-              <label class="form-label" for="country">{% translate "Country" %}</label>
-              <select id="country" class="select2 form-select">
-                <option value="">{% translate "Select" %}</option>
-                <option value="Afghanistan">{% translate "Afghanistan" %}</option>
-                <option value="Albania">{% translate "Albania" %}</option>
-                <option value="Algeria">{% translate "Algeria" %}</option>
-                <option value="Andorra">{% translate "Andorra" %}</option>
-                <option value="Angola">{% translate "Angola" %}</option>
-                <option value="Antigua and Barbuda">{% translate "Antigua and Barbuda" %}</option>
-                <option value="Argentina">{% translate "Argentina" %}</option>
-                <option value="Armenia">{% translate "Armenia" %}</option>
-                <option value="Australia">{% translate "Australia" %}</option>
-                <option value="Austria">{% translate "Austria" %}</option>
-                <option value="Azerbaijan">{% translate "Azerbaijan" %}</option>
-                <option value="The Bahamas">{% translate "The Bahamas" %}</option>
-                <option value="Bahrain">{% translate "Bahrain" %}</option>
-                <option value="Bangladesh">{% translate "Bangladesh" %}</option>
-                <option value="Barbados">{% translate "Barbados" %}</option>
-                <option value="Belarus">{% translate "Belarus" %}</option>
-                <option value="Belgium">{% translate "Belgium" %}</option>
-                <option value="Belize">{% translate "Belize" %}</option>
-                <option value="Benin">{% translate "Benin" %}</option>
-                <option value="Bhutan">{% translate "Bhutan" %}</option>
-                <option value="Bolivia">{% translate "Bolivia" %}</option>
-                <option value="Bosnia and Herzegovina">{% translate "Bosnia and Herzegovina" %}</option>
-                <option value="Botswana">{% translate "Botswana" %}</option>
-                <option value="Brazil">{% translate "Brazil" %}</option>
-                <option value="Brunei">{% translate "Brunei" %}</option>
-                <option value="Bulgaria">{% translate "Bulgaria" %}</option>
-                <option value="Burkina Faso">{% translate "Burkina Faso" %}</option>
-                <option value="Burundi">{% translate "Burundi" %}</option>
-                <option value="Cabo Verde">{% translate "Cabo Verde" %}</option>
-                <option value="Cambodia">{% translate "Cambodia" %}</option>
-                <option value="Cameroon">{% translate "Cameroon" %}</option>
-                <option value="Canada">{% translate "Canada" %}</option>
-                <option value="Central African Republic">{% translate "Central African Republic" %}</option>
-                <option value="Chad">{% translate "Chad" %}</option>
-                <option value="Chile">{% translate "Chile" %}</option>
-                <option value="China">{% translate "China" %}</option>
-                <option value="Colombia">{% translate "Colombia" %}</option>
-                <option value="Comoros">{% translate "Comoros" %}</option>
-                <option value="Congo, Democratic Republic of the">{% translate "Congo, Democratic Republic of the" %}</option>
-                <option value="Congo, Republic of the">{% translate "Congo, Republic of the" %}</option>
-                <option value="Costa Rica">{% translate "Costa Rica" %}</option>
-                <option value="Côte d’Ivoire">{% translate "Côte d’Ivoire" %}</option>
-                <option value="Croatia">{% translate "Croatia" %}</option>
-                <option value="Cuba">{% translate "Cuba" %}</option>
-                <option value="Cyprus">{% translate "Cyprus" %}</option>
-                <option value="Czech Republic">{% translate "Czech Republic" %}</option>
-                <option value="Denmark">{% translate "Denmark" %}</option>
-                <option value="Djibouti">{% translate "Djibouti" %}</option>
-                <option value="Dominica">{% translate "Dominica" %}</option>
-                <option value="Dominican Republic">{% translate "Dominican Republic" %}</option>
-                <option value="East Timor">{% translate "East Timor" %}</option>
-                <option value="Ecuador">{% translate "Ecuador" %}</option>
-                <option value="Egypt">{% translate "Egypt" %}</option>
-                <option value="El Salvador">{% translate "El Salvador" %}</option>
-                <option value="Equatorial Guinea">{% translate "Equatorial Guinea" %}</option>
-                <option value="Eritrea">{% translate "Eritrea" %}</option>  
-                <option value="Estonia">{% translate "Estonia" %}</option>
-                <option value="Eswatini">{% translate "Eswatini" %}</option>  
-                <option value="Ethiopia">{% translate "Ethiopia" %}</option>  
-                <option value="Fiji">{% translate "Fiji" %}</option>
-                <option value="Finland">{% translate "Finland" %}</option>  
-                <option value="France">{% translate "France" %}</option>
-                <option value="Gabon">{% translate "Gabon" %}</option>
-                <option value="The Gambia">{% translate "The Gambia" %}</option>
-                <option value="Georgia">{% translate "Georgia" %}</option>
-                <option value="Germany">{% translate "Germany" %}</option>
-                <option value="Ghana">{% translate "Ghana" %}</option>
-                <option value="Greece">{% translate "Greece" %}</option> 
-                <option value="Grenada">{% translate "Grenada" %}</option>
-                <option value="Guatemala">{% translate "Guatemala" %}</option>  
-                <option value="Guinea">{% translate "Guinea" %}</option>  
-                <option value="Guinea-Bissau">{% translate "Guinea-Bissau" %}</option>  
-                <option value="Guyana">{% translate "Guyana" %}</option>  
-                <option value="Haiti">{% translate "Haiti" %}</option>  
-                <option value="Honduras">{% translate "Honduras" %}</option>  
-                <option value="Hungary">{% translate "Hungary" %}</option>
-                <option value="Iceland">{% translate "Iceland" %}</option>  
-                <option value="India">{% translate "India" %}</option>
-                <option value="Indonesia">{% translate "Indonesia" %}</option>
-                <option value="Iran">{% translate "Iran" %}</option>
-                <option value="Iraq">{% translate "Iraq" %}</option>
-                <option value="Ireland">{% translate "Ireland" %}</option>  
-                <option value="Israel">{% translate "Israel" %}</option>
-                <option value="Italy">{% translate "Italy" %}</option>
-                <option value="Jamaica">{% translate "Jamaica" %}</option>  
-                <option value="Japan">{% translate "Japan" %}</option>
-                <option value="Jordan">{% translate "Jordan" %}</option>
-                <option value="Kazakhstan">{% translate "Kazakhstan" %}</option>
-                <option value="Kenya">{% translate "Kenya" %}</option>
-                <option value="Kiribati">{% translate "Kiribati" %}</option>
-                <option value="Korea, North">{% translate "Korea, North" %}</option>  
-                <option value="Korea, South">{% translate "Korea, South" %}</option>  
-                <option value="Kosovo">{% translate "Kosovo" %}</option>
-                <option value="Kuwait">{% translate "Kuwait" %}</option>
-                <option value="Kyrgyzstan">{% translate "Kyrgyzstan" %}</option>  
-                <option value="Laos">{% translate "Laos" %}</option>
-                <option value="Latvia">{% translate "Latvia" %}</option>  
-                <option value="Lebanon">{% translate "Lebanon" %}</option>  
-                <option value="Lesotho">{% translate "Lesotho" %}</option>
-                <option value="Liberia">{% translate "Liberia" %}</option>  
-                <option value="Libya">{% translate "Libya" %}</option>
-                <option value="Liechtenstein">{% translate "Liechtenstein" %}</option>  
-                <option value="Lithuania">{% translate "Lithuania" %}</option>
-                <option value="Luxembourg">{% translate "Luxembourg" %}</option>
-                <option value="Madagascar">{% translate "Madagascar" %}</option>
-                <option value="Malawi">{% translate "Malawi" %}</option>  
-                <option value="Malaysia">{% translate "Malaysia" %}</option>  
-                <option value="Maldives">{% translate "Maldives" %}</option> 
-                <option value="Mali">{% translate "Mali" %}</option>
-                <option value="Malta">{% translate "Malta" %}</option>  
-                <option value="Marshall Islands">{% translate "Marshall Islands" %}</option>  
-                <option value="Mauritania">{% translate "Mauritania" %}</option>
-                <option value="Mauritius">{% translate "Mauritius" %}</option>
-                <option value="Mexico">{% translate "Mexico" %}</option>
-                <option value="Micronesia, Federated States of">{% translate "Micronesia, Federated States of" %}</option>
-                <option value="Moldova">{% translate "Moldova" %}</option>
-                <option value="Monaco">{% translate "Monaco" %}</option>  
-                <option value="Mongolia">{% translate "Mongolia" %}</option>  
-                <option value="Montenegro">{% translate "Montenegro" %}</option>  
-                <option value="Morocco">{% translate "Morocco" %}</option>
-                <option value="Mozambique">{% translate "Mozambique" %}</option>  
-                <option value="Myanmar">{% translate "Myanmar" %}</option>  
-                <option value="Namibia">{% translate "Namibia" %}</option>
-                <option value="Nauru">{% translate "Nauru" %}</option>
-                <option value="Nepal">{% translate "Nepal" %}</option>  
-                <option value="Netherlands">{% translate "Netherlands" %}</option>  
-                <option value="New Zealand">{% translate "New Zealand" %}</option>
-                <option value="Nicaragua">{% translate "Nicaragua" %}</option>
-                <option value="Niger">{% translate "Niger" %}</option>  
-                <option value="Nigeria">{% translate "Nigeria" %}</option>
-                <option value="North Macedonia">{% translate "North Macedonia" %}</option>  
-                <option value="Norway">{% translate "Norway" %}</option>
-                <option value="Oman">{% translate "Oman" %}</option>
-                <option value="Pakistan">{% translate "Pakistan" %}</option>  
-                <option value="Palau">{% translate "Palau" %}</option>
-                <option value="Panama">{% translate "Panama" %}</option>
-                <option value="Papua New Guinea">{% translate "Papua New Guinea" %}</option>
-                <option value="Paraguay">{% translate "Paraguay" %}</option>
-                <option value="Peru">{% translate "Peru" %}</option>
-                <option value="Philippines">{% translate "Philippines" %}</option>                  
-                <option value="Poland">{% translate "Poland" %}</option>
-                <option value="Portugal">{% translate "Portugal" %}</option>  
-                <option value="Qatar">{% translate "Qatar" %}</option>
-                <option value="Romania">{% translate "Romania" %}</option>  
-                <option value="Russia">Russian Federation</option>
-                <option value="Rwanda">{% translate "Rwanda" %}</option>  
-                <option value="Saint Kitts and Nevis">{% translate "Saint Kitts and Nevis" %}</option>
-                <option value="Saint Lucia">{% translate "Saint Lucia" %}</option>  
-                <option value="Saint Vincent and the Grenadines">{% translate "Saint Vincent and the Grenadines" %}</option>  
-                <option value="Samoa">{% translate "Samoa" %}</option>
-                <option value="San Marino">{% translate "San Marino" %}</option>  
-                <option value="Sao Tome and Principe">{% translate "Sao Tome and Principe" %}</option> 
-                <option value="Saudi Arabia">{% translate "Saudi Arabia" %}</option>
-                <option value="Senegal">{% translate "Senegal" %}</option>  
-                <option value="Serbia">{% translate "Serbia" %}</option>  
-                <option value="Seychelles">{% translate "Seychelles" %}</option>  
-                <option value="Sierra Leone">{% translate "Sierra Leone" %}</option>
-                <option value="Singapore">{% translate "Singapore" %}</option>
-                <option value="Slovakia">{% translate "Slovakia" %}</option>  
-                <option value="Slovenia">{% translate "Slovenia" %}</option>
-                <option value="Solomon Islands">{% translate "Solomon Islands" %}</option>
-                <option value="Somalia">{% translate "Somalia" %}</option>
-                <option value="South Africa">{% translate "South Africa<" %}/option>
-                <option value="Spain">{% translate "Spain" %}</option>
-                <option value="Sri Lanka">{% translate "Sri Lanka" %}</option>
-                <option value="Sudan">{% translate "Sudan" %}</option>  
-                <option value="Sudan, South">{% translate "Sudan, South" %}</option> 
-                <option value="Suriname">{% translate "Suriname" %}</option>  
-                <option value="Sweden">{% translate "Sweden" %}</option>
-                <option value="Switzerland">{% translate "Switzerland" %}</option>  
-                <option value="Syria">{% translate "Syria" %}</option>
-                <option value="Taiwan">{% translate "Taiwan" %}</option>  
-                <option value="Tajikistan">{% translate "Tajikistan" %}</option>  
-                <option value="Tanzania">{% translate "Tanzania" %}</option>
-                <option value="Thailand">Thailand</option>
-                <option value="Togo">{% translate "Togo" %}</option>  
-                <option value="Tonga">{% translate "Tonga" %}</option>
-                <option value="Trinidad and Tobago">{% translate "Trinidad and Tobago" %}</option>
-                <option value="Tunisia">{% translate "Tunisia" %}</option>  
-                <option value="Turkey">{% translate "Turkey" %}</option>
-                <option value="Turkmenistan">{% translate "Turkmenistan" %}</option>  
-                <option value="Tuvalu">{% translate "Tuvalu" %}</option>  
-                <option value="Uganda">{% translate "Uganda" %}</option>
-                <option value="Ukraine">{% translate "Ukraine" %}</option>
-                <option value="United Arab Emirates">{% translate "United Arab Emirates" %}</option>
-                <option value="United Kingdom">{% translate "United Kingdom" %}</option>
-                <option value="United States">{% translate "United States" %}</option>
-                <option value="Uruguay">{% translate "Uruguay" %}</option>
-                <option value="Uzbekistan">{% translate "Uzbekistan" %}</option>
-                <option value="Vanuatu">{% translate "Vanuatu" %}</option>
-                <option value="Vatican City">{% translate "Vatican City" %}</option>
-                <option value="Venezuela">{% translate "Venezuela" %}</option>
-                <option value="Vietnam">{% translate "Vietnam" %}</option>  
-                <option value="Yemen">{% translate "Yemen" %}</option>
-                <option value="Zambia">{% translate "Zambia" %}</option>
-                <option value="Zimbabwe">{% translate "Zimbabwe" %}</option>
-              </select>
-            </div>
-            <div class="col-md-6">
-              <label for="language" class="form-label">Language</label>
-              <select id="language" class="select2 form-select">
-                <option value="">{% translate "Select Language" %}</option>
-                <option value="pt-br">{% translate "Brazilian Portuguese" %}</option>  
-                <option value="bg">{% translate "Bulgarian" %}</option>
-                <option value="cz">{% translate "Czech" %}</option>
-                <option value="da">{% translate "Danish" %}</option>
-                <option value="nl">{% translate "Dutch" %}</option>  
-                <option value="en">{% translate "English" %}</option>
-                <option value="et">{% translate "Estonian" %}</option>  
-                <option value="fi">{% translate "Finnish" %}</option>  
-                <option value="fr">{% translate "French" %}</option>
-                <option value="de">{% translate "German" %}</option>
-                <option value="el">{% translate "Greek" %}</option>
-                <option value="hu">{% translate "Hungarian" %}</option> 
-                <option value="id">{% translate "Indonesian" %}</option>
-                <option value="it">{% translate "Italian" %}</option>
-                <option value="ja">{% translate "Japanese" %}</option>
-                <option value="ko">{% translate "Korean" %}</option>
-                <option value="lv">{% translate "Latvian" %}</option>  
-                <option value="lt">{% translate "Lithuanian" %}</option>  
-                <option value="nb">{% translate "Norwegian Bokmål" %}</option>
-                <option value="nn">{% translate "Norwegian Nynorsk" %}</option>
-                <option value="pl">{% translate "Polish" %}</option>  
-                <option value="pt">{% translate "Portuguese" %}</option>
-                <option value="ro">{% translate "Romanian" %}</option>
-                <option value="ru">{% translate "Russian" %}</option>
-                <option value="sk">{% translate "Slovak" %}</option>
-                <option value="sl">{% translate "Slovenian" %}</option> 
-                <option value="sv">{% translate "Swedish" %}</option>  
-                <option value="es">{% translate "Spanish" %}</option> 
-                <option value="tr">{% translate "Turkish" %}</option>  
-                <option value="uk">{% translate "Ukrainian" %}</option>
-                <option value="zh-hans">{% translate "Simplified Chinese" %}</option>
-                <option value="zh-hant">{% translate "Traditional Chinese" %}</option>  
-              </select>
-            </div>
-            <div class="col-md-6">
-              <label for="timeZones" class="form-label">{% translate "Timezone" %}</label>
-              <select id="timeZones" class="select2 form-select">
-                <option value="">{% translate "Select Timezone" %}</option>
-                <option value="-12.00">(UTC-12:00)</option>
-                <option value="-11.00">(UTC-11:00)</option>
-                <option value="-10.00">(UTC-10:00)</option>
-                <option value="-09.50">(UTC-09/30</option>  
-                <option value="-09.00">(UTC-09:00)</option>
-                <option value="-08.00">(UTC-08:00)</option>
-                <option value="-07.00">(UTC-07:00)</option>
-                <option value="-06.00">(UTC-06:00)</option>
-                <option value="-05.00">(UTC-05:00)</option>
-                <option value="-04.00">(UTC-04:00)</option>
-                <option value="-03.50">(UTC-03:30)</option>
-                <option value="-03.00">(UTC-03:00)</option>
-                <option value="-02.00">(UTC-02:00)</option>
-                <option value="-01.00">(UTC-01:00)</option>
-                <option value="+00.00">(UTC+00:00)</option>
-                <option value="+01.00">(UTC+01:00)</option>
-                <option value="+02.00">(UTC+02:00)</option>
-                <option value="-03:00">(UTC-03:00)</option>
-                <option value="+03:30">(UTC+03:30)</option>
-                <option value="+04:00">(UTC+04:00)</option>
-                <option value="+04:30">(UTC-04:30)</option>
-                <option value="+05:00">(UTC+05:00)</option>
-                <option value="+05:30">(UTC+05:00)</option>
-                <option value="+05:45">(UTC+05:45)</option>
-                <option value="+06:00">(UTC+06:00)</option>
-                <option value="+06:30">(UTC+06:30)</option>
-                <option value="+07:00">(UTC+07:00)</option>
-                <option value="+08:00">(UTC+08:00)</option>
-                <option value="+08:45">(UTC+08:45)</option>
-                <option value="+09:00">(UTC+09:00)</option>
-                <option value="+09:30">(UTC+09:30)</option>
-                <option value="+10:00">(UTC+10:00)</option>
-                <option value="+10:30">(UTC+10:30)</option>
-                <option value="+11:00">(UTC+11:00)</option>
-                <option value="+12:00">(UTC+12:00)</option>
-                <option value="+12:45">(UTC+12:45)</option>
-                <option value="+13:00">(UTC+13:00)</option>
-                <option value="+14:00">(UTC+14:00)</option>  
-              </select>
-            </div>
-            <div class="col-md-6">
-              <label for="currency" class="form-label">{% translate "Currency" %}</label>
-              <select id="currency" class="select2 form-select">
-                <option value="">{% translate "Select Currency" %}</option>
-                <option value="usd">USD</option>
-                <option value="euro">Euro</option>
-                <option value="pound">Pound</option>
-                <option value="bitcoin">Bitcoin</option>
-              </select>
-            </div>
-          </div>
-          <div class="mt-6">
-            <button type="submit" class="btn btn-primary me-3">{% translate "Save changes" %}</button>
-            <button type="reset" class="btn btn-label-secondary">{% translate "Cancel" %}</button>
-          </div>
-        </form>
-      </div>
-      <!-- /Account -->
-    </div>
-    <div class="card">
-      <h5 class="card-header">{% translate "Delete Account" %}</h5>
-      <div class="card-body">
-        <div class="mb-6 col-12 mb-0">
-          <div class="alert alert-warning">
-            <h5 class="alert-heading mb-1">{% translate "Are you sure you want to delete your account?" %}</h5>
-            <p class="mb-0">{% translate "Once you delete your account, there is no going back. Please be certain." %}</p>
-          </div>
-        </div>
-        <form id="formAccountDeactivation" onsubmit="return false">
-          <div class="form-check my-8 ms-2">
-            <input class="form-check-input" type="checkbox" name="accountActivation" id="accountActivation" />
-            <label class="form-check-label" for="accountActivation">{% translate "I confirm my account deactivation" %}</label>
-          </div>
-          <button type="submit" class="btn btn-danger deactivate-account" disabled>{% translate "Deactivate Account" %}</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+{% block title %}
+    {% translate "Account settings - Account" %}
 {% endblock %}
+{% block vendor_css %}
+    {{ block.super }}
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/select2/select2.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/@form-validation/form-validation.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/animate-css/animate.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/sweetalert2/sweetalert2.css' %}" />
+{% endblock vendor_css %}
+{% block vendor_js %}
+    {{ block.super }}
+    <script src="{% static 'vendor/libs/select2/select2.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/popular.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/bootstrap5.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/auto-focus.js' %}"></script>
+    <script src="{% static 'vendor/libs/cleavejs/cleave.js' %}"></script>
+    <script src="{% static 'vendor/libs/cleavejs/cleave-phone.js' %}"></script>
+    <script src="{% static 'vendor/libs/sweetalert2/sweetalert2.js' %}"></script>
+{% endblock vendor_js %}
+{% block page_js %}
+    {{ block.super }}
+    <script src="{% static 'js/pages-account-settings-account.js' %}"></script>
+{% endblock page_js %}
+{% block content %}
+    <div class="row">
+        <div class="col-md-12">
+            <div class="nav-align-top">
+                <ul class="nav nav-pills flex-column flex-md-row mb-6">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-sm bx-user me-1_5"></i> {% translate "Account" %}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="{% url 'pages:pages-account-settings-security' %}"><i class="bx bx-sm bx-lock-alt me-1_5"></i> Security</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="{% url 'pages:pages-account-settings-notifications' %}"><i class="bx bx-sm bx-bell me-1_5"></i> Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="{% url 'pages:pages-account-settings-connections' %}"><i class="bx bx-sm bx-link-alt me-1_5"></i> Connections</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card mb-6">
+                <!-- Account -->
+                <div class="card-body">
+                    <div class="d-flex align-items-start align-items-sm-center gap-6 pb-4 border-bottom">
+                        {% if request.user|has_group:"admin" %}
+                            <img src="{% static 'img/avatars/1.png' %}"
+                                 alt="user-avatar"
+                                 class="d-block w-px-100 h-px-100 rounded"
+                                 id="uploadedAvatar" />
+                        {% else %}
+                            <img src="{% static 'img/avatars/3.png' %}"
+                                 alt="user-avatar"
+                                 class="d-block w-px-100 h-px-100 rounded"
+                                 id="uploadedAvatar" />
+                        {% endif %}
+                        <div class="button-wrapper">
+                            <label for="upload" class="btn btn-primary me-3 mb-4" tabindex="0">
+                                <span class="d-none d-sm-block">{% translate "Upload new photo" %}</span>
+                                <i class="bx bx-upload d-block d-sm-none"></i>
+                                <input type="file"
+                                       id="upload"
+                                       class="account-file-input"
+                                       hidden
+                                       accept="image/png, image/jpeg" />
+                            </label>
+                            <button type="button"
+                                    class="btn btn-label-secondary account-image-reset mb-4">
+                                <i class="bx bx-reset d-block d-sm-none"></i>
+                                <span class="d-none d-sm-block">{% translate "Reset" %}</span>
+                            </button>
+                            <div>{% translate "Allowed JPG, GIF or PNG. Max size of 800K" %}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body pt-4">
+                    <form id="formAccountSettings" method="GET" onsubmit="return false">
+                        <div class="row g-6">
+                            <div class="col-md-6">
+                                <label for="firstName" class="form-label">{% translate "First Name" %}</label>
+                                <input class="form-control"
+                                       type="text"
+                                       id="firstName"
+                                       name="firstName"
+                                       value="{{ request.user.username| capfirst }}"
+                                       autofocus />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastName" class="form-label">{% translate "Last Name" %}</label>
+                                <input class="form-control"
+                                       type="text"
+                                       name="lastName"
+                                       id="lastName"
+                                       value="Doe" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">{% translate "E-mail" %}</label>
+                                <input class="form-control"
+                                       type="text"
+                                       id="email"
+                                       name="email"
+                                       value="{{ request.user.email }}"
+                                       placeholder="john.doe@example.com" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="organization" class="form-label">{% translate "Organization" %}</label>
+                                <input type="text"
+                                       class="form-control"
+                                       id="organization"
+                                       name="organization"
+                                       value="{% get_theme_variables 'creator_name' %}" />
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="phoneNumber">{% translate "Phone Number" %}</label>
+                                <div class="input-group input-group-merge">
+                                    <span class="input-group-text">US (+1)</span>
+                                    <input type="text"
+                                           id="phoneNumber"
+                                           name="phoneNumber"
+                                           class="form-control"
+                                           placeholder="202 555 0111" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="address" class="form-label">{% translate "Address" %}</label>
+                                <input type="text"
+                                       class="form-control"
+                                       id="address"
+                                       name="address"
+                                       placeholder="Address" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="state" class="form-label">{% translate "State" %}</label>
+                                <input class="form-control"
+                                       type="text"
+                                       id="state"
+                                       name="state"
+                                       placeholder="California" />
+                            </div>
+                            <div class="col-md-6">
+                                <label for="zipCode" class="form-label">{% translate "Zip Code" %}</label>
+                                <input type="text"
+                                       class="form-control"
+                                       id="zipCode"
+                                       name="zipCode"
+                                       placeholder="231465"
+                                       maxlength="6" />
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label" for="country">{% translate "Country" %}</label>
+                                <select id="country" class="select2 form-select">
+                                    <option value="">{% translate "Select" %}</option>
+                                    <option value="Afghanistan">{% translate "Afghanistan" %}</option>
+                                    <option value="Albania">{% translate "Albania" %}</option>
+                                    <option value="Algeria">{% translate "Algeria" %}</option>
+                                    <option value="Andorra">{% translate "Andorra" %}</option>
+                                    <option value="Angola">{% translate "Angola" %}</option>
+                                    <option value="Antigua and Barbuda">{% translate "Antigua and Barbuda" %}</option>
+                                    <option value="Argentina">{% translate "Argentina" %}</option>
+                                    <option value="Armenia">{% translate "Armenia" %}</option>
+                                    <option value="Australia">{% translate "Australia" %}</option>
+                                    <option value="Austria">{% translate "Austria" %}</option>
+                                    <option value="Azerbaijan">{% translate "Azerbaijan" %}</option>
+                                    <option value="The Bahamas">{% translate "The Bahamas" %}</option>
+                                    <option value="Bahrain">{% translate "Bahrain" %}</option>
+                                    <option value="Bangladesh">{% translate "Bangladesh" %}</option>
+                                    <option value="Barbados">{% translate "Barbados" %}</option>
+                                    <option value="Belarus">{% translate "Belarus" %}</option>
+                                    <option value="Belgium">{% translate "Belgium" %}</option>
+                                    <option value="Belize">{% translate "Belize" %}</option>
+                                    <option value="Benin">{% translate "Benin" %}</option>
+                                    <option value="Bhutan">{% translate "Bhutan" %}</option>
+                                    <option value="Bolivia">{% translate "Bolivia" %}</option>
+                                    <option value="Bosnia and Herzegovina">{% translate "Bosnia and Herzegovina" %}</option>
+                                    <option value="Botswana">{% translate "Botswana" %}</option>
+                                    <option value="Brazil">{% translate "Brazil" %}</option>
+                                    <option value="Brunei">{% translate "Brunei" %}</option>
+                                    <option value="Bulgaria">{% translate "Bulgaria" %}</option>
+                                    <option value="Burkina Faso">{% translate "Burkina Faso" %}</option>
+                                    <option value="Burundi">{% translate "Burundi" %}</option>
+                                    <option value="Cabo Verde">{% translate "Cabo Verde" %}</option>
+                                    <option value="Cambodia">{% translate "Cambodia" %}</option>
+                                    <option value="Cameroon">{% translate "Cameroon" %}</option>
+                                    <option value="Canada">{% translate "Canada" %}</option>
+                                    <option value="Central African Republic">{% translate "Central African Republic" %}</option>
+                                    <option value="Chad">{% translate "Chad" %}</option>
+                                    <option value="Chile">{% translate "Chile" %}</option>
+                                    <option value="China">{% translate "China" %}</option>
+                                    <option value="Colombia">{% translate "Colombia" %}</option>
+                                    <option value="Comoros">{% translate "Comoros" %}</option>
+                                    <option value="Congo, Democratic Republic of the">{% translate "Congo, Democratic Republic of the" %}</option>
+                                    <option value="Congo, Republic of the">{% translate "Congo, Republic of the" %}</option>
+                                    <option value="Costa Rica">{% translate "Costa Rica" %}</option>
+                                    <option value="Côte d’Ivoire">{% translate "Côte d’Ivoire" %}</option>
+                                    <option value="Croatia">{% translate "Croatia" %}</option>
+                                    <option value="Cuba">{% translate "Cuba" %}</option>
+                                    <option value="Cyprus">{% translate "Cyprus" %}</option>
+                                    <option value="Czech Republic">{% translate "Czech Republic" %}</option>
+                                    <option value="Denmark">{% translate "Denmark" %}</option>
+                                    <option value="Djibouti">{% translate "Djibouti" %}</option>
+                                    <option value="Dominica">{% translate "Dominica" %}</option>
+                                    <option value="Dominican Republic">{% translate "Dominican Republic" %}</option>
+                                    <option value="East Timor">{% translate "East Timor" %}</option>
+                                    <option value="Ecuador">{% translate "Ecuador" %}</option>
+                                    <option value="Egypt">{% translate "Egypt" %}</option>
+                                    <option value="El Salvador">{% translate "El Salvador" %}</option>
+                                    <option value="Equatorial Guinea">{% translate "Equatorial Guinea" %}</option>
+                                    <option value="Eritrea">{% translate "Eritrea" %}</option>
+                                    <option value="Estonia">{% translate "Estonia" %}</option>
+                                    <option value="Eswatini">{% translate "Eswatini" %}</option>
+                                    <option value="Ethiopia">{% translate "Ethiopia" %}</option>
+                                    <option value="Fiji">{% translate "Fiji" %}</option>
+                                    <option value="Finland">{% translate "Finland" %}</option>
+                                    <option value="France">{% translate "France" %}</option>
+                                    <option value="Gabon">{% translate "Gabon" %}</option>
+                                    <option value="The Gambia">{% translate "The Gambia" %}</option>
+                                    <option value="Georgia">{% translate "Georgia" %}</option>
+                                    <option value="Germany">{% translate "Germany" %}</option>
+                                    <option value="Ghana">{% translate "Ghana" %}</option>
+                                    <option value="Greece">{% translate "Greece" %}</option>
+                                    <option value="Grenada">{% translate "Grenada" %}</option>
+                                    <option value="Guatemala">{% translate "Guatemala" %}</option>
+                                    <option value="Guinea">{% translate "Guinea" %}</option>
+                                    <option value="Guinea-Bissau">{% translate "Guinea-Bissau" %}</option>
+                                    <option value="Guyana">{% translate "Guyana" %}</option>
+                                    <option value="Haiti">{% translate "Haiti" %}</option>
+                                    <option value="Honduras">{% translate "Honduras" %}</option>
+                                    <option value="Hungary">{% translate "Hungary" %}</option>
+                                    <option value="Iceland">{% translate "Iceland" %}</option>
+                                    <option value="India">{% translate "India" %}</option>
+                                    <option value="Indonesia">{% translate "Indonesia" %}</option>
+                                    <option value="Iran">{% translate "Iran" %}</option>
+                                    <option value="Iraq">{% translate "Iraq" %}</option>
+                                    <option value="Ireland">{% translate "Ireland" %}</option>
+                                    <option value="Israel">{% translate "Israel" %}</option>
+                                    <option value="Italy">{% translate "Italy" %}</option>
+                                    <option value="Jamaica">{% translate "Jamaica" %}</option>
+                                    <option value="Japan">{% translate "Japan" %}</option>
+                                    <option value="Jordan">{% translate "Jordan" %}</option>
+                                    <option value="Kazakhstan">{% translate "Kazakhstan" %}</option>
+                                    <option value="Kenya">{% translate "Kenya" %}</option>
+                                    <option value="Kiribati">{% translate "Kiribati" %}</option>
+                                    <option value="Korea, North">{% translate "Korea, North" %}</option>
+                                    <option value="Korea, South">{% translate "Korea, South" %}</option>
+                                    <option value="Kosovo">{% translate "Kosovo" %}</option>
+                                    <option value="Kuwait">{% translate "Kuwait" %}</option>
+                                    <option value="Kyrgyzstan">{% translate "Kyrgyzstan" %}</option>
+                                    <option value="Laos">{% translate "Laos" %}</option>
+                                    <option value="Latvia">{% translate "Latvia" %}</option>
+                                    <option value="Lebanon">{% translate "Lebanon" %}</option>
+                                    <option value="Lesotho">{% translate "Lesotho" %}</option>
+                                    <option value="Liberia">{% translate "Liberia" %}</option>
+                                    <option value="Libya">{% translate "Libya" %}</option>
+                                    <option value="Liechtenstein">{% translate "Liechtenstein" %}</option>
+                                    <option value="Lithuania">{% translate "Lithuania" %}</option>
+                                    <option value="Luxembourg">{% translate "Luxembourg" %}</option>
+                                    <option value="Madagascar">{% translate "Madagascar" %}</option>
+                                    <option value="Malawi">{% translate "Malawi" %}</option>
+                                    <option value="Malaysia">{% translate "Malaysia" %}</option>
+                                    <option value="Maldives">{% translate "Maldives" %}</option>
+                                    <option value="Mali">{% translate "Mali" %}</option>
+                                    <option value="Malta">{% translate "Malta" %}</option>
+                                    <option value="Marshall Islands">{% translate "Marshall Islands" %}</option>
+                                    <option value="Mauritania">{% translate "Mauritania" %}</option>
+                                    <option value="Mauritius">{% translate "Mauritius" %}</option>
+                                    <option value="Mexico">{% translate "Mexico" %}</option>
+                                    <option value="Micronesia, Federated States of">{% translate "Micronesia, Federated States of" %}</option>
+                                    <option value="Moldova">{% translate "Moldova" %}</option>
+                                    <option value="Monaco">{% translate "Monaco" %}</option>
+                                    <option value="Mongolia">{% translate "Mongolia" %}</option>
+                                    <option value="Montenegro">{% translate "Montenegro" %}</option>
+                                    <option value="Morocco">{% translate "Morocco" %}</option>
+                                    <option value="Mozambique">{% translate "Mozambique" %}</option>
+                                    <option value="Myanmar">{% translate "Myanmar" %}</option>
+                                    <option value="Namibia">{% translate "Namibia" %}</option>
+                                    <option value="Nauru">{% translate "Nauru" %}</option>
+                                    <option value="Nepal">{% translate "Nepal" %}</option>
+                                    <option value="Netherlands">{% translate "Netherlands" %}</option>
+                                    <option value="New Zealand">{% translate "New Zealand" %}</option>
+                                    <option value="Nicaragua">{% translate "Nicaragua" %}</option>
+                                    <option value="Niger">{% translate "Niger" %}</option>
+                                    <option value="Nigeria">{% translate "Nigeria" %}</option>
+                                    <option value="North Macedonia">{% translate "North Macedonia" %}</option>
+                                    <option value="Norway">{% translate "Norway" %}</option>
+                                    <option value="Oman">{% translate "Oman" %}</option>
+                                    <option value="Pakistan">{% translate "Pakistan" %}</option>
+                                    <option value="Palau">{% translate "Palau" %}</option>
+                                    <option value="Panama">{% translate "Panama" %}</option>
+                                    <option value="Papua New Guinea">{% translate "Papua New Guinea" %}</option>
+                                    <option value="Paraguay">{% translate "Paraguay" %}</option>
+                                    <option value="Peru">{% translate "Peru" %}</option>
+                                    <option value="Philippines">{% translate "Philippines" %}</option>
+                                    <option value="Poland">{% translate "Poland" %}</option>
+                                    <option value="Portugal">{% translate "Portugal" %}</option>
+                                    <option value="Qatar">{% translate "Qatar" %}</option>
+                                    <option value="Romania">{% translate "Romania" %}</option>
+                                    <option value="Russia">Russian Federation</option>
+                                    <option value="Rwanda">{% translate "Rwanda" %}</option>
+                                    <option value="Saint Kitts and Nevis">{% translate "Saint Kitts and Nevis" %}</option>
+                                    <option value="Saint Lucia">{% translate "Saint Lucia" %}</option>
+                                    <option value="Saint Vincent and the Grenadines">{% translate "Saint Vincent and the Grenadines" %}</option>
+                                    <option value="Samoa">{% translate "Samoa" %}</option>
+                                    <option value="San Marino">{% translate "San Marino" %}</option>
+                                    <option value="Sao Tome and Principe">{% translate "Sao Tome and Principe" %}</option>
+                                    <option value="Saudi Arabia">{% translate "Saudi Arabia" %}</option>
+                                    <option value="Senegal">{% translate "Senegal" %}</option>
+                                    <option value="Serbia">{% translate "Serbia" %}</option>
+                                    <option value="Seychelles">{% translate "Seychelles" %}</option>
+                                    <option value="Sierra Leone">{% translate "Sierra Leone" %}</option>
+                                    <option value="Singapore">{% translate "Singapore" %}</option>
+                                    <option value="Slovakia">{% translate "Slovakia" %}</option>
+                                    <option value="Slovenia">{% translate "Slovenia" %}</option>
+                                    <option value="Solomon Islands">{% translate "Solomon Islands" %}</option>
+                                    <option value="Somalia">{% translate "Somalia" %}</option>
+                                    <option value="South Africa">
+                                        {% translate "South Africa<" %}/option>
+                                        <option value="Spain">{% translate "Spain" %}</option>
+                                        <option value="Sri Lanka">{% translate "Sri Lanka" %}</option>
+                                        <option value="Sudan">{% translate "Sudan" %}</option>
+                                        <option value="Sudan, South">{% translate "Sudan, South" %}</option>
+                                        <option value="Suriname">{% translate "Suriname" %}</option>
+                                        <option value="Sweden">{% translate "Sweden" %}</option>
+                                        <option value="Switzerland">{% translate "Switzerland" %}</option>
+                                        <option value="Syria">{% translate "Syria" %}</option>
+                                        <option value="Taiwan">{% translate "Taiwan" %}</option>
+                                        <option value="Tajikistan">{% translate "Tajikistan" %}</option>
+                                        <option value="Tanzania">{% translate "Tanzania" %}</option>
+                                        <option value="Thailand">Thailand</option>
+                                        <option value="Togo">{% translate "Togo" %}</option>
+                                        <option value="Tonga">{% translate "Tonga" %}</option>
+                                        <option value="Trinidad and Tobago">{% translate "Trinidad and Tobago" %}</option>
+                                        <option value="Tunisia">{% translate "Tunisia" %}</option>
+                                        <option value="Turkey">{% translate "Turkey" %}</option>
+                                        <option value="Turkmenistan">{% translate "Turkmenistan" %}</option>
+                                        <option value="Tuvalu">{% translate "Tuvalu" %}</option>
+                                        <option value="Uganda">{% translate "Uganda" %}</option>
+                                        <option value="Ukraine">{% translate "Ukraine" %}</option>
+                                        <option value="United Arab Emirates">{% translate "United Arab Emirates" %}</option>
+                                        <option value="United Kingdom">{% translate "United Kingdom" %}</option>
+                                        <option value="United States">{% translate "United States" %}</option>
+                                        <option value="Uruguay">{% translate "Uruguay" %}</option>
+                                        <option value="Uzbekistan">{% translate "Uzbekistan" %}</option>
+                                        <option value="Vanuatu">{% translate "Vanuatu" %}</option>
+                                        <option value="Vatican City">{% translate "Vatican City" %}</option>
+                                        <option value="Venezuela">{% translate "Venezuela" %}</option>
+                                        <option value="Vietnam">{% translate "Vietnam" %}</option>
+                                        <option value="Yemen">{% translate "Yemen" %}</option>
+                                        <option value="Zambia">{% translate "Zambia" %}</option>
+                                        <option value="Zimbabwe">{% translate "Zimbabwe" %}</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="language" class="form-label">Language</label>
+                                    <select id="language" class="select2 form-select">
+                                        <option value="">{% translate "Select Language" %}</option>
+                                        <option value="pt-br">{% translate "Brazilian Portuguese" %}</option>
+                                        <option value="bg">{% translate "Bulgarian" %}</option>
+                                        <option value="cz">{% translate "Czech" %}</option>
+                                        <option value="da">{% translate "Danish" %}</option>
+                                        <option value="nl">{% translate "Dutch" %}</option>
+                                        <option value="en">{% translate "English" %}</option>
+                                        <option value="et">{% translate "Estonian" %}</option>
+                                        <option value="fi">{% translate "Finnish" %}</option>
+                                        <option value="fr">{% translate "French" %}</option>
+                                        <option value="de">{% translate "German" %}</option>
+                                        <option value="el">{% translate "Greek" %}</option>
+                                        <option value="hu">{% translate "Hungarian" %}</option>
+                                        <option value="id">{% translate "Indonesian" %}</option>
+                                        <option value="it">{% translate "Italian" %}</option>
+                                        <option value="ja">{% translate "Japanese" %}</option>
+                                        <option value="ko">{% translate "Korean" %}</option>
+                                        <option value="lv">{% translate "Latvian" %}</option>
+                                        <option value="lt">{% translate "Lithuanian" %}</option>
+                                        <option value="nb">{% translate "Norwegian Bokmål" %}</option>
+                                        <option value="nn">{% translate "Norwegian Nynorsk" %}</option>
+                                        <option value="pl">{% translate "Polish" %}</option>
+                                        <option value="pt">{% translate "Portuguese" %}</option>
+                                        <option value="ro">{% translate "Romanian" %}</option>
+                                        <option value="ru">{% translate "Russian" %}</option>
+                                        <option value="sk">{% translate "Slovak" %}</option>
+                                        <option value="sl">{% translate "Slovenian" %}</option>
+                                        <option value="sv">{% translate "Swedish" %}</option>
+                                        <option value="es">{% translate "Spanish" %}</option>
+                                        <option value="tr">{% translate "Turkish" %}</option>
+                                        <option value="uk">{% translate "Ukrainian" %}</option>
+                                        <option value="zh-hans">{% translate "Simplified Chinese" %}</option>
+                                        <option value="zh-hant">{% translate "Traditional Chinese" %}</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="timeZones" class="form-label">{% translate "Timezone" %}</label>
+                                    <select id="timeZones" class="select2 form-select">
+                                        <option value="">{% translate "Select Timezone" %}</option>
+                                        <option value="-12.00">(UTC-12:00)</option>
+                                        <option value="-11.00">(UTC-11:00)</option>
+                                        <option value="-10.00">(UTC-10:00)</option>
+                                        <option value="-09.50">(UTC-09/30</option>
+                                        <option value="-09.00">(UTC-09:00)</option>
+                                        <option value="-08.00">(UTC-08:00)</option>
+                                        <option value="-07.00">(UTC-07:00)</option>
+                                        <option value="-06.00">(UTC-06:00)</option>
+                                        <option value="-05.00">(UTC-05:00)</option>
+                                        <option value="-04.00">(UTC-04:00)</option>
+                                        <option value="-03.50">(UTC-03:30)</option>
+                                        <option value="-03.00">(UTC-03:00)</option>
+                                        <option value="-02.00">(UTC-02:00)</option>
+                                        <option value="-01.00">(UTC-01:00)</option>
+                                        <option value="+00.00">(UTC+00:00)</option>
+                                        <option value="+01.00">(UTC+01:00)</option>
+                                        <option value="+02.00">(UTC+02:00)</option>
+                                        <option value="-03:00">(UTC-03:00)</option>
+                                        <option value="+03:30">(UTC+03:30)</option>
+                                        <option value="+04:00">(UTC+04:00)</option>
+                                        <option value="+04:30">(UTC-04:30)</option>
+                                        <option value="+05:00">(UTC+05:00)</option>
+                                        <option value="+05:30">(UTC+05:00)</option>
+                                        <option value="+05:45">(UTC+05:45)</option>
+                                        <option value="+06:00">(UTC+06:00)</option>
+                                        <option value="+06:30">(UTC+06:30)</option>
+                                        <option value="+07:00">(UTC+07:00)</option>
+                                        <option value="+08:00">(UTC+08:00)</option>
+                                        <option value="+08:45">(UTC+08:45)</option>
+                                        <option value="+09:00">(UTC+09:00)</option>
+                                        <option value="+09:30">(UTC+09:30)</option>
+                                        <option value="+10:00">(UTC+10:00)</option>
+                                        <option value="+10:30">(UTC+10:30)</option>
+                                        <option value="+11:00">(UTC+11:00)</option>
+                                        <option value="+12:00">(UTC+12:00)</option>
+                                        <option value="+12:45">(UTC+12:45)</option>
+                                        <option value="+13:00">(UTC+13:00)</option>
+                                        <option value="+14:00">(UTC+14:00)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="currency" class="form-label">{% translate "Currency" %}</label>
+                                    <select id="currency" class="select2 form-select">
+                                        <option value="">{% translate "Select Currency" %}</option>
+                                        <option value="usd">USD</option>
+                                        <option value="euro">Euro</option>
+                                        <option value="pound">Pound</option>
+                                        <option value="bitcoin">Bitcoin</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <button type="submit" class="btn btn-primary me-3">{% translate "Save changes" %}</button>
+                                <button type="reset" class="btn btn-label-secondary">{% translate "Cancel" %}</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /Account -->
+                </div>
+                <div class="card">
+                    <h5 class="card-header">{% translate "Delete Account" %}</h5>
+                    <div class="card-body">
+                        <div class="mb-6 col-12 mb-0">
+                            <div class="alert alert-warning">
+                                <h5 class="alert-heading mb-1">{% translate "Are you sure you want to delete your account?" %}</h5>
+                                <p class="mb-0">{% translate "Once you delete your account, there is no going back. Please be certain." %}</p>
+                            </div>
+                        </div>
+                        <form id="formAccountDeactivation" onsubmit="return false">
+                            <div class="form-check my-8 ms-2">
+                                <input class="form-check-input"
+                                       type="checkbox"
+                                       name="accountActivation"
+                                       id="accountActivation" />
+                                <label class="form-check-label" for="accountActivation">{% translate "I confirm my account deactivation" %}</label>
+                            </div>
+                            <button type="submit" class="btn btn-danger deactivate-account" disabled>{% translate "Deactivate Account" %}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}

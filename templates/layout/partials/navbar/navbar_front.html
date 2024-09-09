@@ -1,0 +1,390 @@
+<nav class="layout-navbar shadow-none py-0">
+    <div class="container">
+        <div class="navbar navbar-expand-lg landing-navbar px-3 px-md-8">
+            <!-- Menu logo wrapper: Start -->
+            <div class="navbar-brand app-brand demo d-flex py-0 me-4 me-xl-8">
+                <!-- Mobile menu toggle: Start-->
+                <button class="navbar-toggler border-0 px-0 me-4"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <i class="tf-icons bx bx-menu bx-lg align-middle text-heading fw-medium"></i>
+                </button>
+                <!-- Mobile menu toggle: End-->
+                <a href="{% url 'landing-page' %}" class="app-brand-link">
+                    <span class="app-brand-logo demo">{% include 'partials/logo.html' with withbg="#696cff" %}</span>
+                    <span class="app-brand-text demo menu-text fw-bold ms-2 ps-1">{% get_theme_variables 'template_name' %}</span>
+                </a>
+            </div>
+            <!-- Menu logo wrapper: End -->
+            <!-- Menu wrapper: Start -->
+            <div class="collapse navbar-collapse landing-nav-menu"
+                 id="navbarSupportedContent">
+                <button class="navbar-toggler border-0 text-heading position-absolute end-0 top-0 scaleX-n1-rtl p-2"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <i class="tf-icons bx bx-x bx-lg"></i>
+                </button>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium"
+                           aria-current="page"
+                           href="{% url 'landing-page' %}#landingHero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium"
+                           href="{% url 'landing-page' %}#landingFeatures">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium"
+                           href="{% url 'landing-page' %}#landingTeam">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium" href="{% url 'landing-page' %}#landingFAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium"
+                           href="{% url 'landing-page' %}#landingContact">Contact us</a>
+                    </li>
+                    <li class="nav-item mega-dropdown {% if '/front/pricing/' in active_url or '/front/payment/' in active_url or '/front/checkout/' in active_url or '/front/help_center/' in active_url %}active{% endif %}">
+                        <a href="javascript:void(0);"
+                           class="nav-link dropdown-toggle navbar-ex-14-mega-dropdown mega-dropdown fw-medium"
+                           aria-expanded="false"
+                           data-bs-toggle="mega-dropdown"
+                           data-trigger="hover">
+                            <span data-i18n="Pages">Pages</span>
+                        </a>
+                        <div class="dropdown-menu p-4 p-xl-8">
+                            <div class="row gy-4">
+                                <div class="col-12 col-lg">
+                                    <div class="h6 d-flex align-items-center mb-3 mb-lg-4">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-primary"><i class='bx bx-grid-alt'></i></span>
+                                        </div>
+                                        <span class="ps-1">Other</span>
+                                    </div>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link {% if '/front/pricing/' in active_url %}active{% endif %}"
+                                               href="{% url 'pricing-page' %}">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                <span data-i18n="Pricing">Pricing</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link {% if '/front/payment/' in active_url %}active{% endif %}"
+                                               href="{% url 'payment-page' %}">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                <span data-i18n="Payment">Payment</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link {% if '/front/checkout/' in active_url %}active{% endif %}"
+                                               href="{% url 'checkout-page' %}">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                <span data-i18n="Checkout">Checkout</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link {% if '/front/help_center/' in active_url %}active{% endif %}"
+                                               href="{% url 'help-center-landing' %}">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                <span data-i18n="Help Center">Help Center</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg">
+                                    <div class="h6 d-flex align-items-center mb-3 mb-lg-4">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-primary"><i class='bx bx-lock-open'></i></span>
+                                        </div>
+                                        <span class="ps-1">Auth Demo</span>
+                                    </div>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-login-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Login (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-login-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Login (Cover)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-register-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Register (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-register-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Register (Cover)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-register-multisteps' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Register (Multi-steps)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-forgot-password-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Forgot Password (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-forgot-password-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Forgot Password (Cover)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-reset-password-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Reset Password (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-reset-password-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Reset Password (Cover)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg">
+                                    <div class="h6 d-flex align-items-center mb-3 mb-lg-4">
+                                        <div class="avatar flex-shrink-0 me-3">
+                                            <span class="avatar-initial rounded bg-label-primary"><i class='bx bx-image-alt bx-lg'></i></span>
+                                        </div>
+                                        <span class="ps-1">Other</span>
+                                    </div>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'pages-misc-error' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Error
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'pages-misc-under-maintenance' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Under Maintenance
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'pagespages-misc-comingsoon' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Coming Soon
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'pages-misc-not-authorized' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Not Authorized
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-verify-email-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Verify Email (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-verify-email-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Verify Email (Cover)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-two-steps-basic' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Two Steps (Basic)
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link mega-dropdown-link"
+                                               href="{% url 'auth-two-steps-cover' %}"
+                                               target="_blank">
+                                                <i class='bx bx-radio-circle me-1'></i>
+                                                Two Steps (Cover)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4 d-none d-lg-block">
+                                    <div class="bg-body nav-img-col p-2">
+                                        <img src="{% static 'img/front-pages/misc/nav-item-col-img.png' %}"
+                                             alt="nav item col image"
+                                             class="w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-medium"
+                           href="{% url 'website:index' %}"
+                           target="_blank">Admin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="landing-menu-overlay d-lg-none"></div>
+            <!-- Menu wrapper: End -->
+            <!-- Toolbar: Start -->
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+                {% if has_customizer %}
+                    <!-- Style Switcher -->
+                    <li class="nav-item dropdown-style-switcher dropdown me-2 me-xl-1">
+                        <a class="nav-link dropdown-toggle hide-arrow"
+                           href="javascript:void(0);"
+                           data-bs-toggle="dropdown">
+                            <i class='bx bx-lg'></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-styles">
+                            <li>
+                                <a class="dropdown-item" href="javascript:void(0);" data-theme="light">
+                                    <span class="align-middle"><i class='bx bx-md bx-sun me-3'></i>Light</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="javascript:void(0);" data-theme="dark">
+                                    <span class="align-middle"><i class="bx bx-md bx-moon me-3"></i>Dark</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="javascript:void(0);" data-theme="system">
+                                    <span class="align-middle"><i class="bx bx-md bx-desktop me-3"></i>System</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- / Style Switcher-->
+                {% endif %}
+                <!-- navbar button: Start -->
+                {% if request.user.is_authenticated %}
+                    <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                        <a class="nav-link dropdown-toggle hide-arrow p-0"
+                           href="javascript:void(0);"
+                           data-bs-toggle="dropdown">
+                            <div class="avatar avatar-online">
+                                <!-- Moke condition for displaying user avatar -->
+                                {% if request.user|has_group:"admin" %}
+                                    <img src="{% static 'img/avatars/1.png' %}"
+                                         class="w-px-40 h-auto rounded-circle">
+                                {% else %}
+                                    <img src="{% static 'img/avatars/3.png' %}"
+                                         class="w-px-40 h-auto rounded-circle">
+                                {% endif %}
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a class="dropdown-item"
+                                   href="{% url 'pages-account-settings-account' %}">
+                                    <div class="d-flex">
+                                        <div class="flex-shrink-0 me-3">
+                                            <div class="avatar avatar-online">
+                                                <!-- Moke condition for displaying user avatar -->
+                                                {% if request.user|has_group:"admin" %}
+                                                    <img src="{% static 'img/avatars/1.png' %}"
+                                                         class="w-px-40 h-auto rounded-circle">
+                                                {% else %}
+                                                    <img src="{% static 'img/avatars/3.png' %}"
+                                                         class="w-px-40 h-auto rounded-circle">
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <span class="fw-medium d-block">{{ request.user.username | capfirst }}</span>
+                                            {% for group in request.user.groups.all %}<small class="text-muted">{{ group.name | capfirst }}</small>{% endfor %}
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                {% if request.user.is_authenticated and request.user.profile.is_verified %}
+                                    <span class="dropdown-item d-flex justify-content-between align-content-center">
+                                        <span>
+                                            <i class='bx bxs-user-circle bx-md me-3'></i>
+                                            <span class="align-middle">Verified</span>
+                                        </span>
+                                        <span class="text-success"><i class='bx bxs-circle bx-md'></i></span>
+                                    </span>
+                                {% else %}
+                                    <a class="dropdown-item d-flex justify-content-between align-content-center"
+                                       href="{% url 'verify-email-page' %}">
+                                        <span>
+                                            <i class='bx bxs-user-circle bx-md me-3'></i>
+                                            <span class="align-middle">Not Verified</span>
+                                        </span>
+                                        <span class="text-danger"><i class='bx bxs-circle bx-md'></i></span>
+                                    </a>
+                                {% endif %}
+                            </li>
+                            <li>
+                                <form action="{% url 'website:logout' %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="dropdown-item">
+                                        <i class="bx bx-power-off bx-md me-3"></i><span>Log Out</span>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </li>
+                {% else %}
+                    <li>
+                        <a href="{% url 'login' %}" class="btn btn-primary" target="_blank"><span class="tf-icons bx bx-log-in-circle scaleX-n1-rtl me-md-1"></span><span class="d-none d-md-block">Login/Register</span></a>
+                    </li>
+                {% endif %}
+                <!-- navbar button: End -->
+            </ul>
+            <!-- Toolbar: End -->
+        </div>
+    </div>
+</nav>

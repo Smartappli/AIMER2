@@ -25,11 +25,11 @@
                 <ul class="languages">
                     {% for language in languages %}
                         <li>
-                            <a href="/{{ language.code }}/"{% if language.code == LANGUAGE_CODE %} class="selected"{% endif %}>
+                            <a href="/{{ language.code }}/"
+                               {% if language.code == LANGUAGE_CODE %}class="selected"{% endif %}>
                                 {{ language.name_local }}
                             </a>
                         </li>
-                  
                     {% endfor %}
                 </ul>
             </div>
