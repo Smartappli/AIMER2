@@ -23,7 +23,7 @@ keras-cv>=0.9.0
 # keras-nlp-nightly
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 llama-cpp-python==0.2.90
-Markdown==3.5.2
+Markdown==3.7
 packaging==24.1
 Pillow==10.4.0
 postgresml-django==0.1.0  # Integration of PostgresML
