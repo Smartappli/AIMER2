@@ -78,13 +78,6 @@ urlpatterns = [
         name="pages-faq",
     ),
     path(
-        "pages/pricing/",
-        login_required(
-            PagesView.as_view(template_name="pages/pages_pricing.html")
-        ),
-        name="pages-pricing",
-    ),
-    path(
         "pages/misc/error/",
         MiscPagesView.as_view(template_name="pages/pages_misc_error.html"),
         name="pages-misc-error",
