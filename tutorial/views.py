@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from braces.views import CsrfExemptMixin, JsonRequestResponseMixin
 from django.apps import apps
 from django.contrib.auth.mixins import (
@@ -34,7 +36,7 @@ class OwnerEditMixin:
 
 class OwnerCourseMixin(OwnerMixin, LoginRequiredMixin, PermissionRequiredMixin):
     model = Course
-    fields = ["subject", "title", "slug", "overview"]
+    fields: ClassVar[list] = ["subject", "title", "slug", "overview"]
     success_url = reverse_lazy("manage_course_list")
 
 
@@ -99,28 +101,30 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
         return None
 
     def get_form(self, model, *args, **kwargs):
-        Form = modelform_factory(
+        form = modelform_factory(
             model,
             exclude=["owner", "order", "created", "updated"],
         )
-        return Form(*args, **kwargs)
+        return form(*args, **kwargs)
 
-    def dispatch(self, request, module_id, model_name, id=None):
+    def dispatch(self, request, module_id, model_name, item_id=None):
         self.module = get_object_or_404(
             Module,
             id=module_id,
             course__owner=request.user,
         )
         self.model = self.get_model(model_name)
-        if id:
-            self.obj = get_object_or_404(self.model, id=id, owner=request.user)
-        return super().dispatch(request, module_id, model_name, id)
+        if item_id:
+            self.obj = get_object_or_404(
+                self.model, id=item_id, owner=request.user
+            )
+        return super().dispatch(request, module_id, model_name, item_id)
 
-    def get(self, request, module_id, model_name, id=None):
+    def get(self, request, module_id, model_name, item_id=None):
         form = self.get_form(self.model, instance=self.obj)
         return self.render_to_response({"form": form, "object": self.obj})
 
-    def post(self, request, module_id, model_name, id=None):
+    def post(self, request, module_id, model_name, item_id=None):
         form = self.get_form(
             self.model,
             instance=self.obj,
@@ -131,7 +135,7 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
             obj = form.save(commit=False)
             obj.owner = request.user
             obj.save()
-            if not id:
+            if not item_id:
                 # new content
                 Content.objects.create(module=self.module, item=obj)
             return redirect("module_content_list", self.module.id)
@@ -139,10 +143,10 @@ class ContentCreateUpdateView(TemplateResponseMixin, View):
 
 
 class ContentDeleteView(View):
-    def post(self, request, id):
+    def post(self, request, item_id):
         content = get_object_or_404(
             Content,
-            id=id,
+            id=item_id,
             module__course__owner=request.user,
         )
         module = content.module
@@ -165,8 +169,10 @@ class ModuleContentListView(TemplateResponseMixin, View):
 
 class ModuleOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
     def post(self, request):
-        for id, order in self.request_json.items():
-            Module.objects.filter(id=id, course__owner=request.user).update(
+        for item_id, order in self.request_json.items():
+            Module.objects.filter(
+                id=item_id, course__owner=request.user
+            ).update(
                 order=order,
             )
         return self.render_json_response({"saved": "OK"})
@@ -174,9 +180,9 @@ class ModuleOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
 
 class ContentOrderView(CsrfExemptMixin, JsonRequestResponseMixin, View):
     def post(self, request):
-        for id, order in self.request_json.items():
+        for item_id, order in self.request_json.items():
             Content.objects.filter(
-                id=id,
+                id=item_id,
                 module__course__owner=request.user,
             ).update(order=order)
         return self.render_json_response({"saved": "OK"})

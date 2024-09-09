@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django import forms
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
@@ -46,7 +48,7 @@ class UserRegistrationForm(forms.ModelForm):
     class Meta:
         model = get_user_model()
         fields = ("username", "first_name", "last_name", "email")
-        labels = {
+        labels: ClassVar[dict] = {
             "username": _("Username"),
             "first_name": _("First Name"),
             "last_name": _("Last Name"),
@@ -83,7 +85,7 @@ class UserEditForm(forms.ModelForm):
     class Meta:
         model = get_user_model()
         fields = ("first_name", "last_name", "email")
-        labels = {
+        labels: ClassVar[dict] = {
             "first_name": _("First Name"),
             "last_name": _("Last Name"),
             "email": _("Email"),
@@ -101,7 +103,7 @@ class ProfileEditForm(forms.ModelForm):
     class Meta:
         model = Profile
         fields = ("date_of_birth", "photo", "bio")
-        labels = {
+        labels: ClassVar[dict] = {
             "date_of_birth": _("Date of Birth"),
             "photo": _("Profile Photo"),
             "bio": _("Biography"),

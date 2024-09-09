@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
@@ -65,7 +67,7 @@ class Post(models.Model):
     )
 
     class Meta:
-        ordering = ["-updated"]
+        ordering: ClassVar[list] = ["-updated"]
 
     def __str__(self) -> str:
         return self.title

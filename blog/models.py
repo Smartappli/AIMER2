@@ -11,6 +11,8 @@ Functions:
     Post.get_absolute_url: Returns the URL to access a detail view of the blog post.
 """
 
+from typing import ClassVar
+
 from django.conf import settings
 from django.db import models
 from django.urls import reverse
@@ -90,8 +92,8 @@ class Post(models.Model):
     tags = TaggableManager()
 
     class Meta:
-        ordering = ["-publish"]
-        indexes = [
+        ordering: ClassVar[list] = ["-publish"]
+        indexes: ClassVar[list] = [
             models.Index(fields=["-publish"]),
         ]
 
@@ -146,7 +148,7 @@ class Comment(models.Model):
 
     class Meta:
         ordering = (["created"],)
-        indexes = [
+        indexes: ClassVar[list] = [
             models.Index(fields=["created"]),
         ]
 

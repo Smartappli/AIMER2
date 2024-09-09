@@ -32,7 +32,7 @@ class PyCaretModelsTestCase(TestCase):
         for model in models:
             with self.subTest(model=model):
                 start_time = time.time()
-                assert model is not None
+                assert model is not None  # noqa: S101
                 end_time = time.time()
                 end_time - start_time
 
@@ -47,7 +47,7 @@ class PyCaretModelsTestCase(TestCase):
         for model in models:
             with self.subTest(model=model):
                 start_time = time.time()
-                assert model is not None
+                assert model is not None  # noqa: S101
                 end_time = time.time()
                 end_time - start_time
 
@@ -57,7 +57,7 @@ class PyCaretModelsTestCase(TestCase):
         for model in models:
             with self.subTest(model=model):
                 start_time = time.time()
-                assert model is not None
+                assert model is not None  # noqa: S101
                 end_time = time.time()
                 end_time - start_time
 
@@ -67,6 +67,6 @@ class PyCaretModelsTestCase(TestCase):
         for model in models:
             with self.subTest(model=model):
                 start_time = time.time()
-                assert model is not None
+                assert model is not None  # noqa: S101
                 end_time = time.time()
                 end_time - start_time

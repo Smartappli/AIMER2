@@ -42,8 +42,8 @@ exclude = [
 line-length = 80
 indent-width = 4
 
-# Assume Python 3.10
-target-version = "py310"
+# Assume Python 3.12
+target-version = "py312"
 
 [lint]
 preview = true
@@ -52,7 +52,7 @@ explicit-preview-rules = true
 select = [
    "A",     # flake8-builtins
    "AIR",   # Airflow
-   "ANN",   # flake8-annotations
+   # "ANN",   # flake8-annotations
    # "ARG",   # flake8-unused-arguments
    "ASYNC", # flake8-async
    "B",     # flake8-bugbear  
@@ -83,7 +83,7 @@ select = [
    "INT",   # flake8-gettext
    "ISC",   # flake8-implicit-str-concat
    "LOG",   # flake8-logging
-   # "N",     # pep8-naming
+   "N",     # pep8-naming
    "NPY",   # NumPy-specific rules
    "PD",    # pandas-vet
    "PERF",  # Perflint
@@ -91,16 +91,16 @@ select = [
    "PIE",   # flake8-pie
    "PL",    # Pylint
    "PT",    # flake8-pytest-style
-   # "PTH",   # flake8-use-pathlib
+   "PTH",   # flake8-use-pathlib
    "PYI",   # flake8-pyi
    "Q",     # flake8-quotes
    "R",     # Refactor
    "RET",   # flake8-return
    "RSE",   # flake8-raise
-   # "RUF",   # Ruff-specific rules
-   # "S",     # flake8-bandit
+   "RUF",   # Ruff-specific rules
+   "S",     # flake8-bandit
    "SIM",   # flake8-simplify
-   # "SLF",   # flake8-self
+   "SLF",   # flake8-self
    "SLOT",  # flake8-slots
    "T10",   # flake8-debugger
    "T20",   # flake8-print
@@ -112,7 +112,7 @@ select = [
    "W",     # pycodestyle
    "YTT",   # flake8-2020
 ]
-ignore = ["COM812","E501","F401","ISC001",]
+ignore = ["COM812","E501","F401","ISC001","N999","PLR0912",]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]

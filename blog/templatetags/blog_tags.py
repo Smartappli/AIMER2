@@ -1,3 +1,4 @@
+import bleach
 import markdown
 from django import template
 from django.db.models import Count
@@ -28,4 +29,6 @@ def get_most_commented_posts(count=5):
 
 @register.filter(name="markdown")
 def markdown_format(text):
-    return mark_safe(markdown.markdown(text))
+    html = markdown.markdown(text)
+    sanitized_html = bleach.clean(html)
+    return mark_safe(sanitized_html)  # noqa: S308

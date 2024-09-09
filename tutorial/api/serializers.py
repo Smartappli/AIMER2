@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django.db.models import Count
 from rest_framework import serializers
 
@@ -18,7 +20,7 @@ class SubjectSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Subject
-        fields = [
+        fields: ClassVar[list] = [
             "id",
             "title",
             "slug",
@@ -30,7 +32,7 @@ class SubjectSerializer(serializers.ModelSerializer):
 class ModuleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Module
-        fields = ["order", "title", "description"]
+        fields: ClassVar[list] = ["order", "title", "description"]
 
 
 class CourseSerializer(serializers.ModelSerializer):
@@ -38,7 +40,7 @@ class CourseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Course
-        fields = [
+        fields: ClassVar[dict] = [
             "id",
             "subject",
             "title",
@@ -60,7 +62,7 @@ class ContentSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Content
-        fields = ["order", "item"]
+        fields: ClassVar[list] = ["order", "item"]
 
 
 class ModuleWithContentsSerializer(serializers.ModelSerializer):
@@ -68,7 +70,7 @@ class ModuleWithContentsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Module
-        fields = ["order", "title", "description", "contents"]
+        fields: ClassVar[list] = ["order", "title", "description", "contents"]
 
 
 class CourseWithContentsSerializer(serializers.ModelSerializer):
@@ -76,7 +78,7 @@ class CourseWithContentsSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Course
-        fields = [
+        fields: ClassVar[list] = [
             "id",
             "subject",
             "title",

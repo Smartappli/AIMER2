@@ -6,6 +6,6 @@ register = template.Library()
 @register.filter
 def model_name(obj):
     try:
-        return obj._meta.model_name
+        return obj._meta.model_name  # noqa: SLF001
     except AttributeError:
         return None

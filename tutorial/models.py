@@ -1,3 +1,5 @@
+from typing import ClassVar
+
 from django.contrib.auth.models import User
 from django.contrib.contenttypes.fields import GenericForeignKey
 from django.contrib.contenttypes.models import ContentType
@@ -11,7 +13,7 @@ class Subject(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
 
     class Meta:
-        ordering = ["title"]
+        ordering: ClassVar[list] = ["title"]
 
     def __str__(self) -> str:
         return self.title
@@ -34,7 +36,7 @@ class Course(models.Model):
     created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ["-created"]
+        ordering: ClassVar[list] = ["-created"]
 
     def __str__(self) -> str:
         return self.title
@@ -51,7 +53,7 @@ class Module(models.Model):
     order = OrderField(blank=True, for_fields=["course"])
 
     class Meta:
-        ordering = ["order"]
+        ordering: ClassVar[list] = ["order"]
 
     def __str__(self) -> str:
         return f"{self.order}. {self.title}"
@@ -73,7 +75,7 @@ class Content(models.Model):
     order = OrderField(blank=True, for_fields=["module"])
 
     class Meta:
-        ordering = ["order"]
+        ordering: ClassVar[list] = ["order"]
 
     def __str__(self) -> str:
         return f"{self.module}. {self.content_type}. {self.object_id}"

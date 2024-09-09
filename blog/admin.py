@@ -27,6 +27,8 @@ Attributes
 
 """
 
+from typing import ClassVar
+
 from django.contrib import admin
 
 from .models import Comment, Post
@@ -51,13 +53,19 @@ class PostAdmin(admin.ModelAdmin):
 
     """
 
-    list_display = ["title", "slug", "author", "publish", "status"]
-    list_filter = ["status", "created", "publish", "author"]
-    search_fields = ["title", "body"]
-    prepopulated_fields = {"slug": ("title",)}
-    raw_id_fields = ["author"]
+    list_display: ClassVar[list] = [
+        "title",
+        "slug",
+        "author",
+        "publish",
+        "status",
+    ]
+    list_filter: ClassVar[list] = ["status", "created", "publish", "author"]
+    search_fields: ClassVar[list] = ["title", "body"]
+    prepopulated_fields: ClassVar[dict] = {"slug": ("title",)}
+    raw_id_fields: ClassVar[list] = ["author"]
     date_hierarchy = "publish"
-    ordering = ["status", "publish"]
+    ordering: ClassVar[list] = ["status", "publish"]
     show_facets = admin.ShowFacets.ALWAYS
 
 
@@ -75,6 +83,12 @@ class CommentAdmin(admin.ModelAdmin):
 
     """
 
-    list_display = ["name", "email", "post", "created", "active"]
-    list_filter = ["active", "created", "updated"]
-    search_fields = ["name", "email", "body"]
+    list_display: ClassVar[list] = [
+        "name",
+        "email",
+        "post",
+        "created",
+        "active",
+    ]
+    list_filter: ClassVar[list] = ["active", "created", "updated"]
+    search_fields: ClassVar[list] = ["name", "email", "body"]

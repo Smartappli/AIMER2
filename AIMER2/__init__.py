@@ -1,10 +1,9 @@
 # import celery
-# from web_project.bootstrap import TemplateBootstrap
+# from AIMER2.bootstrap import TemplateBootstrap
 from django.conf import settings
 
-from AIMER2.template_helpers.theme import TemplateHelper
-
 from .celery import app as celery_app
+from .template_helpers.theme import TemplateHelper
 
 
 class TemplateLayout:

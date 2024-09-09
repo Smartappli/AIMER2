@@ -1,5 +1,6 @@
 import os
 from importlib import import_module, util
+from pathlib import Path
 
 from django.conf import settings
 
@@ -127,7 +128,7 @@ class TemplateHelper:
         # Extract layout from the view path
         if context is None:
             context = {}
-        layout = os.path.splitext(self)[0].split("/")[0]
+        layout = Path(self).stem.split("/")[0]
 
         # Get module path
         module = f"templates.{settings.THEME_LAYOUT_DIR.replace("/", ".")}.bootstrap.{layout}"
@@ -135,23 +136,23 @@ class TemplateHelper:
         # Check if the bootstrap file is exist
         if util.find_spec(module) is not None:
             # Auto import and init the default bootstrap.py file from the theme
-            TemplateBootstrap = TemplateHelper.import_class(
+            templatebootstrap = TemplateHelper.import_class(
                 module,
                 f"TemplateBootstrap{layout.title().replace("_", "")}",
             )
-            TemplateBootstrap.init(context)
+            templatebootstrap.init(context)
         else:
             module = f"templates.{settings.THEME_LAYOUT_DIR.replace("/", ".")}.bootstrap.default"
 
-            TemplateBootstrap = TemplateHelper.import_class(
+            templatebootstrap = TemplateHelper.import_class(
                 module,
                 "TemplateBootstrapDefault",
             )
-            TemplateBootstrap.init(context)
+            templatebootstrap.init(context)
 
         return f"{settings.THEME_LAYOUT_DIR}/{self}"
 
     # Import a module by string
-    def import_class(self, import_className):
+    def import_class(self, import_classname):
         module = import_module(self)
-        return getattr(module, import_className)
+        return getattr(module, import_classname)

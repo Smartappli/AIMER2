@@ -1,5 +1,6 @@
 import csv
 import datetime
+from typing import ClassVar
 
 from django.contrib import admin
 from django.http import HttpResponse
@@ -9,7 +10,7 @@ from .models import Profile
 
 @admin.action(description="Export to CSV")
 def export_to_csv(modeladmin, request, queryset):
-    opts = modeladmin.model._meta
+    opts = modeladmin.model._meta  # noqa: SLF001
     content_disposition = f"attachment; filename={opts.verbose_name_plural}.csv"
     response = HttpResponse(content_type="text/csv")
     response["Content-Disposition"] = content_disposition
@@ -48,4 +49,4 @@ class ProfileAdmin(admin.ModelAdmin):
 
     list_display = ("user", "date_of_birth", "photo")
     list_filter = ("user",)
-    actions = [export_to_csv]
+    actions: ClassVar[list] = [export_to_csv]

@@ -1,3 +1,4 @@
+import bleach
 from django import template
 from django.contrib.auth.decorators import user_passes_test
 from django.utils.safestring import mark_safe
@@ -12,12 +13,16 @@ register = template.Library()
 
 @register.simple_tag
 def get_theme_variables(scope):
-    return mark_safe(TemplateHelper.get_theme_variables(scope))
+    variables = TemplateHelper.get_theme_variables(scope)
+    sanitized_variables = bleach.clean(variables)
+    return mark_safe(sanitized_variables)  # noqa: S308
 
 
 @register.simple_tag
 def get_theme_config(scope):
-    return mark_safe(TemplateHelper.get_theme_config(scope))
+    config = TemplateHelper.get_theme_config(scope)
+    sanitized_config = bleach.clean(config)
+    return mark_safe(sanitized_config)  # noqa: S308
 
 
 @register.filter
