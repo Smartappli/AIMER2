@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     "django.contrib.postgres",
     "django_countries",
     "embed_video",
-    # "faq.apps.FaqConfig",
+    "faq.apps.FaqConfig",
     "pages.apps.PagesConfig",
     "redisboard",
     "rest_framework",

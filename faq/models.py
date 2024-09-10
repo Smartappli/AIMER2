@@ -1,10 +1,27 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
-from win32con import ALTERNATE
+from taggit.managers import TaggableManager
+
+
+class PublishedCategoryManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=FaqCategory.Status.PUBLISHED)
+
+
+class PublishedQuestionManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=FaqQuestion.Status.PUBLISHED)
 
 
 class FaqCategory(models.Model):
+    class Status(models.TextChoices):
+        """Enumeration for category status."""
+
+        DRAFT = "DF", "Draft"
+        PUBLISHED = "PB", "Published"
+        SCHEDULED = "SC", "Scheduled"
+
     class Icon(models.TextChoices):
         """Enumeration for icon."""
 
@@ -68,7 +85,7 @@ class FaqCategory(models.Model):
         HEART = "<i class='bx bx-heart'></i>", "Heart"
         HOME = "<i class='bx bx-home'></i>", "Home"
         HISTORY = "<i class='bx bx-history'></i>", "History"
-        ID_CARD = "<i class='bx bx-card'></i>", "ID Card"
+        ID_CARD = "<i class='bx bx-id-card'></i>", "ID Card"
         IMAGES = "<i class='bx bx-images'></i>", "Images"
         INJECTION = "<i class='bx bx-injection'></i>", "Injection"
         KEY = "<i class='bx bx-key'></i>", "Key"
@@ -90,7 +107,7 @@ class FaqCategory(models.Model):
         PACKAGE = "<i class='bx bx-package'></i>", "Package"
         PAINT = "<i class='bx bx-paint'></i>", "Paint"
         PASTE = "<i class='bx bx-paste'></i>", "Paste"
-        PIN = "<i class='bx bx-upload'></i>"
+        PIN = "<i class='bx bx-pin'></i>", "Pin"
         PENCIL = "<i class='bx bx-pencil'></i>", "Pencil"
         PHONE = "<i class='bx bx-phone'></i>", "Phone"
         PIE_CHART = "<i class='bx bx-pie'></i>", "Pie Chart"
@@ -145,12 +162,29 @@ class FaqCategory(models.Model):
         choices=Icon.choices,
         default=Icon.ACCESSIBILITY,
     )
+    publish = models.DateTimeField(default=timezone.now)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
+    status = models.CharField(
+        max_length=2,
+        choices=Status.choices,
+        default=Status.DRAFT,
+    )
+
+    published = PublishedCategoryManager()
 
     def __str__(self) -> str:
         return self.name
 
 
 class FaqQuestion(models.Model):
+    class Status(models.TextChoices):
+        """Enumeration for category status."""
+
+        DRAFT = "DF", "Draft"
+        PUBLISHED = "PB", "Published"
+        SCHEDULED = "SC", "Scheduled"
+
     title = models.CharField(max_length=250)
     slug = models.SlugField(max_length=250, unique=True)
     category = models.ForeignKey(
@@ -167,6 +201,14 @@ class FaqQuestion(models.Model):
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
+    status = models.CharField(
+        max_length=2,
+        choices=Status.choices,
+        default=Status.DRAFT,
+    )
+
+    published = PublishedQuestionManager()
+    tags = TaggableManager()
 
     def __str__(self) -> str:
         return self.title

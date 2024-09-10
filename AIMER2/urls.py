@@ -47,7 +47,7 @@ urlpatterns = i18n_patterns(
     path("", include("pages.urls")),
     path("", include("website.urls", namespace="website")),
     path("blog/", include("blog.urls", namespace="blog")),
-    # path('faq/', include('faq.urls', namespace='faq')),
+    path("faq/", include("faq.urls", namespace="faq")),
     path("rosetta/", include("rosetta.urls")),
     path(
         "sitemap.xml",
