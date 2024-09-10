@@ -71,6 +71,12 @@
           "slug": "natural-language-processing-text-summarization"
         }
       ]
+    },
+    {
+      "url": "faq:faq",
+      "icon": "menu-icon tf-icons bx bx-question-mark",
+      "name": "FAQ",
+      "slug": "faq"
     }
   ]
 }
