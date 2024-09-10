@@ -6,12 +6,16 @@ from taggit.managers import TaggableManager
 
 class PublishedCategoryManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().filter(status=FaqCategory.Status.PUBLISHED)
+        return (
+            super().get_queryset().filter(status=FaqCategory.Status.PUBLISHED)
+        )
 
 
 class PublishedQuestionManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().filter(status=FaqQuestion.Status.PUBLISHED)
+        return (
+            super().get_queryset().filter(status=FaqQuestion.Status.PUBLISHED)
+        )
 
 
 class FaqCategory(models.Model):
