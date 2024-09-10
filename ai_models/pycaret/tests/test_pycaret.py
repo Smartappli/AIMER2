@@ -1,14 +1,14 @@
 import time
 
 from django.test import TestCase
-from pycaret.anomaly import get_all_models as get_anomaly_models
+from pycaret.anomaly import models as get_anomaly_models
 from pycaret.anomaly import setup as setup_anomaly
-from pycaret.classification import get_all_models as get_classification_models
+from pycaret.classification import models as get_classification_models
 from pycaret.classification import setup as setup_classification
-from pycaret.clustering import get_all_models as get_clustering_models
+from pycaret.clustering import models as get_clustering_models
 from pycaret.clustering import setup as setup_clustering
 from pycaret.datasets import get_data
-from pycaret.regression import get_all_models as get_regression_models
+from pycaret.regression import models as get_regression_models
 from pycaret.regression import setup as setup_regression
 
 
@@ -33,8 +33,7 @@ class PyCaretModelsTestCase(TestCase):
             with self.subTest(model=model):
                 start_time = time.time()
                 assert model is not None  # noqa: S101
-                end_time = time.time()
-                end_time - start_time
+                time.time() - start_time
 
     def test_regression_models(self) -> None:
         setup_regression(
@@ -48,8 +47,7 @@ class PyCaretModelsTestCase(TestCase):
             with self.subTest(model=model):
                 start_time = time.time()
                 assert model is not None  # noqa: S101
-                end_time = time.time()
-                end_time - start_time
+                time.time() - start_time
 
     def test_clustering_models(self) -> None:
         setup_clustering(self.clustering_data, silent=True, html=False)
@@ -58,8 +56,7 @@ class PyCaretModelsTestCase(TestCase):
             with self.subTest(model=model):
                 start_time = time.time()
                 assert model is not None  # noqa: S101
-                end_time = time.time()
-                end_time - start_time
+                time.time() - start_time
 
     def test_anomaly_models(self) -> None:
         setup_anomaly(self.anomaly_data, silent=True, html=False)
@@ -68,5 +65,4 @@ class PyCaretModelsTestCase(TestCase):
             with self.subTest(model=model):
                 start_time = time.time()
                 assert model is not None  # noqa: S101
-                end_time = time.time()
-                end_time - start_time
+                time.time() - start_time
