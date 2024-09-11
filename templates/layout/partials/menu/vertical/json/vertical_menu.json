@@ -7,6 +7,9 @@
       "slug": "dashboard"
     },
     {
+      "menu_header": "Artificial Intelligence"
+    },
+    {
       "name": "Machine Learning",
       "icon": "menu-icon tf-icons bx bx-stats",
       "slug": "machine-learning",
@@ -73,10 +76,25 @@
       ]
     },
     {
+      "menu_header": "Help Center"
+    },
+    {
       "url": "faq:faq",
       "icon": "menu-icon tf-icons bx bx-question-mark",
       "name": "FAQ",
       "slug": "faq"
+    },
+    {
+      "url": "faq:faq",
+      "icon": "menu-icon tf-icons bx bx-conversation",
+      "name": "Live Chat",
+      "slug": "live chat"
+    },
+    {
+      "url": "faq:faq",
+      "icon": "menu-icon tf-icons bx bx-mail-send",
+      "name": "Ticket",
+      "slug": "Ticket"
     }
   ]
 }
