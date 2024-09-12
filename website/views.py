@@ -186,7 +186,7 @@ class CustomDashboardView(FrontPagesView, View):
     template_name = "website/dashboard.html"
 
     def get(self, request, *args, **kwargs):
-        # Obtenez le contexte de `FrontPagesView`
+        # Retrieve the context of `FrontPagesView`
         context = self.get_context_data(**kwargs)
         context["section"] = "dashboard"
 
