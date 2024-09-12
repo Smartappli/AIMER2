@@ -18,7 +18,7 @@ Django-taggit==6.0.0
 djangorestframework==3.15.2
 flower==2.0.1
 gunicorn==23.0.0
-jax[cpu]==0.4.31
+jax[cpu]==0.4.32
 keras>=3.5.0
 keras-cv>=0.9.0
 # keras-nlp-nightly
