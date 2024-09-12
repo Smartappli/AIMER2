@@ -1,6 +1,5 @@
 {% extends layout_path %}
-{% load static %}
-{% load i18n %}
+{% load static i18n %}
 {% block title %}
     {% translate "FAQ" %}
 {% endblock %}
@@ -17,11 +16,7 @@
         <p class="text-center mb-0 px-4">{% translate "or choose a category to quickly find the help you need" %}</p>
         <div class="input-wrapper mt-4 input-group input-group-merge mx-lg-5">
             <span class="input-group-text" id="basic-addon1"><i class="bx bx-search"></i></span>
-            <input type="text"
-                   class="form-control"
-                   placeholder="{% translate "Search answers..." %}"
-                   aria-label="{% translate "Search" %}"
-                   aria-describedby="{% translate "Search in the Questions / Answers database" %}" />
+            <input type="text" class="form-control" placeholder="{% translate "Search answers..." %}" aria-label="{% translate "Search" %}" aria-describedby="{% translate "Search in the Questions / Answers database" %}" />
         </div>
     </div>
     <div class="row mt-6">
@@ -55,44 +50,45 @@
         <div class="col-lg-9 col-md-8 col-12">
             <div class="tab-content p-0">
                 {% for s in categories %}
-                <div class="tab-pane fade{% if forloop.first %} show active{% endif %}"
-                     id="{{ s.slug }}"
-                     role="tabpanel">
-                    <div class="d-flex mb-4 gap-4 align-items-center">
-                        <div>
-                            <span class="badge bg-label-primary rounded w-px-50 py-2">
-                                <i class="{{ s.icon }} bx-26px mt-50"></i>
-                            </span>
+                    <div class="tab-pane fade{% if forloop.first %} show active{% endif %}"
+                         id="{{ s.slug }}"
+                         role="tabpanel">
+                        <div class="d-flex mb-4 gap-4 align-items-center">
+                            <div>
+                                <span class="badge bg-label-primary rounded w-px-50 py-2">
+                                    <i class="{{ s.icon }} bx-26px mt-50"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">
+                                    <span class="align-middle">{{ s.name }}</span>
+                                </h5>
+                                <span>Get help with {{ s.name }}</span>
+                            </div>
                         </div>
-                        <div>
-                            <h5 class="mb-0">
-                                <span class="align-middle">{{ s.name }}</span>
-                            </h5>
-                            <span>Get help with {{ s.name }}</span>
-                        </div>
-                    </div>
-                    <div id="accordion{{ s.slug }}" class="accordion">
-                        {% for q in questions %}
-                            {% if q.category == s %}
-                                <div class="card accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed"
-                                                type="button"
-                                                data-bs-toggle="collapse"
-                                                aria-expanded="true"
-                                                data-bs-target="#accordion{{ s.slug }}-{{ q.slug }}"
-                                                aria-controls="accordion{{ s.slug }}-{{ q.slug }}">{{ q.title }}</button>
-                                    </h2>
-                                    <div id="accordion{{ s.slug }}-{{ q.slug }}" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            {{ q.body}}
+                        <div id="accordion{{ s.slug }}" class="accordion">
+                            {% for q in questions %}
+                                {% if q.category == s %}
+                                    <div class="card accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    aria-expanded="true"
+                                                    data-bs-target="#accordion{{ s.slug }}-{{ q.slug }}"
+                                                    aria-controls="accordion{{ s.slug }}-{{ q.slug }}">
+                                                {{ q.title }}
+                                            </button>
+                                        </h2>
+                                        <div id="accordion{{ s.slug }}-{{ q.slug }}"
+                                             class="accordion-collapse collapse">
+                                            <div class="accordion-body">{{ q.body }}</div>
                                         </div>
                                     </div>
-                                </div>
-                            {% endif %}
-                        {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
                     </div>
-                </div>
                 {% endfor %}
             </div>
         </div>
@@ -110,12 +106,37 @@
         <div class="col-sm-6">
             <div class="py-6 rounded bg-faq-section text-center">
                 <span class="badge bg-label-primary p-2">
+                    <i class="bx bx-book-content bx-26px m-50"></i>
+                </span>
+                <h5 class="mt-4 mb-1">
+                    <a class="text-heading" href="#">{% translate "Support Ticket" %}</a>
+                </h5>
+                <p class="mb-0">{% translate "Best way for non-urgent questions" %}</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="py-6 rounded bg-faq-section text-center">
+                <span class="badge bg-label-primary p-2">
+                    <i class="bx bx-chat bx-26px m-50"></i>
+                </span>
+                <h5 class="mt-4 mb-1">
+                    <a class="text-heading" href="#">{% translate "Chat" %}</a>
+                </h5>
+                <p class="mb-0">{% translate "Best way to get an interactive answer" %}</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row justify-content-center gap-sm-0 gap-6">
+        <div class="col-sm-6">
+            <div class="py-6 rounded bg-faq-section text-center">
+                <span class="badge bg-label-primary p-2">
                     <i class="bx bx-phone bx-26px m-50"></i>
                 </span>
                 <h5 class="mt-4 mb-1">
                     <a class="text-heading" href="tel:+(1)25482568">+(1) 2548 2568</a>
                 </h5>
-                <p class="mb-0">We are always happy to help</p>
+                <p class="mb-0">{% translate "We are always happy to help" %}</p>
             </div>
         </div>
         <div class="col-sm-6">
@@ -126,7 +147,7 @@
                 <h5 class="mt-4 mb-1">
                     <a class="text-heading" href="mailto:help@help.com">help@help.com</a>
                 </h5>
-                <p class="mb-0">Best way to get a quick answer</p>
+                <p class="mb-0">{% translate "Best way to get a quick answer" %}</p>
             </div>
         </div>
     </div>
