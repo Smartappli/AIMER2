@@ -41,15 +41,15 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="{% url 'pages:pages-account-settings-security' %}"><i class="bx bx-sm bx-lock-alt me-1_5"></i> Security</a>
+                           href="{% url 'pages:pages-account-settings-security' %}"><i class="bx bx-sm bx-lock-alt me-1_5"></i> {% translate "Security" %}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="{% url 'pages:pages-account-settings-notifications' %}"><i class="bx bx-sm bx-bell me-1_5"></i> Notifications</a>
+                           href="{% url 'pages:pages-account-settings-notifications' %}"><i class="bx bx-sm bx-bell me-1_5"></i> {% translate "Notifications" %}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link"
-                           href="{% url 'pages:pages-account-settings-connections' %}"><i class="bx bx-sm bx-link-alt me-1_5"></i> Connections</a>
+                           href="{% url 'pages:pages-account-settings-connections' %}"><i class="bx bx-sm bx-link-alt me-1_5"></i> {% translate "Connections" %}</a>
                     </li>
                 </ul>
             </div>
@@ -449,10 +449,10 @@
                                     <label for="currency" class="form-label">{% translate "Currency" %}</label>
                                     <select id="currency" class="select2 form-select">
                                         <option value="">{% translate "Select Currency" %}</option>
-                                        <option value="usd">USD</option>
-                                        <option value="euro">Euro</option>
-                                        <option value="pound">Pound</option>
-                                        <option value="bitcoin">Bitcoin</option>
+                                        <option value="usd">{% translate "USD" %}</option>
+                                        <option value="euro">{% translate "Euro" %}</option>
+                                        <option value="pound">{% translate "Pound" %}</option>
+                                        <option value="bitcoin">{% translate "Bitcoin" %}</option>
                                     </select>
                                 </div>
                             </div>
