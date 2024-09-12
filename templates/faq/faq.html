@@ -1,0 +1,134 @@
+{% extends layout_path %}
+{% load static %}
+{% load i18n %}
+{% block title %}
+    {% translate "FAQ" %}
+{% endblock %}
+{% block page_css %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'vendor/css/pages/page-faq.css' %}" />
+{% endblock page_css %}
+{% block content %}
+    <div class="faq-header d-flex flex-column justify-content-center align-items-center h-px-300 position-relative">
+        <img src="{% static 'img/pages/header.png' %}"
+             class="scaleX-n1-rtl faq-banner-img z-n1 rounded"
+             alt="background image" />
+        <h4 class="text-center mb-2">{% translate "Hello, how can we help?" %}</h4>
+        <p class="text-center mb-0 px-4">{% translate "or choose a category to quickly find the help you need" %}</p>
+        <div class="input-wrapper mt-4 input-group input-group-merge mx-lg-5">
+            <span class="input-group-text" id="basic-addon1"><i class="bx bx-search"></i></span>
+            <input type="text"
+                   class="form-control"
+                   placeholder="{% translate "Search answers..." %}"
+                   aria-label="{% translate "Search" %}"
+                   aria-describedby="{% translate "Search in the Questions / Answers database" %}" />
+        </div>
+    </div>
+    <div class="row mt-6">
+        <!-- Navigation -->
+        <div class="col-lg-3 col-md-4 col-12 mb-md-0 mb-4">
+            <div class="d-flex justify-content-between flex-column nav-align-left mb-2 mb-md-0">
+                <ul class="nav nav-pills flex-column">
+                    {% for s in categories %}
+                        <li class="nav-item">
+                            <button class="nav-link{% if forloop.first %} active{% endif %}"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#{{ s.slug }}">
+                                <i class="{{ s.icon }} faq-nav-icon me-1_5"></i>
+                                <span class="align-middle">{{ s.name }}</span>
+                            </button>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <div class="d-none d-md-block">
+                    <div class="my-4 d-flex justify-content-center">
+                        <img src="{% static 'img/illustrations/sitting-girl-with-laptop.png' %}"
+                             class="img-fluid"
+                             width="240"
+                             alt="FAQ Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Navigation -->
+        <!-- FAQ's -->
+        <div class="col-lg-9 col-md-8 col-12">
+            <div class="tab-content p-0">
+                {% for s in categories %}
+                <div class="tab-pane fade{% if forloop.first %} show active{% endif %}"
+                     id="{{ s.slug }}"
+                     role="tabpanel">
+                    <div class="d-flex mb-4 gap-4 align-items-center">
+                        <div>
+                            <span class="badge bg-label-primary rounded w-px-50 py-2">
+                                <i class="{{ s.icon }} bx-26px mt-50"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">
+                                <span class="align-middle">{{ s.name }}</span>
+                            </h5>
+                            <span>Get help with {{ s.name }}</span>
+                        </div>
+                    </div>
+                    <div id="accordion{{ s.slug }}" class="accordion">
+                        {% for q in questions %}
+                            {% if q.category == s %}
+                                <div class="card accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                aria-expanded="true"
+                                                data-bs-target="#accordion{{ s.slug }}-{{ q.slug }}"
+                                                aria-controls="accordion{{ s.slug }}-{{ q.slug }}">{{ q.title }}</button>
+                                    </h2>
+                                    <div id="accordion{{ s.slug }}-{{ q.slug }}" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            {{ q.body}}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <!-- /FAQ's -->
+    </div>
+    <!-- Contact -->
+    <div class="row my-6">
+        <div class="col-12 text-center my-6">
+            <div class="badge bg-label-primary">Question?</div>
+            <h4 class="my-2">You still have a question?</h4>
+            <p class="mb-0">If you can't find question in our FAQ, you can contact us. We'll answer you shortly!</p>
+        </div>
+    </div>
+    <div class="row justify-content-center gap-sm-0 gap-6">
+        <div class="col-sm-6">
+            <div class="py-6 rounded bg-faq-section text-center">
+                <span class="badge bg-label-primary p-2">
+                    <i class="bx bx-phone bx-26px m-50"></i>
+                </span>
+                <h5 class="mt-4 mb-1">
+                    <a class="text-heading" href="tel:+(1)25482568">+(1) 2548 2568</a>
+                </h5>
+                <p class="mb-0">We are always happy to help</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="py-6 rounded bg-faq-section text-center">
+                <span class="badge bg-label-primary p-2">
+                    <i class="bx bx-envelope bx-26px m-50"></i>
+                </span>
+                <h5 class="mt-4 mb-1">
+                    <a class="text-heading" href="mailto:help@help.com">help@help.com</a>
+                </h5>
+                <p class="mb-0">Best way to get a quick answer</p>
+            </div>
+        </div>
+    </div>
+    <!-- /Contact -->
+{% endblock %}

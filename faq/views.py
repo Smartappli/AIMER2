@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, View
 from taggit.models import Tag
 
 from AIMER2 import TemplateLayout
@@ -14,14 +14,16 @@ class FaqView(TemplateView):
         return TemplateLayout.init(self, super().get_context_data(**kwargs))
 
 
-def faq_list(request, tag_slug=None):
-    category_listing = FaqCategory.published.all()
-    tag = None
-    if tag_slug:
-        tag = get_object_or_404(Tag, slug=tag_slug)
-        category_listing = category_listing.filter(tags__in=[tag])
-    return render(
-        request,
-        "pages/pages_faq.html",
-        {"categories": category_listing, "tag": tag},
-    )
+class CustomFaqCategoryView(FaqView, View):
+    template_name = "faq/faq.html"
+
+    def get(self, request, *args, **kwargs):
+        category_listing = FaqCategory.published.all()
+        questions_listing = FaqQuestion.published2.all()
+
+        # Retrieve the context of `FaqsView`
+        context = self.get_context_data(**kwargs)
+        context["categories"] = category_listing
+        context["questions"] = questions_listing
+
+        return render(request, self.template_name, context)

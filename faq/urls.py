@@ -1,14 +1,15 @@
 from django.contrib.auth.decorators import login_required
 from django.urls import path
 
-from .views import FaqView
+from . import views
+from .views import CustomFaqCategoryView
 
 app_name = "faq"
 
 urlpatterns = [
     path(
         "",
-        login_required(FaqView.as_view(template_name="pages/pages_faq.html")),
+        login_required(CustomFaqCategoryView.as_view()),
         name="faq",
     ),
 ]

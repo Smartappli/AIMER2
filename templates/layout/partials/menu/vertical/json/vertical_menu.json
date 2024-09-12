@@ -76,6 +76,15 @@
       ]
     },
     {
+      "menu_header": "Learning"
+    },
+    {
+      "url": "faq:faq",
+      "icon": "menu-icon tf-icons bx bx-slideshow",
+      "name": "Tutorial",
+      "slug": "tutorial"
+    },
+    {
       "menu_header": "Help Center"
     },
     {
