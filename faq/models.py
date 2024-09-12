@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django.utils.text import slugify
 from taggit.managers import TaggableManager
 
 
@@ -181,6 +182,11 @@ class FaqCategory(models.Model):
     def __str__(self) -> str:
         return self.name
 
+    def save(self, *args, **kwargs):
+        value = self.name[0:250]
+        self.slug_category = slugify(value, allow_unicode=True)
+        super().save(*args, **kwargs)
+
 
 class FaqQuestion(models.Model):
     class Status(models.TextChoices):
@@ -212,9 +218,13 @@ class FaqQuestion(models.Model):
         default=Status.DRAFT,
     )
 
-    published = PublishedCategoryManager()
     published2 = PublishedQuestionManager()
     tags = TaggableManager()
 
     def __str__(self) -> str:
         return self.title
+
+    def save(self, *args, **kwargs):
+        value = self.title[0:250]
+        self.slug_category = slugify(value, allow_unicode=True)
+        super().save(*args, **kwargs)
