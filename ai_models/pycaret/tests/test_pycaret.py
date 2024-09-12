@@ -25,7 +25,6 @@ class PyCaretModelsTestCase(TestCase):
         setup_classification(
             self.classification_data,
             target="species",
-            silent=True,
             html=False,
         )
         models = get_classification_models()
@@ -39,7 +38,6 @@ class PyCaretModelsTestCase(TestCase):
         setup_regression(
             self.regression_data,
             target="medv",
-            silent=True,
             html=False,
         )
         models = get_regression_models()
@@ -50,7 +48,7 @@ class PyCaretModelsTestCase(TestCase):
                 time.time() - start_time
 
     def test_clustering_models(self) -> None:
-        setup_clustering(self.clustering_data, silent=True, html=False)
+        setup_clustering(self.clustering_data, html=False)
         models = get_clustering_models()
         for model in models:
             with self.subTest(model=model):
@@ -59,7 +57,7 @@ class PyCaretModelsTestCase(TestCase):
                 time.time() - start_time
 
     def test_anomaly_models(self) -> None:
-        setup_anomaly(self.anomaly_data, silent=True, html=False)
+        setup_anomaly(self.anomaly_data, html=False)
         models = get_anomaly_models()
         for model in models:
             with self.subTest(model=model):
