@@ -326,7 +326,7 @@ LOCALE_PATHS = (BASE_DIR / "locale",)
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
+LANGUAGE_CODE = "en"
 
 TIME_ZONE = "UTC"
 

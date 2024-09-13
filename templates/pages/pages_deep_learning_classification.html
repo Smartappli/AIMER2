@@ -1,6 +1,266 @@
 {% extends layout_path %}
 {% load static %}
 {% load i18n %}
+
 {% block title %}
     {% translate "Deep Learning - Classification" %}
+{% endblock %}
+
+{% block content %}
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    
+        /* Button Styles */
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            background-color: #007bff;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-bottom: 20px;
+            touch-action: manipulation;
+        }
+    
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+    
+        /* Button Styles for Models */
+        .model-button {
+            border: 2px solid #007bff;
+            color: #007bff;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
+            touch-action: manipulation;
+            margin: 5px;
+        }
+    
+        .model-button.selected {
+            background-color: #007bff;
+            color: #fff;
+        }
+    
+        .model-button:hover {
+            background-color: #e6f0ff;
+        }
+    
+        .model-button.selected:hover {
+            background-color: #0056b3;
+        }
+    
+        .model-button:active {
+            transform: scale(0.98);
+        }
+    
+        /* Card Styles for Modules */
+        .module-card {
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+            position: relative;
+        }
+    
+        .module-card:hover {
+            transform: scale(1.02);
+        }
+    
+        .module-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+    
+        .module-header label {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+        }
+    
+        /* Grid Layout for Model Buttons */
+        .model-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+    
+        /* Selected Models and Toggle Button Container */
+        .header-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+    
+        /* Selected Models Count */
+        #selected-count {
+            font-size: 22px;
+            font-weight: bold;
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .model-buttons {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    
+        @media (max-width: 768px) {
+            .btn {
+                padding: 12px 20px;
+                font-size: 16px;
+            }
+    
+            .module-card {
+                padding: 15px;
+            }
+    
+            .module-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+    
+            .model-buttons {
+                grid-template-columns: repeat(2, 1fr);
+            }
+    
+            .model-button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            .model-buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <div class="container">
+        <!-- Header Controls -->
+        <div class="header-controls">
+            <!-- Selected Models Count -->
+            <div id="selected-count">
+                <p>{% translate "Selected Models: " %}<span id="count">0</span></p>
+            </div>
+            
+            <!-- Button to Select/Deselect All Modules -->
+            <button id="toggle-all-modules" class="btn btn-primary">
+                {% translate "Select/Deselect All Modules" %}
+            </button>
+        </div>
+
+        <!-- Modules List -->
+        <div id="modules-list">
+            {% for module, models in modules_with_models.items %}
+                <div class="module-card">
+                    <div class="module-header">
+                        <label>
+                            <input type="checkbox" class="module-checkbox" data-module="{{ module }}" />
+                            {{ module|capfirst }}
+                        </label>
+                    </div>
+                    <div class="model-buttons">
+                        {% if models %}
+                            {% for model in models %}
+                                <button class="model-button" data-module="{{ module }}" data-model="{{ model }}">
+                                    {{ model }}
+                                </button>
+                            {% endfor %}
+                        {% else %}
+                            <p>{% translate "No models available" %}</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% empty %}
+                <p>{% translate "No modules available" %}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const moduleCheckboxes = document.querySelectorAll('.module-checkbox');
+            const modelButtons = document.querySelectorAll('.model-button');
+            const selectAllModulesButton = document.getElementById('toggle-all-modules');
+            const countSpan = document.getElementById('count');
+
+            // Function to update the selected models count
+            function updateSelectedCount() {
+                const selectedModels = document.querySelectorAll('.model-button.selected').length;
+                countSpan.textContent = selectedModels;
+            }
+
+            // Toggle all modules
+            selectAllModulesButton.addEventListener('click', function() {
+                const allChecked = Array.from(moduleCheckboxes).every(checkbox => checkbox.checked);
+                moduleCheckboxes.forEach(checkbox => checkbox.checked = !allChecked);
+
+                // Toggle all models based on modules selection
+                const allModelButtons = document.querySelectorAll('.model-button');
+                allModelButtons.forEach(button => button.classList.toggle('selected', !allChecked));
+
+                updateSelectedCount();
+            });
+
+            // Event listeners for individual buttons
+            modelButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const module = this.dataset.module;
+                    const isSelected = this.classList.toggle('selected');
+                    
+                    // If a button is selected, ensure its module checkbox is checked
+                    if (isSelected) {
+                        document.querySelector(`.module-checkbox[data-module="${module}"]`).checked = true;
+                    }
+
+                    updateSelectedCount();
+                });
+            });
+
+            // Event listeners for module checkboxes
+            moduleCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    const module = this.dataset.module;
+                    const associatedButtons = document.querySelectorAll(`.model-button[data-module="${module}"]`);
+                    associatedButtons.forEach(button => button.classList.toggle('selected', checkbox.checked));
+
+                    updateSelectedCount();
+                });
+            });
+        });
+    </script>
 {% endblock %}

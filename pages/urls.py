@@ -1,7 +1,12 @@
 from django.contrib.auth.decorators import login_required
 from django.urls import path
 
-from .views import MiscPagesView, PagesView
+from .views import (
+    CustomDPClassificationView,
+    CustomMLAnomalyView,
+    MiscPagesView,
+    PagesView,
+)
 
 app_name = "pages"
 
@@ -139,20 +144,12 @@ urlpatterns = [
     ),
     path(
         "pages/machine_learning/anomaly_detection/",
-        login_required(
-            PagesView.as_view(
-                template_name="pages/pages_machine_learning_anomaly_detection.html"
-            )
-        ),
+        login_required(CustomMLAnomalyView.as_view()),
         name="pages-machine-learning-anomaly-detection",
     ),
     path(
         "pages/deep_learning/classification/",
-        login_required(
-            PagesView.as_view(
-                template_name="pages/pages_deep_learning_classification.html"
-            )
-        ),
+        login_required(CustomDPClassificationView.as_view()),
         name="pages-deep-learning-classification",
     ),
     path(
