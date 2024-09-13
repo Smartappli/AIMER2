@@ -26,6 +26,11 @@ def get_theme_config(scope):
 
 
 @register.filter
+def replace_underscore(value):
+    return value.replace("_", " ")
+
+
+@register.filter
 def filter_by_url(submenu, url) -> bool:
     if submenu:
         for subitem in submenu:

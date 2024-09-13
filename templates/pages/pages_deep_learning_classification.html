@@ -192,7 +192,7 @@
                             {% for model in models %}
                                 <button class="model-button"
                                         data-module="{{ module }}"
-                                        data-model="{{ model }}">{{ model }}</button>
+                                        data-model="{{ model }}">{{ model | replace_underscore}}</button>
                             {% endfor %}
                         {% else %}
                             <p>{% translate "No models available" %}</p>
