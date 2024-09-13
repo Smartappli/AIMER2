@@ -13,9 +13,7 @@ class SubjectSerializer(serializers.ModelSerializer):
     def get_popular_courses(self, obj):
         courses = obj.courses.annotate(
             total_students=Count("students"),
-        ).order_by(
-            "-total_students",
-        )[:3]
+        ).order_by("-total_students")[:3]
         return [f"{c.title} ({c.total_students} students)" for c in courses]
 
     class Meta:

@@ -3,14 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: .\templates\pages\pages_account_settings_security.html:153
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-06 20:06+0200\n"
-"PO-Revision-Date: 2024-08-08 16:09+0000\n"
+"POT-Creation-Date: 2024-09-12 08:36+0200\n"
+"PO-Revision-Date: 2024-09-12 15:21+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -20,145 +19,171 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:220 .\templates\layout\partials\navbar\navbar.html:83
-#: .\templates\pages\pages_account_settings_account.html:312
+#: .\AIMER2\settings.py:221
 msgid "Arabic"
 msgstr "Arabe"
 
-#: .\AIMER2\settings.py:224
-#: .\templates\pages\pages_account_settings_account.html:313
+#: .\AIMER2\settings.py:225
+#: .\templates\pages\pages_account_settings_account.html:371
 msgid "Bulgarian"
 msgstr "Bulgare"
 
-#: .\AIMER2\settings.py:231
+#: .\AIMER2\settings.py:232
+#: .\templates\pages\pages_account_settings_account.html:372
 msgid "Czech"
 msgstr "Tchèque"
 
-#: .\AIMER2\settings.py:233
+#: .\AIMER2\settings.py:234
+#: .\templates\pages\pages_account_settings_account.html:373
 msgid "Danish"
 msgstr "Danois"
 
-#: .\AIMER2\settings.py:234 .\templates\layout\partials\navbar\navbar.html:88
-#: .\templates\pages\pages_account_settings_account.html:316
+#: .\AIMER2\settings.py:235
+#: .\templates\pages\pages_account_settings_account.html:379
 msgid "German"
 msgstr "Allemand"
 
-#: .\AIMER2\settings.py:236
+#: .\AIMER2\settings.py:237
+#: .\templates\pages\pages_account_settings_account.html:380
 msgid "Greek"
 msgstr "Grec"
 
-#: .\AIMER2\settings.py:237 .\templates\layout\partials\navbar\navbar.html:73
-#: .\templates\pages\pages_account_settings_account.html:314
+#: .\AIMER2\settings.py:238
+#: .\templates\pages\pages_account_settings_account.html:375
 msgid "English"
 msgstr "Anglais"
 
-#: .\AIMER2\settings.py:239
+#: .\AIMER2\settings.py:240
 msgid "British English"
 msgstr "Anglais britannique"
 
-#: .\AIMER2\settings.py:241
+#: .\AIMER2\settings.py:242
+#: .\templates\pages\pages_account_settings_account.html:397
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: .\AIMER2\settings.py:247
+#: .\AIMER2\settings.py:248
+#: .\templates\pages\pages_account_settings_account.html:376
 msgid "Estonian"
 msgstr "Estonien"
 
-#: .\AIMER2\settings.py:250
+#: .\AIMER2\settings.py:251
+#: .\templates\pages\pages_account_settings_account.html:377
 msgid "Finnish"
 msgstr "Finnois"
 
-#: .\AIMER2\settings.py:251 .\templates\layout\partials\navbar\navbar.html:78
-#: .\templates\pages\pages_account_settings_account.html:315
+#: .\AIMER2\settings.py:252
+#: .\templates\pages\pages_account_settings_account.html:378
 msgid "French"
 msgstr "Français"
 
-#: .\AIMER2\settings.py:260
+#: .\AIMER2\settings.py:261
+#: .\templates\pages\pages_account_settings_account.html:381
 msgid "Hungarian"
 msgstr "Hongrois"
 
-#: .\AIMER2\settings.py:263
+#: .\AIMER2\settings.py:264
+#: .\templates\pages\pages_account_settings_account.html:382
 msgid "Indonesian"
 msgstr "Indonésien"
 
-#: .\AIMER2\settings.py:267
+#: .\AIMER2\settings.py:268
+#: .\templates\pages\pages_account_settings_account.html:383
 msgid "Italian"
 msgstr "Italien"
 
-#: .\AIMER2\settings.py:268
+#: .\AIMER2\settings.py:269
+#: .\templates\pages\pages_account_settings_account.html:384
 msgid "Japanese"
 msgstr "Japonais"
 
-#: .\AIMER2\settings.py:274
+#: .\AIMER2\settings.py:275
+#: .\templates\pages\pages_account_settings_account.html:385
 msgid "Korean"
 msgstr "Coréen"
 
-#: .\AIMER2\settings.py:277
+#: .\AIMER2\settings.py:278
+#: .\templates\pages\pages_account_settings_account.html:387
 msgid "Lithuanian"
 msgstr "Lituanien"
 
-#: .\AIMER2\settings.py:278
+#: .\AIMER2\settings.py:279
+#: .\templates\pages\pages_account_settings_account.html:386
 msgid "Latvian"
 msgstr "Letton"
 
-#: .\AIMER2\settings.py:285
+#: .\AIMER2\settings.py:286
+#: .\templates\pages\pages_account_settings_account.html:388
 msgid "Norwegian Bokmål"
 msgstr "Norvégien Bokmål"
 
-#: .\AIMER2\settings.py:287
+#: .\AIMER2\settings.py:288
+#: .\templates\pages\pages_account_settings_account.html:374
 msgid "Dutch"
 msgstr "Néerlandais"
 
-#: .\AIMER2\settings.py:288
+#: .\AIMER2\settings.py:289
+#: .\templates\pages\pages_account_settings_account.html:389
 msgid "Norwegian Nynorsk"
 msgstr "Norvégien Nynorsk"
 
-#: .\AIMER2\settings.py:291
+#: .\AIMER2\settings.py:292
+#: .\templates\pages\pages_account_settings_account.html:390
 msgid "Polish"
 msgstr "Polonais"
 
-#: .\AIMER2\settings.py:292
-#: .\templates\pages\pages_account_settings_account.html:317
+#: .\AIMER2\settings.py:293
+#: .\templates\pages\pages_account_settings_account.html:391
 msgid "Portuguese"
 msgstr "Portugais"
 
-#: .\AIMER2\settings.py:293
+#: .\AIMER2\settings.py:294
+#: .\templates\pages\pages_account_settings_account.html:370
 msgid "Brazilian Portuguese"
 msgstr "Portugais brésilien"
 
-#: .\AIMER2\settings.py:294
+#: .\AIMER2\settings.py:295
+#: .\templates\pages\pages_account_settings_account.html:392
 msgid "Romanian"
 msgstr "Roumain"
 
-#: .\AIMER2\settings.py:295
+#: .\AIMER2\settings.py:296
+#: .\templates\pages\pages_account_settings_account.html:393
 msgid "Russian"
 msgstr "Russe"
 
-#: .\AIMER2\settings.py:296
+#: .\AIMER2\settings.py:297
+#: .\templates\pages\pages_account_settings_account.html:394
 msgid "Slovak"
 msgstr "Slovaque"
 
-#: .\AIMER2\settings.py:297
+#: .\AIMER2\settings.py:298
+#: .\templates\pages\pages_account_settings_account.html:395
 msgid "Slovenian"
 msgstr "Slovène"
 
-#: .\AIMER2\settings.py:301
+#: .\AIMER2\settings.py:302
+#: .\templates\pages\pages_account_settings_account.html:396
 msgid "Swedish"
 msgstr "Suédois"
 
-#: .\AIMER2\settings.py:308
+#: .\AIMER2\settings.py:309
+#: .\templates\pages\pages_account_settings_account.html:398
 msgid "Turkish"
 msgstr "Turc"
 
-#: .\AIMER2\settings.py:312
+#: .\AIMER2\settings.py:313
+#: .\templates\pages\pages_account_settings_account.html:399
 msgid "Ukrainian"
 msgstr "Ukrainien"
 
-#: .\AIMER2\settings.py:316
+#: .\AIMER2\settings.py:317
+#: .\templates\pages\pages_account_settings_account.html:400
 msgid "Simplified Chinese"
 msgstr "Chinois simplifié"
 
-#: .\AIMER2\settings.py:317
+#: .\AIMER2\settings.py:318
+#: .\templates\pages\pages_account_settings_account.html:401
 msgid "Traditional Chinese"
 msgstr "Chinois traditionnel"
 
@@ -177,7 +202,7 @@ msgid "Welcome to AIMER Portal"
 msgstr "Bienvenue sur le portail AIMER"
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
-#: .\templates\blog\post\list.html:4
+#: .\templates\blog\post\list.html:5
 msgid "AIMER Blog"
 msgstr "Blog AIMER"
 
@@ -185,15 +210,15 @@ msgstr "Blog AIMER"
 msgid "Latest News"
 msgstr "Dernières nouvelles"
 
-#: .\blog\forms.py:69
+#: .\blog\forms.py:71
 msgid "name"
 msgstr "nom"
 
-#: .\blog\forms.py:70
+#: .\blog\forms.py:72
 msgid "email"
 msgstr "courriel"
 
-#: .\blog\forms.py:71
+#: .\blog\forms.py:73
 msgid "body"
 msgstr "corps"
 
@@ -201,8 +226,8 @@ msgstr "corps"
 msgid "language"
 msgstr "langue"
 
-#: .\templates\base.html:39 .\templates\website\dashboard.html:3
-#: .\templates\website\dashboard.html:27
+#: .\templates\base.html:39 .\templates\website\dashboard.html:4
+#: .\templates\website\dashboard.html:7
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
@@ -214,29 +239,29 @@ msgstr "Bonjour"
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: .\templates\base.html:57 .\templates\registration\login.html:3
-#: .\templates\registration\login.html:65 .\templates\website\login.html:4
+#: .\templates\base.html:57 .\templates\registration\login.html:4
+#: .\templates\registration\login.html:72 .\templates\website\login.html:4
 #: .\templates\website\login.html:7
 msgid "Log-in"
 msgstr "Connexion"
 
-#: .\templates\blog\post\comment.html:3
+#: .\templates\blog\post\comment.html:4
 msgid "Add a comment"
 msgstr "Ajouter un commentaire"
 
-#: .\templates\blog\post\comment.html:6
+#: .\templates\blog\post\comment.html:8
 msgid "Your comment has been added."
 msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\blog\post\comment.html:8
+#: .\templates\blog\post\comment.html:10
 msgid "Back to the post"
 msgstr "Retour au poste"
 
-#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:20
 msgid "Published"
 msgstr "Publié"
 
-#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:19
+#: .\templates\blog\post\detail.html:7 .\templates\blog\post\list.html:20
 msgid "by"
 msgstr "par"
 
@@ -244,23 +269,23 @@ msgstr "par"
 msgid "Share this post"
 msgstr "Partager cet article"
 
-#: .\templates\blog\post\detail.html:13
+#: .\templates\blog\post\detail.html:12
 msgid "Similar posts"
 msgstr "Partager cet article"
 
-#: .\templates\blog\post\detail.html:19
+#: .\templates\blog\post\detail.html:18
 msgid "There are no similar posts yet."
 msgstr "Il n'y a pas encore d'articles similaires."
 
-#: .\templates\blog\post\detail.html:23
+#: .\templates\blog\post\detail.html:21
 msgid "comment"
 msgstr "commentaire"
 
-#: .\templates\blog\post\detail.html:28
+#: .\templates\blog\post\detail.html:26
 msgid "Comment"
 msgstr "Commentaire"
 
-#: .\templates\blog\post\detail.html:34
+#: .\templates\blog\post\detail.html:32
 msgid "There are no comments yet."
 msgstr "Il n'y a pas encore de commentaires."
 
@@ -272,7 +297,7 @@ msgstr "Ajouter un commentaire"
 msgid "Add comment"
 msgstr "Ajouter un commentaire"
 
-#: .\templates\blog\post\list.html:6
+#: .\templates\blog\post\list.html:8
 msgid "Last news"
 msgstr "Dernières nouvelles"
 
@@ -284,11 +309,11 @@ msgstr "Postes contenant"
 msgid "Found"
 msgstr "Trouvé"
 
-#: .\templates\blog\post\search.html:21
+#: .\templates\blog\post\search.html:19
 msgid "There are no results for your query."
 msgstr "Il n'y a pas encore de commentaires."
 
-#: .\templates\blog\post\search.html:23
+#: .\templates\blog\post\search.html:22
 msgid "Search again"
 msgstr "Rechercher à nouveau"
 
@@ -300,1391 +325,1627 @@ msgstr "Recherche de postes"
 msgid "Search"
 msgstr "Rechercher à nouveau"
 
-#: .\templates\blog\post\share.html:3
+#: .\templates\blog\post\share.html:4
 msgid "Share a post"
 msgstr "Partager cet article"
 
-#: .\templates\blog\post\share.html:6
+#: .\templates\blog\post\share.html:8
 msgid "E-mail successfully sent"
 msgstr "E-mail envoyé avec succès"
 
-#: .\templates\blog\post\share.html:7
+#: .\templates\blog\post\share.html:9
 msgid "was successfully sent to"
 msgstr "a été envoyé avec succès à"
 
-#: .\templates\blog\post\share.html:9
+#: .\templates\blog\post\share.html:11
 msgid "Share"
 msgstr "Partager"
 
-#: .\templates\blog\post\share.html:9
+#: .\templates\blog\post\share.html:11
 msgid "by e-mail"
 msgstr "par courrier électronique"
 
-#: .\templates\blog\post\share.html:13
-#: .\templates\registration\password_reset_form.html:63
+#: .\templates\blog\post\share.html:15
+#: .\templates\registration\password_reset_form.html:61
 msgid "Send e-mail"
 msgstr "Envoyer un courriel"
 
-#: .\templates\chat\room.html:3
+#: .\templates\chat\room.html:4
 msgid "Chat room for"
 msgstr "Salon de discussion pour"
 
-#: .\templates\chat\room.html:8
+#: .\templates\chat\room.html:9
 msgid "me"
 msgstr "moi"
 
-#: .\templates\chat\room.html:8
+#: .\templates\chat\room.html:9
 msgid "other"
 msgstr "autres"
 
-#: .\templates\chat\room.html:20
+#: .\templates\chat\room.html:19
 msgid "Send"
 msgstr "Envoyer"
 
-#: .\templates\pages\pages_account_settings_account.html:6
-#: .\templates\pages\pages_account_settings_billing.html:6
-#: .\templates\pages\pages_account_settings_connections.html:6
-#: .\templates\pages\pages_account_settings_notifications.html:6
-msgid "Account settings"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:37
-#: .\templates\pages\pages_account_settings_billing.html:45
-#: .\templates\pages\pages_account_settings_connections.html:13
-#: .\templates\pages\pages_account_settings_notifications.html:23
-#: .\templates\pages\pages_account_settings_security.html:40
-#: .\templates\website\auth_register_multisteps.html:64
-msgid "Account"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:38
-#: .\templates\pages\pages_account_settings_billing.html:46
-#: .\templates\pages\pages_account_settings_connections.html:14
-#: .\templates\pages\pages_account_settings_notifications.html:24
-#: .\templates\pages\pages_account_settings_security.html:41
-msgid "Security"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:39
-#: .\templates\pages\pages_account_settings_connections.html:15
-#: .\templates\pages\pages_account_settings_notifications.html:25
-#: .\templates\pages\pages_account_settings_security.html:42
-msgid "Billing & Plans"
-msgstr ""
+#: .\templates\pages\pages_account_settings_account.html:7
+#| msgid "Account settings"
+msgid "Account settings - Account"
+msgstr "Paramètres du compte - Compte"
 
 #: .\templates\pages\pages_account_settings_account.html:40
-#: .\templates\pages\pages_account_settings_billing.html:48
-#: .\templates\pages\pages_account_settings_connections.html:16
-#: .\templates\pages\pages_account_settings_notifications.html:26
-#: .\templates\pages\pages_account_settings_security.html:43
-msgid "Notifications"
-msgstr ""
+#: .\templates\pages\pages_account_settings_connections.html:14
+#: .\templates\pages\pages_account_settings_notifications.html:23
+#: .\templates\pages\pages_account_settings_security.html:40
+msgid "Account"
+msgstr "Compte"
 
-#: .\templates\pages\pages_account_settings_account.html:41
-#: .\templates\pages\pages_account_settings_billing.html:49
-#: .\templates\pages\pages_account_settings_connections.html:17
-#: .\templates\pages\pages_account_settings_notifications.html:27
-msgid "Connections"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:55
+#: .\templates\pages\pages_account_settings_account.html:73
 msgid "Upload new photo"
-msgstr ""
+msgstr "Télécharger une nouvelle photo"
 
-#: .\templates\pages\pages_account_settings_account.html:64
+#: .\templates\pages\pages_account_settings_account.html:84
+#: .\templates\pages\pages_account_settings_security.html:105
+msgid "Reset"
+msgstr "Réinitialisation"
+
+#: .\templates\pages\pages_account_settings_account.html:86
 msgid "Allowed JPG, GIF or PNG. Max size of 800K"
-msgstr ""
+msgstr "JPG, GIF ou PNG autorisés. Taille maximale de 800K"
 
-#: .\templates\pages\pages_account_settings_account.html:72
-#: .\templates\website\auth_register_multisteps.html:145 .\website\forms.py:51
-#: .\website\forms.py:87
+#: .\templates\pages\pages_account_settings_account.html:94
+#: .\website\forms.py:53 .\website\forms.py:89
 msgid "First Name"
 msgstr "Prénom"
 
-#: .\templates\pages\pages_account_settings_account.html:76
-#: .\templates\website\auth_register_multisteps.html:149 .\website\forms.py:52
-#: .\website\forms.py:88
+#: .\templates\pages\pages_account_settings_account.html:103
+#: .\website\forms.py:54 .\website\forms.py:90
 msgid "Last Name"
 msgstr "Nom de famille"
 
-#: .\templates\pages\pages_account_settings_account.html:80
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:111
 #| msgid "Email"
 msgid "E-mail"
 msgstr "Courriel"
 
-#: .\templates\pages\pages_account_settings_account.html:84
+#: .\templates\pages\pages_account_settings_account.html:120
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
-#: .\templates\pages\pages_account_settings_account.html:88
+#: .\templates\pages\pages_account_settings_account.html:128
+#: .\templates\partials\_modals\modal_enable_otp.html:18
 msgid "Phone Number"
-msgstr ""
+msgstr "Numéro de téléphone"
 
-#: .\templates\pages\pages_account_settings_account.html:95
-#: .\templates\website\auth_register_multisteps.html:164
+#: .\templates\pages\pages_account_settings_account.html:139
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
-#: .\templates\pages\pages_account_settings_account.html:99
-#: .\templates\website\auth_register_multisteps.html:176
+#: .\templates\pages\pages_account_settings_account.html:147
 msgid "State"
-msgstr ""
+msgstr "État"
 
-#: .\templates\pages\pages_account_settings_account.html:103
+#: .\templates\pages\pages_account_settings_account.html:155
 msgid "Zip Code"
-msgstr ""
+msgstr "Code postal"
 
-#: .\templates\pages\pages_account_settings_account.html:107
-#: .\templates\website\payment_page.html:69
+#: .\templates\pages\pages_account_settings_account.html:164
 msgid "Country"
-msgstr ""
+msgstr "Pays"
 
-#: .\templates\pages\pages_account_settings_account.html:110
+#: .\templates\pages\pages_account_settings_account.html:166
+msgid "Select"
+msgstr "Sélectionner"
+
+#: .\templates\pages\pages_account_settings_account.html:167
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afghanistan"
 
-#: .\templates\pages\pages_account_settings_account.html:111
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:168
 #| msgid "Albanian"
 msgid "Albania"
-msgstr "Albanais"
+msgstr "Albanie"
 
-#: .\templates\pages\pages_account_settings_account.html:112
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:169
 #| msgid "Algerian Arabic"
 msgid "Algeria"
-msgstr "Arabe algérien"
+msgstr "Algérie"
 
-#: .\templates\pages\pages_account_settings_account.html:113
+#: .\templates\pages\pages_account_settings_account.html:170
 msgid "Andorra"
-msgstr ""
+msgstr "Andorre"
 
-#: .\templates\pages\pages_account_settings_account.html:114
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:171
 #| msgid "Mongolian"
 msgid "Angola"
-msgstr "Mongol"
+msgstr "Angola"
 
-#: .\templates\pages\pages_account_settings_account.html:115
+#: .\templates\pages\pages_account_settings_account.html:172
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antigua et Barbuda"
 
-#: .\templates\pages\pages_account_settings_account.html:116
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:173
 #| msgid "Argentinian Spanish"
 msgid "Argentina"
-msgstr "Espagnol argentin"
+msgstr "Argentine"
 
-#: .\templates\pages\pages_account_settings_account.html:117
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:174
 #| msgid "Armenian"
 msgid "Armenia"
-msgstr "Arménien"
+msgstr "Arménie"
 
-#: .\templates\pages\pages_account_settings_account.html:118
-#: .\templates\website\payment_page.html:72
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:175
 #| msgid "Australian English"
 msgid "Australia"
-msgstr "Anglais australien"
+msgstr "Australie"
 
-#: .\templates\pages\pages_account_settings_account.html:119
+#: .\templates\pages\pages_account_settings_account.html:176
 msgid "Austria"
-msgstr ""
+msgstr "Autriche"
 
-#: .\templates\pages\pages_account_settings_account.html:120
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:177
 #| msgid "Azerbaijani"
 msgid "Azerbaijan"
 msgstr "Azerbaïdjan"
 
-#: .\templates\pages\pages_account_settings_account.html:121
-msgid "The Bahamas"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:122
-msgid "Bahrain"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:123
-msgid "Bangladesh"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:124
-msgid "Barbados"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:125
-#, fuzzy
-#| msgid "Belarusian"
-msgid "Belarus"
-msgstr "Biélorusse"
-
-#: .\templates\pages\pages_account_settings_account.html:126
-msgid "Belgium"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:127
-msgid "Belize"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:128
-msgid "Benin"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:129
-msgid "Bhutan"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:130
-msgid "Bolivia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:131
-msgid "Bosnia and Herzegovina"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:132
-msgid "Botswana"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:133
-#: .\templates\website\payment_page.html:73
-#, fuzzy
-#| msgid "Brazilian"
-msgid "Brazil"
-msgstr "Brésilien"
-
-#: .\templates\pages\pages_account_settings_account.html:134
-msgid "Brunei"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:135
-#, fuzzy
-#| msgid "Bulgarian"
-msgid "Bulgaria"
-msgstr "Bulgare"
-
-#: .\templates\pages\pages_account_settings_account.html:136
-msgid "Burkina Faso"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:137
-msgid "Burundi"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:138
-msgid "Cabo Verde"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:139
-msgid "Cambodia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:140
-msgid "Cameroon"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:141
-#: .\templates\website\payment_page.html:74
-#, fuzzy
-#| msgid "Kannada"
-msgid "Canada"
-msgstr "Kannada"
-
-#: .\templates\pages\pages_account_settings_account.html:142
-msgid "Central African Republic"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:143
-msgid "Chad"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:144
-msgid "Chile"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:145
-#: .\templates\website\payment_page.html:75
-msgid "China"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:146
-#, fuzzy
-#| msgid "Colombian Spanish"
-msgid "Colombia"
-msgstr "Espagnol colombien"
-
-#: .\templates\pages\pages_account_settings_account.html:147
-msgid "Comoros"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:148
-msgid "Congo, Democratic Republic of the"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:149
-msgid "Congo, Republic of the"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:150
-msgid "Costa Rica"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:151
-msgid "Côte d’Ivoire"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:152
-#, fuzzy
-#| msgid "Croatian"
-msgid "Croatia"
-msgstr "Croate"
-
-#: .\templates\pages\pages_account_settings_account.html:153
-msgid "Cuba"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:154
-msgid "Cyprus"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:155
-msgid "Czech Republic"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:156
-msgid "Denmark"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:157
-msgid "Djibouti"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:158
-msgid "Dominica"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:159
-msgid "Dominican Republic"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:160
-msgid "East Timor"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:161
-msgid "Ecuador"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:162
-msgid "Egypt"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:163
-msgid "El Salvador"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:164
-msgid "Equatorial Guinea"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:165
-msgid "Eritrea"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:166
-#, fuzzy
-#| msgid "Estonian"
-msgid "Estonia"
-msgstr "Estonien"
-
-#: .\templates\pages\pages_account_settings_account.html:167
-msgid "Eswatini"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:168
-msgid "Ethiopia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:169
-msgid "Fiji"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:170
-msgid "Finland"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:171
-#: .\templates\website\payment_page.html:76
-msgid "France"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:172
-msgid "Gabon"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:173
-msgid "The Gambia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:174
-#, fuzzy
-#| msgid "Georgian"
-msgid "Georgia"
-msgstr "Géorgien"
-
-#: .\templates\pages\pages_account_settings_account.html:175
-#: .\templates\website\payment_page.html:77
-#, fuzzy
-#| msgid "German"
-msgid "Germany"
-msgstr "Allemand"
-
-#: .\templates\pages\pages_account_settings_account.html:176
-msgid "Ghana"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:177
-#, fuzzy
-#| msgid "Greek"
-msgid "Greece"
-msgstr "Grec"
-
 #: .\templates\pages\pages_account_settings_account.html:178
-msgid "Grenada"
-msgstr ""
+msgid "The Bahamas"
+msgstr "Les Bahamas"
 
 #: .\templates\pages\pages_account_settings_account.html:179
-msgid "Guatemala"
-msgstr ""
+msgid "Bahrain"
+msgstr "Bahreïn"
 
 #: .\templates\pages\pages_account_settings_account.html:180
-msgid "Guinea"
-msgstr ""
+msgid "Bangladesh"
+msgstr "Bangladesh"
 
 #: .\templates\pages\pages_account_settings_account.html:181
-msgid "Guinea-Bissau"
-msgstr ""
+msgid "Barbados"
+msgstr "Barbade"
 
 #: .\templates\pages\pages_account_settings_account.html:182
-msgid "Guyana"
-msgstr ""
+#| msgid "Belarusian"
+msgid "Belarus"
+msgstr "Bélarus"
 
 #: .\templates\pages\pages_account_settings_account.html:183
-msgid "Haiti"
-msgstr ""
+msgid "Belgium"
+msgstr "Belgique"
 
 #: .\templates\pages\pages_account_settings_account.html:184
-msgid "Honduras"
-msgstr ""
+msgid "Belize"
+msgstr "Belize"
 
 #: .\templates\pages\pages_account_settings_account.html:185
-#, fuzzy
-#| msgid "Hungarian"
-msgid "Hungary"
-msgstr "Hongrois"
+msgid "Benin"
+msgstr "Bénin"
 
 #: .\templates\pages\pages_account_settings_account.html:186
-#, fuzzy
-#| msgid "Icelandic"
-msgid "Iceland"
-msgstr "islandais"
+msgid "Bhutan"
+msgstr "Bhoutan"
 
 #: .\templates\pages\pages_account_settings_account.html:187
-#: .\templates\website\payment_page.html:78
-msgid "India"
-msgstr ""
+msgid "Bolivia"
+msgstr "Bolivie"
 
 #: .\templates\pages\pages_account_settings_account.html:188
-#, fuzzy
-#| msgid "Indonesian"
-msgid "Indonesia"
-msgstr "Indonésien"
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnie et Herzégovine"
 
 #: .\templates\pages\pages_account_settings_account.html:189
-msgid "Iran"
-msgstr ""
+msgid "Botswana"
+msgstr "Botswana"
 
 #: .\templates\pages\pages_account_settings_account.html:190
-msgid "Iraq"
-msgstr ""
+#| msgid "Brazilian"
+msgid "Brazil"
+msgstr "Brésil"
 
 #: .\templates\pages\pages_account_settings_account.html:191
-#, fuzzy
-#| msgid "Icelandic"
-msgid "Ireland"
-msgstr "islandais"
+msgid "Brunei"
+msgstr "Brunei"
 
 #: .\templates\pages\pages_account_settings_account.html:192
-msgid "Israel"
-msgstr ""
+#| msgid "Bulgarian"
+msgid "Bulgaria"
+msgstr "Bulgarie"
 
 #: .\templates\pages\pages_account_settings_account.html:193
-#, fuzzy
-#| msgid "Italian"
-msgid "Italy"
-msgstr "Italien"
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
 
 #: .\templates\pages\pages_account_settings_account.html:194
-msgid "Jamaica"
-msgstr ""
+msgid "Burundi"
+msgstr "Burundi"
 
 #: .\templates\pages\pages_account_settings_account.html:195
-#, fuzzy
-#| msgid "Japanese"
-msgid "Japan"
-msgstr "Japonais"
+msgid "Cabo Verde"
+msgstr "Cap Vert"
 
 #: .\templates\pages\pages_account_settings_account.html:196
-msgid "Jordan"
-msgstr ""
+msgid "Cambodia"
+msgstr "Cambodge"
 
 #: .\templates\pages\pages_account_settings_account.html:197
-#, fuzzy
-#| msgid "Kazakh"
-msgid "Kazakhstan"
-msgstr "Kazakh"
+msgid "Cameroon"
+msgstr "Cameroun"
 
 #: .\templates\pages\pages_account_settings_account.html:198
-msgid "Kenya"
-msgstr ""
+#| msgid "Kannada"
+msgid "Canada"
+msgstr "Canada"
 
 #: .\templates\pages\pages_account_settings_account.html:199
-msgid "Kiribati"
-msgstr ""
+msgid "Central African Republic"
+msgstr "République centrafricaine"
 
 #: .\templates\pages\pages_account_settings_account.html:200
-msgid "Korea, North"
-msgstr ""
+msgid "Chad"
+msgstr "Tchad"
 
 #: .\templates\pages\pages_account_settings_account.html:201
-msgid "Korea, South"
-msgstr ""
+msgid "Chile"
+msgstr "Chili"
 
 #: .\templates\pages\pages_account_settings_account.html:202
-msgid "Kosovo"
-msgstr ""
+msgid "China"
+msgstr "Chine"
 
 #: .\templates\pages\pages_account_settings_account.html:203
-msgid "Kuwait"
-msgstr ""
+#| msgid "Colombian Spanish"
+msgid "Colombia"
+msgstr "Colombie"
 
 #: .\templates\pages\pages_account_settings_account.html:204
-#, fuzzy
+msgid "Comoros"
+msgstr "Comores"
+
+#: .\templates\pages\pages_account_settings_account.html:205
+msgid "Congo, Democratic Republic of the"
+msgstr "Congo, République démocratique du"
+
+#: .\templates\pages\pages_account_settings_account.html:206
+msgid "Congo, Republic of the"
+msgstr "Congo, République du"
+
+#: .\templates\pages\pages_account_settings_account.html:207
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: .\templates\pages\pages_account_settings_account.html:208
+msgid "Côte d’Ivoire"
+msgstr "Côte d’Ivoire"
+
+#: .\templates\pages\pages_account_settings_account.html:209
+#| msgid "Croatian"
+msgid "Croatia"
+msgstr "Croatie"
+
+#: .\templates\pages\pages_account_settings_account.html:210
+msgid "Cuba"
+msgstr "Cuba"
+
+#: .\templates\pages\pages_account_settings_account.html:211
+msgid "Cyprus"
+msgstr "Chypre"
+
+#: .\templates\pages\pages_account_settings_account.html:212
+msgid "Czech Republic"
+msgstr "République tchèque"
+
+#: .\templates\pages\pages_account_settings_account.html:213
+msgid "Denmark"
+msgstr "Danemark"
+
+#: .\templates\pages\pages_account_settings_account.html:214
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: .\templates\pages\pages_account_settings_account.html:215
+msgid "Dominica"
+msgstr "Dominique"
+
+#: .\templates\pages\pages_account_settings_account.html:216
+msgid "Dominican Republic"
+msgstr "République dominicaine"
+
+#: .\templates\pages\pages_account_settings_account.html:217
+msgid "East Timor"
+msgstr "Timor oriental"
+
+#: .\templates\pages\pages_account_settings_account.html:218
+msgid "Ecuador"
+msgstr "Équateur"
+
+#: .\templates\pages\pages_account_settings_account.html:219
+msgid "Egypt"
+msgstr "Égypte"
+
+#: .\templates\pages\pages_account_settings_account.html:220
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: .\templates\pages\pages_account_settings_account.html:221
+msgid "Equatorial Guinea"
+msgstr "Guinée équatoriale"
+
+#: .\templates\pages\pages_account_settings_account.html:222
+msgid "Eritrea"
+msgstr "Erythrée"
+
+#: .\templates\pages\pages_account_settings_account.html:223
+#| msgid "Estonian"
+msgid "Estonia"
+msgstr "Estonie"
+
+#: .\templates\pages\pages_account_settings_account.html:224
+msgid "Eswatini"
+msgstr "Eswatini"
+
+#: .\templates\pages\pages_account_settings_account.html:225
+msgid "Ethiopia"
+msgstr "Éthiopie"
+
+#: .\templates\pages\pages_account_settings_account.html:226
+msgid "Fiji"
+msgstr "Fidji"
+
+#: .\templates\pages\pages_account_settings_account.html:227
+msgid "Finland"
+msgstr "Finlande"
+
+#: .\templates\pages\pages_account_settings_account.html:228
+msgid "France"
+msgstr "France"
+
+#: .\templates\pages\pages_account_settings_account.html:229
+msgid "Gabon"
+msgstr "Gabon"
+
+#: .\templates\pages\pages_account_settings_account.html:230
+msgid "The Gambia"
+msgstr "Gambie"
+
+#: .\templates\pages\pages_account_settings_account.html:231
+#| msgid "Georgian"
+msgid "Georgia"
+msgstr "Géorgie"
+
+#: .\templates\pages\pages_account_settings_account.html:232
+#| msgid "German"
+msgid "Germany"
+msgstr "Allemagne"
+
+#: .\templates\pages\pages_account_settings_account.html:233
+msgid "Ghana"
+msgstr "Ghana"
+
+#: .\templates\pages\pages_account_settings_account.html:234
+#| msgid "Greek"
+msgid "Greece"
+msgstr "Grèce"
+
+#: .\templates\pages\pages_account_settings_account.html:235
+msgid "Grenada"
+msgstr "Grenade"
+
+#: .\templates\pages\pages_account_settings_account.html:236
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: .\templates\pages\pages_account_settings_account.html:237
+msgid "Guinea"
+msgstr "Guinée"
+
+#: .\templates\pages\pages_account_settings_account.html:238
+msgid "Guinea-Bissau"
+msgstr "Guinée-Bissau"
+
+#: .\templates\pages\pages_account_settings_account.html:239
+msgid "Guyana"
+msgstr "Guyane"
+
+#: .\templates\pages\pages_account_settings_account.html:240
+msgid "Haiti"
+msgstr "Haïti"
+
+#: .\templates\pages\pages_account_settings_account.html:241
+msgid "Honduras"
+msgstr "Honduras"
+
+#: .\templates\pages\pages_account_settings_account.html:242
+#| msgid "Hungarian"
+msgid "Hungary"
+msgstr "Hongrie"
+
+#: .\templates\pages\pages_account_settings_account.html:243
+#| msgid "Icelandic"
+msgid "Iceland"
+msgstr "Islande"
+
+#: .\templates\pages\pages_account_settings_account.html:244
+msgid "India"
+msgstr "Inde"
+
+#: .\templates\pages\pages_account_settings_account.html:245
+#| msgid "Indonesian"
+msgid "Indonesia"
+msgstr "Indonésie"
+
+#: .\templates\pages\pages_account_settings_account.html:246
+msgid "Iran"
+msgstr "L'Iran"
+
+#: .\templates\pages\pages_account_settings_account.html:247
+msgid "Iraq"
+msgstr "L'Irak"
+
+#: .\templates\pages\pages_account_settings_account.html:248
+#| msgid "Icelandic"
+msgid "Ireland"
+msgstr "Irlande"
+
+#: .\templates\pages\pages_account_settings_account.html:249
+msgid "Israel"
+msgstr "Israël"
+
+#: .\templates\pages\pages_account_settings_account.html:250
+#| msgid "Italian"
+msgid "Italy"
+msgstr "Italie"
+
+#: .\templates\pages\pages_account_settings_account.html:251
+msgid "Jamaica"
+msgstr "Jamaïque"
+
+#: .\templates\pages\pages_account_settings_account.html:252
+#| msgid "Japanese"
+msgid "Japan"
+msgstr "Japon"
+
+#: .\templates\pages\pages_account_settings_account.html:253
+msgid "Jordan"
+msgstr "Jordanie"
+
+#: .\templates\pages\pages_account_settings_account.html:254
+#| msgid "Kazakh"
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: .\templates\pages\pages_account_settings_account.html:255
+msgid "Kenya"
+msgstr "Kenya"
+
+#: .\templates\pages\pages_account_settings_account.html:256
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: .\templates\pages\pages_account_settings_account.html:257
+msgid "Korea, North"
+msgstr "Corée, Nord"
+
+#: .\templates\pages\pages_account_settings_account.html:258
+msgid "Korea, South"
+msgstr "Corée, Sud"
+
+#: .\templates\pages\pages_account_settings_account.html:259
+msgid "Kosovo"
+msgstr "Kosovo"
+
+#: .\templates\pages\pages_account_settings_account.html:260
+msgid "Kuwait"
+msgstr "Koweït"
+
+#: .\templates\pages\pages_account_settings_account.html:261
 #| msgid "Kyrgyz"
 msgid "Kyrgyzstan"
 msgstr "Kirghizistan"
 
-#: .\templates\pages\pages_account_settings_account.html:205
-msgid "Laos"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:206
-#, fuzzy
-#| msgid "Latvian"
-msgid "Latvia"
-msgstr "Letton"
-
-#: .\templates\pages\pages_account_settings_account.html:207
-msgid "Lebanon"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:208
-msgid "Lesotho"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:209
-msgid "Liberia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:210
-msgid "Libya"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:211
-msgid "Liechtenstein"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:212
-#, fuzzy
-#| msgid "Lithuanian"
-msgid "Lithuania"
-msgstr "Lituanien"
-
-#: .\templates\pages\pages_account_settings_account.html:213
-#, fuzzy
-#| msgid "Luxembourgish"
-msgid "Luxembourg"
-msgstr "Luxembourgish"
-
-#: .\templates\pages\pages_account_settings_account.html:214
-msgid "Madagascar"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:215
-#, fuzzy
-#| msgid "Malay"
-msgid "Malawi"
-msgstr "Malais"
-
-#: .\templates\pages\pages_account_settings_account.html:216
-#, fuzzy
-#| msgid "Malay"
-msgid "Malaysia"
-msgstr "Malais"
-
-#: .\templates\pages\pages_account_settings_account.html:217
-msgid "Maldives"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:218
-msgid "Mali"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:219
-msgid "Malta"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:220
-msgid "Marshall Islands"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:221
-#, fuzzy
-#| msgid "Lithuanian"
-msgid "Mauritania"
-msgstr "Lituanien"
-
-#: .\templates\pages\pages_account_settings_account.html:222
-msgid "Mauritius"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:223
-msgid "Mexico"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:224
-msgid "Micronesia, Federated States of"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:225
-msgid "Moldova"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:226
-msgid "Monaco"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:227
-#, fuzzy
-#| msgid "Mongolian"
-msgid "Mongolia"
-msgstr "Mongol"
-
-#: .\templates\pages\pages_account_settings_account.html:228
-msgid "Montenegro"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:229
-msgid "Morocco"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:230
-msgid "Mozambique"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:231
-msgid "Myanmar"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:232
-msgid "Namibia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:233
-msgid "Nauru"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:234
-#, fuzzy
-#| msgid "Nepali"
-msgid "Nepal"
-msgstr "Népalais"
-
-#: .\templates\pages\pages_account_settings_account.html:235
-msgid "Netherlands"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:236
-msgid "New Zealand"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:237
-#, fuzzy
-#| msgid "Nicaraguan Spanish"
-msgid "Nicaragua"
-msgstr "Espagnol du Nicaragua"
-
-#: .\templates\pages\pages_account_settings_account.html:238
-msgid "Niger"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:239
-msgid "Nigeria"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:240
-#, fuzzy
-#| msgid "Macedonian"
-msgid "North Macedonia"
-msgstr "Macédonien"
-
-#: .\templates\pages\pages_account_settings_account.html:241
-msgid "Norway"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:242
-msgid "Oman"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:243
-msgid "Pakistan"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:244
-msgid "Palau"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:245
-msgid "Panama"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:246
-msgid "Papua New Guinea"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:247
-msgid "Paraguay"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:248
-msgid "Peru"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:249
-msgid "Philippines"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:250
-msgid "Poland"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:251
-#, fuzzy
-#| msgid "Portuguese"
-msgid "Portugal"
-msgstr "Portugais"
-
-#: .\templates\pages\pages_account_settings_account.html:252
-#, fuzzy
-#| msgid "Tatar"
-msgid "Qatar"
-msgstr "Tatar"
-
-#: .\templates\pages\pages_account_settings_account.html:253
-#, fuzzy
-#| msgid "Romanian"
-msgid "Romania"
-msgstr "Roumain"
-
-#: .\templates\pages\pages_account_settings_account.html:254
-#, fuzzy
-#| msgid "Russian"
-msgid "Russia"
-msgstr "Russe"
-
-#: .\templates\pages\pages_account_settings_account.html:255
-msgid "Rwanda"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:256
-msgid "Saint Kitts and Nevis"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:257
-msgid "Saint Lucia"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:258
-msgid "Saint Vincent and the Grenadines"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:259
-msgid "Samoa"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:260
-msgid "San Marino"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_account.html:261
-msgid "Sao Tome and Principe"
-msgstr ""
-
 #: .\templates\pages\pages_account_settings_account.html:262
-msgid "Saudi Arabia"
-msgstr ""
+msgid "Laos"
+msgstr "Laos"
 
 #: .\templates\pages\pages_account_settings_account.html:263
-msgid "Senegal"
-msgstr ""
+#| msgid "Latvian"
+msgid "Latvia"
+msgstr "Lettonie"
 
 #: .\templates\pages\pages_account_settings_account.html:264
-#, fuzzy
-#| msgid "Serbian"
-msgid "Serbia"
-msgstr "Serbe"
+msgid "Lebanon"
+msgstr "Liban"
 
 #: .\templates\pages\pages_account_settings_account.html:265
-msgid "Seychelles"
-msgstr ""
+msgid "Lesotho"
+msgstr "Lesotho"
 
 #: .\templates\pages\pages_account_settings_account.html:266
-msgid "Sierra Leone"
-msgstr ""
+msgid "Liberia"
+msgstr "Libéria"
 
 #: .\templates\pages\pages_account_settings_account.html:267
-msgid "Singapore"
-msgstr ""
+msgid "Libya"
+msgstr "Libye"
 
 #: .\templates\pages\pages_account_settings_account.html:268
-#, fuzzy
-#| msgid "Slovak"
-msgid "Slovakia"
-msgstr "Slovaque"
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
 
 #: .\templates\pages\pages_account_settings_account.html:269
-#, fuzzy
-#| msgid "Slovenian"
-msgid "Slovenia"
-msgstr "Slovène"
+#| msgid "Lithuanian"
+msgid "Lithuania"
+msgstr "Lituanie"
 
 #: .\templates\pages\pages_account_settings_account.html:270
-msgid "Solomon Islands"
-msgstr ""
+#| msgid "Luxembourgish"
+msgid "Luxembourg"
+msgstr "Luxembourg"
 
 #: .\templates\pages\pages_account_settings_account.html:271
-msgid "Somalia"
-msgstr ""
+msgid "Madagascar"
+msgstr "Madagascar"
 
 #: .\templates\pages\pages_account_settings_account.html:272
-msgid "South Africa"
-msgstr ""
+#| msgid "Malay"
+msgid "Malawi"
+msgstr "Malawi"
 
 #: .\templates\pages\pages_account_settings_account.html:273
-msgid "Spain"
-msgstr ""
+#| msgid "Malay"
+msgid "Malaysia"
+msgstr "Malaisie"
 
 #: .\templates\pages\pages_account_settings_account.html:274
-msgid "Sri Lanka"
-msgstr ""
+msgid "Maldives"
+msgstr "Maldives"
 
 #: .\templates\pages\pages_account_settings_account.html:275
-msgid "Sudan"
-msgstr ""
+msgid "Mali"
+msgstr "Mali"
 
 #: .\templates\pages\pages_account_settings_account.html:276
-msgid "Sudan, South"
-msgstr ""
+msgid "Malta"
+msgstr "Malte"
 
 #: .\templates\pages\pages_account_settings_account.html:277
-#, fuzzy
-#| msgid "name"
-msgid "Suriname"
-msgstr "nom"
+msgid "Marshall Islands"
+msgstr "Îles Marshall"
 
 #: .\templates\pages\pages_account_settings_account.html:278
-#, fuzzy
-#| msgid "Swedish"
-msgid "Sweden"
-msgstr "Suédois"
+#| msgid "Lithuanian"
+msgid "Mauritania"
+msgstr "Mauritanie"
 
 #: .\templates\pages\pages_account_settings_account.html:279
-msgid "Switzerland"
-msgstr ""
+msgid "Mauritius"
+msgstr "Maurice"
 
 #: .\templates\pages\pages_account_settings_account.html:280
-msgid "Syria"
-msgstr ""
+msgid "Mexico"
+msgstr "Mexique"
 
 #: .\templates\pages\pages_account_settings_account.html:281
-msgid "Taiwan"
-msgstr ""
+msgid "Micronesia, Federated States of"
+msgstr "Micronésie, États fédérés de"
 
 #: .\templates\pages\pages_account_settings_account.html:282
-#, fuzzy
-#| msgid "Tajik"
-msgid "Tajikistan"
-msgstr "Tadjik"
+msgid "Moldova"
+msgstr "Moldavie"
 
 #: .\templates\pages\pages_account_settings_account.html:283
-msgid "Tanzania"
-msgstr ""
+msgid "Monaco"
+msgstr "Monaco"
 
 #: .\templates\pages\pages_account_settings_account.html:284
-#, fuzzy
-#| msgid "Thai"
-msgid "Thailand"
-msgstr "Thaïlandais"
+#| msgid "Mongolian"
+msgid "Mongolia"
+msgstr "Mongolie"
 
 #: .\templates\pages\pages_account_settings_account.html:285
-msgid "Togo"
-msgstr ""
+msgid "Montenegro"
+msgstr "Monténégro"
 
 #: .\templates\pages\pages_account_settings_account.html:286
-msgid "Tonga"
-msgstr ""
+msgid "Morocco"
+msgstr "Maroc"
 
 #: .\templates\pages\pages_account_settings_account.html:287
-msgid "Trinidad and Tobago"
-msgstr ""
+msgid "Mozambique"
+msgstr "Mozambique"
 
 #: .\templates\pages\pages_account_settings_account.html:288
-msgid "Tunisia"
-msgstr ""
+msgid "Myanmar"
+msgstr "Myanmar"
 
 #: .\templates\pages\pages_account_settings_account.html:289
-#: .\templates\website\payment_page.html:79
-#, fuzzy
-#| msgid "Turkmen"
-msgid "Turkey"
-msgstr "Turkmène"
+msgid "Namibia"
+msgstr "Namibie"
 
 #: .\templates\pages\pages_account_settings_account.html:290
-#, fuzzy
-#| msgid "Turkmen"
-msgid "Turkmenistan"
-msgstr "Turkmène"
+msgid "Nauru"
+msgstr "Nauru"
 
 #: .\templates\pages\pages_account_settings_account.html:291
-msgid "Tuvalu"
-msgstr ""
+#| msgid "Nepali"
+msgid "Nepal"
+msgstr "Népal"
 
 #: .\templates\pages\pages_account_settings_account.html:292
-msgid "Uganda"
-msgstr ""
+msgid "Netherlands"
+msgstr "Pays-Bas"
 
 #: .\templates\pages\pages_account_settings_account.html:293
-#: .\templates\website\payment_page.html:80
-#, fuzzy
-#| msgid "Ukrainian"
-msgid "Ukraine"
-msgstr "Ukrainien"
+msgid "New Zealand"
+msgstr "Nouvelle-Zélande"
 
 #: .\templates\pages\pages_account_settings_account.html:294
-#: .\templates\website\payment_page.html:81
-msgid "United Arab Emirates"
-msgstr ""
+#| msgid "Nicaraguan Spanish"
+msgid "Nicaragua"
+msgstr "Nicaragua"
 
 #: .\templates\pages\pages_account_settings_account.html:295
-#: .\templates\website\payment_page.html:82
-msgid "United Kingdom"
-msgstr ""
+msgid "Niger"
+msgstr "Niger"
 
 #: .\templates\pages\pages_account_settings_account.html:296
-#: .\templates\website\payment_page.html:83
-msgid "United States"
-msgstr ""
+msgid "Nigeria"
+msgstr "Nigeria"
 
 #: .\templates\pages\pages_account_settings_account.html:297
-msgid "Uruguay"
-msgstr ""
+#| msgid "Macedonian"
+msgid "North Macedonia"
+msgstr "Macédoine du Nord"
 
 #: .\templates\pages\pages_account_settings_account.html:298
-#, fuzzy
-#| msgid "Uzbek"
-msgid "Uzbekistan"
-msgstr "Ouzbek"
+msgid "Norway"
+msgstr "Norvège"
 
 #: .\templates\pages\pages_account_settings_account.html:299
-msgid "Vanuatu"
-msgstr ""
+msgid "Oman"
+msgstr "Oman"
 
 #: .\templates\pages\pages_account_settings_account.html:300
-msgid "Vatican City"
-msgstr ""
+msgid "Pakistan"
+msgstr "Pakistan"
 
 #: .\templates\pages\pages_account_settings_account.html:301
-#, fuzzy
-#| msgid "Venezuelan Spanish"
-msgid "Venezuela"
-msgstr "Espagnol vénézuélien"
+msgid "Palau"
+msgstr "Palau"
 
 #: .\templates\pages\pages_account_settings_account.html:302
-#, fuzzy
-#| msgid "Vietnamese"
-msgid "Vietnam"
-msgstr "Vietnamien"
+msgid "Panama"
+msgstr "Panama"
 
 #: .\templates\pages\pages_account_settings_account.html:303
-msgid "Yemen"
-msgstr ""
+msgid "Papua New Guinea"
+msgstr "Papouasie-Nouvelle-Guinée"
 
 #: .\templates\pages\pages_account_settings_account.html:304
-msgid "Zambia"
-msgstr ""
+msgid "Paraguay"
+msgstr "Paraguay"
 
 #: .\templates\pages\pages_account_settings_account.html:305
-msgid "Zimbabwe"
-msgstr ""
+msgid "Peru"
+msgstr "Pérou"
 
-#: .\templates\pages\pages_account_settings_account.html:311
-#, fuzzy
-#| msgid "language"
-msgid "Select Language"
-msgstr "langue"
+#: .\templates\pages\pages_account_settings_account.html:306
+msgid "Philippines"
+msgstr "Philippines"
+
+#: .\templates\pages\pages_account_settings_account.html:307
+msgid "Poland"
+msgstr "Pologne"
+
+#: .\templates\pages\pages_account_settings_account.html:308
+#| msgid "Portuguese"
+msgid "Portugal"
+msgstr "Portugal"
+
+#: .\templates\pages\pages_account_settings_account.html:309
+#| msgid "Tatar"
+msgid "Qatar"
+msgstr "Qatar"
+
+#: .\templates\pages\pages_account_settings_account.html:310
+#| msgid "Romanian"
+msgid "Romania"
+msgstr "Roumanie"
+
+#: .\templates\pages\pages_account_settings_account.html:312
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: .\templates\pages\pages_account_settings_account.html:313
+msgid "Saint Kitts and Nevis"
+msgstr "Saint-Kitts-et-Nevis"
+
+#: .\templates\pages\pages_account_settings_account.html:314
+msgid "Saint Lucia"
+msgstr "Sainte-Lucie"
+
+#: .\templates\pages\pages_account_settings_account.html:315
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint-Vincent-et-les-Grenadines"
+
+#: .\templates\pages\pages_account_settings_account.html:316
+msgid "Samoa"
+msgstr "Samoa"
+
+#: .\templates\pages\pages_account_settings_account.html:317
+msgid "San Marino"
+msgstr "Saint-Marin"
+
+#: .\templates\pages\pages_account_settings_account.html:318
+msgid "Sao Tome and Principe"
+msgstr "Sao Tomé et Principe"
+
+#: .\templates\pages\pages_account_settings_account.html:319
+msgid "Saudi Arabia"
+msgstr "Arabie Saoudite"
+
+#: .\templates\pages\pages_account_settings_account.html:320
+msgid "Senegal"
+msgstr "Sénégal"
 
 #: .\templates\pages\pages_account_settings_account.html:321
-msgid "Timezone"
-msgstr ""
+#| msgid "Serbian"
+msgid "Serbia"
+msgstr "Serbie"
+
+#: .\templates\pages\pages_account_settings_account.html:322
+msgid "Seychelles"
+msgstr "Seychelles"
 
 #: .\templates\pages\pages_account_settings_account.html:323
-msgid "Select Timezone"
-msgstr ""
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: .\templates\pages\pages_account_settings_account.html:324
+msgid "Singapore"
+msgstr "Singapour"
+
+#: .\templates\pages\pages_account_settings_account.html:325
+#| msgid "Slovak"
+msgid "Slovakia"
+msgstr "Slovaquie"
+
+#: .\templates\pages\pages_account_settings_account.html:326
+#| msgid "Slovenian"
+msgid "Slovenia"
+msgstr "Slovénie"
+
+#: .\templates\pages\pages_account_settings_account.html:327
+msgid "Solomon Islands"
+msgstr "Îles Salomon"
+
+#: .\templates\pages\pages_account_settings_account.html:328
+msgid "Somalia"
+msgstr "Somalie"
+
+#: .\templates\pages\pages_account_settings_account.html:330
+msgid "South Africa<"
+msgstr "Afrique du Sud<"
+
+#: .\templates\pages\pages_account_settings_account.html:331
+msgid "Spain"
+msgstr "Espagne"
+
+#: .\templates\pages\pages_account_settings_account.html:332
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: .\templates\pages\pages_account_settings_account.html:333
+msgid "Sudan"
+msgstr "Soudan"
+
+#: .\templates\pages\pages_account_settings_account.html:334
+msgid "Sudan, South"
+msgstr "Soudan, Sud"
+
+#: .\templates\pages\pages_account_settings_account.html:335
+#| msgid "name"
+msgid "Suriname"
+msgstr "Suriname"
+
+#: .\templates\pages\pages_account_settings_account.html:336
+#| msgid "Swedish"
+msgid "Sweden"
+msgstr "Suède"
+
+#: .\templates\pages\pages_account_settings_account.html:337
+msgid "Switzerland"
+msgstr "Suisse"
+
+#: .\templates\pages\pages_account_settings_account.html:338
+msgid "Syria"
+msgstr "Syrie"
+
+#: .\templates\pages\pages_account_settings_account.html:339
+msgid "Taiwan"
+msgstr "Taïwan"
+
+#: .\templates\pages\pages_account_settings_account.html:340
+#| msgid "Tajik"
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+#: .\templates\pages\pages_account_settings_account.html:341
+msgid "Tanzania"
+msgstr "Tanzanie"
+
+#: .\templates\pages\pages_account_settings_account.html:343
+msgid "Togo"
+msgstr "Togo"
+
+#: .\templates\pages\pages_account_settings_account.html:344
+msgid "Tonga"
+msgstr "Tonga"
+
+#: .\templates\pages\pages_account_settings_account.html:345
+msgid "Trinidad and Tobago"
+msgstr "Trinité-et-Tobago"
+
+#: .\templates\pages\pages_account_settings_account.html:346
+msgid "Tunisia"
+msgstr "Tunisie"
 
 #: .\templates\pages\pages_account_settings_account.html:347
-msgid "Select Currency"
-msgstr ""
+#| msgid "Turkmen"
+msgid "Turkey"
+msgstr "Turquie"
 
 #: .\templates\pages\pages_account_settings_account.html:348
-msgid "USD"
-msgstr ""
+#| msgid "Turkmen"
+msgid "Turkmenistan"
+msgstr "Turkménistan"
 
 #: .\templates\pages\pages_account_settings_account.html:349
-msgid "Euro"
-msgstr ""
+msgid "Tuvalu"
+msgstr "Tuvalu"
 
 #: .\templates\pages\pages_account_settings_account.html:350
-#, fuzzy
-#| msgid "Found"
-msgid "Pound"
-msgstr "Trouvé"
+msgid "Uganda"
+msgstr "Ouganda"
 
 #: .\templates\pages\pages_account_settings_account.html:351
-msgid "Bitcoin"
-msgstr ""
+#| msgid "Ukrainian"
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: .\templates\pages\pages_account_settings_account.html:352
+msgid "United Arab Emirates"
+msgstr "Émirats arabes unis"
+
+#: .\templates\pages\pages_account_settings_account.html:353
+msgid "United Kingdom"
+msgstr "Royaume-Uni"
+
+#: .\templates\pages\pages_account_settings_account.html:354
+msgid "United States"
+msgstr "États-Unis"
+
+#: .\templates\pages\pages_account_settings_account.html:355
+msgid "Uruguay"
+msgstr "Uruguay"
 
 #: .\templates\pages\pages_account_settings_account.html:356
-#: .\templates\pages\pages_account_settings_security.html:85
-#: .\templates\website\edit.html:55
+#| msgid "Uzbek"
+msgid "Uzbekistan"
+msgstr "Ouzbékistan"
+
+#: .\templates\pages\pages_account_settings_account.html:357
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: .\templates\pages\pages_account_settings_account.html:358
+msgid "Vatican City"
+msgstr "Cité du Vatican"
+
+#: .\templates\pages\pages_account_settings_account.html:359
+#| msgid "Venezuelan Spanish"
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: .\templates\pages\pages_account_settings_account.html:360
+#| msgid "Vietnamese"
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: .\templates\pages\pages_account_settings_account.html:361
+msgid "Yemen"
+msgstr "Yémen"
+
+#: .\templates\pages\pages_account_settings_account.html:362
+msgid "Zambia"
+msgstr "Zambie"
+
+#: .\templates\pages\pages_account_settings_account.html:363
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: .\templates\pages\pages_account_settings_account.html:369
+#| msgid "language"
+msgid "Select Language"
+msgstr "Sélectionner la langue"
+
+#: .\templates\pages\pages_account_settings_account.html:405
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: .\templates\pages\pages_account_settings_account.html:407
+msgid "Select Timezone"
+msgstr "Sélectionner le fuseau horaire"
+
+#: .\templates\pages\pages_account_settings_account.html:449
+#| msgid "Select Currency"
+msgid "Currency"
+msgstr "Monnaie"
+
+#: .\templates\pages\pages_account_settings_account.html:451
+msgid "Select Currency"
+msgstr "Sélectionner la devise"
+
+#: .\templates\pages\pages_account_settings_account.html:460
+#: .\templates\pages\pages_account_settings_notifications.html:142
+#: .\templates\pages\pages_account_settings_security.html:104
+#: .\templates\website\edit.html:60
 msgid "Save changes"
 msgstr "Enregistrer les modifications"
 
-#: .\templates\pages\pages_account_settings_account.html:357
+#: .\templates\pages\pages_account_settings_account.html:461
+#: .\templates\partials\_modals\modal_enable_otp.html:33
+#: .\templates\partials\_modals\modal_two_factor_auth.html:106
+#: .\templates\partials\_modals\modal_two_factor_auth.html:148
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
-#: .\templates\pages\pages_account_settings_account.html:364
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:468
 #| msgid "Delete course"
 msgid "Delete Account"
-msgstr "Supprimer le cours"
+msgstr "Supprimer le compte"
 
-#: .\templates\pages\pages_account_settings_account.html:368
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:472
 #| msgid "Are you sure you want to delete"
 msgid "Are you sure you want to delete your account?"
-msgstr "Êtes-vous sûr de vouloir supprimer"
+msgstr "Êtes-vous sûr de vouloir supprimer votre compte ?"
 
-#: .\templates\pages\pages_account_settings_account.html:369
+#: .\templates\pages\pages_account_settings_account.html:473
 msgid ""
 "Once you delete your account, there is no going back. Please be certain."
 msgstr ""
+"Une fois que vous avez supprimé votre compte, vous ne pouvez plus revenir en"
+" arrière. Soyez sûr de vous."
 
-#: .\templates\pages\pages_account_settings_account.html:375
+#: .\templates\pages\pages_account_settings_account.html:482
 msgid "I confirm my account deactivation"
-msgstr ""
+msgstr "Je confirme la désactivation de mon compte"
 
-#: .\templates\pages\pages_account_settings_account.html:377
-#, fuzzy
+#: .\templates\pages\pages_account_settings_account.html:484
 #| msgid "Create an account"
 msgid "Deactivate Account"
-msgstr "Créer un compte"
+msgstr "Désactiver le compte"
 
-#: .\templates\pages\pages_account_settings_security.html:44
-msgid "Connections<"
+#: .\templates\pages\pages_account_settings_connections.html:5
+#| msgid "Account settings"
+msgid "Account settings - Connections"
+msgstr "Paramètres du compte - Connexions"
+
+#: .\templates\pages\pages_account_settings_connections.html:18
+#: .\templates\pages\pages_account_settings_notifications.html:27
+#: .\templates\pages\pages_account_settings_security.html:43
+msgid "Security"
+msgstr "Sécurité"
+
+#: .\templates\pages\pages_account_settings_connections.html:22
+#: .\templates\pages\pages_account_settings_notifications.html:30
+#: .\templates\pages\pages_account_settings_security.html:47
+msgid "Notifications"
+msgstr "Notifications"
+
+#: .\templates\pages\pages_account_settings_connections.html:25
+#: .\templates\pages\pages_account_settings_notifications.html:34
+#: .\templates\pages\pages_account_settings_security.html:51
+#: .\templates\pages\pages_profile_connections.html:75
+#: .\templates\pages\pages_profile_projects.html:75
+#: .\templates\pages\pages_profile_teams.html:75
+#: .\templates\pages\pages_profile_user.html:92
+msgid "Connections"
+msgstr "Connexions"
+
+#: .\templates\pages\pages_account_settings_notifications.html:5
+#| msgid "Account settings"
+msgid "Account settings - Notifications"
+msgstr "Paramètres du compte - Notifications"
+
+#: .\templates\pages\pages_account_settings_notifications.html:41
+#: .\templates\pages\pages_account_settings_security.html:224
+msgid "Recent Devices"
+msgstr "Dispositifs récents"
+
+#: .\templates\pages\pages_account_settings_notifications.html:42
+msgid "We need permission from your browser to show notifications."
 msgstr ""
+"Nous avons besoin de l'autorisation de votre navigateur pour afficher les "
+"notifications."
 
-#: .\templates\pages\pages_account_settings_security.html:49
-#, fuzzy
+#: .\templates\pages\pages_account_settings_notifications.html:42
+msgid "Request Permission"
+msgstr "Request Permission"
+
+#: .\templates\pages\pages_account_settings_notifications.html:49
+msgid "Type"
+msgstr "Type"
+
+#: .\templates\pages\pages_account_settings_notifications.html:50
+#: .\website\forms.py:55 .\website\forms.py:91
+msgid "Email"
+msgstr "Courriel"
+
+#: .\templates\pages\pages_account_settings_notifications.html:51
+#: .\templates\pages\pages_account_settings_security.html:229
+#| msgid "Browse courses"
+msgid "Browser"
+msgstr "Navigateur"
+
+#: .\templates\pages\pages_account_settings_notifications.html:52
+msgid "App"
+msgstr "Application"
+
+#: .\templates\pages\pages_account_settings_notifications.html:57
+msgid "New for you"
+msgstr "Nouveau pour vous"
+
+#: .\templates\pages\pages_account_settings_notifications.html:75
+#| msgid "Account settings"
+msgid "Account activity"
+msgstr "Activité du compte"
+
+#: .\templates\pages\pages_account_settings_notifications.html:93
+msgid "A new browser used to sign in"
+msgstr "Un nouveau navigateur utilisé pour se connecter"
+
+#: .\templates\pages\pages_account_settings_notifications.html:111
+msgid "A new device is linked"
+msgstr "Un nouveau dispositif est lié"
+
+#: .\templates\pages\pages_account_settings_notifications.html:132
+msgid "When should we send you notifications?"
+msgstr "Quand devons-nous vous envoyer des notifications ?"
+
+#: .\templates\pages\pages_account_settings_notifications.html:137
+msgid "Only when I'm online"
+msgstr "Seulement quand je suis en ligne"
+
+#: .\templates\pages\pages_account_settings_notifications.html:138
+msgid "Anytime"
+msgstr "A tout moment"
+
+#: .\templates\pages\pages_account_settings_notifications.html:143
+msgid "Discard"
+msgstr "Rejeter"
+
+#: .\templates\pages\pages_account_settings_security.html:5
+#| msgid "Account settings"
+msgid "Account settings - Security"
+msgstr "Paramètres du compte - Sécurité"
+
+#: .\templates\pages\pages_account_settings_security.html:57
 #| msgid "Change my password"
 msgid "Change Password"
-msgstr "changer votre mot de passe"
+msgstr "Modifier le mot de passe"
 
-#: .\templates\pages\pages_account_settings_security.html:54
-#, fuzzy
+#: .\templates\pages\pages_account_settings_security.html:62
 #| msgid "Confirm Password"
 msgid "Current Password"
-msgstr "Confirmer le mot de passe"
+msgstr "Mot de passe actuel"
 
-#: .\templates\pages\pages_account_settings_security.html:63
-#: .\templates\website\auth_reset_password_basic.html:51
-#: .\templates\website\auth_reset_password_cover.html:57
-#, fuzzy
+#: .\templates\pages\pages_account_settings_security.html:75
 #| msgid "Password"
 msgid "New Password"
-msgstr "Mot de passe"
-
-#: .\templates\pages\pages_account_settings_security.html:71
-#, fuzzy
-#| msgid "Confirm Password"
-msgid "Confirm New Password"
-msgstr "Confirmer le mot de passe"
-
-#: .\templates\pages\pages_account_settings_security.html:78
-#, fuzzy
-#| msgid "Password reset"
-msgid "Password Requirements:"
-msgstr "Réinitialisation du mot de passe"
-
-#: .\templates\pages\pages_account_settings_security.html:80
-msgid "Minimum 8 characters long - the more, the better"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_security.html:81
-msgid "At least one lowercase character"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_security.html:82
-msgid "At least one number, symbol, or whitespace character"
-msgstr ""
+msgstr "Nouveau mot de passe"
 
 #: .\templates\pages\pages_account_settings_security.html:86
-msgid "Reset"
-msgstr ""
-
-#: .\templates\pages\pages_account_settings_security.html:96
-msgid "Two-steps verification"
-msgstr ""
+#| msgid "Confirm Password"
+msgid "Confirm New Password"
+msgstr "Confirmer le nouveau mot de passe"
 
 #: .\templates\pages\pages_account_settings_security.html:97
-msgid "Two factor authentication is not enabled yet."
-msgstr ""
+#| msgid "Password reset"
+msgid "Password Requirements:"
+msgstr "Exigences en matière de mot de passe :"
 
-#: .\templates\pages\pages_account_settings_security.html:98
+#: .\templates\pages\pages_account_settings_security.html:99
+msgid "Minimum 8 characters long - the more, the better"
+msgstr "Minimum 8 caractères - plus il y en a, mieux c'est"
+
+#: .\templates\pages\pages_account_settings_security.html:100
+msgid "At least one lowercase character"
+msgstr "Au moins un caractère minuscule"
+
+#: .\templates\pages\pages_account_settings_security.html:101
+msgid "At least one number, symbol, or whitespace character"
+msgstr "Au moins un chiffre, un symbole ou un caractère d'espacement"
+
+#: .\templates\pages\pages_account_settings_security.html:114
+msgid "Two-steps verification"
+msgstr "Vérification en deux étapes"
+
+#: .\templates\pages\pages_account_settings_security.html:115
+msgid "Two factor authentication is not enabled yet."
+msgstr "L'authentification à deux facteurs n'est pas encore activée."
+
+#: .\templates\pages\pages_account_settings_security.html:117
 msgid ""
 "Two-factor authentication adds an additional layer of security to your "
 "account by requiring more than just a password to log in."
 msgstr ""
+"L'authentification à deux facteurs ajoute une couche supplémentaire de "
+"sécurité à votre compte en exigeant plus qu'un simple mot de passe pour se "
+"connecter."
 
-#: .\templates\pages\pages_account_settings_security.html:99
+#: .\templates\pages\pages_account_settings_security.html:118
 msgid "Learn more."
-msgstr ""
+msgstr "En savoir plus."
 
-#: .\templates\pages\pages_account_settings_security.html:101
+#: .\templates\pages\pages_account_settings_security.html:122
 msgid "Enable Two-Factor Authentication"
-msgstr ""
+msgstr "Activer l'authentification à deux facteurs"
 
-#: .\templates\pages\pages_account_settings_security.html:112
-#, fuzzy
+#: .\templates\pages\pages_account_settings_security.html:131
 #| msgid "Create a new course"
 msgid "Create an API key"
 msgstr "Créer un nouveau cours"
 
-#: .\templates\pages\pages_account_settings_security.html:119
+#: .\templates\pages\pages_account_settings_security.html:138
 msgid "Choose the Api key type you want to create"
-msgstr ""
+msgstr "Choisissez le type de clé Api que vous souhaitez créer"
 
-#: .\templates\pages\pages_account_settings_security.html:121
+#: .\templates\pages\pages_account_settings_security.html:140
 msgid "Choose Key Type"
-msgstr ""
+msgstr "Choisir le type de clé"
 
-#: .\templates\pages\pages_account_settings_security.html:122
+#: .\templates\pages\pages_account_settings_security.html:141
 msgid "Full Control"
-msgstr ""
+msgstr "Contrôle total"
 
-#: .\templates\pages\pages_account_settings_security.html:123
+#: .\templates\pages\pages_account_settings_security.html:142
 msgid "Modify"
-msgstr ""
+msgstr "Modifier"
 
-#: .\templates\pages\pages_account_settings_security.html:124
+#: .\templates\pages\pages_account_settings_security.html:143
 msgid "Read & Execute"
-msgstr ""
+msgstr "Lire &amp ; Exécuter"
 
-#: .\templates\pages\pages_account_settings_security.html:125
-#, fuzzy
+#: .\templates\pages\pages_account_settings_security.html:144
 #| msgid "Module contents:"
 msgid "List Folder Contents"
-msgstr "Contenu du module :"
+msgstr "List Folder Contents"
 
-#: .\templates\pages\pages_account_settings_security.html:126
+#: .\templates\pages\pages_account_settings_security.html:145
 msgid "Read Only"
-msgstr ""
+msgstr "Lecture seule"
 
-#: .\templates\pages\pages_account_settings_security.html:127
+#: .\templates\pages\pages_account_settings_security.html:146
 msgid "Read & Write"
-msgstr ""
+msgstr "Lire et écrire"
 
-#: .\templates\pages\pages_account_settings_security.html:131
+#: .\templates\pages\pages_account_settings_security.html:150
 msgid "Name the API key"
-msgstr ""
+msgstr "Nom de la clé API"
 
-#: .\templates\pages\pages_account_settings_security.html:135
+#: .\templates\pages\pages_account_settings_security.html:158
 msgid "Create Key"
+msgstr "Créer une clé"
+
+#: .\templates\pages\pages_account_settings_security.html:178
+msgid "API Key List & Access"
+msgstr "Liste des clés API et accès"
+
+#: .\templates\pages\pages_account_settings_security.html:180
+msgid ""
+"An API key is a simple encrypted string that identifies an application "
+"without any principal. They are useful for accessing public data "
+"anonymously, and are used to associate API requests with your project for "
+"quota and billing."
 msgstr ""
+"Une clé API est une simple chaîne cryptée qui identifie une application sans"
+" principal. Elles sont utiles pour accéder aux données publiques de manière "
+"anonyme, et sont utilisées pour associer les demandes d'API à votre projet "
+"pour les quotas et la facturation."
+
+#: .\templates\pages\pages_account_settings_security.html:230
+msgid "Device"
+msgstr "Dispositif"
+
+#: .\templates\pages\pages_account_settings_security.html:231
+#| msgid "Notifications"
+msgid "Location"
+msgstr "Localisation"
+
+#: .\templates\pages\pages_account_settings_security.html:232
+msgid "Recent Activitiy"
+msgstr "Activités récentes"
+
+#: .\templates\pages\pages_deep_learning_classification.html:5
+msgid "Deep Learning - Classification"
+msgstr "Apprentissage profond - Classification"
+
+#: .\templates\pages\pages_deep_learning_segmentation.html:5
+msgid "Deep Learning - Segmentation"
+msgstr "Apprentissage profond - Segmentation"
+
+#: .\templates\pages\pages_faq.html:5
+msgid "FAQ"
+msgstr "FAQ"
+
+#: .\templates\pages\pages_faq.html:16
+msgid "Hello, how can we help?"
+msgstr "Bonjour, comment pouvons-nous vous aider ?"
+
+#: .\templates\pages\pages_faq.html:17
+msgid "or choose a category to quickly find the help you need"
+msgstr ""
+"ou choisissez une catégorie pour trouver rapidement l'aide dont vous avez "
+"besoin"
+
+#: .\templates\pages\pages_faq.html:22
+#| msgid "Search again"
+msgid "Search articles..."
+msgstr "Rechercher des articles..."
+
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:5
+msgid "Machine Learning - Anomaly Detection"
+msgstr "Apprentissage automatique - Détection d'anomalies"
+
+#: .\templates\pages\pages_machine_learning_classification.html:5
+msgid "Machine Learning - Classification"
+msgstr "Apprentissage automatique - Classification"
+
+#: .\templates\pages\pages_machine_learning_clustering.html:5
+msgid "Machine Learning - Clustering"
+msgstr "Apprentissage automatique - Regroupement"
+
+#: .\templates\pages\pages_machine_learning_regression.html:5
+msgid "Machine Learning - Regression"
+msgstr "Apprentissage automatique - Régression"
+
+#: .\templates\pages\pages_machine_learning_time_series.html:5
+msgid "Machine Learning - Time Series"
+msgstr "Apprentissage automatique - Séries temporelles"
+
+#: .\templates\pages\pages_misc_comingsoon.html:5
+#| msgid "Coming Soon - Pages"
+msgid "Coming Soon"
+msgstr "Bientôt disponible"
+
+#: .\templates\pages\pages_misc_comingsoon.html:15
+msgid "We are launching soon"
+msgstr "Nous lançons bientôt"
+
+#: .\templates\pages\pages_misc_comingsoon.html:17
+msgid ""
+"Our website is opening soon. Please register to get notified when it's "
+"ready!"
+msgstr ""
+"Notre site web sera bientôt ouvert. Veuillez vous inscrire pour être informé"
+" lorsqu'il sera prêt !"
+
+#: .\templates\pages\pages_misc_comingsoon.html:24
+msgid "Enter your email"
+msgstr "Saisissez votre adresse électronique"
+
+#: .\templates\pages\pages_misc_comingsoon.html:26
+msgid "Notify"
+msgstr "Notifier"
 
 #: .\templates\pages\pages_misc_error.html:4
-msgid "Error - Pages"
-msgstr "Erreur - Pages"
+msgid "Error"
+msgstr "Erreur"
 
-#: .\templates\pages\pages_misc_error.html:16
+#: .\templates\pages\pages_misc_error.html:15
 msgid "Page Not Found️"
 msgstr "Page non trouvée️"
 
-#: .\templates\pages\pages_misc_error.html:17
+#: .\templates\pages\pages_misc_error.html:16
 msgid "we couldn't find the page you are looking for"
 msgstr "nous n'avons pas trouvé la page que vous recherchez"
 
-#: .\templates\pages\pages_misc_error.html:18
-#: .\templates\pages\pages_misc_not_authorized.html:18
+#: .\templates\pages\pages_misc_error.html:17
+#: .\templates\pages\pages_misc_not_authorized.html:17
+#: .\templates\pages\pages_misc_under_maintenance.html:19
 msgid "Back to home"
 msgstr "Retour à l'accueil"
 
 #: .\templates\pages\pages_misc_not_authorized.html:4
-msgid "Not Authorized - Pages"
-msgstr "Non autorisé - Pages"
+#| msgid "Not Authorized - Pages"
+msgid "Not Authorized"
+msgstr "Non autorisé"
 
-#: .\templates\pages\pages_misc_not_authorized.html:16
+#: .\templates\pages\pages_misc_not_authorized.html:15
 msgid "You are not authorized!"
 msgstr "Vous n'êtes pas autorisé !"
 
-#: .\templates\pages\pages_misc_not_authorized.html:17
+#: .\templates\pages\pages_misc_not_authorized.html:16
 msgid "You don’t have permission to access this page. Go Home!"
 msgstr ""
 "Vous n'avez pas l'autorisation d'accéder à cette page. Rentrez chez vous !"
 
-#: .\templates\pagination.html:4
-#: .\templates\website\auth_register_multisteps.html:131
-#: .\templates\website\auth_register_multisteps.html:234
-#: .\templates\website\auth_register_multisteps.html:328
+#: .\templates\pages\pages_misc_under_maintenance.html:5
+#| msgid "Under Maintenance!"
+msgid "Under Maintenance"
+msgstr "Sous Maintenance"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:15
+msgid "Under Maintenance!"
+msgstr "Sous maintenance !"
+
+#: .\templates\pages\pages_misc_under_maintenance.html:17
+msgid ""
+"Sorry for the inconvenience but we're performing some maintenance at the "
+"moment"
+msgstr ""
+"Nous sommes désolés pour la gêne occasionnée, mais nous effectuons "
+"actuellement des travaux de maintenance."
+
+#: .\templates\pages\pages_natural_language_processing_text_generation.html:5
+msgid "Natural Language Processing - Text Generation"
+msgstr "Traitement du langage naturel - Génération de texte"
+
+#: .\templates\pages\pages_natural_language_processing_text_summarization.html:5
+msgid "Natural Language Processing - Text Summarization"
+msgstr "Traitement du langage naturel - Résumés de textes"
+
+#: .\templates\pages\pages_profile_connections.html:5
+msgid "User Profile - Connections"
+msgstr "Profil d'utilisateur - Connexions"
+
+#: .\templates\pages\pages_profile_connections.html:66
+#: .\templates\pages\pages_profile_projects.html:66
+#: .\templates\pages\pages_profile_teams.html:66
+#: .\templates\pages\pages_profile_user.html:83
+#| msgid "Profile Photo"
+msgid "Profile"
+msgstr "Profil"
+
+#: .\templates\pages\pages_profile_connections.html:69
+#: .\templates\pages\pages_profile_projects.html:69
+#: .\templates\pages\pages_profile_teams.html:69
+#: .\templates\pages\pages_profile_user.html:86
+msgid "Teams"
+msgstr "Les équipes"
+
+#: .\templates\pages\pages_profile_connections.html:72
+#: .\templates\pages\pages_profile_projects.html:72
+#: .\templates\pages\pages_profile_teams.html:72
+#: .\templates\pages\pages_profile_user.html:89
+#| msgid "Subjects"
+msgid "Projects"
+msgstr "Projets"
+
+#: .\templates\pages\pages_profile_projects.html:5
+#| msgid "Profile Photo"
+msgid "User Profile - Projects"
+msgstr "Profil d'utilisateur - Projets"
+
+#: .\templates\pages\pages_profile_teams.html:5
+msgid "User Profile - Teams"
+msgstr "Profils d'utilisateurs - Équipes"
+
+#: .\templates\pages\pages_profile_user.html:5
+msgid "User Profile - Profile"
+msgstr "Profil de l'utilisateur - Profil"
+
+#: .\templates\pagination.html:5
 msgid "Previous"
 msgstr "Précédent"
 
-#: .\templates\pagination.html:5
+#: .\templates\pagination.html:7
 msgid "Page"
 msgstr "Page"
 
-#: .\templates\pagination.html:6
-#: .\templates\website\auth_register_multisteps.html:133
+#: .\templates\pagination.html:9
 msgid "Next"
 msgstr "Suivant"
 
-#: .\templates\registration\logged_out.html:3
+#: .\templates\partials\_modals\modal_enable_otp.html:10
+msgid "Close"
+msgstr "Fermer"
+
+#: .\templates\partials\_modals\modal_enable_otp.html:12
+#| msgid "Change my password"
+msgid "Enable One Time Password"
+msgstr "Activer le mot de passe à usage unique"
+
+#: .\templates\partials\_modals\modal_enable_otp.html:13
+#: .\templates\partials\_modals\modal_two_factor_auth.html:131
+msgid "Verify Your Mobile Number for SMS"
+msgstr "Vérifiez votre numéro de téléphone mobile pour les SMS"
+
+#: .\templates\partials\_modals\modal_enable_otp.html:15
+msgid ""
+"Enter your mobile phone number with country code and we will send you a "
+"verification code."
+msgstr ""
+"Saisissez votre numéro de téléphone portable avec l'indicatif du pays et "
+"nous vous enverrons un code de vérification."
+
+#: .\templates\partials\_modals\modal_enable_otp.html:29
+#: .\templates\partials\_modals\modal_two_factor_auth.html:112
+#: .\templates\partials\_modals\modal_two_factor_auth.html:154
+msgid "Submit"
+msgstr "Soumettre"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:15
+msgid "Select Authentication Method"
+msgstr "Sélectionner la méthode d'authentification"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:16
+msgid ""
+"You also need to select a method by which the proxy authenticates to the "
+"directory serve."
+msgstr ""
+"Vous devez également sélectionner une méthode par laquelle le proxy "
+"s'authentifie auprès du serveur d'annuaire."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:32
+#: .\templates\partials\_modals\modal_two_factor_auth.html:80
+msgid "Authenticator Apps"
+msgstr "Applications d'authentification"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:35
+msgid ""
+"Get code from an app like Google Authenticator or Microsoft Authenticator."
+msgstr ""
+"Obtenez un code à partir d'une application comme Google Authenticator ou "
+"Microsoft Authenticator."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:52
+msgid "SMS"
+msgstr "SMS"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:55
+msgid ""
+"We will send a code via SMS if you need to use your backup login method."
+msgstr ""
+"Nous vous enverrons un code par SMS si vous devez utiliser votre méthode de "
+"connexion de secours."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:78
+msgid "Add Authenticator App"
+msgstr "Ajouter l'application Authenticator"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:82
+msgid ""
+"Using an authenticator app like Google Authenticator, Microsoft "
+"Authenticator, Authy, or 1Password, scan the QR code. It will generate a "
+"6-digit code for you to enter below."
+msgstr ""
+"À l'aide d'une application d'authentification comme Google Authenticator, "
+"Microsoft Authenticator, Authy ou 1Password, scannez le code QR. Il générera"
+" un code à 6 chiffres que vous devrez saisir ci-dessous."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:91
+msgid ""
+"If you're having trouble using the QR code, select manual entry on your app"
+msgstr ""
+"Si vous n'arrivez pas à utiliser le code QR, sélectionnez la saisie manuelle"
+" dans votre application."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:94
+msgid "Enter Authentication Code"
+msgstr "Saisir le code d'authentification"
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:133
+msgid ""
+"Enter your mobile phone number with country code, and we will send you a "
+"verification code."
+msgstr ""
+"Saisissez votre numéro de téléphone portable avec l'indicatif du pays, et "
+"nous vous enverrons un code de vérification."
+
+#: .\templates\partials\_modals\modal_two_factor_auth.html:136
+#| msgid "Phone Number"
+msgid "Phone number"
+msgstr "Numéro de téléphone"
+
+#: .\templates\registration\logged_out.html:4
 msgid "Logged out"
 msgstr "Déconnecté"
 
-#: .\templates\registration\logged_out.html:47
+#: .\templates\registration\logged_out.html:51
 msgid "say you good bye"
 msgstr "vous dire au revoir"
 
-#: .\templates\registration\logged_out.html:49
+#: .\templates\registration\logged_out.html:53
 msgid "You have been successfully logged out."
 msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\registration\logged_out.html:52
+#: .\templates\registration\logged_out.html:57
 msgid "You can"
 msgstr "Désormais, vous pouvez"
 
-#: .\templates\registration\logged_out.html:52
+#: .\templates\registration\logged_out.html:57
 msgid "log-in again"
 msgstr "se reconnecter"
 
-#: .\templates\registration\login.html:51
+#: .\templates\registration\login.html:55
 msgid "Your username and password didn't match."
 msgstr "Votre nom d'utilisateur et votre mot de passe ne correspondent pas."
 
-#: .\templates\registration\login.html:52
+#: .\templates\registration\login.html:56
 msgid "Please try again."
 msgstr "Rechercher à nouveau"
 
-#: .\templates\registration\login.html:56
+#: .\templates\registration\login.html:60
 msgid "Please, use the following form to log-in."
 msgstr "Veuillez utiliser le formulaire suivant pour vous connecter."
 
-#: .\templates\registration\login.html:57
+#: .\templates\registration\login.html:61
 msgid "If you don't have an account"
 msgstr "Si vous n'avez pas de compte"
 
-#: .\templates\registration\login.html:57
+#: .\templates\registration\login.html:61
 msgid "register here"
 msgstr "s'inscrire ici"
 
-#: .\templates\registration\login.html:69
-#: .\templates\registration\password_reset_form.html:52
+#: .\templates\registration\login.html:76
+#: .\templates\registration\password_reset_form.html:50
 msgid "Forgotten your password?"
 msgstr "Changer votre mot de passe"
 
-#: .\templates\registration\password_change_done.html:3
-#: .\templates\registration\password_change_done.html:47
+#: .\templates\registration\password_change_done.html:4
+#: .\templates\registration\password_change_done.html:51
 msgid "Password changed"
 msgstr "Mot de passe modifié"
 
-#: .\templates\registration\password_change_done.html:48
+#: .\templates\registration\password_change_done.html:52
 msgid "Your password has been successfully changed."
 msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\registration\password_change_done.html:52
-#: .\templates\website\auth_forgot_password_basic.html:59
-#: .\templates\website\auth_forgot_password_cover.html:64
-#: .\templates\website\auth_reset_password_basic.html:70
-#: .\templates\website\auth_reset_password_cover.html:76
+#: .\templates\registration\password_change_done.html:57
 msgid "Back to login"
 msgstr "Retour au login"
 
-#: .\templates\registration\password_change_form.html:3
-#: .\templates\registration\password_change_form.html:48
+#: .\templates\registration\password_change_form.html:4
+#: .\templates\registration\password_change_form.html:50
 msgid "Change your password"
 msgstr "changer votre mot de passe"
 
-#: .\templates\registration\password_change_form.html:49
+#: .\templates\registration\password_change_form.html:51
 msgid "Use the form below to change your password."
 msgstr "changer votre mot de passe"
 
-#: .\templates\registration\password_change_form.html:61
+#: .\templates\registration\password_change_form.html:62
 msgid "Change"
 msgstr "Changer"
 
-#: .\templates\registration\password_reset_complete.html:3
+#: .\templates\registration\password_reset_complete.html:4
 msgid "Password reset"
 msgstr "Réinitialisation du mot de passe"
 
-#: .\templates\registration\password_reset_complete.html:48
+#: .\templates\registration\password_reset_complete.html:50
 msgid "Password set"
 msgstr "Mot de passe défini"
 
-#: .\templates\registration\password_reset_complete.html:50
+#: .\templates\registration\password_reset_complete.html:52
 msgid "Your password has been set. You can"
 msgstr "Votre mot de passe a été défini. Vous pouvez"
 
-#: .\templates\registration\password_reset_complete.html:50
+#: .\templates\registration\password_reset_complete.html:52
 msgid "log in now"
 msgstr "Se connecter maintenant"
 
-#: .\templates\registration\password_reset_confirm.html:3
-#: .\templates\registration\password_reset_confirm.html:48
-#: .\templates\registration\password_reset_done.html:3
-#: .\templates\registration\password_reset_done.html:48
-#: .\templates\registration\password_reset_form.html:3
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_confirm.html:50
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_done.html:50
+#: .\templates\registration\password_reset_form.html:4
 msgid "Reset your password"
 msgstr "changer votre mot de passe"
 
-#: .\templates\registration\password_reset_confirm.html:50
+#: .\templates\registration\password_reset_confirm.html:52
 msgid "Please enter your new password twice:"
 msgstr "Veuillez saisir deux fois votre nouveau mot de passe :"
 
-#: .\templates\registration\password_reset_confirm.html:55
+#: .\templates\registration\password_reset_confirm.html:56
 msgid "Change my password"
 msgstr "changer votre mot de passe"
 
@@ -1697,19 +1958,19 @@ msgstr ""
 "parce qu'il a déjà été utilisé. Veuillez demander une nouvelle "
 "réinitialisation du mot de passe."
 
-#: .\templates\registration\password_reset_done.html:49
+#: .\templates\registration\password_reset_done.html:51
 msgid "We've emailed you instructions for setting your password."
 msgstr ""
 "Nous vous avons envoyé par courrier électronique des instructions pour "
 "définir votre mot de passe."
 
-#: .\templates\registration\password_reset_done.html:50
+#: .\templates\registration\password_reset_done.html:53
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with."
 msgstr ""
-"Si vous ne recevez pas d'e-mail, vérifiez que vous avez bien saisi l'adresse "
-"avec laquelle vous vous êtes inscrit."
+"Si vous ne recevez pas d'e-mail, vérifiez que vous avez bien saisi l'adresse"
+" avec laquelle vous vous êtes inscrit."
 
 #: .\templates\registration\password_reset_email.html:2
 msgid "Someone asked for password reset for email"
@@ -1723,25 +1984,25 @@ msgstr "Suivez le lien ci-dessous :"
 msgid "Your username, in case you've forgotten:"
 msgstr "Votre nom d'utilisateur, au cas où vous l'auriez oublié :"
 
-#: .\templates\registration\password_reset_form.html:53
+#: .\templates\registration\password_reset_form.html:51
 msgid "Enter your e-mail address to obtain a new password."
 msgstr "Saisissez votre adresse e-mail pour obtenir un nouveau mot de passe."
 
-#: .\templates\students\course\list.html:3
-#: .\templates\tutorial\manage\course\list.html:3
-#: .\templates\tutorial\manage\course\list.html:5
+#: .\templates\students\course\list.html:4
+#: .\templates\tutorial\manage\course\list.html:4
+#: .\templates\tutorial\manage\course\list.html:7
 msgid "My courses"
 msgstr "Mes cours"
 
-#: .\templates\students\course\list.html:16
+#: .\templates\students\course\list.html:18
 msgid "You are not enrolled in any courses yet."
 msgstr "Vous n'êtes pas encore inscrit à un cours."
 
-#: .\templates\students\course\list.html:17
+#: .\templates\students\course\list.html:19
 msgid "Browse courses"
 msgstr "Parcourir les cours"
 
-#: .\templates\students\course\list.html:18
+#: .\templates\students\course\list.html:20
 msgid "to enroll in a course"
 msgstr "s'inscrire à un cours"
 
@@ -1749,45 +2010,45 @@ msgstr "s'inscrire à un cours"
 msgid "Download file"
 msgstr "Télécharger le fichier"
 
-#: .\templates\tutorial\course\detail.html:13
+#: .\templates\tutorial\course\detail.html:8
 msgid "Overview"
 msgstr "Vue d'ensemble"
 
-#: .\templates\tutorial\course\detail.html:17
+#: .\templates\tutorial\course\detail.html:11
 msgid "modules"
 msgstr "modules"
 
-#: .\templates\tutorial\course\detail.html:18
+#: .\templates\tutorial\course\detail.html:12
 msgid "Instructor:"
 msgstr "Instructeur :"
 
-#: .\templates\tutorial\course\detail.html:25
+#: .\templates\tutorial\course\detail.html:19
 msgid "Enroll now"
 msgstr "S'inscrire maintenant"
 
-#: .\templates\tutorial\course\detail.html:29
+#: .\templates\tutorial\course\detail.html:22
 msgid "Register to enroll"
 msgstr "S'inscrire pour s'inscrire"
 
 #: .\templates\tutorial\course\list.html:5
-#: .\templates\tutorial\course\list.html:14
+#: .\templates\tutorial\course\list.html:13
 msgid "courses"
 msgstr "courses"
 
 #: .\templates\tutorial\course\list.html:7
-#: .\templates\tutorial\course\list.html:16
+#: .\templates\tutorial\course\list.html:15
 msgid "All courses"
 msgstr "Tous les cours"
 
-#: .\templates\tutorial\course\list.html:20
+#: .\templates\tutorial\course\list.html:19
 msgid "Subjects"
 msgstr "Thèmes"
 
-#: .\templates\tutorial\course\list.html:23
+#: .\templates\tutorial\course\list.html:22
 msgid "All"
 msgstr "Tous"
 
-#: .\templates\tutorial\course\list.html:30
+#: .\templates\tutorial\course\list.html:29
 msgid "course"
 msgstr "course"
 
@@ -1805,19 +2066,19 @@ msgstr "Ajouter un nouveau contenu"
 msgid "Course info"
 msgstr "Informations sur le cours"
 
-#: .\templates\tutorial\manage\content\form.html:24
+#: .\templates\tutorial\manage\content\form.html:25
 msgid "Save content"
 msgstr "Sauvegarder le contenu"
 
-#: .\templates\tutorial\manage\course\delete.html:3
+#: .\templates\tutorial\manage\course\delete.html:4
 msgid "Delete course"
 msgstr "Supprimer le cours"
 
-#: .\templates\tutorial\manage\course\delete.html:9
+#: .\templates\tutorial\manage\course\delete.html:11
 msgid "Are you sure you want to delete"
 msgstr "Êtes-vous sûr de vouloir supprimer"
 
-#: .\templates\tutorial\manage\course\delete.html:10
+#: .\templates\tutorial\manage\course\delete.html:12
 msgid "Confirm"
 msgstr "Confirmer"
 
@@ -1831,35 +2092,35 @@ msgstr "Edit course"
 msgid "Create a new course"
 msgstr "Créer un nouveau cours"
 
-#: .\templates\tutorial\manage\course\form.html:23
+#: .\templates\tutorial\manage\course\form.html:24
 msgid "Save course"
 msgstr "Sauvegarder le cours"
 
-#: .\templates\tutorial\manage\course\list.html:11
+#: .\templates\tutorial\manage\course\list.html:13
 #: .\templates\tutorial\manage\module\content_list.html:38
 #: .\templates\tutorial\manage\module\formset.html:5
 msgid "Edit"
 msgstr "Editer"
 
-#: .\templates\tutorial\manage\course\list.html:12
+#: .\templates\tutorial\manage\course\list.html:14
 #: .\templates\tutorial\manage\module\content_list.html:41
 msgid "Delete"
 msgstr "Supprimer"
 
-#: .\templates\tutorial\manage\course\list.html:13
+#: .\templates\tutorial\manage\course\list.html:15
 #: .\templates\tutorial\manage\module\content_list.html:27
 msgid "Edit modules"
 msgstr "Modifier les modules"
 
-#: .\templates\tutorial\manage\course\list.html:16
+#: .\templates\tutorial\manage\course\list.html:17
 msgid "Manage contents"
 msgstr "Manage contents"
 
-#: .\templates\tutorial\manage\course\list.html:21
+#: .\templates\tutorial\manage\course\list.html:22
 msgid "You haven't created any courses yet."
 msgstr "Vous n'avez pas encore créé de cours."
 
-#: .\templates\tutorial\manage\course\list.html:24
+#: .\templates\tutorial\manage\course\list.html:25
 msgid "Create new course"
 msgstr "Créer un nouveau cours"
 
@@ -1880,7 +2141,7 @@ msgstr "Modules"
 msgid "No modules yet."
 msgstr "Il n'y a pas encore de modules."
 
-#: .\templates\tutorial\manage\module\content_list.html:31
+#: .\templates\tutorial\manage\module\content_list.html:32
 msgid "Module contents:"
 msgstr "Contenu du module :"
 
@@ -1912,445 +2173,79 @@ msgstr "Modules de cours"
 msgid "Save modules"
 msgstr "Sauvegarder les modules"
 
-#: .\templates\website\auth_forgot_password_basic.html:6
-#: .\templates\website\auth_forgot_password_cover.html:6
-#, fuzzy
-#| msgid "Forgotten your password?"
-msgid "Forgot Password"
-msgstr "Changer votre mot de passe"
-
-#: .\templates\website\auth_forgot_password_basic.html:46
-#: .\templates\website\auth_forgot_password_cover.html:51
-#: .\templates\website\auth_login_basic.html:73
-#: .\templates\website\auth_login_cover.html:75
-#, fuzzy
-#| msgid "Forgotten your password?"
-msgid "Forgot Password?"
-msgstr "Changer votre mot de passe"
-
-#: .\templates\website\auth_forgot_password_basic.html:47
-#: .\templates\website\auth_forgot_password_cover.html:52
-#, fuzzy
-#| msgid "We've emailed you instructions for setting your password."
-msgid "Enter your email and we'll send you instructions to reset your password"
-msgstr ""
-"Nous vous avons envoyé par courrier électronique des instructions pour "
-"définir votre mot de passe."
-
-#: .\templates\website\auth_forgot_password_basic.html:51
-#: .\templates\website\auth_forgot_password_cover.html:56
-#: .\templates\website\auth_register_basic.html:58
-#: .\templates\website\auth_register_cover.html:62
-#: .\templates\website\auth_register_multisteps.html:108 .\website\forms.py:53
-#: .\website\forms.py:89
-msgid "Email"
-msgstr "Courriel"
-
-#: .\templates\website\auth_forgot_password_basic.html:52
-#: .\templates\website\auth_forgot_password_cover.html:57
-#: .\templates\website\auth_register_basic.html:59
-#: .\templates\website\auth_register_cover.html:63
-msgid "Enter your email"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_forgot_password_basic.html:54
-#: .\templates\website\auth_forgot_password_cover.html:59
-msgid "Send Reset Link"
-msgstr ""
-
-#: .\templates\website\auth_login_basic.html:6
-#: .\templates\website\auth_login_basic.html:78
-#: .\templates\website\auth_login_cover.html:6
+#: .\templates\website\auth_login_cover.html:5
 msgid "Login"
-msgstr ""
+msgstr "Connexion"
 
-#: .\templates\website\auth_login_basic.html:48
-#: .\templates\website\auth_login_cover.html:50
-#, fuzzy
+#: .\templates\website\auth_login_cover.html:51
 #| msgid "Welcome"
 msgid "Welcome to"
-msgstr "Bienvenue"
+msgstr "Bienvenue à"
 
-#: .\templates\website\auth_login_basic.html:49
-#: .\templates\website\auth_login_cover.html:51
+#: .\templates\website\auth_login_cover.html:52
 msgid "Please sign-in to your account and start the adventure"
-msgstr ""
+msgstr "Connectez-vous à votre compte et commencez l'aventure"
 
-#: .\templates\website\auth_login_basic.html:54
 #: .\templates\website\auth_login_cover.html:56
-#, fuzzy
 #| msgid "Username"
 msgid "Email or Username"
-msgstr "Nom d'utilisateur"
+msgstr "Email ou nom d'utilisateur"
 
-#: .\templates\website\auth_login_basic.html:55
-#: .\templates\website\auth_login_cover.html:57
-#, fuzzy
+#: .\templates\website\auth_login_cover.html:61
 #| msgid "Enter your email"
 msgid "Enter your email or username"
-msgstr "Saisissez votre adresse électronique"
+msgstr "Entrez votre email ou votre nom d'utilisateur"
 
-#: .\templates\website\auth_login_basic.html:58
-#: .\templates\website\auth_register_basic.html:62
-#: .\templates\website\auth_register_cover.html:66
-#: .\templates\website\auth_register_multisteps.html:112
-#: .\templates\website\payment_page.html:65 .\website\forms.py:38
+#: .\templates\website\auth_login_cover.html:65 .\website\forms.py:40
 msgid "Password"
 msgstr "Mot de passe"
 
-#: .\templates\website\auth_login_basic.html:69
-#: .\templates\website\auth_login_cover.html:71
+#: .\templates\website\auth_login_cover.html:80
 msgid "Remember Me"
-msgstr ""
+msgstr "Souvenez-vous de moi"
 
-#: .\templates\website\auth_login_basic.html:83
-#: .\templates\website\auth_login_cover.html:85
-msgid "New on our platform?"
-msgstr ""
+#: .\templates\website\auth_login_cover.html:83
+#| msgid "Forgotten your password?"
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié ?"
 
-#: .\templates\website\auth_login_basic.html:85
 #: .\templates\website\auth_login_cover.html:87
-#: .\templates\website\register.html:3 .\templates\website\register.html:48
+msgid "Sign in"
+msgstr "S'inscrire"
+
+#: .\templates\website\auth_login_cover.html:90
+msgid "New on our platform?"
+msgstr "Nouveau sur notre plateforme ?"
+
+#: .\templates\website\auth_login_cover.html:92
+#: .\templates\website\register.html:4 .\templates\website\register.html:7
 msgid "Create an account"
 msgstr "Créer un compte"
 
-#: .\templates\website\auth_login_cover.html:80
-msgid "Sign in"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:6
-#: .\templates\website\auth_register_cover.html:6
-#, fuzzy
-#| msgid "register here"
-msgid "Register"
-msgstr "s'inscrire ici"
-
-#: .\templates\website\auth_register_basic.html:48
-#: .\templates\website\auth_register_cover.html:52
-msgid "Adventure starts here"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:49
-#: .\templates\website\auth_register_cover.html:53
-msgid "Make your app management easy and fun!"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:54
-#: .\templates\website\auth_register_cover.html:58
-#: .\templates\website\auth_register_multisteps.html:104 .\website\forms.py:50
-msgid "Username"
-msgstr "Nom d'utilisateur"
-
-#: .\templates\website\auth_register_basic.html:55
-#: .\templates\website\auth_register_cover.html:59
-#, fuzzy
-#| msgid "Enter your email"
-msgid "Enter your username"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_register_basic.html:73
-#: .\templates\website\auth_register_cover.html:77
-msgid "I agree to"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:74
-#: .\templates\website\auth_register_cover.html:78
-msgid "privacy policy & terms"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:79
-#: .\templates\website\auth_register_cover.html:83
-msgid "Sign up"
-msgstr ""
-
-#: .\templates\website\auth_register_basic.html:84
-#: .\templates\website\auth_register_cover.html:88
-#, fuzzy
-#| msgid "Create an account"
-msgid "Already have an account?"
-msgstr "Créer un compte"
-
-#: .\templates\website\auth_register_basic.html:86
-#: .\templates\website\auth_register_cover.html:90
-msgid "Sign in instead"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:6
-msgid "Multi Steps Sign-up"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:65
-msgid "Account Details"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:76
-#, fuzzy
-#| msgid "Persian"
-msgid "Personal"
-msgstr "Persan"
-
-#: .\templates\website\auth_register_multisteps.html:77
-#, fuzzy
-#| msgid "Enter your email"
-msgid "Enter Information"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_register_multisteps.html:88
-msgid "Billing"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:89
-msgid "Payment Details"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:99
-msgid "Account Information"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:100
-#, fuzzy
-#| msgid "Enter your email"
-msgid "Enter Your Account Details"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_register_multisteps.html:119
-#: .\templates\website\auth_reset_password_basic.html:58
-#: .\templates\website\auth_reset_password_cover.html:64 .\website\forms.py:42
-msgid "Confirm Password"
-msgstr "Confirmer le mot de passe"
-
-#: .\templates\website\auth_register_multisteps.html:126
-#, fuzzy
-#| msgid "Profile Photo"
-msgid "Profile Link"
-msgstr "Photo de profil"
-
-#: .\templates\website\auth_register_multisteps.html:140
-msgid "Personal Information"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:141
-msgid "Enter Your Personal Information"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:153
-msgid "Mobile"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:160
-msgid "Pincode"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:168
-msgid "Landmark"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:172
-msgid "City"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:243
-msgid "Select Plan"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:244
-msgid "Select plan as per your requirement"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:252
-msgid "Basic"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:253
-msgid "A simple start for start ups & Students"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:257
-#: .\templates\website\auth_register_multisteps.html:273
-#: .\templates\website\payment_page.html:126
-#: .\templates\website\pricing_page.html:54
-msgid "month"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:268
-msgid "Standard"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:269
-msgid "For small to medium businesses"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:284
-msgid "Enterprise"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:285
-msgid "Solution for enterprise & organizations"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:289
-msgid "year"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:299
-msgid "Payment Information"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:300
-#, fuzzy
-#| msgid "Enter your email"
-msgid "Enter your card information"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_register_multisteps.html:305
-msgid "Card Number"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:312
-msgid "Name On Card"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:316
-msgid "Expiry Date"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:320
-msgid "CVV Code"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:323
-msgid "Card Verification Value"
-msgstr ""
-
-#: .\templates\website\auth_register_multisteps.html:330
-msgid "Submit"
-msgstr ""
-
-#: .\templates\website\auth_reset_password_basic.html:6
-#: .\templates\website\auth_reset_password_basic.html:46
-#: .\templates\website\auth_reset_password_cover.html:6
-#: .\templates\website\auth_reset_password_cover.html:52
-#, fuzzy
-#| msgid "Reset your password"
-msgid "Reset Password"
-msgstr "changer votre mot de passe"
-
-#: .\templates\website\auth_reset_password_basic.html:47
-#: .\templates\website\auth_reset_password_cover.html:53
-msgid "Your new password must be different from previously used passwords"
-msgstr ""
-
-#: .\templates\website\auth_reset_password_basic.html:65
-#: .\templates\website\auth_reset_password_cover.html:71
-#, fuzzy
-#| msgid "Reset your password"
-msgid "Set new password"
-msgstr "changer votre mot de passe"
-
-#: .\templates\website\auth_two_steps_basic.html:6
-#: .\templates\website\auth_two_steps_cover.html:6
-msgid "Two Steps Verifications"
-msgstr ""
-
-#: .\templates\website\auth_two_steps_basic.html:49
-#: .\templates\website\auth_two_steps_cover.html:56
-msgid ""
-"We sent a verification code to your mobile. Enter the code from the mobile "
-"in the field below."
-msgstr ""
-
-#: .\templates\website\auth_two_steps_basic.html:50
-#: .\templates\website\auth_two_steps_cover.html:57
-msgid "******1234"
-msgstr ""
-
-#: .\templates\website\auth_two_steps_basic.html:52
-#: .\templates\website\auth_two_steps_cover.html:59
-msgid "Type your 6 digit security code"
-msgstr ""
-
-#: .\templates\website\auth_two_steps_basic.html:68
-#: .\templates\website\auth_two_steps_cover.html:74
-#, fuzzy
-#| msgid "Create my account"
-msgid "Verify my account"
-msgstr "Créer mon compte"
-
-#: .\templates\website\auth_two_steps_basic.html:70
-msgid "Didn't get the code?"
-msgstr ""
-
-#: .\templates\website\auth_two_steps_cover.html:54
-msgid "Two Step Verification"
-msgstr ""
-
-#: .\templates\website\auth_verify_email_basic.html:6
-#: .\templates\website\auth_verify_email_cover.html:6
-msgid "Verify Email"
-msgstr ""
-
-#: .\templates\website\auth_verify_email_basic.html:29
-#: .\templates\website\auth_verify_email_cover.html:36
-#, fuzzy
-#| msgid "Enter your email"
-msgid "Verify your email"
-msgstr "Saisissez votre adresse électronique"
-
-#: .\templates\website\auth_verify_email_basic.html:31
-msgid "Account activation link sent to your email address:"
-msgstr ""
-
-#: .\templates\website\auth_verify_email_basic.html:31
-msgid "Please follow the link inside to continue."
-msgstr ""
-
-#: .\templates\website\auth_verify_email_basic.html:34
-#: .\templates\website\auth_verify_email_cover.html:41
-msgid "Skip for now"
-msgstr ""
-
-#: .\templates\website\auth_verify_email_basic.html:36
-#: .\templates\website\auth_verify_email_cover.html:43
-msgid "Didn't get the mail?"
-msgstr ""
-
-#: .\templates\website\auth_verify_email_cover.html:38
-msgid ""
-"Account activation link sent to your email address: hello@example.com Please "
-"follow the link inside to continue."
-msgstr ""
-
-#: .\templates\website\checkout_page.html:6
-msgid "Checkout Card"
-msgstr ""
-
-#: .\templates\website\dashboard.html:29
+#: .\templates\website\dashboard.html:9
 msgid "Welcome to your dashboard. You can"
 msgstr "Bienvenue dans votre tableau de bord. Vous pouvez"
 
-#: .\templates\website\dashboard.html:29
+#: .\templates\website\dashboard.html:9
 msgid "edit your profile"
 msgstr "modifier votre profil"
 
-#: .\templates\website\dashboard.html:29
+#: .\templates\website\dashboard.html:9
 msgid "or"
 msgstr "ou"
 
-#: .\templates\website\dashboard.html:29
+#: .\templates\website\dashboard.html:9
 msgid "change your password"
 msgstr "changer votre mot de passe"
 
-#: .\templates\website\edit.html:3 .\templates\website\edit.html:48
+#: .\templates\website\edit.html:4 .\templates\website\edit.html:50
 msgid "Edit your account"
 msgstr "Modifier votre compte"
 
-#: .\templates\website\edit.html:49
+#: .\templates\website\edit.html:51
 msgid "You can edit your account using the following form:"
-msgstr "Vous pouvez modifier votre compte en utilisant le formulaire suivant :"
-
-#: .\templates\website\help_center_landing.html:6
-msgid "Help Center Landing"
 msgstr ""
+"Vous pouvez modifier votre compte en utilisant le formulaire suivant :"
 
 #: .\templates\website\login.html:8
 msgid "Please, use the following form to log-in:"
@@ -2360,226 +2255,146 @@ msgstr "Veuillez utiliser le formulaire suivant pour vous connecter :"
 msgid "Log in"
 msgstr "Se connecter"
 
-#: .\templates\website\payment_page.html:30
-msgid "Checkout"
-msgstr ""
-
-#: .\templates\website\payment_page.html:31
-msgid ""
-"All plans include 40+ advanced tools and features to boost your product."
-msgstr ""
-
-#: .\templates\website\payment_page.html:32
-msgid "Choose the best plan to fit your needs."
-msgstr ""
-
-#: .\templates\website\payment_page.html:40
-msgid "Credit Card"
-msgstr ""
-
-#: .\templates\website\payment_page.html:51
-msgid "Paypal"
-msgstr ""
-
-#: .\templates\website\payment_page.html:57
-msgid "Billing Details"
-msgstr ""
-
-#: .\templates\website\payment_page.html:61
-msgid "Email Address"
-msgstr ""
-
-#: .\templates\website\payment_page.html:87
-msgid "Billing Zip / Postal Code"
-msgstr ""
-
-#: .\templates\website\payment_page.html:88
-msgid "Zip / Postal Codeé"
-msgstr ""
-
-#: .\templates\website\payment_page.html:93
-msgid "Credit Card Info"
-msgstr ""
-
-#: .\templates\website\payment_page.html:97
-msgid "Card number"
-msgstr ""
-
-#: .\templates\website\payment_page.html:104
-#, fuzzy
-#| msgid "Last Name"
-msgid "Name"
-msgstr "Nom de famille"
-
-#: .\templates\website\payment_page.html:108
-msgid "EXP. Date"
-msgstr ""
-
-#: .\templates\website\payment_page.html:112
-msgid "CVV"
-msgstr ""
-
-#: .\templates\website\payment_page.html:120
-msgid "Order Summary"
-msgstr ""
-
-#: .\templates\website\payment_page.html:121
-msgid "It can help you manage and service orders before"
-msgstr ""
-
-#: .\templates\website\payment_page.html:121
-msgid "during and after fulfilment."
-msgstr ""
-
-#: .\templates\website\payment_page.html:123
-#: .\templates\website\pricing_page.html:49
-msgid "A simple start for everyone"
-msgstr ""
-
-#: .\templates\website\payment_page.html:129
-#, fuzzy
-#| msgid "Change"
-msgid "Change Plan"
-msgstr "Changer"
-
-#: .\templates\website\payment_page.html:134
-msgid "Subtotal"
-msgstr ""
-
-#: .\templates\website\payment_page.html:138
-msgid "Tax"
-msgstr ""
-
-#: .\templates\website\payment_page.html:143
-msgid "Total"
-msgstr ""
-
-#: .\templates\website\payment_page.html:148
-msgid "Proceed with Payment"
-msgstr ""
-
-#: .\templates\website\payment_page.html:153
-msgid ""
-"By continuing, you accept to our Terms of Services and Privacy Policy. "
-"Please note that payments are non-refundable."
-msgstr ""
-
-#: .\templates\website\pricing_page.html:6
-msgid "Pricing"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:22
-msgid "Pricing Plans"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:23
-msgid ""
-"All plans include 40+ advanced tools and features to boost your product.<br> "
-"Choose the best plan to fit your needs."
-msgstr ""
-
-#: .\templates\website\pricing_page.html:26
-msgid "Monthly"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:32
-msgid "Annually"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:36
-#, python-format
-msgid "Save up to 10%%"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:59
-msgid "100 responses a month"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:60
-msgid "Unlimited forms and surveys"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:61
-msgid "Unlimited fields"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:62
-msgid "Basic form creation tools"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:63
-msgid "Up to 2 subdomains"
-msgstr ""
-
-#: .\templates\website\pricing_page.html:65
-msgid "Your Current Plan"
-msgstr ""
-
-#: .\templates\website\register.html:49
+#: .\templates\website\register.html:8
 msgid "Please, sign up using the following form:"
 msgstr "Veuillez vous inscrire en utilisant le formulaire suivant :"
 
-#: .\templates\website\register.html:54
+#: .\templates\website\register.html:13
 msgid "Create my account"
 msgstr "Créer mon compte"
 
-#: .\templates\website\register_done.html:3
-#: .\templates\website\register_done.html:48
+#: .\templates\website\register_done.html:4
+#: .\templates\website\register_done.html:7
 msgid "Welcome"
 msgstr "Bienvenue"
 
-#: .\templates\website\register_done.html:50
+#: .\templates\website\register_done.html:9
 msgid "Your account has been successfully created."
 msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\website\register_done.html:51
+#: .\templates\website\register_done.html:10
 msgid "Now you can"
 msgstr "Désormais, vous pouvez"
 
-#: .\templates\website\register_done.html:51
+#: .\templates\website\register_done.html:10
 msgid "log in"
 msgstr "se connecter"
 
-#: .\website\forms.py:105
+#: .\website\forms.py:44
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: .\website\forms.py:52
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: .\website\forms.py:107
 msgid "Date of Birth"
 msgstr "Date de naissance"
 
-#: .\website\forms.py:106
+#: .\website\forms.py:108
 msgid "Profile Photo"
 msgstr "Photo de profil"
 
-#: .\website\forms.py:107
+#: .\website\forms.py:109
 msgid "Biography"
 msgstr "Biographie"
 
-#~ msgid "Coming Soon - Pages"
-#~ msgstr "Prochainement - Pages"
+#~ msgid "Billing & Plans"
+#~ msgstr "Facturation et plans"
 
-#~ msgid "We are launching soon"
-#~ msgstr "Nous lançons bientôt"
+#, fuzzy
+#~ msgid "Russia"
+#~ msgstr "Russe"
 
+#, fuzzy
+#~ msgid "Thailand"
+#~ msgstr "Thaïlandais"
+
+#~ msgid "USD"
+#~ msgstr "USD"
+
+#~ msgid "Euro"
+#~ msgstr "Euro"
+
+#, fuzzy
+#~ msgid "Pound"
+#~ msgstr "Trouvé"
+
+#~ msgid "Bitcoin"
+#~ msgstr "Bitcoin"
+
+#~ msgid "Connections<"
+#~ msgstr "Connexions<"
+
+#~ msgid "Error - Pages"
+#~ msgstr "Erreur - Pages"
+
+#, fuzzy
+#~ msgid "Forgot Password"
+#~ msgstr "Changer votre mot de passe"
+
+#, fuzzy
 #~ msgid ""
-#~ "Our website is opening soon. Please register to get notified when it's "
-#~ "ready!"
+#~ "Enter your email and we'll send you instructions to reset your password"
 #~ msgstr ""
-#~ "Notre site web sera bientôt ouvert. Veuillez vous inscrire pour être "
-#~ "informé lorsqu'il sera prêt !"
+#~ "Nous vous avons envoyé par courrier électronique des instructions pour "
+#~ "définir votre mot de passe."
 
-#~ msgid "Notify"
-#~ msgstr "Notifier"
+#, fuzzy
+#~ msgid "Register"
+#~ msgstr "s'inscrire ici"
+
+#, fuzzy
+#~ msgid "Enter your username"
+#~ msgstr "Saisissez votre adresse électronique"
+
+#, fuzzy
+#~ msgid "Already have an account?"
+#~ msgstr "Créer un compte"
+
+#, fuzzy
+#~ msgid "Personal"
+#~ msgstr "Persan"
+
+#, fuzzy
+#~ msgid "Enter Information"
+#~ msgstr "Saisissez votre adresse électronique"
+
+#, fuzzy
+#~ msgid "Enter Your Account Details"
+#~ msgstr "Saisissez votre adresse électronique"
+
+#, fuzzy
+#~ msgid "Enter your card information"
+#~ msgstr "Saisissez votre adresse électronique"
+
+#, fuzzy
+#~ msgid "Reset Password"
+#~ msgstr "changer votre mot de passe"
+
+#, fuzzy
+#~ msgid "Set new password"
+#~ msgstr "changer votre mot de passe"
+
+#, fuzzy
+#~ msgid "Verify my account"
+#~ msgstr "Créer mon compte"
+
+#, fuzzy
+#~ msgid "Verify your email"
+#~ msgstr "Saisissez votre adresse électronique"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Nom de famille"
+
+#, fuzzy
+#~ msgid "Change Plan"
+#~ msgstr "Changer"
 
 #~ msgid "Under Maintenance - Pages"
 #~ msgstr "Under Maintenance - Pages"
-
-#~ msgid "Under Maintenance!"
-#~ msgstr "Sous maintenance !"
-
-#~ msgid ""
-#~ "Sorry for the inconvenience but we're performing some maintenance at the "
-#~ "moment"
-#~ msgstr ""
-#~ "Nous sommes désolés pour la gêne occasionnée, mais nous effectuons "
-#~ "actuellement des travaux de maintenance."
 
 #~ msgid "Hebrew"
 #~ msgstr "Hébreu"

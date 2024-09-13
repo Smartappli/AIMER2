@@ -1,7 +1,7 @@
 from django.urls import path
 
-from . import views
 from .views import (
+    CustomDashboardView,
     CustomEditView,
     CustomLoginView,
     CustomLogoutView,
@@ -17,8 +17,8 @@ from .views import (
 app_name = "website"
 
 urlpatterns = [
-    path("", views.dashboard, name="dashboard"),
-    path("", views.dashboard, name="index"),
+    path("", CustomDashboardView.as_view(), name="dashboard"),
+    path("", CustomDashboardView.as_view(), name="index"),
     path(
         "edit/",
         CustomEditView.as_view(),  # Corrected to CustomEditView

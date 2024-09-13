@@ -4,3 +4,18 @@
 {% block title %}
     {% translate "Machine Learning - Anomaly Detection" %}
 {% endblock %}
+{% block content %}
+    <h1>Select Anomaly Detection Models</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {% for model in models %}
+            <input type="checkbox"
+                   id="{{ model }}"
+                   name="model_checkbox"
+                   value="{{ model }}">
+            <label for="{{ model }}">{{ model }}</label>
+            <br>
+        {% endfor %}
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}

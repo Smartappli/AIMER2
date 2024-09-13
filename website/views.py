@@ -19,6 +19,13 @@ from .forms import (
 from .models import Profile
 
 
+class PagesView(TemplateView):
+    # Predefined function
+    def get_context_data(self, **kwargs):
+        # A function to init the global layout. It is defined in web_project/__init__.py file
+        return TemplateLayout.init(self, super().get_context_data(**kwargs))
+
+
 class WebsiteView(TemplateView):
     def get_context_data(self, **kwargs):
         # Get the base context from the parent class
@@ -177,18 +184,16 @@ def dashboard(request):
     """
     return render(
         request,
-        "website/dashboard.html",
-        {"section": "dashboard"},
+        "pages/pages_dashboard.html",
     )
 
 
-class CustomDashboardView(FrontPagesView, View):
-    template_name = "website/dashboard.html"
+class CustomDashboardView(PagesView, View):
+    template_name = "pages/pages_dashboard.html"
 
     def get(self, request, *args, **kwargs):
-        # Retrieve the context of `FrontPagesView`
+        # Retrieve the context of `PagesView`
         context = self.get_context_data(**kwargs)
-        context["section"] = "dashboard"
 
         return render(request, self.template_name, context)
 
