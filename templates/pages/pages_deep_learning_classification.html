@@ -1,11 +1,9 @@
 {% extends layout_path %}
 {% load static %}
 {% load i18n %}
-
 {% block title %}
     {% translate "Deep Learning - Classification" %}
 {% endblock %}
-
 {% block content %}
     <style>
         /* General Styles */
@@ -167,21 +165,18 @@
             }
         }
     </style>
-
     <div class="container">
         <!-- Header Controls -->
         <div class="header-controls">
             <!-- Selected Models Count -->
             <div id="selected-count">
-                <p>{% translate "Selected Models: " %}<span id="count">0</span></p>
+                <p>
+                    {% translate "Selected Models: " %}<span id="count">0</span>
+                </p>
             </div>
-            
             <!-- Button to Select/Deselect All Modules -->
-            <button id="toggle-all-modules" class="btn btn-primary">
-                {% translate "Select/Deselect All Modules" %}
-            </button>
+            <button id="toggle-all-modules" class="btn btn-primary">{% translate "Select/Deselect All Modules" %}</button>
         </div>
-
         <!-- Modules List -->
         <div id="modules-list">
             {% for module, models in modules_with_models.items %}
@@ -195,9 +190,9 @@
                     <div class="model-buttons">
                         {% if models %}
                             {% for model in models %}
-                                <button class="model-button" data-module="{{ module }}" data-model="{{ model }}">
-                                    {{ model }}
-                                </button>
+                                <button class="model-button"
+                                        data-module="{{ module }}"
+                                        data-model="{{ model }}">{{ model }}</button>
                             {% endfor %}
                         {% else %}
                             <p>{% translate "No models available" %}</p>
@@ -209,7 +204,6 @@
             {% endfor %}
         </div>
     </div>
-
     <!-- JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
