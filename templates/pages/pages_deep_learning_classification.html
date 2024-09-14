@@ -46,7 +46,29 @@
         .btn-primary:active {
             transform: scale(0.98);
         }
-    
+
+        /* Indicator Styles */
+        .module-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .module-indicator.red {
+            background-color: red;
+        }
+
+        .module-indicator.orange {
+            background-color: orange;
+        }
+
+        .module-indicator.green {
+            background-color: green;
+        }
+
         /* Button Styles for Models */
         .model-button {
             border: 2px solid #007bff;
@@ -166,33 +188,39 @@
         }
     </style>
     <div class="container">
+        <h1>{% translate "Deep Learning - Classification" %}</h1>
+
         <!-- Header Controls -->
         <div class="header-controls">
             <!-- Selected Models Count -->
             <div id="selected-count">
-                <p>
-                    {% translate "Selected Models: " %}<span id="count">0</span>
-                </p>
+                <p>{% translate "Total Selected Models: " %}<span id="count">0</span></p>
             </div>
+            
             <!-- Button to Select/Deselect All Modules -->
-            <button id="toggle-all-modules" class="btn btn-primary">{% translate "Select/Deselect All Modules" %}</button>
+            <button id="toggle-all-modules" class="btn btn-primary">
+                {% translate "Select/Deselect All Modules" %}
+            </button>
         </div>
+
         <!-- Modules List -->
         <div id="modules-list">
             {% for module, models in modules_with_models.items %}
                 <div class="module-card">
                     <div class="module-header">
-                        <label>
-                            <input type="checkbox" class="module-checkbox" data-module="{{ module }}" />
-                            {{ module|capfirst }}
-                        </label>
+                        <!-- Color Indicator for Module -->
+                        <span class="module-indicator red" data-module-indicator="{{ module }}"></span>
+                        {{ module|capfirst }}
+                        <span class="model-count" data-model-count="{{ module }}">
+                            (0 / {{ models|length }} {% translate "models selected" %})
+                        </span>
                     </div>
                     <div class="model-buttons">
                         {% if models %}
                             {% for model in models %}
-                                <button class="model-button"
-                                        data-module="{{ module }}"
-                                        data-model="{{ model }}">{{ model | replace_underscore }}</button>
+                                <button class="model-button" data-module="{{ module }}" data-model="{{ model }}">
+                                    {{ model|replace_underscore }}
+                                </button>
                             {% endfor %}
                         {% else %}
                             <p>{% translate "No models available" %}</p>
@@ -204,11 +232,13 @@
             {% endfor %}
         </div>
     </div>
+
     <!-- JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const moduleCheckboxes = document.querySelectorAll('.module-checkbox');
             const modelButtons = document.querySelectorAll('.model-button');
+            const moduleIndicators = document.querySelectorAll('.module-indicator');
+            const moduleModelCounts = document.querySelectorAll('.model-count');
             const selectAllModulesButton = document.getElementById('toggle-all-modules');
             const countSpan = document.getElementById('count');
 
@@ -218,14 +248,48 @@
                 countSpan.textContent = selectedModels;
             }
 
+            // Function to update the number of selected models for each module
+            function updateModuleModelCount(module) {
+                const modelsInModule = document.querySelectorAll(`.model-button[data-module="${module}"]`);
+                const selectedModelsInModule = document.querySelectorAll(`.model-button.selected[data-module="${module}"]`);
+                const countElement = document.querySelector(`.model-count[data-model-count="${module}"]`);
+
+                countElement.textContent = `(${selectedModelsInModule.length} / ${modelsInModule.length} models selected)`;
+            }
+
+            // Function to update module indicator color based on selected models
+            function updateModuleIndicator(module) {
+                const modelsInModule = document.querySelectorAll(`.model-button[data-module="${module}"]`);
+                const selectedModelsInModule = document.querySelectorAll(`.model-button.selected[data-module="${module}"]`);
+                const indicator = document.querySelector(`.module-indicator[data-module-indicator="${module}"]`);
+
+                if (selectedModelsInModule.length === 0) {
+                    // Aucun modèle sélectionné
+                    indicator.classList.remove('orange', 'green');
+                    indicator.classList.add('red');
+                } else if (selectedModelsInModule.length === modelsInModule.length) {
+                    // Tous les modèles sélectionnés
+                    indicator.classList.remove('red', 'orange');
+                    indicator.classList.add('green');
+                } else {
+                    // Une partie des modèles sélectionnés
+                    indicator.classList.remove('red', 'green');
+                    indicator.classList.add('orange');
+                }
+
+                updateModuleModelCount(module);  // Update the count text
+            }
+
             // Toggle all modules
             selectAllModulesButton.addEventListener('click', function() {
-                const allChecked = Array.from(moduleCheckboxes).every(checkbox => checkbox.checked);
-                moduleCheckboxes.forEach(checkbox => checkbox.checked = !allChecked);
+                const allSelected = Array.from(modelButtons).every(button => button.classList.contains('selected'));
+                modelButtons.forEach(button => button.classList.toggle('selected', !allSelected));
 
-                // Toggle all models based on modules selection
-                const allModelButtons = document.querySelectorAll('.model-button');
-                allModelButtons.forEach(button => button.classList.toggle('selected', !allChecked));
+                // Update all indicators and counts
+                moduleIndicators.forEach(indicator => {
+                    const module = indicator.getAttribute('data-module-indicator');
+                    updateModuleIndicator(module);
+                });
 
                 updateSelectedCount();
             });
@@ -234,24 +298,9 @@
             modelButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     const module = this.dataset.module;
-                    const isSelected = this.classList.toggle('selected');
-                    
-                    // If a button is selected, ensure its module checkbox is checked
-                    if (isSelected) {
-                        document.querySelector(`.module-checkbox[data-module="${module}"]`).checked = true;
-                    }
+                    this.classList.toggle('selected');
 
-                    updateSelectedCount();
-                });
-            });
-
-            // Event listeners for module checkboxes
-            moduleCheckboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', function() {
-                    const module = this.dataset.module;
-                    const associatedButtons = document.querySelectorAll(`.model-button[data-module="${module}"]`);
-                    associatedButtons.forEach(button => button.classList.toggle('selected', checkbox.checked));
-
+                    updateModuleIndicator(module);
                     updateSelectedCount();
                 });
             });

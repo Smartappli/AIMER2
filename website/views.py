@@ -22,7 +22,7 @@ from .models import Profile
 class PagesView(TemplateView):
     # Predefined function
     def get_context_data(self, **kwargs):
-        # A function to init the global layout. It is defined in web_project/__init__.py file
+        # A function to init the global layout. It is defined in AIMER2/__init__.py file
         return TemplateLayout.init(self, super().get_context_data(**kwargs))
 
 
@@ -31,7 +31,7 @@ class WebsiteView(TemplateView):
         # Get the base context from the parent class
         context = super().get_context_data(**kwargs)
 
-        # Initialize the global layout using a function defined in web_project/__init__.py
+        # Initialize the global layout using a function defined in AIMER2/__init__.py
         context = TemplateLayout.init(self, context)
 
         # Update the context with layout path

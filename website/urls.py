@@ -21,7 +21,7 @@ urlpatterns = [
     path("", CustomDashboardView.as_view(), name="index"),
     path(
         "edit/",
-        CustomEditView.as_view(),  # Corrected to CustomEditView
+        CustomEditView.as_view(),
         name="edit",
     ),
     path("login/", CustomLoginView.as_view(), name="login"),
