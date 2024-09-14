@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.db import models
+from django_cryptography.fields import encrypt
 
 
 class Profile(models.Model):
@@ -25,12 +26,14 @@ class Profile(models.Model):
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
     )
-    date_of_birth = models.DateField(blank=True, null=True)
-    photo = models.ImageField(
-        upload_to="users/%Y/%m/%d/",
-        blank=True,
+    date_of_birth = encrypt(models.DateField(blank=True, null=True))
+    photo = encrypt(
+        models.ImageField(
+            upload_to="users/%Y/%m/%d/",
+            blank=True,
+        )
     )
-    bio = models.TextField(blank=True)
+    bio = encrypt(models.TextField(blank=True))
 
     def __str__(self) -> str:
         return f"Profile of {self.user.username}"

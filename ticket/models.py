@@ -3,6 +3,7 @@ from typing import ClassVar
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django_cryptography.fields import encrypt
 
 
 class Post(models.Model):
@@ -50,8 +51,8 @@ class Post(models.Model):
         CLOSED = "CL", "Closed"
         REOPENED = "RE", "Reopened"
 
-    title = models.CharField(max_length=250)
-    body = models.TextField()
+    title = encrypt(models.CharField(max_length=250))
+    body = encrypt(models.TextField())
     author = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
