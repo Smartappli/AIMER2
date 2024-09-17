@@ -189,20 +189,17 @@
     </style>
     <div class="container">
         <h1>{% translate "Deep Learning - Classification" %}</h1>
-
         <!-- Header Controls -->
         <div class="header-controls">
             <!-- Selected Models Count -->
             <div id="selected-count">
-                <p>{% translate "Total Selected Models: " %}<span id="count">0</span></p>
+                <p>
+                    {% translate "Total Selected Models: " %}<span id="count">0</span>
+                </p>
             </div>
-            
             <!-- Button to Select/Deselect All Modules -->
-            <button id="toggle-all-modules" class="btn btn-primary">
-                {% translate "Select/Deselect All Modules" %}
-            </button>
+            <button id="toggle-all-modules" class="btn btn-primary">{% translate "Select/Deselect All Modules" %}</button>
         </div>
-
         <!-- Modules List -->
         <div id="modules-list">
             {% for module, models in modules_with_models.items %}
@@ -218,9 +215,9 @@
                     <div class="model-buttons">
                         {% if models %}
                             {% for model in models %}
-                                <button class="model-button" data-module="{{ module }}" data-model="{{ model }}">
-                                    {{ model|replace_underscore }}
-                                </button>
+                                <button class="model-button"
+                                        data-module="{{ module }}"
+                                        data-model="{{ model }}">{{ model|replace_underscore }}</button>
                             {% endfor %}
                         {% else %}
                             <p>{% translate "No models available" %}</p>
@@ -232,7 +229,6 @@
             {% endfor %}
         </div>
     </div>
-
     <!-- JavaScript -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
