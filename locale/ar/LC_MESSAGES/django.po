@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-12 08:36+0200\n"
-"PO-Revision-Date: 2024-09-12 15:09+0000\n"
+"PO-Revision-Date: 2024-09-15 02:07+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -401,7 +401,6 @@ msgid "Last Name"
 msgstr "الاسم العائلي"
 
 #: .\templates\pages\pages_account_settings_account.html:111
-#, fuzzy
 #| msgid "Email"
 msgid "E-mail"
 msgstr "البريد الإلكتروني"
@@ -429,91 +428,83 @@ msgstr "الرمز البريدي"
 
 #: .\templates\pages\pages_account_settings_account.html:164
 msgid "Country"
-msgstr ""
+msgstr "البلد"
 
 #: .\templates\pages\pages_account_settings_account.html:166
 msgid "Select"
-msgstr ""
+msgstr "اختر"
 
 #: .\templates\pages\pages_account_settings_account.html:167
 msgid "Afghanistan"
-msgstr ""
+msgstr "أفغانستان"
 
 #: .\templates\pages\pages_account_settings_account.html:168
-#, fuzzy
 #| msgid "Albanian"
 msgid "Albania"
-msgstr "الرومانية"
+msgstr "ألبانيا"
 
 #: .\templates\pages\pages_account_settings_account.html:169
-#, fuzzy
 #| msgid "Algerian Arabic"
 msgid "Algeria"
-msgstr "العربية الجزائرية"
+msgstr "الجزائر"
 
 #: .\templates\pages\pages_account_settings_account.html:170
 msgid "Andorra"
-msgstr ""
+msgstr "أندورا"
 
 #: .\templates\pages\pages_account_settings_account.html:171
-#, fuzzy
 #| msgid "Mongolian"
 msgid "Angola"
-msgstr "المنغولية"
+msgstr "أنغولا"
 
 #: .\templates\pages\pages_account_settings_account.html:172
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "أنتيغوا وباربودا"
 
 #: .\templates\pages\pages_account_settings_account.html:173
-#, fuzzy
 #| msgid "Argentinian Spanish"
 msgid "Argentina"
-msgstr "الإسبانية الأرجنتينية"
+msgstr "الأرجنتين"
 
 #: .\templates\pages\pages_account_settings_account.html:174
-#, fuzzy
 #| msgid "Armenian"
 msgid "Armenia"
-msgstr "الرومانية"
+msgstr "أرمينيا"
 
 #: .\templates\pages\pages_account_settings_account.html:175
-#, fuzzy
 #| msgid "Australian English"
 msgid "Australia"
-msgstr "اللغة الإنجليزية الأسترالية"
+msgstr "استراليا"
 
 #: .\templates\pages\pages_account_settings_account.html:176
 msgid "Austria"
-msgstr ""
+msgstr "النمسا"
 
 #: .\templates\pages\pages_account_settings_account.html:177
-#, fuzzy
 #| msgid "Azerbaijani"
 msgid "Azerbaijan"
 msgstr "أذربيجان"
 
 #: .\templates\pages\pages_account_settings_account.html:178
 msgid "The Bahamas"
-msgstr ""
+msgstr "جزر البهاما"
 
 #: .\templates\pages\pages_account_settings_account.html:179
 msgid "Bahrain"
-msgstr ""
+msgstr "البحرين"
 
 #: .\templates\pages\pages_account_settings_account.html:180
 msgid "Bangladesh"
-msgstr ""
+msgstr "بنغلاديش"
 
 #: .\templates\pages\pages_account_settings_account.html:181
 msgid "Barbados"
-msgstr ""
+msgstr "بربادوس"
 
 #: .\templates\pages\pages_account_settings_account.html:182
-#, fuzzy
 #| msgid "Belarusian"
 msgid "Belarus"
-msgstr "البيلاروسية"
+msgstr "بيلاروسيا"
 
 #: .\templates\pages\pages_account_settings_account.html:183
 msgid "Belgium"
@@ -544,10 +535,9 @@ msgid "Botswana"
 msgstr "بوتسوانا"
 
 #: .\templates\pages\pages_account_settings_account.html:190
-#, fuzzy
 #| msgid "Brazilian"
 msgid "Brazil"
-msgstr "برازيلي"
+msgstr "البرازيل"
 
 #: .\templates\pages\pages_account_settings_account.html:191
 msgid "Brunei"
@@ -783,73 +773,68 @@ msgstr "الأيسلندية"
 
 #: .\templates\pages\pages_account_settings_account.html:244
 msgid "India"
-msgstr ""
+msgstr "الهند"
 
 #: .\templates\pages\pages_account_settings_account.html:245
-#, fuzzy
 #| msgid "Indonesian"
 msgid "Indonesia"
-msgstr "الإندونيسية"
+msgstr "إندونيسيا"
 
 #: .\templates\pages\pages_account_settings_account.html:246
 msgid "Iran"
-msgstr ""
+msgstr "إيران"
 
 #: .\templates\pages\pages_account_settings_account.html:247
 msgid "Iraq"
-msgstr ""
+msgstr "العراق"
 
 #: .\templates\pages\pages_account_settings_account.html:248
-#, fuzzy
 #| msgid "Icelandic"
 msgid "Ireland"
-msgstr "الأيسلندية"
+msgstr "أيرلندا"
 
 #: .\templates\pages\pages_account_settings_account.html:249
 msgid "Israel"
-msgstr ""
+msgstr "إسرائيل"
 
 #: .\templates\pages\pages_account_settings_account.html:250
-#, fuzzy
 #| msgid "Italian"
 msgid "Italy"
-msgstr "إيطالي"
+msgstr "ايطاليا"
 
 #: .\templates\pages\pages_account_settings_account.html:251
 msgid "Jamaica"
-msgstr ""
+msgstr "جامايكا"
 
 #: .\templates\pages\pages_account_settings_account.html:252
-#, fuzzy
 #| msgid "Japanese"
 msgid "Japan"
-msgstr "ياباني"
+msgstr "اليابان"
 
 #: .\templates\pages\pages_account_settings_account.html:253
 msgid "Jordan"
-msgstr ""
+msgstr "الأردن"
 
 #: .\templates\pages\pages_account_settings_account.html:254
-#, fuzzy
 #| msgid "Kazakh"
 msgid "Kazakhstan"
-msgstr "الكازاخستانية"
+msgstr "كازاخستان"
 
 #: .\templates\pages\pages_account_settings_account.html:255
 msgid "Kenya"
-msgstr ""
+msgstr "كينيا"
 
 #: .\templates\pages\pages_account_settings_account.html:256
 msgid "Kiribati"
-msgstr ""
+msgstr "كيريباتي"
 
 #: .\templates\pages\pages_account_settings_account.html:257
 msgid "Korea, North"
-msgstr ""
+msgstr "كوريا، كوريا الشمالية"
 
 #: .\templates\pages\pages_account_settings_account.html:258
 msgid "Korea, South"
-msgstr ""
+msgstr "كوريا الجنوبية، كوريا الجنوبية"
 
 #: .\templates\pages\pages_account_settings_account.html:259
 msgid "Kosovo"
@@ -860,7 +845,6 @@ msgid "Kuwait"
 msgstr "الكويت"
 
 #: .\templates\pages\pages_account_settings_account.html:261
-#, fuzzy
 #| msgid "Kyrgyz"
 msgid "Kyrgyzstan"
 msgstr "قيرغيزستان"
@@ -870,10 +854,9 @@ msgid "Laos"
 msgstr "لاوس"
 
 #: .\templates\pages\pages_account_settings_account.html:263
-#, fuzzy
 #| msgid "Latvian"
 msgid "Latvia"
-msgstr "اللاتفية"
+msgstr "لاتفيا"
 
 #: .\templates\pages\pages_account_settings_account.html:264
 msgid "Lebanon"
@@ -896,32 +879,29 @@ msgid "Liechtenstein"
 msgstr "ليختنشتاين"
 
 #: .\templates\pages\pages_account_settings_account.html:269
-#, fuzzy
 #| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "الليتوانية"
+msgstr "ليتوانيا"
 
 #: .\templates\pages\pages_account_settings_account.html:270
-#, fuzzy
 #| msgid "Luxembourgish"
 msgid "Luxembourg"
-msgstr "اللوكسمبورجية"
+msgstr "لوكسمبورغ"
 
 #: .\templates\pages\pages_account_settings_account.html:271
 msgid "Madagascar"
 msgstr "مدغشقر"
 
 #: .\templates\pages\pages_account_settings_account.html:272
-#, fuzzy
 #| msgid "Malay"
 msgid "Malawi"
-msgstr "الملايو"
+msgstr "ملاوي"
 
 #: .\templates\pages\pages_account_settings_account.html:273
 #, fuzzy
 #| msgid "Malay"
 msgid "Malaysia"
-msgstr "الملايو"
+msgstr "ماليزيا"
 
 #: .\templates\pages\pages_account_settings_account.html:274
 msgid "Maldives"
@@ -929,51 +909,51 @@ msgstr "جزر المالديف"
 
 #: .\templates\pages\pages_account_settings_account.html:275
 msgid "Mali"
-msgstr ""
+msgstr "مالي"
 
 #: .\templates\pages\pages_account_settings_account.html:276
 msgid "Malta"
-msgstr ""
+msgstr "مالطا"
 
 #: .\templates\pages\pages_account_settings_account.html:277
 msgid "Marshall Islands"
-msgstr ""
+msgstr "جزر مارشال"
 
 #: .\templates\pages\pages_account_settings_account.html:278
 #, fuzzy
 #| msgid "Lithuanian"
 msgid "Mauritania"
-msgstr "الليتوانية"
+msgstr "موريتانيا"
 
 #: .\templates\pages\pages_account_settings_account.html:279
 msgid "Mauritius"
-msgstr ""
+msgstr "موريشيوس"
 
 #: .\templates\pages\pages_account_settings_account.html:280
 msgid "Mexico"
-msgstr ""
+msgstr "المكسيك"
 
 #: .\templates\pages\pages_account_settings_account.html:281
 msgid "Micronesia, Federated States of"
-msgstr ""
+msgstr "ميكرونيزيا، ولايات ميكرونيزيا الموحدة"
 
 #: .\templates\pages\pages_account_settings_account.html:282
 msgid "Moldova"
-msgstr ""
+msgstr "مولدوفا"
 
 #: .\templates\pages\pages_account_settings_account.html:283
 msgid "Monaco"
-msgstr ""
+msgstr "موناكو"
 
 #: .\templates\pages\pages_account_settings_account.html:284
 #, fuzzy
 #| msgid "Mongolian"
 msgid "Mongolia"
-msgstr "المنغولية"
+msgstr "منغوليا"
 
 #: .\templates\pages\pages_account_settings_account.html:285
 msgid "Montenegro"
-msgstr ""
+msgstr "مونتينيغرو"
 
 #: .\templates\pages\pages_account_settings_account.html:286
 msgid "Morocco"
@@ -999,7 +979,7 @@ msgstr "ناورو"
 #, fuzzy
 #| msgid "Nepali"
 msgid "Nepal"
-msgstr "النيبالية"
+msgstr "نيبال"
 
 #: .\templates\pages\pages_account_settings_account.html:292
 msgid "Netherlands"
@@ -1013,7 +993,7 @@ msgstr "نيوزيلندا"
 #, fuzzy
 #| msgid "Nicaraguan Spanish"
 msgid "Nicaragua"
-msgstr "الإسبانية النيكاراغوية"
+msgstr "نيكاراغوا"
 
 #: .\templates\pages\pages_account_settings_account.html:295
 msgid "Niger"
@@ -1027,7 +1007,7 @@ msgstr "نيجيريا"
 #, fuzzy
 #| msgid "Macedonian"
 msgid "North Macedonia"
-msgstr "المقدونية"
+msgstr "مقدونيا الشمالية"
 
 #: .\templates\pages\pages_account_settings_account.html:298
 msgid "Norway"
@@ -1073,19 +1053,19 @@ msgstr ""
 #, fuzzy
 #| msgid "Portuguese"
 msgid "Portugal"
-msgstr "البرتغالية"
+msgstr "البرتغال"
 
 #: .\templates\pages\pages_account_settings_account.html:309
 #, fuzzy
 #| msgid "Tatar"
 msgid "Qatar"
-msgstr "تتار"
+msgstr "قطر"
 
 #: .\templates\pages\pages_account_settings_account.html:310
 #, fuzzy
 #| msgid "Romanian"
 msgid "Romania"
-msgstr "الرومانية"
+msgstr "رومانيا"
 
 #: .\templates\pages\pages_account_settings_account.html:312
 msgid "Rwanda"
@@ -1127,7 +1107,7 @@ msgstr "السنغال"
 #, fuzzy
 #| msgid "Serbian"
 msgid "Serbia"
-msgstr "الصربية"
+msgstr "صربيا"
 
 #: .\templates\pages\pages_account_settings_account.html:322
 msgid "Seychelles"
@@ -1142,16 +1122,14 @@ msgid "Singapore"
 msgstr "سنغافورة"
 
 #: .\templates\pages\pages_account_settings_account.html:325
-#, fuzzy
 #| msgid "Slovak"
 msgid "Slovakia"
-msgstr "السلوفاكية"
+msgstr "سلوفاكيا"
 
 #: .\templates\pages\pages_account_settings_account.html:326
-#, fuzzy
 #| msgid "Slovenian"
 msgid "Slovenia"
-msgstr "السلوفينية"
+msgstr "سلوفينيا"
 
 #: .\templates\pages\pages_account_settings_account.html:327
 msgid "Solomon Islands"
@@ -1182,16 +1160,14 @@ msgid "Sudan, South"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:335
-#, fuzzy
 #| msgid "name"
 msgid "Suriname"
-msgstr "الاسم"
+msgstr "سورينام"
 
 #: .\templates\pages\pages_account_settings_account.html:336
-#, fuzzy
 #| msgid "Swedish"
 msgid "Sweden"
-msgstr "اللغة السويدية"
+msgstr "السويد"
 
 #: .\templates\pages\pages_account_settings_account.html:337
 msgid "Switzerland"
@@ -1206,10 +1182,9 @@ msgid "Taiwan"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:340
-#, fuzzy
 #| msgid "Tajik"
 msgid "Tajikistan"
-msgstr "الطاجيكية"
+msgstr "طاجيكستان"
 
 #: .\templates\pages\pages_account_settings_account.html:341
 msgid "Tanzania"
@@ -1232,16 +1207,14 @@ msgid "Tunisia"
 msgstr "تونس"
 
 #: .\templates\pages\pages_account_settings_account.html:347
-#, fuzzy
 #| msgid "Turkmen"
 msgid "Turkey"
-msgstr "التركمان"
+msgstr "تركيا"
 
 #: .\templates\pages\pages_account_settings_account.html:348
-#, fuzzy
 #| msgid "Turkmen"
 msgid "Turkmenistan"
-msgstr "التركمان"
+msgstr "تركمانستان"
 
 #: .\templates\pages\pages_account_settings_account.html:349
 msgid "Tuvalu"
@@ -1252,10 +1225,9 @@ msgid "Uganda"
 msgstr "أوغندا"
 
 #: .\templates\pages\pages_account_settings_account.html:351
-#, fuzzy
 #| msgid "Ukrainian"
 msgid "Ukraine"
-msgstr "أوكراني"
+msgstr "أوكرانيا"
 
 #: .\templates\pages\pages_account_settings_account.html:352
 msgid "United Arab Emirates"
@@ -1274,10 +1246,9 @@ msgid "Uruguay"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:356
-#, fuzzy
 #| msgid "Uzbek"
 msgid "Uzbekistan"
-msgstr "الأوزبكية"
+msgstr "أوزبكستان"
 
 #: .\templates\pages\pages_account_settings_account.html:357
 msgid "Vanuatu"
@@ -1288,16 +1259,14 @@ msgid "Vatican City"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:359
-#, fuzzy
 #| msgid "Venezuelan Spanish"
 msgid "Venezuela"
-msgstr "الإسبانية الفنزويلية"
+msgstr "فنزويلا"
 
 #: .\templates\pages\pages_account_settings_account.html:360
-#, fuzzy
 #| msgid "Vietnamese"
 msgid "Vietnam"
-msgstr "الفيتنامية"
+msgstr "فيتنام"
 
 #: .\templates\pages\pages_account_settings_account.html:361
 msgid "Yemen"
@@ -1312,10 +1281,9 @@ msgid "Zimbabwe"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:369
-#, fuzzy
 #| msgid "language"
 msgid "Select Language"
-msgstr "اللغة"
+msgstr "اختر اللغة"
 
 #: .\templates\pages\pages_account_settings_account.html:405
 msgid "Timezone"
@@ -1348,16 +1316,14 @@ msgid "Cancel"
 msgstr "إلغاء"
 
 #: .\templates\pages\pages_account_settings_account.html:468
-#, fuzzy
 #| msgid "Delete course"
 msgid "Delete Account"
-msgstr "حذف المقرر الدراسي"
+msgstr "حذف الحساب"
 
 #: .\templates\pages\pages_account_settings_account.html:472
-#, fuzzy
 #| msgid "Are you sure you want to delete"
 msgid "Are you sure you want to delete your account?"
-msgstr "هل أنت متأكد أنك تريد حذف"
+msgstr "هل أنت متأكد من رغبتك في حذف حسابك؟"
 
 #: .\templates\pages\pages_account_settings_account.html:473
 msgid ""
@@ -1369,10 +1335,9 @@ msgid "I confirm my account deactivation"
 msgstr "أؤكد إلغاء تنشيط حسابي"
 
 #: .\templates\pages\pages_account_settings_account.html:484
-#, fuzzy
 #| msgid "Create an account"
 msgid "Deactivate Account"
-msgstr "إنشاء حساب"
+msgstr "إلغاء تنشيط الحساب"
 
 #: .\templates\pages\pages_account_settings_connections.html:5
 msgid "Account settings - Connections"
@@ -1428,10 +1393,9 @@ msgstr "البريد الإلكتروني"
 
 #: .\templates\pages\pages_account_settings_notifications.html:51
 #: .\templates\pages\pages_account_settings_security.html:229
-#, fuzzy
 #| msgid "Browse courses"
 msgid "Browser"
-msgstr "تصفح الدورات"
+msgstr "المتصفح"
 
 #: .\templates\pages\pages_account_settings_notifications.html:52
 msgid "App"
@@ -1474,34 +1438,29 @@ msgid "Account settings - Security"
 msgstr "إعدادات الحساب - الأمان"
 
 #: .\templates\pages\pages_account_settings_security.html:57
-#, fuzzy
 #| msgid "Change my password"
 msgid "Change Password"
-msgstr "تغيير كلمة المرور الخاصة بي"
+msgstr "تغيير كلمة المرور"
 
 #: .\templates\pages\pages_account_settings_security.html:62
-#, fuzzy
 #| msgid "Confirm Password"
 msgid "Current Password"
-msgstr "تأكيد كلمة المرور"
+msgstr "كلمة المرور الحالية"
 
 #: .\templates\pages\pages_account_settings_security.html:75
-#, fuzzy
 #| msgid "Password"
 msgid "New Password"
-msgstr "كلمة المرور"
+msgstr "كلمة مرور جديدة"
 
 #: .\templates\pages\pages_account_settings_security.html:86
-#, fuzzy
 #| msgid "Confirm Password"
 msgid "Confirm New Password"
-msgstr "تأكيد كلمة المرور"
+msgstr "تأكيد كلمة المرور الجديدة"
 
 #: .\templates\pages\pages_account_settings_security.html:97
-#, fuzzy
 #| msgid "Password reset"
 msgid "Password Requirements:"
-msgstr "إعادة تعيين كلمة المرور"
+msgstr "متطلبات كلمة المرور:"
 
 #: .\templates\pages\pages_account_settings_security.html:99
 msgid "Minimum 8 characters long - the more, the better"
@@ -1540,10 +1499,9 @@ msgid "Enable Two-Factor Authentication"
 msgstr "تمكين المصادقة الثنائية"
 
 #: .\templates\pages\pages_account_settings_security.html:131
-#, fuzzy
 #| msgid "Create a new course"
 msgid "Create an API key"
-msgstr "إنشاء مقرر دراسي جديد"
+msgstr "إنشاء مفتاح API"
 
 #: .\templates\pages\pages_account_settings_security.html:138
 msgid "Choose the Api key type you want to create"
@@ -1566,10 +1524,9 @@ msgid "Read & Execute"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_security.html:144
-#, fuzzy
 #| msgid "Module contents:"
 msgid "List Folder Contents"
-msgstr "محتويات الوحدة:"
+msgstr "قائمة محتويات المجلد"
 
 #: .\templates\pages\pages_account_settings_security.html:145
 msgid "Read Only"
@@ -1635,10 +1592,9 @@ msgid "or choose a category to quickly find the help you need"
 msgstr "أو اختر فئة للعثور بسرعة على المساعدة التي تحتاجها"
 
 #: .\templates\pages\pages_faq.html:22
-#, fuzzy
 #| msgid "Search again"
 msgid "Search articles..."
-msgstr "البحث مرة أخرى"
+msgstr "مقالات البحث..."
 
 #: .\templates\pages\pages_machine_learning_anomaly_detection.html:5
 msgid "Machine Learning - Anomaly Detection"
@@ -1661,10 +1617,9 @@ msgid "Machine Learning - Time Series"
 msgstr ""
 
 #: .\templates\pages\pages_misc_comingsoon.html:5
-#, fuzzy
 #| msgid "Coming Soon - Pages"
 msgid "Coming Soon"
-msgstr "قريباً - الصفحات"
+msgstr "قريباً"
 
 #: .\templates\pages\pages_misc_comingsoon.html:15
 msgid "We are launching soon"
@@ -1705,10 +1660,9 @@ msgid "Back to home"
 msgstr "العودة إلى المنزل"
 
 #: .\templates\pages\pages_misc_not_authorized.html:4
-#, fuzzy
 #| msgid "Not Authorized - Pages"
 msgid "Not Authorized"
-msgstr "غير مصرح به - الصفحات"
+msgstr "غير مصرح به"
 
 #: .\templates\pages\pages_misc_not_authorized.html:15
 msgid "You are not authorized!"
@@ -1719,7 +1673,6 @@ msgid "You don’t have permission to access this page. Go Home!"
 msgstr "ليس لديك إذن للوصول إلى هذه الصفحة. اذهب إلى المنزل"
 
 #: .\templates\pages\pages_misc_under_maintenance.html:5
-#, fuzzy
 #| msgid "Under Maintenance!"
 msgid "Under Maintenance"
 msgstr "تحت الصيانة"
@@ -1750,10 +1703,9 @@ msgstr ""
 #: .\templates\pages\pages_profile_projects.html:66
 #: .\templates\pages\pages_profile_teams.html:66
 #: .\templates\pages\pages_profile_user.html:83
-#, fuzzy
 #| msgid "Profile Photo"
 msgid "Profile"
-msgstr "صورة الملف الشخصي"
+msgstr "الملف الشخصي"
 
 #: .\templates\pages\pages_profile_connections.html:69
 #: .\templates\pages\pages_profile_projects.html:69
@@ -1766,16 +1718,14 @@ msgstr ""
 #: .\templates\pages\pages_profile_projects.html:72
 #: .\templates\pages\pages_profile_teams.html:72
 #: .\templates\pages\pages_profile_user.html:89
-#, fuzzy
 #| msgid "Subjects"
 msgid "Projects"
-msgstr "الموضوعات"
+msgstr "المشاريع"
 
 #: .\templates\pages\pages_profile_projects.html:5
-#, fuzzy
 #| msgid "Profile Photo"
 msgid "User Profile - Projects"
-msgstr "صورة الملف الشخصي"
+msgstr "ملف تعريف المستخدم - المشاريع"
 
 #: .\templates\pages\pages_profile_teams.html:5
 msgid "User Profile - Teams"
@@ -1802,10 +1752,9 @@ msgid "Close"
 msgstr "إغلاق"
 
 #: .\templates\partials\_modals\modal_enable_otp.html:12
-#, fuzzy
 #| msgid "Change my password"
 msgid "Enable One Time Password"
-msgstr "تغيير كلمة المرور الخاصة بي"
+msgstr "تمكين كلمة المرور لمرة واحدة"
 
 #: .\templates\partials\_modals\modal_enable_otp.html:13
 #: .\templates\partials\_modals\modal_two_factor_auth.html:131
@@ -2216,26 +2165,23 @@ msgid "Login"
 msgstr ""
 
 #: .\templates\website\auth_login_cover.html:51
-#, fuzzy
 #| msgid "Welcome"
 msgid "Welcome to"
-msgstr "أهلاً وسهلاً بك"
+msgstr "مرحباً بك في"
 
 #: .\templates\website\auth_login_cover.html:52
 msgid "Please sign-in to your account and start the adventure"
 msgstr ""
 
 #: .\templates\website\auth_login_cover.html:56
-#, fuzzy
 #| msgid "Username"
 msgid "Email or Username"
-msgstr "اسم المستخدم"
+msgstr "البريد الإلكتروني أو اسم المستخدم"
 
 #: .\templates\website\auth_login_cover.html:61
-#, fuzzy
 #| msgid "Enter your email"
 msgid "Enter your email or username"
-msgstr "أدخل بريدك الإلكتروني"
+msgstr "أدخل بريدك الإلكتروني أو اسم المستخدم"
 
 #: .\templates\website\auth_login_cover.html:65 .\website\forms.py:40
 msgid "Password"
@@ -2246,10 +2192,9 @@ msgid "Remember Me"
 msgstr ""
 
 #: .\templates\website\auth_login_cover.html:83
-#, fuzzy
 #| msgid "Forgotten your password?"
 msgid "Forgot Password?"
-msgstr "هل نسيت كلمة المرور الخاصة بك؟"
+msgstr "هل نسيت كلمة المرور؟"
 
 #: .\templates\website\auth_login_cover.html:87
 msgid "Sign in"

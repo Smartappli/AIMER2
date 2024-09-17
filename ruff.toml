@@ -27,6 +27,7 @@ exclude = [
     "node_modules",
     "site-packages",
     "venv",
+    "authentication/migrations",
     "blog/migrations",
     "chat/migrations",
     "faq/migrations",

@@ -42,7 +42,7 @@
                             <a class="nav-item nav-link search-toggler px-0"
                                href="javascript:void(0);">
                                 <i class="bx bx-search bx-md"></i>
-                                <span class="d-none d-md-inline-block text-muted fw-normal ms-4">Search (Ctrl+/)</span>
+                                <span class="d-none d-md-inline-block text-muted fw-normal ms-4">{% translate "Search (Ctrl+/)" %}</span>
                             </a>
                         </div>
                     </div>
@@ -393,7 +393,7 @@
                                 {% endif %}
                             </li>
                             <li>
-                                <form action="{% url 'website:logout' %}" method="post">
+                                <form action="{% url 'auth:auth-logout' %}" method="post">
                                     {% csrf_token %}
                                     <button type="submit" class="dropdown-item">
                                         <i class="bx bx-power-off bx-md me-3"></i><span>Log Out</span>

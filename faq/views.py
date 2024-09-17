@@ -10,7 +10,7 @@ from .models import FaqCategory, FaqQuestion
 class FaqView(TemplateView):
     # Predefined function
     def get_context_data(self, **kwargs):
-        # A function to init the global layout. It is defined in web_project/__init__.py file
+        # A function to init the global layout. It is defined in AIMER2/__init__.py file
         return TemplateLayout.init(self, super().get_context_data(**kwargs))
 
 

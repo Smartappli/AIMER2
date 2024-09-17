@@ -46,6 +46,7 @@ urlpatterns = i18n_patterns(
     path("admin/", admin.site.urls),  # django admin
     path("", include("pages.urls")),
     path("", include("website.urls", namespace="website")),
+    path("auth/", include("authentication.urls", namespace="auth")),
     path("blog/", include("blog.urls", namespace="blog")),
     path("faq/", include("faq.urls", namespace="faq")),
     path("rosetta/", include("rosetta.urls")),
