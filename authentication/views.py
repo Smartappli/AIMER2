@@ -156,7 +156,7 @@ class RegisterView(AuthView):
                 ),
             )
 
-        request.session["email"] = email  ## Save email in session
+        request.session["email"] = email  # Save email in session
         # Redirect to the verification page after successful registration
         return redirect("authentication:auth-verify-email-page")
 
