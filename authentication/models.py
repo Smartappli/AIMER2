@@ -33,13 +33,27 @@ class Profile(models.Model):
     def __str__(self):
         return self.user.username
 
-    @receiver(post_save, sender=User)
-    def create_profile(self, instance, created, **kwargs):
-        if created:
-            Profile.objects.create(
-                user=instance,
-                email=instance.email,
-                date_of_birth=instance.date_of_birth,
-                photo=instance.photo,
-                bio=instance.bio,
-            )
+
+# Signal receiver to create a Profile when a User is created
+@receiver(post_save, sender=User)
+def create_profile(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(
+            user=instance,
+            email=instance.email,
+            date_of_birth=(
+                instance.profile.date_of_birth
+                if hasattr(instance, "profile")
+                else None
+            ),
+            photo=(
+                instance.profile.photo if hasattr(instance, "profile") else None
+            ),
+            bio=instance.profile.bio if hasattr(instance, "profile") else "",
+        )
+
+
+# Signal receiver to save the Profile whenever the User is saved
+@receiver(post_save, sender=User)
+def save_profile(sender, instance, **kwargs):
+    instance.profile.save()

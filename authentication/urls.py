@@ -10,6 +10,7 @@ from .views import (
     SendVerificationView,
     VerifyEmailTokenView,
     VerifyEmailView,
+    locked_out,
 )
 
 app_name = "authentication"
@@ -55,5 +56,5 @@ urlpatterns = [
         SendVerificationView.as_view(),
         name="send-verification",
     ),
-    path("locked/", LockedOutView.as_view(), name="locked_out"),
+    path("locked/", locked_out, name="locked_out"),
 ]

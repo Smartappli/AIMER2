@@ -370,8 +370,8 @@ DEFAULT_FROM_EMAIL = config("DEFAULT_FROM_EMAIL")
 
 LOGIN_REDIRECThh_URL = "../index"
 
-LOGIN_URL = "auth-login/"
-LOGOUT_URL = "auth-logout/"
+LOGIN_URL = "auth/login/"
+LOGOUT_URL = "auth/logout/"
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
@@ -442,4 +442,4 @@ CHANNEL_LAYERS = {
     },
 }
 
-AXES_LOCKOUT_URL = "/locked"
+AXES_LOCKOUT_URL = "auth/locked"

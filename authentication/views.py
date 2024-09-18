@@ -72,17 +72,25 @@ class LoginView(AuthView):
                 return redirect("authentication:auth-login")
 
             authenticated_user = authenticate(
-                request=request, username=username, password=password
+                request=request,  # this is the important custom argument
+                username=username,
+                password=password,
             )
             if authenticated_user is not None:
+                # Ensure the user has a profile
+                if not hasattr(authenticated_user, "profile"):
+                    Profile.objects.create(user=authenticated_user)
+
                 # Login the user if authentication is successful
                 login(request, authenticated_user)
 
                 # Redirect to the page the user was trying to access before logging in
                 if "next" in request.POST:
                     return redirect(request.POST["next"])
+
                 # Redirect to the home page or another appropriate page
                 return redirect("website:index")
+
             messages.error(request, _("Please enter a valid username."))
             return redirect("authentication:auth-login")
 
@@ -252,7 +260,9 @@ class ResetPasswordView(AuthView):
 
             # Log the user in after a successful password reset
             authenticated_user = authenticate(
-                request, username=user.username, password=new_password
+                request=request,  # this is the important custom argument
+                username=user.username,
+                password=new_password,
             )
             if authenticated_user:
                 login(request, authenticated_user)
@@ -352,3 +362,17 @@ class LockedOutView(AuthView):
             form = AxesCaptchaForm()
 
         return render(request, "auth/captcha.html", {"form": form})
+
+
+def locked_out(request):
+    if request.POST:
+        form = AxesCaptchaForm(request.POST)
+        if form.is_valid():
+            reset_request(request)
+            return HttpResponseRedirect(
+                reverse_lazy("authentication:auth-login")
+            )
+    else:
+        form = AxesCaptchaForm()
+
+    return render(request, "auth/captcha.html", {"form": form})
