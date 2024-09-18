@@ -2,6 +2,7 @@ from django.urls import path
 
 from .views import (
     ForgetPasswordView,
+    LockedOutView,
     LoginView,
     LogoutView,
     RegisterView,
@@ -54,4 +55,5 @@ urlpatterns = [
         SendVerificationView.as_view(),
         name="send-verification",
     ),
+    path("locked/", LockedOutView.as_view(), name="locked_out"),
 ]

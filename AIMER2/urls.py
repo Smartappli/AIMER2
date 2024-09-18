@@ -44,12 +44,13 @@ urlpatterns = i18n_patterns(
         "admin/statuscheck/", include("celerybeat_status.urls")
     ),  # celerybeat_status admin
     path("admin/", admin.site.urls),  # django admin
+    path("captcha/", include("captcha.urls")),  # Captcha
     path("", include("pages.urls")),
     path("", include("website.urls", namespace="website")),
     path("auth/", include("authentication.urls", namespace="auth")),
     path("blog/", include("blog.urls", namespace="blog")),
     path("faq/", include("faq.urls", namespace="faq")),
-    path("rosetta/", include("rosetta.urls")),
+    path("rosetta/", include("rosetta.urls")),  # Translation
     path(
         "sitemap.xml",
         sitemap,

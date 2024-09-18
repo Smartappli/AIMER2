@@ -1,11 +1,14 @@
 import uuid
 from datetime import timedelta, timezone
 
+from axes.utils import reset_request
 from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import Group, User
+from django.http.response import HttpResponseRedirect
 from django.shortcuts import redirect, render
+from django.urls import reverse_lazy
 from django.utils.translation import gettext_lazy as _
 from django.views.generic import TemplateView
 
@@ -16,6 +19,8 @@ from authentication.helpers import (
     send_verification_email,
 )
 from authentication.models import Profile
+
+from .forms import AxesCaptchaForm
 
 
 class AuthView(TemplateView):
@@ -67,7 +72,7 @@ class LoginView(AuthView):
                 return redirect("authentication:auth-login")
 
             authenticated_user = authenticate(
-                request, username=username, password=password
+                request=request, username=username, password=password
             )
             if authenticated_user is not None:
                 # Login the user if authentication is successful
@@ -332,3 +337,18 @@ class SendVerificationView(AuthView):
                 )
 
         return email, message
+
+
+class LockedOutView(AuthView):
+    def post(self, request):
+        if request.POST:
+            form = AxesCaptchaForm(request.POST)
+            if form.is_valid():
+                reset_request(request)
+                return HttpResponseRedirect(
+                    reverse_lazy("authentication:auth-login")
+                )
+        else:
+            form = AxesCaptchaForm()
+
+        return render(request, "auth/captcha.html", {"form": form})

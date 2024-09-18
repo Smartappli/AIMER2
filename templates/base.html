@@ -49,12 +49,12 @@
             <span class="user">
                 {% if request.user.is_authenticated %}
                     {% translate "Hello" %} {{ request.user.first_name|default:request.user.username }},
-                    <form action="{% url "website:logout" %}" method="post">
+                    <form action="{% url "authentication:auth-logout" %}" method="post">
                         <button type="submit">{% translate "Logout" %}</button>
                         {% csrf_token %}
                     </form>
                 {% else %}
-                    <a href="{% url "website:login" %}">{% translate "Log-in" %}</a>
+                    <a href="{% url "authentication:auth-login" %}">{% translate "Log-in" %}</a>
                 {% endif %}
             </span>
         </div>

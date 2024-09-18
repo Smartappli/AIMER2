@@ -162,21 +162,57 @@ urlpatterns = [
         name="pages-deep-learning-segmentation",
     ),
     path(
-        "pages/natural_language_processing/text_generation/",
+        "pages/large_language_model/summarization/",
         login_required(
             PagesView.as_view(
-                template_name="pages/pages_natural_language_processing_text_generation.html"
+                template_name="pages/pages_llm_summarization.html"
             )
         ),
-        name="pages-natural-language-processing-text-generation",
+        name="pages-llm-summarization",
     ),
     path(
-        "pages/natural_language_processing/text_summarization/",
+        "pages/large_language_model/text_classification/",
         login_required(
             PagesView.as_view(
-                template_name="pages/pages_natural_language_processing_text_summarization.html"
+                template_name="pages/pages_llm_text_classification.html"
             )
         ),
-        name="pages-natural-language-processing-text-summarization",
+        name="pages-llm-text-classification",
+    ),
+    path(
+        "pages/large_language_model/text_generation/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_llm_text_generation.html"
+            )
+        ),
+        name="pages-llm-text-generation",
+    ),
+    path(
+        "pages/large_language_model/text_to_text_generation/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_llm_text_to_text_generation.html"
+            )
+        ),
+        name="pages-llm-text-to-text-generation",
+    ),
+    path(
+        "pages/large_language_model/token_classification/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_llm_token_classification.html"
+            )
+        ),
+        name="pages-llm-token-classification",
+    ),
+    path(
+        "pages/large_language_model/zero_shot_classification/",
+        login_required(
+            PagesView.as_view(
+                template_name="pages/pages_llm_zero_shot_classification.html"
+            )
+        ),
+        name="pages-llm-zero-shot-classification",
     ),
 ]
