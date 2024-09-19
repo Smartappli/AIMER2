@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, View
 from pycaret.anomaly import models as get_anomaly_models
+from pycaret.anomaly import setup as setup_anomaly
+from pycaret.datasets import get_data
 from timm import list_models, list_modules
 
 from AIMER2 import TemplateLayout
@@ -43,7 +45,11 @@ class CustomMLAnomalyView(PagesView, View):
     template_name = "pages/pages_machine_learning_anomaly_detection.html"
 
     def get(self, request, *args, **kwargs):
-        # Retrieve the context of `FaqsView`
+        anomaly_data = get_data("anomaly")
+
+        setup_anomaly(anomaly_data, html=False)
+
+        # Retrieve the context of `PagesView`
         context = self.get_context_data(**kwargs)
         context["models"] = get_anomaly_models()
 

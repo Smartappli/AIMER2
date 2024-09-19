@@ -5,7 +5,7 @@
     {% translate "Machine Learning - Anomaly Detection" %}
 {% endblock %}
 {% block content %}
-    <h1>Select Anomaly Detection Models</h1>
+    <h1>{% translate "Select Anomaly Detection Models" %}</h1>
     <form method="POST">
         {% csrf_token %}
         {% for model in models %}
