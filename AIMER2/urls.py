@@ -25,7 +25,12 @@ from django.contrib.sitemaps.views import sitemap
 from django.urls import include, path
 from django.utils.translation import gettext_lazy as _
 
-from AIMER2.views import SystemView
+from AIMER2.views import (
+    custom_400_view,
+    custom_403_view,
+    custom_404_view,
+    custom_500_view,
+)
 from blog.sitemaps import PostSitemap, TagSitemap
 
 admin.site.site_header = _("AIMER Administration")
@@ -64,19 +69,8 @@ urlpatterns = i18n_patterns(
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = SystemView.as_view(
-    template_name="pages/pages_misc_error.html",
-    status=404,
-)
-handler403 = SystemView.as_view(
-    template_name="pages/pages_misc_not_authorized.html",
-    status=403,
-)
-handler400 = SystemView.as_view(
-    template_name="pages/pages_misc_error.html",
-    status=400,
-)
-handler500 = SystemView.as_view(
-    template_name="pages/pages_misc_error.html",
-    status=500,
-)
+# Custom error handlers
+handler404 = custom_404_view
+handler403 = custom_403_view
+handler400 = custom_400_view
+handler500 = custom_500_view
