@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.urls import path
 
 from .views import (
@@ -23,7 +24,9 @@ urlpatterns = [
     ),
     path(
         "logout/",
-        LogoutView.as_view(template_name="auth/logged_out.html"),
+        login_required(
+            LogoutView.as_view(template_name="auth/logged_out.html")
+        ),
         name="auth-logout",
     ),
     path(

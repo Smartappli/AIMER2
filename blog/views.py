@@ -32,6 +32,7 @@ from .forms import CommentForm, EmailPostForm, SearchForm
 from .models import Post
 
 
+@require_GET
 def post_list(request, tag_slug=None):
     """Display a list of published blog posts with pagination.
 
