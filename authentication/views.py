@@ -5,6 +5,7 @@ from axes.utils import reset_request
 from django.conf import settings
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.hashers import check_password, make_password
 from django.contrib.auth.models import Group, User
 from django.http.response import HttpResponseRedirect
 from django.shortcuts import redirect, render
@@ -80,6 +81,13 @@ class LoginView(AuthView):
                 # Ensure the user has a profile
                 if not hasattr(authenticated_user, "profile"):
                     Profile.objects.create(user=authenticated_user)
+
+                if not authenticated_user.password.startswith(
+                    "argon2$"
+                ) and check_password(password, authenticated_user.password):
+                    # Re-hasher with Argon2 or more recent algorithm
+                    authenticated_user.password = make_password(password)
+                    authenticated_user.save()
 
                 # Login the user if authentication is successful
                 login(request, authenticated_user)
