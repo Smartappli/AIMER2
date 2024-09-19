@@ -1,7 +1,7 @@
 {
   "menu": [
     {
-      "menu_header": "Dashboard"
+      "menu_header": "Dashboards"
     },
     {
       "url": "website:dashboard",
