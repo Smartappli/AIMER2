@@ -6,6 +6,12 @@ repos:
       - id: pre-commit-update
         args: [--dry-run, --all-versions]
 
+  # copyright
+  - repo: https://github.com/sbrunner/pre-commit-copyright
+    rev: <version> # Use the ref you want to point at
+    hooks:
+      - id: copyright
+
   # basic check
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: "v4.6.0"
