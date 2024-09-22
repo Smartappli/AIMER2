@@ -4,4 +4,846 @@
 {% block title %}
     {% translate "Dashboard" %}
 {% endblock %}
-{% block content %}{% endblock %}
+{% block vendor_css %}
+    {{ block.super }}
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/datatables-bs5/datatables.bootstrap5.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/@form-validation/form-validation.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/apex-charts/apex-charts.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/leaflet/leaflet.css' %}" />
+{% endblock vendor_css %}
+{% block vendor_js %}
+    {{ block.super }}
+    <script src="{% static 'vendor/libs/datatables-bs5/datatables-bootstrap5.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/popular.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/bootstrap5.js' %}"></script>
+    <script src="{% static 'vendor/libs/@form-validation/auto-focus.js' %}"></script>
+    <script src="{% static 'vendor/libs/apex-charts/apexcharts.js' %}"></script>
+    <script src="{% static 'vendor/libs/leaflet/leaflet.js' %}"></script>
+{% endblock vendor_js %}
+{% block page_js %}
+    {{ block.super }}
+    <script src="{% static 'js/app-access-roles.js' %}"></script>
+    <script src="{% static 'js/modal-add-role.js' %}"></script>
+    <script src="{% static 'js/dashboards-analytics.js' %}"></script>
+    <script src="{% static 'js/cards-statistics.js' %}"></script>
+    <script src="{% static 'js/maps-leaflet.js' %}"></script>
+{% endblock page_js %}
+{% block content %}
+    <div class="row">
+        <!-- single card  -->
+        <div class="col-12 mb-6">
+            <div class="card">
+                <div class="card-widget-separator-wrapper">
+                    <div class="card-body card-widget-separator">
+                        <div class="row gy-4 gy-sm-1">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="d-flex justify-content-between align-items-center card-widget-1 border-end pb-4 pb-sm-0">
+                                    <div>
+                                        <h4 class="mb-0">24</h4>
+                                        <p class="mb-0">Users</p>
+                                    </div>
+                                    <div class="avatar me-sm-6">
+                                        <span class="avatar-initial rounded bg-label-secondary text-heading">
+                                            <i class="bx bx-user bx-26px"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr class="d-none d-sm-block d-lg-none me-6">
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="d-flex justify-content-between align-items-center card-widget-2 border-end pb-4 pb-sm-0">
+                                    <div>
+                                        <h4 class="mb-0">165</h4>
+                                        <p class="mb-0">Datasets</p>
+                                    </div>
+                                    <div class="avatar me-lg-6">
+                                        <span class="avatar-initial rounded bg-label-secondary text-heading">
+                                            <i class="bx bx-file bx-26px"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <hr class="d-none d-sm-block d-lg-none">
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="d-flex justify-content-between align-items-center border-end pb-4 pb-sm-0 card-widget-3">
+                                    <div>
+                                        <h4 class="mb-0">995</h4>
+                                        <p class="mb-0">Algos</p>
+                                    </div>
+                                    <div class="avatar me-sm-6">
+                                        <span class="avatar-initial rounded bg-label-secondary text-heading">
+                                            <i class="bx bx-check-double bx-26px"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h4 class="mb-0">76</h4>
+                                        <p class="mb-0">Projects</p>
+                                    </div>
+                                    <div class="avatar">
+                                        <span class="avatar-initial rounded bg-label-secondary text-heading">
+                                            <i class="bx bx-error-circle bx-26px"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- GeoJson -->
+        <div class="col-md-6">
+            <div class="card">
+                <h5 class="card-header">{% translate "Visits by country" %}</h5>
+                <div class="card-body">
+                    <div class="leaflet-map" id="geoJson"></div>
+                </div>
+            </div>
+        </div>
+        <!-- /GeoJson -->
+        <!-- pill table -->
+        <div class="col-md-6 order-3 order-lg-4 mb-6 mb-lg-0">
+            <div class="card text-center h-100">
+                <div class="card-header nav-align-top">
+                    <ul class="nav nav-pills nav-fill" role="tablist">
+                        <li class="nav-item">
+                            <button type="button"
+                                    class="nav-link active"
+                                    role="tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#navs-pills-browser"
+                                    aria-controls="navs-pills-browser"
+                                    aria-selected="true">{% translate "Browser" %}</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#navs-pills-os"
+                                    aria-controls="navs-pills-os"
+                                    aria-selected="false">{% translate "OS" %}</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#navs-pills-device"
+                                    aria-controls="navs-pills-device"
+                                    aria-selected="false">{% translate "Device" %}</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button"
+                                    class="nav-link"
+                                    role="tab"
+                                    data-bs-toggle="tab"
+                                    data-bs-target="#navs-pills-size"
+                                    aria-controls="navs-pills-device"
+                                    aria-selected="false">{% translate "Resolution" %}</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content pt-0 pb-4">
+                    <div class="tab-pane fade show active"
+                         id="navs-pills-browser"
+                         role="tabpanel">
+                        <div class="table-responsive text-start text-nowrap">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>{% translate "No" %}</th>
+                                        <th>{% translate "Browser" %}</th>
+                                        <th>{% translate "Visits" %}</th>
+                                        <th class="w-50">{% translate "Data In Percentage" %}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/chrome.png' %}"
+                                                     alt="Chrome"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Chrome</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">8.92k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-success"
+                                                         role="progressbar"
+                                                         style="width: 64.75%"
+                                                         aria-valuenow="64.75"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">64.75%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/safari.png' %}"
+                                                     alt="Safari"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Safari</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">1.29k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-primary"
+                                                         role="progressbar"
+                                                         style="width: 18.43%"
+                                                         aria-valuenow="18.43"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">18.43%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/firefox.png' %}"
+                                                     alt="Firefox"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Firefox</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">328</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-info"
+                                                         role="progressbar"
+                                                         style="width: 8.37%"
+                                                         aria-valuenow="8.37"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">8.37%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/edge.png' %}"
+                                                     alt="Edge"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Edge</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">142</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-warning"
+                                                         role="progressbar"
+                                                         style="width: 6.12%"
+                                                         aria-valuenow="6.12"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">6.12%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/opera.png' %}"
+                                                     alt="Opera"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Opera</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">82</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 2.12%"
+                                                         aria-valuenow="1.94"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">2.12%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/uc.png' %}"
+                                                     alt="uc"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">UC Browser</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">328</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 20.14%"
+                                                         aria-valuenow="1.94"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">20.14%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="navs-pills-os" role="tabpanel">
+                        <div class="table-responsive text-start text-nowrap">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>{% translate "No" %}</th>
+                                        <th>{% translate "System" %}</th>
+                                        <th>{% translate "Visits" %}</th>
+                                        <th class="w-50">{% translate "Data In Percentage" %}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/windows.png' %}"
+                                                     alt="Windows"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Windows</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">875.24k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-success"
+                                                         role="progressbar"
+                                                         style="width: 61.50%"
+                                                         aria-valuenow="61.50"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">61.50%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/mac.png' %}"
+                                                     alt="Mac"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Mac</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">89.68k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-primary"
+                                                         role="progressbar"
+                                                         style="width: 16.67%"
+                                                         aria-valuenow="16.67"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">16.67%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/ubuntu.png' %}"
+                                                     alt="Ubuntu"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Ubuntu</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">37.68k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-info"
+                                                         role="progressbar"
+                                                         style="width: 12.82%"
+                                                         aria-valuenow="12.82"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">12.82%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/chrome.png' %}"
+                                                     alt="Chrome"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Chrome</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">8.34k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-warning"
+                                                         role="progressbar"
+                                                         style="width: 6.25%"
+                                                         aria-valuenow="6.25"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">6.25%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/cent.png' %}"
+                                                     alt="Cent"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Cent</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">2.25k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 2.76%"
+                                                         aria-valuenow="2.76"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">2.76%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <img src="{% static 'img/icons/brands/linux.png' %}"
+                                                     alt="linux"
+                                                     height="24"
+                                                     class="me-3">
+                                                <span class="text-heading">Linux</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">328k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 20.14%"
+                                                         aria-valuenow="2.76"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">20.14%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="navs-pills-device" role="tabpanel">
+                        <div class="table-responsive text-start text-nowrap">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>{% translate "No" %}</th>
+                                        <th>{% translate "Country" %}</th>
+                                        <th>{% translate "Visits" %}</th>
+                                        <th class="w-50">{% translate "Data In Percentage" %}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-us rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">USA</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">87.24k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-success"
+                                                         role="progressbar"
+                                                         style="width: 38.12%"
+                                                         aria-valuenow="38.12"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">38.12%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-br rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Brazil</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">42.68k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-primary"
+                                                         role="progressbar"
+                                                         style="width: 28.23%"
+                                                         aria-valuenow="28.23"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">28.23%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-in rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">India</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">12.58k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-info"
+                                                         role="progressbar"
+                                                         style="width: 14.82%"
+                                                         aria-valuenow="14.82"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">14.82%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-au rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Australia</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">4.13k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-warning"
+                                                         role="progressbar"
+                                                         style="width: 12.72%"
+                                                         aria-valuenow="12.72"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">12.72%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-fr rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">France</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">2.21k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 7.11%"
+                                                         aria-valuenow="7.11"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">7.11%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-ca rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Canada</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">22.35k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 15.13%"
+                                                         aria-valuenow="7.11"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">15.13%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="navs-pills-size" role="tabpanel">
+                        <div class="table-responsive text-start text-nowrap">
+                            <table class="table table-borderless">
+                                <thead>
+                                    <tr>
+                                        <th>{% translate "No" %}</th>
+                                        <th>{% translate "Country" %}</th>
+                                        <th>{% translate "Visits" %}</th>
+                                        <th class="w-50">{% translate "Data In Percentage" %}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-us rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">USA</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">87.24k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-success"
+                                                         role="progressbar"
+                                                         style="width: 38.12%"
+                                                         aria-valuenow="38.12"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">38.12%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-br rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Brazil</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">42.68k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-primary"
+                                                         role="progressbar"
+                                                         style="width: 28.23%"
+                                                         aria-valuenow="28.23"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">28.23%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-in rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">India</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">12.58k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-info"
+                                                         role="progressbar"
+                                                         style="width: 14.82%"
+                                                         aria-valuenow="14.82"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">14.82%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-au rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Australia</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">4.13k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-warning"
+                                                         role="progressbar"
+                                                         style="width: 12.72%"
+                                                         aria-valuenow="12.72"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">12.72%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-fr rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">France</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">2.21k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 7.11%"
+                                                         aria-valuenow="7.11"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">7.11%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <i class="fis fi fi-ca rounded-circle fs-4 me-3"></i>
+                                                <span class="text-heading">Canada</span>
+                                            </div>
+                                        </td>
+                                        <td class="text-heading">22.35k</td>
+                                        <td>
+                                            <div class="d-flex justify-content-between align-items-center gap-4">
+                                                <div class="progress w-100" style="height:10px;">
+                                                    <div class="progress-bar bg-danger"
+                                                         role="progressbar"
+                                                         style="width: 15.13%"
+                                                         aria-valuenow="7.11"
+                                                         aria-valuemin="0"
+                                                         aria-valuemax="100"></div>
+                                                </div>
+                                                <small class="fw-medium">15.13%</small>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ pill table -->
+    </div>
+    <div class="row g-6">
+        <div class="col-12">
+            <h4 class="mt-6 mb-1">Total users with their roles</h4>
+            <p class="mb-0">Find all of your company’s administrator accounts and their associate roles.</p>
+        </div>
+        <div class="col-12">
+            <!-- Role Table -->
+            <div class="card">
+                <div class="card-datatable table-responsive">
+                    <table class="datatables-users table border-top">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>User</th>
+                                <th>Role</th>
+                                <th>Plan</th>
+                                <th>Billing</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <!--/ Role Table -->
+        </div>
+    </div>
+    <!--/ Role cards -->
+    <!-- Add Role Modal -->
+    {% include "partials/_modals/modal_add_role.html" %}
+    <!-- / Add Role Modal -->
+{% endblock %}
