@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-12 08:36+0200\n"
-"PO-Revision-Date: 2024-09-12 15:21+0000\n"
+"POT-Creation-Date: 2024-09-19 10:08+0200\n"
+"PO-Revision-Date: 2024-09-19 10:13+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,170 +19,170 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Translated-Using: django-rosetta 0.10.0\n"
 
-#: .\AIMER2\settings.py:221
+#: .\AIMER2\settings.py:232
 msgid "Arabic"
 msgstr "Arabe"
 
-#: .\AIMER2\settings.py:225
+#: .\AIMER2\settings.py:236
 #: .\templates\pages\pages_account_settings_account.html:371
 msgid "Bulgarian"
 msgstr "Bulgare"
 
-#: .\AIMER2\settings.py:232
+#: .\AIMER2\settings.py:243
 #: .\templates\pages\pages_account_settings_account.html:372
 msgid "Czech"
 msgstr "Tchèque"
 
-#: .\AIMER2\settings.py:234
+#: .\AIMER2\settings.py:245
 #: .\templates\pages\pages_account_settings_account.html:373
 msgid "Danish"
 msgstr "Danois"
 
-#: .\AIMER2\settings.py:235
+#: .\AIMER2\settings.py:246
 #: .\templates\pages\pages_account_settings_account.html:379
 msgid "German"
 msgstr "Allemand"
 
-#: .\AIMER2\settings.py:237
+#: .\AIMER2\settings.py:248
 #: .\templates\pages\pages_account_settings_account.html:380
 msgid "Greek"
 msgstr "Grec"
 
-#: .\AIMER2\settings.py:238
+#: .\AIMER2\settings.py:249
 #: .\templates\pages\pages_account_settings_account.html:375
 msgid "English"
 msgstr "Anglais"
 
-#: .\AIMER2\settings.py:240
+#: .\AIMER2\settings.py:251
 msgid "British English"
 msgstr "Anglais britannique"
 
-#: .\AIMER2\settings.py:242
+#: .\AIMER2\settings.py:253
 #: .\templates\pages\pages_account_settings_account.html:397
 msgid "Spanish"
 msgstr "Espagnol"
 
-#: .\AIMER2\settings.py:248
+#: .\AIMER2\settings.py:259
 #: .\templates\pages\pages_account_settings_account.html:376
 msgid "Estonian"
 msgstr "Estonien"
 
-#: .\AIMER2\settings.py:251
+#: .\AIMER2\settings.py:262
 #: .\templates\pages\pages_account_settings_account.html:377
 msgid "Finnish"
 msgstr "Finnois"
 
-#: .\AIMER2\settings.py:252
+#: .\AIMER2\settings.py:263
 #: .\templates\pages\pages_account_settings_account.html:378
 msgid "French"
 msgstr "Français"
 
-#: .\AIMER2\settings.py:261
+#: .\AIMER2\settings.py:272
 #: .\templates\pages\pages_account_settings_account.html:381
 msgid "Hungarian"
 msgstr "Hongrois"
 
-#: .\AIMER2\settings.py:264
+#: .\AIMER2\settings.py:275
 #: .\templates\pages\pages_account_settings_account.html:382
 msgid "Indonesian"
 msgstr "Indonésien"
 
-#: .\AIMER2\settings.py:268
+#: .\AIMER2\settings.py:279
 #: .\templates\pages\pages_account_settings_account.html:383
 msgid "Italian"
 msgstr "Italien"
 
-#: .\AIMER2\settings.py:269
+#: .\AIMER2\settings.py:280
 #: .\templates\pages\pages_account_settings_account.html:384
 msgid "Japanese"
 msgstr "Japonais"
 
-#: .\AIMER2\settings.py:275
+#: .\AIMER2\settings.py:286
 #: .\templates\pages\pages_account_settings_account.html:385
 msgid "Korean"
 msgstr "Coréen"
 
-#: .\AIMER2\settings.py:278
+#: .\AIMER2\settings.py:289
 #: .\templates\pages\pages_account_settings_account.html:387
 msgid "Lithuanian"
 msgstr "Lituanien"
 
-#: .\AIMER2\settings.py:279
+#: .\AIMER2\settings.py:290
 #: .\templates\pages\pages_account_settings_account.html:386
 msgid "Latvian"
 msgstr "Letton"
 
-#: .\AIMER2\settings.py:286
+#: .\AIMER2\settings.py:297
 #: .\templates\pages\pages_account_settings_account.html:388
 msgid "Norwegian Bokmål"
 msgstr "Norvégien Bokmål"
 
-#: .\AIMER2\settings.py:288
+#: .\AIMER2\settings.py:299
 #: .\templates\pages\pages_account_settings_account.html:374
 msgid "Dutch"
 msgstr "Néerlandais"
 
-#: .\AIMER2\settings.py:289
+#: .\AIMER2\settings.py:300
 #: .\templates\pages\pages_account_settings_account.html:389
 msgid "Norwegian Nynorsk"
 msgstr "Norvégien Nynorsk"
 
-#: .\AIMER2\settings.py:292
+#: .\AIMER2\settings.py:303
 #: .\templates\pages\pages_account_settings_account.html:390
 msgid "Polish"
 msgstr "Polonais"
 
-#: .\AIMER2\settings.py:293
+#: .\AIMER2\settings.py:304
 #: .\templates\pages\pages_account_settings_account.html:391
 msgid "Portuguese"
 msgstr "Portugais"
 
-#: .\AIMER2\settings.py:294
+#: .\AIMER2\settings.py:305
 #: .\templates\pages\pages_account_settings_account.html:370
 msgid "Brazilian Portuguese"
 msgstr "Portugais brésilien"
 
-#: .\AIMER2\settings.py:295
+#: .\AIMER2\settings.py:306
 #: .\templates\pages\pages_account_settings_account.html:392
 msgid "Romanian"
 msgstr "Roumain"
 
-#: .\AIMER2\settings.py:296
+#: .\AIMER2\settings.py:307
 #: .\templates\pages\pages_account_settings_account.html:393
 msgid "Russian"
 msgstr "Russe"
 
-#: .\AIMER2\settings.py:297
+#: .\AIMER2\settings.py:308
 #: .\templates\pages\pages_account_settings_account.html:394
 msgid "Slovak"
 msgstr "Slovaque"
 
-#: .\AIMER2\settings.py:298
+#: .\AIMER2\settings.py:309
 #: .\templates\pages\pages_account_settings_account.html:395
 msgid "Slovenian"
 msgstr "Slovène"
 
-#: .\AIMER2\settings.py:302
+#: .\AIMER2\settings.py:313
 #: .\templates\pages\pages_account_settings_account.html:396
 msgid "Swedish"
 msgstr "Suédois"
 
-#: .\AIMER2\settings.py:309
+#: .\AIMER2\settings.py:320
 #: .\templates\pages\pages_account_settings_account.html:398
 msgid "Turkish"
 msgstr "Turc"
 
-#: .\AIMER2\settings.py:313
+#: .\AIMER2\settings.py:324
 #: .\templates\pages\pages_account_settings_account.html:399
 msgid "Ukrainian"
 msgstr "Ukrainien"
 
-#: .\AIMER2\settings.py:317
+#: .\AIMER2\settings.py:328
 #: .\templates\pages\pages_account_settings_account.html:400
 msgid "Simplified Chinese"
 msgstr "Chinois simplifié"
 
-#: .\AIMER2\settings.py:318
+#: .\AIMER2\settings.py:329
 #: .\templates\pages\pages_account_settings_account.html:401
 msgid "Traditional Chinese"
 msgstr "Chinois traditionnel"
@@ -200,6 +200,107 @@ msgstr ""
 #: .\AIMER2\urls.py:35
 msgid "Welcome to AIMER Portal"
 msgstr "Bienvenue sur le portail AIMER"
+
+#: .\authentication\helpers.py:22 .\templates\auth\verify_email.html:40
+msgid "Verify your email"
+msgstr "Vérifiez votre adresse électronique"
+
+#: .\authentication\helpers.py:33
+#: .\templates\registration\password_reset_confirm.html:4
+#: .\templates\registration\password_reset_confirm.html:50
+#: .\templates\registration\password_reset_done.html:4
+#: .\templates\registration\password_reset_done.html:50
+#: .\templates\registration\password_reset_form.html:4
+msgid "Reset your password"
+msgstr "changer votre mot de passe"
+
+#: .\authentication\models.py:30
+#| msgid "User Profile - Teams"
+msgid "User Profile"
+msgstr "Profil d'utilisateur"
+
+#: .\authentication\models.py:31
+#| msgid "User Profile - Teams"
+msgid "User Profiles"
+msgstr "Profils d'utilisateurs"
+
+#: .\authentication\views.py:58
+#| msgid "Please enter your new password twice:"
+msgid "Please enter your username and password."
+msgstr "Veuillez saisir votre nom d'utilisateur et votre mot de passe."
+
+#: .\authentication\views.py:65
+#| msgid "Please try again."
+msgid "Please enter a valid email."
+msgstr "Veuillez saisir un courriel valide."
+
+#: .\authentication\views.py:71 .\authentication\views.py:94
+#| msgid "Please try again."
+msgid "Please enter a valid username."
+msgstr "Veuillez saisir un nom d'utilisateur valide."
+
+#: .\authentication\views.py:124
+msgid "User already exists, Try logging in."
+msgstr "L'utilisateur existe déjà, essayez de vous connecter."
+
+#: .\authentication\views.py:127
+msgid "Email already exists."
+msgstr "Le courrier électronique existe déjà."
+
+#: .\authentication\views.py:130
+msgid "Username already exists."
+msgstr "Le nom d'utilisateur existe déjà."
+
+#: .\authentication\views.py:158 .\authentication\views.py:324
+msgid "Verification email sent successfully"
+msgstr "L'email de vérification a été envoyé avec succès"
+
+#: .\authentication\views.py:163 .\authentication\views.py:217
+#: .\authentication\views.py:330 .\authentication\views.py:345
+msgid "Email settings are not configured. Unable to send verification email."
+msgstr ""
+"Les paramètres de l'e-mail ne sont pas configurés. Impossible d'envoyer un "
+"courriel de vérification."
+
+#: .\authentication\views.py:189
+msgid "No user with this email exists."
+msgstr "Il n'existe pas d'utilisateur ayant cet email."
+
+#: .\authentication\views.py:210
+msgid "A password reset email has been sent. Please check your inbox"
+msgstr ""
+"Un courriel de réinitialisation du mot de passe a été envoyé. Veuillez "
+"vérifier votre boîte de réception"
+
+#: .\authentication\views.py:238
+msgid "Invalid or expired token."
+msgstr "Jeton invalide ou expiré."
+
+#: .\authentication\views.py:246
+msgid "Please fill all fields."
+msgstr "Veuillez remplir tous les champs."
+
+#: .\authentication\views.py:271
+msgid "Password reset successful. Please log in."
+msgstr "Réinitialisation du mot de passe réussie. Veuillez vous connecter."
+
+#: .\authentication\views.py:287
+#| msgid "E-mail successfully sent"
+msgid "Email verified successfully"
+msgstr "Courriel vérifié avec succès"
+
+#: .\authentication\views.py:292
+#| msgid "Please try again."
+msgid "Invalid token, please try again"
+msgstr "Jeton invalide, veuillez réessayer"
+
+#: .\authentication\views.py:314
+msgid "Email not found in session"
+msgstr "Email non trouvé dans la session"
+
+#: .\authentication\views.py:337
+msgid "Resend verification email successfully"
+msgstr "Renvoi du courriel de vérification réussi"
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:5
@@ -222,12 +323,195 @@ msgstr "courriel"
 msgid "body"
 msgstr "corps"
 
+#: .\templates\auth\forgot_password.html:5
+msgid "Forgot Password"
+msgstr "Mot de passe oublié"
+
+#: .\templates\auth\forgot_password.html:51 .\templates\auth\login.html:93
+msgid "Forgot Password?"
+msgstr "Mot de passe oublié ?"
+
+#: .\templates\auth\forgot_password.html:52
+msgid ""
+"Enter your email and we'll send you instructions to reset your password"
+msgstr ""
+"Saisissez votre adresse électronique et nous vous enverrons des instructions"
+" pour réinitialiser votre mot de passe."
+
+#: .\templates\auth\forgot_password.html:65 .\templates\auth\register.html:74
+#: .\templates\pages\pages_account_settings_notifications.html:50
+msgid "Email"
+msgstr "Courriel"
+
+#: .\templates\auth\forgot_password.html:70
+#: .\templates\pages\pages_misc_comingsoon.html:24
+msgid "Enter your email"
+msgstr "Saisissez votre adresse électronique"
+
+#: .\templates\auth\forgot_password.html:74
+msgid "Send Reset Link"
+msgstr "Envoyer lien de réinitialisation"
+
+#: .\templates\auth\forgot_password.html:85
+#: .\templates\auth\reset_password.html:91
+#: .\templates\registration\password_change_done.html:57
+msgid "Back to login"
+msgstr "Retour au login"
+
+#: .\templates\auth\logged_out.html:4
+#: .\templates\registration\logged_out.html:4
+msgid "Logged out"
+msgstr "Déconnecté"
+
+#: .\templates\auth\logged_out.html:51
+#: .\templates\registration\logged_out.html:51
+msgid "say you good bye"
+msgstr "vous dire au revoir"
+
+#: .\templates\auth\logged_out.html:53
+#: .\templates\registration\logged_out.html:53
+msgid "You have been successfully logged out."
+msgstr "Votre commentaire a été ajouté."
+
+#: .\templates\auth\logged_out.html:57
+#: .\templates\registration\logged_out.html:57
+msgid "You can"
+msgstr "Désormais, vous pouvez"
+
+#: .\templates\auth\logged_out.html:57
+#: .\templates\registration\logged_out.html:57
+msgid "log-in again"
+msgstr "se reconnecter"
+
+#: .\templates\auth\login.html:5
+msgid "Login"
+msgstr "Connexion"
+
+#: .\templates\auth\login.html:52
+msgid "Welcome to"
+msgstr "Bienvenue à"
+
+#: .\templates\auth\login.html:53
+msgid "Please sign-in to your account and start the adventure"
+msgstr "Connectez-vous à votre compte et commencez l'aventure"
+
+#: .\templates\auth\login.html:66
+msgid "Email or Username"
+msgstr "Email ou nom d'utilisateur"
+
+#: .\templates\auth\login.html:71
+msgid "Enter your email or username"
+msgstr "Entrez votre email ou votre nom d'utilisateur"
+
+#: .\templates\auth\login.html:75 .\templates\auth\register.html:82
+msgid "Password"
+msgstr "Mot de passe"
+
+#: .\templates\auth\login.html:90
+msgid "Remember Me"
+msgstr "Souvenez-vous de moi"
+
+#: .\templates\auth\login.html:98
+msgid "Sign in"
+msgstr "S'inscrire"
+
+#: .\templates\auth\login.html:101
+msgid "New on our platform?"
+msgstr "Nouveau sur notre plateforme ?"
+
+#: .\templates\auth\login.html:103
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: .\templates\auth\register.html:5
+msgid "Register"
+msgstr "S'enregistrer"
+
+#: .\templates\auth\register.html:65
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: .\templates\auth\register.html:100
+msgid "I agree to"
+msgstr "J'accepte de"
+
+#: .\templates\auth\register.html:101
+msgid "privacy policy & terms"
+msgstr "politique de confidentialité &amp ; conditions"
+
+#: .\templates\auth\register.html:106
+#| msgid "Sign in"
+msgid "Sign up"
+msgstr "S'inscrire"
+
+#: .\templates\auth\register.html:114
+msgid "Already have an account?"
+msgstr "Vous avez déjà un compte ?"
+
+#: .\templates\auth\register.html:116
+#| msgid "Sign in"
+msgid "Sign in instead"
+msgstr "S'inscrire à la place"
+
+#: .\templates\auth\reset_password.html:5
+#: .\templates\auth\reset_password.html:51
+msgid "Reset Password"
+msgstr "Réinitialiser le mot de passe"
+
+#: .\templates\auth\reset_password.html:59
+msgid "Your new password must be different from previously used passwords"
+msgstr ""
+"Votre nouveau mot de passe doit être différent des mots de passe utilisés "
+"précédemment."
+
+#: .\templates\auth\reset_password.html:64
+#: .\templates\pages\pages_account_settings_security.html:75
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: .\templates\auth\reset_password.html:76
+msgid "Confirm Password"
+msgstr "Confirmer le mot de passe"
+
+#: .\templates\auth\reset_password.html:87
+msgid "Set new password"
+msgstr "Définir un nouveau mot de passe"
+
+#: .\templates\auth\verify_email.html:5 .\templates\auth\verify_email.html:58
+msgid "Verify Email"
+msgstr "Vérifier l'adresse électronique"
+
+#: .\templates\auth\verify_email.html:43
+msgid "Verification link will be send to this email:"
+msgstr "Le lien de vérification sera envoyé à cet email :"
+
+#: .\templates\auth\verify_email.html:46
+msgid "Verification link send to your email address."
+msgstr "Lien de vérification envoyé à votre adresse électronique."
+
+#: .\templates\auth\verify_email.html:64
+msgid "Back"
+msgstr "Retour"
+
+#: .\templates\auth\verify_email.html:67
+msgid "Skip for now & Login"
+msgstr "Sauter pour l'instant &amp ; Login"
+
+#: .\templates\auth\verify_email.html:69
+msgid "Didn't get the mail?"
+msgstr "Vous n'avez pas reçu le courrier ?"
+
+#: .\templates\auth\verify_email.html:73
+#| msgid "Reset"
+msgid "Resend"
+msgstr "Resend"
+
 #: .\templates\base.html:24
 msgid "language"
 msgstr "langue"
 
-#: .\templates\base.html:39 .\templates\website\dashboard.html:4
-#: .\templates\website\dashboard.html:7
+#: .\templates\base.html:39 .\templates\pages\pages_dashboard.html:5
+#: .\templates\website\dashboard.html:4 .\templates\website\dashboard.html:7
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
@@ -240,8 +524,7 @@ msgid "Logout"
 msgstr "Déconnexion"
 
 #: .\templates\base.html:57 .\templates\registration\login.html:4
-#: .\templates\registration\login.html:72 .\templates\website\login.html:4
-#: .\templates\website\login.html:7
+#: .\templates\registration\login.html:72
 msgid "Log-in"
 msgstr "Connexion"
 
@@ -321,7 +604,7 @@ msgstr "Rechercher à nouveau"
 msgid "Search for posts"
 msgstr "Recherche de postes"
 
-#: .\templates\blog\post\search.html:28
+#: .\templates\blog\post\search.html:28 .\templates\faq\faq.html:19
 msgid "Search"
 msgstr "Rechercher à nouveau"
 
@@ -366,8 +649,58 @@ msgstr "autres"
 msgid "Send"
 msgstr "Envoyer"
 
+#: .\templates\faq\faq.html:4
+msgid "FAQ"
+msgstr "FAQ"
+
+#: .\templates\faq\faq.html:15
+msgid "Hello, how can we help?"
+msgstr "Bonjour, comment pouvons-nous vous aider ?"
+
+#: .\templates\faq\faq.html:16
+msgid "or choose a category to quickly find the help you need"
+msgstr ""
+"ou choisissez une catégorie pour trouver rapidement l'aide dont vous avez "
+"besoin"
+
+#: .\templates\faq\faq.html:19
+#| msgid "Search articles..."
+msgid "Search answers..."
+msgstr "Chercher des réponses..."
+
+#: .\templates\faq\faq.html:19
+msgid "Search in the Questions / Answers database"
+msgstr "Recherche dans la base de données Questions / Réponses"
+
+#: .\templates\faq\faq.html:112
+msgid "Support Ticket"
+msgstr "Support Ticket"
+
+#: .\templates\faq\faq.html:114
+msgid "Best way for non-urgent questions"
+msgstr "Meilleur moyen pour les questions non urgentes"
+
+#: .\templates\faq\faq.html:123
+msgid "Chat"
+msgstr "Chat"
+
+#: .\templates\faq\faq.html:125
+msgid "Best way to get an interactive answer"
+msgstr "Le meilleur moyen d'obtenir une réponse interactive"
+
+#: .\templates\faq\faq.html:139
+msgid "We are always happy to help"
+msgstr "Nous sommes toujours heureux de vous aider"
+
+#: .\templates\faq\faq.html:150
+msgid "Best way to get a quick answer"
+msgstr "Le meilleur moyen d'obtenir une réponse rapide"
+
+#: .\templates\layout\partials\navbar\navbar.html:45
+msgid "Search (Ctrl+/)"
+msgstr "Recherche (Ctrl+/)"
+
 #: .\templates\pages\pages_account_settings_account.html:7
-#| msgid "Account settings"
 msgid "Account settings - Account"
 msgstr "Paramètres du compte - Compte"
 
@@ -377,6 +710,31 @@ msgstr "Paramètres du compte - Compte"
 #: .\templates\pages\pages_account_settings_security.html:40
 msgid "Account"
 msgstr "Compte"
+
+#: .\templates\pages\pages_account_settings_account.html:44
+#: .\templates\pages\pages_account_settings_connections.html:18
+#: .\templates\pages\pages_account_settings_notifications.html:27
+#: .\templates\pages\pages_account_settings_security.html:43
+msgid "Security"
+msgstr "Sécurité"
+
+#: .\templates\pages\pages_account_settings_account.html:48
+#: .\templates\pages\pages_account_settings_connections.html:22
+#: .\templates\pages\pages_account_settings_notifications.html:30
+#: .\templates\pages\pages_account_settings_security.html:47
+msgid "Notifications"
+msgstr "Notifications"
+
+#: .\templates\pages\pages_account_settings_account.html:52
+#: .\templates\pages\pages_account_settings_connections.html:25
+#: .\templates\pages\pages_account_settings_notifications.html:34
+#: .\templates\pages\pages_account_settings_security.html:51
+#: .\templates\pages\pages_profile_connections.html:75
+#: .\templates\pages\pages_profile_projects.html:75
+#: .\templates\pages\pages_profile_teams.html:75
+#: .\templates\pages\pages_profile_user.html:92
+msgid "Connections"
+msgstr "Connexions"
 
 #: .\templates\pages\pages_account_settings_account.html:73
 msgid "Upload new photo"
@@ -392,17 +750,14 @@ msgid "Allowed JPG, GIF or PNG. Max size of 800K"
 msgstr "JPG, GIF ou PNG autorisés. Taille maximale de 800K"
 
 #: .\templates\pages\pages_account_settings_account.html:94
-#: .\website\forms.py:53 .\website\forms.py:89
 msgid "First Name"
 msgstr "Prénom"
 
 #: .\templates\pages\pages_account_settings_account.html:103
-#: .\website\forms.py:54 .\website\forms.py:90
 msgid "Last Name"
 msgstr "Nom de famille"
 
 #: .\templates\pages\pages_account_settings_account.html:111
-#| msgid "Email"
 msgid "E-mail"
 msgstr "Courriel"
 
@@ -440,12 +795,10 @@ msgid "Afghanistan"
 msgstr "Afghanistan"
 
 #: .\templates\pages\pages_account_settings_account.html:168
-#| msgid "Albanian"
 msgid "Albania"
 msgstr "Albanie"
 
 #: .\templates\pages\pages_account_settings_account.html:169
-#| msgid "Algerian Arabic"
 msgid "Algeria"
 msgstr "Algérie"
 
@@ -454,7 +807,6 @@ msgid "Andorra"
 msgstr "Andorre"
 
 #: .\templates\pages\pages_account_settings_account.html:171
-#| msgid "Mongolian"
 msgid "Angola"
 msgstr "Angola"
 
@@ -463,17 +815,14 @@ msgid "Antigua and Barbuda"
 msgstr "Antigua et Barbuda"
 
 #: .\templates\pages\pages_account_settings_account.html:173
-#| msgid "Argentinian Spanish"
 msgid "Argentina"
 msgstr "Argentine"
 
 #: .\templates\pages\pages_account_settings_account.html:174
-#| msgid "Armenian"
 msgid "Armenia"
 msgstr "Arménie"
 
 #: .\templates\pages\pages_account_settings_account.html:175
-#| msgid "Australian English"
 msgid "Australia"
 msgstr "Australie"
 
@@ -482,7 +831,6 @@ msgid "Austria"
 msgstr "Autriche"
 
 #: .\templates\pages\pages_account_settings_account.html:177
-#| msgid "Azerbaijani"
 msgid "Azerbaijan"
 msgstr "Azerbaïdjan"
 
@@ -503,7 +851,6 @@ msgid "Barbados"
 msgstr "Barbade"
 
 #: .\templates\pages\pages_account_settings_account.html:182
-#| msgid "Belarusian"
 msgid "Belarus"
 msgstr "Bélarus"
 
@@ -536,7 +883,6 @@ msgid "Botswana"
 msgstr "Botswana"
 
 #: .\templates\pages\pages_account_settings_account.html:190
-#| msgid "Brazilian"
 msgid "Brazil"
 msgstr "Brésil"
 
@@ -545,7 +891,6 @@ msgid "Brunei"
 msgstr "Brunei"
 
 #: .\templates\pages\pages_account_settings_account.html:192
-#| msgid "Bulgarian"
 msgid "Bulgaria"
 msgstr "Bulgarie"
 
@@ -570,7 +915,6 @@ msgid "Cameroon"
 msgstr "Cameroun"
 
 #: .\templates\pages\pages_account_settings_account.html:198
-#| msgid "Kannada"
 msgid "Canada"
 msgstr "Canada"
 
@@ -591,7 +935,6 @@ msgid "China"
 msgstr "Chine"
 
 #: .\templates\pages\pages_account_settings_account.html:203
-#| msgid "Colombian Spanish"
 msgid "Colombia"
 msgstr "Colombie"
 
@@ -616,7 +959,6 @@ msgid "Côte d’Ivoire"
 msgstr "Côte d’Ivoire"
 
 #: .\templates\pages\pages_account_settings_account.html:209
-#| msgid "Croatian"
 msgid "Croatia"
 msgstr "Croatie"
 
@@ -673,7 +1015,6 @@ msgid "Eritrea"
 msgstr "Erythrée"
 
 #: .\templates\pages\pages_account_settings_account.html:223
-#| msgid "Estonian"
 msgid "Estonia"
 msgstr "Estonie"
 
@@ -706,12 +1047,10 @@ msgid "The Gambia"
 msgstr "Gambie"
 
 #: .\templates\pages\pages_account_settings_account.html:231
-#| msgid "Georgian"
 msgid "Georgia"
 msgstr "Géorgie"
 
 #: .\templates\pages\pages_account_settings_account.html:232
-#| msgid "German"
 msgid "Germany"
 msgstr "Allemagne"
 
@@ -720,7 +1059,6 @@ msgid "Ghana"
 msgstr "Ghana"
 
 #: .\templates\pages\pages_account_settings_account.html:234
-#| msgid "Greek"
 msgid "Greece"
 msgstr "Grèce"
 
@@ -753,12 +1091,10 @@ msgid "Honduras"
 msgstr "Honduras"
 
 #: .\templates\pages\pages_account_settings_account.html:242
-#| msgid "Hungarian"
 msgid "Hungary"
 msgstr "Hongrie"
 
 #: .\templates\pages\pages_account_settings_account.html:243
-#| msgid "Icelandic"
 msgid "Iceland"
 msgstr "Islande"
 
@@ -767,7 +1103,6 @@ msgid "India"
 msgstr "Inde"
 
 #: .\templates\pages\pages_account_settings_account.html:245
-#| msgid "Indonesian"
 msgid "Indonesia"
 msgstr "Indonésie"
 
@@ -780,7 +1115,6 @@ msgid "Iraq"
 msgstr "L'Irak"
 
 #: .\templates\pages\pages_account_settings_account.html:248
-#| msgid "Icelandic"
 msgid "Ireland"
 msgstr "Irlande"
 
@@ -789,7 +1123,6 @@ msgid "Israel"
 msgstr "Israël"
 
 #: .\templates\pages\pages_account_settings_account.html:250
-#| msgid "Italian"
 msgid "Italy"
 msgstr "Italie"
 
@@ -798,7 +1131,6 @@ msgid "Jamaica"
 msgstr "Jamaïque"
 
 #: .\templates\pages\pages_account_settings_account.html:252
-#| msgid "Japanese"
 msgid "Japan"
 msgstr "Japon"
 
@@ -807,7 +1139,6 @@ msgid "Jordan"
 msgstr "Jordanie"
 
 #: .\templates\pages\pages_account_settings_account.html:254
-#| msgid "Kazakh"
 msgid "Kazakhstan"
 msgstr "Kazakhstan"
 
@@ -836,7 +1167,6 @@ msgid "Kuwait"
 msgstr "Koweït"
 
 #: .\templates\pages\pages_account_settings_account.html:261
-#| msgid "Kyrgyz"
 msgid "Kyrgyzstan"
 msgstr "Kirghizistan"
 
@@ -845,7 +1175,6 @@ msgid "Laos"
 msgstr "Laos"
 
 #: .\templates\pages\pages_account_settings_account.html:263
-#| msgid "Latvian"
 msgid "Latvia"
 msgstr "Lettonie"
 
@@ -870,12 +1199,10 @@ msgid "Liechtenstein"
 msgstr "Liechtenstein"
 
 #: .\templates\pages\pages_account_settings_account.html:269
-#| msgid "Lithuanian"
 msgid "Lithuania"
 msgstr "Lituanie"
 
 #: .\templates\pages\pages_account_settings_account.html:270
-#| msgid "Luxembourgish"
 msgid "Luxembourg"
 msgstr "Luxembourg"
 
@@ -884,12 +1211,10 @@ msgid "Madagascar"
 msgstr "Madagascar"
 
 #: .\templates\pages\pages_account_settings_account.html:272
-#| msgid "Malay"
 msgid "Malawi"
 msgstr "Malawi"
 
 #: .\templates\pages\pages_account_settings_account.html:273
-#| msgid "Malay"
 msgid "Malaysia"
 msgstr "Malaisie"
 
@@ -910,7 +1235,6 @@ msgid "Marshall Islands"
 msgstr "Îles Marshall"
 
 #: .\templates\pages\pages_account_settings_account.html:278
-#| msgid "Lithuanian"
 msgid "Mauritania"
 msgstr "Mauritanie"
 
@@ -935,7 +1259,6 @@ msgid "Monaco"
 msgstr "Monaco"
 
 #: .\templates\pages\pages_account_settings_account.html:284
-#| msgid "Mongolian"
 msgid "Mongolia"
 msgstr "Mongolie"
 
@@ -964,7 +1287,6 @@ msgid "Nauru"
 msgstr "Nauru"
 
 #: .\templates\pages\pages_account_settings_account.html:291
-#| msgid "Nepali"
 msgid "Nepal"
 msgstr "Népal"
 
@@ -977,7 +1299,6 @@ msgid "New Zealand"
 msgstr "Nouvelle-Zélande"
 
 #: .\templates\pages\pages_account_settings_account.html:294
-#| msgid "Nicaraguan Spanish"
 msgid "Nicaragua"
 msgstr "Nicaragua"
 
@@ -990,7 +1311,6 @@ msgid "Nigeria"
 msgstr "Nigeria"
 
 #: .\templates\pages\pages_account_settings_account.html:297
-#| msgid "Macedonian"
 msgid "North Macedonia"
 msgstr "Macédoine du Nord"
 
@@ -1035,17 +1355,14 @@ msgid "Poland"
 msgstr "Pologne"
 
 #: .\templates\pages\pages_account_settings_account.html:308
-#| msgid "Portuguese"
 msgid "Portugal"
 msgstr "Portugal"
 
 #: .\templates\pages\pages_account_settings_account.html:309
-#| msgid "Tatar"
 msgid "Qatar"
 msgstr "Qatar"
 
 #: .\templates\pages\pages_account_settings_account.html:310
-#| msgid "Romanian"
 msgid "Romania"
 msgstr "Roumanie"
 
@@ -1086,7 +1403,6 @@ msgid "Senegal"
 msgstr "Sénégal"
 
 #: .\templates\pages\pages_account_settings_account.html:321
-#| msgid "Serbian"
 msgid "Serbia"
 msgstr "Serbie"
 
@@ -1103,12 +1419,10 @@ msgid "Singapore"
 msgstr "Singapour"
 
 #: .\templates\pages\pages_account_settings_account.html:325
-#| msgid "Slovak"
 msgid "Slovakia"
 msgstr "Slovaquie"
 
 #: .\templates\pages\pages_account_settings_account.html:326
-#| msgid "Slovenian"
 msgid "Slovenia"
 msgstr "Slovénie"
 
@@ -1141,12 +1455,10 @@ msgid "Sudan, South"
 msgstr "Soudan, Sud"
 
 #: .\templates\pages\pages_account_settings_account.html:335
-#| msgid "name"
 msgid "Suriname"
 msgstr "Suriname"
 
 #: .\templates\pages\pages_account_settings_account.html:336
-#| msgid "Swedish"
 msgid "Sweden"
 msgstr "Suède"
 
@@ -1163,7 +1475,6 @@ msgid "Taiwan"
 msgstr "Taïwan"
 
 #: .\templates\pages\pages_account_settings_account.html:340
-#| msgid "Tajik"
 msgid "Tajikistan"
 msgstr "Tadjikistan"
 
@@ -1188,12 +1499,10 @@ msgid "Tunisia"
 msgstr "Tunisie"
 
 #: .\templates\pages\pages_account_settings_account.html:347
-#| msgid "Turkmen"
 msgid "Turkey"
 msgstr "Turquie"
 
 #: .\templates\pages\pages_account_settings_account.html:348
-#| msgid "Turkmen"
 msgid "Turkmenistan"
 msgstr "Turkménistan"
 
@@ -1206,7 +1515,6 @@ msgid "Uganda"
 msgstr "Ouganda"
 
 #: .\templates\pages\pages_account_settings_account.html:351
-#| msgid "Ukrainian"
 msgid "Ukraine"
 msgstr "Ukraine"
 
@@ -1227,7 +1535,6 @@ msgid "Uruguay"
 msgstr "Uruguay"
 
 #: .\templates\pages\pages_account_settings_account.html:356
-#| msgid "Uzbek"
 msgid "Uzbekistan"
 msgstr "Ouzbékistan"
 
@@ -1240,12 +1547,10 @@ msgid "Vatican City"
 msgstr "Cité du Vatican"
 
 #: .\templates\pages\pages_account_settings_account.html:359
-#| msgid "Venezuelan Spanish"
 msgid "Venezuela"
 msgstr "Venezuela"
 
 #: .\templates\pages\pages_account_settings_account.html:360
-#| msgid "Vietnamese"
 msgid "Vietnam"
 msgstr "Vietnam"
 
@@ -1262,7 +1567,6 @@ msgid "Zimbabwe"
 msgstr "Zimbabwe"
 
 #: .\templates\pages\pages_account_settings_account.html:369
-#| msgid "language"
 msgid "Select Language"
 msgstr "Sélectionner la langue"
 
@@ -1275,13 +1579,28 @@ msgid "Select Timezone"
 msgstr "Sélectionner le fuseau horaire"
 
 #: .\templates\pages\pages_account_settings_account.html:449
-#| msgid "Select Currency"
 msgid "Currency"
 msgstr "Monnaie"
 
 #: .\templates\pages\pages_account_settings_account.html:451
 msgid "Select Currency"
 msgstr "Sélectionner la devise"
+
+#: .\templates\pages\pages_account_settings_account.html:452
+msgid "USD"
+msgstr "USD"
+
+#: .\templates\pages\pages_account_settings_account.html:453
+msgid "Euro"
+msgstr "Euro"
+
+#: .\templates\pages\pages_account_settings_account.html:454
+msgid "Pound"
+msgstr "Livre"
+
+#: .\templates\pages\pages_account_settings_account.html:455
+msgid "Bitcoin"
+msgstr "Bitcoin"
 
 #: .\templates\pages\pages_account_settings_account.html:460
 #: .\templates\pages\pages_account_settings_notifications.html:142
@@ -1298,12 +1617,10 @@ msgid "Cancel"
 msgstr "Annuler"
 
 #: .\templates\pages\pages_account_settings_account.html:468
-#| msgid "Delete course"
 msgid "Delete Account"
 msgstr "Supprimer le compte"
 
 #: .\templates\pages\pages_account_settings_account.html:472
-#| msgid "Are you sure you want to delete"
 msgid "Are you sure you want to delete your account?"
 msgstr "Êtes-vous sûr de vouloir supprimer votre compte ?"
 
@@ -1319,39 +1636,86 @@ msgid "I confirm my account deactivation"
 msgstr "Je confirme la désactivation de mon compte"
 
 #: .\templates\pages\pages_account_settings_account.html:484
-#| msgid "Create an account"
 msgid "Deactivate Account"
 msgstr "Désactiver le compte"
 
 #: .\templates\pages\pages_account_settings_connections.html:5
-#| msgid "Account settings"
 msgid "Account settings - Connections"
 msgstr "Paramètres du compte - Connexions"
 
-#: .\templates\pages\pages_account_settings_connections.html:18
-#: .\templates\pages\pages_account_settings_notifications.html:27
-#: .\templates\pages\pages_account_settings_security.html:43
-msgid "Security"
-msgstr "Sécurité"
+#: .\templates\pages\pages_account_settings_connections.html:33
+#| msgid "Connections"
+msgid "Connected Accounts"
+msgstr "Comptes connectés"
 
-#: .\templates\pages\pages_account_settings_connections.html:22
-#: .\templates\pages\pages_account_settings_notifications.html:30
-#: .\templates\pages\pages_account_settings_security.html:47
-msgid "Notifications"
-msgstr "Notifications"
+#: .\templates\pages\pages_account_settings_connections.html:34
+msgid "Display content from your connected accounts on your site"
+msgstr "Afficher sur votre site le contenu de vos comptes connectés"
 
-#: .\templates\pages\pages_account_settings_connections.html:25
-#: .\templates\pages\pages_account_settings_notifications.html:34
-#: .\templates\pages\pages_account_settings_security.html:51
-#: .\templates\pages\pages_profile_connections.html:75
-#: .\templates\pages\pages_profile_projects.html:75
-#: .\templates\pages\pages_profile_teams.html:75
-#: .\templates\pages\pages_profile_user.html:92
-msgid "Connections"
-msgstr "Connexions"
+#: .\templates\pages\pages_account_settings_connections.html:47
+msgid "Calendar and contacts"
+msgstr "Calendrier et contacts"
+
+#: .\templates\pages\pages_account_settings_connections.html:66
+#: .\templates\pages\pages_account_settings_connections.html:123
+#| msgid "Location"
+msgid "Communication"
+msgstr "Communication"
+
+#: .\templates\pages\pages_account_settings_connections.html:84
+msgid "Github"
+msgstr "Github"
+
+#: .\templates\pages\pages_account_settings_connections.html:85
+msgid "Manage your Git repositories"
+msgstr "Gérer vos dépôts Git"
+
+#: .\templates\pages\pages_account_settings_connections.html:103
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: .\templates\pages\pages_account_settings_connections.html:104
+#| msgid "Email or Username"
+msgid "Email marketing service"
+msgstr "Service de marketing par courrier électronique"
+
+#: .\templates\pages\pages_account_settings_connections.html:122
+msgid "Asana"
+msgstr "Asana"
+
+#: .\templates\pages\pages_account_settings_connections.html:137
+#| msgid "Deactivate Account"
+msgid "Social Accounts"
+msgstr "Comptes sociaux"
+
+#: .\templates\pages\pages_account_settings_connections.html:138
+msgid "Display content from social accounts on your site"
+msgstr "Afficher le contenu des comptes sociaux sur votre site"
+
+#: .\templates\pages\pages_account_settings_connections.html:151
+msgid "Facebook"
+msgstr "Facebook"
+
+#: .\templates\pages\pages_account_settings_connections.html:152
+#: .\templates\pages\pages_account_settings_connections.html:213
+#: .\templates\pages\pages_account_settings_connections.html:232
+msgid "Not Connected"
+msgstr "Non connecté"
+
+#: .\templates\pages\pages_account_settings_connections.html:170
+msgid "Twitter"
+msgstr "Twitter"
+
+#: .\templates\pages\pages_account_settings_connections.html:212
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: .\templates\pages\pages_account_settings_connections.html:231
+#| msgid "France"
+msgid "Behance"
+msgstr "Behance"
 
 #: .\templates\pages\pages_account_settings_notifications.html:5
-#| msgid "Account settings"
 msgid "Account settings - Notifications"
 msgstr "Paramètres du compte - Notifications"
 
@@ -1374,14 +1738,8 @@ msgstr "Request Permission"
 msgid "Type"
 msgstr "Type"
 
-#: .\templates\pages\pages_account_settings_notifications.html:50
-#: .\website\forms.py:55 .\website\forms.py:91
-msgid "Email"
-msgstr "Courriel"
-
 #: .\templates\pages\pages_account_settings_notifications.html:51
 #: .\templates\pages\pages_account_settings_security.html:229
-#| msgid "Browse courses"
 msgid "Browser"
 msgstr "Navigateur"
 
@@ -1394,7 +1752,6 @@ msgid "New for you"
 msgstr "Nouveau pour vous"
 
 #: .\templates\pages\pages_account_settings_notifications.html:75
-#| msgid "Account settings"
 msgid "Account activity"
 msgstr "Activité du compte"
 
@@ -1423,32 +1780,22 @@ msgid "Discard"
 msgstr "Rejeter"
 
 #: .\templates\pages\pages_account_settings_security.html:5
-#| msgid "Account settings"
 msgid "Account settings - Security"
 msgstr "Paramètres du compte - Sécurité"
 
 #: .\templates\pages\pages_account_settings_security.html:57
-#| msgid "Change my password"
 msgid "Change Password"
 msgstr "Modifier le mot de passe"
 
 #: .\templates\pages\pages_account_settings_security.html:62
-#| msgid "Confirm Password"
 msgid "Current Password"
 msgstr "Mot de passe actuel"
 
-#: .\templates\pages\pages_account_settings_security.html:75
-#| msgid "Password"
-msgid "New Password"
-msgstr "Nouveau mot de passe"
-
 #: .\templates\pages\pages_account_settings_security.html:86
-#| msgid "Confirm Password"
 msgid "Confirm New Password"
 msgstr "Confirmer le nouveau mot de passe"
 
 #: .\templates\pages\pages_account_settings_security.html:97
-#| msgid "Password reset"
 msgid "Password Requirements:"
 msgstr "Exigences en matière de mot de passe :"
 
@@ -1490,7 +1837,6 @@ msgid "Enable Two-Factor Authentication"
 msgstr "Activer l'authentification à deux facteurs"
 
 #: .\templates\pages\pages_account_settings_security.html:131
-#| msgid "Create a new course"
 msgid "Create an API key"
 msgstr "Créer un nouveau cours"
 
@@ -1515,11 +1861,11 @@ msgid "Read & Execute"
 msgstr "Lire &amp ; Exécuter"
 
 #: .\templates\pages\pages_account_settings_security.html:144
-#| msgid "Module contents:"
 msgid "List Folder Contents"
 msgstr "List Folder Contents"
 
 #: .\templates\pages\pages_account_settings_security.html:145
+#: .\templates\pages\pages_account_settings_security.html:198
 msgid "Read Only"
 msgstr "Lecture seule"
 
@@ -1551,53 +1897,144 @@ msgstr ""
 "anonyme, et sont utilisées pour associer les demandes d'API à votre projet "
 "pour les quotas et la facturation."
 
+#: .\templates\pages\pages_account_settings_security.html:186
+#: .\templates\pages\pages_account_settings_security.html:197
+#: .\templates\pages\pages_account_settings_security.html:208
+#| msgid "Create Key"
+msgid "Server Key"
+msgstr "Clé de serveur"
+
+#: .\templates\pages\pages_account_settings_security.html:187
+#: .\templates\pages\pages_account_settings_security.html:209
+msgid "Full Access"
+msgstr "Accès complet"
+
+#: .\templates\pages\pages_account_settings_security.html:193
+#: .\templates\pages\pages_account_settings_security.html:204
+#: .\templates\pages\pages_account_settings_security.html:215
+#| msgid "Create Key"
+msgid "Created on"
+msgstr "Créé le"
+
 #: .\templates\pages\pages_account_settings_security.html:230
 msgid "Device"
 msgstr "Dispositif"
 
 #: .\templates\pages\pages_account_settings_security.html:231
-#| msgid "Notifications"
 msgid "Location"
 msgstr "Localisation"
 
 #: .\templates\pages\pages_account_settings_security.html:232
-msgid "Recent Activitiy"
-msgstr "Activités récentes"
+#| msgid "Recent Activitiy"
+msgid "Recent Activity"
+msgstr "Activité récente"
 
 #: .\templates\pages\pages_deep_learning_classification.html:5
+#: .\templates\pages\pages_deep_learning_classification.html:191
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:5
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:129
 msgid "Deep Learning - Classification"
 msgstr "Apprentissage profond - Classification"
+
+#: .\templates\pages\pages_deep_learning_classification.html:197
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:134
+msgid "Total Selected Models: "
+msgstr "Total Modèles sélectionnés :"
+
+#: .\templates\pages\pages_deep_learning_classification.html:201
+msgid "Select/Deselect All Modules"
+msgstr "Sélectionner/désélectionner tous les modules"
+
+#: .\templates\pages\pages_deep_learning_classification.html:212
+msgid "models selected"
+msgstr "modèles sélectionnés"
+
+#: .\templates\pages\pages_deep_learning_classification.html:223
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:150
+msgid "No models available"
+msgstr "Aucun modèle disponible"
+
+#: .\templates\pages\pages_deep_learning_classification.html:228
+#| msgid "No modules yet."
+msgid "No modules available"
+msgstr "Aucun module disponible"
 
 #: .\templates\pages\pages_deep_learning_segmentation.html:5
 msgid "Deep Learning - Segmentation"
 msgstr "Apprentissage profond - Segmentation"
 
-#: .\templates\pages\pages_faq.html:5
-msgid "FAQ"
-msgstr "FAQ"
+#: .\templates\pages\pages_llm_summarization.html:5
+#| msgid "Natural Language Processing - Text Summarization"
+msgid "Large Language Model - Text Summarization"
+msgstr "Modèle de langage étendu - Résumés de textes"
 
-#: .\templates\pages\pages_faq.html:16
-msgid "Hello, how can we help?"
-msgstr "Bonjour, comment pouvons-nous vous aider ?"
+#: .\templates\pages\pages_llm_text_classification.html:5
+#| msgid "Natural Language Processing - Text Summarization"
+msgid "Large Language Model - Text Classification"
+msgstr "Modèle de langage étendu - Classification des textes"
 
-#: .\templates\pages\pages_faq.html:17
-msgid "or choose a category to quickly find the help you need"
-msgstr ""
-"ou choisissez une catégorie pour trouver rapidement l'aide dont vous avez "
-"besoin"
+#: .\templates\pages\pages_llm_text_generation.html:5
+#| msgid "Natural Language Processing - Text Generation"
+msgid "Large Language Model - Text Generation"
+msgstr "Modèle de langage étendu - Génération de texte"
 
-#: .\templates\pages\pages_faq.html:22
-#| msgid "Search again"
-msgid "Search articles..."
-msgstr "Rechercher des articles..."
+#: .\templates\pages\pages_llm_text_to_text_generation.html:5
+#| msgid "Natural Language Processing - Text Generation"
+msgid "Large Language Model - Text-to-Text Generation"
+msgstr "Modèle de langue étendu - Génération de texte à texte"
 
-#: .\templates\pages\pages_machine_learning_anomaly_detection.html:5
-msgid "Machine Learning - Anomaly Detection"
-msgstr "Apprentissage automatique - Détection d'anomalies"
+#: .\templates\pages\pages_llm_token_classification.html:5
+#| msgid "Machine Learning - Classification"
+msgid "Large Language Model - Token Classification"
+msgstr "Modèle de langage étendu - Classification des tokens"
 
-#: .\templates\pages\pages_machine_learning_classification.html:5
+#: .\templates\pages\pages_llm_zero_shot_classification.html:5
+#| msgid "Machine Learning - Classification"
+msgid "Large Language Model - Zero Shot Classification"
+msgstr "Modèle de la langue large - Classification du tir à zéro"
+
+#: .\templates\pages\pages_machine_learning_anomaly_detection.html:156
+#: .\templates\partials\_modals\modal_enable_otp.html:29
+#: .\templates\partials\_modals\modal_two_factor_auth.html:112
+#: .\templates\partials\_modals\modal_two_factor_auth.html:154
+msgid "Submit"
+msgstr "Soumettre"
+
+#: .\templates\pages\pages_machine_learning_classification.html:4
 msgid "Machine Learning - Classification"
 msgstr "Apprentissage automatique - Classification"
+
+#: .\templates\pages\pages_machine_learning_classification.html:37
+#| msgid "Select Timezone"
+msgid "Data Selection"
+msgstr "Sélection des données"
+
+#: .\templates\pages\pages_machine_learning_classification.html:50
+#| msgid "Select Timezone"
+msgid "Model Selection"
+msgstr "Sélection du modèle"
+
+#: .\templates\pages\pages_machine_learning_classification.html:63
+msgid "Metrics"
+msgstr "Métriques"
+
+#: .\templates\pages\pages_machine_learning_classification.html:76
+msgid "Graphs"
+msgstr "Graphiques"
+
+#: .\templates\pages\pages_machine_learning_classification.html:89
+msgid "Review & Submit"
+msgstr "Réviser et soumettre"
+
+#: .\templates\pages\pages_machine_learning_classification.html:142
+#: .\templates\pagination.html:5
+msgid "Previous"
+msgstr "Précédent"
+
+#: .\templates\pages\pages_machine_learning_classification.html:145
+#: .\templates\pagination.html:9
+msgid "Next"
+msgstr "Suivant"
 
 #: .\templates\pages\pages_machine_learning_clustering.html:5
 msgid "Machine Learning - Clustering"
@@ -1612,7 +2049,6 @@ msgid "Machine Learning - Time Series"
 msgstr "Apprentissage automatique - Séries temporelles"
 
 #: .\templates\pages\pages_misc_comingsoon.html:5
-#| msgid "Coming Soon - Pages"
 msgid "Coming Soon"
 msgstr "Bientôt disponible"
 
@@ -1627,10 +2063,6 @@ msgid ""
 msgstr ""
 "Notre site web sera bientôt ouvert. Veuillez vous inscrire pour être informé"
 " lorsqu'il sera prêt !"
-
-#: .\templates\pages\pages_misc_comingsoon.html:24
-msgid "Enter your email"
-msgstr "Saisissez votre adresse électronique"
 
 #: .\templates\pages\pages_misc_comingsoon.html:26
 msgid "Notify"
@@ -1655,7 +2087,6 @@ msgid "Back to home"
 msgstr "Retour à l'accueil"
 
 #: .\templates\pages\pages_misc_not_authorized.html:4
-#| msgid "Not Authorized - Pages"
 msgid "Not Authorized"
 msgstr "Non autorisé"
 
@@ -1669,7 +2100,6 @@ msgstr ""
 "Vous n'avez pas l'autorisation d'accéder à cette page. Rentrez chez vous !"
 
 #: .\templates\pages\pages_misc_under_maintenance.html:5
-#| msgid "Under Maintenance!"
 msgid "Under Maintenance"
 msgstr "Sous Maintenance"
 
@@ -1685,14 +2115,6 @@ msgstr ""
 "Nous sommes désolés pour la gêne occasionnée, mais nous effectuons "
 "actuellement des travaux de maintenance."
 
-#: .\templates\pages\pages_natural_language_processing_text_generation.html:5
-msgid "Natural Language Processing - Text Generation"
-msgstr "Traitement du langage naturel - Génération de texte"
-
-#: .\templates\pages\pages_natural_language_processing_text_summarization.html:5
-msgid "Natural Language Processing - Text Summarization"
-msgstr "Traitement du langage naturel - Résumés de textes"
-
 #: .\templates\pages\pages_profile_connections.html:5
 msgid "User Profile - Connections"
 msgstr "Profil d'utilisateur - Connexions"
@@ -1701,7 +2123,6 @@ msgstr "Profil d'utilisateur - Connexions"
 #: .\templates\pages\pages_profile_projects.html:66
 #: .\templates\pages\pages_profile_teams.html:66
 #: .\templates\pages\pages_profile_user.html:83
-#| msgid "Profile Photo"
 msgid "Profile"
 msgstr "Profil"
 
@@ -1716,12 +2137,10 @@ msgstr "Les équipes"
 #: .\templates\pages\pages_profile_projects.html:72
 #: .\templates\pages\pages_profile_teams.html:72
 #: .\templates\pages\pages_profile_user.html:89
-#| msgid "Subjects"
 msgid "Projects"
 msgstr "Projets"
 
 #: .\templates\pages\pages_profile_projects.html:5
-#| msgid "Profile Photo"
 msgid "User Profile - Projects"
 msgstr "Profil d'utilisateur - Projets"
 
@@ -1733,24 +2152,15 @@ msgstr "Profils d'utilisateurs - Équipes"
 msgid "User Profile - Profile"
 msgstr "Profil de l'utilisateur - Profil"
 
-#: .\templates\pagination.html:5
-msgid "Previous"
-msgstr "Précédent"
-
 #: .\templates\pagination.html:7
 msgid "Page"
 msgstr "Page"
-
-#: .\templates\pagination.html:9
-msgid "Next"
-msgstr "Suivant"
 
 #: .\templates\partials\_modals\modal_enable_otp.html:10
 msgid "Close"
 msgstr "Fermer"
 
 #: .\templates\partials\_modals\modal_enable_otp.html:12
-#| msgid "Change my password"
 msgid "Enable One Time Password"
 msgstr "Activer le mot de passe à usage unique"
 
@@ -1766,12 +2176,6 @@ msgid ""
 msgstr ""
 "Saisissez votre numéro de téléphone portable avec l'indicatif du pays et "
 "nous vous enverrons un code de vérification."
-
-#: .\templates\partials\_modals\modal_enable_otp.html:29
-#: .\templates\partials\_modals\modal_two_factor_auth.html:112
-#: .\templates\partials\_modals\modal_two_factor_auth.html:154
-msgid "Submit"
-msgstr "Soumettre"
 
 #: .\templates\partials\_modals\modal_two_factor_auth.html:15
 msgid "Select Authentication Method"
@@ -1842,29 +2246,8 @@ msgstr ""
 "nous vous enverrons un code de vérification."
 
 #: .\templates\partials\_modals\modal_two_factor_auth.html:136
-#| msgid "Phone Number"
 msgid "Phone number"
 msgstr "Numéro de téléphone"
-
-#: .\templates\registration\logged_out.html:4
-msgid "Logged out"
-msgstr "Déconnecté"
-
-#: .\templates\registration\logged_out.html:51
-msgid "say you good bye"
-msgstr "vous dire au revoir"
-
-#: .\templates\registration\logged_out.html:53
-msgid "You have been successfully logged out."
-msgstr "Votre commentaire a été ajouté."
-
-#: .\templates\registration\logged_out.html:57
-msgid "You can"
-msgstr "Désormais, vous pouvez"
-
-#: .\templates\registration\logged_out.html:57
-msgid "log-in again"
-msgstr "se reconnecter"
 
 #: .\templates\registration\login.html:55
 msgid "Your username and password didn't match."
@@ -1900,10 +2283,6 @@ msgstr "Mot de passe modifié"
 msgid "Your password has been successfully changed."
 msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\registration\password_change_done.html:57
-msgid "Back to login"
-msgstr "Retour au login"
-
 #: .\templates\registration\password_change_form.html:4
 #: .\templates\registration\password_change_form.html:50
 msgid "Change your password"
@@ -1932,14 +2311,6 @@ msgstr "Votre mot de passe a été défini. Vous pouvez"
 #: .\templates\registration\password_reset_complete.html:52
 msgid "log in now"
 msgstr "Se connecter maintenant"
-
-#: .\templates\registration\password_reset_confirm.html:4
-#: .\templates\registration\password_reset_confirm.html:50
-#: .\templates\registration\password_reset_done.html:4
-#: .\templates\registration\password_reset_done.html:50
-#: .\templates\registration\password_reset_form.html:4
-msgid "Reset your password"
-msgstr "changer votre mot de passe"
 
 #: .\templates\registration\password_reset_confirm.html:52
 msgid "Please enter your new password twice:"
@@ -2173,55 +2544,6 @@ msgstr "Modules de cours"
 msgid "Save modules"
 msgstr "Sauvegarder les modules"
 
-#: .\templates\website\auth_login_cover.html:5
-msgid "Login"
-msgstr "Connexion"
-
-#: .\templates\website\auth_login_cover.html:51
-#| msgid "Welcome"
-msgid "Welcome to"
-msgstr "Bienvenue à"
-
-#: .\templates\website\auth_login_cover.html:52
-msgid "Please sign-in to your account and start the adventure"
-msgstr "Connectez-vous à votre compte et commencez l'aventure"
-
-#: .\templates\website\auth_login_cover.html:56
-#| msgid "Username"
-msgid "Email or Username"
-msgstr "Email ou nom d'utilisateur"
-
-#: .\templates\website\auth_login_cover.html:61
-#| msgid "Enter your email"
-msgid "Enter your email or username"
-msgstr "Entrez votre email ou votre nom d'utilisateur"
-
-#: .\templates\website\auth_login_cover.html:65 .\website\forms.py:40
-msgid "Password"
-msgstr "Mot de passe"
-
-#: .\templates\website\auth_login_cover.html:80
-msgid "Remember Me"
-msgstr "Souvenez-vous de moi"
-
-#: .\templates\website\auth_login_cover.html:83
-#| msgid "Forgotten your password?"
-msgid "Forgot Password?"
-msgstr "Mot de passe oublié ?"
-
-#: .\templates\website\auth_login_cover.html:87
-msgid "Sign in"
-msgstr "S'inscrire"
-
-#: .\templates\website\auth_login_cover.html:90
-msgid "New on our platform?"
-msgstr "Nouveau sur notre plateforme ?"
-
-#: .\templates\website\auth_login_cover.html:92
-#: .\templates\website\register.html:4 .\templates\website\register.html:7
-msgid "Create an account"
-msgstr "Créer un compte"
-
 #: .\templates\website\dashboard.html:9
 msgid "Welcome to your dashboard. You can"
 msgstr "Bienvenue dans votre tableau de bord. Vous pouvez"
@@ -2247,58 +2569,41 @@ msgid "You can edit your account using the following form:"
 msgstr ""
 "Vous pouvez modifier votre compte en utilisant le formulaire suivant :"
 
-#: .\templates\website\login.html:8
-msgid "Please, use the following form to log-in:"
-msgstr "Veuillez utiliser le formulaire suivant pour vous connecter :"
+#~ msgid "Machine Learning - Anomaly Detection"
+#~ msgstr "Apprentissage automatique - Détection d'anomalies"
 
-#: .\templates\website\login.html:13
-msgid "Log in"
-msgstr "Se connecter"
+#~ msgid "Please, use the following form to log-in:"
+#~ msgstr "Veuillez utiliser le formulaire suivant pour vous connecter :"
 
-#: .\templates\website\register.html:8
-msgid "Please, sign up using the following form:"
-msgstr "Veuillez vous inscrire en utilisant le formulaire suivant :"
+#~ msgid "Log in"
+#~ msgstr "Se connecter"
 
-#: .\templates\website\register.html:13
-msgid "Create my account"
-msgstr "Créer mon compte"
+#~ msgid "Please, sign up using the following form:"
+#~ msgstr "Veuillez vous inscrire en utilisant le formulaire suivant :"
 
-#: .\templates\website\register_done.html:4
-#: .\templates\website\register_done.html:7
-msgid "Welcome"
-msgstr "Bienvenue"
+#~ msgid "Create my account"
+#~ msgstr "Créer mon compte"
 
-#: .\templates\website\register_done.html:9
-msgid "Your account has been successfully created."
-msgstr "Votre commentaire a été ajouté."
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
 
-#: .\templates\website\register_done.html:10
-msgid "Now you can"
-msgstr "Désormais, vous pouvez"
+#~ msgid "Your account has been successfully created."
+#~ msgstr "Votre commentaire a été ajouté."
 
-#: .\templates\website\register_done.html:10
-msgid "log in"
-msgstr "se connecter"
+#~ msgid "Now you can"
+#~ msgstr "Désormais, vous pouvez"
 
-#: .\website\forms.py:44
-msgid "Confirm Password"
-msgstr "Confirmer le mot de passe"
+#~ msgid "log in"
+#~ msgstr "se connecter"
 
-#: .\website\forms.py:52
-msgid "Username"
-msgstr "Nom d'utilisateur"
+#~ msgid "Date of Birth"
+#~ msgstr "Date de naissance"
 
-#: .\website\forms.py:107
-msgid "Date of Birth"
-msgstr "Date de naissance"
+#~ msgid "Profile Photo"
+#~ msgstr "Photo de profil"
 
-#: .\website\forms.py:108
-msgid "Profile Photo"
-msgstr "Photo de profil"
-
-#: .\website\forms.py:109
-msgid "Biography"
-msgstr "Biographie"
+#~ msgid "Biography"
+#~ msgstr "Biographie"
 
 #~ msgid "Billing & Plans"
 #~ msgstr "Facturation et plans"
@@ -2311,19 +2616,6 @@ msgstr "Biographie"
 #~ msgid "Thailand"
 #~ msgstr "Thaïlandais"
 
-#~ msgid "USD"
-#~ msgstr "USD"
-
-#~ msgid "Euro"
-#~ msgstr "Euro"
-
-#, fuzzy
-#~ msgid "Pound"
-#~ msgstr "Trouvé"
-
-#~ msgid "Bitcoin"
-#~ msgstr "Bitcoin"
-
 #~ msgid "Connections<"
 #~ msgstr "Connexions<"
 
@@ -2331,27 +2623,8 @@ msgstr "Biographie"
 #~ msgstr "Erreur - Pages"
 
 #, fuzzy
-#~ msgid "Forgot Password"
-#~ msgstr "Changer votre mot de passe"
-
-#, fuzzy
-#~ msgid ""
-#~ "Enter your email and we'll send you instructions to reset your password"
-#~ msgstr ""
-#~ "Nous vous avons envoyé par courrier électronique des instructions pour "
-#~ "définir votre mot de passe."
-
-#, fuzzy
-#~ msgid "Register"
-#~ msgstr "s'inscrire ici"
-
-#, fuzzy
 #~ msgid "Enter your username"
 #~ msgstr "Saisissez votre adresse électronique"
-
-#, fuzzy
-#~ msgid "Already have an account?"
-#~ msgstr "Créer un compte"
 
 #, fuzzy
 #~ msgid "Personal"
@@ -2370,20 +2643,8 @@ msgstr "Biographie"
 #~ msgstr "Saisissez votre adresse électronique"
 
 #, fuzzy
-#~ msgid "Reset Password"
-#~ msgstr "changer votre mot de passe"
-
-#, fuzzy
-#~ msgid "Set new password"
-#~ msgstr "changer votre mot de passe"
-
-#, fuzzy
 #~ msgid "Verify my account"
 #~ msgstr "Créer mon compte"
-
-#, fuzzy
-#~ msgid "Verify your email"
-#~ msgstr "Saisissez votre adresse électronique"
 
 #, fuzzy
 #~ msgid "Name"
