@@ -1,8 +1,14 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView, View
-from pycaret.anomaly import models as get_anomaly_models
+from pycaret.anomaly import models as anomaly_models
 from pycaret.anomaly import setup as setup_anomaly
+from pycaret.classification import models as classification_models
+from pycaret.classification import setup as setup_classification
+from pycaret.clustering import models as clustering_models
+from pycaret.clustering import setup as setup_clustering
 from pycaret.datasets import get_data
+from pycaret.regression import models as regression_models
+from pycaret.regression import setup as setup_regression
 from timm import list_models, list_modules
 
 from AIMER2 import TemplateLayout
@@ -51,7 +57,52 @@ class CustomMLAnomalyView(PagesView, View):
 
         # Retrieve the context of `PagesView`
         context = self.get_context_data(**kwargs)
-        context["models"] = get_anomaly_models()
+        context["models"] = anomaly_models().index.tolist()
+
+        return render(request, self.template_name, context)
+
+
+class CustomMLClassificationView(PagesView, View):
+    template_name = "pages/pages_machine_learning_classification.html"
+
+    def get(self, request, *args, **kwargs):
+        classification_data = get_data("iris")
+
+        setup_classification(classification_data, html=False)
+
+        # Retrieve the context of `PagesView`
+        context = self.get_context_data(**kwargs)
+        context["models"] = classification_models().index.tolist()
+
+        return render(request, self.template_name, context)
+
+
+class CustomMLClusteringView(PagesView, View):
+    template_name = "pages/pages_machine_learning_clustering.html"
+
+    def get(self, request, *args, **kwargs):
+        clustering_data = get_data("jewellery")
+
+        setup_clustering(clustering_data, html=False)
+
+        # Retrieve the context of `PagesView`
+        context = self.get_context_data(**kwargs)
+        context["models"] = clustering_models().index.tolist()
+
+        return render(request, self.template_name, context)
+
+
+class CustomMLRegressionView(PagesView, View):
+    template_name = "pages/pages_machine_learning_regression.html"
+
+    def get(self, request, *args, **kwargs):
+        regression_data = get_data("boston")
+
+        setup_regression(regression_data, html=False)
+
+        # Retrieve the context of `PagesView`
+        context = self.get_context_data(**kwargs)
+        context["models"] = regression_models().index.tolist()
 
         return render(request, self.template_name, context)
 
