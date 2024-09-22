@@ -450,9 +450,9 @@ CHANNEL_LAYERS = {
     },
 }
 
-AXES_LOCKOUT_URL = "auth/locked"
-
 # Uncomment to activate SSL/TLS
 # SECURE_SSL_REDIRECT = True
 # SESSION_COOKIE_SECURE = True
 # CSRF_COOKIE_SECURE = True
+
+AXES_LOCKOUT_URL = "auth/locked"
