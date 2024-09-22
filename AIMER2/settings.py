@@ -450,6 +450,8 @@ CHANNEL_LAYERS = {
     },
 }
 
+SESSION_COOKIE_HTTPONLY = True
+
 # Uncomment to activate SSL/TLS
 # SECURE_SSL_REDIRECT = True
 # SESSION_COOKIE_SECURE = True
