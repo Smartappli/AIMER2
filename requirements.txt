@@ -3,7 +3,7 @@ bleach==6.1.0
 celery==5.4.0
 channels[daphne]==4.1.0
 channels-redis==4.2.0
-chromadb==0.5.9
+chromadb==0.5.11
 Django[argon2]==5.1.1
 django-axes[ipware]==6.5.2
 django-braces==1.15.0
@@ -19,6 +19,8 @@ django-simple-captcha==0.6.0
 Django-taggit==6.0.0
 djangorestframework==3.15.2
 flower==2.0.1
+langchain
+langchain_community
 gunicorn==23.0.0
 huggingface_hub==0.25.1
 jax[cpu]==0.4.33

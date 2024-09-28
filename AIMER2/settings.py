@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     "website.apps.WebsiteConfig",
     "captcha",
     "axes",
+    "chatbot",
 ]
 
 AUTHENTICATION_BACKENDS = [
