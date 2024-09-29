@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de fichiers PDF</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .drag-and-drop {
+            border: 2px dashed #ccc;
+            padding: 20px;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+            cursor: pointer;
+            background-color: white;
+            transition: border-color 0.3s;
+        }
+        .hidden {
+            display: none;
+        }
+        #upload-btn {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #upload-btn:hover {
+            background-color: #0056b3;
+        }
+        #progress-container {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .progress-bar {
+            width: 0%;
+            height: 20px;
+            background-color: green;
+            transition: width 0.3s;
+        }
+        .progress-bar-bg {
+            width: 100%;
+            height: 20px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h2>Uploader un fichier PDF</h2>
+    
+    <div id="drag-drop-area" class="drag-and-drop">
+        Glissez et déposez vos fichiers ici ou cliquez pour sélectionner
+        <input type="file" id="pdf-file" class="hidden" accept="application/pdf">
+    </div>
+
+    <button id="upload-btn">Uploader</button>
+
+    <div id="progress-container">
+        <h3>Progression de l'upload :</h3>
+        <div class="progress-bar-bg">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </div>
+
+    <script>
+        const dragDropArea = document.getElementById('drag-drop-area');
+        const pdfFileInput = document.getElementById('pdf-file');
+        const progressBar = document.getElementById('progress-bar');
+        const uploadBtn = document.getElementById('upload-btn');
+        let selectedFile = null;
+
+        dragDropArea.addEventListener('click', () => {
+            pdfFileInput.click();
+        });
+
+        pdfFileInput.addEventListener('change', (e) => {
+            selectedFile = e.target.files[0];
+            dragDropArea.textContent = selectedFile.name;
+        });
+
+        dragDropArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dragDropArea.style.borderColor = 'green';
+        });
+
+        dragDropArea.addEventListener('dragleave', (e) => {
+            dragDropArea.style.borderColor = '#ccc';
+        });
+
+        dragDropArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            selectedFile = e.dataTransfer.files[0];
+            dragDropArea.textContent = selectedFile.name;
+        });
+
+        uploadBtn.addEventListener('click', () => {
+            if (selectedFile) {
+                const formData = new FormData();
+                formData.append('pdf_file', selectedFile);
+        
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', '{% url "chatbot:upload" %}', true);
+                xhr.setRequestHeader('X-CSRFToken', '{{ csrf_token }}');
+        
+                xhr.upload.onprogress = (e) => {
+                    if (e.lengthComputable) {
+                        const percentComplete = (e.loaded / e.total) * 100;
+                        progressBar.style.width = percentComplete + '%';
+                    }
+                };
+        
+                xhr.onload = () => {
+                    if (xhr.status === 200) {
+                        alert('Fichier uploadé avec succès');
+                        // Vous pouvez aussi rediriger ou rafraîchir la page ici
+                    } else {
+                        alert('Erreur lors de l\'upload: ' + xhr.responseText);  // Affichez l'erreur
+                    }
+                };
+        
+                xhr.onerror = () => {
+                    alert('Erreur de connexion. Veuillez réessayer.');
+                };
+        
+                xhr.send(formData);
+            } else {
+                alert('Veuillez sélectionner un fichier à uploader.');
+            }
+        });
+    </script>
+</body>
+</html>

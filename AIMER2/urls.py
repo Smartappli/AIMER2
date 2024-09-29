@@ -50,7 +50,7 @@ urlpatterns = i18n_patterns(
     ),  # celerybeat_status admin
     path("admin/", admin.site.urls),  # django admin
     path("captcha/", include("captcha.urls")),  # Captcha
-    path('chatbot/', include ("chatbot.urls", namespace='chatbot')),
+    path('', include("chatbot.urls", namespace='chatbot')),
     path("", include("pages.urls")),
     path("", include("website.urls", namespace="website")),
     path("auth/", include("authentication.urls", namespace="auth")),
