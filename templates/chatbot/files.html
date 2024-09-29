@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fichiers PDF Uploadés</title>
-    <link rel="stylesheet" href="{% static 'styles.css' %}">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -74,7 +73,7 @@
                 <th>Nom du fichier</th>
                 <th>Statut</th>
                 <th>Actions</th>
-                <th>Progression</th> <!-- Nouvelle colonne pour la progression -->
+                <th>Progression</th> 
             </tr>
         </thead>
         <tbody>
@@ -84,20 +83,20 @@
                 <td>{{ file.status }}</td>
                 <td>
                     {% if file.status == "uploaded" %}
-                    <form action="{% url 'process_files' %}" method="POST">
+                    <form action="{% url 'chatbot:process_files' %}" method="POST">
                         {% csrf_token %}
                         <input type="hidden" name="file_id" value="{{ file.unique_id }}">
                         <button type="submit">Traiter</button>
                     </form>
                     {% endif %}
-                    <form action="{% url 'delete_file' file.unique_id %}" method="POST">
+                    <form action="{% url 'chatbot:delete_file' file.file_id %}" method="POST">
                         {% csrf_token %}
                         <button type="submit">Supprimer</button>
                     </form>
                 </td>
                 <td>
                     <div class="progress-container">
-                        <div class="progress-bar" id="progress-bar-{{ file.unique_id }}" style="width: 0%;"></div>
+                        <div class="progress-bar" id="progress-bar-{{ file.file_id }}" style="width: 0%;"></div>
                     </div>
                 </td>
             </tr>
