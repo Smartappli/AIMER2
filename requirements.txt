@@ -37,7 +37,7 @@ postgresml-django==0.1.0 # Integration of PostgresML
 psycopg==3.2.2
 # pycaret==3.4.0
 git+https://github.com/pycaret/pycaret.git
-pydantic==2.9.0
+pydantic==2.9.2
 pyopenssl==24.2.1
 pypdf==5.0.0
 pymemcache==4.0.0
