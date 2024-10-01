@@ -29,7 +29,7 @@ langchain-ollama==0.2.0
 langchain-chroma==0.1.4
 langchain_community==0.3.1
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-llama-cpp-python==0.2.90
+llama-cpp-python==0.3.1
 Markdown==3.5.2
 packaging==24.1
 Pillow==10.4.0
