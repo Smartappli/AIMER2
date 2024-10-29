@@ -56,6 +56,6 @@ tf-models-no-deps==2.18.0
 torch>=2.2.2,<2.6.0
 torchvision>=0.17.0
 typing-extensions==4.12.0
-unstructured[local-inference, all-docs]==0.16.2
+unstructured[local-inference, all-docs]==0.16.3
 weasyPrint==62.3
 whitenoise==6.8.1
