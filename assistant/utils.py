@@ -48,9 +48,7 @@ def extract_html_components(file_path):
 def extract_pdf_components(file_path):
     try:
         elements = partition_pdf(
-            filename=file_path,
-            infer_table_structure=True,
-            strategy="hi_res"
+            filename=file_path, infer_table_structure=True, strategy="hi_res"
         )
         if debug:
             logging.info("Elements extracted from PDF: %s", elements)
@@ -59,6 +57,7 @@ def extract_pdf_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers DOC
 def extract_doc_components(file_path):
@@ -72,6 +71,7 @@ def extract_doc_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers DOCX
 def extract_docx_components(file_path):
     try:
@@ -83,6 +83,7 @@ def extract_docx_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers ODT
 def extract_odt_components(file_path):
@@ -96,6 +97,7 @@ def extract_odt_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers PPT
 def extract_ppt_components(file_path):
     try:
@@ -107,6 +109,7 @@ def extract_ppt_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers PPTX
 def extract_pptx_components(file_path):
@@ -120,6 +123,7 @@ def extract_pptx_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers XLSX
 def extract_xlsx_components(file_path):
     try:
@@ -131,6 +135,7 @@ def extract_xlsx_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers CSV
 def extract_csv_components(file_path):
@@ -144,6 +149,7 @@ def extract_csv_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers TSV
 def extract_tsv_components(file_path):
     try:
@@ -155,6 +161,7 @@ def extract_tsv_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers TXT
 def extract_txt_components(file_path):
@@ -168,6 +175,7 @@ def extract_txt_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers EPUB
 def extract_epub_components(file_path):
     try:
@@ -179,6 +187,7 @@ def extract_epub_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers XML
 def extract_xml_components(file_path):
@@ -192,6 +201,7 @@ def extract_xml_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers JSON
 def extract_json_components(file_path):
     try:
@@ -203,6 +213,7 @@ def extract_json_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers Markdown
 def extract_md_components(file_path):
@@ -216,6 +227,7 @@ def extract_md_components(file_path):
 
     return classify_elements(elements)
 
+
 # Extraction des composantes des fichiers reStructuredText
 def extract_rst_components(file_path):
     try:
@@ -228,12 +240,16 @@ def extract_rst_components(file_path):
 
     return classify_elements(elements)
 
+
 # Classification des éléments extraits
 def classify_elements(elements):
-
     logging.info("Nombre d'éléments extraits : %d", len(elements))
 
-    text_elements = [el for el in elements if el.category in ["Text", "NarrativeText", "Title", "Heading", "List"]]
+    text_elements = [
+        el
+        for el in elements
+        if el.category in ["Text", "NarrativeText", "Title", "Heading", "List"]
+    ]
     table_elements = [el for el in elements if el.category == "Table"]
     image_elements = [el for el in elements if el.category == "Image"]
 
@@ -242,7 +258,9 @@ def classify_elements(elements):
     logging.info("------> Text Cleaning")
 
     # Text chunking
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500, chunk_overlap=100
+    )
     all_splits = text_splitter.split_text(cleaned_text)
     logging.info("------> Text Chunking")
 
@@ -257,7 +275,9 @@ def classify_elements(elements):
     logging.info("------> Image Extraction")
     if debug:
         for image in image_elements:
-            logging.info("Image trouvée avec les métadonnées : %s", image.metadata)
+            logging.info(
+                "Image trouvée avec les métadonnées : %s", image.metadata
+            )
 
     if debug:
         logging.info("Text elements: {text_elements}")
@@ -267,14 +287,16 @@ def classify_elements(elements):
     return {
         "text": all_splits,
         "images": image_elements,
-        "tables": table_elements
+        "tables": table_elements,
     }
+
 
 # Fonction pour transformer une image en base64
 def image_to_base64(image):
     buffered = BytesIO()
     image.save(buffered, format="JPEG")
     return base64.b64encode(buffered.getvalue()).decode("utf-8")
+
 
 # Description de l'image à l'aide d'Ollama
 def describe_image_with_llm(images, model_name="llama3.2"):
@@ -285,7 +307,9 @@ def describe_image_with_llm(images, model_name="llama3.2"):
         with output_path.open("wb") as img_file:
             img_file.write(image.content)
 
-    llm = OllamaLLM(base_url="http://localhost:11434/generate", model=model_name)
+    llm = OllamaLLM(
+        base_url="http://localhost:11434/generate", model=model_name
+    )
 
     # Générer une description pour chaque image
     for i, _ in enumerate(images):
@@ -299,12 +323,16 @@ def describe_image_with_llm(images, model_name="llama3.2"):
 
     return descriptions
 
+
 # Analyse des tableaux avec Ollama
 def analyze_table_with_llm(table_data, model_name="llama3.2"):
     prompt = f"Analyze the following table and provide insights: {table_data}"
 
-    llm = OllamaLLM(base_url="http://localhost:11434/generate", model=model_name)
+    llm = OllamaLLM(
+        base_url="http://localhost:11434/generate", model=model_name
+    )
     return llm.generate([prompt])
+
 
 def extract_pdf(file_path):
     logging.info("--- Start PDF Extraction ---")
@@ -312,11 +340,13 @@ def extract_pdf(file_path):
     logging.info("--- End PDF Extraction ---")
     return components
 
+
 def extract_doc(file_path):
     logging.info("--- Start DOC Extraction ---")
     components = extract_doc_components(file_path)
     logging.info("--- End DOC Extraction ---")
     return components
+
 
 def extract_docx(file_path):
     logging.info("--- Start DOCX Extraction ---")
@@ -324,11 +354,13 @@ def extract_docx(file_path):
     logging.info("--- End DOCX Extraction ---")
     return components
 
+
 def extract_odt(file_path):
     logging.info("--- Start ODT Extraction ---")
     components = extract_odt_components(file_path)
     logging.info("--- End ODT Extraction ---")
     return components
+
 
 def extract_ppt(file_path):
     logging.info("--- Start PPT Extraction ---")
@@ -336,11 +368,13 @@ def extract_ppt(file_path):
     logging.info("--- End PPT Extraction ---")
     return components
 
+
 def extract_pptx(file_path):
     logging.info("--- Start PPTX Extraction ---")
     components = extract_pptx_components(file_path)
     logging.info("--- End PPTX Extraction ---")
     return components
+
 
 def extract_xlsx(file_path):
     logging.info("--- Start XLSX Extraction ---")
@@ -348,11 +382,13 @@ def extract_xlsx(file_path):
     logging.info("--- End XLSX Extraction ---")
     return components
 
+
 def extract_csv(file_path):
     logging.info("--- Start CSV Extraction ---")
     components = extract_csv_components(file_path)
     logging.info("--- End CSV Extraction ---")
     return components
+
 
 def extract_tsv(file_path):
     logging.info("--- Start TSV Extraction ---")
@@ -360,11 +396,13 @@ def extract_tsv(file_path):
     logging.info("--- End TSV Extraction ---")
     return components
 
+
 def extract_txt(file_path):
     logging.info("--- Start TXT Extraction ---")
     components = extract_txt_components(file_path)
     logging.info("--- End TXT Extraction ---")
     return components
+
 
 def extract_epub(file_path):
     logging.info("--- Start EPUB Extraction ---")
@@ -372,11 +410,13 @@ def extract_epub(file_path):
     logging.info("--- End EPUB Extraction ---")
     return components
 
+
 def extract_html(file_path):
     logging.info("--- Start HTML Extraction ---")
     components = extract_html_components(file_path)
     logging.info("--- End HTML Extraction ---")
     return components
+
 
 def extract_xml(file_path):
     logging.info("--- Start XML Extraction ---")
@@ -384,11 +424,13 @@ def extract_xml(file_path):
     logging.info("--- End XML Extraction ---")
     return components
 
+
 def extract_json(file_path):
     logging.info("--- Start JSON Extraction ---")
     components = extract_json_components(file_path)
     logging.info("--- End JSON Extraction ---")
     return components
+
 
 def extract_md(file_path):
     logging.info("--- Start Markdown Extraction ---")
@@ -396,11 +438,13 @@ def extract_md(file_path):
     logging.info("--- End Markdown Extraction ---")
     return components
 
+
 def extract_rst(file_path):
     logging.info("--- Start RST Extraction ---")
     components = extract_rst_components(file_path)
     logging.info("--- End RST Extraction ---")
     return components
+
 
 # Orchestration complète pour traiter les fichiers
 def process_file(file_path, file_type):
@@ -420,7 +464,7 @@ def process_file(file_path, file_type):
         "xml": extract_xml,
         "json": extract_json,
         "md": extract_md,
-        "rst": extract_rst
+        "rst": extract_rst,
     }
 
     if file_type not in file_extractors:
@@ -468,7 +512,9 @@ def embed_text_with_llm(chunks, model_name="llama3.2"):
 # Embedding des tableaux avec Ollama
 def embed_table_with_llm(table_data, model_name="llama3.2"):
     prompt = f"Embed the following table: {table_data}"
-    llm = OllamaLLM(base_url="http://localhost:11434/generate", model=model_name)
+    llm = OllamaLLM(
+        base_url="http://localhost:11434/generate", model=model_name
+    )
     return llm.generate([prompt])
 
 
@@ -476,7 +522,9 @@ def embed_table_with_llm(table_data, model_name="llama3.2"):
 def embed_image_with_llm(image, model_name="llama3.2"):
     img_base64 = image_to_base64(image)
     prompt = f"Embed the following image in detail: {img_base64}"
-    llm = OllamaLLM(base_url="http://localhost:11434/generate", model=model_name)
+    llm = OllamaLLM(
+        base_url="http://localhost:11434/generate", model=model_name
+    )
     return llm.generate([prompt])
 
 
@@ -537,8 +585,9 @@ def embed_file_components(file_path, file_type, components):
     return {
         "embedded_text": embedded_text,
         "embedded_tables": embedded_tables,
-        "embedded_images": embedded_images
+        "embedded_images": embedded_images,
     }
+
 
 # Process complet incluant l'Embedding
 def process_file_with_embeddings(file_path, file_type):

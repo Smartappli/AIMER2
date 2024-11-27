@@ -131,18 +131,18 @@ class TemplateHelper:
         layout = Path(self).stem.split("/")[0]
 
         # Get module path
-        module = f"templates.{settings.THEME_LAYOUT_DIR.replace("/", ".")}.bootstrap.{layout}"
+        module = f"templates.{settings.THEME_LAYOUT_DIR.replace('/', '.')}.bootstrap.{layout}"
 
         # Check if the bootstrap file is exist
         if util.find_spec(module) is not None:
             # Auto import and init the default bootstrap.py file from the theme
             templatebootstrap = TemplateHelper.import_class(
                 module,
-                f"TemplateBootstrap{layout.title().replace("_", "")}",
+                f"TemplateBootstrap{layout.title().replace('_', '')}",
             )
             templatebootstrap.init(context)
         else:
-            module = f"templates.{settings.THEME_LAYOUT_DIR.replace("/", ".")}.bootstrap.default"
+            module = f"templates.{settings.THEME_LAYOUT_DIR.replace('/', '.')}.bootstrap.default"
 
             templatebootstrap = TemplateHelper.import_class(
                 module,

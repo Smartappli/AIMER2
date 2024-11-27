@@ -5,6 +5,4 @@ from pgvector.django import VectorExtension
 
 
 class Migration(migrations.Migration):
-    operations: ClassVar[list] = [
-        VectorExtension()
-    ]
+    operations: ClassVar[list] = [VectorExtension()]

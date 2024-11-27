@@ -1,4 +1,3 @@
-
 """This module defines the database models for a blogging application, including
 the `Post` and `Comment` models. The `Post` model includes a custom manager
 for retrieving published posts.
