@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.status {
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.uploaded {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+.processed {
+    background-color: #5cb85c;
+    color: white;
+}
+
+.error {
+    background-color: #d9534f;
+    color: white;
+}
+
+.unknown {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.process-btn {
+    background-color: #007BFF;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #d9534f;  /* Error color */
+}

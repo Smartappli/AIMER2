@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-19 10:08+0200\n"
-"PO-Revision-Date: 2024-08-08 21:31+0000\n"
+"PO-Revision-Date: 2024-09-22 22:51+0000\n"
 "Last-Translator: admin admin <admin@admin.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -200,10 +200,9 @@ msgid "Welcome to AIMER Portal"
 msgstr "Velkommen til AIMER-portalen"
 
 #: .\authentication\helpers.py:22 .\templates\auth\verify_email.html:40
-#, fuzzy
 #| msgid "Enter your email"
 msgid "Verify your email"
-msgstr "Indtast din e-mail"
+msgstr "Bekræft din e-mail"
 
 #: .\authentication\helpers.py:33
 #: .\templates\registration\password_reset_confirm.html:4
@@ -215,95 +214,92 @@ msgid "Reset your password"
 msgstr "Nulstil din adgangskode"
 
 #: .\authentication\models.py:30
-#, fuzzy
 #| msgid "Profile Photo"
 msgid "User Profile"
-msgstr "Profilbillede"
+msgstr "Brugerprofil"
 
 #: .\authentication\models.py:31
-#, fuzzy
 #| msgid "Profile Photo"
 msgid "User Profiles"
-msgstr "Profilbillede"
+msgstr "Brugerprofiler"
 
 #: .\authentication\views.py:58
-#, fuzzy
 #| msgid "Please enter your new password twice:"
 msgid "Please enter your username and password."
-msgstr "Indtast venligst din nye adgangskode to gange:"
+msgstr "Indtast venligst dit brugernavn og din adgangskode."
 
 #: .\authentication\views.py:65
-#, fuzzy
 #| msgid "Please try again."
 msgid "Please enter a valid email."
-msgstr "Prøv venligst igen."
+msgstr "Indtast venligst en gyldig e-mail."
 
 #: .\authentication\views.py:71 .\authentication\views.py:94
-#, fuzzy
 #| msgid "Please try again."
 msgid "Please enter a valid username."
-msgstr "Prøv venligst igen."
+msgstr "Indtast venligst et gyldigt brugernavn."
 
 #: .\authentication\views.py:124
 msgid "User already exists, Try logging in."
-msgstr ""
+msgstr "Brugeren findes allerede, prøv at logge ind."
 
 #: .\authentication\views.py:127
 msgid "Email already exists."
-msgstr ""
+msgstr "E-mail findes allerede."
 
 #: .\authentication\views.py:130
 msgid "Username already exists."
-msgstr ""
+msgstr "Brugernavnet findes allerede."
 
 #: .\authentication\views.py:158 .\authentication\views.py:324
 msgid "Verification email sent successfully"
-msgstr ""
+msgstr "Bekræftelsesmail sendt med succes"
 
 #: .\authentication\views.py:163 .\authentication\views.py:217
 #: .\authentication\views.py:330 .\authentication\views.py:345
 msgid "Email settings are not configured. Unable to send verification email."
 msgstr ""
+"E-mail-indstillingerne er ikke konfigureret. Kan ikke sende bekræftelses-e-"
+"mail."
 
 #: .\authentication\views.py:189
 msgid "No user with this email exists."
-msgstr ""
+msgstr "Der findes ingen bruger med denne e-mail."
 
 #: .\authentication\views.py:210
 msgid "A password reset email has been sent. Please check your inbox"
 msgstr ""
+"En e-mail til nulstilling af adgangskode er blevet sendt. Tjek venligst din "
+"indbakke"
 
 #: .\authentication\views.py:238
 msgid "Invalid or expired token."
-msgstr ""
+msgstr "Ugyldig eller udløbet token."
 
 #: .\authentication\views.py:246
 msgid "Please fill all fields."
-msgstr ""
+msgstr "Udfyld venligst alle felter."
 
 #: .\authentication\views.py:271
 msgid "Password reset successful. Please log in."
-msgstr ""
+msgstr "Nulstilling af adgangskode lykkedes. Log venligst ind."
 
 #: .\authentication\views.py:287
-#, fuzzy
 #| msgid "E-mail successfully sent"
 msgid "Email verified successfully"
-msgstr "E-mail sendt med succes"
+msgstr "E-mail bekræftet med succes"
 
 #: .\authentication\views.py:292
-#, fuzzy
 #| msgid "Please try again."
 msgid "Invalid token, please try again"
-msgstr "Prøv venligst igen."
+msgstr "Ugyldigt token, prøv venligst igen"
 
 #: .\authentication\views.py:314
 msgid "Email not found in session"
-msgstr ""
+msgstr "E-mail ikke fundet i session"
 
 #: .\authentication\views.py:337
 msgid "Resend verification email successfully"
-msgstr ""
+msgstr "Send bekræftelsesmail igen med succes"
 
 #: .\blog\feeds.py:11 .\templates\base.html:75
 #: .\templates\blog\post\list.html:5
@@ -327,23 +323,21 @@ msgid "body"
 msgstr "krop"
 
 #: .\templates\auth\forgot_password.html:5
-#, fuzzy
 #| msgid "Forgotten your password?"
 msgid "Forgot Password"
-msgstr "Har du glemt din adgangskode?"
+msgstr "Glemt adgangskode"
 
 #: .\templates\auth\forgot_password.html:51 .\templates\auth\login.html:93
-#, fuzzy
 #| msgid "Forgotten your password?"
 msgid "Forgot Password?"
-msgstr "Har du glemt din adgangskode?"
+msgstr "Glemt adgangskode?"
 
 #: .\templates\auth\forgot_password.html:52
-#, fuzzy
 #| msgid "We've emailed you instructions for setting your password."
-msgid "Enter your email and we'll send you instructions to reset your password"
+msgid ""
+"Enter your email and we'll send you instructions to reset your password"
 msgstr ""
-"Vi har sendt dig en e-mail med instruktioner om, hvordan du indstiller din "
+"Indtast din e-mail, så sender vi dig instruktioner til at nulstille din "
 "adgangskode."
 
 #: .\templates\auth\forgot_password.html:65 .\templates\auth\register.html:74
@@ -358,7 +352,7 @@ msgstr "Indtast din e-mail"
 
 #: .\templates\auth\forgot_password.html:74
 msgid "Send Reset Link"
-msgstr ""
+msgstr "Send nulstillingslink"
 
 #: .\templates\auth\forgot_password.html:85
 #: .\templates\auth\reset_password.html:91
@@ -393,29 +387,26 @@ msgstr "log ind igen"
 
 #: .\templates\auth\login.html:5
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: .\templates\auth\login.html:52
-#, fuzzy
 #| msgid "Welcome"
 msgid "Welcome to"
-msgstr "Velkommen"
+msgstr "Velkommen til"
 
 #: .\templates\auth\login.html:53
 msgid "Please sign-in to your account and start the adventure"
-msgstr ""
+msgstr "Log ind på din konto og start eventyret"
 
 #: .\templates\auth\login.html:66
-#, fuzzy
 #| msgid "Username"
 msgid "Email or Username"
-msgstr "Brugernavn"
+msgstr "E-mail eller brugernavn"
 
 #: .\templates\auth\login.html:71
-#, fuzzy
 #| msgid "Enter your email"
 msgid "Enter your email or username"
-msgstr "Indtast din e-mail"
+msgstr "Indtast din e-mail eller dit brugernavn"
 
 #: .\templates\auth\login.html:75 .\templates\auth\register.html:82
 msgid "Password"
@@ -423,25 +414,24 @@ msgstr "Adgangskode"
 
 #: .\templates\auth\login.html:90
 msgid "Remember Me"
-msgstr ""
+msgstr "Husk mig"
 
 #: .\templates\auth\login.html:98
 msgid "Sign in"
-msgstr ""
+msgstr "Log ind"
 
 #: .\templates\auth\login.html:101
 msgid "New on our platform?"
-msgstr ""
+msgstr "Er du ny på vores platform?"
 
 #: .\templates\auth\login.html:103
 msgid "Create an account"
 msgstr "Opret en konto"
 
 #: .\templates\auth\register.html:5
-#, fuzzy
 #| msgid "register here"
 msgid "Register"
-msgstr "Tilmeld dig her"
+msgstr "Registrer dig"
 
 #: .\templates\auth\register.html:65
 msgid "Username"
@@ -449,25 +439,24 @@ msgstr "Brugernavn"
 
 #: .\templates\auth\register.html:100
 msgid "I agree to"
-msgstr ""
+msgstr "Jeg accepterer at"
 
 #: .\templates\auth\register.html:101
 msgid "privacy policy & terms"
-msgstr ""
+msgstr "privatlivspolitik &amp; vilkår"
 
 #: .\templates\auth\register.html:106
 msgid "Sign up"
-msgstr ""
+msgstr "Skriv dig op"
 
 #: .\templates\auth\register.html:114
-#, fuzzy
 #| msgid "Create an account"
 msgid "Already have an account?"
-msgstr "Opret en konto"
+msgstr "Har du allerede en konto?"
 
 #: .\templates\auth\register.html:116
 msgid "Sign in instead"
-msgstr ""
+msgstr "Log ind i stedet"
 
 #: .\templates\auth\reset_password.html:5
 #: .\templates\auth\reset_password.html:51
@@ -679,6 +668,7 @@ msgstr ""
 #: .\templates\faq\faq.html:16
 msgid "or choose a category to quickly find the help you need"
 msgstr ""
+"eller vælg en kategori for hurtigt at finde den hjælp, du har brug for"
 
 #: .\templates\faq\faq.html:19
 #, fuzzy
@@ -688,39 +678,39 @@ msgstr "Søg igen"
 
 #: .\templates\faq\faq.html:19
 msgid "Search in the Questions / Answers database"
-msgstr ""
+msgstr "Søg i spørgsmål/svar-databasen"
 
 #: .\templates\faq\faq.html:112
 msgid "Support Ticket"
-msgstr ""
+msgstr "Support-billet"
 
 #: .\templates\faq\faq.html:114
 msgid "Best way for non-urgent questions"
-msgstr ""
+msgstr "Bedste måde til ikke-presserende spørgsmål"
 
 #: .\templates\faq\faq.html:123
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: .\templates\faq\faq.html:125
 msgid "Best way to get an interactive answer"
-msgstr ""
+msgstr "Bedste måde at få et interaktivt svar på"
 
 #: .\templates\faq\faq.html:139
 msgid "We are always happy to help"
-msgstr ""
+msgstr "Vi er altid glade for at hjælpe"
 
 #: .\templates\faq\faq.html:150
 msgid "Best way to get a quick answer"
-msgstr ""
+msgstr "Bedste måde at få et hurtigt svar på"
 
 #: .\templates\layout\partials\navbar\navbar.html:45
 msgid "Search (Ctrl+/)"
-msgstr ""
+msgstr "Søg (Ctrl+/)"
 
 #: .\templates\pages\pages_account_settings_account.html:7
 msgid "Account settings - Account"
-msgstr ""
+msgstr "Kontoindstillinger - Konto"
 
 #: .\templates\pages\pages_account_settings_account.html:40
 #: .\templates\pages\pages_account_settings_connections.html:14
@@ -796,23 +786,23 @@ msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:147
 msgid "State"
-msgstr ""
+msgstr "Stat"
 
 #: .\templates\pages\pages_account_settings_account.html:155
 msgid "Zip Code"
-msgstr ""
+msgstr "Postnummer"
 
 #: .\templates\pages\pages_account_settings_account.html:164
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: .\templates\pages\pages_account_settings_account.html:166
 msgid "Select"
-msgstr ""
+msgstr "Vælg"
 
 #: .\templates\pages\pages_account_settings_account.html:167
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afghanistan"
 
 #: .\templates\pages\pages_account_settings_account.html:168
 #, fuzzy
@@ -828,7 +818,7 @@ msgstr "Algerisk arabisk"
 
 #: .\templates\pages\pages_account_settings_account.html:170
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: .\templates\pages\pages_account_settings_account.html:171
 #, fuzzy
@@ -838,7 +828,7 @@ msgstr "Mongolsk"
 
 #: .\templates\pages\pages_account_settings_account.html:172
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antigua og Barbuda"
 
 #: .\templates\pages\pages_account_settings_account.html:173
 #, fuzzy
@@ -853,28 +843,26 @@ msgid "Armenia"
 msgstr "Armensk"
 
 #: .\templates\pages\pages_account_settings_account.html:175
-#, fuzzy
 #| msgid "Australian English"
 msgid "Australia"
-msgstr "Australsk engelsk"
+msgstr "Australien"
 
 #: .\templates\pages\pages_account_settings_account.html:176
 msgid "Austria"
-msgstr ""
+msgstr "Østrig"
 
 #: .\templates\pages\pages_account_settings_account.html:177
-#, fuzzy
 #| msgid "Azerbaijani"
 msgid "Azerbaijan"
-msgstr "Aserbajdsjansk"
+msgstr "Aserbajdsjan"
 
 #: .\templates\pages\pages_account_settings_account.html:178
 msgid "The Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: .\templates\pages\pages_account_settings_account.html:179
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 #: .\templates\pages\pages_account_settings_account.html:180
 msgid "Bangladesh"
@@ -885,10 +873,9 @@ msgid "Barbados"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:182
-#, fuzzy
 #| msgid "Belarusian"
 msgid "Belarus"
-msgstr "Hviderussisk"
+msgstr "Hviderusland"
 
 #: .\templates\pages\pages_account_settings_account.html:183
 msgid "Belgium"
@@ -919,72 +906,68 @@ msgid "Botswana"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:190
-#, fuzzy
 #| msgid "Brazilian"
 msgid "Brazil"
-msgstr "Brasiliansk"
+msgstr "Brasilien"
 
 #: .\templates\pages\pages_account_settings_account.html:191
 msgid "Brunei"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:192
-#, fuzzy
 #| msgid "Bulgarian"
 msgid "Bulgaria"
-msgstr "Bulgarsk"
+msgstr "Bulgarien"
 
 #: .\templates\pages\pages_account_settings_account.html:193
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 #: .\templates\pages\pages_account_settings_account.html:194
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: .\templates\pages\pages_account_settings_account.html:195
 msgid "Cabo Verde"
-msgstr ""
+msgstr "Kap Verde"
 
 #: .\templates\pages\pages_account_settings_account.html:196
 msgid "Cambodia"
-msgstr ""
+msgstr "Cambodja"
 
 #: .\templates\pages\pages_account_settings_account.html:197
 msgid "Cameroon"
-msgstr ""
+msgstr "Cameroun"
 
 #: .\templates\pages\pages_account_settings_account.html:198
-#, fuzzy
 #| msgid "Kannada"
 msgid "Canada"
-msgstr "Kannada"
+msgstr "Canada"
 
 #: .\templates\pages\pages_account_settings_account.html:199
 msgid "Central African Republic"
-msgstr ""
+msgstr "Den Centralafrikanske Republik"
 
 #: .\templates\pages\pages_account_settings_account.html:200
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 #: .\templates\pages\pages_account_settings_account.html:201
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: .\templates\pages\pages_account_settings_account.html:202
 msgid "China"
-msgstr ""
+msgstr "Kina"
 
 #: .\templates\pages\pages_account_settings_account.html:203
-#, fuzzy
 #| msgid "Colombian Spanish"
 msgid "Colombia"
-msgstr "Colombiansk spansk"
+msgstr "Colombia"
 
 #: .\templates\pages\pages_account_settings_account.html:204
 msgid "Comoros"
-msgstr ""
+msgstr "Comorerne"
 
 #: .\templates\pages\pages_account_settings_account.html:205
 msgid "Congo, Democratic Republic of the"
@@ -1003,10 +986,9 @@ msgid "Côte d’Ivoire"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:209
-#, fuzzy
 #| msgid "Croatian"
 msgid "Croatia"
-msgstr "Kroatisk"
+msgstr "Kroatien"
 
 #: .\templates\pages\pages_account_settings_account.html:210
 msgid "Cuba"
@@ -1034,49 +1016,48 @@ msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:216
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Den Dominikanske Republik"
 
 #: .\templates\pages\pages_account_settings_account.html:217
 msgid "East Timor"
-msgstr ""
+msgstr "Østtimor"
 
 #: .\templates\pages\pages_account_settings_account.html:218
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: .\templates\pages\pages_account_settings_account.html:219
 msgid "Egypt"
-msgstr ""
+msgstr "Egypten"
 
 #: .\templates\pages\pages_account_settings_account.html:220
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: .\templates\pages\pages_account_settings_account.html:221
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Ækvatorialguinea"
 
 #: .\templates\pages\pages_account_settings_account.html:222
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: .\templates\pages\pages_account_settings_account.html:223
-#, fuzzy
 #| msgid "Estonian"
 msgid "Estonia"
-msgstr "Estisk"
+msgstr "Estland"
 
 #: .\templates\pages\pages_account_settings_account.html:224
 msgid "Eswatini"
-msgstr ""
+msgstr "Eswatini"
 
 #: .\templates\pages\pages_account_settings_account.html:225
 msgid "Ethiopia"
-msgstr ""
+msgstr "Etiopien"
 
 #: .\templates\pages\pages_account_settings_account.html:226
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 #: .\templates\pages\pages_account_settings_account.html:227
 msgid "Finland"
@@ -1095,10 +1076,9 @@ msgid "The Gambia"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:231
-#, fuzzy
 #| msgid "Georgian"
 msgid "Georgia"
-msgstr "Georgisk"
+msgstr "Georgien"
 
 #: .\templates\pages\pages_account_settings_account.html:232
 #, fuzzy
@@ -1245,10 +1225,9 @@ msgid "Laos"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:263
-#, fuzzy
 #| msgid "Latvian"
 msgid "Latvia"
-msgstr "Lettisk"
+msgstr "Letland"
 
 #: .\templates\pages\pages_account_settings_account.html:264
 msgid "Lebanon"
@@ -1271,32 +1250,28 @@ msgid "Liechtenstein"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:269
-#, fuzzy
 #| msgid "Lithuanian"
 msgid "Lithuania"
-msgstr "Litauisk"
+msgstr "Litauen"
 
 #: .\templates\pages\pages_account_settings_account.html:270
-#, fuzzy
 #| msgid "Luxembourgish"
 msgid "Luxembourg"
-msgstr "Luxembourgsk"
+msgstr "Luxembourg"
 
 #: .\templates\pages\pages_account_settings_account.html:271
 msgid "Madagascar"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:272
-#, fuzzy
 #| msgid "Malay"
 msgid "Malawi"
-msgstr "Malay"
+msgstr "Malawi"
 
 #: .\templates\pages\pages_account_settings_account.html:273
-#, fuzzy
 #| msgid "Malay"
 msgid "Malaysia"
-msgstr "Malay"
+msgstr "Malaysia"
 
 #: .\templates\pages\pages_account_settings_account.html:274
 msgid "Maldives"
@@ -1315,10 +1290,9 @@ msgid "Marshall Islands"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:278
-#, fuzzy
 #| msgid "Lithuanian"
 msgid "Mauritania"
-msgstr "Litauisk"
+msgstr "Mauretanien"
 
 #: .\templates\pages\pages_account_settings_account.html:279
 msgid "Mauritius"
@@ -1341,10 +1315,9 @@ msgid "Monaco"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:284
-#, fuzzy
 #| msgid "Mongolian"
 msgid "Mongolia"
-msgstr "Mongolsk"
+msgstr "Mongoliet"
 
 #: .\templates\pages\pages_account_settings_account.html:285
 msgid "Montenegro"
@@ -1371,10 +1344,9 @@ msgid "Nauru"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:291
-#, fuzzy
 #| msgid "Nepali"
 msgid "Nepal"
-msgstr "Nepali"
+msgstr "Nepal"
 
 #: .\templates\pages\pages_account_settings_account.html:292
 msgid "Netherlands"
@@ -1385,10 +1357,9 @@ msgid "New Zealand"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:294
-#, fuzzy
 #| msgid "Nicaraguan Spanish"
 msgid "Nicaragua"
-msgstr "Nicaraguansk spansk"
+msgstr "Nicaragua"
 
 #: .\templates\pages\pages_account_settings_account.html:295
 msgid "Niger"
@@ -1399,10 +1370,9 @@ msgid "Nigeria"
 msgstr ""
 
 #: .\templates\pages\pages_account_settings_account.html:297
-#, fuzzy
 #| msgid "Macedonian"
 msgid "North Macedonia"
-msgstr "Makedonsk"
+msgstr "Nordmakedonien"
 
 #: .\templates\pages\pages_account_settings_account.html:298
 msgid "Norway"
@@ -2188,7 +2158,8 @@ msgstr "Vi lancerer snart"
 
 #: .\templates\pages\pages_misc_comingsoon.html:17
 msgid ""
-"Our website is opening soon. Please register to get notified when it's ready!"
+"Our website is opening soon. Please register to get notified when it's "
+"ready!"
 msgstr ""
 "Vores hjemmeside åbner snart. Tilmeld dig for at få besked, når den er klar!"
 
@@ -2349,8 +2320,8 @@ msgstr ""
 #: .\templates\partials\_modals\modal_two_factor_auth.html:82
 msgid ""
 "Using an authenticator app like Google Authenticator, Microsoft "
-"Authenticator, Authy, or 1Password, scan the QR code. It will generate a 6-"
-"digit code for you to enter below."
+"Authenticator, Authy, or 1Password, scan the QR code. It will generate a "
+"6-digit code for you to enter below."
 msgstr ""
 
 #: .\templates\partials\_modals\modal_two_factor_auth.html:91

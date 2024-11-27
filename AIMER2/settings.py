@@ -65,7 +65,7 @@ INSTALLED_APPS = [
     "website.apps.WebsiteConfig",
     "captcha",
     "axes",
-    "chatbot",
+    "assistant",
 ]
 
 AUTHENTICATION_BACKENDS = [
@@ -351,6 +351,8 @@ LANGUAGE_CODE = "en"
 TIME_ZONE = "UTC"
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 

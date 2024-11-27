@@ -1,0 +1,162 @@
+{% extends layout_path %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}
+    {% translate "Assistant - Files upload" %}
+{% endblock %}
+
+{% block content %}
+    <style>
+        .upload-zone {
+            border: 2px dashed #6c757d;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background-color: #f8f9fa;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .upload-zone:hover {
+            background-color: #e9ecef;
+        }
+        .upload-zone.active {
+            background-color: #d1ecf1;
+            border-color: #17a2b8;
+        }
+        #progress-container {
+            margin-top: 20px;
+        }
+        #progress-bar {
+            width: 100%;
+            height: 25px;
+            background-color: #28a745;
+        }
+        #upload-messages {
+            margin-top: 20px;
+        }
+        .message-success {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .message-error {
+            color: #dc3545;
+            font-weight: bold;
+        }
+    </style>
+
+    <h2>{% translate "Upload your files" %}</h2>
+
+    <!-- Zone de drag-and-drop -->
+    <div id="upload-container" class="upload-zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+        <p>{% translate "Drag and drop your files here or click to select" %}</p>
+        <input type="file" id="file-input" name="files" multiple hidden onchange="handleFiles(this.files)" />
+    </div>
+
+    <!-- Barre de progression -->
+    <div id="progress-container" style="display: none;">
+        <label for="file">{% translate "Upload Progress" %}:</label>
+        <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+
+    <!-- Messages -->
+    <div id="upload-messages"></div>
+    
+    <!-- Section pour afficher les résultats -->
+    <div id="results">
+        <h3>Résultats du traitement</h3>
+        <div id="processedResults"></div>
+    </div>
+
+    <script>
+        // Gère le clic sur la zone de drag-and-drop pour ouvrir la boîte de sélection de fichiers
+        document.getElementById('upload-container').addEventListener('click', function() {
+            document.getElementById('file-input').click();
+        });
+
+        // Fonction pour traiter les fichiers sélectionnés ou déposés
+        function handleFiles(files) {
+            let formData = new FormData();
+            for (let i = 0; i < files.length; i++) {
+                formData.append('files', files[i]);
+            }
+            uploadFiles(formData);
+        }
+
+        // Gestionnaire de dépôt de fichiers
+        function dropHandler(ev) {
+            ev.preventDefault();
+            document.getElementById('upload-container').classList.remove('active');
+            if (ev.dataTransfer.items) {
+                let formData = new FormData();
+                for (let i = 0; i < ev.dataTransfer.items.length; i++) {
+                    if (ev.dataTransfer.items[i].kind === 'file') {
+                        let file = ev.dataTransfer.items[i].getAsFile();
+                        formData.append('files', file);
+                    }
+                }
+                uploadFiles(formData);
+            }
+        }
+
+        // Gestionnaire de glissement de fichier (highlighting)
+        function dragOverHandler(ev) {
+            ev.preventDefault();
+            document.getElementById('upload-container').classList.add('active');
+        }
+
+        // Quand on quitte la zone de drag
+        document.getElementById('upload-container').addEventListener('dragleave', function() {
+            document.getElementById('upload-container').classList.remove('active');
+        });
+
+        // Fonction d'upload de fichiers avec affichage de la progression
+        function uploadFiles(formData) {
+            document.getElementById('progress-container').style.display = 'block';
+
+            let xhr = new XMLHttpRequest();
+            // Utilisation de l'URL de la vue "upload_and_process_pdf" pour traiter l'upload et l'analyse
+            xhr.open('POST', '{% url "assistant:upload_files" %}', true);
+
+            // Gestion de la progression
+            xhr.upload.onprogress = function (e) {
+                if (e.lengthComputable) {
+                    let percentComplete = (e.loaded / e.total) * 100;
+                    document.getElementById('progress-bar').value = percentComplete;
+                }
+            };
+
+            // Gestion de la fin de l'upload
+            xhr.onload = function() {
+                if (xhr.status == 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    document.getElementById('upload-messages').innerHTML = '<p class="message-success">{% translate "Files uploaded and processed successfully!" %}</p>';
+                    displayResults(response.results);
+                } else {
+                    document.getElementById('upload-messages').innerHTML = '<p class="message-error">{% translate "Error during file upload or processing" %}</p>';
+                }
+                document.getElementById('progress-container').style.display = 'none';
+            };
+
+            xhr.send(formData);
+        }
+
+        // Fonction pour afficher les résultats dans le template
+        function displayResults(results) {
+            const processedResultsDiv = document.getElementById('processedResults');
+            processedResultsDiv.innerHTML = '';  // Clear previous results
+
+            results.forEach(result => {
+                const resultDiv = document.createElement('div');
+                resultDiv.innerHTML = `
+                    <h4>File: ${result.file_name}</h4>
+                    <p><strong>Text:</strong><br>${result.text}</p>
+                    <p><strong>Image Descriptions:</strong><br>${result.image_descriptions.join('<br>')}</p>
+                    <p><strong>Table Analyses:</strong><br>${result.table_analyses.join('<br>')}</p>
+                    <hr>
+                `;
+                processedResultsDiv.appendChild(resultDiv);
+            });
+        }
+    </script>
+{% endblock %}

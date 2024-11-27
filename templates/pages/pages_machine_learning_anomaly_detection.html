@@ -5,17 +5,175 @@
     {% translate "Machine Learning - Anomaly Detection" %}
 {% endblock %}
 {% block content %}
-    <h1>{% translate "Select Anomaly Detection Models" %}</h1>
-    <form method="POST">
-        {% csrf_token %}
-        {% for model in models %}
-            <input type="checkbox"
-                   id="{{ model }}"
-                   name="model_checkbox"
-                   value="{{ model }}">
-            <label for="{{ model }}">{{ model }}</label>
-            <br>
-        {% endfor %}
-        <input type="submit" value="Submit">
-    </form>
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Styles des boutons */
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            background-color: #007bff;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-bottom: 20px;
+            touch-action: manipulation;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-primary:active {
+            transform: scale(0.98);
+        }
+
+        /* Styles des boutons pour les modèles */
+        .model-button {
+            border: 2px solid #007bff;
+            color: #007bff;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
+            touch-action: manipulation;
+            margin: 5px;
+        }
+
+        .model-button.selected {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .model-button:hover {
+            background-color: #e6f0ff;
+        }
+
+        .model-button.selected:hover {
+            background-color: #0056b3;
+        }
+
+        .model-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Conteneur des boutons */
+        .model-buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        /* Nombre total de modèles sélectionnés */
+        #selected-count {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        /* Formulaire */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        @media (max-width: 768px) {
+            .model-buttons {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .model-buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <div class="container">
+        <h1>{% translate "Deep Learning - Classification" %}</h1>
+        <!-- Indicateur du nombre de modèles sélectionnés -->
+        <div id="selected-count">
+            <p>
+                {% translate "Total Selected Models: " %}<span id="count">0</span>
+            </p>
+        </div>
+        <!-- Formulaire pour soumettre les modèles sélectionnés -->
+        <form method="POST">
+            {% csrf_token %}
+            <!-- Liste des boutons de modèles -->
+            <div class="model-buttons">
+                {% if models %}
+                    {% for model in models %}
+                        <button type="button" class="model-button" data-model="{{ model }}">{{ model }}</button>
+                    {% endfor %}
+                {% else %}
+                    <p>{% translate "No models available" %}</p>
+                {% endif %}
+            </div>
+            <!-- Champ caché pour les modèles sélectionnés -->
+            <input type="hidden" name="selected_models" id="selected-models">
+            <input type="submit" value="{% translate 'Submit' %}">
+        </form>
+    </div>
+    <!-- JavaScript pour la sélection dynamique -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modelButtons = document.querySelectorAll('.model-button');
+            const countSpan = document.getElementById('count');
+            const selectedModelsInput = document.getElementById('selected-models');
+
+            // Fonction pour mettre à jour le nombre de modèles sélectionnés
+            function updateSelectedCount() {
+                const selectedModels = document.querySelectorAll('.model-button.selected').length;
+                countSpan.textContent = selectedModels;
+
+                // Mettre à jour l'input caché avec les modèles sélectionnés
+                const selectedModelsList = Array.from(document.querySelectorAll('.model-button.selected')).map(btn => btn.dataset.model);
+                selectedModelsInput.value = selectedModelsList.join(',');
+            }
+
+            // Ajoute un écouteur à chaque bouton de modèle
+            modelButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    this.classList.toggle('selected');
+                    updateSelectedCount();
+                });
+            });
+        });
+    </script>
 {% endblock %}

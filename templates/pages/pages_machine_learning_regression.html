@@ -4,18 +4,345 @@
 {% block title %}
     {% translate "Machine Learning - Regression" %}
 {% endblock %}
+{% block vendor_css %}
+    {{ block.super }}
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/bs-stepper/bs-stepper.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/bootstrap-select/bootstrap-select.css' %}" />
+    <link rel="stylesheet"
+          href="{% static 'vendor/libs/select2/select2.css' %}" />
+{% endblock vendor_css %}
+{% block vendor_js %}
+    {{ block.super }}
+    <script src="{% static 'vendor/libs/bs-stepper/bs-stepper.js' %}"></script>
+    <script src="{% static 'vendor/libs/bootstrap-select/bootstrap-select.js' %}"></script>
+    <script src="{% static 'vendor/libs/select2/select2.js' %}"></script>
+{% endblock vendor_js %}
+{% block page_js %}
+    {{ block.super }}
+    <script src="{% static 'js/form-wizard-icons.js' %}"></script>
+{% endblock page_js %}
 {% block content %}
-    <h1>Select Anomaly Detection Models</h1>
-    <form method="POST">
-        {% csrf_token %}
-        {% for model in models %}
-            <input type="checkbox"
-                   id="{{ model }}"
-                   name="model_checkbox"
-                   value="{{ model }}">
-            <label for="{{ model }}">{{ model }}</label>
-            <br>
-        {% endfor %}
-        <input type="submit" value="Submit">
-    </form>
+    <div class="row">
+        <div class="col-12 mb-6">
+            <div class="bs-stepper wizard-icons wizard-modern wizard-modern-icons-example mt-2">
+                <div class="bs-stepper-header">
+                    <div class="step" data-target="#data-details">
+                        <button type="button" class="step-trigger">
+                            <span class="bs-stepper-icon">
+                                <svg viewBox="0 0 54 54">
+                                    <use xlink:href="{% static 'svg/icons/form-wizard-account.svg' %}#wizardAccount"></use>
+                                </svg>
+                            </span>
+                            <span class="bs-stepper-label">{% translate "Data Selection" %}</span>
+                        </button>
+                    </div>
+                    <div class="line">
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </div>
+                    <div class="step" data-target="#personal-info-modern">
+                        <button type="button" class="step-trigger">
+                            <span class="bs-stepper-icon">
+                                <svg viewBox="0 0 58 54">
+                                    <use href="{% static 'svg/icons/form-wizard-personal.svg' %}#wizardPersonal"></use>
+                                </svg>
+                            </span>
+                            <span class="bs-stepper-label">{% translate "Model Selection" %}</span>
+                        </button>
+                    </div>
+                    <div class="line">
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </div>
+                    <div class="step" data-target="#address-modern">
+                        <button type="button" class="step-trigger">
+                            <span class="bs-stepper-icon">
+                                <svg viewBox="0 0 54 54">
+                                    <use href="{% static 'svg/icons/form-wizard-address.svg' %}#wizardAddress"></use>
+                                </svg>
+                            </span>
+                            <span class="bs-stepper-label">{% translate "Metrics" %}</span>
+                        </button>
+                    </div>
+                    <div class="line">
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </div>
+                    <div class="step" data-target="#social-links-modern">
+                        <button type="button" class="step-trigger">
+                            <span class="bs-stepper-icon">
+                                <svg viewBox="0 0 54 54">
+                                    <use href="{% static 'svg/icons/form-wizard-social-link.svg' %}#wizardSocialLink"></use>
+                                </svg>
+                            </span>
+                            <span class="bs-stepper-label">{% translate "Graphs" %}</span>
+                        </button>
+                    </div>
+                    <div class="line">
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </div>
+                    <div class="step" data-target="#review-submit-modern">
+                        <button type="button" class="step-trigger">
+                            <span class="bs-stepper-icon">
+                                <svg viewBox="0 0 54 54">
+                                    <use href="{% static 'svg/icons/form-wizard-submit.svg' %}#wizardSubmit"></use>
+                                </svg>
+                            </span>
+                            <span class="bs-stepper-label">{% translate "Review & Submit" %}</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="bs-stepper-content">
+                    <form onSubmit="return false">
+                        <!-- Account Details -->
+                        <div id="data-details" class="content">
+                            <div class="content-header mb-4">
+                                <h6 class="mb-0">Account Details</h6>
+                                <small>Enter Your Account Details.</small>
+                            </div>
+                            <div class="row g-6">
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="username-modern">Username</label>
+                                    <input type="text"
+                                           id="username-modern"
+                                           class="form-control"
+                                           placeholder="johndoe" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="email-modern">Email</label>
+                                    <input type="email"
+                                           id="email-modern"
+                                           class="form-control"
+                                           placeholder="john.doe@email.com"
+                                           aria-label="john.doe" />
+                                </div>
+                                <div class="col-sm-6 form-password-toggle">
+                                    <label class="form-label" for="password-modern">Password</label>
+                                    <div class="input-group input-group-merge">
+                                        <input type="password"
+                                               id="password-modern"
+                                               class="form-control"
+                                               placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                               aria-describedby="password2-modern" />
+                                        <span class="input-group-text cursor-pointer" id="password2-modern"><i class="bx bx-hide"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 form-password-toggle">
+                                    <label class="form-label" for="confirm-password-modern">Confirm Password</label>
+                                    <div class="input-group input-group-merge">
+                                        <input type="password"
+                                               id="confirm-password-modern"
+                                               class="form-control"
+                                               placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;"
+                                               aria-describedby="confirm-password2-modern" />
+                                        <span class="input-group-text cursor-pointer" id="confirm-password2-modern"><i class="bx bx-hide"></i></span>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <button class="btn btn-label-secondary btn-prev" disabled>
+                                        <i class="bx bx-left-arrow-alt bx-sm ms-sm-n2 me-sm-2"></i>
+                                        <span class="align-middle d-sm-inline-block d-none">{% translate "Previous" %}</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-next">
+                                        <span class="align-middle d-sm-inline-block d-none me-sm-2">{% translate "Next" %}</span>
+                                        <i class="bx bx-right-arrow-alt bx-sm me-sm-n2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Personal Info -->
+                        <div id="personal-info-modern" class="content">
+                            <div class="content-header mb-4">
+                                <h6 class="mb-0">Personal Info</h6>
+                                <small>Enter Your Personal Info.</small>
+                            </div>
+                            <div class="row g-6">
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="first-name-modern">First Name</label>
+                                    <input type="text"
+                                           id="first-name-modern"
+                                           class="form-control"
+                                           placeholder="John" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="last-name-modern">Last Name</label>
+                                    <input type="text"
+                                           id="last-name-modern"
+                                           class="form-control"
+                                           placeholder="Doe" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="country-modern">Country</label>
+                                    <select class="select2" id="country-modern">
+                                        <option label=" "></option>
+                                        <option>UK</option>
+                                        <option>USA</option>
+                                        <option>Spain</option>
+                                        <option>France</option>
+                                        <option>Italy</option>
+                                        <option>Australia</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="language-modern">Language</label>
+                                    <select class="selectpicker w-auto"
+                                            id="language-modern"
+                                            data-style="btn-transparent"
+                                            data-icon-base="bx"
+                                            data-tick-icon="bx-check text-white"
+                                            multiple>
+                                        <option>English</option>
+                                        <option>French</option>
+                                        <option>Spanish</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <button class="btn btn-primary btn-prev">
+                                        <i class="bx bx-left-arrow-alt bx-sm ms-sm-n2 me-sm-2"></i>
+                                        <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-next">
+                                        <span class="align-middle d-sm-inline-block d-none me-sm-2">Next</span>
+                                        <i class="bx bx-right-arrow-alt bx-sm me-sm-n2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Address -->
+                        <div id="address-modern" class="content">
+                            <div class="content-header mb-4">
+                                <h6 class="mb-0">Address</h6>
+                                <small>Enter Your Address.</small>
+                            </div>
+                            <div class="row g-6">
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="address-modern-input">Address</label>
+                                    <input type="text"
+                                           class="form-control"
+                                           id="address-modern-input"
+                                           placeholder="98  Borough bridge Road, Birmingham">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="landmark-modern">Landmark</label>
+                                    <input type="text"
+                                           class="form-control"
+                                           id="landmark-modern"
+                                           placeholder="Borough bridge">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="pincode-modern">Pincode</label>
+                                    <input type="text"
+                                           class="form-control"
+                                           id="pincode-modern"
+                                           placeholder="658921">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="city-modern">City</label>
+                                    <input type="text"
+                                           class="form-control"
+                                           id="city-modern"
+                                           placeholder="Birmingham">
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <button class="btn btn-primary btn-prev">
+                                        <i class="bx bx-left-arrow-alt bx-sm ms-sm-n2 me-sm-2"></i>
+                                        <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-next">
+                                        <span class="align-middle d-sm-inline-block d-none me-sm-2">Next</span>
+                                        <i class="bx bx-right-arrow-alt bx-sm me-sm-n2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Social Links -->
+                        <div id="social-links-modern" class="content">
+                            <div class="content-header mb-4">
+                                <h6 class="mb-0">Social Links</h6>
+                                <small>Enter Your Social Links.</small>
+                            </div>
+                            <div class="row g-6">
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="twitter-modern">Twitter</label>
+                                    <input type="text"
+                                           id="twitter-modern"
+                                           class="form-control"
+                                           placeholder="https://twitter.com/abc" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="facebook-modern">Facebook</label>
+                                    <input type="text"
+                                           id="facebook-modern"
+                                           class="form-control"
+                                           placeholder="https://facebook.com/abc" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="google-modern">Google+</label>
+                                    <input type="text"
+                                           id="google-modern"
+                                           class="form-control"
+                                           placeholder="https://plus.google.com/abc" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label" for="linkedin-modern">Linkedin</label>
+                                    <input type="text"
+                                           id="linkedin-modern"
+                                           class="form-control"
+                                           placeholder="https://linkedin.com/abc" />
+                                </div>
+                                <div class="col-12 d-flex justify-content-between">
+                                    <button class="btn btn-primary btn-prev">
+                                        <i class="bx bx-left-arrow-alt bx-sm ms-sm-n2 me-sm-2"></i>
+                                        <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-next">
+                                        <span class="align-middle d-sm-inline-block d-none me-sm-2">Next</span>
+                                        <i class="bx bx-right-arrow-alt bx-sm me-sm-n2"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Review -->
+                        <div id="review-submit-modern" class="content">
+                            <p class="fw-medium mb-2">Account</p>
+                            <ul class="list-unstyled">
+                                <li>Username</li>
+                                <li>exampl@email.com</li>
+                            </ul>
+                            <hr>
+                            <p class="fw-medium mb-2">Personal Info</p>
+                            <ul class="list-unstyled">
+                                <li>First Name</li>
+                                <li>Last Name</li>
+                                <li>Country</li>
+                                <li>Language</li>
+                            </ul>
+                            <hr>
+                            <p class="fw-medium mb-2">Address</p>
+                            <ul class="list-unstyled">
+                                <li>Address</li>
+                                <li>Landmark</li>
+                                <li>Pincode</li>
+                                <li>City</li>
+                            </ul>
+                            <hr>
+                            <p class="fw-medium mb-2">Social Links</p>
+                            <ul class="list-unstyled">
+                                <li>https://twitter.com/abc</li>
+                                <li>https://facebook.com/abc</li>
+                                <li>https://plus.google.com/abc</li>
+                                <li>https://linkedin.com/abc</li>
+                            </ul>
+                            <div class="col-12 d-flex justify-content-between">
+                                <button class="btn btn-primary btn-prev">
+                                    <i class="bx bx-left-arrow-alt bx-sm ms-sm-n2 me-sm-2"></i>
+                                    <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                </button>
+                                <button class="btn btn-success btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
