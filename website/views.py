@@ -41,13 +41,15 @@ class FrontPagesView(TemplateView):
         context = TemplateLayout.init(self, super().get_context_data(**kwargs))
 
         # Update the context
-        context.update({
-            "layout": "front",
-            "layout_path": TemplateHelper.set_layout(
-                "layout_front.html", context
-            ),
-            "active_url": self.request.path,  # Get the current url path (active URL) from request
-        })
+        context.update(
+            {
+                "layout": "front",
+                "layout_path": TemplateHelper.set_layout(
+                    "layout_front.html", context
+                ),
+                "active_url": self.request.path,  # Get the current url path (active URL) from request
+            }
+        )
 
         # map_context according to updated context values
         TemplateHelper.map_context(context)
