@@ -30,6 +30,7 @@ from .models import ImageEmbedding, KnowledgeBase, TableEmbedding, TextEmbedding
 logging.basicConfig(level=logging.INFO)
 debug = False
 
+
 # Extraction des composantes des fichiers HTML
 def extract_html_components(file_path):
     try:
@@ -41,6 +42,7 @@ def extract_html_components(file_path):
         return None
 
     return classify_elements(elements)
+
 
 # Extraction des composantes des fichiers PDF
 def extract_pdf_components(file_path):
@@ -209,7 +211,7 @@ def extract_md_components(file_path):
         if debug:
             logging.info("Elements extracted from Markdown: %s", elements)
     except Exception as e:
-        logging.info("Error extracting Markdown components: %s",e)
+        logging.info("Error extracting Markdown components: %s", e)
         return None
 
     return classify_elements(elements)
