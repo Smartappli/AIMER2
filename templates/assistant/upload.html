@@ -1,11 +1,9 @@
 {% extends layout_path %}
 {% load static %}
 {% load i18n %}
-
 {% block title %}
     {% translate "Assistant - Files upload" %}
 {% endblock %}
-
 {% block content %}
     <style>
         .upload-zone {
@@ -44,30 +42,32 @@
             font-weight: bold;
         }
     </style>
-
     <h2>{% translate "Upload your files" %}</h2>
-
     <!-- Zone de drag-and-drop -->
-    <div id="upload-container" class="upload-zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+    <div id="upload-container"
+         class="upload-zone"
+         ondrop="dropHandler(event);"
+         ondragover="dragOverHandler(event);">
         <p>{% translate "Drag and drop your files here or click to select" %}</p>
-        <input type="file" id="file-input" name="files" multiple hidden onchange="handleFiles(this.files)" />
+        <input type="file"
+               id="file-input"
+               name="files"
+               multiple
+               hidden
+               onchange="handleFiles(this.files)" />
     </div>
-
     <!-- Barre de progression -->
     <div id="progress-container" style="display: none;">
         <label for="file">{% translate "Upload Progress" %}:</label>
         <progress id="progress-bar" value="0" max="100"></progress>
     </div>
-
     <!-- Messages -->
     <div id="upload-messages"></div>
-    
     <!-- Section pour afficher les résultats -->
     <div id="results">
         <h3>Résultats du traitement</h3>
         <div id="processedResults"></div>
     </div>
-
     <script>
         // Gère le clic sur la zone de drag-and-drop pour ouvrir la boîte de sélection de fichiers
         document.getElementById('upload-container').addEventListener('click', function() {
