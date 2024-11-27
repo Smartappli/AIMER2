@@ -1,6 +1,10 @@
 import base64
 from io import BytesIO
 
+# Importation de Langchain pour la gestion des LLM et embeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_ollama import OllamaEmbeddings, OllamaLLM
+
 # Importation des fonctions de partition depuis 'unstructured'
 from unstructured.partition.csv import partition_csv
 from unstructured.partition.doc import partition_doc
@@ -14,16 +18,12 @@ from unstructured.partition.pdf import partition_pdf
 from unstructured.partition.ppt import partition_ppt
 from unstructured.partition.pptx import partition_pptx
 from unstructured.partition.rst import partition_rst
-from unstructured.partition.tsv import partition_tsv
 from unstructured.partition.text import partition_text
+from unstructured.partition.tsv import partition_tsv
 from unstructured.partition.xlsx import partition_xlsx
 from unstructured.partition.xml import partition_xml
 
-# Importation de Langchain pour la gestion des LLM et embeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_ollama import OllamaLLM
-from langchain_ollama import OllamaEmbeddings
-from .models import KnowledgeBase, TextEmbedding, TableEmbedding, ImageEmbedding
+from .models import ImageEmbedding, KnowledgeBase, TableEmbedding, TextEmbedding
 
 debug = False
 
@@ -45,7 +45,7 @@ def extract_pdf_components(file_path):
         elements = partition_pdf(
             filename=file_path,
             infer_table_structure=True,
-            strategy='hi_res'
+            strategy="hi_res"
         )
         if debug:
             print("Elements extracted from PDF:", elements)
@@ -260,16 +260,16 @@ def classify_elements(elements):
         print("Table elements:", table_elements)
 
     return {
-        'text': all_splits,
-        'images': image_elements,
-        'tables': table_elements
+        "text": all_splits,
+        "images": image_elements,
+        "tables": table_elements
     }
 
 # Fonction pour transformer une image en base64
 def image_to_base64(image):
     buffered = BytesIO()
     image.save(buffered, format="JPEG")
-    img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
+    img_str = base64.b64encode(buffered.getvalue()).decode("utf-8")
     return img_str
 
 # Description de l'image à l'aide d'Ollama
@@ -277,7 +277,7 @@ def describe_image_with_llm(images, model_name="llama3.2"):
     descriptions = []
 
     for i, image in enumerate(images):
-        with open(f'image_{i}.png', 'wb') as img_file:
+        with open(f"image_{i}.png", "wb") as img_file:
             img_file.write(image.content)
 
     llm = OllamaLLM(base_url="http://localhost:11434/generate", model=model_name)
@@ -305,67 +305,67 @@ def analyze_table_with_llm(table_data, model_name="llama3.2"):
 
 # Orchestration complète pour traiter les fichiers
 def process_file(file_path, file_type):
-    if file_type == 'pdf':
+    if file_type == "pdf":
         print("--- Start PDF Extraction ---")
         components = extract_pdf_components(file_path)
         print("--- End PDF Extraction ---")
-    elif file_type == 'doc':
+    elif file_type == "doc":
         print("--- Start DOC Extraction ---")
         components = extract_doc_components(file_path)
         print("--- End DOC Extraction ---")
-    elif file_type == 'docx':
+    elif file_type == "docx":
         print("--- Start DCX Extraction ---")
         components = extract_docx_components(file_path)
         print("--- End DCX Extraction ---")
-    elif file_type == 'odt':
+    elif file_type == "odt":
         print("--- Start ODT Extraction ---")
         components = extract_odt_components(file_path)
         print("--- End ODT Extraction ---")
-    elif file_type == 'ppt':
+    elif file_type == "ppt":
         print("--- Start PPT Extraction ---")
         components = extract_ppt_components(file_path)
         print("--- End PPT Extraction ---")
-    elif file_type == 'pptx':
+    elif file_type == "pptx":
         print("--- Start PPTX Extraction ---")
         components = extract_pptx_components(file_path)
         print("--- End PPTX Extraction ---")
-    elif file_type == 'xlsx':
+    elif file_type == "xlsx":
         print("--- Start XLSX Extraction ---")
         components = extract_xlsx_components(file_path)
         print("--- End XLSX Extraction ---")
-    elif file_type == 'csv':
+    elif file_type == "csv":
         print("--- Start CSV Extraction ---")
         components = extract_csv_components(file_path)
         print("--- End CSV Extraction ---")
-    elif file_type == 'tsv':
+    elif file_type == "tsv":
         print("--- Start TSV Extraction ---")
         components = extract_tsv_components(file_path)
         print("--- End TSV Extraction ---")
-    elif file_type == 'txt':
+    elif file_type == "txt":
         print("--- Start TXT Extraction ---")
         components = extract_txt_components(file_path)
         print("--- End TXT Extraction ---")
-    elif file_type == 'epub':
+    elif file_type == "epub":
         print("--- Start EPUB Extraction ---")
         components = extract_epub_components(file_path)
         print("--- End EPUB Extraction ---")
-    elif file_type == 'html':
+    elif file_type == "html":
         print("--- Start HTML Extraction ---")
         components = extract_html_components(file_path)
         print("--- End HTML Extraction ---")
-    elif file_type == 'xml':
+    elif file_type == "xml":
         print("--- Start XML Extraction ---")
         components = extract_xml_components(file_path)
         print("--- End XML Extraction ---")
-    elif file_type == 'json':
+    elif file_type == "json":
         print("--- Start JSON Extraction ---")
         components = extract_json_components(file_path)
         print("--- End JSON Extraction ---")
-    elif file_type == 'md':
+    elif file_type == "md":
         print("--- Start Markdown Extraction ---")
         components = extract_md_components(file_path)
         print("--- End Markdown Extraction ---")
-    elif file_type == 'rst':
+    elif file_type == "rst":
         print("--- Start RST Extraction ---")
         components = extract_rst_components(file_path)
         print("--- End RST Extraction ---")
@@ -382,11 +382,11 @@ def process_file(file_path, file_type):
         # img_description = describe_image_with_llm(components['images'])
         # print(f"Image description: {img_description}")
 
-        '''
+        """
         for table in components['tables']:
             table_analysis = analyze_table_with_llm(table)
             print(f"Table analysis: {table_analysis}")
-        '''
+        """
     return components
 
 
@@ -432,24 +432,24 @@ def embed_file_components(file_path, file_type, components):
 
     # Step 2: Embedding du texte
     print("------> Start Text Embedding")
-    embedded_text = embed_text_with_llm(components['text'])
+    embedded_text = embed_text_with_llm(components["text"])
     print("<------ End Text Embedding")
 
     # Save text embeddings in database
-    for chunk, embedding in zip(components['text'], embedded_text):
-        '''
+    for chunk, embedding in zip(components["text"], embedded_text, strict=False):
+        """
         TextEmbedding.objects.create(
             file=file_metadata,
             text_chunk=chunk,
             embedding=embedding
         )
-        '''
+        """
 
     # Embedding des images (if applicable)
     embedded_images = []
-    if components['images']:
+    if components["images"]:
         print("------> Start Images Embedding")
-        '''
+        """
         for image in components['images']:
             embedding = embed_image_with_llm(image)
             embedded_images.append(embedding)
@@ -459,14 +459,14 @@ def embed_file_components(file_path, file_type, components):
                 image_data=image.metadata,  # Assuming image metadata is sufficient
                 embedding=embedding
             )
-        '''
+        """
         print("<------ End Image Embedding")
 
     # Embedding des tableaux (if applicable)
     embedded_tables = []
-    if components['tables']:
+    if components["tables"]:
         print("------> Start Table Embedding")
-        '''
+        """
         for table in components['tables']:
             embedding = embed_table_with_llm(table)
             embedded_tables.append(embedding)
@@ -476,13 +476,13 @@ def embed_file_components(file_path, file_type, components):
                 table_data=table.text,  # Assuming table.text is the relevant content
                 embedding=embedding
             )
-        '''
+        """
         print("<------ End Table Embedding")
 
     return {
-        'embedded_text': embedded_text,
-        'embedded_tables': embedded_tables,
-        'embedded_images': embedded_images
+        "embedded_text": embedded_text,
+        "embedded_tables": embedded_tables,
+        "embedded_images": embedded_images
     }
 
 # Process complet incluant l'Embedding
