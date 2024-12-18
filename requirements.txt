@@ -21,7 +21,7 @@ djangorestframework==3.15.2
 flower==2.0.1
 gunicorn==23.0.0
 huggingface_hub==0.26.5
-jax[cpu]==0.4.37
+jax[cpu]==0.4.38
 keras==3.7.0
 keras-cv==0.9.0
 langchain==0.3.11
