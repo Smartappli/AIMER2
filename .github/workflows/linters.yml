@@ -76,7 +76,7 @@ jobs:
       
       - name: DjLint Linter
         run: |
-          uv pip install djlint
+          uv pip install djlint --system
           djlint ./templates --extension=html --lint
           djlint ./templates --extension=html --reformat
 
