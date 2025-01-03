@@ -45,7 +45,6 @@ jobs:
       - name: flake8 Lint
         uses: py-actions/flake8@v2.3.0
         with:
-          update-pip: "true"
           exclude: "manage.py,blog/migrations,faq/migrations,ticket/migrations,tutorial/migrations,website/migrations,settings.py"
           ignore: "E501,F401,I900,R505,S106,S311,TOR401,W503,W504"
           max-line-length: "80"
