@@ -1,7 +1,7 @@
 repos:
   # auto update
   - repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
-    rev: "v0.6.0post1"
+    rev: "v0.6.1"
     hooks:
       - id: pre-commit-update
         args: [--dry-run, --all-versions]
@@ -23,19 +23,19 @@ repos:
 
   # ruff
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: "v0.8.2"
+    rev: "v0.8.5"
     hooks:
       # Run the linter.
       - id: ruff
-        types_or: [ python, pyi, jupyter ]
+        types_or: [ python ]
         args: [ --fix ]
       # Run the formatter.
       - id: ruff-format
-        types_or: [ python, pyi, jupyter ]
+        types_or: [ python ]
 
   # django upgrade
   - repo: https://github.com/adamchainz/django-upgrade
-    rev: "1.22.1"
+    rev: "1.22.2"
     hooks:
       - id: django-upgrade
         args: [--target-version, "5.1"]
