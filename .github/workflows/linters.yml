@@ -16,12 +16,10 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
+          python-version: 3.12
 
       - name: Print the installed version
         run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
-
-      - name: Install Python 3.12
-        run: uv python install 3.12
       
       - uses: astral-sh/ruff-action@v3
         with:
@@ -41,12 +39,10 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
+          python-version: 3.12
 
       - name: Print the installed version
         run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
-
-      - name: Install Python 3.12
-        run: uv python install 3.12
           
       - name: flake8 Lint
         uses: py-actions/flake8@v2.3.0
@@ -107,7 +103,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
-        python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
+        python -m uv pip install pylint-dev/pylint-django
         python -m uv pip install -r requirements.txt
     - name: Install dependencies on Windows
       if: ${{ matrix.os == 'windows-2019' || matrix.os == 'windows-2022' }}
@@ -118,7 +114,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
-        python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
+        python -m uv pip install pylint-django
         python -m uv pip install -r ./requirements.txt
     - name: Install dependencies on Ubuntu
       if: ${{ matrix.os == 'ubuntu-20.04' || matrix.os == 'ubuntu-22.04' || matrix.os == 'ubuntu-24.04' }}
@@ -127,7 +123,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install uv
         python -m uv pip install pylint
-        python -m uv pip install git+https://github.com/pylint-dev/pylint-django.git
+        python -m uv pip install pylint-django
         python -m uv pip install -r requirements.txt
     - name: Analysing the code with pylint
       run: pylint --load-plugins pylint_django --django-settings-module=AIMER2.settings "**/*.py"
