@@ -67,16 +67,14 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           enable-cache: true
+          python-version: 3.12
 
       - name: Print the installed version
         run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
-
-      - name: Install Python 3.12
-        run: uv python install 3.12
       
       - name: DjLint Linter
         run: |
-          uv pip install djlint --system
+          uv pip install djlint
           djlint ./templates --extension=html --lint
           djlint ./templates --extension=html --reformat
 
