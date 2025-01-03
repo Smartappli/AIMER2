@@ -15,7 +15,6 @@ jobs:
   
       - uses: astral-sh/setup-uv@v5
         with:
-          enable-cache: true
           python-version: 3.12
 
       - name: Print the installed version
@@ -38,7 +37,6 @@ jobs:
         
       - uses: astral-sh/setup-uv@v5
         with:
-          enable-cache: true
           python-version: 3.12
 
       - name: Print the installed version
@@ -62,7 +60,6 @@ jobs:
       
       - uses: astral-sh/setup-uv@v5
         with:
-          enable-cache: true
           python-version: 3.12
 
       - name: Print the installed version
