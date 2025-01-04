@@ -16,8 +16,6 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: 3.12
-          enable-cache: true
-          cache-suffix: "ruff"
       
       - uses: astral-sh/ruff-action@v3
         with:
@@ -37,11 +35,9 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: 3.12
-          enable-cache: true
-          cache-suffix: "flake8"
 
       - name: Print the installed version
-        run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
+        run: uv --version
           
       - name: flake8 Lint
         uses: py-actions/flake8@v2.3.0
@@ -61,11 +57,9 @@ jobs:
       - uses: astral-sh/setup-uv@v5
         with:
           python-version: 3.12
-          enable-cache: true
-          cache-suffix: "djlink"
 
       - name: Print the installed version
-        run: echo "Installed uv version is ${{ steps.setup-uv.outputs.uv-version }}"
+        run: uv --version
       
       - name: DjLint Linter
         run: |
