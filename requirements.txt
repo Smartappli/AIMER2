@@ -4,7 +4,7 @@ celery==5.4.0
 channels[daphne]==4.2.0
 channels-redis==4.2.1
 chromadb==0.6.1
-Django[argon2]==5.1.4
+Django[argon2]==5.1.5
 django-axes[ipware]==7.0.1
 django-braces==1.16.0
 django-celery-beat==2.7.0
