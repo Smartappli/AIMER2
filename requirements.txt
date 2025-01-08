@@ -44,7 +44,7 @@ pymemcache==4.0.0
 python-decouple==3.8
 redis==5.2.1
 requests==2.32.3
-segmentation_models_pytorch==0.3.4
+segmentation_models_pytorch==0.4.0
 sqlparse==0.5.3
 sse_starlette
 starlette_context
