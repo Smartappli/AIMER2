@@ -57,6 +57,6 @@ tf-models-no-deps==2.18.0; sys_platform != 'darwin'
 torch>=2.2.2,<2.6.0
 torchvision>=0.17.0
 typing-extensions>=4.12.0
-unstructured[local-inference, all-docs]==0.16.16
+unstructured[local-inference, all-docs]==0.16.17
 weasyPrint==63.1
 whitenoise==6.8.2
