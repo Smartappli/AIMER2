@@ -34,7 +34,7 @@ Markdown==3.7
 packaging==24.2
 Pillow<12.0.0
 postgresml-django==0.1.0 # Integration of PostgresML
-psycopg==3.2.4
+psycopg==3.2.5
 # pycaret==3.4.0
 git+https://github.com/pycaret/pycaret.git
 pydantic==2.10.6
