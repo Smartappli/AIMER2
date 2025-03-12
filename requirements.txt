@@ -49,7 +49,7 @@ sqlparse==0.5.3
 sse_starlette
 starlette_context
 # syft==0.9.3b2
-tensorflow-cpu==2.18.0; sys_platform != 'darwin'
+tensorflow-cpu==2.19.0; sys_platform != 'darwin'
 tensorflow; sys_platform == 'darwin'
 # tensorflow-text>=2.10.0
 tf-models-no-deps==2.18.0; sys_platform != 'darwin'
