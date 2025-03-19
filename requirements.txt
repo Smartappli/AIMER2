@@ -52,7 +52,7 @@ starlette_context
 tensorflow-cpu==2.19.0; sys_platform != 'darwin'
 tensorflow; sys_platform == 'darwin'
 # tensorflow-text>=2.10.0
-tf-models-no-deps==2.18.0; sys_platform != 'darwin'
+tf-models-no-deps==2.19.0; sys_platform != 'darwin'
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch>=2.2.2,<2.7.0
 torchvision>=0.17.0
