@@ -1,6 +1,6 @@
 asgiref==3.8.1
 bleach==6.2.0
-celery==5.4.0
+celery==5.5.0
 channels[daphne]==4.2.2
 channels-redis==4.2.1
 chromadb==0.6.3
