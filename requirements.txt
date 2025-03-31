@@ -20,7 +20,7 @@ Django-taggit==6.1.0
 djangorestframework==3.16.0
 flower==2.0.1
 gunicorn==23.0.0
-huggingface_hub==0.29.3
+huggingface_hub==0.30.1
 jax[cpu]==0.5.3
 keras==3.9.1
 keras-cv==0.9.0
