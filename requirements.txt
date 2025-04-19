@@ -31,7 +31,7 @@ langchain_community==0.3.21
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 llama-cpp-python==0.3.8
 Markdown==3.8
-packaging==24.2
+packaging==25.0
 Pillow<12.0.0
 postgresml-django==0.1.0 # Integration of PostgresML
 psycopg==3.2.6
