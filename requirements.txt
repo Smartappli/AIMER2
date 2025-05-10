@@ -5,7 +5,7 @@ channels[daphne]==4.2.2
 channels-redis==4.2.1
 chromadb==1.0.8
 Django[argon2]==5.2.1
-django-axes[ipware]==7.1.0
+django-axes[ipware]==8.0.0
 django-braces==1.17.0
 django-celery-beat==2.8.0
 django-celerybeat-status==1.0.1
