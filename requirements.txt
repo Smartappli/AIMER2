@@ -3,7 +3,7 @@ bleach==6.2.0
 celery==5.5.2
 channels[daphne]==4.2.2
 channels-redis==4.2.1
-chromadb==1.0.10
+chromadb==1.0.11
 Django[argon2]==5.2.1
 django-axes[ipware]==8.0.0
 django-braces==1.17.0
