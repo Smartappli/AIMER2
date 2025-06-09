@@ -43,7 +43,7 @@ pypdf==5.6.0
 pymemcache==4.0.0
 python-decouple==3.8
 redis==6.2.0
-requests==2.32.3
+requests==2.32.4
 segmentation_models_pytorch==0.5.0
 sqlparse==0.5.3
 sse_starlette
