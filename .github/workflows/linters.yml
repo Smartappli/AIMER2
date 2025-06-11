@@ -21,7 +21,7 @@ jobs:
         with:
           args: 'check --preview --config ruff.toml --output-format github --diff --exclude assistant/migrations'
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: 'style fixes by ruff'
 
