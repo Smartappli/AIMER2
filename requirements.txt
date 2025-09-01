@@ -58,5 +58,5 @@ torch>=2.7.0,<2.8.0
 torchvision>=0.17.0
 typing-extensions>=4.12.0
 unstructured[local-inference, all-docs]==0.18.11
-weasyPrint==65.1
+weasyPrint==66.0
 whitenoise==6.9.0
