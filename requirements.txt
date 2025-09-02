@@ -27,7 +27,7 @@ keras-cv==0.9.0
 langchain==0.3.27
 langchain-ollama==0.3.7
 langchain-chroma==0.2.5
-langchain_community==0.3.27
+langchain_community==0.3.29
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 llama-cpp-python==0.3.16
 Markdown==3.8.2
