@@ -1,4 +1,4 @@
-asgiref==3.9.2
+asgiref==3.10.0
 bleach==6.2.0
 celery==5.5.3
 channels[daphne]==4.3.1
