@@ -16,6 +16,6 @@ jobs:
         ref: ${{ github.head_ref }}
     - uses: actions/setup-python@v6
     - uses: pre-commit/action@v3.0.1
-    - uses: stefanzweifel/git-auto-commit-action@v6
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: 'pre commit fixes'
