@@ -25,7 +25,7 @@ jax[cpu]==0.7.2
 keras==3.11.3
 keras-cv==0.9.0
 langchain==1.0.0
-langchain-ollama==0.3.10
+langchain-ollama==1.0.0
 langchain-chroma==1.0.0
 langchain_community==0.3.31
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
