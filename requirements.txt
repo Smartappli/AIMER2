@@ -55,7 +55,7 @@ tf-models-no-deps==2.19.0; sys_platform != 'darwin'
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch>=2.8.0,<2.10.0
 torchvision==0.24.0
-typing-extensions==4.12.4
+typing-extensions==4.15.0
 unstructured[local-inference,all-docs]==0.18.18
 weasyPrint==66.0
 whitenoise==6.11.0
