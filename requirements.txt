@@ -53,7 +53,7 @@ tensorflow; sys_platform == 'darwin'
 # tensorflow-text>=2.10.0
 tf-models-no-deps==2.19.0; sys_platform != 'darwin'
 --extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.9.0
+torch==2.9.1
 torchvision==0.24.0
 typing-extensions==4.15.0
 unstructured[local-inference,all-docs]==0.18.18
