@@ -48,10 +48,10 @@ segmentation_models_pytorch==0.5.0
 sqlparse==0.5.3
 sse_starlette
 starlette_context
-syftbox==0.4.0
+# syftbox==0.4.0
 tensorflow-cpu==2.20.0
 # tensorflow-text>=2.10.0
-tf-models-no-deps==2.19.0
+# tf-models-no-deps==2.19.0
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.9.1
 torchvision==0.24.1
