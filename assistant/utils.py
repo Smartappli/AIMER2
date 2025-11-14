@@ -594,6 +594,7 @@ def process_file_with_embeddings(file_path, file_type):
     components = process_file(file_path, file_type)
 
     if components:
+
         # Embedding après classification des éléments
         logging.info("--- Start Embeddings ---")
         embeddings = embed_file_components(file_path, file_type, components)
