@@ -24,7 +24,7 @@ huggingface-hub==0.36.0
 jax[cpu]==0.8.0
 keras==3.12.0
 keras-cv==0.9.0
-langchain==1.0.6
+langchain==1.0.7
 langchain-ollama==1.0.0
 langchain-chroma==1.0.0
 langchain_community==0.4.1
@@ -38,8 +38,8 @@ psycopg==3.2.12
 # pycaret==3.4.0
 # git+https://github.com/pycaret/pycaret.git
 pydantic==2.12.4
-pyopenssl==24.2.1
-pypdf==5.1.0
+pyopenssl==25.3.0
+pypdf==6.2.0
 pymemcache==4.0.0
 python-decouple==3.8
 redis==7.0.1
