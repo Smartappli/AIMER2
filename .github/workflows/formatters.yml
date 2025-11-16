@@ -15,7 +15,7 @@ jobs:
         uses: rickstaa/action-black@v1
         id: action_black
         with:
-          black_args: ". --line-length 80 -t py310 -t py311 -t py312"
+          black_args: ". --line-length 80 -t py312 -t py313"
       - name: Create Pull Request
         if: steps.action_black.outputs.is_formatted == 'true'
         uses: peter-evans/create-pull-request@v7
@@ -38,7 +38,7 @@ jobs:
       - name: Set up Python environment
         uses: actions/setup-python@v6
         with:
-          python-version: "3.14"
+          python-version: "3.13"
           cache: 'pip'
       - name: DjLint Formatter
         run: |
