@@ -86,28 +86,34 @@ def upload_and_process_files(request):
                     elif mime_type == "text/tab-separated-values":
                         file_type = "tsv"
                     else:
-                        errors.append({
-                            "file_name": file_name,
-                            "error": "Unsupported file type",
-                        })
+                        errors.append(
+                            {
+                                "file_name": file_name,
+                                "error": "Unsupported file type",
+                            }
+                        )
                         continue
                 else:
-                    errors.append({
-                        "file_name": file_name,
-                        "error": "Could not determine file type",
-                    })
+                    errors.append(
+                        {
+                            "file_name": file_name,
+                            "error": "Could not determine file type",
+                        }
+                    )
                     continue
 
                 # Process the file using the function from utils
                 result = process_file_with_embeddings(file_path, file_type)
 
                 # Append the result of processing to the list of results
-                results.append({
-                    "file_name": file_name,
-                    "text": result["embedded_text"],
-                    "image": result["embedded_images"],
-                    "table": result["embedded_tables"],
-                })
+                results.append(
+                    {
+                        "file_name": file_name,
+                        "text": result["embedded_text"],
+                        "image": result["embedded_images"],
+                        "table": result["embedded_tables"],
+                    }
+                )
 
             except Exception as e:
                 # Collect file-specific errors for partial failure handling
