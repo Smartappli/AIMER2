@@ -58,6 +58,6 @@ torch==2.9.1
 torchvision==0.24.1
 transformers==4.57.1
 typing-extensions==4.15.0
-unstructured[local-inference, all-docs]==0.18.20
+unstructured[local-inference, all-docs]==0.18.21
 weasyPrint==66.0
 whitenoise==6.11.0
