@@ -45,7 +45,7 @@ python-decouple==3.8
 redis==7.1.0
 requests==2.32.5
 segmentation_models_pytorch==0.5.0
-sqlparse==0.5.4
+sqlparse==0.5.5
 sse_starlette
 starlette_context
 # syftbox==0.4.0
