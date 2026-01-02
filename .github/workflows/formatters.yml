@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Check files using the black formatter
-        uses: rickstaa/action-black@v1
+        uses: psf/black@stable
         id: action_black
         with:
           black_args: ". --line-length 80 -t py312 -t py313"
