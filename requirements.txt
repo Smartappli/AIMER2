@@ -24,7 +24,7 @@ huggingface-hub==1.2.4
 jax[cpu]==0.8.2
 keras==3.13.0
 keras-cv==0.9.0
-langchain==1.2.2
+langchain==1.2.3
 langchain-ollama==1.0.1
 langchain-chroma==1.1.0
 langchain_community==0.4.1
