@@ -18,7 +18,7 @@ django-rosetta==0.10.3
 django-simple-captcha==0.6.3
 Django-taggit==6.1.0
 djangorestframework==3.16.1
-flwr==1.26.0
+flwr==1.26.1
 gunicorn==25.0.3
 huggingface-hub==1.3.7
 jax[cpu]==0.9.0.1
