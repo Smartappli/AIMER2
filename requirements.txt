@@ -7,7 +7,7 @@ chromadb==1.5.1
 Django[argon2]>=6.0, <6.1
 django-axes[ipware]==8.3.1
 django-braces==1.17.0
-django-celery-beat==2.8.1
+django-celery-beat==2.9.0
 django-celerybeat-status==1.0.1
 django-cryptography-django5==2.2  # encryption of sensitive data in db
 django-embed-video==1.4.10
