@@ -32,7 +32,7 @@ langchain_community==0.4.1
 llama-cpp-python==0.3.19
 Markdown==3.10.2
 packaging==26.0
-Pillow==12.1.1
+Pillow==12.2.0
 postgresml-django==0.1.0
 psycopg==3.3.3
 # pycaret==3.4.0
