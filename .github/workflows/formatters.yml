@@ -16,7 +16,7 @@ jobs:
         with:
           options: "--check --verbose"
           src: "./"
-          use_pyproject: true
+          use_pyproject: false
 
       - name: Create Pull Request
         if: steps.action_black.outputs.is_formatted == 'true'

@@ -1,13 +1,13 @@
 asgiref==3.11.1
 bleach==6.3.0
-celery==5.6.2
+celery==5.6.3
 channels[daphne]==4.3.2
 channels-redis==4.3.0
-chromadb==1.4.1
+chromadb==1.5.7
 Django[argon2]>=6.0, <6.1
-django-axes[ipware]==8.1.0
+django-axes[ipware]==8.3.1
 django-braces==1.17.0
-django-celery-beat==2.8.1
+django-celery-beat==2.9.0
 django-celerybeat-status==1.0.1
 django-cryptography-django5==2.2  # encryption of sensitive data in db
 django-embed-video==1.4.10
@@ -17,47 +17,47 @@ django-redisboard==9.0.0
 django-rosetta==0.10.3
 django-simple-captcha==0.6.3
 Django-taggit==6.1.0
-djangorestframework==3.16.1
-flower==2.0.1
-gunicorn==25.0.1
-huggingface-hub==1.4.0
-jax[cpu]==0.9.0.1
-keras==3.13.2
+djangorestframework==3.17.1
+flwr==1.28.0
+gunicorn==25.3.0
+huggingface-hub==1.9.2
+jax[cpu]==0.9.2
+keras==3.14.0
 keras-cv==0.9.0
-langchain==1.2.8
-langchain-ollama==1.0.1
+lanaagchain==1.2.8
+langchain-ollama==1.1.0
 langchain-chroma==1.1.0
 langchain_community==0.4.1
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
-llama-cpp-python==0.3.16
-Markdown==3.10.1
+llama-cpp-python==0.3.20
+Markdown==3.10.2
 packaging==26.0
-Pillow==12.1.0
+Pillow==12.2.0
 postgresml-django==0.1.0
-psycopg==3.3.2
+psycopg==3.3.3
 # pycaret==3.4.0
-# git+https://github.com/pycaret/pycaret.git
+a# git+https://github.com/pycaret/pycaret.git
 pydantic==2.12.5
-pyopenssl==25.3.0
-pypdf==6.6.2
+pyopenssl==26.0.0
+pypdf==6.9.2
 pymemcache==4.0.0
 python-decouple==3.8
-redis==7.1.0
-requests==2.32.5
+redis==7.4.0
+requests==2.33.1
 segmentation_models_pytorch==0.5.0
 sqlparse==0.5.5
 sse_starlette
 starlette_context
 # syftbox==0.4.0
-tensorflow-cpu==2.20.0
+tensorflow-cpu==2.21.0
 # tensorflow-text>=2.10.0
 # tf-models-no-deps==2.19.0
 tokenizers==0.22.2
 --extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.10.0
-torchvision==0.25.0
-transformers==5.0.0
+torch==2.11.0
+torchvision==0.26.0
+transformers==5.5.1
 typing-extensions==4.15.0
-unstructured[local-inference, all-docs]==0.18.31
-weasyPrint==68.0
-whitenoise==6.11.0
+unstructured[local-inference, all-docs]==0.22.18
+weasyPrint==68.1
+whitenoise==6.12.0
