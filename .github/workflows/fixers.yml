@@ -25,7 +25,7 @@ jobs:
           python-version: '3.14'
           cache: 'pip'
       
-      - uses: astral-sh/ruff-action@v3
+      - uses: astral-sh/ruff-action@v4
         with:
           args: 'check --preview --fix-only'
 

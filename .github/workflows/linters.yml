@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: 3.13
       
-      - uses: astral-sh/ruff-action@v3
+      - uses: astral-sh/ruff-action@v4
         with:
           args: 'check --preview --config ruff.toml --output-format github --diff --exclude assistant/migrations'
 
