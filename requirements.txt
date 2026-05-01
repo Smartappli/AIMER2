@@ -38,7 +38,7 @@ psycopg==3.3.3
 # pycaret==3.4.0
 a# git+https://github.com/pycaret/pycaret.git
 pydantic==2.13.3
-pyopenssl==26.0.0
+pyopenssl==26.1.0
 pypdf==6.10.2
 pymemcache==4.0.0
 python-decouple==3.8
