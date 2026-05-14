@@ -12,7 +12,7 @@ django-celerybeat-status==1.0.1
 django-cryptography-django5==2.2  # encryption of sensitive data in db
 django-embed-video==1.4.10
 django-localflavor==5.0
-django-parler==2.3
+django-parler==2.4
 django-redisboard==9.0.0
 django-rosetta==0.10.3
 django-simple-captcha==0.6.3
