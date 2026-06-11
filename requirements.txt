@@ -21,7 +21,7 @@ djangorestframework==3.17.1
 flwr==1.31.0
 gunicorn==26.0.0
 huggingface-hub==1.18.0
-jax[cpu]==0.10.0
+jax[cpu]==0.10.1
 keras==3.14.1
 keras-cv==0.9.0
 lanaagchain==1.2.8
