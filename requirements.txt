@@ -31,7 +31,7 @@ langchain_community==0.4.2
 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
 llama-cpp-python==0.3.34
 Markdown==3.10.3
-packaging==26.2
+packaging==26.3
 Pillow==12.3.0
 postgresml-django==0.1.0
 psycopg==3.3.4
