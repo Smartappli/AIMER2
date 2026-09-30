@@ -52,7 +52,7 @@ starlette_context
 tensorflow-cpu==2.21.0
 # tensorflow-text>=2.10.0
 # tf-models-no-deps==2.19.0
-tokenizers==0.23.1
+tokenizers==0.23.2
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.13.0
 torchvision==0.28.0
