@@ -54,7 +54,7 @@ tensorflow-cpu==2.21.0
 # tf-models-no-deps==2.19.0
 tokenizers==0.23.3
 --extra-index-url https://download.pytorch.org/whl/cu124
-torch==2.14.1
+torch==2.15.0
 torchvision==0.29.2
 transformers==5.19.0
 typing-extensions==4.16.0
