@@ -56,7 +56,7 @@ tokenizers==0.23.3
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.15.0
 torchvision==0.29.2
-transformers==5.21.0
+transformers==5.22.1
 typing-extensions==4.16.0
 unstructured[local-inference, all-docs]==0.27.35
 weasyPrint==70.0
