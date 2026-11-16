@@ -14,7 +14,7 @@ django-embed-video==1.4.10
 django-localflavor==5.1
 django-parler==2.4
 django-redisboard==9.0.0
-django-rosetta==0.10.3
+django-rosetta==0.10.4
 django-simple-captcha==0.7.0
 Django-taggit==7.0.0
 djangorestframework==3.18.3
